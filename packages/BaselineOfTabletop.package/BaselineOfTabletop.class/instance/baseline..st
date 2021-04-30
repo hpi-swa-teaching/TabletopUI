@@ -1,15 +1,15 @@
 as yet unclassified
 baseline: spec
 	"Todo: uncomment and adapt to your project"
-	"<baseline>
+	<baseline>
 	spec
 		for: #'common'
 		do: [
 			spec
-				package: 'Counter-Core';
-				package: 'Counter-Tests' with: [spec requires: #('default')];
+				package: 'TabletopUI-Core';
+				package: 'TabletopUI-Tests' with: [spec requires: #('default')];
 				yourself.
 			spec
-				group: 'default' with: #('Counter-Core');
-				group: 'tests' with: #('Counter-Tests')];
-				yourself"
+				group: 'default' with: #('TabletopUI-Core');
+				group: 'tests' with: #('TabletopUI-Tests')];
+				yourself
