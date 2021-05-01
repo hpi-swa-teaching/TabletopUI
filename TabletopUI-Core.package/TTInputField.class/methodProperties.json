@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"newWithWindow:" : "BV 5/1/2021 12:57" },
+	"instance" : {
+		"buildInputFieldWith:" : "BV 5/1/2021 12:56",
+		"evaluate:" : "BV 5/1/2021 12:54",
+		"processInput:" : "BV 5/1/2021 12:56",
+		"resetInputField" : "BV 5/1/2021 12:25",
+		"window" : "BV 5/1/2021 11:36",
+		"window:" : "BV 5/1/2021 11:36" } }

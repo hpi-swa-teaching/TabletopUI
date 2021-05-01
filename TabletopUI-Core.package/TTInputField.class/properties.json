@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"inputField" ],
-	"name" : "TTWindow",
+		"window" ],
+	"name" : "TTInputField",
 	"pools" : [
 		 ],
 	"super" : "Model",
