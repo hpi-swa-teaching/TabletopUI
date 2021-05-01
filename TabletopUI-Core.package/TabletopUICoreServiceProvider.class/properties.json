@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog" ],
-	"name" : "TTWindow",
+		 ],
+	"name" : "TabletopUICoreServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "ServiceProvider",
 	"type" : "normal" }
