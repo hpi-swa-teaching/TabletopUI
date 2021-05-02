@@ -1,5 +1,5 @@
 toolbuilder
-buildActionLogListWith: builder
+buildWith: builder
 	
 	| listSpec |
 	

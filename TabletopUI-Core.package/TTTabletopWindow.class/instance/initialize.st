@@ -5,4 +5,4 @@ initialize
 	
 	self actionLog: TTActionLog new;
 		inputField: (TTInputField newWithWindow: self);
-		buildAndOpenTTWindow
+		buildAndOpen

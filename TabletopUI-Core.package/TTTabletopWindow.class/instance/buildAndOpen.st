@@ -1,9 +1,9 @@
 toolbuilder
-buildAndOpenTTWindow
+buildAndOpen
 
 	| builder windowSpec |
 	
 	builder := ToolBuilder default.
-	windowSpec := self buildTTWindowWith: builder.
+	windowSpec := self buildWith: builder.
 	
 	builder open: windowSpec

@@ -8,7 +8,7 @@
 	"instvars" : [
 		"actionLog",
 		"inputField" ],
-	"name" : "TTWindow",
+	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],
 	"super" : "Model",
