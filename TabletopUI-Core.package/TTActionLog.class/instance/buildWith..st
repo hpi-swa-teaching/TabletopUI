@@ -8,4 +8,4 @@ buildWith: builder
 		model: self;
 		list: #actionLogList.
 		
-	^listSpec
+	^ listSpec
