@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTToken",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }
