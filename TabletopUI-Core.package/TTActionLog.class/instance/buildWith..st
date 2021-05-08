@@ -1,11 +1,6 @@
 toolbuilder
 buildWith: builder
 	
-	| listSpec |
-	
-	listSpec := builder pluggableListSpec new.
-	listSpec
+	^ builder pluggableListSpec new
 		model: self;
-		list: #actionLogList.
-		
-	^ listSpec
+		list: #actionLogList

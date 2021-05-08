@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"defaultSize" : "rf 5/8/2021 11:05" },
+	"instance" : {
+		"convertPixelPositionToTileCoordinates:" : "rf 5/8/2021 10:26",
+		"convertTileCoordinatesToPixelPosition:" : "rf 5/8/2021 10:27",
+		"createAndInsertTileAt:" : "rf 5/8/2021 10:08",
+		"fillTiles" : "rf 5/8/2021 10:23",
+		"initialize" : "rf 5/8/2021 11:14",
+		"tiles" : "rf 5/8/2021 09:52",
+		"tiles:" : "rf 5/8/2021 09:52" } }

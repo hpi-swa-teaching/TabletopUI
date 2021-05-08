@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"inputField",
-		"scrollPane" ],
-	"name" : "TTTabletopWindow",
+		"window",
+		"map" ],
+	"name" : "TTScrollPane",
 	"pools" : [
 		 ],
 	"super" : "Model",

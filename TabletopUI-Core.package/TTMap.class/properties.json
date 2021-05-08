@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"inputField",
-		"scrollPane" ],
-	"name" : "TTTabletopWindow",
+		"tiles" ],
+	"name" : "TTMap",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "RectangleMorph",
 	"type" : "normal" }
