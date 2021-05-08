@@ -1,4 +1,5 @@
 OrderedDictionary {
 	'packages/BaselineOfTabletop.package' : #SquotCypressCodeSerializer,
-	'TabletopUI-Core.package' : #SquotCypressCodeSerializer
+	'TabletopUI-Core.package' : #SquotCypressCodeSerializer,
+	'TabletopUI-Tests.package' : #SquotCypressCodeSerializer
 }

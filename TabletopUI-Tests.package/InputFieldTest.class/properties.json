@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputField" ],
+	"name" : "InputFieldTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
