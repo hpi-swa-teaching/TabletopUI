@@ -5,4 +5,6 @@ initialize
 	
 	self 
 		extent: (self class defaultSize) @ (self class defaultSize);
-		color: Color banana
+		borderWidth: 1;
+		borderColor: Color gray;
+		color: Color  paleYellow
