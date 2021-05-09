@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"occupied" ],
 	"name" : "TTTile",
 	"pools" : [
 		 ],

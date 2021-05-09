@@ -1,0 +1,4 @@
+*TabletopUI-Core
+isTTToken
+
+	^ false
