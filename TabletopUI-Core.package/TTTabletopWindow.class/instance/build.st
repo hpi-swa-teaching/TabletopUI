@@ -1,9 +1,15 @@
 toolbuilder
 build
 
-	self spec: (self buildWindowWith: self builder specs: {
-		(0 @ 0 corner: 1 @ 1) -> [self currentScreen buildWith: self builder]}).
-	self spec label: 'placy'.
-	self spec extent: 800 @ 500.
+	| currentScreenSpec |
 	
-	^ self builder build: self spec
+	self spec: PluggableWindowSpec new.
+	self currentScreen: (TTPlayerCountScreen newWithWindow: self game: (self game)).
+	currentScreenSpec := (self currentScreen buildWith: self builder)
+		frame: (0 @ 0 corner: 1 @ 1).
+	self spec 
+		children: {currentScreenSpec} asOrderedCollection;
+		label: 'placy';
+		extent: 800 @ 500.
+	
+	^ self spec
