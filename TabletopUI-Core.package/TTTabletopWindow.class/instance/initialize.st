@@ -4,5 +4,7 @@ initialize
 	super initialize.
 	
 	self 
-		currentPanel: TTGameScreen new;
+		game: TTGame new;
+		builder: ToolBuilder default;
+		openPlayerCountScreen;
 		buildAndOpen

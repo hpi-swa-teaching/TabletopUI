@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentScreen",
-		"spec",
-		"builder",
-		"game" ],
-	"name" : "TTTabletopWindow",
+		"continueButtonSpec",
+		"playerCount" ],
+	"name" : "TTPlayerCountScreen",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTScreen",
 	"type" : "normal" }

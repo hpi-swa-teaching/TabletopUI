@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"window",
+		"game" ],
 	"name" : "TTScreen",
 	"pools" : [
 		 ],

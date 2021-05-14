@@ -1,9 +1,5 @@
 toolbuilder
 buildAndOpen
-
-	| builder windowSpec |
 	
-	builder := ToolBuilder default.
-	windowSpec := self buildWith: builder.
-	
-	builder open: windowSpec
+	self spec: self build.
+	self builder open: self spec

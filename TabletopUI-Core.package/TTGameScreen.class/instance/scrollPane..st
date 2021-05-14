@@ -1,3 +1,4 @@
 accessing
-scrollPane: anObject
-	scrollPane := anObject
+scrollPane: aTTScrollPane
+
+	scrollPane := aTTScrollPane

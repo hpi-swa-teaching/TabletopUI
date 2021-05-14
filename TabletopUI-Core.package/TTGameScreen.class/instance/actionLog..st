@@ -1,3 +1,4 @@
 accessing
-actionLog: anObject
-	actionLog := anObject
+actionLog: aTTActionLog
+
+	actionLog := aTTActionLog

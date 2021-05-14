@@ -1,3 +1,4 @@
 accessing
-inputField: anObject
-	inputField := anObject
+inputField: aTTInputField
+
+	inputField := aTTInputField

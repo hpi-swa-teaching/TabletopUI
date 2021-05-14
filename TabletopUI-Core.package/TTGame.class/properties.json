@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentScreen",
-		"spec",
-		"builder",
-		"game" ],
-	"name" : "TTTabletopWindow",
+		"playerCount" ],
+	"name" : "TTGame",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }
