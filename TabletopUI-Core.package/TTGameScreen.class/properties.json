@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentPanel" ],
-	"name" : "TTTabletopWindow",
+		"actionLog",
+		"inputField",
+		"scrollPane" ],
+	"name" : "TTGameScreen",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTScreen",
 	"type" : "normal" }
