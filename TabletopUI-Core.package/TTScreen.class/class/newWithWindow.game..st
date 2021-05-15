@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWithWindow: aTTTabletopWindow game: aTTGame
 	
 	^ self new 

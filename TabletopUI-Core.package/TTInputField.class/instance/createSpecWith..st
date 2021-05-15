@@ -1,7 +1,7 @@
 toolbuilder
-buildWith: builder
+createSpecWith: aToolBuilder
 	
-	^ builder pluggableInputFieldSpec new
+	^ aToolBuilder pluggableInputFieldSpec new
 		model: self;
 		setText: #processInput:;
 		getText: #resetInputField;
