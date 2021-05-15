@@ -4,7 +4,7 @@ build
 	| currentScreenSpec |
 	
 	self spec: PluggableWindowSpec new.
-	self currentScreen: (TTPlayerCountScreen newWithWindow: self game: (self game)).
+	self currentScreen: (TTPlayerNamesScreen newWithWindow: self playerCount: 4).
 	currentScreenSpec := (self currentScreen buildWith: self builder)
 		frame: (0 @ 0 corner: 1 @ 1).
 	self spec 

@@ -8,7 +8,7 @@
 	"instvars" : [
 		"playerNames",
 		"playerCount" ],
-	"name" : "TTPlayerNameScreen",
+	"name" : "TTPlayerNamesScreen",
 	"pools" : [
 		 ],
 	"super" : "TTScreen",

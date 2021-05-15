@@ -1,4 +1,4 @@
 as yet unclassified
 openPlayerNamesScreen
 	
-	self currentScreen: (TTPlayerNameScreen newWithWindow: self playerCount: 4)
+	self currentScreen: (TTPlayerNamesScreen newWithWindow: self playerCount: 4)
