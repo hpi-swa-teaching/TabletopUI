@@ -1,4 +1,0 @@
-accessing
-continueButtonSpec: aPluggableActionButtonSpec
-
-	continueButtonSpec := aPluggableActionButtonSpec

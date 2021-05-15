@@ -1,7 +1,7 @@
 initialization
-newWithWindow: aTTTabletopWindow game: aTTGame
-	
+newIn: aTTTabletopWindow
+
 	^ self new 
 		window: aTTTabletopWindow;
-		game: aTTGame;
+		game: aTTTabletopWindow game;
 		yourself

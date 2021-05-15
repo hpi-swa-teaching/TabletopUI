@@ -1,4 +1,4 @@
-player count
+accessing
 countText
 
 	^ self playerCount asString

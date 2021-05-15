@@ -2,11 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildInputFieldSpec" : "joda 5/14/2021 15:56",
-		"buildWith:" : "MM 5/15/2021 11:28",
+		"buildWith:" : "MM 5/15/2021 17:28",
 		"continue" : "piabeeck 5/15/2021 11:04",
-		"continueButtonSpec" : "joda 5/14/2021 16:32",
-		"continueButtonSpec:" : "joda 5/14/2021 16:33",
 		"countText" : "joda 5/14/2021 16:01",
 		"countText:" : "joda 5/14/2021 16:35",
 		"createContinueButtonSpecWith:" : "MM 5/15/2021 11:24",
