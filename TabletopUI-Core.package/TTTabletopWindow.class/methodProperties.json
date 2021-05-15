@@ -1,18 +1,13 @@
 {
 	"class" : {
-		 },
+		"open" : "MM 5/15/2021 11:00" },
 	"instance" : {
-		"build" : "piabeeck 5/15/2021 10:16",
-		"buildAndOpen" : "joda 5/14/2021 16:40",
-		"builder" : "joda 5/14/2021 16:39",
-		"builder:" : "joda 5/14/2021 16:41",
-		"currentScreen" : "joda 5/14/2021 16:41",
-		"currentScreen:" : "joda 5/14/2021 16:41",
+		"buildWith:" : "MM 5/15/2021 10:55",
+		"children" : "MM 5/15/2021 10:57",
+		"children:" : "MM 5/15/2021 10:57",
 		"game" : "joda 5/14/2021 16:42",
 		"game:" : "joda 5/14/2021 16:42",
-		"initialize" : "piabeeck 5/15/2021 09:09",
-		"openGameScreen" : "MM 5/14/2021 17:06",
-		"openPlayerCountScreen" : "joda 5/14/2021 16:20",
-		"openPlayerNamesScreen" : "piabeeck 5/15/2021 10:13",
-		"spec" : "joda 5/14/2021 16:42",
-		"spec:" : "MM 5/14/2021 16:56" } }
+		"initialize" : "MM 5/15/2021 11:02",
+		"openGameScreen" : "MM 5/15/2021 10:59",
+		"openPlayerCountScreen" : "MM 5/15/2021 10:59",
+		"openPlayerNamesScreen" : "MM 5/15/2021 10:59" } }

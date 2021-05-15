@@ -1,4 +1,5 @@
 as yet unclassified
 openPlayerNamesScreen
 	
-	self currentScreen: (TTPlayerNamesScreen newWithWindow: self playerCount: 4)
+	self children: {(TTPlayerNamesScreen newWithWindow: self playerCount: 4) buildWith: ToolBuilder default}.
+	self changed: #children
