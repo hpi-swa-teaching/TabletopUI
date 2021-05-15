@@ -1,5 +1,5 @@
-toolbuilder
+as yet unclassified
 continue
 
 	self game playerCount: self playerCount.
-	self window openPlayerNamesScreen
+	self window openGameScreen

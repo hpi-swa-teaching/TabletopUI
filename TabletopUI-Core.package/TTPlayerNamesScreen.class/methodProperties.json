@@ -5,10 +5,12 @@
 		"newWithWindow:playerCount:" : "piabeeck 5/15/2021 09:13" },
 	"instance" : {
 		"addPlayerName:" : "piabeeck 5/15/2021 08:28",
+		"buildContinueButtonSpec" : "piabeeck 5/15/2021 11:03",
 		"buildInputFieldSpec" : "piabeeck 5/15/2021 10:46",
 		"buildWith:" : "piabeeck 5/15/2021 10:25",
+		"continue" : "piabeeck 5/15/2021 11:04",
 		"initialize" : "piabeeck 5/15/2021 08:19",
-		"layoutInputFieldsWith:" : "piabeeck 5/15/2021 10:48",
+		"layoutInputFieldsWith:" : "piabeeck 5/15/2021 11:03",
 		"playerCount" : "piabeeck 5/15/2021 09:16",
 		"playerCount:" : "piabeeck 5/15/2021 09:17",
 		"playerNames" : "piabeeck 5/15/2021 08:27",
