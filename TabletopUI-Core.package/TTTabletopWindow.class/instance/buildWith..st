@@ -1,6 +1,13 @@
 toolbuilder
-build
+buildWith: aMorphicToolbuilder
 
+	^aMorphicToolbuilder build: (aMorphicToolbuilder pluggableWindowSpec new
+		model: self;
+		label: 'spacy';
+		extent: 800@500;
+		children: #children;
+		yourself	)
+	"
 	| currentScreenSpec |
 	
 	self spec: PluggableWindowSpec new.
@@ -12,4 +19,4 @@ build
 		label: 'placy';
 		extent: 800 @ 500.
 	
-	^ self spec
+	^ self spec"

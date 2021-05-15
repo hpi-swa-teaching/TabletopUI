@@ -5,7 +5,4 @@ initialize
 	
 	self 
 		game: TTGame new;
-		builder: ToolBuilder default;
-		"openPlayerCountScreen;"
-		openPlayerNamesScreen;
-		buildAndOpen
+		openPlayerCountScreen
