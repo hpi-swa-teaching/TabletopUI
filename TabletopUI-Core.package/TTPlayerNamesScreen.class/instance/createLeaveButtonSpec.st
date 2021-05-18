@@ -1,5 +1,5 @@
-as yet unclassified
-buildLeaveButtonSpec
+toolbuilder
+createLeaveButtonSpec
 
 	^ PluggableActionButtonSpec new
 		model: self;

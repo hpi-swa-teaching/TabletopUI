@@ -1,5 +1,5 @@
 as yet unclassified
-addPlayerName: aString
+addPlayerName: aText
 
-	self game playerNames add: aString.
+	self playerNames at: 1 put: aText.
 	self changed: #playerNames

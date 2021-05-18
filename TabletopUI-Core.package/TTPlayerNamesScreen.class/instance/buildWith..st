@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 buildWith: aMorphicToolBuilder
 		
-	^ self buildWith: aMorphicToolBuilder children: (self layoutInputFieldsWith: self game playerCount)
+	^ self buildWith: aMorphicToolBuilder children: (self layoutWith: self game playerCount)

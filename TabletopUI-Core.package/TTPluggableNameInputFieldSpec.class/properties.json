@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"playerCount",
-		"playerNames" ],
-	"name" : "TTGame",
+		"index" ],
+	"name" : "TTPluggableNameInputFieldSpec",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "PluggableInputFieldSpec",
 	"type" : "normal" }

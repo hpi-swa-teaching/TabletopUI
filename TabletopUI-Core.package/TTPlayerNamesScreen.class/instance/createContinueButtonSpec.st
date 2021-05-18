@@ -1,5 +1,5 @@
-as yet unclassified
-buildContinueButtonSpec
+toolbuilder
+createContinueButtonSpec
 
 	^ PluggableActionButtonSpec new
 		model: self;
