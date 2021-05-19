@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"index" ],
-	"name" : "TTPluggableNameInputFieldSpec",
+		"name" ],
+	"name" : "TTPlayer",
 	"pools" : [
 		 ],
-	"super" : "PluggableInputFieldSpec",
+	"super" : "Object",
 	"type" : "normal" }

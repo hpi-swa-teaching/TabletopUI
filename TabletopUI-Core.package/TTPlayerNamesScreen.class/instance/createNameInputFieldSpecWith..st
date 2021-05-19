@@ -1,9 +1,8 @@
 toolbuilder
 createNameInputFieldSpecWith: aNumber
 	
-	^  TTPluggableNameInputFieldSpec new
-		model: self;
-		setText: #addPlayerName:;
+	^  PluggableInputFieldSpec new
+		model: (self playerNames at: aNumber);
+		setText: #nameText:;
 		indicateUnacceptedChanges: false;
-		help: 'Enter player', aNumber asString, 's name here';
-		index: aNumber
+		help: 'Enter player', aNumber asString, 's name here'
