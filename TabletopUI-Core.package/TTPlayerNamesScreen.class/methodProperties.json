@@ -2,12 +2,12 @@
 	"class" : {
 		"inputFieldHight" : "piabeeck 5/15/2021 08:48",
 		"inputFieldWidth" : "piabeeck 5/15/2021 08:42",
-		"newIn:" : "joda 5/21/2021 13:51" },
+		"newIn:" : "joda 5/21/2021 15:25" },
 	"instance" : {
 		"addContinueButtonTo:" : "rf 5/18/2021 10:25",
 		"addInputFieldTo:index:" : "rf 5/18/2021 10:45",
 		"addLeaveButtonTo:" : "rf 5/18/2021 10:28",
-		"buildWith:" : "joda 5/21/2021 13:51",
+		"buildWith:" : "joda 5/21/2021 15:25",
 		"buildWith:playerCount:" : "rf 5/18/2021 10:47",
 		"continue" : "rf 5/19/2021 09:36",
 		"createContinueButtonSpec" : "rf 5/18/2021 09:19",

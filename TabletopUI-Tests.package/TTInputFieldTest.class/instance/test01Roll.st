@@ -1,5 +1,5 @@
 tests
-test01roll
+test01Roll
 
 	| result |
 	result := inputField evaluate: 'roll d'.

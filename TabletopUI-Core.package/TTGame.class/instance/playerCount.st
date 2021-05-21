@@ -1,4 +1,4 @@
 accessing
-count
+playerCount
 
 	^ playerCount

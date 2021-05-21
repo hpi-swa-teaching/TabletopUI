@@ -1,5 +1,5 @@
 tests
-test00roll
+test00Roll
 
 	| result |
 	result := dice roll: 1.

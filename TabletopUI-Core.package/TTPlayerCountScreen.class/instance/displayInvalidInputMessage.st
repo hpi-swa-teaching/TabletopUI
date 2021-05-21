@@ -2,6 +2,6 @@ accessing
 displayInvalidInputMessage
 
 	Utilities 
-		informUser: 'Please enter a valid number.' 
-		during: [(Delay forSeconds: 2) wait]
+		informUser: 'Please enter a valid number greater than 0.' 
+		during: [(Delay forSeconds: 1) wait]
 	

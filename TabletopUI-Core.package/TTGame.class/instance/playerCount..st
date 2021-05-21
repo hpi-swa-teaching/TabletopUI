@@ -1,4 +1,4 @@
 accessing
-count: aNumber
+playerCount: aNumber
 
 	playerCount := aNumber

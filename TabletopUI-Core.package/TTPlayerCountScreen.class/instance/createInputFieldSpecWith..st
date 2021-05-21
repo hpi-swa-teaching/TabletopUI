@@ -6,4 +6,5 @@ createInputFieldSpecWith: aToolBuilder
 		editText: #countText:;
 		getText: #countText;
 		indicateUnacceptedChanges: false;
-		help: 'Enter player count here'
+		help: 'Enter player count here';
+		yourself
