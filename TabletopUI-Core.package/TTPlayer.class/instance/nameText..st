@@ -5,7 +5,7 @@ nameText: aText
 		self name: aText asString]
 		ifFalse: [
 			Utilities 
-				informUser: 'Level names should only contain letters and numbers.' 
+				informUser: 'Player names should only contain letters and numbers.' 
 				during: [(Delay forSeconds: 2) wait]].
 
 	self changed: #name

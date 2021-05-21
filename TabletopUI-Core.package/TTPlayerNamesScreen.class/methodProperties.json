@@ -2,19 +2,21 @@
 	"class" : {
 		"inputFieldHight" : "piabeeck 5/15/2021 08:48",
 		"inputFieldWidth" : "piabeeck 5/15/2021 08:42",
-		"newIn:" : "joda 5/21/2021 15:25" },
+		"newIn:" : "rf 5/21/2021 17:10" },
 	"instance" : {
 		"addContinueButtonTo:" : "rf 5/18/2021 10:25",
 		"addInputFieldTo:index:" : "rf 5/18/2021 10:45",
 		"addLeaveButtonTo:" : "rf 5/18/2021 10:28",
 		"buildWith:" : "joda 5/21/2021 15:25",
 		"buildWith:playerCount:" : "rf 5/18/2021 10:47",
-		"continue" : "rf 5/19/2021 09:36",
+		"continue" : "rf 5/21/2021 17:12",
 		"createContinueButtonSpec" : "rf 5/18/2021 09:19",
 		"createLeaveButtonSpec" : "rf 5/18/2021 09:20",
-		"createNameInputFieldSpecWith:" : "rf 5/19/2021 10:02",
+		"createNameInputFieldSpecWith:" : "rf 5/21/2021 17:12",
 		"initialize" : "rf 5/19/2021 10:04",
 		"layoutWith:" : "rf 5/18/2021 10:46",
 		"leave" : "piabeeck 5/15/2021 11:18",
 		"playerNames" : "rf 5/18/2021 10:49",
-		"playerNames:" : "rf 5/18/2021 10:50" } }
+		"playerNames:" : "rf 5/18/2021 10:50",
+		"players" : "rf 5/21/2021 17:10",
+		"players:" : "rf 5/21/2021 17:10" } }
