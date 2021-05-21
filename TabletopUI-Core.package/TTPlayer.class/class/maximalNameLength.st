@@ -1,4 +1,4 @@
 constants and defaults
-inputFieldWidth
+maximalNameLength
 
-	^ 0.4
+	^ 25

@@ -1,7 +1,8 @@
 {
 	"class" : {
-		 },
+		"maximalNameLength" : "rf 5/21/2021 17:23" },
 	"instance" : {
+		"changeName:" : "rf 5/21/2021 17:23",
 		"initialize" : "rf 5/19/2021 09:26",
 		"name" : "rf 5/19/2021 09:07",
 		"name:" : "rf 5/19/2021 09:56",
