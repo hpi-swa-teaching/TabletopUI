@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"continueButtonSpec",
-		"playerCount" ],
+		"countText" ],
 	"name" : "TTPlayerCountScreen",
 	"pools" : [
 		 ],

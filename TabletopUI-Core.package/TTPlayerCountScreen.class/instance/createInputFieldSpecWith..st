@@ -3,7 +3,7 @@ createInputFieldSpecWith: aToolBuilder
 	
 	^  aToolBuilder pluggableInputFieldSpec new
 		model: self;
-		setText: #countText:;
+		editText: #countText:;
 		getText: #countText;
 		indicateUnacceptedChanges: false;
 		help: 'Enter player count here'

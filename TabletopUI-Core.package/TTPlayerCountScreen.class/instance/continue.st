@@ -1,5 +1,8 @@
 screen management
 continue
 
-	self game playerCount: self playerCount.
-	self window openPlayerNamesScreen
+	(self isValid: self countText) ifTrue: [
+		self game count: self countText asNumber.
+		self window openPlayerNamesScreen]
+	ifFalse: [
+		self displayInvalidInputMessage]
