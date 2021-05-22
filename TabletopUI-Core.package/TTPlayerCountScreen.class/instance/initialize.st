@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	
-	self countText: 1		
+	self countText: ''	
 	
