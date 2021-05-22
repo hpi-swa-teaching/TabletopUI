@@ -7,7 +7,7 @@ printDiceRolls: anOrderedCollection withConfiguration: aDictionary
 	(anOrderedCollection size > 1) ifTrue: [
 		anOrderedCollection fold: [:a :b | output := output , ' + ' , b].
 		anOrderedCollection add: (aDictionary at: #modifier).
-		output := output , self addModifier: (aDictionary at: #modifier).
+		output := output , (self addModifier: (aDictionary at: #modifier)).
 		output := output , ' = ' , (anOrderedCollection fold: [:a :b | a+b])].
 
 	^ output
