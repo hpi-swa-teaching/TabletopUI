@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
-		"inputEvaluator" ],
-	"name" : "TTInputField",
+		 ],
+	"name" : "TTGamemasterInputEvaluator",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTInputEvaluator",
 	"type" : "normal" }

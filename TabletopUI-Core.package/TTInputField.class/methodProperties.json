@@ -3,8 +3,10 @@
 		"newWithWindow:" : "BV 5/1/2021 12:57" },
 	"instance" : {
 		"createSpecWith:" : "MM 5/15/2021 11:33",
-		"evaluate:" : "MM 5/8/2021 13:25",
-		"processInput:" : "BV 5/1/2021 12:56",
+		"initialize" : "bv 5/20/2021 10:18",
+		"inputEvaluator" : "bv 5/20/2021 10:17",
+		"inputEvaluator:" : "bv 5/20/2021 10:19",
+		"processInput:" : "bv 5/20/2021 10:17",
 		"resetInputField" : "BV 5/1/2021 12:25",
 		"window" : "BV 5/1/2021 11:36",
 		"window:" : "BV 5/1/2021 11:36" } }

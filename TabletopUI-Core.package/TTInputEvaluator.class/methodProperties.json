@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addModifier:" : "bv 5/20/2021 15:07",
+		"evaluate:" : "bv 5/20/2021 10:16",
+		"evaluateRollDiceCommand:" : "bv 5/20/2021 15:02",
+		"extractDiceSize:" : "bv 5/20/2021 10:24",
+		"extractModifier:" : "bv 5/20/2021 10:15",
+		"extractRollCount:" : "bv 5/20/2021 10:26",
+		"parseRollDiceCommand:" : "bv 5/20/2021 10:15",
+		"printDiceRolls:withConfiguration:" : "bv 5/20/2021 15:07" } }

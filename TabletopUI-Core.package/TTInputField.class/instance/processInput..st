@@ -5,5 +5,5 @@ processInput: aText
 	
 	self window actionLog 
 		logInput: aText asString;
-		logOutput: (self evaluate: aText asString)
+		logOutput: (self inputEvaluator evaluate: aText asString)
 	
