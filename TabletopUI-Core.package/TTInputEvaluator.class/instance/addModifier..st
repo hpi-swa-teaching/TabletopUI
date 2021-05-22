@@ -6,4 +6,5 @@ addModifier: aNumber
 	].
 	((aNumber) > 0) ifTrue: [
 		^ (' +' , aNumber)
-	]
+	].
+	^ ''
