@@ -3,7 +3,6 @@ createContinueButtonSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggableActionButtonSpec new
 		model: self;
-		label: 'Continue';
+		label: self continueButtonLabel;
 		action: #continue;
 		yourself
-		

@@ -1,7 +1,7 @@
 toolbuilder
-createNameInputFieldSpecWith: aNumber
+createInputFieldSpecWith: aToolBuilder index: aNumber
 	
-	^  PluggableInputFieldSpec new
+	^  aToolBuilder pluggableInputFieldSpec new
 		model: (self players at: aNumber);
 		editText: #changeName:;
 		setText: #changeName:;

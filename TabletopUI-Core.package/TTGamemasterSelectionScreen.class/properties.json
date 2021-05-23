@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"role" ],
-	"name" : "TTPlayer",
+		"selectedIndex" ],
+	"name" : "TTGamemasterSelectionScreen",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTScreen",
 	"type" : "normal" }

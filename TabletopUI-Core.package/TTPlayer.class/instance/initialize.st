@@ -3,4 +3,6 @@ initialize
 
 	super initialize.
 	
-	self name: '*'
+	self
+		name: '*';
+		role: self class player

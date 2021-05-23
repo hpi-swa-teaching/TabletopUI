@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self playerNames: Set new
+	self selectedIndex: 1

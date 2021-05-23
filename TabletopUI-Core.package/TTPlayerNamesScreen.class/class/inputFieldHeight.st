@@ -1,4 +1,4 @@
 constants and defaults
-inputFieldHight
+inputFieldHeight
 
 	^ 0.1

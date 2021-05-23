@@ -7,7 +7,13 @@
 	"instance" : {
 		"addChildren:to:" : "MM 5/15/2021 17:27",
 		"buildWith:children:" : "MM 5/15/2021 17:38",
+		"continue" : "MM 5/23/2021 11:01",
+		"continueButtonLabel" : "MM 5/23/2021 11:00",
+		"createContinueButtonSpecWith:" : "MM 5/23/2021 11:00",
+		"createLeaveButtonSpecWith:" : "MM 5/23/2021 11:02",
 		"game" : "joda 5/14/2021 16:29",
 		"game:" : "joda 5/14/2021 16:29",
+		"leave" : "MM 5/23/2021 11:01",
+		"leaveButtonLabel" : "MM 5/23/2021 11:01",
 		"window" : "joda 5/14/2021 16:29",
 		"window:" : "joda 5/14/2021 16:30" } }
