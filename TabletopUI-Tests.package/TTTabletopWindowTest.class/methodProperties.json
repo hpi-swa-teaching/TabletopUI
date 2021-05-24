@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "joda 5/21/2021 15:12",
-		"test00ChangeScreen" : "joda 5/22/2021 13:54" } }
+		"setUp" : "MM 5/24/2021 12:22",
+		"test00openPlayerCountScreen" : "MM 5/24/2021 12:16",
+		"test01openPlayerNamesScreen" : "MM 5/24/2021 12:19",
+		"test02openGamemasterSelectionScreen" : "MM 5/24/2021 12:19",
+		"test03openGameScreen" : "MM 5/24/2021 12:17" } }

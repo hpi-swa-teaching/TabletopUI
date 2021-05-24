@@ -1,4 +1,4 @@
 constants and defaults
 leaveButtonLabel
 
-	^ 'Back'
+	^ 'Reset'

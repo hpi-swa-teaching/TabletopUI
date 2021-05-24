@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"inputField" ],
-	"name" : "TTInputFieldTest",
+		"window",
+		"windowMorph",
+		"screen" ],
+	"name" : "TTGamemasterSelectionScreenTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

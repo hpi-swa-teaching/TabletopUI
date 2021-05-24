@@ -2,5 +2,5 @@ tests
 test00InvalidInput
 
 	| result |
-	result := inputField evaluate: 'lsakdjflksf'.
+	result := inputEvaluator evaluate: 'lsakdjflksf'.
 	self assert: result = 'Invalid input'
