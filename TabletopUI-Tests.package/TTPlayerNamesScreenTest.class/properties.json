@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"playerNamesScreen" ],
+	"name" : "TTPlayerNamesScreenTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

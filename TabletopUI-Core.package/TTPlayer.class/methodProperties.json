@@ -1,9 +1,13 @@
 {
 	"class" : {
-		"maximalNameLength" : "rf 5/21/2021 17:23" },
+		"gamemaster" : "MM 5/23/2021 10:54",
+		"maximalNameLength" : "rf 5/21/2021 17:23",
+		"player" : "MM 5/23/2021 10:53" },
 	"instance" : {
-		"changeName:" : "rf 5/21/2021 17:23",
-		"initialize" : "rf 5/19/2021 09:26",
+		"changeName:" : "rf 5/25/2021 17:10",
+		"initialize" : "MM 5/23/2021 10:54",
+		"isValidName:" : "rf 5/25/2021 17:03",
 		"name" : "rf 5/19/2021 09:07",
 		"name:" : "rf 5/19/2021 09:56",
-		"nameText:" : "rf 5/19/2021 16:21" } }
+		"role" : "MM 5/23/2021 10:52",
+		"role:" : "MM 5/23/2021 10:52" } }

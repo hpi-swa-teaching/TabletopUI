@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"playerNameScreen" : "rf 5/25/2021 17:41",
+		"setUp" : "rf 5/25/2021 17:48",
+		"test00PlayersCreation" : "rf 5/25/2021 17:48",
+		"test01HasUniqueNames" : "rf 5/25/2021 17:48",
+		"test02HasNoUniqueNames" : "rf 5/25/2021 17:49" } }

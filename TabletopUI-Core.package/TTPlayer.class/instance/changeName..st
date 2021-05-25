@@ -1,7 +1,7 @@
 accessing
 changeName: aText
 
-    (aText asString size <= self class maximalNameLength) ifTrue: [
+    (self isValidName: (aText asString)) ifTrue: [
         self name: aText asString]
         ifFalse: [
             Utilities 

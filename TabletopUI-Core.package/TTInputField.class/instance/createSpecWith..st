@@ -6,4 +6,5 @@ createSpecWith: aToolBuilder
 		setText: #processInput:;
 		getText: #resetInputField;
 		indicateUnacceptedChanges: false;
-		help: 'Enter command here'
+		help: 'Enter command here';
+		yourself

@@ -1,4 +1,5 @@
 toolbuilder
-buildWith: aMorphicToolBuilder
+buildWith: aToolBuilder
 		
-	^ self buildWith: aMorphicToolBuilder children: (self layoutWith: self game playerCount)
+	^ self buildWith: aToolBuilder children: (
+		self createLayoutWith: aToolBuilder forPlayerCount: (self game playerCount))

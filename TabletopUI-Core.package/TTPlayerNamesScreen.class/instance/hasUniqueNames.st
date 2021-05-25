@@ -1,4 +1,7 @@
 accessing
 hasUniqueNames
 
-	^ self players size = (self playerNames size)
+	| uniqueNames |
+	
+	uniqueNames := (self players collect: [:aTTPlayer | aTTPlayer name]) asSet.
+	^ self players size = (uniqueNames size)

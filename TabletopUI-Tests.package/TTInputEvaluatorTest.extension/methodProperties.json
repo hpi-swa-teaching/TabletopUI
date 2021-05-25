@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"test01Roll" : "bv 5/25/2021 11:40",
-		"test02RollValidDiceSize" : "bv 5/25/2021 11:41",
-		"test03RollWithModifier" : "bv 5/25/2021 11:45",
-		"test04RollMultipleDice" : "bv 5/25/2021 11:48",
-		"test05RollCombined" : "bv 5/25/2021 11:51" } }
