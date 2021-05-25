@@ -6,9 +6,7 @@ test01Roll
 	self assert: result = 'Invalid input'.
 	result := inputEvaluator evaluate: 'roll d06'.
 	self assert: result = 'Invalid input'.
-	result := inputEvaluator evaluate: 'roll d1'.
-	self assert: result asNumber = 1.
 	result := inputEvaluator evaluate: 'roll d4'.
 	self assert: (result asNumber >= 1 and: [result asNumber <= 4]).
 	result := inputEvaluator evaluate: 'roll d6'.
-	self assert: (result asNumber >= 1 and: [result asNumber <= 6]).
+	self assert: (result asNumber >= 1 and: [result asNumber <= 6])
