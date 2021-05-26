@@ -1,9 +1,9 @@
 as yet unclassified
 createSpecWith: aToolBuilder
 	
-	^ aToolBuilder pluggableDropDownListSpec new
+	^ aToolBuilder pluggableListSpec new
 		model: self;
-		listSelector: #nameList;
-		selectionSelector: #selectedIndex;
-		selectionSetter: #selectedIndex:;
+		list: #nameList;
+		getIndex: #selectedIndex;
+		setIndex: #selectedIndex:;
 		yourself

@@ -1,4 +1,4 @@
 as yet unclassified
 nameList
 
-	^ self screen players collect: [:aPlayer | aPlayer name] 
+	^ self screen game players collect: [:aPlayer | aPlayer name] 

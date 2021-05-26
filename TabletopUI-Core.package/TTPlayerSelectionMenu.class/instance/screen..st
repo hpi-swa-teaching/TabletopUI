@@ -1,4 +1,4 @@
 accessing
-screen: aTTScreen
+screen: aTTGameScreen
 
-	screen := aTTScreen
+	screen := aTTGameScreen

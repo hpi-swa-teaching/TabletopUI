@@ -1,12 +1,15 @@
 {
 	"class" : {
-		"newWithScreen:" : "joda 5/26/2021 16:46" },
+		"newWithScreen:" : "joda 5/26/2021 18:15" },
 	"instance" : {
-		"createSpecWith:" : "joda 5/26/2021 16:50",
-		"nameList" : "joda 5/26/2021 16:46",
-		"players" : "joda 5/26/2021 16:28",
-		"players:" : "joda 5/26/2021 16:28",
-		"screen" : "joda 5/26/2021 16:37",
-		"screen:" : "joda 5/26/2021 16:37",
-		"selectedIndex" : "joda 5/26/2021 16:05",
-		"selectedIndex:" : "joda 5/26/2021 16:08" } }
+		"createSpecWith:" : "joda 5/26/2021 17:27",
+		"createUpdatedInputEvaluator" : "joda 5/26/2021 18:46",
+		"index" : "joda 5/26/2021 18:37",
+		"index:" : "joda 5/26/2021 18:18",
+		"initialize" : "joda 5/26/2021 18:54",
+		"nameList" : "joda 5/26/2021 17:49",
+		"screen" : "joda 5/26/2021 18:07",
+		"screen:" : "joda 5/26/2021 18:20",
+		"selectedIndex" : "joda 5/26/2021 18:20",
+		"selectedIndex:" : "joda 5/26/2021 18:46",
+		"updateInputEvaluator" : "joda 5/26/2021 17:58" } }

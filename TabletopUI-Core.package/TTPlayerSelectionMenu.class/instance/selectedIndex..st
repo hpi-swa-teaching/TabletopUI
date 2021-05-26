@@ -1,6 +1,7 @@
 as yet unclassified
 selectedIndex: aNumber
 
-	selectedIndex := aNumber.
-	self changed: #selectedIndex
+	self index: aNumber.
+	self changed: #index.
+	self updateInputEvaluator
 	

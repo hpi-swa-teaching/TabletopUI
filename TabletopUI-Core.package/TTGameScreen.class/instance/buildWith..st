@@ -4,5 +4,5 @@ buildWith: aToolBuilder
 	^ self buildWith: aToolBuilder children: {
 		(0 @ 0 corner: 0.5 @ 1) -> [self scrollPane createSpecWith: aToolBuilder].
 		(0.5 @ 0 corner: 1 @ 0.75) -> [self actionLog createSpecWith: aToolBuilder].
-		(0.7 @ 0.75 corner: 1 @ 1) -> [self inputField createSpecWith: aToolBuilder]
-		"(0.5 @ 0.75 corner: 0.7 @ 1) -> [self playerSelectionMenu createSpecWith: aToolBuilder]"} asDictionary
+		(0.6 @ 0.75 corner: 1 @ 1) -> [self inputField createSpecWith: aToolBuilder].
+		(0.5 @ 0.75 corner: 0.6 @ 1) -> [self playerSelectionMenu createSpecWith: aToolBuilder]} asDictionary
