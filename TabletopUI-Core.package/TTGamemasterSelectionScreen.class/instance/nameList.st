@@ -1,4 +1,4 @@
 accessing
 nameList
 
-	^ game players collect: [:aPlayer | aPlayer name]
+	^ self game players collect: [:aPlayer | aPlayer name]

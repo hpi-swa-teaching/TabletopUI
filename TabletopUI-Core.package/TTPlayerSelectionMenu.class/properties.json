@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"inputField",
-		"playerSelectionMenu",
-		"scrollPane" ],
-	"name" : "TTGameScreen",
+		"screen",
+		"players",
+		"selectedIndex" ],
+	"name" : "TTPlayerSelectionMenu",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "Model",
 	"type" : "normal" }

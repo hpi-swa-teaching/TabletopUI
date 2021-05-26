@@ -1,14 +1,14 @@
 {
-	"category" : "TabletopUI-Tests",
+	"category" : "TabletopUI-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TabletopUITestsServiceProvider",
+		"selectedIndex" ],
+	"name" : "NameOfSubclass",
 	"pools" : [
 		 ],
-	"super" : "ServiceProvider",
+	"super" : "Object",
 	"type" : "normal" }
