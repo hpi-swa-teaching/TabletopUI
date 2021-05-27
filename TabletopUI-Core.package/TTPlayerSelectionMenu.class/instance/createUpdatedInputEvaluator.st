@@ -5,7 +5,7 @@ createUpdatedInputEvaluator
 	
 	player := self screen game players at: self index.
 
-	^ (self createInputEvaluatorForRole: (player role)) 
-		playerName: (player name)
+	^ ((self createInputEvaluatorForRole: (player role)) 
+		playerName: (player name))
 
 	
