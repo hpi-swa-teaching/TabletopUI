@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 newIn: aTTTabletopWindow
 
 	^ self new 

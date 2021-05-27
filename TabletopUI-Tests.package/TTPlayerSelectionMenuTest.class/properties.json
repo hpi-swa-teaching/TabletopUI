@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"playerSelectionMenu" ],
+	"name" : "TTPlayerSelectionMenuTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

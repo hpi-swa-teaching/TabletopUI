@@ -2,14 +2,14 @@
 	"class" : {
 		"newWithScreen:" : "joda 5/26/2021 18:15" },
 	"instance" : {
-		"createSpecWith:" : "joda 5/26/2021 17:27",
-		"createUpdatedInputEvaluator" : "joda 5/26/2021 18:46",
-		"index" : "joda 5/26/2021 18:37",
-		"index:" : "joda 5/26/2021 18:18",
-		"initialize" : "joda 5/26/2021 18:54",
-		"nameList" : "joda 5/26/2021 17:49",
+		"createInputEvaluatorForRole:" : "joda 5/27/2021 14:32",
+		"createSpecWith:" : "joda 5/27/2021 14:37",
+		"createUpdatedInputEvaluator" : "joda 5/27/2021 15:00",
+		"index" : "joda 5/27/2021 14:36",
+		"index:" : "joda 5/26/2021 21:57",
+		"initialize" : "joda 5/27/2021 14:35",
+		"nameList" : "joda 5/26/2021 22:44",
 		"screen" : "joda 5/26/2021 18:07",
 		"screen:" : "joda 5/26/2021 18:20",
-		"selectedIndex" : "joda 5/26/2021 18:20",
-		"selectedIndex:" : "joda 5/26/2021 18:46",
-		"updateInputEvaluator" : "joda 5/26/2021 17:58" } }
+		"selectedIndex:" : "joda 5/27/2021 14:59",
+		"updateInputEvaluator" : "joda 5/27/2021 15:06" } }

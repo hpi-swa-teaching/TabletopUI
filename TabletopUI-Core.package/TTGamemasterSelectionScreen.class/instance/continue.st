@@ -1,5 +1,6 @@
 screen management
 continue
 
-	self game selectAsGamemaster: (self game players at: selectedIndex).
+	(self selectedIndex > 0) ifTrue: [
+		self game selectAsGamemaster: (self game players at: self selectedIndex)].
 	self window openGameScreen

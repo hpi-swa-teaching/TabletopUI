@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithWindow:" : "BV 5/1/2021 12:57" },
 	"instance" : {
-		"createSpecWith:" : "MM 5/23/2021 10:20",
+		"createSpecWith:" : "joda 5/26/2021 22:51",
 		"initialize" : "bv 5/20/2021 10:18",
 		"inputEvaluator" : "bv 5/20/2021 10:17",
 		"inputEvaluator:" : "bv 5/20/2021 10:19",

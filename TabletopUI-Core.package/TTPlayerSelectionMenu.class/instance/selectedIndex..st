@@ -1,7 +1,9 @@
-as yet unclassified
+accessing
 selectedIndex: aNumber
 
-	self index: aNumber.
-	self changed: #index.
-	self updateInputEvaluator
+	(aNumber > 0) ifTrue: [
+		self
+			index: aNumber;
+			changed: #index;
+			updateInputEvaluator]
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+dice roll
 evaluate: aString
 
 	| result |

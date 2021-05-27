@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "joda 5/27/2021 15:15",
+		"test00InputEvaluatorGamemaster" : "joda 5/27/2021 15:29",
+		"test01InputEvaluatorPlayer" : "joda 5/27/2021 15:28",
+		"test02selectedIndex" : "joda 5/27/2021 15:25" } }

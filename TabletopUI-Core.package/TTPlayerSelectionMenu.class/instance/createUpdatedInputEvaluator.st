@@ -1,13 +1,11 @@
-as yet unclassified
+evaluator creation
 createUpdatedInputEvaluator
 
-	| player inputEvaluator |
+	| player |
 	
-	player := (self screen game players at: self index).
-	(player role = #gamemaster) ifTrue: [
-		inputEvaluator := TTGamemasterInputEvaluator new]
-	ifFalse: [
-		inputEvaluator := TTInputEvaluator new].
-	inputEvaluator playerName: player name.
+	player := self screen game players at: self index.
+
+	^ (self createInputEvaluatorForRole: (player role)) 
+		playerName: (player name)
+
 	
-	^ inputEvaluator

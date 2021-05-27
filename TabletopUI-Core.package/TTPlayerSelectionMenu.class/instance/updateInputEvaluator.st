@@ -1,4 +1,4 @@
-as yet unclassified
+evaluator creation
 updateInputEvaluator
 
 	self screen inputField inputEvaluator: self createUpdatedInputEvaluator

@@ -8,4 +8,3 @@ initialize
 		inputField: (TTInputField newWithWindow: self);
 		playerSelectionMenu: (TTPlayerSelectionMenu newWithScreen: self);
 		scrollPane: TTScrollPane new
-		
