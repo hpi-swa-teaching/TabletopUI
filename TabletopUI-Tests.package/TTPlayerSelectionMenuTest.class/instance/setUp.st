@@ -16,4 +16,4 @@ setUp
 		inputField: TTInputField new;
 		game: game.
 	
-	playerSelectionMenu := TTPlayerSelectionMenu newWithScreen: screen
+	playerSelectionMenu := TTPlayerSelectionMenu newWithGame: game

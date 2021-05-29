@@ -1,12 +1,14 @@
 {
 	"class" : {
-		"newWithWindow:" : "BV 5/1/2021 12:57" },
+		"newWithActionLog:playerSelectionMenu:" : "bv 5/29/2021 12:05" },
 	"instance" : {
+		"actionLog" : "bv 5/29/2021 11:40",
+		"actionLog:" : "bv 5/29/2021 11:40",
 		"createSpecWith:" : "joda 5/26/2021 22:51",
 		"initialize" : "bv 5/20/2021 10:18",
 		"inputEvaluator" : "bv 5/20/2021 10:17",
 		"inputEvaluator:" : "bv 5/20/2021 10:19",
-		"processInput:" : "bv 5/20/2021 10:17",
-		"resetInputField" : "BV 5/1/2021 12:25",
-		"window" : "BV 5/1/2021 11:36",
-		"window:" : "BV 5/1/2021 11:36" } }
+		"playerSelectionMenu" : "bv 5/29/2021 12:04",
+		"playerSelectionMenu:" : "bv 5/29/2021 12:04",
+		"processInput:" : "bv 5/29/2021 12:15",
+		"resetInputField" : "BV 5/1/2021 12:25" } }

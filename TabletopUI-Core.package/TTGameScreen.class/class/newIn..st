@@ -3,4 +3,7 @@ newIn: aTTTabletopWindow
 
 	^ self new 
 		window: aTTTabletopWindow;
-		game: aTTTabletopWindow game
+		game: aTTTabletopWindow game;
+		playerSelectionMenu: (TTPlayerSelectionMenu newWithGame: aTTTabletopWindow game);
+		initializeInputField;
+		yourself

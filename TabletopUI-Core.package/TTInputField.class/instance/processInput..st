@@ -3,7 +3,7 @@ processInput: aText
 
 	self changed: #resetInputField.
 	
-	self window actionLog 
+	self actionLog 
 		logInput: aText asString;
-		logOutput: (self inputEvaluator evaluate: aText asString)
+		logOutput: (self inputEvaluator evaluate: aText asString fromPlayer: (self playerSelectionMenu getActivePlayer))
 	

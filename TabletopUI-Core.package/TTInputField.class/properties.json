@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
+		"actionLog",
+		"playerSelectionMenu",
 		"inputEvaluator" ],
 	"name" : "TTInputField",
 	"pools" : [
