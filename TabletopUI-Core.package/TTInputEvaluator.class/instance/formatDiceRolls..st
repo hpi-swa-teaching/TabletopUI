@@ -3,7 +3,7 @@ formatDiceRolls: anOrderedCollection
 
 	| formattedString |
 
-	formattedString := (anOrderedCollection at: 1) asString.
+	formattedString := anOrderedCollection first asString.
 	(anOrderedCollection size > 1) ifTrue: [
 		anOrderedCollection fold: [:a :aNumber | formattedString := formattedString , ' + ' , aNumber]].
 	

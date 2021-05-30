@@ -7,6 +7,6 @@ evaluateInput: aString from: aTTPlayer
 	(aString matchesRegex: '^init$') ifTrue: [
 		output := self startRollForInitiativeAs: aTTPlayer].
 	(aString matchesRegex: '^roll ([1-9][0-9]*)?d[1-9][0-9]*([\+\-][1-9][0-9]*)?$') ifTrue: [
-		output := self checkDiceRollCommand: aString].
+		output := self executeDiceRollCommand: aString].
 
 	^ output asString

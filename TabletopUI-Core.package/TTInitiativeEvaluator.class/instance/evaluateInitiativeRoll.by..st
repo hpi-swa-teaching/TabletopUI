@@ -3,7 +3,7 @@ evaluateInitiativeRoll: aString by: aTTPlayer
 
 	| rollResult |
 	
-	rollResult := self checkDiceRollCommand: aString.
+	rollResult := self executeDiceRollCommand: aString.
 	(rollResult isAllDigits) ifTrue: [
 		self rolls add: (aTTPlayer name -> (rollResult asNumber))].
 	

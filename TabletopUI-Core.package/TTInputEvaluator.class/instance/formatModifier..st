@@ -1,5 +1,5 @@
 dice roll
-addModifier: aNumber
+formatModifier: aNumber
 
 	| modifierString |
 

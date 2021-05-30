@@ -5,5 +5,6 @@ createSpecWith: aToolBuilder
 		morph: self map;
 		hScrollBarPolicy: #always;
 		vScrollBarPolicy: #always;
-		borderWidth: 0
+		borderWidth: 0;
+		yourself
 	

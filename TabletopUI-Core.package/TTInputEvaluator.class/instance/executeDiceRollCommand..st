@@ -1,7 +1,7 @@
 dice roll
-checkDiceRollCommand: aString
+executeDiceRollCommand: aString
 
-	| output rollConfigurations |
+	| rollConfigurations output |
 	
 	rollConfigurations := self parseDiceRollCommand: aString.
 	(TTDice isValidDice: (rollConfigurations at: #diceSize)) ifTrue: [

@@ -6,4 +6,5 @@ createInputFieldSpecWith: aToolBuilder index: aNumber
 		editText: #changeName:;
 		setText: #changeName:;
 		indicateUnacceptedChanges: false;
-		help: 'Enter player', aNumber asString, 's name here.'
+		help: 'Enter player', aNumber asString, 's name here.';
+		yourself
