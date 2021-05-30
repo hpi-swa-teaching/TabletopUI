@@ -1,13 +1,16 @@
 {
 	"class" : {
-		 },
+		"newWithInputField:" : "bv 5/30/2021 11:59" },
 	"instance" : {
-		"addModifier:" : "bv 5/25/2021 11:37",
-		"evaluate:" : "bv 5/20/2021 10:16",
-		"evaluate:fromPlayer:" : "bv 5/29/2021 12:11",
+		"addModifier:" : "bv 5/30/2021 13:01",
+		"commandNotFoundError" : "bv 5/30/2021 12:41",
+		"evaluate:player:" : "bv 5/30/2021 12:34",
 		"evaluateRollDiceCommand:" : "bv 5/20/2021 15:02",
 		"extractDiceSize:" : "bv 5/20/2021 10:24",
 		"extractModifier:" : "bv 5/20/2021 10:15",
 		"extractRollCount:" : "bv 5/20/2021 10:26",
+		"gamemasterError" : "bv 5/30/2021 12:40",
+		"inputField" : "bv 5/30/2021 11:59",
+		"inputField:" : "bv 5/30/2021 11:59",
 		"parseRollDiceCommand:" : "MM 5/23/2021 10:25",
-		"printDiceRolls:withConfiguration:" : "bv 5/29/2021 12:12" } }
+		"printDiceRolls:withConfiguration:" : "bv 5/29/2021 15:26" } }

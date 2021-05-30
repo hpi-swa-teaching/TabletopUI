@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"playerSelectionMenu",
-		"inputEvaluator",
-		"game" ],
-	"name" : "TTInputField",
+		"rolls" ],
+	"name" : "TTInitiativeEvaluator",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTInputEvaluator",
 	"type" : "normal" }

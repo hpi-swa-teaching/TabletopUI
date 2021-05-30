@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"alreadyRolledError" : "bv 5/30/2021 12:53",
+		"endRollForInitiativeAsPlayer:" : "bv 5/30/2021 13:33",
+		"evaluate:player:" : "bv 5/30/2021 13:24",
+		"evaluateInitiativeRoll:player:" : "bv 5/30/2021 13:28",
+		"initialize" : "bv 5/30/2021 11:55",
+		"onlyPlayerRollError" : "bv 5/30/2021 13:21",
+		"rolls" : "bv 5/30/2021 11:47",
+		"rolls:" : "bv 5/30/2021 11:47",
+		"validateInitiativeRoll:player:" : "bv 5/30/2021 13:22" } }

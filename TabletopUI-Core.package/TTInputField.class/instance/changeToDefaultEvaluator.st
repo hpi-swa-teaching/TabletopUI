@@ -1,6 +1,4 @@
-initialization
-initialize
+mode selection
+changeToDefaultEvaluator
 
-	super initialize.
-	
 	self inputEvaluator: (TTDefaultEvaluator newWithInputField: self)

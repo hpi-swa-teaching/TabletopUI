@@ -1,11 +1,14 @@
 dice roll
 addModifier: aNumber
 
+	| modifierString |
+
+	modifierString := ''.
 	((aNumber) < 0) ifTrue: [
-		^ (' - ' , (-1*aNumber))
+		modifierString := (' - ' , (-1*aNumber))
 	].
 	((aNumber) > 0) ifTrue: [
-		^ (' +' , aNumber)
+		modifierString := (' +' , aNumber)
 	].
 
-	^ ''
+	^ modifierString

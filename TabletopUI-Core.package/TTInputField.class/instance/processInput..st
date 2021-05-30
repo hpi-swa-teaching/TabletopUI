@@ -1,9 +1,12 @@
 text management
 processInput: aText
-
+	
+	| activePlayer |
+	
 	self changed: #resetInputField.
+	activePlayer := self playerSelectionMenu getActivePlayer.
 	
 	self actionLog 
-		logInput: aText asString;
-		logOutput: (self inputEvaluator evaluate: aText asString fromPlayer: (self playerSelectionMenu getActivePlayer))
+		logInput: activePlayer name , ': ', aText asString;
+		logOutput: (self inputEvaluator evaluate: aText asString player: activePlayer)
 	
