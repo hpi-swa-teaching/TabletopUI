@@ -1,4 +1,4 @@
 input evaluation
-evaluate: aString player: aTTPlayer
+evaluateInput: aString from: aTTPlayer
 
 	^ self subclassResponsibility

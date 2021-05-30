@@ -1,6 +1,6 @@
 dice roll
-parseRollDiceCommand: aString
+parseDiceRollCommand: aString
 
-	^ {#rollCount -> (self extractRollCount: aString) .
+	^ {#rollCount -> (self extractDiceAmount: aString) .
 		#diceSize -> (self extractDiceSize: aString) .
 		#modifier -> (self extractModifier: aString)} asDictionary

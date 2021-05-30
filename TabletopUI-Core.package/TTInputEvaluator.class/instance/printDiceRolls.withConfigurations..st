@@ -1,5 +1,5 @@
 dice roll
-printDiceRolls: anOrderedCollection withConfiguration: aDictionary
+printDiceRolls: anOrderedCollection withConfigurations: aDictionary
 
 	| output |
 

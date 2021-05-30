@@ -1,4 +1,4 @@
 error messages
-alreadyRolledError
+ErrorMultipleRolls
 
 	^ 'You rolled already'

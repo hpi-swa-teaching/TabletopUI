@@ -1,5 +1,5 @@
 dice roll
-extractRollCount: aString
+extractDiceAmount: aString
 
 	| rollCount |
 	

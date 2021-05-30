@@ -1,5 +1,5 @@
 roll for initiative
-endRollForInitiativeAsPlayer: aTTPlayer
+endRollForInitiativeAs: aTTPlayer
 
 	| output |
 
@@ -7,6 +7,6 @@ endRollForInitiativeAsPlayer: aTTPlayer
 		self inputField changeToDefaultEvaluator.
 		output := 'Ended Roll for Initiative']
 	ifFalse: [
-		output := self gamemasterError].
+		output := self ErrorNotAuthorised].
 	
 	^ output

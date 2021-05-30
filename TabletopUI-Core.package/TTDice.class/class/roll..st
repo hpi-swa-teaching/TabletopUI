@@ -1,4 +1,4 @@
-as yet unclassified
+rolling
 roll: aNumber
 
 	^ aNumber random

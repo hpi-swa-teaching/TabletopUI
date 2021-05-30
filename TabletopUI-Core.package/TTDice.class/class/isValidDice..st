@@ -1,4 +1,4 @@
-as yet unclassified
+dice validation
 isValidDice: aNumber
 
 	^ self validDices includes: aNumber

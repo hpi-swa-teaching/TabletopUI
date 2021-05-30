@@ -1,5 +1,5 @@
 roll for initiative
-startRollForInitiativeAsPlayer: aTTPlayer
+startRollForInitiativeAs: aTTPlayer
 
 	| output |
 
@@ -7,6 +7,6 @@ startRollForInitiativeAsPlayer: aTTPlayer
 		self inputField changeToInitiativeEvaluator.
 		output := 'Started Roll for Initiative']
 	ifFalse: [
-		output := self gamemasterError].
+		output := self ErrorNotAuthorised].
 
 	^ output

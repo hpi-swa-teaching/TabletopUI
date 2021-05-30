@@ -1,9 +1,9 @@
 roll for initiative
-evaluateInitiativeRoll: aString player: aTTPlayer
+evaluateInitiativeRoll: aString by: aTTPlayer
 
 	| rollResult |
 	
-	rollResult := self evaluateRollDiceCommand: aString.
+	rollResult := self checkDiceRollCommand: aString.
 	(rollResult isAllDigits) ifTrue: [
 		self rolls add: (aTTPlayer name -> (rollResult asNumber))].
 	

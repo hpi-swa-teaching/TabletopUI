@@ -8,5 +8,5 @@ processInput: aText
 	
 	self actionLog 
 		logInput: activePlayer name , ': ', aText asString;
-		logOutput: (self inputEvaluator evaluate: aText asString player: activePlayer)
+		logOutput: (self inputEvaluator evaluateInput: aText asString from: activePlayer)
 	

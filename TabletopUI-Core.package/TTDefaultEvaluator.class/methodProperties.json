@@ -2,5 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"evaluate:player:" : "bv 5/30/2021 12:42",
-		"startRollForInitiativeAsPlayer:" : "bv 5/30/2021 12:59" } }
+		"evaluateInput:from:" : "joda 5/30/2021 15:02",
+		"startRollForInitiativeAs:" : "joda 5/30/2021 14:41" } }
