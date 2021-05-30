@@ -7,4 +7,4 @@ evaluateDiceRollWithConfiguarions: aDictionary
 		roll: (aDictionary at: #diceSize) 
 		multipleTimes: (aDictionary at: #rollCount).
 			
-	^ self printDiceRolls: diceRolls withConfigurations: aDictionary
+	^ self formatDiceRolls: diceRolls withConfigurations: aDictionary
