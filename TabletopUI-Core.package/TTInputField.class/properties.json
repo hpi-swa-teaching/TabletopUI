@@ -8,8 +8,7 @@
 	"instvars" : [
 		"actionLog",
 		"playerSelectionMenu",
-		"inputEvaluator",
-		"game" ],
+		"inputEvaluator" ],
 	"name" : "TTInputField",
 	"pools" : [
 		 ],

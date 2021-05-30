@@ -8,7 +8,4 @@ initialize
 		tiles: (Matrix 
 					rows: ((self class defaultSize)/(TTTile defaultSize)) rounded 
 					columns: ((self class defaultSize)/(TTTile defaultSize)) rounded);
-		fillTiles;
-		createPlayerTokenAtTileCoordinates: 1 @ 1;
-		createPlayerTokenAtTileCoordinates: 2 @ 1;
-		createPlayerTokenAtTileCoordinates: 3 @ 1
+		fillTiles

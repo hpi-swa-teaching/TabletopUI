@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"defaultSize" : "joda 5/8/2021 13:19" },
+		"defaultSize" : "joda 5/8/2021 13:19",
+		"newWithPlayers:" : "bv 5/30/2021 15:48" },
 	"instance" : {
 		"convertPixelPositionToTileCoordinates:" : "rf 5/8/2021 10:26",
 		"convertTileCoordinatesToPixelPosition:" : "rf 5/8/2021 10:27",
 		"createAndInsertTileAt:" : "rf 5/8/2021 10:08",
-		"createPlayerTokenAtTileCoordinates:" : "joda 5/9/2021 17:48",
+		"createTokenForPlayer:atTileCoordinates:" : "bv 5/30/2021 15:53",
 		"fillTiles" : "rf 5/8/2021 10:23",
-		"initialize" : "joda 5/8/2021 13:30",
-		"placeToken:atTileCoordinates:" : "MM 5/8/2021 12:15",
+		"initialize" : "bv 5/30/2021 15:49",
+		"initializePlayerTokens:" : "bv 5/30/2021 15:57",
 		"tiles" : "rf 5/8/2021 09:52",
 		"tiles:" : "rf 5/8/2021 09:52" } }

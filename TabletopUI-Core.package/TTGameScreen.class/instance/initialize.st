@@ -3,6 +3,4 @@ initialize
 
 	super initialize.
 	
-	self 
-		actionLog: TTActionLog new;
-		scrollPane: TTScrollPane new
+	self actionLog: TTActionLog new

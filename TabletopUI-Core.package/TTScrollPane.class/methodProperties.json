@@ -1,11 +1,8 @@
 {
 	"class" : {
-		 },
+		"newWithPlayers:" : "bv 5/30/2021 16:04" },
 	"instance" : {
-		"buildWith:" : "rf 5/8/2021 11:08",
 		"createSpecWith:" : "MM 5/15/2021 11:35",
-		"initialize" : "rf 5/8/2021 10:46",
+		"initializeMapWithPlayers:" : "bv 5/30/2021 15:59",
 		"map" : "rf 5/8/2021 10:47",
-		"map:" : "rf 5/8/2021 10:47",
-		"window" : "rf 5/8/2021 09:15",
-		"window:" : "rf 5/8/2021 09:14" } }
+		"map:" : "rf 5/8/2021 10:47" } }

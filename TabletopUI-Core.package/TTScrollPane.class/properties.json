@@ -6,7 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
 		"map" ],
 	"name" : "TTScrollPane",
 	"pools" : [

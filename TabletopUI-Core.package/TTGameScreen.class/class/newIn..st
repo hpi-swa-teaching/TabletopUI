@@ -5,5 +5,5 @@ newIn: aTTTabletopWindow
 		window: aTTTabletopWindow;
 		game: aTTTabletopWindow game;
 		playerSelectionMenu: (TTPlayerSelectionMenu newWithGame: aTTTabletopWindow game);
-		initializeInputField;
+		initializeInputFieldAndMap;
 		yourself
