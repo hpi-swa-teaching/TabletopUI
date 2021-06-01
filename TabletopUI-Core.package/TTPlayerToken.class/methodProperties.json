@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"newWithOwner:player:" : "bv 5/30/2021 15:52" },
+		"newWithOwner:player:" : "bv 6/1/2021 18:00" },
 	"instance" : {
 		"form" : "joda 5/8/2021 13:27",
-		"player" : "bv 5/30/2021 15:43",
-		"player:" : "bv 5/30/2021 15:44" } }
+		"ttPlayer" : "bv 6/1/2021 17:59",
+		"ttPlayer:" : "bv 6/1/2021 18:00" } }

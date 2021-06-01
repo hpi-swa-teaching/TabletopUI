@@ -13,7 +13,6 @@ setUp
 	game := TTGame new
 		players: {player1 .  player2} asOrderedCollection.
 	screen := TTGameScreen new
-		inputField: TTInputField new;
 		game: game.
 	
 	playerSelectionMenu := TTPlayerSelectionMenu newWithGame: game

@@ -2,5 +2,5 @@ initialization
 newWithOwner: aTTTile player: aTTPlayer
 
 	^ (super newWithOwner: aTTTile)
-		player: aTTPlayer;
+		ttPlayer: aTTPlayer;
 		yourself

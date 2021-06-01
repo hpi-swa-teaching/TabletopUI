@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "bv 5/29/2021 12:02",
-		"test00InputEvaluatorGamemaster" : "joda 5/27/2021 15:29",
-		"test01InputEvaluatorPlayer" : "joda 5/27/2021 15:28",
-		"test02selectedIndex" : "joda 5/27/2021 15:25" } }
+		"setUp" : "bv 6/1/2021 18:13",
+		"test00selectedIndex" : "bv 6/1/2021 18:23",
+		"test01getActivePlayer" : "bv 6/1/2021 18:22",
+		"test02nameList" : "bv 6/1/2021 18:25" } }
