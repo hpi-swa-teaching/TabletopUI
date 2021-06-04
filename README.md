@@ -17,7 +17,7 @@ Metacello new
 You can open the Tabletop UI with the command `TTTabletopWindow open`. A window will open offering you different configuration options before starting a Tabletop game.
 
 ## Commands
-###Rolling the dice
+### Rolling the dice
 A dice can only be rolled by a player. If the gamemaster mode is selected so far, a normal player must be chosen first.
 The dice command is 'roll dx'. x represents the maximum number of eyes the rolled dice can show.
 In the dice command a number y can be added, subtracted or multiplied to the dice result. This is done by 'roll dx [+|-|\*] y'.
