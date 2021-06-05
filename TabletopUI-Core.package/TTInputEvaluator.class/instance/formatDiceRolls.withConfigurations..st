@@ -1,11 +1,12 @@
 dice roll
 formatDiceRolls: anOrderedCollection withConfigurations: aDictionary
 
-	| output |
+	| output modifier |
 
 	output := self formatDiceRolls: anOrderedCollection.
-	((anOrderedCollection size = 1) and: ((aDictionary at: #modifier) = 0)) ifFalse:[
-		output := output , (self formatModifier: (aDictionary at: #modifier)).
-		output := output , ' = ' , (anOrderedCollection fold: [:sum :diceroll | sum+diceroll])].
+	modifier := aDictionary at: #modifier.
+	((anOrderedCollection size = 1) and: (modifier = 0)) ifFalse:[
+		output := output , (self formatModifier: modifier).
+		output := output , ' = ' , (anOrderedCollection inject: modifier into: [:sum :diceroll | sum+diceroll])].
 
 	^ output

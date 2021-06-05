@@ -6,7 +6,8 @@
 		"newIn:" : "joda 5/26/2021 22:35" },
 	"instance" : {
 		"addChildren:to:" : "MM 5/15/2021 17:27",
-		"buildWith:children:" : "MM 5/15/2021 17:38",
+		"buildWith:children:" : "bv 6/5/2021 15:48",
+		"buildWith:children:resizable:" : "bv 6/5/2021 15:47",
 		"continue" : "MM 5/23/2021 11:01",
 		"continueButtonLabel" : "MM 5/23/2021 11:00",
 		"createContinueButtonSpecWith:" : "MM 5/23/2021 11:00",

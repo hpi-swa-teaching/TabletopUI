@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"inputEvaluator" ],
-	"name" : "TTInputEvaluatorTest",
+		"inputEvaluator",
+		"player" ],
+	"name" : "TTDiceRollInputTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
