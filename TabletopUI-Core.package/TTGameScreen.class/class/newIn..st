@@ -1,9 +1,10 @@
-as yet unclassified
+initialization
 newIn: aTTTabletopWindow
-
-	^ self new 
+	
+	| gameScreen |
+	^ (gameScreen := self new)
 		window: aTTTabletopWindow;
 		game: aTTTabletopWindow game;
 		playerSelectionMenu: (TTPlayerSelectionMenu newWithGame: aTTTabletopWindow game);
-		initializeInputFieldAndMap;
+		inputField: (TTInputField newWithActionLog: gameScreen actionLog playerSelectionMenu: gameScreen playerSelectionMenu);
 		yourself

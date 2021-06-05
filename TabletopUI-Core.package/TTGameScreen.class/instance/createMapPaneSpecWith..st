@@ -1,8 +1,8 @@
 toolbuilder
-createSpecWith: aToolBuilder
+createMapPaneSpecWith: aToolBuilder
 	
 	^ aToolBuilder pluggableScrollPaneSpec new
-		morph: self map;
+		morph: (TTMap newWithPlayers: self game players);
 		hScrollBarPolicy: #always;
 		vScrollBarPolicy: #always;
 		borderWidth: 0;
