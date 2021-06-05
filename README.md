@@ -25,12 +25,13 @@ In the dice command a number y can be added or subtracted to the dice result. Th
 ### Switching to gamemaster mode
 In the player list you can select the gamemaster with a double click
 
-## Contributors
+## Contributors of [TabletopUI](https://github.com/hpi-swa-teaching/TabletopUI)
 - [Benedikt Vidic](https://github.com/BenediktV)
-- [Pia Beeck](https://github.com/piabeeck)
 - [Johanna Dahlkemper]( https://github.com/joh-dah)
 - [Magnus Menger](https://github.com/cambryx)
+- [Pia Beeck](https://github.com/piabeeck)
 - [Rieke Freund](https://github.com/rfrx)
-- [Patrick Rein](https://github.com/codeZeilen) [teaching team]
-- [Tom Braun](https://github.com/BraunTom) [teaching team]
-- Contributors of [TabletopUI](https://github.com/hpi-swa-teaching/TabletopUI)
+
+## Teaching Team
+- [Patrick Rein](https://github.com/codeZeilen)
+- [Tom Braun](https://github.com/BraunTom)
