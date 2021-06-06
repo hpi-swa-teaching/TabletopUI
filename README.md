@@ -26,7 +26,7 @@ The dice command is ```roll dx```. x represents the maximum number of eyes the r
 In the dice command a number y can be added or subtracted to the dice result. This is done by ```roll dx[+|-]y```. It is also possible to roll z dices at once using the command 'roll zdx'. You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|-]y```.
 
 ### Initiative Roll
-When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```, the commans to end an initiative roll is ```start fight```.
+When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```, the commans to end an initiative roll is ```end fight```.
 
 ## Contributors of [TabletopUI](https://github.com/hpi-swa-teaching/TabletopUI)
 - [Benedikt Vidic](https://github.com/BenediktV)
