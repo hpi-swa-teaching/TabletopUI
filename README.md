@@ -17,13 +17,16 @@ Metacello new
 You can open the Tabletop UI with the command `TTTabletopWindow open`. A window will open offering you different configuration options before starting a Tabletop game.
 
 ## Commands
+### Switching to gamemaster mode
+In the player list you can select the gamemaster with a double click
+
 ### Rolling the dice
 Every player including the gamemaster can execute a dice roll.
 The dice command is ```roll dx```. x represents the maximum number of eyes the rolled dice can show.
-In the dice command a number y can be added or subtracted to the dice result. This is done by ```roll dx [+|-] y```. It is also possible to roll z dices at once using the command 'roll zdx'. You can also combine modifiers and multiple dice rolls  like this ```roll zdx [+|-] y```.
+In the dice command a number y can be added or subtracted to the dice result. This is done by ```roll dx[+|-]y```. It is also possible to roll z dices at once using the command 'roll zdx'. You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|-]y```.
 
-### Switching to gamemaster mode
-In the player list you can select the gamemaster with a double click
+### Initiative Roll
+When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```, the commans to end an initiative roll is ```start fight```.
 
 ## Contributors of [TabletopUI](https://github.com/hpi-swa-teaching/TabletopUI)
 - [Benedikt Vidic](https://github.com/BenediktV)
