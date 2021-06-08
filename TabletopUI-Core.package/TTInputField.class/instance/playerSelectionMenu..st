@@ -1,4 +1,0 @@
-accessing
-playerSelectionMenu: aTTPlayerSelectionMenu
-
-	playerSelectionMenu := aTTPlayerSelectionMenu

@@ -11,4 +11,4 @@ setUp
 			name: 'playerB';
 			yourself}.
 	window openGamemasterSelectionScreen.
-	screen := window children first model
+	screen := window contents first model

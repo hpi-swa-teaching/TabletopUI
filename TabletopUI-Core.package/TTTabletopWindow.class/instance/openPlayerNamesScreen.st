@@ -1,6 +1,6 @@
 screen management
 openPlayerNamesScreen
 	
-	self children: {
+	self contents: {
 		(TTPlayerNamesScreen newIn: self) buildWith: ToolBuilder default}.
-	self changed: #children
+	self changed: #contents

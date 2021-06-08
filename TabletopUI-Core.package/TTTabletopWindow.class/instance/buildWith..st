@@ -5,5 +5,5 @@ buildWith: aMorphicToolbuilder
 		model: self;
 		label: 'spacy';
 		extent: 800@500;
-		children: #children;
+		children: #contents;
 		yourself	)

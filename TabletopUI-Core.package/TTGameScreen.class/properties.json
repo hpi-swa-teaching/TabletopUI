@@ -9,7 +9,7 @@
 		"actionLog",
 		"inputField",
 		"playerSelectionMenu",
-		"scrollPane" ],
+		"map" ],
 	"name" : "TTGameScreen",
 	"pools" : [
 		 ],

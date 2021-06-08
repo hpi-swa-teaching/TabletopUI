@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self inputEvaluator: (TTDefaultEvaluator newWithInputField: self)
+	self evaluator: (TTDefaultEvaluator newWithInputField: self)

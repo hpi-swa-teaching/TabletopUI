@@ -2,6 +2,6 @@ initialization
 newWithActionLog: aTTActionLog playerSelectionMenu: aTTPlayerSelectionMenu
 
 	^ self new
-		actionLog: aTTActionLog;
-		playerSelectionMenu: aTTPlayerSelectionMenu;
+		log: aTTActionLog;
+		playerSelection: aTTPlayerSelectionMenu;
 		yourself

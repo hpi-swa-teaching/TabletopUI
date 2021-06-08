@@ -1,6 +1,6 @@
 screen management
 openGamemasterSelectionScreen
 	
-	self children: {
+	self contents: {
 		(TTGamemasterSelectionScreen newIn: self) buildWith: ToolBuilder default}.
-	self changed: #children
+	self changed: #contents

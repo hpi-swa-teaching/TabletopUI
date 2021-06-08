@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"newWithActionLog:playerSelectionMenu:" : "bv 5/29/2021 14:44" },
+		"newWithActionLog:playerSelectionMenu:" : "bv 6/8/2021 10:34" },
 	"instance" : {
-		"actionLog" : "bv 5/29/2021 11:40",
-		"actionLog:" : "bv 5/29/2021 11:40",
-		"changeToDefaultEvaluator" : "bv 5/30/2021 12:00",
-		"changeToInitiativeEvaluator" : "bv 5/30/2021 12:00",
+		"changeToDefaultEvaluator" : "bv 6/8/2021 10:32",
+		"changeToInitiativeEvaluator" : "bv 6/8/2021 10:32",
 		"createSpecWith:" : "joda 5/26/2021 22:51",
-		"initialize" : "bv 5/30/2021 12:08",
-		"inputEvaluator" : "bv 5/20/2021 10:17",
-		"inputEvaluator:" : "bv 5/20/2021 10:19",
-		"playerSelectionMenu" : "bv 5/29/2021 12:04",
-		"playerSelectionMenu:" : "bv 5/29/2021 12:04",
-		"processInput:" : "joda 5/30/2021 14:34",
+		"evaluator" : "bv 6/8/2021 10:32",
+		"evaluator:" : "bv 6/8/2021 10:32",
+		"initialize" : "bv 6/8/2021 10:33",
+		"log" : "bv 6/8/2021 10:31",
+		"log:" : "bv 6/8/2021 10:31",
+		"playerSelection" : "bv 6/8/2021 10:32",
+		"playerSelection:" : "bv 6/8/2021 10:32",
+		"processInput:" : "bv 6/8/2021 10:33",
 		"resetInputField" : "BV 5/1/2021 12:25" } }

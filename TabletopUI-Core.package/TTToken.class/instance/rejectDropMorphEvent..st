@@ -2,8 +2,8 @@ drag and drop
 rejectDropMorphEvent: anEvent
 
 	self
-		formerOwner: self defaultOwner;
-		formerPosition: self defaultOwner position.
-	self defaultOwner occupied: true.	
+		formerOwner: self defaultTile;
+		formerPosition: self defaultTile position.
+	self defaultTile occupied: true.	
 
 	super rejectDropMorphEvent: anEvent

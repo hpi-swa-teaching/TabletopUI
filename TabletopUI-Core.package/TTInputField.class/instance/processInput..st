@@ -4,9 +4,9 @@ processInput: aText
 	| activePlayer |
 	
 	self changed: #resetInputField.
-	activePlayer := self playerSelectionMenu getActivePlayer.
+	activePlayer := self playerSelection getActivePlayer.
 	
-	self actionLog 
+	self log 
 		logInput: activePlayer name , ': ', aText asString;
-		logOutput: (self inputEvaluator evaluateInput: aText asString from: activePlayer)
+		logOutput: (self evaluator evaluateInput: aText asString from: activePlayer)
 	

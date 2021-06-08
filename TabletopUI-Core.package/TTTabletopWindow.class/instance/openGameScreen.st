@@ -1,6 +1,6 @@
 screen management
 openGameScreen
 	
-	self children: {
+	self contents: {
 		(TTGameScreen newIn: self) buildWith: ToolBuilder default}.
-	self changed: #children
+	self changed: #contents

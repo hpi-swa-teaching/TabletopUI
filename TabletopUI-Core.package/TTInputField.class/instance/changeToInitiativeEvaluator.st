@@ -1,4 +1,4 @@
 mode selection
 changeToInitiativeEvaluator
 
-	self inputEvaluator: (TTInitiativeEvaluator newWithInputField: self)
+	self evaluator: (TTInitiativeEvaluator newWithInputField: self)

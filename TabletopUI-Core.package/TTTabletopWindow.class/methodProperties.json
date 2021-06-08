@@ -2,13 +2,13 @@
 	"class" : {
 		"open" : "MM 5/15/2021 11:00" },
 	"instance" : {
-		"buildWith:" : "MM 5/15/2021 11:12",
-		"children" : "MM 5/15/2021 11:13",
-		"children:" : "MM 5/15/2021 11:13",
+		"buildWith:" : "bv 6/8/2021 10:38",
+		"contents" : "bv 6/8/2021 10:38",
+		"contents:" : "bv 6/8/2021 10:38",
 		"game" : "joda 5/14/2021 16:42",
 		"game:" : "joda 5/14/2021 16:42",
 		"initialize" : "MM 5/15/2021 11:02",
-		"openGameScreen" : "MM 5/15/2021 17:15",
-		"openGamemasterSelectionScreen" : "MM 5/23/2021 10:16",
-		"openPlayerCountScreen" : "MM 5/15/2021 17:15",
-		"openPlayerNamesScreen" : "MM 5/15/2021 17:15" } }
+		"openGameScreen" : "bv 6/8/2021 10:38",
+		"openGamemasterSelectionScreen" : "bv 6/8/2021 10:39",
+		"openPlayerCountScreen" : "bv 6/8/2021 10:39",
+		"openPlayerNamesScreen" : "bv 6/8/2021 10:39" } }
