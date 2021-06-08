@@ -5,5 +5,5 @@ createListSpecWith: aToolBuilder
 		model: self;
 		list: #nameList;
 		getIndex: #selectedIndex;
-		setIndex: #selectedIndex:;
+		setIndex: #setIndex:;
 		yourself

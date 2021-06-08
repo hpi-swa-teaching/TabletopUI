@@ -1,5 +1,5 @@
 accessing
-selectedIndex: aNumber
+setIndex: aNumber
 
 	(aNumber > 0) ifTrue: [
 		selectedIndex := aNumber.
