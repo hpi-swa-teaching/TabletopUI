@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
 		"setUp" : "joda 5/21/2021 14:50",
 		"test00IncreaseCount" : "rf 5/25/2021 17:09",

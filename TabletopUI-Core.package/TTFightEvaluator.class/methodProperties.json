@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"newWithInputField:fightOrder:" : "rf 6/19/2021 11:14" },
+	"instance" : {
+		"ErrorNotAllowedToRoll" : "rf 6/19/2021 11:51",
+		"currentFightPosition" : "rf 6/19/2021 11:42",
+		"currentFightPosition:" : "rf 6/19/2021 11:41",
+		"endFighting" : "rf 6/19/2021 12:10",
+		"evaluateInput:from:" : "rf 6/19/2021 12:20",
+		"fightingPlayers" : "rf 6/19/2021 11:14",
+		"fightingPlayers:" : "rf 6/19/2021 11:14",
+		"initialize" : "rf 6/19/2021 11:46",
+		"validateFightRoll:by:" : "rf 6/19/2021 12:42" } }

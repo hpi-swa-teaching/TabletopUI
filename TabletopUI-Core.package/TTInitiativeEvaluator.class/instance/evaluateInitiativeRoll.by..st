@@ -5,6 +5,6 @@ evaluateInitiativeRoll: aString by: aTTPlayer
 	
 	rollResult := self executeDiceRollCommand: aString.
 	(rollResult isAllDigits) ifTrue: [
-		self rolls add: (aTTPlayer name -> (rollResult asNumber))].
+		self rolls add: (aTTPlayer -> (rollResult asNumber))].
 	
 	^ rollResult

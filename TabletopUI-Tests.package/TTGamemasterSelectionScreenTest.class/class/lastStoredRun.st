@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#duration->18); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test00nameList; add: #test02gameMasterSelection; add: #test01defaultSelection; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test00nameList->4); add: (#test02gameMasterSelection->11); add: (#test01defaultSelection->3); yourself)); yourself)

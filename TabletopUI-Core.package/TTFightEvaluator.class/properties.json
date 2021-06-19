@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedIndex" ],
-	"name" : "NameOfSubclass",
+		"fightingPlayers",
+		"currentFightPosition" ],
+	"name" : "TTFightEvaluator",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTInputEvaluator",
 	"type" : "normal" }

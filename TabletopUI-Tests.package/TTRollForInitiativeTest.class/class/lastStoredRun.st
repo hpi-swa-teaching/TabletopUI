@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#duration->0); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test01VerifyPlayerrole; add: #test00SwitchEvaluators; add: #test02SaveRoll; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test01VerifyPlayerrole->0); add: (#test00SwitchEvaluators->0); add: (#test02SaveRoll->0); yourself)); yourself)

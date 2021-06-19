@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rf 6/9/2021 14:12",
+		"test00MorphOrTile" : "rf 6/9/2021 14:11",
+		"test01MorphOrToken" : "rf 6/9/2021 14:11" } }

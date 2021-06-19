@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#duration->19); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test00openPlayerCountScreen; add: #test03openGameScreen; add: #test01openPlayerNamesScreen; add: #test02openGamemasterSelectionScreen; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test01openPlayerNamesScreen->3); add: (#test00openPlayerCountScreen->4); add: (#test02openGamemasterSelectionScreen->3); add: (#test03openGameScreen->9); yourself)); yourself)

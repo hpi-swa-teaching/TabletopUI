@@ -2,7 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"initialize" : "bv 6/5/2021 16:51",
+		"fightingPlayers" : "rf 6/19/2021 11:00",
+		"fightingPlayers:" : "rf 6/19/2021 11:00",
+		"initialize" : "rf 6/19/2021 10:47",
+		"isFighting" : "rf 6/19/2021 10:47",
+		"isFighting:" : "rf 6/19/2021 10:47",
 		"playerCount" : "joda 5/21/2021 15:25",
 		"playerCount:" : "joda 5/21/2021 15:25",
 		"players" : "rf 5/21/2021 17:11",

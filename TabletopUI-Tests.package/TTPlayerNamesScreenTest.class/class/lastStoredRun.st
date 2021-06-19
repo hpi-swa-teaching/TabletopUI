@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#duration->10); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test02HasNoUniqueNames; add: #test00PlayersCreation; add: #test01HasUniqueNames; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test02HasNoUniqueNames->2); add: (#test00PlayersCreation->6); add: (#test01HasUniqueNames->2); yourself)); yourself)

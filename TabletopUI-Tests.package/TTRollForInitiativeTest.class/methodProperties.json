@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
 		"setUp" : "bv 6/5/2021 17:10",
 		"test00SwitchEvaluators" : "bv 6/8/2021 10:52",

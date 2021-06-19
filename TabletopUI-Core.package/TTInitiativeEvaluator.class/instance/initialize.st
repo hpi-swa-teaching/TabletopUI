@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self rolls: Dictionary new
+	self rolls: OrderedDictionary new

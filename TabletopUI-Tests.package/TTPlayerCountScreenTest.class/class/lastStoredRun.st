@@ -1,0 +1,3 @@
+history
+lastStoredRun
+	^ ((Dictionary new) add: (#duration->1); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test00IncreaseCount; add: #test02ChangeCountBy; add: #test03IsValidInput; add: #test01DecreaseCount; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test03IsValidInput->0); add: (#test01DecreaseCount->0); add: (#test00IncreaseCount->1); add: (#test02ChangeCountBy->0); yourself)); yourself)

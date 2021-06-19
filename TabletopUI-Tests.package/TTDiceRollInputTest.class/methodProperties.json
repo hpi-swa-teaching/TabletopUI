@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
 		"setUp" : "bv 6/5/2021 16:20",
 		"test00InvalidInput" : "bv 6/5/2021 16:15",

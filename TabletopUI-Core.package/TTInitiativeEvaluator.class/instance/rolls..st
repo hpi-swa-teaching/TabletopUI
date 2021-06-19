@@ -1,4 +1,4 @@
 accessing
-rolls: aDictionary
+rolls: anOrderedDictionary
 
-	rolls := aDictionary
+	rolls := anOrderedDictionary

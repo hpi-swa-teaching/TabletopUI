@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"token",
+		"tile" ],
+	"name" : "TTDragAndDropTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -7,7 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"playerCount",
-		"players" ],
+		"players",
+		"isFighting",
+		"fightingPlayers" ],
 	"name" : "TTGame",
 	"pools" : [
 		 ],
