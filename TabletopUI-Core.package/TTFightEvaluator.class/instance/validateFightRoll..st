@@ -1,5 +1,5 @@
 input evaluation
-validateFightRoll: aString by: aTTPlayer
+validateFightRoll: aString
 
 	| output |
 	

@@ -1,4 +1,4 @@
 fight
 isValidFightPosition
 
-	^ self currentFightPosition <= self fightingPlayers size
+	^ (self currentFightPosition <= self fightingPlayers size)

@@ -1,5 +1,5 @@
 accessing
 currentPlayer
 
-	self fightingPlayers at: self currentFightPosition
+	^ self fightingPlayers at: self currentFightPosition
 	

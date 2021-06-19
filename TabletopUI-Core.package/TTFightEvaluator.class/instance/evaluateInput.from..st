@@ -8,9 +8,9 @@ evaluateInput: aString from: aTTPlayer
 			(aTTPlayer isGamemaster) ifFalse: [
 				output := self ErrorNotAllowedToRoll]]
 			ifTrue: [
-				output := self executeDiceRollCommand: aString]].
+				output := self validateFightRoll: aString]].
 		(self isFightOver) ifTrue:[
-			output := output, '... The Fight is over.'.
+			output := output, ' ... The Fight is over.'.
 			self endFighting].
 	
 	^ 'FIGHT: ', output

@@ -1,4 +1,4 @@
 fight
 isFightOver
 
-	^ self currentFightPosition > self fightingPlayers size
+	^ (self currentFightPosition > self fightingPlayers size)
