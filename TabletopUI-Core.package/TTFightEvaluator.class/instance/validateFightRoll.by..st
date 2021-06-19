@@ -1,20 +1,11 @@
-accessing
+input evaluation
 validateFightRoll: aString by: aTTPlayer
 
 	| output |
-	(self currentFightPosition <= self fightingPlayers size) ifTrue: [
-		((self fightingPlayers at: self currentFightPosition) equals: aTTPlayer) ifFalse: [
-			(aTTPlayer isGamemaster) ifTrue: [
-				"keine Ahnung, was passieren soll"
-				]
-			ifFalse: [
-				output := self ErrorNotAllowedToRoll]]
-			ifTrue: [
-				self currentFightPosition: (self currentFightPosition + 1).
-				output := self evaluateInitiativeRoll: aString by: aTTPlayer]].
-		(self currentFightPosition = self fightingPlayers size) ifTrue:[
-		output := output, ' Ended Fight.'.
-		self endFighting].
-	output := 'Fight: ', output.
-				
+	
+	output := self ErrorCommandNotFound.
+	(aString matchesRegex: '^roll ([1-9][0-9]*)?d[1-9][0-9]*([\+\-][1-9][0-9]*)?$') 		ifTrue: [
+			output := self executeDiceRollCommand: aString].
+	self increaseCurrentFightPosition.
+	
 	^ output

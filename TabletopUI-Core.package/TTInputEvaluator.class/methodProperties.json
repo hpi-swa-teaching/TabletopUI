@@ -4,6 +4,7 @@
 	"instance" : {
 		"ErrorCommandNotFound" : "joda 5/30/2021 14:28",
 		"ErrorInvalidDiceSize:" : "joda 5/30/2021 14:58",
+		"ErrorNotAllowedToRoll" : "rf 6/19/2021 13:35",
 		"ErrorNotAuthorised" : "joda 5/30/2021 14:29",
 		"evaluateDiceRollWithConfiguarions:" : "joda 5/30/2021 15:25",
 		"evaluateInput:from:" : "joda 5/30/2021 14:34",

@@ -1,4 +1,4 @@
-accessing
+fight
 endFighting
 	
 	self inputField changeToDefaultEvaluator

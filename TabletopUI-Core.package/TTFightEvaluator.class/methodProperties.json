@@ -2,12 +2,15 @@
 	"class" : {
 		"newWithInputField:fightOrder:" : "rf 6/19/2021 11:14" },
 	"instance" : {
-		"ErrorNotAllowedToRoll" : "rf 6/19/2021 11:51",
 		"currentFightPosition" : "rf 6/19/2021 11:42",
 		"currentFightPosition:" : "rf 6/19/2021 11:41",
+		"currentPlayer" : "rf 6/19/2021 13:14",
 		"endFighting" : "rf 6/19/2021 12:10",
-		"evaluateInput:from:" : "rf 6/19/2021 12:20",
+		"evaluateInput:from:" : "rf 6/19/2021 13:50",
 		"fightingPlayers" : "rf 6/19/2021 11:14",
 		"fightingPlayers:" : "rf 6/19/2021 11:14",
+		"increaseCurrentFightPosition" : "rf 6/19/2021 13:16",
 		"initialize" : "rf 6/19/2021 11:46",
-		"validateFightRoll:by:" : "rf 6/19/2021 12:42" } }
+		"isFightOver" : "rf 6/19/2021 13:25",
+		"isValidFightPosition" : "rf 6/19/2021 13:13",
+		"validateFightRoll:by:" : "rf 6/19/2021 13:50" } }

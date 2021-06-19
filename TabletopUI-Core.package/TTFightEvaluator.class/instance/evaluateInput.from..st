@@ -1,10 +1,16 @@
-as yet unclassified
+input evaluation
 evaluateInput: aString from: aTTPlayer
 
 	| output |
 
-	output := self ErrorCommandNotFound.
-	(aString matchesRegex: '^roll ([1-9][0-9]*)?d[1-9][0-9]*([\+\-][1-9][0-9]*)?$') ifTrue: [
-		output := self executeDiceRollCommand: aString].
+	(self isValidFightPosition) ifTrue: [
+		(self currentPlayer = aTTPlayer) ifFalse: [
+			(aTTPlayer isGamemaster) ifFalse: [
+				output := self ErrorNotAllowedToRoll]]
+			ifTrue: [
+				output := self executeDiceRollCommand: aString]].
+		(self isFightOver) ifTrue:[
+			output := output, '... The Fight is over.'.
+			self endFighting].
 	
-	^ output
+	^ 'FIGHT: ', output
