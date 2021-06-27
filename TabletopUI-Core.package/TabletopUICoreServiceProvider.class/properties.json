@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"inputField",
-		"map",
-		"playerSelectionMenu",
-		"sidebar" ],
-	"name" : "TTGameScreen",
+		 ],
+	"name" : "TabletopUICoreServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

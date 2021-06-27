@@ -1,0 +1,4 @@
+imageData
+imageStandardMorph
+
+	^ ImageMorph new

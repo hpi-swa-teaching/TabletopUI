@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"newWith:" : "PB 6/27/2021 12:02" },
+	"instance" : {
+		"addStandardImages" : "PB 6/27/2021 12:46",
+		"createSpecWith:" : "PB 6/27/2021 12:27",
+		"imageIllusionPlayer" : "PB 6/27/2021 12:44",
+		"imageNameList" : "PB 6/27/2021 12:27",
+		"imageNameList:" : "PB 6/27/2021 12:28",
+		"imageStandardMorph" : "PB 6/27/2021 12:45",
+		"images" : "PB 6/27/2021 12:29",
+		"images:" : "PB 6/27/2021 12:29",
+		"initialize" : "PB 6/27/2021 12:34",
+		"map" : "PB 6/27/2021 11:48",
+		"map:" : "PB 6/27/2021 11:49",
+		"removePreviousBackground" : "PB 6/27/2021 12:40",
+		"selectedIndex" : "PB 6/27/2021 11:36",
+		"selectedIndex:" : "PB 6/27/2021 11:36",
+		"setIndex:" : "PB 6/27/2021 12:22",
+		"updateBackground" : "PB 6/27/2021 12:39" } }

@@ -6,13 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"actionLog",
-		"inputField",
 		"map",
-		"playerSelectionMenu",
-		"sidebar" ],
-	"name" : "TTGameScreen",
+		"selectedIndex",
+		"imageNameList",
+		"images" ],
+	"name" : "TTSidebar",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "Model",
 	"type" : "normal" }

@@ -7,5 +7,5 @@ initialize
 		extent: (self class defaultSize) @ (self class defaultSize);
 		borderWidth: 1;
 		borderColor: Color gray;
-		color: Color  paleYellow;
+		color: Color transparent;
 		occupied: false
