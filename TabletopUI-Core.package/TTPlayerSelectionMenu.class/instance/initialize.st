@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self setIndex: 1
+	self selectedIndex: 1

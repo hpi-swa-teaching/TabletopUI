@@ -1,8 +1,8 @@
-accessing
-setIndex: aNumber
+background editing
+updateBackgroundForIndex: aNumber
 		
 	self
 		removePreviousBackground;
 		selectedIndex: aNumber;
 		changed: #selectedIndex;
-		updateBackground
+		setNewBackground

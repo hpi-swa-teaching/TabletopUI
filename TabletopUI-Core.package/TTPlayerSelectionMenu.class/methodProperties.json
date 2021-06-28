@@ -2,12 +2,11 @@
 	"class" : {
 		"newWithGame:" : "bv 5/29/2021 12:02" },
 	"instance" : {
-		"createSpecWith:" : "joda 6/2/2021 18:42",
+		"createSpecWith:" : "joda 6/28/2021 17:01",
 		"game" : "bv 5/29/2021 11:15",
 		"game:" : "bv 5/29/2021 11:15",
 		"getActivePlayer" : "bv 5/29/2021 15:22",
-		"initialize" : "joda 6/2/2021 18:38",
+		"initialize" : "joda 6/28/2021 17:03",
 		"nameList" : "bv 5/29/2021 11:16",
 		"selectedIndex" : "bv 5/29/2021 12:18",
-		"selectedIndex:" : "PB 6/27/2021 12:15",
-		"setIndex:" : "PB 6/27/2021 12:15" } }
+		"selectedIndex:" : "joda 6/28/2021 17:11" } }

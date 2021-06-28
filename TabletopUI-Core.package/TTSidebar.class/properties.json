@@ -8,7 +8,6 @@
 	"instvars" : [
 		"map",
 		"selectedIndex",
-		"imageNameList",
 		"images" ],
 	"name" : "TTSidebar",
 	"pools" : [

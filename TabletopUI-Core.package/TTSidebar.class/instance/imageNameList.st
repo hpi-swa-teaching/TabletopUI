@@ -1,4 +1,4 @@
 accessing
 imageNameList
 
-	^ imageNameList
+	^ self images keys asList

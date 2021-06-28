@@ -5,5 +5,5 @@ createSpecWith: aToolBuilder
 		model: self;
 		list: #imageNameList;
 		getIndex: #selectedIndex;
-		setIndex: #setIndex:;
+		setIndex: #updateBackgroundForIndex:;
 		yourself

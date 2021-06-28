@@ -1,5 +1,5 @@
 background editing
-updateBackground
+setNewBackground
 
 	| imageKey |
 	(self selectedIndex > 0) ifTrue: [
