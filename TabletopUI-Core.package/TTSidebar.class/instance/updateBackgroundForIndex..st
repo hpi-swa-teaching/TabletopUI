@@ -2,7 +2,7 @@ background editing
 updateBackgroundForIndex: aNumber
 		
 	self
-		removePreviousBackground;
+		removeCurrentBackground;
 		selectedIndex: aNumber;
 		changed: #selectedIndex;
 		setNewBackground

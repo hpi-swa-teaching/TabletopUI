@@ -1,6 +1,7 @@
 initialization
 addStandardImages
 
-	self images 
-		add: #beautifulColors -> self imageStandardMorph;
-		add: #coolIllusionPlayer -> self imageIllusionPlayer
+	self images
+		add: #skyrim -> self imageSkyrim;
+		add: #hafenstadt -> self imageHafenstadt;
+		add: #indoor -> self imageIndoor

@@ -1,4 +1,4 @@
 constants and defaults
 defaultSize
 
-	^ 1000
+	^ 4000
