@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"fightingPlayers",
-		"currentFightPosition",
-		"display" ],
-	"name" : "TTFightEvaluator",
+		"participants",
+		"currentPlayer" ],
+	"name" : "TTTurnOrderDisplay",
 	"pools" : [
 		 ],
-	"super" : "TTInputEvaluator",
+	"super" : "Model",
 	"type" : "normal" }

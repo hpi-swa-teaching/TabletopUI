@@ -4,4 +4,5 @@ newWithInputField: aTTInputField fightOrder: aCollection
 	^ self new
 		inputField: aTTInputField;
 		fightingPlayers: aCollection;
+		openTurnOrderDisplay;
 		yourself
