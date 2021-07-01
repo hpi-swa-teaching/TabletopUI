@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"map",
-		"selectedIndex",
-		"images" ],
-	"name" : "TTSidebar",
+		"occupied" ],
+	"name" : "TTTokenBar",
 	"pools" : [
 		 ],
 	"super" : "Model",
