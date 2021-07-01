@@ -3,7 +3,7 @@ validateInitiativeRoll: aString by: aTTPlayer
 
 	| output |
 
-	(self rolls keys includes: aTTPlayer name) ifTrue: [
+	(self rolls keys includes: aTTPlayer) ifTrue: [
 		output := self ErrorMultipleRolls]
 	ifFalse: [
 		(aTTPlayer isGamemaster) ifTrue: [

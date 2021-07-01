@@ -6,6 +6,6 @@
 		"test00InvalidInput" : "bv 6/5/2021 16:15",
 		"test01Roll" : "bv 6/5/2021 16:16",
 		"test02RollValidDiceSize" : "bv 6/5/2021 16:17",
-		"test03RollWithModifier" : "bv 6/5/2021 16:18",
+		"test03RollWithModifier" : "bv 6/23/2021 17:56",
 		"test04RollMultipleDice" : "bv 6/5/2021 16:19",
 		"test05RollCombined" : "bv 6/5/2021 16:20" } }

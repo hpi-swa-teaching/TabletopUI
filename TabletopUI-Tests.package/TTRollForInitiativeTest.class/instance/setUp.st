@@ -7,4 +7,5 @@ setUp
 	gamemaster := TTPlayer new.
 	gamemaster role: #gamemaster.
 	gamemaster changeName: 'gm'.
-	regularPlayer := TTPlayer new
+	regularPlayers := {TTPlayer new . TTPlayer new . TTPlayer new} asOrderedCollection.
+	regularPlayers doWithIndex: [:player :i | player name: (i asString)]

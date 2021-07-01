@@ -9,10 +9,10 @@
 		"display:" : "rf 6/29/2021 11:27",
 		"endFightingAs:" : "rf 6/29/2021 11:28",
 		"evaluateInput:from:" : "rf 6/29/2021 10:11",
-		"executeDiceRollCommand:asPlayer:" : "rf 6/29/2021 12:06",
+		"executeDiceRollCommand:asPlayer:" : "bv 6/30/2021 17:20",
 		"fightingPlayers" : "rf 6/19/2021 11:14",
 		"fightingPlayers:" : "rf 6/19/2021 11:14",
 		"handleInvalidRollFrom:" : "rf 6/29/2021 10:07",
-		"increaseCurrentFightPosition" : "rf 6/29/2021 09:39",
 		"initialize" : "rf 6/29/2021 10:20",
-		"openTurnOrderDisplay" : "rf 6/29/2021 12:05" } }
+		"openTurnOrderDisplay" : "rf 6/29/2021 12:05",
+		"proceedToNextPlayer" : "bv 6/29/2021 17:18" } }
