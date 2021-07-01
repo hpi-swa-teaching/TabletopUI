@@ -4,10 +4,10 @@
 	"instance" : {
 		"ErrorMultipleRolls" : "joda 5/30/2021 14:30",
 		"ErrorOnlyPlayersRoll" : "joda 5/30/2021 14:32",
-		"endRollForInitiativeAs:" : "rf 6/29/2021 10:18",
-		"evaluateInitiativeRoll:by:" : "rf 6/19/2021 11:37",
+		"endRollForInitiativeAs:" : "bv 6/30/2021 17:16",
+		"evaluateInitiativeRoll:by:" : "bv 6/29/2021 17:48",
 		"evaluateInput:from:" : "rf 6/29/2021 09:35",
 		"initialize" : "rf 6/19/2021 09:53",
 		"rolls" : "bv 5/30/2021 11:47",
 		"rolls:" : "rf 6/19/2021 09:53",
-		"validateInitiativeRoll:by:" : "joda 5/30/2021 14:42" } }
+		"validateInitiativeRoll:by:" : "bv 6/29/2021 17:49" } }

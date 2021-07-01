@@ -4,10 +4,10 @@ executeDiceRollCommand: aString asPlayer: aTTPlayer
 	| output |
 
 	(self currentPlayer = aTTPlayer) ifTrue: [
-			self increaseCurrentFightPosition.
-			self display model changeSelectionTo: self currentPlayer name.
-			output := self executeDiceRollCommand: aString]
-		ifFalse: [
-			output := self handleInvalidRollFrom: aTTPlayer].
+		output := self executeDiceRollCommand: aString.
+		(output isAllDigits) ifTrue: [
+			self proceedToNextPlayer]]
+	ifFalse: [
+		output := self handleInvalidRollFrom: aTTPlayer].
 		
 	^ 'FIGHT: ', output

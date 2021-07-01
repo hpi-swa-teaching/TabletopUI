@@ -8,7 +8,7 @@
 	"instvars" : [
 		"inputField",
 		"gamemaster",
-		"regularPlayer" ],
+		"regularPlayers" ],
 	"name" : "TTRollForInitiativeTest",
 	"pools" : [
 		 ],
