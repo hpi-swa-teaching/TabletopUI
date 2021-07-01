@@ -2,12 +2,10 @@
 	"class" : {
 		"newWith:" : "PB 6/27/2021 12:02" },
 	"instance" : {
-		"addStandardImages" : "MM 6/29/2021 11:37",
+		"addStandardImages" : "MM 7/1/2021 11:54",
 		"createSpecWith:" : "joda 6/28/2021 16:57",
-		"imageHafenstadt" : "MM 6/29/2021 11:17",
-		"imageIndoor" : "MM 6/29/2021 11:37",
+		"imageMorphFromFile:" : "MM 7/1/2021 11:52",
 		"imageNameList" : "joda 6/28/2021 17:00",
-		"imageSkyrim" : "MM 6/29/2021 10:54",
 		"images" : "PB 6/27/2021 12:29",
 		"images:" : "PB 6/27/2021 12:29",
 		"initialize" : "joda 6/28/2021 16:54",
