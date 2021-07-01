@@ -1,4 +1,4 @@
-constants and defaults
+as yet unclassified
 maximalNameLength
 
 	^ 25

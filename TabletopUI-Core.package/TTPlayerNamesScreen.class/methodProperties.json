@@ -1,16 +1,12 @@
 {
 	"class" : {
 		"inputFieldHeight" : "MM 5/23/2021 11:08",
-		"inputFieldWidth" : "rf 5/21/2021 17:51",
-		"newIn:" : "rf 5/25/2021 17:03" },
+		"inputFieldWidth" : "rf 5/21/2021 17:51" },
 	"instance" : {
 		"buildWith:" : "MM 5/23/2021 11:32",
-		"continue" : "MM 5/23/2021 11:24",
+		"continue" : "bv 7/1/2021 16:07",
 		"continueButtonLabel" : "MM 5/24/2021 11:58",
-		"createInputFieldSpecWith:index:" : "joda 5/30/2021 16:53",
+		"createInputFieldSpecWith:index:" : "bv 7/1/2021 16:04",
 		"createLayoutWith:forPlayerCount:" : "MM 5/23/2021 11:50",
-		"hasUniqueNames" : "MM 5/23/2021 11:25",
 		"inputFieldBoundsForIndex:" : "MM 5/23/2021 11:50",
-		"leave" : "piabeeck 5/15/2021 11:18",
-		"players" : "rf 5/21/2021 17:10",
-		"players:" : "rf 5/21/2021 17:10" } }
+		"leave" : "bv 7/1/2021 16:16" } }

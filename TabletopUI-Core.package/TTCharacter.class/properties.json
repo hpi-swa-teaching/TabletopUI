@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTPlayerNamesScreen",
+		"name" ],
+	"name" : "TTCharacter",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "Object",
 	"type" : "normal" }

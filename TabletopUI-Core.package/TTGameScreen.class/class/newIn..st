@@ -9,5 +9,5 @@ newIn: aTTTabletopWindow
 		inputField: (TTInputField newWithActionLog: gameScreen actionLog playerSelectionMenu: gameScreen playerSelectionMenu);
 		map: (TTMap newWithPlayers: gameScreen game players);
 		imageBar: (TTImageBar newWith: gameScreen map);
-		tokenBar: TTTokenBar new;
+		tokenBar: (TTTokenBar newWithMap: gameScreen map game: gameScreen game);
 		yourself

@@ -2,7 +2,7 @@ toolbuilder
 createInputFieldSpecWith: aToolBuilder index: aNumber
 	
 	^  aToolBuilder pluggableInputFieldSpec new
-		model: (self players at: aNumber);
+		model: (self game players at: aNumber);
 		editText: #changeName:;
 		setText: #changeName:;
 		indicateUnacceptedChanges: false;

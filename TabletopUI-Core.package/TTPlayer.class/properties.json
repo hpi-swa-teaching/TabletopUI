@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
 		"role" ],
 	"name" : "TTPlayer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTCharacter",
 	"type" : "normal" }

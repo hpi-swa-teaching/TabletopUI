@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTPlayerNamesScreen",
+		"npc" ],
+	"name" : "TTNPCToken",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "TTToken",
 	"type" : "normal" }
