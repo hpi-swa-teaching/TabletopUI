@@ -1,5 +1,5 @@
 validation
-displayInvalidInputMessage
+throwInvalidInputException
 
 	Utilities 
 		informUser: 'Please enter a valid number greater than 0.' 

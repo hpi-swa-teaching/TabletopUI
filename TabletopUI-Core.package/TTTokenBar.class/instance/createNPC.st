@@ -1,9 +1,9 @@
-as yet unclassified
+npc creation
 createNPC
 
 	| npc |
 	
-	npc := TTCharacter new.
-	npc changeName: ''.
+	npc := TTCharacter newWithName: self currentName.
+	self changed: #resetInputField.
 	self game addNPC: npc.
 	self map createTokenForNPC: npc

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWith: aTTTile npc: aTTCharacter
 
 	^ (super newWith: aTTTile)

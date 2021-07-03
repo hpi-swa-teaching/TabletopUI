@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"maximalNameLength" : "bv 7/1/2021 13:53" },
+		"newWithName:" : "bv 7/3/2021 15:48" },
 	"instance" : {
-		"changeName:" : "bv 7/1/2021 15:48",
+		"changeName:" : "bv 7/3/2021 15:52",
 		"initialize" : "PB 7/3/2021 11:39",
-		"isValidName:" : "bv 7/1/2021 13:48",
 		"name" : "bv 7/1/2021 13:46",
-		"name:" : "bv 7/1/2021 13:46" } }
+		"name:" : "bv 7/3/2021 15:51" } }

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWithMap: aTTMap game: aTTGame
 
 	^ self new

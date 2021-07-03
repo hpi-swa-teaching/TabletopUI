@@ -4,8 +4,8 @@
 		"increaseButtonBounds" : "rf 5/21/2021 17:32" },
 	"instance" : {
 		"buildWith:" : "PB 7/3/2021 10:48",
-		"changeCountBy:" : "joda 5/21/2021 15:33",
-		"continue" : "bv 7/1/2021 16:13",
+		"changeCountBy:" : "bv 7/3/2021 15:15",
+		"continue" : "bv 7/3/2021 15:15",
 		"continueButtonLabel" : "MM 5/24/2021 11:58",
 		"countText" : "joda 5/21/2021 14:26",
 		"countText:" : "joda 5/21/2021 14:25",
@@ -13,9 +13,9 @@
 		"createIncreaseButtonSpecWith:" : "MM 5/15/2021 11:27",
 		"createInputFieldSpecWith:" : "rf 5/21/2021 17:43",
 		"decreaseCount" : "joda 5/21/2021 14:37",
-		"displayInvalidInputMessage" : "joda 5/21/2021 15:36",
 		"increaseCount" : "joda 5/21/2021 14:37",
 		"initialize" : "MM 5/21/2021 18:15",
 		"isValid:" : "rf 5/25/2021 17:00",
 		"leave" : "rf 5/21/2021 17:44",
-		"leaveButtonLabel" : "MM 5/24/2021 12:00" } }
+		"leaveButtonLabel" : "MM 5/24/2021 12:00",
+		"throwInvalidInputException" : "bv 7/3/2021 15:15" } }

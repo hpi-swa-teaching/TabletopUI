@@ -6,4 +6,4 @@ continue
 		self game playerCount timesRepeat: [self game addPlayer: TTPlayer new].
 		self window openPlayerNamesScreen]
 	ifFalse: [
-		self displayInvalidInputMessage]
+		self throwInvalidInputException]

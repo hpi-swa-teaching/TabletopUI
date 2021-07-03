@@ -5,5 +5,5 @@ createAddNPCButtonSpecWith: aToolBuilder
 		model: self;
 		frame: (0 @ 0.5 corner: 1 @ 1);
 		label: 'Add NPC';
-		action: #createNPC;
+		action: #validateAndCreateNPC;
 		yourself

@@ -1,9 +1,10 @@
 screen management
 continue
 
-	(self game hasNameDuplicates) ifTrue: [
-		Utilities 
-                	informUser: 'Game cannot start. There are name duplicates.' 
-              	during: [(Delay forSeconds: 2) wait]]
+	(self game containsNameDuplicates) ifTrue: [
+		self game throwNameDuplicateException]
 	ifFalse: [
-		self window openGamemasterSelectionScreen]
+		(self game containsOverlongName) ifTrue: [
+			self game throwOverlongNameException]
+		ifFalse:[
+			self window openGamemasterSelectionScreen]]
