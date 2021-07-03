@@ -1,4 +1,4 @@
 constants and defaults
 inputFieldWidth
 
-	^ 0.4
+	^ 6

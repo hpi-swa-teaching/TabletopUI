@@ -3,7 +3,6 @@ createSpecWith: aToolBuilder
 	
 	^ aToolBuilder pluggableScrollPaneSpec new
 		morph: self;
-		halt;
 		hScrollBarPolicy: #always;
 		vScrollBarPolicy: #always;
 		borderWidth: 0;
