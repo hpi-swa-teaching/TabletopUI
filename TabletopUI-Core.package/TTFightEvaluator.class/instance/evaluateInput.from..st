@@ -8,5 +8,7 @@ evaluateInput: aString from: aTTPlayer
 		output := self executeDiceRollCommand: aString asPlayer: aTTPlayer].
 	(aString matchesRegex: '^end fight$') ifTrue: [
 		output := self endFightingAs: aTTPlayer].
+	(aString matchesRegex: '^remove (.*)$') ifTrue: [
+		output := self executeRemoveCommand: aString asPlayer: aTTPlayer].
 	
-	^ output
+	 ^ output

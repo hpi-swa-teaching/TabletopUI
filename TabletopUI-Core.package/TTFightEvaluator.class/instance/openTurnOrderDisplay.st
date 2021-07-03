@@ -1,7 +1,4 @@
-accessing
+initialization
 openTurnOrderDisplay
 
-	| participantNames |
-	
-	participantNames := self fightingPlayers collect: [:player | player name].
-	self display: (TTTurnOrderDisplay openWith: participantNames)
+	self display: (TTTurnOrderDisplay openWith: self)

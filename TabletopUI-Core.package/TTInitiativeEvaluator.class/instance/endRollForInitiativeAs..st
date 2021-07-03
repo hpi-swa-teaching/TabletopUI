@@ -9,7 +9,7 @@ endRollForInitiativeAs: aTTPlayer
 			output := 'At least 2 characters have to participate in a fight.']
 		ifFalse: [
 			output := 'The fight begins!'.
-			self inputField changeToFightEvaluatorWithFightOrder: (self rolls keys)]]
+			self inputField changeToFightEvaluatorWithFightOrder: (self rolls keys) asOrderedCollection]]
 	ifFalse: [
 		output := self ErrorNotAuthorised].
 	

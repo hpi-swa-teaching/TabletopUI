@@ -1,9 +1,8 @@
 as yet unclassified
-newWith: aCollection
+newWith: aTTFightEvaluator
 
 	^ self new
-		participants: aCollection;
-		currentPlayer: (aCollection at: 1);
+		fightEvaluator: aTTFightEvaluator;
 		yourself
 
 	

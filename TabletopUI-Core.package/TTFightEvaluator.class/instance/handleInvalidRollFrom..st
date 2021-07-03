@@ -1,4 +1,4 @@
-initialization
+input evaluation
 handleInvalidRollFrom: aTTPlayer
 
 	| output |

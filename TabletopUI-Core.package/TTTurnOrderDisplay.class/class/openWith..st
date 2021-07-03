@@ -1,4 +1,4 @@
 as yet unclassified
-openWith: aCollection
+openWith: aTTFightEveluator
 
-	^ ToolBuilder open: (self newWith: aCollection)
+	^ ToolBuilder open: (self newWith: aTTFightEveluator)

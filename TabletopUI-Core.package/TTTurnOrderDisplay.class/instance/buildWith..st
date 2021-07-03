@@ -1,13 +1,13 @@
-accessing
+toolbuilder
 buildWith: aToolBuilder
 
 	| listSpec |
 	
 	listSpec := aToolBuilder pluggableListSpec new
-		model: self;
+		model: self fightEvaluator;
 		name: 'Turn Order';
-		list: #participants;
-		getSelected: #currentPlayer;
+		list: #fightingPlayersNames;
+		getSelected: #currentPlayerName;
 		yourself.
 		
 	^ aToolBuilder build: listSpec

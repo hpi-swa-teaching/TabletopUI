@@ -1,11 +1,8 @@
 {
 	"class" : {
-		"newWith:" : "rf 6/29/2021 12:01",
-		"openWith:" : "rf 6/29/2021 11:33" },
+		"newWith:" : "MM 7/3/2021 15:36",
+		"openWith:" : "MM 7/3/2021 15:30" },
 	"instance" : {
-		"buildWith:" : "rf 6/29/2021 11:55",
-		"changeSelectionTo:" : "rf 6/29/2021 11:56",
-		"currentPlayer" : "rf 6/29/2021 11:53",
-		"currentPlayer:" : "rf 6/29/2021 11:54",
-		"participants" : "rf 6/29/2021 10:30",
-		"participants:" : "rf 6/29/2021 10:31" } }
+		"buildWith:" : "MM 7/3/2021 15:45",
+		"fightEvaluator" : "MM 7/3/2021 15:35",
+		"fightEvaluator:" : "MM 7/3/2021 15:35" } }
