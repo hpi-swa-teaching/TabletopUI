@@ -1,10 +1,9 @@
-accessing
+toolbuilder
 createSpecWith: aToolBuilder
 	
 	^ aToolBuilder pluggableScrollPaneSpec new
-		morph: self;
-		halt;
-		hScrollBarPolicy: #always;
+		morph: self inputFields;
+		hScrollBarPolicy: #never;
 		vScrollBarPolicy: #always;
 		borderWidth: 0;
 		yourself
