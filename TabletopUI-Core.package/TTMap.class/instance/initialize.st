@@ -4,8 +4,8 @@ initialize
 	super initialize.
 	
 	self
-		extent: (self class defaultSize) @ (self class defaultSize);
+		extent: (self defaultSize) @ (self defaultSize);
 		tiles: (Matrix 
-					rows: ((self class defaultSize)/(TTTile defaultSize)) rounded 
-					columns: ((self class defaultSize)/(TTTile defaultSize)) rounded);
+			rows: ((self defaultSize)/(TTTile defaultSize)) rounded 
+			columns: ((self defaultSize)/(TTTile defaultSize)) rounded);
 		fillTiles

@@ -1,14 +1,10 @@
 roll for initiative
 validateInitiativeRoll: aString by: aTTPlayer
 
-	| output |
-
-	(self rolls keys includes: aTTPlayer) ifTrue: [
-		output := self ErrorMultipleRolls]
+	(self playersWhoRolled includes: aTTPlayer) ifTrue: [
+		^ self ErrorMultipleRolls]
 	ifFalse: [
 		(aTTPlayer isGamemaster) ifTrue: [
-			output := self ErrorOnlyPlayersRoll]
+			^ self ErrorOnlyPlayersRoll]
 		ifFalse: [
-			output := self evaluateInitiativeRoll: aString by: aTTPlayer]].
-	
-	^ output
+			^ self evaluateInitiativeRoll: aString by: aTTPlayer]]

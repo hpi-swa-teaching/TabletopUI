@@ -1,4 +1,4 @@
 accessing
-defaultTile: TTTile
+defaultTile: aTTTile
 
-	defaultTile := TTTile
+	defaultTile := aTTTile

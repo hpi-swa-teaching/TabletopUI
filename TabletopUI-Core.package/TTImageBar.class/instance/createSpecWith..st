@@ -6,5 +6,5 @@ createSpecWith: aToolBuilder
 		list: #imageNameList;
 		minimumWidth: 0;
 		getIndex: #selectedIndex;
-		setIndex: #updateBackgroundForIndex:;
+		setIndex: #changeBackgroundTo:;
 		yourself

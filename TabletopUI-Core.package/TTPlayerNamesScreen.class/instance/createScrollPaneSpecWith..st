@@ -1,5 +1,5 @@
 toolbuilder
-createSpecWith: aToolBuilder
+createScrollPaneSpecWith: aToolBuilder
 	
 	^ aToolBuilder pluggableScrollPaneSpec new
 		morph: (self buildInputFieldsWith: aToolBuilder);

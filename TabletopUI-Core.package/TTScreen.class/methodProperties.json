@@ -1,21 +1,20 @@
 {
 	"class" : {
-		"continueButtonBounds" : "rf 5/21/2021 17:31",
-		"inputFieldBounds" : "PB 7/3/2021 11:02",
-		"inputFieldListBounds" : "PB 7/3/2021 11:02",
-		"leaveButtonBounds" : "PB 7/3/2021 11:02",
 		"newIn:" : "joda 5/26/2021 22:35" },
 	"instance" : {
 		"addChildren:to:" : "MM 5/15/2021 17:27",
+		"buildWith:" : "bv 7/3/2021 20:53",
 		"buildWith:children:" : "bv 6/5/2021 15:48",
 		"buildWith:children:resizable:" : "bv 7/3/2021 16:18",
 		"continue" : "MM 5/23/2021 11:01",
+		"continueButtonBounds" : "bv 7/3/2021 19:58",
 		"continueButtonLabel" : "MM 5/23/2021 11:00",
 		"createContinueButtonSpecWith:" : "MM 5/23/2021 11:00",
 		"createLeaveButtonSpecWith:" : "MM 5/23/2021 11:02",
 		"game" : "joda 5/14/2021 16:29",
 		"game:" : "joda 5/14/2021 16:29",
 		"leave" : "MM 5/23/2021 11:01",
+		"leaveButtonBounds" : "bv 7/3/2021 19:59",
 		"leaveButtonLabel" : "MM 5/24/2021 12:01",
 		"window" : "joda 5/14/2021 16:29",
 		"window:" : "joda 5/26/2021 18:13" } }

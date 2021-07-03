@@ -1,4 +1,4 @@
 error messages
-ErrorNotInFIght: aString
+ErrorNotInFight: aString
 
 	^ aString , ' is not a character in this fight.'

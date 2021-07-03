@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWithInputField: aTTInputField fightOrder: aCollection
 
 	^ self new

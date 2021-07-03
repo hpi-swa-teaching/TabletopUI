@@ -4,4 +4,6 @@ removePlayer: aTTPlayer
 	(self currentPlayer = aTTPlayer) ifTrue: [
 		self proceedToNextPlayer].
 	self fightingPlayers remove: aTTPlayer.
-	self changed: #fightingPlayersNames
+	self changed: #fightingPlayersNames.
+	
+	^ 'FIGHT: Removed ' , aTTPlayer name , ' from fight.'

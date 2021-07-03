@@ -1,5 +1,5 @@
 background editing
-updateBackgroundForIndex: aNumber
+changeBackgroundTo: aNumber
 		
 	self
 		removeCurrentBackground;

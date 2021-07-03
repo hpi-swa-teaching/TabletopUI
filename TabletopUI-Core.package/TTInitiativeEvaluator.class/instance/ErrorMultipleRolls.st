@@ -1,4 +1,4 @@
 error messages
 ErrorMultipleRolls
 
-	^ 'You rolled already'
+	^ 'You rolled already.'

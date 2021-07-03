@@ -1,15 +1,12 @@
 input evaluation
 executeRemoveCommand: aString asPlayer: aTTPlayer
 
-	| output removedName removedPlayer |
+	| removedName removedPlayer |
 	
 	(aTTPlayer isGamemaster) ifTrue: [
 		removedName := aString copyAfter: Character space.
-		removedPlayer := self fightingPlayers detect: [:aFightingTTPlayer | aFightingTTPlayer name = removedName] ifNone: [
-			^ 'FIGHT: ' , self ErrorNotInFIght: aTTPlayer].
-		self removePlayer: removedPlayer.
-		output := 'removed ' , removedName , ' from fight.']
+		removedPlayer := self fightingPlayers detect: [:aTTCharacter | aTTCharacter name = removedName] ifNone: [
+			^ 'FIGHT: ' , (self ErrorNotInFight: removedName)].
+		^ self removePlayer: removedPlayer]
 	ifFalse: [
-		output := self ErrorNotAuthorised].
-		
-	^ 'FIGHT:  ', output
+		^ self ErrorNotAuthorised]

@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"defaultSize" : "MM 6/29/2021 10:47",
 		"newWithPlayers:" : "bv 5/30/2021 15:48" },
 	"instance" : {
 		"convertPixelPositionToTileCoordinates:" : "rf 5/8/2021 10:26",
@@ -9,9 +8,10 @@
 		"createSpecWith:" : "PB 7/3/2021 10:39",
 		"createTokenForNPC:" : "bv 7/1/2021 15:44",
 		"createTokenForPlayer:atTileCoordinates:" : "bv 7/1/2021 15:34",
+		"defaultSize" : "bv 7/3/2021 19:57",
 		"fillTiles" : "rf 5/8/2021 10:23",
-		"findFreeTile" : "bv 7/1/2021 15:43",
-		"initialize" : "bv 5/30/2021 15:49",
+		"findFreeTile" : "bv 7/3/2021 18:57",
+		"initialize" : "bv 7/3/2021 20:33",
 		"initializePlayerTokens:" : "bv 6/5/2021 16:44",
 		"tiles" : "rf 5/8/2021 09:52",
 		"tiles:" : "rf 5/8/2021 09:52" } }

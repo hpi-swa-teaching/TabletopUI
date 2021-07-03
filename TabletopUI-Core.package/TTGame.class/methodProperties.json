@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"maximalNameLength" : "bv 7/3/2021 14:32" },
+		 },
 	"instance" : {
 		"addNPC:" : "bv 7/1/2021 14:39",
 		"addPlayer:" : "bv 7/1/2021 16:11",
 		"characterNames" : "bv 7/3/2021 15:00",
+		"containsInvalidNameLength" : "bv 7/3/2021 17:55",
 		"containsNameDuplicates" : "bv 7/3/2021 15:34",
-		"containsOverlongName" : "bv 7/3/2021 15:10",
 		"initialize" : "bv 7/1/2021 13:58",
 		"isNameADuplicate:" : "bv 7/3/2021 15:24",
-		"isNameOverlong:" : "bv 7/3/2021 15:36",
+		"isNameLengthInvalid:" : "bv 7/3/2021 19:55",
+		"maximalNameLength" : "bv 7/3/2021 19:55",
 		"npcs" : "bv 7/1/2021 13:58",
 		"npcs:" : "bv 7/1/2021 13:58",
 		"playerCount" : "joda 5/21/2021 15:25",
@@ -17,5 +18,5 @@
 		"players" : "rf 5/21/2021 17:11",
 		"players:" : "rf 5/21/2021 17:12",
 		"selectAsGamemaster:" : "joda 5/26/2021 18:28",
-		"throwNameDuplicateException" : "bv 7/3/2021 16:21",
-		"throwOverlongNameException" : "bv 7/3/2021 15:16" } }
+		"throwInvalidNameLengthException" : "bv 7/3/2021 19:55",
+		"throwNameDuplicateException" : "bv 7/3/2021 16:21" } }

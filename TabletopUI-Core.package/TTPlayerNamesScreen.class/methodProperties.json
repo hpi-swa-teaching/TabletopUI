@@ -1,14 +1,16 @@
 {
 	"class" : {
-		"inputFieldHeight" : "PB 7/3/2021 11:20",
-		"inputFieldWidth" : "PB 7/3/2021 11:26" },
+		 },
 	"instance" : {
 		"buildInputFieldsWith:" : "PB 7/3/2021 10:28",
-		"buildWith:" : "PB 7/3/2021 11:37",
-		"continue" : "bv 7/3/2021 15:21",
+		"buildWith:" : "bv 7/3/2021 20:02",
+		"continue" : "bv 7/3/2021 17:56",
 		"continueButtonLabel" : "MM 5/24/2021 11:58",
 		"createInputFieldSpecWith:index:" : "bv 7/3/2021 15:53",
-		"createLayoutWith:forPlayerCount:" : "PB 7/3/2021 11:35",
-		"createSpecWith:" : "PB 7/3/2021 11:16",
-		"inputFieldBoundsForIndex:" : "PB 7/3/2021 11:26",
+		"createLayoutWith:forPlayerCount:" : "bv 7/3/2021 20:15",
+		"createScrollPaneSpecWith:" : "bv 7/3/2021 19:11",
+		"inputFieldBoundsForIndex:" : "bv 7/3/2021 20:05",
+		"inputFieldHeight" : "bv 7/3/2021 20:03",
+		"inputFieldListBounds" : "bv 7/3/2021 20:39",
+		"inputFieldWidth" : "bv 7/3/2021 20:03",
 		"leave" : "bv 7/1/2021 16:16" } }

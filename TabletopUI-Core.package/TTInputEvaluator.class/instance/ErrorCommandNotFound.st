@@ -1,4 +1,4 @@
 error messages
 ErrorCommandNotFound
 
-	^ 'Invalid input'
+	^ 'Invalid input.'

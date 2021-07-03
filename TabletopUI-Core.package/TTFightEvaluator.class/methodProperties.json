@@ -2,20 +2,20 @@
 	"class" : {
 		"newWithInputField:fightOrder:" : "MM 7/3/2021 16:11" },
 	"instance" : {
-		"ErrorNotInFIght:" : "MM 7/3/2021 16:42",
+		"ErrorNotInFight:" : "bv 7/3/2021 18:33",
 		"currentPlayer" : "MM 7/3/2021 16:06",
 		"currentPlayer:" : "MM 7/3/2021 16:11",
 		"currentPlayerName" : "MM 7/3/2021 15:44",
 		"display" : "rf 6/29/2021 11:27",
 		"display:" : "rf 6/29/2021 11:27",
-		"endFightingAs:" : "rf 6/29/2021 11:28",
-		"evaluateInput:from:" : "MM 7/3/2021 14:54",
+		"endFightingAs:" : "bv 7/3/2021 19:26",
+		"evaluateInput:from:" : "bv 7/3/2021 18:50",
 		"executeDiceRollCommand:asPlayer:" : "bv 6/30/2021 17:20",
-		"executeRemoveCommand:asPlayer:" : "MM 7/3/2021 16:43",
+		"executeRemoveCommand:asPlayer:" : "bv 7/3/2021 20:26",
 		"fightingPlayers" : "rf 6/19/2021 11:14",
 		"fightingPlayers:" : "MM 7/3/2021 16:30",
 		"fightingPlayersNames" : "MM 7/3/2021 15:29",
-		"handleInvalidRollFrom:" : "rf 6/29/2021 10:07",
+		"handleInvalidRollFrom:" : "bv 7/3/2021 19:29",
 		"openTurnOrderDisplay" : "MM 7/3/2021 15:36",
 		"proceedToNextPlayer" : "MM 7/3/2021 16:08",
-		"removePlayer:" : "MM 7/3/2021 16:40" } }
+		"removePlayer:" : "bv 7/3/2021 20:26" } }

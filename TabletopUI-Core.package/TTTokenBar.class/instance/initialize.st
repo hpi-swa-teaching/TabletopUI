@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self actionLog: TTActionLog new
+	self currentName: ''

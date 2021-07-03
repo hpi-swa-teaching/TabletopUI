@@ -1,13 +1,9 @@
 initialization
 newIn: aTTTabletopWindow
 	
-	| gameScreen |
-	^ (gameScreen := self new)
+	^ self new
 		window: aTTTabletopWindow;
 		game: aTTTabletopWindow game;
-		playerSelectionMenu: (TTPlayerSelectionMenu newWithGame: gameScreen game);
-		inputField: (TTInputField newWithActionLog: gameScreen actionLog playerSelectionMenu: gameScreen playerSelectionMenu);
-		map: (TTMap newWithPlayers: gameScreen game players);
-		imageBar: (TTImageBar newWith: gameScreen map);
-		tokenBar: (TTTokenBar newWithMap: gameScreen map game: gameScreen game);
+		initializeCommandBar;
+		initializeMapAndSideBar;
 		yourself

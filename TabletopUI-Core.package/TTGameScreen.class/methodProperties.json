@@ -1,13 +1,14 @@
 {
 	"class" : {
-		"newIn:" : "bv 7/1/2021 15:39" },
+		"newIn:" : "bv 7/3/2021 19:43" },
 	"instance" : {
 		"actionLog" : "joda 5/14/2021 14:01",
 		"actionLog:" : "joda 5/14/2021 14:03",
 		"buildWith:" : "rf 7/3/2021 09:52",
 		"imageBar" : "joda 7/1/2021 12:39",
 		"imageBar:" : "joda 7/1/2021 12:39",
-		"initialize" : "PB 6/27/2021 12:01",
+		"initializeCommandBar" : "bv 7/3/2021 19:41",
+		"initializeMapAndSideBar" : "bv 7/3/2021 19:43",
 		"inputField" : "joda 5/14/2021 14:05",
 		"inputField:" : "joda 5/14/2021 14:06",
 		"map" : "bv 6/8/2021 10:42",

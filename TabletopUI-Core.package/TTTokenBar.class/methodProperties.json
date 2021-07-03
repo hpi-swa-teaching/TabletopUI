@@ -2,7 +2,6 @@
 	"class" : {
 		"newWithMap:game:" : "bv 7/1/2021 13:39" },
 	"instance" : {
-		"buildWith:" : "bv 7/3/2021 16:19",
 		"changeCurrentName:" : "bv 7/3/2021 15:52",
 		"createAddNPCButtonSpecWith:" : "bv 7/3/2021 15:46",
 		"createInputFieldSpecWith:" : "bv 7/3/2021 15:57",
@@ -12,7 +11,8 @@
 		"currentName:" : "bv 7/3/2021 14:24",
 		"game" : "bv 7/1/2021 13:37",
 		"game:" : "bv 7/1/2021 13:37",
+		"initialize" : "bv 7/3/2021 17:06",
 		"map" : "bv 7/1/2021 13:37",
 		"map:" : "bv 7/1/2021 13:37",
 		"resetInputField" : "bv 7/3/2021 15:39",
-		"validateAndCreateNPC" : "bv 7/3/2021 15:46" } }
+		"validateAndCreateNPC" : "bv 7/3/2021 17:56" } }
