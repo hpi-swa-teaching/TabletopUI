@@ -5,5 +5,3 @@ removePlayer: aTTPlayer
 		self proceedToNextPlayer].
 	self fightingPlayers remove: aTTPlayer.
 	self changed: #fightingPlayersNames.
-	
-	^ 'FIGHT: Removed ' , aTTPlayer name , ' from fight.'

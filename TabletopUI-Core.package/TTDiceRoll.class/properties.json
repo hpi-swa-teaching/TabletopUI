@@ -4,10 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bv 7/3/2021 21:17",
+	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTDice",
+		"rolls",
+		"modifier",
+		"size" ],
+	"name" : "TTDiceRoll",
 	"pools" : [
 		 ],
 	"super" : "Object",

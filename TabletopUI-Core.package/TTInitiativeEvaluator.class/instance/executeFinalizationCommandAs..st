@@ -1,5 +1,5 @@
 roll for initiative
-endRollForInitiativeAs: aTTPlayer
+executeFinalizationCommandAs: aTTPlayer
 
 	(aTTPlayer isGamemaster) ifTrue: [
 		(self rolls size < 2) ifTrue: [

@@ -4,13 +4,13 @@
 	"instance" : {
 		"ErrorMultipleRolls" : "bv 7/3/2021 19:29",
 		"ErrorOnlyPlayersRoll" : "bv 7/3/2021 19:29",
-		"endRollForInitiativeAs:" : "bv 7/3/2021 20:32",
 		"endRollForInitiativePattern" : "bv 7/6/2021 14:05",
-		"evaluateInitiativeRoll:by:" : "bv 6/29/2021 17:48",
-		"evaluateInput:from:" : "bv 7/6/2021 14:06",
+		"evaluateInput:from:" : "MM 7/6/2021 16:45",
+		"executeDiceRollCommand:as:" : "MM 7/6/2021 17:09",
+		"executeFinalizationCommandAs:" : "MM 7/6/2021 16:45",
 		"initialize" : "rf 6/19/2021 09:53",
 		"playersWhoRolled" : "bv 7/3/2021 20:22",
 		"rolls" : "bv 5/30/2021 11:47",
 		"rolls:" : "rf 6/19/2021 09:53",
 		"startFight" : "bv 7/3/2021 20:28",
-		"validateInitiativeRoll:by:" : "bv 7/3/2021 20:21" } }
+		"validateInitiativeRoll:by:" : "MM 7/6/2021 16:39" } }

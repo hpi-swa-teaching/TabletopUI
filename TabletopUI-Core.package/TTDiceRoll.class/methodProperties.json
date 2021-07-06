@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"newWithRollCount:diceSize:modifier:" : "MM 7/6/2021 15:20" },
+	"instance" : {
+		"asString" : "MM 7/6/2021 16:12",
+		"formatNumber:" : "MM 7/6/2021 15:53",
+		"isValid" : "MM 7/6/2021 16:16",
+		"modifier" : "MM 7/6/2021 15:08",
+		"modifier:" : "MM 7/6/2021 15:08",
+		"resultValue" : "MM 7/6/2021 15:23",
+		"roll:" : "MM 7/6/2021 15:13",
+		"roll:multipleTimes:" : "MM 7/6/2021 15:12",
+		"rolls" : "MM 7/6/2021 15:07",
+		"rolls:" : "MM 7/6/2021 15:07",
+		"rollsWithModifier" : "MM 7/6/2021 16:58",
+		"size" : "MM 7/6/2021 15:19",
+		"size:" : "MM 7/6/2021 15:20",
+		"validDices" : "MM 7/6/2021 15:15" } }

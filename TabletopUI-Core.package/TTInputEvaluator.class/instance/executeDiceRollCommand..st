@@ -1,11 +1,11 @@
 dice roll
 executeDiceRollCommand: aString
 
-	| rollConfigurations |
+	| diceRoll |
 	
-	rollConfigurations := self parseDiceRollCommand: aString.
-	(TTDice isValidDice: (rollConfigurations at: #diceSize)) ifTrue: [
-		^ self evaluateDiceRollWithConfiguarions: rollConfigurations]
+	diceRoll := self diceRollFromInput: aString.		
+	(diceRoll isValid) ifTrue: [
+		^ diceRoll]
 	ifFalse: [
-		^ self ErrorInvalidDiceSize:  (rollConfigurations at: #diceSize)]
+		^ self ErrorInvalidDiceSize:  diceRoll size]
 	

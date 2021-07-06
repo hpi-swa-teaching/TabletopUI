@@ -1,5 +1,5 @@
 roll for initiative
-startRollForInitiativeAs: aTTPlayer
+executeFightCommandAs: aTTPlayer
 
 	(aTTPlayer isGamemaster) ifTrue: [
 		self inputField changeToInitiativeEvaluator.
