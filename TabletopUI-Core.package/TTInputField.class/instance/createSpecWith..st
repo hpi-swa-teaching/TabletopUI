@@ -6,5 +6,5 @@ createSpecWith: aToolBuilder
 		setText: #processInput:;
 		getText: #resetInputField;
 		indicateUnacceptedChanges: false;
-		help: 'roll xdy+/-z';
+		help: 'Enter command';
 		yourself

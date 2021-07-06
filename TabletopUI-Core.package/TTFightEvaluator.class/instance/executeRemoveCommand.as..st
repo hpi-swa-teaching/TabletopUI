@@ -1,5 +1,5 @@
 input evaluation
-executeRemoveCommand: aString asPlayer: aTTPlayer
+executeRemoveCommand: aString as: aTTPlayer
 
 	| removedName removedPlayer |
 	

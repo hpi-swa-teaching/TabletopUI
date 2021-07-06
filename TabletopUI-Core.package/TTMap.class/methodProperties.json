@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithPlayers:" : "bv 5/30/2021 15:48" },
 	"instance" : {
-		"convertPixelPositionToTileCoordinates:" : "rf 5/8/2021 10:26",
+		"convertPixelPositionToTileCoordinates:" : "MM 7/6/2021 18:56",
 		"convertTileCoordinatesToPixelPosition:" : "rf 5/8/2021 10:27",
 		"createAndInsertTileAt:" : "rf 5/8/2021 10:08",
 		"createSpecWith:" : "PB 7/3/2021 10:39",
@@ -10,8 +10,8 @@
 		"createTokenForPlayer:atTileCoordinates:" : "bv 7/1/2021 15:34",
 		"defaultSize" : "bv 7/3/2021 19:57",
 		"fillTiles" : "rf 5/8/2021 10:23",
-		"findFreeTile" : "bv 7/3/2021 18:57",
-		"initialize" : "bv 7/6/2021 11:20",
-		"initializePlayerTokens:" : "bv 6/5/2021 16:44",
+		"findFreeTile" : "MM 7/6/2021 18:56",
+		"initialize" : "MM 7/6/2021 18:55",
+		"initializePlayerTokens:" : "MM 7/6/2021 18:57",
 		"tiles" : "rf 5/8/2021 09:52",
 		"tiles:" : "rf 5/8/2021 09:52" } }

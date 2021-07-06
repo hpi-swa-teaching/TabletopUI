@@ -1,8 +1,5 @@
 imageLoading
 imageMorphFromFile: aString
-
-	| form |
 	
-	form := GMImageLoader new resourceFromDrive: aString.
-	
-	^ ImageMorph new newForm: form
+	^ ImageMorph new newForm: (
+		GMImageLoader new resourceFromDrive: aString)

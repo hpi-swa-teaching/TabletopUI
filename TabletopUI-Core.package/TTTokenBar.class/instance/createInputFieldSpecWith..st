@@ -8,5 +8,5 @@ createInputFieldSpecWith: aToolBuilder
 		editText: #currentName:;
 		setText: #currentName:;
 		indicateUnacceptedChanges: false;
-		help: 'name';
+		help: 'NPC name';
 		yourself
