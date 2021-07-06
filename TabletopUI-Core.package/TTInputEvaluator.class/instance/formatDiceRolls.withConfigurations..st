@@ -7,6 +7,6 @@ formatDiceRolls: anOrderedCollection withConfigurations: aDictionary
 	modifier := aDictionary at: #modifier.
 	((anOrderedCollection size = 1) and: (modifier = 0)) ifFalse:[
 		output := output , (self formatModifier: modifier).
-		output := output , ' = ' , (anOrderedCollection inject: modifier into: [:sum :diceroll | sum+diceroll])].
+		output := output , ' = ' , (anOrderedCollection inject: modifier into: [:aSum :aDiceroll | aSum+aDiceroll])].
 
 	^ output
