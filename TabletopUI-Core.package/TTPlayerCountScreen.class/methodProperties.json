@@ -3,8 +3,8 @@
 		 },
 	"instance" : {
 		"buildWith:" : "bv 7/3/2021 20:03",
-		"changeCountBy:" : "bv 7/3/2021 15:15",
-		"continue" : "bv 7/3/2021 15:15",
+		"changeCountBy:" : "bv 7/6/2021 13:49",
+		"continue" : "bv 7/6/2021 13:49",
 		"continueButtonLabel" : "MM 5/24/2021 11:58",
 		"countText" : "joda 5/21/2021 14:26",
 		"countText:" : "joda 5/21/2021 14:25",
@@ -13,11 +13,11 @@
 		"createInputFieldSpecWith:" : "rf 5/21/2021 17:43",
 		"decreaseButtonBounds" : "bv 7/3/2021 20:02",
 		"decreaseCount" : "joda 5/21/2021 14:37",
+		"displayInvalidInputError" : "bv 7/6/2021 13:48",
 		"increaseButtonBounds" : "bv 7/3/2021 20:03",
 		"increaseCount" : "joda 5/21/2021 14:37",
 		"initialize" : "MM 5/21/2021 18:15",
 		"inputFieldBounds" : "bv 7/3/2021 20:40",
 		"isValid:" : "rf 5/25/2021 17:00",
 		"leave" : "rf 5/21/2021 17:44",
-		"leaveButtonLabel" : "MM 5/24/2021 12:00",
-		"throwInvalidInputException" : "bv 7/3/2021 19:01" } }
+		"leaveButtonLabel" : "MM 5/24/2021 12:00" } }

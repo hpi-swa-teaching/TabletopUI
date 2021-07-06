@@ -1,0 +1,4 @@
+regex patterns
+removeCharacterPattern
+
+	^ '^remove (.+)$'

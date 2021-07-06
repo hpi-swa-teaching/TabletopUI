@@ -6,6 +6,7 @@
 		"ErrorInvalidDiceSize:" : "bv 7/3/2021 19:21",
 		"ErrorNotAllowedToRoll" : "rf 6/19/2021 13:35",
 		"ErrorNotAuthorised" : "bv 7/3/2021 19:21",
+		"diceRollPattern" : "bv 7/6/2021 13:58",
 		"evaluateDiceRollWithConfiguarions:" : "joda 5/30/2021 15:25",
 		"evaluateInput:from:" : "joda 5/30/2021 14:34",
 		"executeDiceRollCommand:" : "bv 7/3/2021 19:26",

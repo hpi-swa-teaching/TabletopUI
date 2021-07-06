@@ -5,4 +5,4 @@ changeCountBy: aNumber
 		self countText: (1 max: self countText asNumber + aNumber) asString.
 		self changed: #countText]
 	ifFalse: [
-		self throwInvalidInputException]
+		self displayInvalidInputError]

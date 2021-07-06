@@ -8,8 +8,9 @@
 		"currentPlayerName" : "MM 7/3/2021 15:44",
 		"display" : "rf 6/29/2021 11:27",
 		"display:" : "rf 6/29/2021 11:27",
+		"endFightPattern" : "bv 7/6/2021 14:01",
 		"endFightingAs:" : "bv 7/3/2021 19:26",
-		"evaluateInput:from:" : "bv 7/3/2021 18:50",
+		"evaluateInput:from:" : "bv 7/6/2021 14:04",
 		"executeDiceRollCommand:asPlayer:" : "bv 6/30/2021 17:20",
 		"executeRemoveCommand:asPlayer:" : "bv 7/3/2021 20:26",
 		"fightingPlayers" : "rf 6/19/2021 11:14",
@@ -18,4 +19,5 @@
 		"handleInvalidRollFrom:" : "bv 7/3/2021 19:29",
 		"openTurnOrderDisplay" : "MM 7/3/2021 15:36",
 		"proceedToNextPlayer" : "MM 7/3/2021 16:08",
+		"removeCharacterPattern" : "bv 7/6/2021 14:04",
 		"removePlayer:" : "bv 7/3/2021 20:26" } }
