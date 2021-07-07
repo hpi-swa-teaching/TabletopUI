@@ -1,5 +1,5 @@
 screen management
 leave
 
-	self game players removeAll.
+	self characterAdministration players removeAll.
 	self window openPlayerCountScreen

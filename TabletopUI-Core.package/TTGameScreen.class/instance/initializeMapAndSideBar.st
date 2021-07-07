@@ -1,6 +1,6 @@
 initialization
 initializeMapAndSideBar
 
-	self map: (TTMap newWith: self game players);
+	self map: (TTMap newWith: self characterAdministration players);
 		imageBar: (TTImageBar newWith: self map);
-		tokenBar: (TTTokenBar newWithMap: self map game: self game)
+		tokenBar: (TTTokenBar newWithMap: self map characterAdministration: self characterAdministration)

@@ -1,5 +1,5 @@
 as yet unclassified
-test02gameMasterSelection
+test02characterAdministrationMasterSelection
 
 	screen selectedIndex: 2.
 	screen continue.

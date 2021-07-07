@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "rf 7/7/2021 08:11" },
+		"newWith:" : "PB 7/7/2021 16:27" },
 	"instance" : {
+		"characterAdministration" : "PB 7/7/2021 16:23",
+		"characterAdministration:" : "PB 7/7/2021 16:26",
 		"createSpecWith:" : "joda 7/7/2021 10:35",
-		"game" : "bv 5/29/2021 11:15",
-		"game:" : "bv 5/29/2021 11:15",
-		"getActivePlayer" : "bv 5/29/2021 15:22",
+		"getActivePlayer" : "PB 7/7/2021 16:26",
 		"initialize" : "joda 6/28/2021 17:03",
-		"nameList" : "rf 7/7/2021 08:31",
+		"nameList" : "PB 7/7/2021 16:26",
 		"selectedIndex" : "bv 5/29/2021 12:18",
 		"selectedIndex:" : "bv 7/3/2021 18:57" } }

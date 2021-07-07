@@ -1,4 +1,4 @@
 accessing
 getActivePlayer
 
-	^ self game players at: self selectedIndex
+	^ self characterAdministration players at: self selectedIndex

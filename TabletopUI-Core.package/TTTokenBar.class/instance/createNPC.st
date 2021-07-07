@@ -7,5 +7,5 @@ createNPC
 	self 
 		currentName: '';
 		changed: #currentName.
-	self game addNPC: npc.
+	self characterAdministration addNPC: npc.
 	self map createTokenFor: npc

@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 21:48",
 	"instvars" : [
-		"window",
-		"game" ],
+		"characterAdministration",
+		"window" ],
 	"name" : "TTScreen",
 	"pools" : [
 		 ],

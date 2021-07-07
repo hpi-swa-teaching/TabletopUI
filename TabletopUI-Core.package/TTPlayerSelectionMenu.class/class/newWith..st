@@ -1,8 +1,8 @@
 initialization
-newWith: aTTGame
+newWith: aTTCharacterAdministration
 
 	^ self new
-		game: aTTGame;
+		characterAdministration: aTTCharacterAdministration;
 		yourself
 
 	

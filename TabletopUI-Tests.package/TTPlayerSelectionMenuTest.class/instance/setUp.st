@@ -1,7 +1,7 @@
 running
 setUp
 
-	| screen game player1 player2 |
+	| screen characterAdministration player1 player2 |
 	
 	super setUp.
 	
@@ -10,9 +10,9 @@ setUp
 		role: #gamemaster.
 	player2 := TTPlayer new
 		name: 'Giuseppe'.
-	game := TTGame new
+	characterAdministration := TTCharacterAdministration new
 		players: {player1 .  player2} asOrderedCollection.
 	screen := TTGameScreen new
-		game: game.
+		characterAdministration: characterAdministration.
 	
-	playerSelectionMenu := TTPlayerSelectionMenu newWith: game
+	playerSelectionMenu := TTPlayerSelectionMenu newWith: characterAdministration

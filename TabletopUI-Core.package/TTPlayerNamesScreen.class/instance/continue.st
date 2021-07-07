@@ -1,5 +1,5 @@
 screen management
 continue
 
-	(self game validateAllNames) ifTrue: [
+	(self characterAdministration validateAllNames) ifTrue: [
 		self window openGamemasterSelectionScreen]

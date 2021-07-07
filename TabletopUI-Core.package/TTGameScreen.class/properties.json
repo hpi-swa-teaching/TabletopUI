@@ -7,10 +7,10 @@
 	"commentStamp" : "bv 7/3/2021 21:53",
 	"instvars" : [
 		"actionLog",
+		"imageBar",
 		"inputField",
 		"map",
 		"playerSelectionMenu",
-		"imageBar",
 		"tokenBar" ],
 	"name" : "TTGameScreen",
 	"pools" : [

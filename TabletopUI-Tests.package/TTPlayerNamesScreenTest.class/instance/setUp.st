@@ -6,7 +6,7 @@ setUp
 	super setUp.
 	
 	tabletopWindow := TTTabletopWindow new.
-	tabletopWindow game playerCount: 5.
+	tabletopWindow characterAdministration playerCount: 5.
 	playerNamesScreen := TTPlayerNamesScreen newWith: tabletopWindow
 
 	

@@ -3,7 +3,7 @@ newWith: aTTTabletopWindow
 	
 	^ self new
 		window: aTTTabletopWindow;
-		game: aTTTabletopWindow game;
+		characterAdministration: aTTTabletopWindow characterAdministration;
 		initializeCommandBar;
 		initializeMapAndSideBar;
 		yourself

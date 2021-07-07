@@ -4,5 +4,5 @@ initialize
 	super initialize.
 	
 	self 
-		game: TTGame new;
+		characterAdministration: TTCharacterAdministration new;
 		openPlayerCountScreen

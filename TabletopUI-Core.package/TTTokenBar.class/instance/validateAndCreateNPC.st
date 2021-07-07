@@ -1,5 +1,5 @@
 npc creation
 validateAndCreateNPC
 
-	(self game validateName: self currentName) ifTrue:[
+	(self characterAdministration validateName: self currentName) ifTrue:[
 		self createNPC]

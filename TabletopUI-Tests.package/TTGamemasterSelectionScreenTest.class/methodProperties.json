@@ -2,8 +2,9 @@
 	"class" : {
 		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
-		"setUp" : "bv 6/8/2021 10:51",
+		"setUp" : "PB 7/7/2021 16:29",
 		"test00nameList" : "MM 5/24/2021 12:40",
 		"test01defaultSelection" : "joda 5/26/2021 22:56",
-		"test02gameMasterSelection" : "joda 6/28/2021 17:03",
+		"test02characterAdministrationMasterSelection" : "PB 7/7/2021 16:29",
+		"test02gameMasterSelection" : "PB 7/7/2021 16:29",
 		"test03selectedIndex" : "joda 6/8/2021 12:00" } }

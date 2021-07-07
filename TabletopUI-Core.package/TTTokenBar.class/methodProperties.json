@@ -1,16 +1,16 @@
 {
 	"class" : {
-		"newWithMap:game:" : "bv 7/1/2021 13:39" },
+		"newWithMap:characterAdministration:" : "PB 7/7/2021 16:35" },
 	"instance" : {
+		"characterAdministration" : "PB 7/7/2021 16:32",
+		"characterAdministration:" : "PB 7/7/2021 16:31",
 		"createAddNPCButtonSpecWith:" : "joda 7/7/2021 10:59",
 		"createInputFieldSpecWith:" : "joda 7/7/2021 11:01",
-		"createNPC" : "rf 7/7/2021 08:07",
+		"createNPC" : "PB 7/7/2021 16:26",
 		"createPanelSpecWith:" : "joda 7/7/2021 11:01",
 		"currentName" : "bv 7/3/2021 14:19",
 		"currentName:" : "bv 7/3/2021 14:24",
-		"game" : "bv 7/1/2021 13:37",
-		"game:" : "bv 7/1/2021 13:37",
 		"initialize" : "bv 7/3/2021 17:06",
 		"map" : "bv 7/1/2021 13:37",
 		"map:" : "bv 7/1/2021 13:37",
-		"validateAndCreateNPC" : "bv 7/6/2021 13:42" } }
+		"validateAndCreateNPC" : "PB 7/7/2021 16:26" } }

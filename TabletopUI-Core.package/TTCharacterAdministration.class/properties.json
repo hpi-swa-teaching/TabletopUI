@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 21:22",
 	"instvars" : [
+		"npcs",
 		"playerCount",
-		"players",
-		"npcs" ],
-	"name" : "TTGame",
+		"players" ],
+	"name" : "TTCharacterAdministration",
 	"pools" : [
 		 ],
 	"super" : "Object",

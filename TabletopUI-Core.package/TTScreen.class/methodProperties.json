@@ -1,19 +1,19 @@
 {
 	"class" : {
-		"newWith:" : "rf 7/7/2021 08:11" },
+		"newWith:" : "PB 7/7/2021 16:30" },
 	"instance" : {
 		"addChildren:to:" : "bv 7/6/2021 14:13",
 		"buildWith:" : "bv 7/3/2021 20:53",
 		"buildWith:children:" : "bv 6/5/2021 15:48",
 		"buildWith:children:resizable:" : "MM 7/7/2021 13:43",
+		"characterAdministration" : "PB 7/7/2021 16:28",
+		"characterAdministration:" : "PB 7/7/2021 16:29",
 		"continue" : "MM 5/23/2021 11:01",
 		"continueButtonBounds" : "joda 7/7/2021 10:56",
 		"continueButtonLabel" : "MM 5/23/2021 11:00",
 		"createContinueButtonSpecWith:" : "MM 5/23/2021 11:00",
 		"createLeaveButtonSpecWith:" : "MM 5/23/2021 11:02",
 		"createSpecWith:resizable:" : "MM 7/7/2021 13:42",
-		"game" : "joda 5/14/2021 16:29",
-		"game:" : "joda 5/14/2021 16:29",
 		"leave" : "MM 5/23/2021 11:01",
 		"leaveButtonBounds" : "joda 7/7/2021 10:55",
 		"leaveButtonLabel" : "MM 5/24/2021 12:01",

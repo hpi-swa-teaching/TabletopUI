@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 21:24",
 	"instvars" : [
+		"images",
 		"map",
-		"selectedIndex",
-		"images" ],
+		"selectedIndex" ],
 	"name" : "TTImageBar",
 	"pools" : [
 		 ],

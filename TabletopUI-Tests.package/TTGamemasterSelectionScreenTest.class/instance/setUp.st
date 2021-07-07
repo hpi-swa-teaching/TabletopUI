@@ -2,8 +2,8 @@ as yet unclassified
 setUp
 	
 	window := TTTabletopWindow new.
-	window game playerCount: 2.
-	window game players: {
+	window characterAdministration playerCount: 2.
+	window characterAdministration players: {
 		TTPlayer new
 			name: 'playerA';
 			yourself .
