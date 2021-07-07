@@ -3,7 +3,7 @@ createInputFieldSpecWith: aToolBuilder
 	
 	^  aToolBuilder pluggableInputFieldSpec new
 		model: self;
-		frame: (0 @ 0 corner: 1 @ 0.5);
+		frame: (0 @ 0.5 corner: 1 @ 1);
 		getText: #currentName;
 		editText: #currentName:;
 		setText: #currentName:;

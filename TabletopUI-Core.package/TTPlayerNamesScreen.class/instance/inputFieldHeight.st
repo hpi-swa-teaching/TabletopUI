@@ -1,4 +1,4 @@
 constants and defaults
 inputFieldHeight
 
-	^ 1
+	^ 1.5
