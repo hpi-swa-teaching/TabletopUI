@@ -3,9 +3,9 @@ createNPC
 
 	| npc |
 	
-	npc := TTCharacter newWithName: self currentName.
+	npc := TTCharacter newWith: self currentName.
 	self 
 		currentName: '';
 		changed: #currentName.
 	self game addNPC: npc.
-	self map createTokenForNPC: npc
+	self map createTokenFor: npc

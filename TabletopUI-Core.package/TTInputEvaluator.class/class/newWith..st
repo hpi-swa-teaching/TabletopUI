@@ -1,5 +1,5 @@
 initialization
-newWithInputField: aTTInputField
+newWith: aTTInputField
 
 	^ self new
 		inputField: aTTInputField;

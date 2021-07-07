@@ -3,7 +3,7 @@
 		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
 		"playerNameScreen" : "rf 5/25/2021 17:41",
-		"setUp" : "rf 5/25/2021 17:48",
+		"setUp" : "rf 7/7/2021 08:12",
 		"test00PlayersCreation" : "rf 5/25/2021 17:48",
 		"test01HasUniqueNames" : "rf 5/25/2021 17:48",
 		"test02HasNoUniqueNames" : "rf 5/25/2021 17:49" } }

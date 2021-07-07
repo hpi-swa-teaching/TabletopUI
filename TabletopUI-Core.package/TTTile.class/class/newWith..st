@@ -1,5 +1,5 @@
 initialization
-newWithPixelPosition: aPoint
+newWith: aPoint
 
 	^ self new
 		position: aPoint

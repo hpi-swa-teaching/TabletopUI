@@ -1,4 +1,0 @@
-forms
-form
-
-	self subclassResponsibility

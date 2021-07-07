@@ -1,5 +1,5 @@
 initialization
-newWithName: aString
+newWith: aString
 
 	^ self new
 		name: aString;

@@ -1,0 +1,4 @@
+initialization
+isPlayer
+
+	^ false

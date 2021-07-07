@@ -2,13 +2,13 @@
 	"class" : {
 		"newWithActionLog:playerSelectionMenu:" : "bv 6/8/2021 10:34" },
 	"instance" : {
-		"changeToDefaultEvaluator" : "bv 6/8/2021 10:32",
+		"changeToDefaultEvaluator" : "rf 7/7/2021 08:08",
 		"changeToFightEvaluatorWithFightOrder:" : "rf 6/19/2021 11:18",
-		"changeToInitiativeEvaluator" : "bv 6/8/2021 10:32",
+		"changeToInitiativeEvaluator" : "rf 7/7/2021 08:09",
 		"createSpecWith:" : "MM 7/6/2021 18:49",
 		"evaluator" : "bv 6/8/2021 10:32",
 		"evaluator:" : "bv 6/8/2021 10:32",
-		"initialize" : "bv 6/8/2021 10:33",
+		"initialize" : "rf 7/7/2021 08:09",
 		"log" : "bv 6/8/2021 10:31",
 		"log:" : "bv 6/8/2021 10:31",
 		"playerSelection" : "bv 6/8/2021 10:32",

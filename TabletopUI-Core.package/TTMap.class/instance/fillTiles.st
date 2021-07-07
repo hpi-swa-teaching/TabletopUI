@@ -1,5 +1,5 @@
 initialization
 fillTiles
 
-	self tiles indicesDo: [:aNumberRow :aNumberColumn | 
-		self createAndInsertTileAt: aNumberColumn @ aNumberRow]
+	self tiles indicesDo: [:row :column | 
+		self createAndInsertTileAt: column @ row]

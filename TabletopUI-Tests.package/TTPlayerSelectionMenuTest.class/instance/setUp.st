@@ -15,4 +15,4 @@ setUp
 	screen := TTGameScreen new
 		game: game.
 	
-	playerSelectionMenu := TTPlayerSelectionMenu newWithGame: game
+	playerSelectionMenu := TTPlayerSelectionMenu newWith: game

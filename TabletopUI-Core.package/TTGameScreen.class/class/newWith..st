@@ -1,5 +1,5 @@
 initialization
-newIn: aTTTabletopWindow
+newWith: aTTTabletopWindow
 	
 	^ self new
 		window: aTTTabletopWindow;

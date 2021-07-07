@@ -1,5 +1,5 @@
 initialization
-newWithGame: aTTGame
+newWith: aTTGame
 
 	^ self new
 		game: aTTGame;

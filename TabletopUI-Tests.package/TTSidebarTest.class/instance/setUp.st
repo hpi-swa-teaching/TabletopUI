@@ -2,5 +2,5 @@ running
 setUp
 
 	| map |
-	map := TTMap newWithPlayers: {}.
-	sidebar :=  TTSidebar newWith: map
+	map := TTMap newWith: {}.
+	sidebar :=  TTImageBar newWith: map

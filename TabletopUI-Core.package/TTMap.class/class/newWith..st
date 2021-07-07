@@ -1,5 +1,5 @@
 initialization
-newWithPlayers: aCollection
+newWith: aCollection
 
 	^ self new
 		initializePlayerTokens: aCollection;

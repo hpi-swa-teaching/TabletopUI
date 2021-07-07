@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 22:01",
 	"instvars" : [
-		"defaultTile" ],
+		"defaultTile",
+		"character" ],
 	"name" : "TTToken",
 	"pools" : [
 		 ],

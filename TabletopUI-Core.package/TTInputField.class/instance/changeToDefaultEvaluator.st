@@ -1,4 +1,4 @@
 mode selection
 changeToDefaultEvaluator
 
-	self evaluator: (TTDefaultEvaluator newWithInputField: self)
+	self evaluator: (TTDefaultEvaluator newWith: self)

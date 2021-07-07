@@ -5,4 +5,4 @@ createTokenForPlayer: aTTPlayer atTileCoordinates: aPoint
 	
 	tile := self tiles at: aPoint y at: aPoint x.
 	tile addToken: 
-		(TTPlayerToken newWith: tile player: aTTPlayer)
+		(TTToken newWithTile: tile character: aTTPlayer)

@@ -7,6 +7,6 @@ setUp
 	
 	tabletopWindow := TTTabletopWindow new.
 	tabletopWindow game playerCount: 5.
-	playerNamesScreen := TTPlayerNamesScreen newIn: tabletopWindow
+	playerNamesScreen := TTPlayerNamesScreen newWith: tabletopWindow
 
 	

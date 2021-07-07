@@ -1,13 +1,16 @@
 {
 	"class" : {
-		"newWith:" : "bv 6/8/2021 10:45" },
+		"newWithTile:character:" : "rf 7/7/2021 07:51" },
 	"instance" : {
+		"NPCForm" : "rf 7/7/2021 07:31",
+		"character" : "rf 7/7/2021 07:24",
+		"character:" : "rf 7/7/2021 07:24",
 		"defaultTile" : "bv 6/8/2021 10:44",
 		"defaultTile:" : "bv 7/3/2021 20:55",
-		"form" : "MM 5/8/2021 12:07",
 		"handlesMouseDown:" : "joda 5/9/2021 17:20",
-		"initialize" : "MM 5/8/2021 12:09",
+		"initializeFormFor:" : "rf 7/7/2021 07:56",
 		"isTTToken" : "joda 5/9/2021 17:33",
 		"mouseDown:" : "joda 5/9/2021 17:29",
+		"playerForm" : "rf 7/7/2021 07:29",
 		"rejectDropMorphEvent:" : "bv 6/8/2021 10:44",
 		"wantsToBeDroppedInto:" : "joda 5/9/2021 17:33" } }

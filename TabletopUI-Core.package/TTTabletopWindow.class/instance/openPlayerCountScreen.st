@@ -2,5 +2,5 @@ screen management
 openPlayerCountScreen
 	
 	self contents: {
-		(TTPlayerCountScreen newIn: self) buildWith: ToolBuilder default}.
+		(TTPlayerCountScreen newWith: self) buildWith: ToolBuilder default}.
 	self changed: #contents
