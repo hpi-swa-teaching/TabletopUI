@@ -5,4 +5,5 @@ createSpecWith: aToolBuilder
 		model: self;
 		minimumWidth: 0;
 		list: #actionLogList;
+		hScrollBarPolicy: #whenNeeded;
 		yourself
