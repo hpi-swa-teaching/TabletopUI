@@ -1,6 +1,6 @@
 accessing
-currentPlayer: aTTPlayer
+currentPlayer: aTTCharacter
 
-	currentPlayer := aTTPlayer.
+	currentPlayer := aTTCharacter.
 	self changed: #currentPlayerName
 	

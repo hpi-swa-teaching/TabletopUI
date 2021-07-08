@@ -1,4 +1,4 @@
 accessing
-selectAsGamemaster: aPlayer
+selectAsGamemaster: aTTCharacter
 
-	aPlayer role: TTPlayer gamemaster
+	aTTCharacter role: TTCharacter gamemaster

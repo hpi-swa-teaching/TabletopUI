@@ -1,9 +1,9 @@
 roll for initiative
-validateInitiativeRoll: aString by: aTTPlayer
+validateInitiativeRoll: aString by: aTTCharacter
 
-	(self playersWhoRolled includes: aTTPlayer) ifTrue: [
+	(self playersWhoRolled includes: aTTCharacter) ifTrue: [
 		^ self ErrorMultipleRolls].
-	(aTTPlayer isGamemaster) ifTrue: [
+	(aTTCharacter isGamemaster) ifTrue: [
 		^ self ErrorOnlyPlayersRoll].
 	
-	^ self executeDiceRollCommand: aString as: aTTPlayer
+	^ self executeDiceRollCommand: aString as: aTTCharacter

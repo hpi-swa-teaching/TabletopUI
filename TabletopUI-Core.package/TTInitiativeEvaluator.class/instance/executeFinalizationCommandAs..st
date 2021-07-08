@@ -1,7 +1,7 @@
 roll for initiative
-executeFinalizationCommandAs: aTTPlayer
+executeFinalizationCommandAs: aTTCharacter
 
-	(aTTPlayer isGamemaster) ifFalse: [
+	(aTTCharacter isGamemaster) ifFalse: [
 		^ self ErrorNotAuthorised].
 	(self rolls size < 2) ifTrue: [
 		^self ErrorNotEnoughPlayers].

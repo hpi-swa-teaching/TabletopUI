@@ -1,11 +1,11 @@
 roll for initiative
-executeDiceRollCommand: aString as: aTTPlayer
+executeDiceRollCommand: aString as: aTTCharacter
 
 	| diceRoll |
 	
 	diceRoll := self diceRollFromInput: aString.		
 	(diceRoll isValid) ifTrue: [
-		self rolls add: (aTTPlayer -> diceRoll resultValue).
+		self rolls add: (aTTCharacter -> diceRoll resultValue).
 		^ diceRoll]
 	ifFalse: [
 		^ self ErrorInvalidDiceSize:  diceRoll size]

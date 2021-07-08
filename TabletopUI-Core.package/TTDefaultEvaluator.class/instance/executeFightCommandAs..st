@@ -1,7 +1,7 @@
 roll for initiative
-executeFightCommandAs: aTTPlayer
+executeFightCommandAs: aTTCharacter
 
-	(aTTPlayer isGamemaster) ifTrue: [
+	(aTTCharacter isGamemaster) ifTrue: [
 		self inputField changeToInitiativeEvaluator.
 		^ 'Started Roll for Initiative']
 	ifFalse: [

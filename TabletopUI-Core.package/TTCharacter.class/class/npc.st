@@ -1,0 +1,4 @@
+roles
+npc
+
+	^ #npc

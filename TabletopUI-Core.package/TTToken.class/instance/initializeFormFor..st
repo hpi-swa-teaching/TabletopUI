@@ -1,7 +1,7 @@
 initialization
 initializeFormFor: aTTCharacter
 
-	(aTTCharacter isPlayer) ifTrue: [
-		self newForm: self playerForm]
-	ifFalse: [
+	(aTTCharacter isNPC) ifTrue: [
 		self newForm: self NPCForm]
+	ifFalse: [
+		self newForm: self player]

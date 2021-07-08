@@ -1,4 +1,4 @@
 accessing
 nameList
 
-	^ self characterAdministration players collect: [:aTTPlayer | aTTPlayer name] 
+	^ self characterAdministration players collect: [:aTTCharacter | aTTCharacter name] 

@@ -1,5 +1,5 @@
 accessing
 characterNames
 
-	^ (self players collect: [:aTTPlayer | aTTPlayer name]) fusionWith: 
+	^ (self players collect: [:aTTCharacter | aTTCharacter name]) fusionWith: 
 		(self npcs collect: [:aTTCharacter | aTTCharacter name])

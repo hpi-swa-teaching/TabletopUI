@@ -1,10 +1,10 @@
 input evaluation
-executeDiceRollCommand: aString as: aTTPlayer
+executeDiceRollCommand: aString as: aTTCharacter
 
 	| diceRoll |
 	
-	(self currentPlayer = aTTPlayer) ifFalse: [
-		^ 'FIGHT: ' , (self handleInvalidRollFrom: aTTPlayer)].
+	(self currentPlayer = aTTCharacter) ifFalse: [
+		^ 'FIGHT: ' , (self handleInvalidRollFrom: aTTCharacter)].
 	diceRoll := self diceRollFromInput: aString.		
 	(diceRoll isValid) ifFalse: [
 		^ 'FIGHT: ' , (self ErrorInvalidDiceSize: diceRoll size)].

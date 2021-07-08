@@ -1,8 +1,8 @@
 fight
-removePlayer: aTTPlayer
+removePlayer: aTTCharacter
 
-	(self currentPlayer = aTTPlayer) ifTrue: [
+	(self currentPlayer = aTTCharacter) ifTrue: [
 		self proceedToNextPlayer].
 	self
-		fightingPlayers remove: aTTPlayer;
+		fightingPlayers remove: aTTCharacter;
 		changed: #fightingPlayersNames

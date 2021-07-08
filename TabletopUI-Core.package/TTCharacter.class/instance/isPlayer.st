@@ -1,4 +1,4 @@
 accessing
 isPlayer
 
-	^ false
+	^ self role = self class player

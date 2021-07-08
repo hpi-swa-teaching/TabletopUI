@@ -3,7 +3,7 @@ createNPC
 
 	| npc |
 	
-	npc := TTCharacter newWith: self currentName.
+	npc := TTCharacter newWithName: self currentName role: TTCharacter class npc.
 	self 
 		currentName: '';
 		changed: #currentName.

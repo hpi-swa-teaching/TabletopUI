@@ -1,4 +1,4 @@
 accessing
 fightingPlayersNames
 
-	^ self fightingPlayers collect: [:aTTPlayer | aTTPlayer name]
+	^ self fightingPlayers collect: [:aTTCharacter | aTTCharacter name]

@@ -1,4 +1,4 @@
 initialization
-addPlayer: aTTPlayer
+addPlayer: aTTCharacter
 
-	self players add: aTTPlayer
+	self players add: aTTCharacter

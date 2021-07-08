@@ -1,8 +1,15 @@
 {
 	"class" : {
-		"newWith:" : "rf 7/7/2021 08:07" },
+		"gamemaster" : "rf 7/8/2021 11:55",
+		"newWithName:role:" : "rf 7/8/2021 11:58",
+		"npc" : "rf 7/8/2021 11:56",
+		"player" : "rf 7/8/2021 11:55" },
 	"instance" : {
 		"initialize" : "PB 7/3/2021 11:39",
-		"isPlayer" : "rf 7/7/2021 07:28",
+		"isGamemaster" : "rf 7/8/2021 12:01",
+		"isNPC" : "rf 7/8/2021 12:02",
+		"isPlayer" : "rf 7/8/2021 12:01",
 		"name" : "bv 7/1/2021 13:46",
-		"name:" : "bv 7/3/2021 15:51" } }
+		"name:" : "bv 7/3/2021 15:51",
+		"role" : "rf 7/8/2021 12:01",
+		"role:" : "rf 7/8/2021 12:01" } }
