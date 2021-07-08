@@ -3,4 +3,5 @@ newWith: aTTTabletopWindow
 
 	^ self new 
 		window: aTTTabletopWindow;
-		characterAdministration: aTTTabletopWindow characterAdministration
+		characterAdministration: aTTTabletopWindow characterAdministration;
+		yourself

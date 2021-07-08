@@ -1,9 +1,9 @@
 {
 	"class" : {
 		"defaultSize" : "MM 5/8/2021 17:29",
-		"newWith:" : "rf 7/7/2021 08:13" },
+		"newWith:" : "rf 7/8/2021 10:03" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "bv 6/8/2021 10:44",
+		"acceptDroppingMorph:event:" : "rf 7/8/2021 09:50",
 		"addToken:" : "MM 5/8/2021 12:15",
 		"initialize" : "PB 6/27/2021 12:02",
 		"isTTTile" : "joda 5/9/2021 17:57",

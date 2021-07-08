@@ -2,4 +2,5 @@ initialization
 newWith: aPoint
 
 	^ self new
-		position: aPoint
+		position: aPoint;
+		yourself

@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	
-	self actionLogList: {} asOrderedCollection
+	self actionLogList: OrderedCollection new

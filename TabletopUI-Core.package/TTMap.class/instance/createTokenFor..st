@@ -5,5 +5,4 @@ createTokenFor: aTTCharacter
 	
 	position := self findFreeTile.
 	tile := self tiles at: position x at: position y.
-	tile addToken:
-		(TTToken newWithTile: tile character: aTTCharacter)
+	tile addToken: (TTToken newWithTile: tile character: aTTCharacter)
