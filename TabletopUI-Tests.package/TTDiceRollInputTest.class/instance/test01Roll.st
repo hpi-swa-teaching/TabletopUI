@@ -3,10 +3,10 @@ test01Roll
 
 	| result |
 	result := inputEvaluator evaluateInput: 'roll d' from: player.
-	self assert: result = 'Invalid input'.
+	self assert: result equals: 'Invalid input.'.
 	result := inputEvaluator evaluateInput: 'roll d06' from: player.
-	self assert: result = 'Invalid input'.
+	self assert: result equals: 'Invalid input.'.
 	result := inputEvaluator evaluateInput: 'roll d4' from: player.
-	self assert: (result asNumber >= 1 and: [result asNumber <= 4]).
+	self assert: ((result rolls at: 1) between: 1 and: 4).
 	result := inputEvaluator evaluateInput: 'roll d6' from: player.
-	self assert: (result asNumber >= 1 and: [result asNumber <= 6])
+	self assert: ((result rolls at: 1) between: 1 and: 6)

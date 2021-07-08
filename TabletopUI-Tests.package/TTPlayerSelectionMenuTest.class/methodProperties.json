@@ -2,7 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
-		"setUp" : "PB 7/7/2021 16:27",
+		"setUp" : "PB 7/8/2021 15:36",
 		"test00selectedIndex" : "joda 6/28/2021 17:03",
 		"test01getActivePlayer" : "joda 6/28/2021 17:04",
-		"test02nameList" : "bv 6/1/2021 18:25" } }
+		"test02nameList" : "PB 7/8/2021 15:40" } }
