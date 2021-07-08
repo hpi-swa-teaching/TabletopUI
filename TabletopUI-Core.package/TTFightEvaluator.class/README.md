@@ -6,7 +6,7 @@ Instance Variables
 	fightingPlayers:		<OrderedCollection>
 
 currentPlayer
-	- is the player which turn it is
+	- is the player whose turn it is
 
 display
 	- displays the turn order

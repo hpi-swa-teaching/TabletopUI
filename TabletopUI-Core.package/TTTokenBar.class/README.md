@@ -2,7 +2,7 @@ A TTTokenBar is a sidebar to add npcs to the game.
 
 Instance Variables
 	currentName:		<String>
-	game:		<TTGame>
+	characterAdministration:		<TTCharacterAdministration>
 	map:		<TTMap>
 
 currentName

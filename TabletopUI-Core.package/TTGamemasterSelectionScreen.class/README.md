@@ -1,4 +1,4 @@
-In the TTGamemasterSelectionScreen a user can determine which player gets the gamemaster role.
+In the TTGamemasterSelectionScreen a user can determine the player who gets the gamemaster role.
 
 Instance Variables
 	selectedIndex:		<Number>

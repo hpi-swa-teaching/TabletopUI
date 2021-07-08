@@ -2,10 +2,10 @@ A TTTabletopWindow loads a scene and allows switching between scenes.
 
 Instance Variables
 	contents:		<Array>
-	game:		<TTGame>
+	characterAdministration:		<TTCharacterAdministration>
 
 contents
 	- contains the currently opened scene
 
-game
+characterAdministration
 	- stores information about the participating characters
