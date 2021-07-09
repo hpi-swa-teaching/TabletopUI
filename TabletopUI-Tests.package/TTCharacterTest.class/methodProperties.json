@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"lastStoredRun" : "rf 6/8/2021 10:56" },
+	"instance" : {
+		"character" : "joda 7/8/2021 15:37",
+		"character:" : "joda 7/8/2021 15:36",
+		"setUp" : "joda 7/9/2021 12:27",
+		"test01IsGamemaster" : "joda 7/8/2021 15:48",
+		"test02IsPlayer" : "joda 7/8/2021 17:24",
+		"test03IsNPC" : "joda 7/8/2021 17:24",
+		"test04ChangeName" : "joda 7/9/2021 12:08" } }

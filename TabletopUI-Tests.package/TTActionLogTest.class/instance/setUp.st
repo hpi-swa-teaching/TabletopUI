@@ -1,6 +1,6 @@
-as yet unclassified
+running
 setUp
 
 	super setUp.
 	
-	log := TTActionLog new
+	self log: TTActionLog new

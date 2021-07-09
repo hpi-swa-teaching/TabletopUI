@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tokenBar" ],
+	"name" : "TTTokenBarTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

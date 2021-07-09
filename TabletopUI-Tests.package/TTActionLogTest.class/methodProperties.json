@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "joda 6/8/2021 11:32",
-		"test00logInput" : "joda 6/8/2021 11:37",
-		"test01logOutput" : "joda 6/8/2021 11:45" } }
+		"log" : "joda 7/8/2021 15:24",
+		"log:" : "joda 7/8/2021 15:24",
+		"setUp" : "joda 7/8/2021 15:24",
+		"test01LogOutput" : "joda 7/9/2021 12:06",
+		"test02LogInput" : "joda 7/9/2021 12:07" } }
