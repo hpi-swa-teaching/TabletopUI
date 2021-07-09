@@ -3,4 +3,6 @@ setUp
 
 	super setUp.
 	
-	playerCountScreen := TTPlayerCountScreen new
+	self characterAdministration: TTCharacterAdministration new.
+	self screen: TTPlayerCountScreen new.
+	self screen characterAdministration: self characterAdministration.

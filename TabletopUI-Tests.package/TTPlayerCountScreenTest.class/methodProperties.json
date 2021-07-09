@@ -1,9 +1,17 @@
 {
 	"class" : {
-		"lastStoredRun" : "rf 6/8/2021 10:56" },
+		"lastStoredRun" : "MM 7/9/2021 13:21" },
 	"instance" : {
-		"setUp" : "joda 5/21/2021 14:50",
-		"test00IncreaseCount" : "rf 5/25/2021 17:09",
-		"test01DecreaseCount" : "rf 5/25/2021 17:09",
-		"test02ChangeCountBy" : "rf 5/25/2021 17:10",
-		"test03IsValidInput" : "rf 5/25/2021 17:08" } }
+		"characterAdministration" : "MM 7/9/2021 14:59",
+		"characterAdministration:" : "MM 7/9/2021 14:59",
+		"screen" : "MM 7/9/2021 14:57",
+		"screen:" : "MM 7/9/2021 14:58",
+		"setUp" : "MM 7/9/2021 14:59",
+		"test01IncreaseCount" : "MM 7/9/2021 14:59",
+		"test02DecreaseCount" : "MM 7/9/2021 15:00",
+		"test03DecreaseCountBelow1" : "MM 7/9/2021 15:00",
+		"test04ChangeCountBy" : "MM 7/9/2021 15:00",
+		"test05changeCountByBelow1" : "MM 7/9/2021 15:00",
+		"test06acceptValidInput" : "MM 7/9/2021 15:00",
+		"test07rejectInvalidInput" : "MM 7/9/2021 15:00",
+		"test08applyCount" : "MM 7/9/2021 14:57" } }

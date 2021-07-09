@@ -1,9 +1,9 @@
 testing
 test03ContainsInvalidNameLength
 
-	| NPC |
+	| player |
 	
-	NPC := TTCharacter newWithName: 'Piaaaaaaaaaaaaaaaaaaaaaaaa' role: #player.
+	player := TTCharacter newWithName: 'Piaaaaaaaaaaaaaaaaaaaaaaaa' role: TTCharacter player.
 	self deny: self characterAdministration containsInvalidNameLength.
-	self characterAdministration addNPC: NPC.
+	self characterAdministration addPlayer: player.
 	self assert: self characterAdministration containsInvalidNameLength

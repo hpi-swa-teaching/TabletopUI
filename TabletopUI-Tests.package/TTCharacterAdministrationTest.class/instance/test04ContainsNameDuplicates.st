@@ -1,9 +1,9 @@
 testing
 test04ContainsNameDuplicates
 
-	| NPC |
+	| player |
 	
-	NPC := TTCharacter newWithName: 'Pia' role: #player.
+	player := TTCharacter newWithName: 'Pia' role: TTCharacter player.
 	self deny: self characterAdministration containsNameDuplicates.
-	self characterAdministration addNPC: NPC.
+	self characterAdministration addPlayer: player.
 	self assert: self characterAdministration containsNameDuplicates
