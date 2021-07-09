@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"diceroll" ],
+		"dice" ],
 	"name" : "TTDiceTest",
 	"pools" : [
 		 ],

@@ -5,12 +5,11 @@ setUp
 	
 	super setUp.
 	
-	player1 := TTCharacter new
+	player1 := TTPlayer new
 		name: 'Gustavo';
 		role: #gamemaster.
-	player2 := TTCharacter new
-		name: 'Giuseppe';
-		role: #player.
+	player2 := TTPlayer new
+		name: 'Giuseppe'.
 	characterAdministration := TTCharacterAdministration new
 		players: {player1 .  player2} asOrderedCollection.
 	screen := TTGameScreen new

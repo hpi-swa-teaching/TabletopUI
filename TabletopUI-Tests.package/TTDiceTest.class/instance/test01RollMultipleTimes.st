@@ -2,9 +2,9 @@ tests
 test01RollMultipleTimes
 
 	| result |
-	result := diceroll roll: 1 multipleTimes: 5.
-	result rolls do: [:aNumber | self assert: aNumber equals: 1].
-	result := diceroll roll: 4 multipleTimes: 3.
-	result rolls do: [:aNumber | self assert: (aNumber between: 1 and: 4)].
-	result := diceroll roll: 6 multipleTimes: 23.
-	self assert: result rolls size equals: 23
+	result := TTDice roll: 1 multipleTimes: 5.
+	result do: [:aNumber | self assert: aNumber = 1].
+	result := TTDice roll: 4 multipleTimes: 3.
+	result do: [:aNumber | self assert: (aNumber >= 1 and: [aNumber <= 4])].
+	result := TTDice roll: 6 multipleTimes: 23.
+	self assert: (result size = 23)

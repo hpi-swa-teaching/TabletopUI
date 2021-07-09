@@ -2,6 +2,5 @@
 	"class" : {
 		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
-		"setUp" : "PB 7/8/2021 15:52",
-		"test00Roll" : "PB 7/8/2021 15:53",
-		"test01RollMultipleTimes" : "PB 7/8/2021 16:25" } }
+		"test00Roll" : "MM 5/24/2021 12:12",
+		"test01RollMultipleTimes" : "bv 5/25/2021 11:39" } }

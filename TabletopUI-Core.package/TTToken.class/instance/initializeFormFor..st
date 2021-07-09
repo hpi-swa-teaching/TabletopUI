@@ -4,4 +4,4 @@ initializeFormFor: aTTCharacter
 	(aTTCharacter isNPC) ifTrue: [
 		self newForm: self NPCForm]
 	ifFalse: [
-		self newForm: self player]
+		self newForm: self playerForm]
