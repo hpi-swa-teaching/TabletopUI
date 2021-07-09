@@ -1,5 +1,5 @@
 testing
-test07rejectInvalidInput
+test07RejectInvalidInput
 
 	self deny: (self screen isValid: '3abc').
 	self deny: (self screen isValid: '0').

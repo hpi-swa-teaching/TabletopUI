@@ -1,4 +1,4 @@
 testing
-test06acceptValidInput
+test06AcceptValidInput
 
 	self assert: (self screen isValid: '3')

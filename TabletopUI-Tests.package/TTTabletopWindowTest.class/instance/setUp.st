@@ -3,5 +3,4 @@ setUp
 
 	super setUp.
 	
-	tabletopWindow := TTTabletopWindow new.
-	"ToolBuilder open: tabletopWindow"
+	self window: TTTabletopWindow new

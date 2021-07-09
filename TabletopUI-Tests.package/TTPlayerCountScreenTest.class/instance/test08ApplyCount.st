@@ -1,5 +1,5 @@
 testing
-test08applyCount
+test08ApplyCount
 
 	self screen countText: '3'.
 	self screen applyCount.

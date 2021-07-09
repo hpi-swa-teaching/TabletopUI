@@ -1,5 +1,5 @@
 testing
-test05changeCountByBelow1
+test05ChangeCountByBelow1
 
 	self screen countText: '3'.
 	self screen changeCountBy: -5.
