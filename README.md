@@ -20,6 +20,9 @@ You can open the Tabletop UI with the command `TTTabletopWindow open`. A window 
 ### Switching to gamemaster mode
 In the player list you can select the gamemaster with a double click.
 
+### Valid dices
+As in other Tabletop games valid dice sizes are: 4, 6, 8, 10, 12 and 20 numbers.
+
 ### Rolling the dice
 Every player including the gamemaster can execute a dice roll.
 The dice command is ```roll dx```. x represents the maximum number of eyes the rolled dice can show.
