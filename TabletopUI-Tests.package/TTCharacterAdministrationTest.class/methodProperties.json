@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"characterAdministration" : "joda 7/8/2021 17:57",
+		"characterAdministration:" : "joda 7/8/2021 17:57",
+		"setUp" : "joda 7/8/2021 17:37",
+		"setUpNPCs" : "MM 7/9/2021 15:03",
+		"setUpPlayers" : "MM 7/9/2021 15:03",
+		"test01AddNPC" : "MM 7/9/2021 15:03",
+		"test02AddPlayer" : "MM 7/9/2021 15:03",
+		"test03ContainsInvalidNameLength" : "MM 7/9/2021 15:04",
+		"test04ContainsNameDuplicates" : "MM 7/9/2021 15:04",
+		"test05IsNameADuplicate" : "joda 7/8/2021 18:48",
+		"test06IsNameLengthInvalid" : "joda 7/8/2021 18:52",
+		"test07ValidateAllNames" : "MM 7/9/2021 15:04",
+		"test08ValidateName" : "joda 7/9/2021 12:06" } }

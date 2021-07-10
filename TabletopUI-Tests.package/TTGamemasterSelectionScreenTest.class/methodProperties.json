@@ -1,10 +1,14 @@
 {
 	"class" : {
-		"lastStoredRun" : "rf 6/8/2021 10:56" },
+		"lastStoredRun" : "MM 7/9/2021 14:40" },
 	"instance" : {
-		"setUp" : "PB 7/7/2021 16:29",
-		"test00nameList" : "MM 5/24/2021 12:40",
-		"test01defaultSelection" : "joda 5/26/2021 22:56",
-		"test02characterAdministrationMasterSelection" : "rf 7/8/2021 11:57",
-		"test02gameMasterSelection" : "rf 7/8/2021 11:57",
-		"test03selectedIndex" : "joda 6/8/2021 12:00" } }
+		"characterAdministration" : "MM 7/9/2021 14:43",
+		"characterAdministration:" : "MM 7/9/2021 14:43",
+		"screen" : "MM 7/9/2021 14:27",
+		"screen:" : "MM 7/9/2021 14:27",
+		"setUp" : "MM 7/9/2021 15:01",
+		"test01NameList" : "MM 7/9/2021 14:40",
+		"test02DefaultSelection" : "MM 7/9/2021 14:40",
+		"test03SelectGameMaster" : "MM 7/9/2021 14:48",
+		"test04SelectedIndex" : "MM 7/9/2021 15:11",
+		"test05SelectedIndexZero" : "MM 7/9/2021 15:12" } }

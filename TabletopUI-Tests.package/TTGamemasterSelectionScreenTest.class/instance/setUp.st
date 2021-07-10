@@ -1,14 +1,11 @@
 as yet unclassified
 setUp
 	
-	window := TTTabletopWindow new.
-	window characterAdministration playerCount: 2.
-	window characterAdministration players: {
-		TTPlayer new
-			name: 'playerA';
-			yourself .
-		TTPlayer new
-			name: 'playerB';
-			yourself}.
-	window openGamemasterSelectionScreen.
-	screen := window contents first model
+	self characterAdministration: TTCharacterAdministration new.
+	self characterAdministration
+		addPlayer: (TTCharacter newWithName: 'playerA' role: TTCharacter player);
+		addPlayer: (TTCharacter newWithName: 'playerB' role: TTCharacter player).
+	self screen: TTGamemasterSelectionScreen new.
+	self screen characterAdministration: self characterAdministration
+	
+	

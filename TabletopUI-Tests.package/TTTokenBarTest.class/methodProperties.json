@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "joda 7/9/2021 12:14",
+		"test01CreateNPC" : "joda 7/9/2021 12:19",
+		"test02ValidateAndCreateNPC" : "joda 7/9/2021 12:26",
+		"test03ValidateAndCreateNPCFails" : "joda 7/9/2021 12:25",
+		"tokenBar" : "joda 7/9/2021 12:00",
+		"tokenBar:" : "joda 7/9/2021 12:01" } }
