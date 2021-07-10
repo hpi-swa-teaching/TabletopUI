@@ -1,5 +1,5 @@
 as yet unclassified
 setUp
 
-	token := TTPlayerToken new.
+	token := TTToken new.
 	tile := TTTile new

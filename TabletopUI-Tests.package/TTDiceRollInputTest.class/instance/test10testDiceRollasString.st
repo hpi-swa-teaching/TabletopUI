@@ -1,5 +1,5 @@
 tests
-test06testDiceRollasString
+test10testDiceRollasString
 
 	"| result |
 	result := diceroll roll: 6.

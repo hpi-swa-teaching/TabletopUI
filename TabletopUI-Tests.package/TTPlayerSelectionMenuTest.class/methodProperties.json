@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"lastStoredRun" : "rf 6/8/2021 10:56" },
+		"lastStoredRun" : "PB 7/10/2021 22:52" },
 	"instance" : {
 		"setUp" : "PB 7/8/2021 15:36",
-		"test00selectedIndex" : "joda 6/28/2021 17:03",
-		"test01getActivePlayer" : "joda 6/28/2021 17:04",
-		"test02nameList" : "PB 7/8/2021 15:40" } }
+		"test01selectedIndex" : "PB 7/10/2021 22:52",
+		"test02nameList" : "PB 7/10/2021 23:11",
+		"test03getActivePlayer" : "PB 7/10/2021 23:11" } }

@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"lastStoredRun" : "rf 6/8/2021 10:56" },
+		"lastStoredRun" : "PB 7/10/2021 22:50" },
 	"instance" : {
-		"setUp" : "PB 7/10/2021 15:10",
-		"test00Roll" : "PB 7/8/2021 15:53",
-		"test01RollMultipleTimes" : "PB 7/8/2021 16:25",
-		"test02RollValidDiceSizeDetection" : "PB 7/10/2021 15:25",
-		"test03DiceRollAsString" : "PB 7/10/2021 15:31" } }
+		"setUp" : "PB 7/10/2021 22:50",
+		"test01Roll" : "PB 7/10/2021 22:50",
+		"test01RollMultipleTimes" : "PB 7/10/2021 22:30",
+		"test03DiceRollIsValid" : "PB 7/10/2021 22:56",
+		"test04DiceRollSize" : "PB 7/10/2021 22:56",
+		"test05RollFormatNumber" : "PB 7/10/2021 23:04" } }

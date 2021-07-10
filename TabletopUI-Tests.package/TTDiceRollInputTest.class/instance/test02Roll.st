@@ -1,5 +1,5 @@
 tests
-test01Roll
+test02Roll
 
 	| result |
 	result := inputEvaluator evaluateInput: 'roll d' from: player.

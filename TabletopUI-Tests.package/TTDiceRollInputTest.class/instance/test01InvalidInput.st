@@ -1,6 +1,6 @@
 tests
-test00InvalidInput
+test01InvalidInput
 
 	| result |
 	result := inputEvaluator evaluateInput: 'nonvalid input' from: player.
-	self assert: result = 'Invalid input.'
+	self assert: result equals: 'Invalid input.'
