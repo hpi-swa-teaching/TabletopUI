@@ -6,6 +6,9 @@
 		"test00InvalidInput" : "PB 7/8/2021 16:28",
 		"test01Roll" : "PB 7/8/2021 16:46",
 		"test02RollValidDiceSize" : "PB 7/8/2021 16:50",
-		"test03RollWithModifier" : "PB 7/8/2021 16:56",
-		"test04RollMultipleDice" : "PB 7/8/2021 16:59",
-		"test05RollCombined" : "PB 7/8/2021 17:02" } }
+		"test03RollWithModifier" : "PB 7/10/2021 16:12",
+		"test04RollMultipleDice" : "PB 7/10/2021 16:16",
+		"test05RollWithModifier" : "PB 7/10/2021 16:09",
+		"test06RollMultipleWithPositiveModifier" : "PB 7/10/2021 16:06",
+		"test06testDiceRollasString" : "PB 7/10/2021 16:17",
+		"test07RollMultipleWithNegativeModifier" : "PB 7/10/2021 16:06" } }

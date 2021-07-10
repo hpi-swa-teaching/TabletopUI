@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"diceroll",
-		"inputEvaluator",
-		"player" ],
-	"name" : "TTDiceTest",
+		"diceroll" ],
+	"name" : "TTDiceRollTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
