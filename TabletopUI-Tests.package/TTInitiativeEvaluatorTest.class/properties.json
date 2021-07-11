@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTInitiativeEvaluatorTest",
+	"pools" : [
+		 ],
+	"super" : "TTEvaluatorTest",
+	"type" : "normal" }

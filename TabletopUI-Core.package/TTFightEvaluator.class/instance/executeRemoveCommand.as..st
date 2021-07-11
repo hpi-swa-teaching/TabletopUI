@@ -9,4 +9,4 @@ executeRemoveCommand: aString as: aTTCharacter
 	removedPlayer := self fightingPlayers detect: [:player | player name = removedName]
 		ifNone: [^ 'FIGHT: ' , (self ErrorNotInFight: removedName)].
 	self removePlayer: removedPlayer.
-	^ 'FIGHT: Removed ' , aTTCharacter name , ' from fight.'
+	^ 'FIGHT: Removed ' , removedName, ' from fight.'

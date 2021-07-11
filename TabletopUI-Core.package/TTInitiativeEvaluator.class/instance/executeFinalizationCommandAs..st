@@ -7,4 +7,4 @@ executeFinalizationCommandAs: aTTCharacter
 		^self ErrorNotEnoughPlayers].
 	
 	self startFight.
-	^ 'The fight begins!'
+	^ self fightBegins

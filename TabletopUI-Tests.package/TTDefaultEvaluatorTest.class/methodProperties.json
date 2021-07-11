@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rf 7/11/2021 13:00",
+		"test01StartFightAsPlayer" : "rf 7/11/2021 13:09",
+		"test02StartFightAsGamemaster" : "rf 7/11/2021 13:10",
+		"test03RollDice" : "rf 7/11/2021 14:01" } }

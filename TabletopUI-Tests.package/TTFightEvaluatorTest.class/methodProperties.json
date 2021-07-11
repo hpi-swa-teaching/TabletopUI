@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "rf 7/11/2021 13:17",
+		"tearDown" : "rf 7/11/2021 14:22",
+		"test00InvalidRoll" : "rf 7/11/2021 13:20",
+		"test00ValidRoll" : "rf 7/11/2021 13:20",
+		"test01DoNotParticipate" : "rf 7/11/2021 14:32",
+		"test02NotYourTurn" : "rf 7/11/2021 14:32",
+		"test03NotYourTurnAgain" : "rf 7/11/2021 14:35",
+		"test04EndFight" : "rf 7/11/2021 14:40",
+		"test05RemoveNotInFight" : "rf 7/11/2021 14:49",
+		"test05RemovePlayer" : "rf 7/11/2021 14:49",
+		"test06RemoveNotInFight" : "rf 7/11/2021 14:52",
+		"test07RemoveLastPlayer" : "rf 7/11/2021 14:56",
+		"test08RemoveCurrentPlayer" : "rf 7/11/2021 15:00",
+		"test09RemoveNextPlayer" : "rf 7/11/2021 15:04" } }

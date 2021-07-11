@@ -4,6 +4,6 @@ endFightingAs: aTTPlayer
 	(aTTPlayer isGamemaster) ifTrue: [
 		self inputField changeToDefaultEvaluator.
 		self display delete.
-		^  ' ... The fight is over.']
+		^  self fightIsOver]
 	ifFalse: [
 		^ self ErrorNotAuthorised]
