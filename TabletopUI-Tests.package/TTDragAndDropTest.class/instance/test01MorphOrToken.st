@@ -5,6 +5,7 @@ test01MorphOrToken
 	
 	morph := Morph new.
 	
-	self deny: morph equals: token.
-	self assert: morph isTTToken equals: false.
-	self assert: token isTTToken equals: true
+	self 
+		deny: morph equals: token;
+		assert: morph isTTToken equals: false;
+		assert: token isTTToken equals: true

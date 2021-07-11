@@ -4,4 +4,4 @@ setUp
 	super setUp.
 	
 	inputEvaluator := TTDefaultEvaluator new.
-	player := TTPlayer new
+	player := TTCharacter new

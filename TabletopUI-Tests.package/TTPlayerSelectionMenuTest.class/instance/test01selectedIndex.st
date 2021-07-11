@@ -1,5 +1,5 @@
 testing
-test00selectedIndex
+test01selectedIndex
 
 	playerSelectionMenu selectedIndex: 1.
 	self assert: playerSelectionMenu selectedIndex equals: 1.

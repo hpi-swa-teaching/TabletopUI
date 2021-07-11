@@ -1,11 +1,15 @@
 {
 	"class" : {
-		"lastStoredRun" : "rf 6/8/2021 10:56" },
+		"lastStoredRun" : "PB 7/10/2021 22:43" },
 	"instance" : {
-		"setUp" : "bv 6/5/2021 16:20",
-		"test00InvalidInput" : "bv 6/5/2021 16:15",
-		"test01Roll" : "bv 6/5/2021 16:16",
-		"test02RollValidDiceSize" : "bv 6/5/2021 16:17",
-		"test03RollWithModifier" : "bv 6/23/2021 17:56",
-		"test04RollMultipleDice" : "bv 6/5/2021 16:19",
-		"test05RollCombined" : "bv 6/5/2021 16:20" } }
+		"setUp" : "PB 7/8/2021 16:38",
+		"test01InvalidInput" : "PB 7/10/2021 23:03",
+		"test02Roll" : "PB 7/10/2021 22:42",
+		"test03RollValidDiceSize" : "PB 7/10/2021 23:04",
+		"test04RollMultipleDice" : "PB 7/10/2021 23:04",
+		"test05RollOnceWithInvalidModifier" : "PB 7/10/2021 23:04",
+		"test06RollOnceWithPositiveModifier" : "PB 7/10/2021 22:46",
+		"test07RollOnceWithNegativeModifier" : "PB 7/10/2021 22:48",
+		"test08RollMultipleWithPositiveModifier" : "PB 7/10/2021 22:48",
+		"test09RollMultipleWithNegativeModifier" : "PB 7/10/2021 22:48",
+		"test10testDiceRollasString" : "PB 7/10/2021 22:48" } }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"lastStoredRun" : "PB 7/10/2021 22:50" },
+	"instance" : {
+		"setUp" : "PB 7/10/2021 22:50",
+		"test01Roll" : "PB 7/10/2021 22:50",
+		"test01RollMultipleTimes" : "PB 7/10/2021 22:30",
+		"test03DiceRollIsValid" : "PB 7/10/2021 22:56",
+		"test04DiceRollSize" : "PB 7/10/2021 22:56",
+		"test05RollFormatNumber" : "PB 7/10/2021 23:04" } }
