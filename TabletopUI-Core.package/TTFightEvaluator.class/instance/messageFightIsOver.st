@@ -1,4 +1,4 @@
-accessing
-fightIsOver
+messages
+messageFightIsOver
 
 	^ ' ... The fight is over.'

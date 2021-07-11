@@ -2,7 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
-		"setUp" : "PB 7/10/2021 23:12",
+		"setUp" : "joda 7/11/2021 15:38",
 		"test00SwitchEvaluators" : "PB 7/10/2021 23:12",
-		"test01VerifyPlayerrole" : "PB 7/10/2021 23:13",
-		"test02SaveRoll" : "PB 7/10/2021 23:13" } }
+		"test01VerifyPlayerrole" : "joda 7/11/2021 16:05",
+		"test02SaveRoll" : "joda 7/11/2021 16:03" } }

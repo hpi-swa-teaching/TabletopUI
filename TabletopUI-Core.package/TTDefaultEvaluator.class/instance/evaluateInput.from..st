@@ -6,4 +6,4 @@ evaluateInput: aString from: aTTCharacter
 	(aString matchesRegex: self diceRollPattern) ifTrue: [
 		^ self executeDiceRollCommand: aString].
 
-	^ self ErrorCommandNotFound
+	^ self messageCommandNotFound

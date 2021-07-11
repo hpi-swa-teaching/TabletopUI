@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test04SelectedIndex
 
 	self screen selectedIndex: 3.

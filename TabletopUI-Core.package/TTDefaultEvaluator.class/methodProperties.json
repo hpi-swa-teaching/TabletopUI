@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"evaluateInput:from:" : "rf 7/8/2021 12:05",
-		"executeFightCommandAs:" : "rf 7/11/2021 13:09",
-		"startFightPattern" : "bv 7/6/2021 13:56",
-		"startedInitiative" : "rf 7/11/2021 13:09" } }
+		"evaluateInput:from:" : "joda 7/11/2021 16:04",
+		"executeFightCommandAs:" : "joda 7/11/2021 16:05",
+		"messageStartedInitiative" : "joda 7/11/2021 16:04",
+		"startFightPattern" : "bv 7/6/2021 13:56" } }

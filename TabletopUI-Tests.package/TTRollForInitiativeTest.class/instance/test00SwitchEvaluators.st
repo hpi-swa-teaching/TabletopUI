@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test00SwitchEvaluators
 	
 	self assert: (inputField evaluator isKindOf: TTDefaultEvaluator).

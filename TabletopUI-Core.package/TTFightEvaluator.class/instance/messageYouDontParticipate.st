@@ -1,4 +1,4 @@
-fight
-doNotParticipate
+messages
+messageYouDontParticipate
 
 	^ 'You do not participate in the fight!'

@@ -8,4 +8,4 @@ evaluateInput: aString from: aTTCharacter
 	(aString matchesRegex: self removeCharacterPattern) ifTrue: [
 		^ self executeRemoveCommand: aString as: aTTCharacter].
 	
-	 ^ self ErrorCommandNotFound
+	 ^ self messageCommandNotFound

@@ -2,17 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ErrorMultipleRolls" : "bv 7/3/2021 19:29",
-		"ErrorNotEnoughPlayers" : "MM 7/6/2021 18:44",
-		"ErrorOnlyPlayersRoll" : "bv 7/3/2021 19:29",
 		"endRollForInitiativePattern" : "bv 7/6/2021 14:05",
-		"evaluateInput:from:" : "rf 7/8/2021 14:39",
-		"executeDiceRollCommand:as:" : "rf 7/8/2021 14:39",
-		"executeFinalizationCommandAs:" : "rf 7/11/2021 13:54",
-		"fightBegins" : "rf 7/11/2021 13:52",
+		"evaluateInput:from:" : "joda 7/11/2021 16:04",
+		"executeDiceRollCommand:as:" : "joda 7/11/2021 16:04",
+		"executeFinalizationCommandAs:" : "joda 7/11/2021 16:05",
 		"initialize" : "rf 6/19/2021 09:53",
+		"messageFightBegins" : "joda 7/11/2021 16:03",
+		"messageMultipleRolls" : "joda 7/11/2021 16:03",
+		"messageNotEnoughPlayers" : "joda 7/11/2021 16:03",
+		"messageOnlyPlayersRoll" : "joda 7/11/2021 16:03",
 		"playersWhoRolled" : "bv 7/3/2021 20:22",
 		"rolls" : "bv 5/30/2021 11:47",
 		"rolls:" : "rf 6/19/2021 09:53",
 		"startFight" : "MM 7/6/2021 18:48",
-		"validateInitiativeRoll:by:" : "rf 7/8/2021 14:40" } }
+		"validateInitiativeRoll:by:" : "joda 7/11/2021 16:03" } }

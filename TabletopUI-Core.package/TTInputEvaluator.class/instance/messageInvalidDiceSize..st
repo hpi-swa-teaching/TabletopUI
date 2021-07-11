@@ -1,4 +1,4 @@
 error messages
-ErrorInvalidDiceSize: aNumber
+messageInvalidDiceSize: aNumber
 
 	^ aNumber asString , ' is not a valid dice size.'

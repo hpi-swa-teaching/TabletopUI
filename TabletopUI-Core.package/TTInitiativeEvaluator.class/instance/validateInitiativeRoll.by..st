@@ -2,8 +2,8 @@ roll for initiative
 validateInitiativeRoll: aString by: aTTCharacter
 
 	(self playersWhoRolled includes: aTTCharacter) ifTrue: [
-		^ self ErrorMultipleRolls].
+		^ self messageMultipleRolls].
 	(aTTCharacter isGamemaster) ifTrue: [
-		^ self ErrorOnlyPlayersRoll].
+		^ self messageOnlyPlayersRoll].
 	
 	^ self executeDiceRollCommand: aString as: aTTCharacter

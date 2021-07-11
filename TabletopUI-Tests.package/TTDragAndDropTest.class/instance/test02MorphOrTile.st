@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test02MorphOrTile
 
 	| morph |

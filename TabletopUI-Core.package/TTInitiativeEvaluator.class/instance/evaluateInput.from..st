@@ -6,4 +6,4 @@ evaluateInput: aString from: aTTCharacter
 	(aString matchesRegex: self diceRollPattern) ifTrue: [
 		^ self validateInitiativeRoll: aString by: aTTCharacter].
 
-	^ self ErrorCommandNotFound
+	^ self messageCommandNotFound

@@ -6,4 +6,4 @@ test01DoNotParticipate
 	player := TTCharacter newWithName: 'name' role: TTCharacter player.
 	output := self evaluator evaluateInput: self rolld6 from: player.
 	
-	self assert: output equals: 'FIGHT: ', (self evaluator doNotParticipate)
+	self assert: output equals: 'FIGHT: ', (self evaluator messageYouDontParticipate)

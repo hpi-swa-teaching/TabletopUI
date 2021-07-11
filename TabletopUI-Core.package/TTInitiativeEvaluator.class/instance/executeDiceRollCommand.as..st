@@ -8,4 +8,4 @@ executeDiceRollCommand: aString as: aTTCharacter
 		self rolls add: (aTTCharacter -> diceRoll resultValue).
 		^ diceRoll]
 	ifFalse: [
-		^ self ErrorInvalidDiceSize:  diceRoll size]
+		^ self messageInvalidDiceSize:  diceRoll size]

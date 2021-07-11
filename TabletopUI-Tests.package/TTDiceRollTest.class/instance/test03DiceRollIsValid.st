@@ -1,4 +1,4 @@
-tests
+testing
 test03DiceRollIsValid
 
 	diceroll size: 1.

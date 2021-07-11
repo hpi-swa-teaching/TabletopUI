@@ -1,4 +1,4 @@
 error messages
-ErrorNotAllowedToRoll
+messageNotAllowedToRoll
 
 	^ 'You are not allowed to roll!'

@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	super setUp.
@@ -7,6 +7,6 @@ setUp
 	gamemaster := TTCharacter new.
 	gamemaster 
 		role: #gamemaster;
-		changeName: 'gm'.
+		name: 'gm'.
 	regularPlayers := {TTCharacter new . TTCharacter new . TTCharacter new} asOrderedCollection.
 	regularPlayers doWithIndex: [:player :i | player name: (i asString)]

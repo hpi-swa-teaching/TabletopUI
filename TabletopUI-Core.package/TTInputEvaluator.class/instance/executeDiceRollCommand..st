@@ -5,7 +5,7 @@ executeDiceRollCommand: aString
 	
 	diceRoll := self diceRollFromInput: aString.		
 	(diceRoll isValid) ifFalse: [
-		^ self ErrorInvalidDiceSize:  diceRoll size].
+		^ self messageInvalidDiceSize:  diceRoll size].
 	
 	^ diceRoll
 	

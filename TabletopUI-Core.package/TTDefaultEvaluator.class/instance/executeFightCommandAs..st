@@ -3,6 +3,6 @@ executeFightCommandAs: aTTCharacter
 
 	(aTTCharacter isGamemaster) ifTrue: [
 		self inputField changeToInitiativeEvaluator.
-		^ self startedInitiative]
+		^ self messageStartedInitiative]
 	ifFalse: [
-		^ self ErrorNotAuthorised]
+		^ self messageNotAuthorised]

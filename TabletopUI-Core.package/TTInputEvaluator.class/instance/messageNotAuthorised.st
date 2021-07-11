@@ -1,4 +1,4 @@
 error messages
-ErrorNotAuthorised
+messageNotAuthorised
 
 	^ 'Only the Gamemaster is authorised to use this command.'

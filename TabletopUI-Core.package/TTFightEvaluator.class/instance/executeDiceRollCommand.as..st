@@ -7,6 +7,6 @@ executeDiceRollCommand: aString as: aTTCharacter
 		^ 'FIGHT: ' , (self handleInvalidRollFrom: aTTCharacter)].
 	diceRoll := self diceRollFromInput: aString.		
 	(diceRoll isValid) ifFalse: [
-		^ 'FIGHT: ' , (self ErrorInvalidDiceSize: diceRoll size)].
+		^ 'FIGHT: ' , (self messageInvalidDiceSize: diceRoll size)].
 	self proceedToNextPlayer.
 	^ 'FIGHT: ' , diceRoll
