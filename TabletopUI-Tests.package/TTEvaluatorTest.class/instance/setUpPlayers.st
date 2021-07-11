@@ -1,7 +1,8 @@
 running
 setUpPlayers
 
-	self players: OrderedCollection new;
+	self 
+		players: OrderedCollection new;
 		gamemaster: (TTCharacter newWithName: 'gm' role: TTCharacter gamemaster).
 	self players
 		add: (TTCharacter newWithName: 'a' role: TTCharacter player);

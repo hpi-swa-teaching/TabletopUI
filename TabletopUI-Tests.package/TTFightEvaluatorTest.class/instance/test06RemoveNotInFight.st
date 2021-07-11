@@ -6,4 +6,4 @@ test06RemoveNotInFight
 	player := TTCharacter newWithName: 'test' role: TTCharacter player.
 	output := self evaluator evaluateInput: ('remove ', player name) from: self gamemaster.
 	
-	self assert: output equals: 'FIGHT: ', (self evaluator messageNotInFight: player name).
+	self assert: output equals: 'FIGHT: ', (self evaluator messageNotInFight: player name)

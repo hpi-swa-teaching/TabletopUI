@@ -3,6 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "rf 7/11/2021 13:00",
-		"test01StartFightAsPlayer" : "joda 7/11/2021 16:05",
+		"test01StartFightAsPlayer" : "PB 7/11/2021 19:53",
 		"test02StartFightAsGamemaster" : "joda 7/11/2021 16:04",
 		"test03RollDice" : "rf 7/11/2021 14:01" } }

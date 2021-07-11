@@ -8,6 +8,7 @@ test08RemoveCurrentPlayer
 		self evaluator fightingPlayers first].
 	output := self evaluator evaluateInput: ('remove ', currentPlayer name) from: self gamemaster.
 	
-	self assert: output equals: 'FIGHT: Removed ' , currentPlayer name, ' from fight.';
+	self 
+		assert: output equals: 'FIGHT: Removed ' , currentPlayer name, ' from fight.';
 		assert: self evaluator currentPlayer equals: nextPlayer;
 		deny: (self evaluator fightingPlayers includes: currentPlayer)
