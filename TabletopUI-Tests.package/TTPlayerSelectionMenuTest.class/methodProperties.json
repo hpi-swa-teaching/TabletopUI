@@ -2,7 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "PB 7/10/2021 22:52" },
 	"instance" : {
-		"setUp" : "PB 7/8/2021 15:36",
+		"setUp" : "rf 7/12/2021 19:13",
 		"test01selectedIndex" : "PB 7/10/2021 22:52",
 		"test02nameList" : "PB 7/10/2021 23:11",
 		"test03getActivePlayer" : "PB 7/10/2021 23:11" } }
