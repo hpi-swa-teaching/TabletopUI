@@ -1,3 +1,0 @@
-history
-lastStoredRun
-	^ ((Dictionary new) add: (#duration->1); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test03RollValidDiceSize; add: #test05RollOnceWithInvalidModifier; add: #test05RollCombined; add: #test02Roll; add: #test04RollMultipleDice; add: #test01InvalidInput; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test05RollCombined->0); add: (#test05RollOnceWithInvalidModifier->0); add: (#test01InvalidInput->0); add: (#test04RollMultipleDice->1); add: (#test02Roll->0); add: (#test03RollValidDiceSize->0); yourself)); yourself)

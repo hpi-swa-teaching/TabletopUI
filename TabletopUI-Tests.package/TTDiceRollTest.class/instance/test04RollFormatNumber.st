@@ -1,5 +1,5 @@
 testing
-test05RollFormatNumber
+test04RollFormatNumber
 
 	self 
 		assert: (diceroll formatNumber: 5) equals: ' + 5';

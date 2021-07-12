@@ -10,7 +10,7 @@
 		"gamemaster",
 		"players",
 		"evaluator" ],
-	"name" : "TTEvaluatorTest",
+	"name" : "TTInputEvaluatorTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

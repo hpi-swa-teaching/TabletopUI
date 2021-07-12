@@ -10,5 +10,5 @@
 	"name" : "TTFightEvaluatorTest",
 	"pools" : [
 		 ],
-	"super" : "TTEvaluatorTest",
+	"super" : "TTInputEvaluatorTest",
 	"type" : "normal" }

@@ -2,9 +2,10 @@
 	"class" : {
 		"lastStoredRun" : "PB 7/10/2021 22:50" },
 	"instance" : {
+		"diceroll" : "joda 7/12/2021 17:58",
+		"diceroll:" : "joda 7/12/2021 17:58",
 		"setUp" : "PB 7/10/2021 22:50",
-		"test01Roll" : "PB 7/10/2021 22:50",
-		"test01RollMultipleTimes" : "PB 7/10/2021 22:30",
-		"test03DiceRollIsValid" : "PB 7/10/2021 22:56",
-		"test04DiceRollSize" : "PB 7/10/2021 22:56",
-		"test05RollFormatNumber" : "PB 7/10/2021 23:04" } }
+		"test01Roll" : "joda 7/12/2021 17:56",
+		"test02RollMultipleTimes" : "joda 7/12/2021 18:44",
+		"test03DiceRollIsValid" : "joda 7/12/2021 18:04",
+		"test04RollFormatNumber" : "joda 7/12/2021 18:06" } }

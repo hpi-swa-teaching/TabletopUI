@@ -2,5 +2,7 @@ test	ing
 test03RollDice
 
 	| output |
-
-	output := self evaluator evaluateInput: self rolld6 from: self randomPlayer
+	
+	100 timesRepeat: [
+		output := self evaluator evaluateInput: self rolld6 from: self randomPlayer.
+		self assert: (output asNumber between: 1 and: 6)]

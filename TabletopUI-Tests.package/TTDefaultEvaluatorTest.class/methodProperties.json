@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "rf 7/11/2021 13:00",
+		"invalidInputs" : "joda 7/12/2021 18:34",
+		"setUp" : "joda 7/12/2021 17:30",
 		"test01StartFightAsPlayer" : "PB 7/11/2021 19:53",
 		"test02StartFightAsGamemaster" : "joda 7/11/2021 16:04",
-		"test03RollDice" : "rf 7/11/2021 14:01" } }
+		"test03RollDice" : "joda 7/12/2021 17:50",
+		"test05RollInvalidDiceSize" : "joda 7/12/2021 18:11",
+		"test06InvalidInput" : "joda 7/12/2021 18:31" } }

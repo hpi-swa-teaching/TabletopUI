@@ -9,4 +9,4 @@ executeDiceRollCommand: aString as: aTTCharacter
 	(diceRoll isValid) ifFalse: [
 		^ 'FIGHT: ' , (self messageInvalidDiceSize: diceRoll size)].
 	self proceedToNextPlayer.
-	^ 'FIGHT: ' , diceRoll
+	^ 'FIGHT: ' , diceRoll asString

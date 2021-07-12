@@ -1,0 +1,4 @@
+testing
+test05InvalidInput
+
+	self genericInvalidInputTest

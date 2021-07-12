@@ -1,4 +1,4 @@
-error messages
+messages
 messageCommandNotFound
 
-	^ 'Invalid input.'
+	^ 'Invalid input'

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"invalidInputs" : "joda 7/12/2021 18:36",
 		"setUp" : "rf 7/11/2021 13:17",
 		"tearDown" : "rf 7/11/2021 14:22",
 		"test00InvalidRoll" : "rf 7/11/2021 13:20",
@@ -15,4 +16,5 @@
 		"test06RemoveNotInFight" : "PB 7/11/2021 19:54",
 		"test07RemoveLastPlayer" : "PB 7/11/2021 19:55",
 		"test08RemoveCurrentPlayer" : "PB 7/11/2021 19:54",
-		"test09RemoveNextPlayer" : "PB 7/11/2021 19:55" } }
+		"test09RemoveNextPlayer" : "PB 7/11/2021 19:55",
+		"test10InvalidInput" : "joda 7/12/2021 18:31" } }

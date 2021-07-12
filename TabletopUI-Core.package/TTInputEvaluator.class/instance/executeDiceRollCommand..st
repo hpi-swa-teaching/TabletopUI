@@ -7,5 +7,5 @@ executeDiceRollCommand: aString
 	(diceRoll isValid) ifFalse: [
 		^ self messageInvalidDiceSize:  diceRoll size].
 	
-	^ diceRoll
+	^ diceRoll asString
 	

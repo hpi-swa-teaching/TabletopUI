@@ -6,6 +6,6 @@ executeDiceRollCommand: aString as: aTTCharacter
 	diceRoll := self diceRollFromInput: aString.		
 	(diceRoll isValid) ifTrue: [
 		self rolls add: (aTTCharacter -> diceRoll resultValue).
-		^ diceRoll]
+		^ diceRoll asString]
 	ifFalse: [
 		^ self messageInvalidDiceSize:  diceRoll size]

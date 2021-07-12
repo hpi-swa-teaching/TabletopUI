@@ -4,7 +4,7 @@
 	"instance" : {
 		"endRollForInitiativePattern" : "bv 7/6/2021 14:05",
 		"evaluateInput:from:" : "joda 7/11/2021 16:04",
-		"executeDiceRollCommand:as:" : "joda 7/11/2021 16:04",
+		"executeDiceRollCommand:as:" : "joda 7/12/2021 17:52",
 		"executeFinalizationCommandAs:" : "joda 7/11/2021 16:05",
 		"initialize" : "rf 6/19/2021 09:53",
 		"messageFightBegins" : "joda 7/11/2021 16:03",
