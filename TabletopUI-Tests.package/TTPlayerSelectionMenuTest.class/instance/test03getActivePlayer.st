@@ -1,11 +1,11 @@
 testing
 test03getActivePlayer
 
-	playerSelectionMenu selectedIndex: 1.
+	self playerSelectionMenu selectedIndex: 1.
 	self 
-		assert: playerSelectionMenu getActivePlayer role equals: #gamemaster;
-		assert: playerSelectionMenu getActivePlayer name equals: 'Gustavo'.
-	playerSelectionMenu selectedIndex: 2.
+		assert: self playerSelectionMenu getActivePlayer role equals: #gamemaster;
+		assert: self playerSelectionMenu getActivePlayer name equals: 'Gustavo'.
+	self playerSelectionMenu selectedIndex: 2.
 	self 
-		assert: playerSelectionMenu getActivePlayer role equals: #player;
-		assert: playerSelectionMenu getActivePlayer name equals: 'Giuseppe'
+		assert: self playerSelectionMenu getActivePlayer role equals: #player;
+		assert: self playerSelectionMenu getActivePlayer name equals: 'Giuseppe'

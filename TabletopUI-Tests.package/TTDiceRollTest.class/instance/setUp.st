@@ -3,4 +3,4 @@ setUp
 
 	super setUp.
 	
-	diceroll := TTDiceRoll new
+	self diceroll: (TTDiceRoll newWithRollCount: 3 diceSize: 6 modifier: 4)

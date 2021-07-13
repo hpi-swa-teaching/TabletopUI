@@ -5,6 +5,7 @@
 		"invalidInputs" : "joda 7/12/2021 18:34",
 		"setUp" : "joda 7/12/2021 17:30",
 		"test01StartFightAsPlayer" : "PB 7/11/2021 19:53",
+		"test01VerifyPlayerrole" : "joda 7/13/2021 00:48",
 		"test02StartFightAsGamemaster" : "joda 7/11/2021 16:04",
 		"test03RollDice" : "joda 7/12/2021 17:50",
 		"test05RollInvalidDiceSize" : "joda 7/12/2021 18:11",

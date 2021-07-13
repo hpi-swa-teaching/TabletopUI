@@ -9,7 +9,7 @@
 		"inputField",
 		"gamemaster",
 		"regularPlayers" ],
-	"name" : "TTRollForInitiativeTest",
+	"name" : "TTInputFieldTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

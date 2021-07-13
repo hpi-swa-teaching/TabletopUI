@@ -1,16 +1,16 @@
-testing
+test	ing
 test01VerifyPlayerrole
 	
 	| result |
 	
-	result := inputField evaluator evaluateInput: 'start fight' from: (regularPlayers at: 1).
+	result := inputField evaluator evaluateInput: 'start fight' from: self players first.
 	self assert: result equals: (inputField evaluator messageNotAuthorised).
 	result := inputField evaluator evaluateInput: 'start fight' from: gamemaster.
 	self assert: result equals: ('Started Roll for Initiative').
 	inputField evaluator 
-		evaluateInput: 'roll d6' from: (regularPlayers at: 1);
-		evaluateInput: 'roll d6' from: (regularPlayers at: 2).
-	result := inputField evaluator evaluateInput: 'finalize initiative' from: (regularPlayers at: 1).
+		evaluateInput: 'roll d6' from: self players first;
+		evaluateInput: 'roll d6' from: self players second.
+	result := inputField evaluator evaluateInput: 'finalize initiative' from: self players first.
 	self assert: result equals: (inputField evaluator messageNotAuthorised).
 	result := inputField evaluator evaluateInput: 'finalize initiative' from: gamemaster.
 	self assert: result equals: ('The fight begins!').
