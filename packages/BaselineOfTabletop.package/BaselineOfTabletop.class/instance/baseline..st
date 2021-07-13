@@ -1,4 +1,4 @@
-as yet unclassified
+baseline
 baseline: spec
 	"Todo: uncomment and adapt to your project"
 	<baseline>

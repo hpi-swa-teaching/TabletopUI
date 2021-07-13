@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "joda 6/8/2021 11:52",
-		"test00PixelPositionToTileCoordinates" : "joda 7/13/2021 08:57" } }
+		"map" : "joda 7/13/2021 12:20",
+		"map:" : "joda 7/13/2021 12:20",
+		"setUp" : "joda 7/13/2021 13:14",
+		"test01PixelPositionToTileCoordinates" : "joda 7/13/2021 13:03",
+		"test02FindFreeTile" : "joda 7/13/2021 12:21" } }

@@ -1,3 +1,3 @@
 history
 lastStoredRun
-	^ ((Dictionary new) add: (#duration->0); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test02nameList; add: #test01selectedIndex; add: #test03getActivePlayer; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test02nameList->0); add: (#test01selectedIndex->0); add: (#test03getActivePlayer->0); yourself)); yourself)
+	^ ((Dictionary new) add: (#duration->0); add: (#errors->((Set new))); add: (#passed->((Set new) add: #test02NameList; add: #test01SelectedIndex; add: #test03GetActivePlayer; yourself)); add: (#failures->((Set new))); add: (#timeStamp->'8 June 2021 10:56:33.574661 am' asTimeStamp); add: (#durations->((Dictionary new) add: (#test02NameList->0); add: (#test01SelectedIndex->0); add: (#test03GetActivePlayer->0); yourself)); yourself)

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bv 7/3/2021 21:13",
+	"instvars" : [
+		"actionLogList" ],
+	"name" : "TTActionLog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

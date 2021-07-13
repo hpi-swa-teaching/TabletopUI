@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bv 7/3/2021 21:34",
+	"instvars" : [
+		"rolls" ],
+	"name" : "TTInitiativeEvaluator",
+	"pools" : [
+		 ],
+	"super" : "TTInputEvaluator",
+	"type" : "normal" }

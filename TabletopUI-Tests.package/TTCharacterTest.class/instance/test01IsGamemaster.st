@@ -1,5 +1,5 @@
 testing
 test01IsGamemaster
 
-	self character role: #gamemaster.
+	self character role: TTCharacter gamemaster.
 	self assert: self character isGamemaster

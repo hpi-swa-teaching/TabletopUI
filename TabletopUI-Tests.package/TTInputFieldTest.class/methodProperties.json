@@ -2,8 +2,10 @@
 	"class" : {
 		"lastStoredRun" : "rf 6/8/2021 10:56" },
 	"instance" : {
-		"gamemaster" : "joda 7/13/2021 11:04",
-		"gamemaster:" : "joda 7/13/2021 11:04",
-		"setUp" : "joda 7/11/2021 15:38",
-		"test00SwitchEvaluators" : "PB 7/10/2021 23:12",
-		"test02SaveRoll" : "joda 7/13/2021 00:35" } }
+		"inputField" : "joda 7/13/2021 11:59",
+		"inputField:" : "joda 7/13/2021 11:59",
+		"setUp" : "joda 7/13/2021 13:14",
+		"tearDown" : "joda 7/13/2021 12:26",
+		"test01ChangeToInitiativeEvaluator" : "joda 7/13/2021 12:03",
+		"test02ChangeToFightEvaluator" : "joda 7/13/2021 12:27",
+		"test03ChangeToDefaultEvaluator" : "joda 7/13/2021 12:03" } }

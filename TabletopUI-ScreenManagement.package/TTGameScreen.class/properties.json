@@ -1,0 +1,19 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bv 7/3/2021 21:53",
+	"instvars" : [
+		"actionLog",
+		"imageBar",
+		"inputField",
+		"map",
+		"playerSelectionMenu",
+		"tokenBar" ],
+	"name" : "TTGameScreen",
+	"pools" : [
+		 ],
+	"super" : "TTScreen",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bv 7/3/2021 21:26",
+	"instvars" : [
+		"inputField" ],
+	"name" : "TTInputEvaluator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

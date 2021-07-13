@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "PB 7/10/2021 22:56",
-		"test01MorphOrToken" : "PB 7/10/2021 22:55",
-		"test01WantsToBeDroppedInto" : "bv 7/13/2021 11:38",
-		"test02MorphOrTile" : "PB 7/10/2021 22:55" } }

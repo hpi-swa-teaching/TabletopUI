@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "rf 7/8/2021 10:17",
+	"instvars" : [
+		"characterAdministration",
+		"contents" ],
+	"name" : "TTTabletopWindow",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,6 +1,4 @@
 running
 setUp
 
-	super setUp.
-	
-	map := TTMap new.
+	self map: TTMap new.

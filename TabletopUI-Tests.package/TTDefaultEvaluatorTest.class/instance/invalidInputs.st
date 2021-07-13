@@ -1,4 +1,4 @@
-accessing
+constants and defaults
 invalidInputs
 
 	^ super invalidInputs 
