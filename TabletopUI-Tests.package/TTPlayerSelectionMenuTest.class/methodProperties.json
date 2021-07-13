@@ -2,6 +2,8 @@
 	"class" : {
 		"lastStoredRun" : "PB 7/10/2021 22:52" },
 	"instance" : {
+		"playerSelectionMenu" : "joda 7/13/2021 08:59",
+		"playerSelectionMenu:" : "joda 7/13/2021 09:00",
 		"setUp" : "joda 7/13/2021 00:55",
 		"test01selectedIndex" : "joda 7/13/2021 00:51",
 		"test02nameList" : "joda 7/13/2021 00:52",
