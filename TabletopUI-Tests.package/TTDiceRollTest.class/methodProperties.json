@@ -2,11 +2,16 @@
 	"class" : {
 		"lastStoredRun" : "PB 7/10/2021 22:50" },
 	"instance" : {
+		"diceSize" : "bv 7/13/2021 10:33",
 		"diceroll" : "joda 7/12/2021 17:58",
 		"diceroll:" : "joda 7/12/2021 17:58",
-		"setUp" : "joda 7/13/2021 00:38",
+		"modifier" : "bv 7/13/2021 10:34",
+		"rollCount" : "bv 7/13/2021 10:33",
+		"setUp" : "bv 7/13/2021 10:34",
 		"test01Roll" : "joda 7/13/2021 00:50",
-		"test02RollMultipleTimes" : "joda 7/13/2021 00:39",
+		"test02RollMultipleTimes" : "bv 7/13/2021 10:47",
 		"test03DiceRollIsValid" : "joda 7/12/2021 18:04",
-		"test04RollModifier" : "joda 7/13/2021 00:42",
-		"test05RollFormatNumber" : "joda 7/13/2021 00:36" } }
+		"test04RollModifier" : "bv 7/13/2021 10:35",
+		"test05FormatNumber" : "bv 7/13/2021 10:50",
+		"test06ResultValue" : "bv 7/13/2021 10:58",
+		"test07AsString" : "bv 7/13/2021 10:59" } }

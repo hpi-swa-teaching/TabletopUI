@@ -1,4 +1,4 @@
 testing
 test04RollModifier
 
-	self assert: self diceroll modifier equals: 4
+	self assert: self diceroll modifier equals: self modifier

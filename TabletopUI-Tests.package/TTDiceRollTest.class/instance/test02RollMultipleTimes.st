@@ -1,4 +1,4 @@
 testing
 test02RollMultipleTimes
 
-	self assert: self diceroll rolls size equals: 3
+	self assert: self diceroll rolls size equals: self rollCount
