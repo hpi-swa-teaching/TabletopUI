@@ -3,8 +3,8 @@ test05RemovePlayer
 
 	| output player |
 	
-	player := self randomPlayer.
-	output := self evaluator evaluateInput: 'remove ', player name from: self randomPlayer.
+	player := self players first.
+	output := self evaluator evaluateInput: 'remove ', player name from: self players first.
 	self assert: output equals: 'FIGHT: ', (self evaluator messageNotAuthorised).
 	
 	output := self evaluator evaluateInput: ('remove ', player name) from: self gamemaster.

@@ -1,4 +1,4 @@
 test	ing
 test06InvalidInput
 
-	self genericInvalidInputTest
+	self testInvalidInputs: self invalidInputs

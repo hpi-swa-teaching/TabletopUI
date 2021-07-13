@@ -1,4 +1,4 @@
 accessing
-players: aCollection
+players: anOrderedCollection
 
-	players := aCollection
+	players := anOrderedCollection

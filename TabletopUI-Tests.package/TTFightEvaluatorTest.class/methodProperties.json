@@ -10,11 +10,11 @@
 		"test01DoNotParticipate" : "joda 7/11/2021 16:03",
 		"test02NotYourTurn" : "joda 7/11/2021 16:03",
 		"test03NotYourTurnAgain" : "joda 7/11/2021 16:03",
-		"test04EndFight" : "joda 7/11/2021 16:05",
-		"test05RemoveNotInFight" : "joda 7/11/2021 16:05",
-		"test05RemovePlayer" : "joda 7/11/2021 16:05",
+		"test04EndFight" : "joda 7/13/2021 10:47",
+		"test05RemoveNotInFight" : "joda 7/13/2021 10:47",
+		"test05RemovePlayer" : "joda 7/13/2021 10:48",
 		"test06RemoveNotInFight" : "PB 7/11/2021 19:54",
 		"test07RemoveLastPlayer" : "PB 7/11/2021 19:55",
 		"test08RemoveCurrentPlayer" : "PB 7/11/2021 19:54",
 		"test09RemoveNextPlayer" : "PB 7/11/2021 19:55",
-		"test10InvalidInput" : "joda 7/12/2021 18:31" } }
+		"test10InvalidInput" : "joda 7/13/2021 11:22" } }

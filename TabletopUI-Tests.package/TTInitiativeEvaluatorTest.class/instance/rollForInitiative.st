@@ -1,5 +1,6 @@
 testing
 rollForInitiative
 
-	[self evaluator playersWhoRolled size < (4 atRandom + 1)] whileTrue: [
-		self evaluator evaluateInput: self rolld6 from: self randomPlayer]
+	self evaluator evaluateInput: self rolld6 from: self players first.
+	self evaluator evaluateInput: self rolld6 from: self players second.
+	self evaluator evaluateInput: self rolld6 from: self players third

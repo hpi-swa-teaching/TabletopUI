@@ -1,4 +1,4 @@
 testing
 test05InvalidInput
 
-	self genericInvalidInputTest
+	self testInvalidInputs: self invalidInputs
