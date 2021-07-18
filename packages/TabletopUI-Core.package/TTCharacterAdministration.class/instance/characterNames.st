@@ -1,5 +1,9 @@
 accessing
 characterNames
 
-	^ (self players collect: [:aTTCharacter | aTTCharacter name]) fusionWith: 
-		(self npcs collect: [:aTTCharacter | aTTCharacter name])
+	| names |
+	
+	names := self players collect: [:aTTCharacter | aTTCharacter name].
+	names addAll: (self npcs collect: [:aTTCharacter | aTTCharacter name]).
+	
+	^ names

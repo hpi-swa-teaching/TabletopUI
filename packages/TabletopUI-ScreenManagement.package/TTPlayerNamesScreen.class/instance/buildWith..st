@@ -1,7 +1,7 @@
 toolbuilder
 buildWith: aToolBuilder
 	
-	^ self buildWith: aToolBuilder children: {
+	^ self buildWith: aToolBuilder children: ({
 		(self leaveButtonBounds) -> (self createLeaveButtonSpecWith: aToolBuilder).
 		(self continueButtonBounds) -> (self createContinueButtonSpecWith: aToolBuilder).
-		(self inputFieldListBounds)  -> [self createScrollPaneSpecWith: aToolBuilder]} asDictionary
+		(self inputFieldListBounds)  -> [self createScrollPaneSpecWith: aToolBuilder]} as: Dictionary)

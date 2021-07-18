@@ -4,6 +4,6 @@ initialize
 	super initialize.
 	
 	self 
-		images: {} asDictionary;
+		images: Dictionary new;
 		addStandardImages;
 		selectedIndex: 0
