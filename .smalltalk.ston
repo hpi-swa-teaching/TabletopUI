@@ -1,0 +1,15 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'Tabletop',
+      #directory : 'packages',
+      #platforms : [ #squeak ],
+      #load : [ 'tests' ]
+    }
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'TabletopUI-Core', 'TabletopUI-CommandProcessing', 'TabletopUI-ScreenManagement' ]
+    }
+  }
+}
