@@ -22,7 +22,7 @@ You can switch to the desired player by clicking on its name in the player selec
 
 ### Rolling the dice
 Every player including the gamemaster can execute a dice roll.
-The dice command is ```roll dx```. x represents the maximum number of eyes the rolled dice can show.
+The dice command is ```roll dx```. x represents the maximum number of eyes the rolled dice can show. Valid dice sizes are 4, 6, 8, 10, 12 and 20.
 In the dice command a number y can be added or subtracted to the dice result. This is done by ```roll dx[+|-]y```. It is also possible to roll z dices at once using the command ```roll zdx```. You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|-]y```.
 
 ### Initiative Roll
