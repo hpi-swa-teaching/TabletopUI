@@ -6,6 +6,7 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
+				package: 'GM-Core';
 				package: 'TabletopUI-Core'
 					with: [spec requires: #('GM-Core')];
 				package: 'TabletopUI-CommandProcessing'
