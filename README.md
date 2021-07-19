@@ -17,8 +17,8 @@ Metacello new
 You can open the Tabletop UI with the command `TTTabletopWindow open`. A window will open offering you different configuration options before starting a Tabletop game.
 
 ## Commands
-### Switching to gamemaster mode
-In the player list you can select the gamemaster with a double click.
+### Switching Players
+You can switch to the desired player by clicking on its name in the player selection menu next to the input field. There are certain commands that can only be executed when the gamemaster is selected.
 
 ### Rolling the dice
 Every player including the gamemaster can execute a dice roll.
@@ -26,7 +26,7 @@ The dice command is ```roll dx```. x represents the maximum number of eyes the r
 In the dice command a number y can be added or subtracted to the dice result. This is done by ```roll dx[+|-]y```. It is also possible to roll z dices at once using the command ```roll zdx```. You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|-]y```.
 
 ### Initiative Roll
-When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```. After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice round with ``finalise initiative``. Now, the fight begins and the players can roll the dice in the order which appears in the pop up player list. The command to end the fight round is ```end fight```.
+When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```. After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice round with ``finalise initiative``. Now, the fight begins and the players can roll the dice in the order which appears in the pop up player list. At any time the gamemaster can remove players from the fight via the command The command ```remove [playername]```. To end the fight and return to the default mode the gamemaster can use ```end fight```.
 
 ## Contributors of [TabletopUI](https://github.com/hpi-swa-teaching/TabletopUI)
 - [Benedikt Vidic](https://github.com/BenediktV)
