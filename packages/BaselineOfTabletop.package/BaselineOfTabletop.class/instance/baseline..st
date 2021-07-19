@@ -6,7 +6,8 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				package: 'GM-Core';
+				package: 'GM-Core'
+					with: [spec repository: 'github://hpi-swa-teaching/GameMecha:master/source'];
 				package: 'TabletopUI-Core'
 					with: [spec requires: #('GM-Core')];
 				package: 'TabletopUI-CommandProcessing'
