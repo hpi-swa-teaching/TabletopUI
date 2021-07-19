@@ -1,6 +1,6 @@
 # TabletopUI
 
-Welcome to the TabletopUI project! / 
+Welcome to the TabletopUI project!  
 We are a team of 4th semester students studying IT-Systems Engineering at Hasso-Plattner-Institute and this is the first project including a Tabletop UI. It is part of a lecture in software engineering techniques (swt1) and the first iteration ist limited to the end of july 2021. 
 
 ## Installation
