@@ -34,13 +34,13 @@ You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|
 
 ### Fight Mode
 When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```.  
-After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice roll round with ``finalise initiative``.  
+After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice roll round with ``finalize initiative``.  
 Now, the fight begins and the players can roll the dice in the order which appears in the pop up player list.  
-At any time the gamemaster can remove players from the fight via the command The command ```remove [playername]```.  
+At any time the gamemaster can remove players from the fight via the command ```remove [playername]```.  
 To end the fight and return to the default mode the gamemaster can use ```end fight```.
 
 ### Add NPCs
-NPCs can be added during the entire fight through the side bar. To do this, a valid name must be entered in the provided input field and then the "Add NPC" button must be pressed.
+NPCs can be added during the entire game through the side bar. To do this, a valid name must be entered in the provided input field and then the "Add NPC" button must be pressed.
 
 
 ## Contributors of [TabletopUI](https://github.com/hpi-swa-teaching/TabletopUI)
