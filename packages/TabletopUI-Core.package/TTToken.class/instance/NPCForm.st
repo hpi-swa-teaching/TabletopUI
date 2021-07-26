@@ -1,4 +1,4 @@
 forms
 NPCForm
 
-	^ GMImageLoader new resourceFromDrive: 'tabletop-graphics/character_token_red.png'
+	^ TTImageLoader loadFormOfName: 'character_token_red.png'

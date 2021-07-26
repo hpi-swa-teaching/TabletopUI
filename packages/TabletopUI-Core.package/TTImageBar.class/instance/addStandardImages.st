@@ -2,6 +2,6 @@ initialization
 addStandardImages
 
 	self images
-		add: 'skyrim' -> (self imageMorphFromFile: 'tabletop-graphics/skyrim.png');
-		add: 'hafenstadt' -> (self imageMorphFromFile: 'tabletop-graphics/hafenstadt.png');
-		add: 'indoor' -> (self imageMorphFromFile: 'tabletop-graphics/indoor.png')
+		add: 'skyrim' -> (self imageMorphOfName: 'skyrim.png');
+		add: 'hafenstadt' -> (self imageMorphOfName: 'hafenstadt.png');
+		add: 'indoor' -> (self imageMorphOfName: 'indoor.png')

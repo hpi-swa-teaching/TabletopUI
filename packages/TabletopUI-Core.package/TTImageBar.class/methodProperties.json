@@ -2,10 +2,10 @@
 	"class" : {
 		"newWith:" : "PB 6/27/2021 12:02" },
 	"instance" : {
-		"addStandardImages" : "bv 7/6/2021 13:52",
+		"addStandardImages" : "MM 7/26/2021 15:23",
 		"changeBackgroundTo:" : "bv 7/3/2021 17:48",
 		"createSpecWith:" : "bv 7/3/2021 17:50",
-		"imageMorphFromFile:" : "rf 7/8/2021 10:01",
+		"imageMorphOfName:" : "MM 7/26/2021 15:23",
 		"imageNameList" : "joda 6/28/2021 17:00",
 		"images" : "PB 6/27/2021 12:29",
 		"images:" : "PB 6/27/2021 12:29",

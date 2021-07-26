@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTImageLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
