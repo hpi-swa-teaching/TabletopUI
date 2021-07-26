@@ -15,9 +15,7 @@ baseline: spec
 				package: 'TabletopUI-ScreenManagement'
                     		with: [spec requires: #('TabletopUI-Core')];
 				package: 'TabletopUI-Tests' 
-					with: [spec requires: #('default')];
+					with: [spec requires: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement')];
 				yourself.
-			spec
-				group: 'default' with: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement');
-				group: 'tests' with: #('TabletopUI-Tests')];
-				yourself
+			spec group: 'default' with: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement' 'TabletopUI-Tests')];
+			yourself
