@@ -10,8 +10,8 @@ We are a team of 4th semester students studying IT-Systems Engineering at Hasso-
 
 ```
 Metacello new
-  baseline: TabletopUI;
-  repository: 'https://github.com/hpi-swa-teaching/TabletopUI';
+  baseline: 'Tabletop';
+  repository: 'github://hpi-swa-teaching/TabletopUI:main/packages';
   load.
 ```
 ## Screenshot
