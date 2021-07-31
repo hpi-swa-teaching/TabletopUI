@@ -5,6 +5,6 @@ extractDiceAmount: aString
 	
 	rollCount := 1.
 	((aString subStrings: {$d . $ }) size = 3) ifTrue: [
-		rollCount := ((aString subStrings: {$d . $ }) at: 2) asNumber].
+		rollCount := ((aString subStrings: {$d . $ }) second) asNumber].
 	
 	^ rollCount

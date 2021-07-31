@@ -6,6 +6,7 @@ createLayoutWith: aToolBuilder forPlayerCount: aNumber
 	inputFields := Dictionary new.
 	1 to: aNumber do: [:anIndex |
 		inputFields add: 
-			(self inputFieldBoundsForIndex: anIndex) -> (self createInputFieldSpecWith: aToolBuilder index: anIndex)].
+			(self inputFieldBoundsForIndex: anIndex) -> 
+				(self createInputFieldSpecWith: aToolBuilder index: anIndex)].
 	
 	^ inputFields

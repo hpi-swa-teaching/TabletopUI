@@ -2,7 +2,7 @@
 	"class" : {
 		"newWithTile:character:" : "rf 7/8/2021 10:03" },
 	"instance" : {
-		"NPCForm" : "MM 7/26/2021 15:21",
+		"NPCForm" : "bv 7/31/2021 15:07",
 		"character" : "rf 7/7/2021 07:24",
 		"character:" : "rf 7/7/2021 07:24",
 		"defaultTile" : "bv 6/8/2021 10:44",
@@ -11,6 +11,6 @@
 		"initializeFormFor:" : "MM 7/9/2021 11:46",
 		"isTTToken" : "joda 5/9/2021 17:33",
 		"mouseDown:" : "joda 5/9/2021 17:29",
-		"playerForm" : "MM 7/26/2021 15:20",
+		"playerForm" : "bv 7/31/2021 15:08",
 		"rejectDropMorphEvent:" : "bv 6/8/2021 10:44",
 		"wantsToBeDroppedInto:" : "joda 5/9/2021 17:33" } }

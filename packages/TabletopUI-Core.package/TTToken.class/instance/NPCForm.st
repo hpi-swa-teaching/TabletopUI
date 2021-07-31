@@ -1,4 +1,4 @@
 forms
 NPCForm
 
-	^ TTImageLoader loadFormOfName: 'character_token_red.png'
+	^ TTImageLoader loadFormFromFileNamed: 'character_token_red.png'

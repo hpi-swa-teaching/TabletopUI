@@ -1,9 +1,7 @@
 initialization
 newWith: aTTTabletopWindow
 	
-	^ self new
-		window: aTTTabletopWindow;
-		characterAdministration: aTTTabletopWindow characterAdministration;
+	^ (super newWith: aTTTabletopWindow)
 		initializeCommandBar;
 		initializeMapAndSideBar;
 		yourself

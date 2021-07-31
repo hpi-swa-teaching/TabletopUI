@@ -1,4 +1,4 @@
-as yet unclassified
+pass access
 imageDirectoryName
 
-	^ 'graphics' , FileDirectory slash
+	^ 'tabletop-graphics' , FileDirectory slash
