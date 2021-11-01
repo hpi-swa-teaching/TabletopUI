@@ -9,4 +9,4 @@ images
 	- stores the background images
 
 selectedIndex
-	- indicates which background is currently selected
+	- indicates which background image is currently selected
