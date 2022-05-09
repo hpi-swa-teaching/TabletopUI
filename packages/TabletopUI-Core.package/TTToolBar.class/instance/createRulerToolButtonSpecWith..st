@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 createRulerToolButtonSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggableActionButtonSpec new
