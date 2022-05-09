@@ -1,0 +1,1 @@
+A TTToolBar is a sidebar where you have shortcuts to important functionalities
