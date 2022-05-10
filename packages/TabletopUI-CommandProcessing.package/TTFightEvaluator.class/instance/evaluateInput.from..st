@@ -7,5 +7,7 @@ evaluateInput: aString from: aTTCharacter
 		^ self endFightingAs: aTTCharacter].
 	(aString matchesRegex: self removeCharacterPattern) ifTrue: [
 		^ self executeRemoveCommand: aString as: aTTCharacter].
+	(aString matchesRegex: self endTurnPattern) ifTrue: [
+		^ self proceedToNextPlayer: aTTCharacter].
 	
 	 ^ self messageCommandNotFound
