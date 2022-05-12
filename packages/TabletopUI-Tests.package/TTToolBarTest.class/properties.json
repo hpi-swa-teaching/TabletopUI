@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"toolBar" ],
+	"name" : "TTToolBarTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
