@@ -1,0 +1,3 @@
+toolbuilder
+openCharacterSheetDisplay
+	TTCharacterSheetDisplay openWith: self.
