@@ -1,0 +1,1 @@
+TTCharacterSheetData provides a data structure for the Character Sheets
