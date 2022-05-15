@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTCharacterSheetDisplay",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
