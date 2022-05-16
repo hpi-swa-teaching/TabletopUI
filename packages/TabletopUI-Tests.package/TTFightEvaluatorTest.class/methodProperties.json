@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"invalidInputs" : "joda 7/12/2021 18:36",
-		"setUp" : "rf 7/11/2021 13:17",
+		"setUp" : "ML 5/16/2022 16:39",
 		"tearDown" : "rf 7/11/2021 14:22",
 		"test01DoNotParticipate" : "joda 7/11/2021 16:03",
 		"test02NotYourTurn" : "joda 7/11/2021 16:03",
@@ -14,4 +14,5 @@
 		"test06RemoveNotInFight" : "PB 7/11/2021 19:54",
 		"test07RemovePreviousPlayer" : "joda 7/13/2021 12:58",
 		"test08RemoveCurrentPlayer" : "joda 7/13/2021 12:53",
-		"test09InvalidInput" : "joda 7/13/2021 12:59" } }
+		"test09InvalidInput" : "joda 7/13/2021 12:59",
+		"test10EndTurn" : "ML 5/16/2022 16:57" } }
