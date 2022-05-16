@@ -6,12 +6,7 @@
 		 ],
 	"commentStamp" : "DS 5/15/2022 12:55",
 	"instvars" : [
-		"strength",
-		"dexterity",
-		"constitution",
-		"intelligence",
-		"wisdom",
-		"charisma",
+		"baseValues",
 		"proficiencyValue",
 		"proficiencyLookup",
 		"armorClass",

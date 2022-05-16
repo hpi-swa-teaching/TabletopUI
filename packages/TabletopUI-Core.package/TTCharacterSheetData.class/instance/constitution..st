@@ -1,3 +1,3 @@
 accessing
 constitution: anObject
-	constitution := anObject
+	self baseValues at: #constitution put: anObject

@@ -1,3 +1,3 @@
 accessing
 strength: anObject
-	strength := anObject
+	self baseValues at: #strength put: anObject

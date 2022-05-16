@@ -1,3 +1,3 @@
 accessing
 charisma
-	^ charisma
+	^ self baseValues at: #charisma

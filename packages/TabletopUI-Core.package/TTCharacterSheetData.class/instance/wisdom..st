@@ -1,3 +1,3 @@
 accessing
 wisdom: anObject
-	wisdom := anObject
+	self baseValues at: #wisdom put: anObject

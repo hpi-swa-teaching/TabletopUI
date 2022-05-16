@@ -1,3 +1,3 @@
 accessing
 wisdom
-	^ wisdom
+	^ self baseValues at: #wisdom

@@ -1,3 +1,3 @@
 accessing
 constitution
-	^ constitution
+	^ self baseValues at: #constitution

@@ -1,3 +1,3 @@
 accessing
 dexterity: anObject
-	dexterity := anObject
+	self baseValues at: #dexterity put: anObject

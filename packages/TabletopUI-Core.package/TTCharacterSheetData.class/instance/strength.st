@@ -1,3 +1,3 @@
 accessing
 strength
-	^ strength
+	^ self baseValues at: #strength

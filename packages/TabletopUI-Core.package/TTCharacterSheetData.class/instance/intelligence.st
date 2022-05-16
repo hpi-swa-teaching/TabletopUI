@@ -1,3 +1,3 @@
 accessing
 intelligence
-	^ intelligence
+	^ self baseValues at: #intelligence

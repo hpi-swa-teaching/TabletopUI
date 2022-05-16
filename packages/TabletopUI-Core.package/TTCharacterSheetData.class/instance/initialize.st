@@ -2,13 +2,15 @@ initialize-release
 initialize
 
 	super initialize.
-	self initializeProficiencyLookup.
-	self initializeHP.
-	self level: self defaultLevel.
-	self currentHitDice: self level.
-	self hitDieType: self defaultHitDieType.
-	self armorClass: self defaultArmorClass.
-	self speed: self defaultSpeed.
-	self failedDeathSaves: self defaultDeathSaves.
-	self successfulDeathSaves: self defaultDeathSaves.
-	self gold: self defaultGold
+	self initializeBaseValues;
+		initializeProficiencyLookup;
+		initializeHP;
+		level: self defaultLevel;
+		proficiencyValue: self defaultProficiencyValue;
+		currentHitDice: self level;
+		hitDieType: self defaultHitDieType;
+		armorClass: self defaultArmorClass;
+		speed: self defaultSpeed;
+		failedDeathSaves: self defaultDeathSaves;
+		successfulDeathSaves: self defaultDeathSaves;
+		gold: self defaultGold

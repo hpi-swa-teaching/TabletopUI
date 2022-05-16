@@ -1,3 +1,3 @@
 accessing
 dexterity
-	^ dexterity
+	^ self baseValues at: #dexterity
