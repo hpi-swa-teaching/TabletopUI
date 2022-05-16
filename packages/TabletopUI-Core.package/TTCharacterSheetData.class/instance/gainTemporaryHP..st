@@ -1,4 +1,4 @@
 health and damage
 gainTemporaryHP: aNumber
 
-	self temporaryHP: self temporaryHP + aNumber
+	aNumber < 0 ifFalse: [self temporaryHP: self temporaryHP + aNumber]

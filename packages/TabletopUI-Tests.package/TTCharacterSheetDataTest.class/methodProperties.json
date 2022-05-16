@@ -8,4 +8,10 @@
 		"setUpBaseValues" : "DS 5/15/2022 15:08",
 		"setUpProficiencies" : "DS 5/15/2022 15:10",
 		"test01SavingThrows" : "DS 5/15/2022 15:08",
-		"test02ThrowsWithProficiency" : "DS 5/15/2022 15:12" } }
+		"test02ThrowsWithProficiency" : "DS 5/15/2022 15:12",
+		"test03Damage" : "DS 5/16/2022 15:50",
+		"test04Heal" : "DS 5/16/2022 16:01",
+		"test05DeathSaves" : "DS 5/16/2022 16:00",
+		"test06TemporaryHP" : "DS 5/16/2022 16:01",
+		"test07GainMoney" : "DS 5/16/2022 16:20",
+		"test08LoseMoney" : "DS 5/16/2022 16:23" } }
