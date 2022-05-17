@@ -1,3 +1,4 @@
 as yet unclassified
-openWith: aTTFightEvaluator
-	^ ToolBuilder open: (self new)
+openWith: aTTCharacterSheetData
+
+	^ ToolBuilder open: (self newWith: aTTCharacterSheetData)

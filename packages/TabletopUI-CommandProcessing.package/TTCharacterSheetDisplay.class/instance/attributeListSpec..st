@@ -4,7 +4,7 @@ attributeListSpec: aToolBuilder
 		model: model;
 		name: 'Attributes';
 		children: (OrderedCollection new
-			add: ((self attributeSpec: aToolBuilder name: 'foo') 
+			add: ((self attributeSpec: aToolBuilder name: 'strength') 
 				frame: (LayoutFrame fractions: (0 @ 0 rect: 1 @ 0.15));
 				yourself);
 			
@@ -15,5 +15,6 @@ attributeListSpec: aToolBuilder
 			add: ((self attributeSpec: aToolBuilder name: 'bubatz') 
 				frame: (LayoutFrame fractions: (0 @ 0.3 rect: 1 @ 0.45));
 				yourself);
+				
 			 yourself);
 		yourself

@@ -1,14 +1,20 @@
 {
 	"class" : {
-		"openWith:" : "RK 5/15/2022 21:08" },
+		"newWith:" : "ob 5/17/2022 18:27",
+		"openWith:" : "ob 5/17/2022 18:26" },
 	"instance" : {
 		"attributeListFrame" : "RK 5/15/2022 21:03",
-		"attributeListSpec:" : "RK 5/15/2022 22:07",
-		"attributeSpec:name:" : "RK 5/15/2022 22:25",
+		"attributeListSpec:" : "ob 5/17/2022 16:05",
+		"attributeSpec:name:" : "ob 5/17/2022 18:47",
 		"blue" : "RK 5/15/2022 22:25",
-		"buildWith:" : "RK 5/15/2022 21:03",
+		"buildWith:" : "ob 5/17/2022 17:17",
+		"dataModel" : "ob 5/17/2022 16:14",
+		"dataModel:" : "ob 5/17/2022 16:14",
 		"defaultExtent" : "RK 5/15/2022 21:03",
-		"defaultText" : "RK 5/15/2022 21:04",
-		"initialize" : "RK 5/15/2022 21:44",
+		"defaultStrengthText" : "ob 5/17/2022 18:31",
+		"defaultText" : "ob 5/17/2022 15:13",
+		"initialize" : "ob 5/17/2022 18:21",
 		"listFrame" : "RK 5/15/2022 21:04",
-		"openWith:" : "RK 5/15/2022 21:22" } }
+		"processInputStrength:" : "ob 5/17/2022 18:48",
+		"strength" : "ob 5/17/2022 18:47",
+		"strengthModifier" : "ob 5/17/2022 18:39" } }

@@ -1,3 +1,4 @@
 toolbuilder
 openCharacterSheetDisplay
-	TTCharacterSheetDisplay openWith: self.
+	
+	TTCharacterSheetDisplay openWith: self testCharacterSheet.
