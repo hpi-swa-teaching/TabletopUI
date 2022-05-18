@@ -4,10 +4,13 @@
 		"openWith:" : "ob 5/17/2022 18:26" },
 	"instance" : {
 		"attributeListFrame" : "RK 5/15/2022 21:03",
-		"attributeListSpec:" : "ob 5/17/2022 16:05",
+		"attributeListSpec:" : "RK 5/18/2022 10:31",
 		"attributeSpec:name:" : "ob 5/17/2022 18:47",
+		"attributeSpec:name:modifier:stat:" : "RK 5/18/2022 10:28",
 		"blue" : "RK 5/15/2022 22:25",
-		"buildWith:" : "ob 5/17/2022 17:17",
+		"buildWith:" : "RK 5/18/2022 10:36",
+		"centerColumnFrame" : "RK 5/18/2022 10:34",
+		"centerColumnSpec:" : "RK 5/18/2022 10:48",
 		"dataModel" : "ob 5/17/2022 16:14",
 		"dataModel:" : "ob 5/17/2022 16:14",
 		"defaultExtent" : "RK 5/15/2022 21:03",
@@ -15,6 +18,9 @@
 		"defaultText" : "ob 5/17/2022 15:13",
 		"initialize" : "ob 5/17/2022 18:21",
 		"listFrame" : "RK 5/15/2022 21:04",
+		"placeholderSavingThrows" : "RK 5/18/2022 10:52",
+		"placeholderSkills" : "RK 5/18/2022 10:45",
 		"processInputStrength:" : "ob 5/17/2022 18:48",
 		"strength" : "ob 5/17/2022 18:47",
-		"strengthModifier" : "ob 5/18/2022 00:03" } }
+		"strengthModifier" : "ob 5/18/2022 00:03",
+		"throwsListSpec:" : "RK 5/18/2022 10:50" } }
