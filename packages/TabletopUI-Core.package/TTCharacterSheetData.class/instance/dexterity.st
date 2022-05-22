@@ -1,3 +1,4 @@
 accessing
 dexterity
-	^ self baseValues at: #dexterity
+
+	^ (self baseValues at: #dexterity) asString

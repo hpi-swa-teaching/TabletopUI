@@ -1,4 +1,4 @@
 accessing
 wisdomModifier
 	
-	^ self convertToModifier: self wisdom
+	^ (self convertToModifier: self wisdom) asString

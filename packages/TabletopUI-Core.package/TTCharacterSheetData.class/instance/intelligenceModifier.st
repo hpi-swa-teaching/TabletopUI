@@ -1,4 +1,4 @@
 accessing
 intelligenceModifier
 	
-	^ self convertToModifier: self intelligence
+	^ (self convertToModifier: self intelligence) asString

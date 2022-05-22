@@ -1,4 +1,4 @@
 as yet unclassified
 strengthModifier
 
-	^ self dataModel strengthModifier
+	^ self model strengthModifier

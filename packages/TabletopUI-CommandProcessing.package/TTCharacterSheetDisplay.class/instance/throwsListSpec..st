@@ -3,5 +3,5 @@ throwsListSpec: aToolBuilder
 	^ aToolBuilder pluggableMultiColumnListSpec new
 		model: model;
 		name: 'Attributes';
-		list: #placeholderSavingThrows;
+		list: #proficiencyLookup;
 		yourself

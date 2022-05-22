@@ -1,3 +1,4 @@
 accessing
 wisdom
-	^ self baseValues at: #wisdom
+
+	^ (self baseValues at: #wisdom) asString

@@ -1,4 +1,2 @@
-as yet unclassified
+accessing
 initialize
-	super initialize.
-	model := self.

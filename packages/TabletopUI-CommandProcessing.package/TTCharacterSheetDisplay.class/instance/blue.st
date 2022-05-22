@@ -1,3 +1,4 @@
 as yet unclassified
 blue
-	^Color blue
+
+	^ Color blue

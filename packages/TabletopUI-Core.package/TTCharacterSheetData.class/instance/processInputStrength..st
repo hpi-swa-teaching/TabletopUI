@@ -1,6 +1,6 @@
-as yet unclassified
+input and processing
 processInputStrength: aText
 
-	self dataModel strength: aText.
+	self strength: aText.
 	self changed: #strengthModifier.
 	self changed: #strength.

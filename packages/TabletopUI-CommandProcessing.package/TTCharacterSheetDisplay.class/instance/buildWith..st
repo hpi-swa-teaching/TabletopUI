@@ -4,8 +4,8 @@ buildWith: aToolBuilder
 		build:
 			(aToolBuilder pluggableWindowSpec new
 				extent: self defaultExtent;
-				model: self dataModel;
-				color: #test;
+				model: self model;
+				color: #transparent;
 				label: 'Character Sheet';
 				children:
 						(OrderedCollection new

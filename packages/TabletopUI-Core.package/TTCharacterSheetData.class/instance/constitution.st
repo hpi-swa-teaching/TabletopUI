@@ -1,3 +1,4 @@
 accessing
 constitution
-	^ self baseValues at: #constitution
+
+	^ (self baseValues at: #constitution) asString

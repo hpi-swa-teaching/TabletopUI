@@ -1,4 +1,4 @@
 accessing
 charismaModifier
 	
-	^ self convertToModifier: self charisma
+	^ (self convertToModifier: self charisma) asString

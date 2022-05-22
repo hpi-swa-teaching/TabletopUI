@@ -1,3 +1,4 @@
 accessing
 intelligence: anObject
-	intelligence := anObject
+
+	^ self baseValues at: #intelligence

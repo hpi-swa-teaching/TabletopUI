@@ -1,4 +1,4 @@
 accessing
 constitutionModifier
 	
-	^ self convertToModifier: self constitution
+	^ (self convertToModifier: self constitution) asString
