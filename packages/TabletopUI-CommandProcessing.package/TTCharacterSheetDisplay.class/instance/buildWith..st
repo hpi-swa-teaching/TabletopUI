@@ -18,5 +18,10 @@ buildWith: aToolBuilder
 								((self centerColumnSpec: aToolBuilder)
 									frame: self centerColumnFrame;
 									yourself);
+									
+							add:
+								((self rightColumnSpec: aToolBuilder)
+									frame: self rightColumnFrame;
+									yourself);
 							yourself);
 				yourself)

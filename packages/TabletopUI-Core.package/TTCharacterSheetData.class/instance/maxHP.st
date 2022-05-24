@@ -1,3 +1,3 @@
 accessing
 maxHP
-	^ maxHP
+	^ maxHP asString

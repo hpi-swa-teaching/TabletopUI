@@ -1,0 +1,4 @@
+labels
+defaultHitDiceLabel
+	
+	^ 'DICE'

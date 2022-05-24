@@ -1,0 +1,4 @@
+labels
+defaultLevelLabel
+	
+	^ 'TOTAL'

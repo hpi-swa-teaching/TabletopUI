@@ -1,3 +1,3 @@
 accessing
 currentHP
-	^ currentHP
+	^ currentHP asString

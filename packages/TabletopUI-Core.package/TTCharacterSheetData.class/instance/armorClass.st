@@ -1,3 +1,3 @@
 accessing
 armorClass
-	^ armorClass
+	^ armorClass asString
