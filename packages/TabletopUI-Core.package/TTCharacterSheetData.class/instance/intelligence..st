@@ -1,4 +1,4 @@
 accessing
 intelligence: anObject
 
-	^ self baseValues at: #intelligence
+	self baseValues at: #intelligence put: anObject
