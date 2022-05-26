@@ -1,4 +1,4 @@
 toolbuilder
 openCharacterSheetDisplay
 	
-	TTCharacterSheetDisplay openWith: self testCharacterSheet.
+	^ TTCharacterSheetDisplay openWith: self characterAdministration activePlayer sheet.

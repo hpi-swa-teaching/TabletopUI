@@ -1,12 +1,12 @@
 {
 	"class" : {
-		 },
+		"newWith:" : "JA 5/26/2022 12:02" },
 	"instance" : {
+		"characterAdministration" : "JA 5/26/2022 12:09",
+		"characterAdministration:" : "JA 5/26/2022 12:09",
 		"createCharacterSheetButtonSpecWith:" : "RK 5/15/2022 21:05",
 		"createDiceToolButtonSpecWith:" : "DS 5/9/2022 14:06",
 		"createRulerToolButtonSpecWith:" : "DS 5/9/2022 14:06",
 		"createSpecWith:" : "RK 5/15/2022 21:05",
-		"initialize" : "ob 5/17/2022 18:13",
-		"openCharacterSheetDisplay" : "ob 5/17/2022 18:30",
-		"testCharacterSheet" : "ob 5/17/2022 18:03",
-		"testCharacterSheet:" : "ob 5/17/2022 18:03" } }
+		"initialize" : "JA 5/26/2022 14:17",
+		"openCharacterSheetDisplay" : "JA 5/26/2022 14:12" } }
