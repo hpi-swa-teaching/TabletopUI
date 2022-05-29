@@ -1,4 +1,4 @@
 constants and defaults
 defaultText
 
-^ '420'
+^ '69' "nice"
