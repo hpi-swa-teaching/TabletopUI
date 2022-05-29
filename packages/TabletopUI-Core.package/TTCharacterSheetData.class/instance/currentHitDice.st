@@ -1,3 +1,3 @@
 accessing
 currentHitDice
-	^ currentHitDice asString
+	^ currentHitDice
