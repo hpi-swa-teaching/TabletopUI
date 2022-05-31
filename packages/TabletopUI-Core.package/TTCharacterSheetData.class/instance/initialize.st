@@ -3,7 +3,8 @@ initialize
 
 	super initialize.
 	self initializeBaseValues;
-		initializeProficiencyLookup;
+		initializeThrowsLookup;
+		initializeSkillsLookup;
 		initializeHP;
 		level: self defaultLevel;
 		proficiencyValue: self defaultProficiencyValue;

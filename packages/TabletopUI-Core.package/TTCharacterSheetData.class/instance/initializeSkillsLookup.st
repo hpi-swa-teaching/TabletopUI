@@ -1,14 +1,8 @@
 initialize-release
-initializeProficiencyLookup
+initializeSkillsLookup
 	
-	self proficiencyLookup: Dictionary new.
-	self proficiencyLookup 
-		at: #strengthSave put: self defaultProficiencyMultiplier;
-		at: #dexteritySave put: self defaultProficiencyMultiplier;
-		at: #constitutionSave put: self defaultProficiencyMultiplier;
-		at: #intelligenceSave put: self defaultProficiencyMultiplier;
-		at: #wisdomSave put: self defaultProficiencyMultiplier;
-		at: #charismaSave put: self defaultProficiencyMultiplier;
+	self skillsLookup: Dictionary new.
+	self skillsLookup 
 		at: #acrobatics put: self defaultProficiencyMultiplier;
 		at: #animalHandling put: self defaultProficiencyMultiplier;
 		at: #arcana put: self defaultProficiencyMultiplier;

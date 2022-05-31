@@ -1,4 +1,4 @@
-dice roll modifiers
+health and damage
 initiative
 
-	^ self dexterityModifier
+	^ self dexterityModifier asString

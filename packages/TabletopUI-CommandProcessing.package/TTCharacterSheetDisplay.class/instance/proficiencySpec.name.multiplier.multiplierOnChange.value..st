@@ -6,11 +6,10 @@ proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol mu
 		name: aNameSymbol printString;
 		children: (OrderedCollection new
 				
-			add: (aToolBuilder pluggableTextSpec new
+			add: (aToolBuilder pluggableInputFieldSpec new
 				model: model;
 				getText: aMultiplierSymbol;
 				setText: aCallbackSymbol;
-				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
 				font: (TextStyle defaultFont pointSize: 24; yourself);
 				frame: (0 @ 0 rect: 0.15 @ 1);

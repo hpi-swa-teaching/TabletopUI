@@ -1,4 +1,4 @@
 dice roll modifiers
 charismaSave
 
-	^ self charismaModifier + (self proficiencyValue * self proficiencyLookup at: #charismaSave)
+	^ self charismaModifier + (self proficiencyValue * self throwsLookup at: #charismaSave) asString

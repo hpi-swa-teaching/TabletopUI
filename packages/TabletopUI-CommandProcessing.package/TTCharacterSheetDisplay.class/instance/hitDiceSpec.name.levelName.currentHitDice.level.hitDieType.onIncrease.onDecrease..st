@@ -24,7 +24,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				readOnly: true;
 				yourself);
 				
-			add: (aToolBuilder pluggableInputFieldSpec new
+			add: (aToolBuilder pluggableTextSpec new
 				model: model;
 				getText: aCurrentHitDiceSymbol;
 				color: #backgroundColorBaseValues;
@@ -33,7 +33,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				readOnly: true;
 				yourself);
 			
-			add: (aToolBuilder pluggableInputFieldSpec new
+			add: (aToolBuilder pluggableTextSpec new
 				model: model;
 				getText: aNameSymbol;
 				color: #backgroundColorBaseValues;
@@ -56,7 +56,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				frame: (0.35 @ 0.8 rect: 0.6 @ 1);
 				yourself);
 				
-			add: (aToolBuilder pluggableInputFieldSpec new
+			add: (aToolBuilder pluggableTextSpec new
 				model: model;
 				getText: aDieSymbol;
 				color: #backgroundColorBaseValues;

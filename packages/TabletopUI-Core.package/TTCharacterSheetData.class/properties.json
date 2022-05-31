@@ -8,7 +8,8 @@
 	"instvars" : [
 		"baseValues",
 		"proficiencyValue",
-		"proficiencyLookup",
+		"throwsLookup",
+		"skillsLookup",
 		"armorClass",
 		"speed",
 		"maxHP",

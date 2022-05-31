@@ -1,4 +1,4 @@
 dice roll modifiers
 constitutionSave
 
-	^ self constitutionModifier + (self proficiencyValue * self proficiencyLookup at: #constitutionSave)
+	^ self constitutionModifier + (self proficiencyValue * self throwsLookup at: #constitutionSave) asString
