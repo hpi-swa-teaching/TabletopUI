@@ -8,13 +8,13 @@ recoverySpec: aToolBuilder
 			add: ((self hitDiceSpec: aToolBuilder name: #defaultHitDiceLabel levelName: #defaultLevelLabel currentHitDice: #currentHitDiceString level: #levelText hitDieType: #hitDieTypeText onIncrease: #incrementHitDice onDecrease: #decrementHitDice)
 				model: model;
 				color: #backgroundColorBaseValues;		
-				frame: (0 @ 0 rect: 0.33 @ 1);
+				frame: (0 @ 0 rect: 0.4 @ 1);
 				yourself);
 				
 			add: ((self labelledAttributeSpec: aToolBuilder name: #defaultInitiativeLabel stat: #initiative)
 				model: model;
 				color: #backgroundColorBaseValues;		
-				frame: (0.33 @ 0 rect: 0.67 @ 1);
+				frame: (0.5 @ 0 rect: 1 @ 1);
 				yourself);
 			
 			 yourself);

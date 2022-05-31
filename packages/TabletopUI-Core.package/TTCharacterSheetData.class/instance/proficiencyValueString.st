@@ -1,0 +1,3 @@
+accessing
+proficiencyValueString
+	^ proficiencyValue asString

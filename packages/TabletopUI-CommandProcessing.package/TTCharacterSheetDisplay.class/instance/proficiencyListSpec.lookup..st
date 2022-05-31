@@ -2,7 +2,7 @@ as yet unclassified
 proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
 	| proficiencyList childrenList frameCounter lineHeight |
 	frameCounter := 0.
-	lineHeight := 0.8 / (model perform: aLookupSymbol) size.
+	lineHeight := 1.0 / ((model perform: aLookupSymbol) size + 1).
 	proficiencyList := LinkedList new.
 	(model perform: aLookupSymbol) keysAndValuesDo:
 		[ :key :value | 
@@ -16,7 +16,7 @@ proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
 				multiplier: (((pair at: 1), 'Multiplier') asSymbol) 
 				multiplierOnChange: (((pair at: 1), 'Multiplier:') asSymbol) 
 				value: ((pair at: 1) asSymbol))
-		frame: (LayoutFrame fractions: (0 @ frameCounter rect: 1 @ frameCounter + lineHeight)); yourself)].
+		frame: (0 @ frameCounter rect: 1 @ frameCounter + lineHeight))].
 	
 	^ aToolBuilder pluggablePanelSpec new
 		model: model;
