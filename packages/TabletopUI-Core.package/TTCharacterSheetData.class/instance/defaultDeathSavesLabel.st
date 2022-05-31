@@ -1,0 +1,4 @@
+labels
+defaultDeathSavesLabel
+	
+	^ 'DEATH SAVES'

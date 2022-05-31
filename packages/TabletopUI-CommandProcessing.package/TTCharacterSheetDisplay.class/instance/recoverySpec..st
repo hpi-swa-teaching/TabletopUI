@@ -11,10 +11,10 @@ recoverySpec: aToolBuilder
 				frame: (0 @ 0 rect: 0.4 @ 1);
 				yourself);
 				
-			add: ((self labelledAttributeSpec: aToolBuilder name: #defaultInitiativeLabel stat: #initiative)
+			add: ((self deathSavesSpec: aToolBuilder)
 				model: model;
 				color: #backgroundColorBaseValues;		
-				frame: (0.5 @ 0 rect: 1 @ 1);
+				frame: (0.45 @ 0 rect: 1 @ 1);
 				yourself);
 			
 			 yourself);

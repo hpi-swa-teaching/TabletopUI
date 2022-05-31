@@ -1,3 +1,3 @@
 accessing
 failedDeathSaves
-	^ failedDeathSaves asString
+	^ failedDeathSaves
