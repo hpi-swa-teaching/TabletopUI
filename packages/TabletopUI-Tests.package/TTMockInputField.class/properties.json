@@ -1,14 +1,14 @@
 {
-	"category" : "TabletopUI-CommandProcessing",
+	"category" : "TabletopUI-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"model" ],
-	"name" : "TTCharacterSheetDisplay",
+		"inputs" ],
+	"name" : "TTMockInputField",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

@@ -4,7 +4,7 @@
 		"openWith:" : "ob 5/17/2022 18:26" },
 	"instance" : {
 		"attributeListFrame" : "DS 5/31/2022 20:28",
-		"attributeListSpec:" : "DS 5/22/2022 11:32",
+		"attributeListSpec:" : "ML 5/31/2022 17:27",
 		"attributeSpec:name:modifier:stat:onChange:" : "DS 5/22/2022 10:53",
 		"blue" : "DS 5/19/2022 11:18",
 		"buildWith:" : "DS 5/24/2022 20:10",
@@ -18,16 +18,17 @@
 		"defaultText" : "ob 5/17/2022 15:13",
 		"hitDiceSpec:name:levelName:currentHitDice:level:hitDieType:onIncrease:onDecrease:" : "DS 5/31/2022 19:41",
 		"hpSpec:" : "DS 5/31/2022 20:33",
-		"initialize" : "DS 5/22/2022 12:03",
 		"itemBuffsSpec:" : "DS 5/31/2022 20:20",
 		"labelledAttributeSpec:name:stat:" : "DS 5/24/2022 20:29",
 		"listFrame" : "RK 5/15/2022 21:04",
 		"model" : "DS 5/22/2022 09:40",
 		"model:" : "DS 5/22/2022 09:40",
+		"proficiencyListSpec:" : "DS 5/29/2022 19:56",
 		"proficiencyListSpec:lookup:" : "DS 5/31/2022 20:14",
 		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "DS 5/31/2022 19:44",
 		"recoverySpec:" : "DS 5/31/2022 22:18",
 		"rightColumnFrame" : "DS 5/31/2022 20:33",
 		"rightColumnSpec:" : "DS 5/31/2022 20:31",
 		"strength" : "DS 5/22/2022 09:39",
-		"strengthModifier" : "DS 5/22/2022 09:39" } }
+		"strengthModifier" : "DS 5/22/2022 09:39",
+		"throwsListSpec:" : "DS 5/22/2022 09:59" } }
