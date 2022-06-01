@@ -28,7 +28,7 @@ buildWith: aToolBuilder
 								name: 'reset';
 								label: 'reset';
 								model:self;
-								action: #resetDice;
+								action: #reset;
 								yourself);
 							yourself);
 				yourself).
