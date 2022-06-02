@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"characterSheet" ],
+	"name" : "TTCharacterSheetDataTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

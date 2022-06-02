@@ -1,0 +1,4 @@
+accessing
+temporaryHP
+
+	^ temporaryHP asString

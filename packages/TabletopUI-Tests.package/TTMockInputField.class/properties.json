@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputs" ],
+	"name" : "TTMockInputField",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

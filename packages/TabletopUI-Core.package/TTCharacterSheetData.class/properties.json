@@ -1,0 +1,28 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DS 5/15/2022 12:55",
+	"instvars" : [
+		"baseValues",
+		"proficiencyValue",
+		"throwsLookup",
+		"skillsLookup",
+		"armorClass",
+		"speed",
+		"maxHP",
+		"currentHP",
+		"temporaryHP",
+		"failedDeathSaves",
+		"successfulDeathSaves",
+		"level",
+		"currentHitDice",
+		"hitDieType",
+		"gold" ],
+	"name" : "TTCharacterSheetData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

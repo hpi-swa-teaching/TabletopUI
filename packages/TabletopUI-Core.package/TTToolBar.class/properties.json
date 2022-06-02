@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "DS 5/9/2022 10:09",
+	"instvars" : [
+		"characterAdministration",
+		"inputField" ],
+	"name" : "TTToolBar",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

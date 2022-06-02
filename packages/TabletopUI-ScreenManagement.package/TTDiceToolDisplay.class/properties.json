@@ -1,0 +1,18 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"inputField",
+		"characterAdministration",
+		"modifier",
+		"diceType",
+		"diceAmounts" ],
+	"name" : "TTDiceToolDisplay",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

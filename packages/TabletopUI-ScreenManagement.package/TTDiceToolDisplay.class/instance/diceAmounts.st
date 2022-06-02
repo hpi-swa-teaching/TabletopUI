@@ -1,0 +1,3 @@
+accessing
+diceAmounts
+	^ diceAmounts

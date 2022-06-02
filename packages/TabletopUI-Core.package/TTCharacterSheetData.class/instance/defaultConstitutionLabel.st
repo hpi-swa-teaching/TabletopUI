@@ -1,0 +1,4 @@
+labels
+defaultConstitutionLabel
+	
+	^ 'CONSTITUTION'
