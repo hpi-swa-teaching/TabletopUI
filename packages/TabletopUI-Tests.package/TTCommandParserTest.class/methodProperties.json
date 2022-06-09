@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JA 6/9/2022 19:55",
+		"test01DiceRollCommand" : "JA 6/9/2022 21:48",
+		"test02ComplexDiceRollCommand" : "JA 6/9/2022 22:13",
+		"test03StartFight" : "JA 6/9/2022 22:27",
+		"test04EndFight" : "JA 6/9/2022 22:30",
+		"test05EndTurn" : "JA 6/9/2022 22:31",
+		"test06EndInitiative" : "JA 6/9/2022 22:32",
+		"test07RemoveCharacter" : "JA 6/9/2022 22:34" } }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addToken:" : "JA 6/9/2022 19:52",
+		"nextToken" : "JA 6/9/2022 20:05",
+		"peek" : "JA 6/9/2022 19:52",
+		"peek:" : "JA 6/9/2022 20:04",
+		"processString:" : "JA 6/9/2022 19:52",
+		"splitAndDiscard" : "JA 6/9/2022 19:39",
+		"splitAndKeep" : "JA 6/9/2022 19:38" } }

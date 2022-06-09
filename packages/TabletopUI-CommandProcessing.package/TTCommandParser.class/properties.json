@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lexer" ],
+	"name" : "TTCommandParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

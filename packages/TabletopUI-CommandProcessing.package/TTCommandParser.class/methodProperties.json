@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"diceRegex" : "JA 6/9/2022 21:37",
+		"initialize" : "JA 6/9/2022 21:22",
+		"intRegex" : "JA 6/9/2022 21:38",
+		"lexer" : "JA 6/9/2022 21:22",
+		"lexer:" : "JA 6/9/2022 21:22",
+		"parse:" : "JA 6/9/2022 22:34",
+		"parseAction" : "JA 6/9/2022 22:19",
+		"parseCharacter" : "JA 6/9/2022 22:21",
+		"parseRollable" : "JA 6/9/2022 22:12",
+		"parseValue" : "JA 6/9/2022 21:42" } }

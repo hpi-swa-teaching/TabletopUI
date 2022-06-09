@@ -1,0 +1,4 @@
+accessing
+negate
+	
+	negated := true
