@@ -1,0 +1,18 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"map",
+		"startPosition",
+		"endPosition",
+		"clickCounter",
+		"inputField" ],
+	"name" : "TTRulerTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
