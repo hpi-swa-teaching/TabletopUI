@@ -7,7 +7,8 @@
 	"commentStamp" : "DS 5/9/2022 10:09",
 	"instvars" : [
 		"characterAdministration",
-		"inputField" ],
+		"inputField",
+		"map" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],

@@ -1,15 +1,18 @@
 {
 	"class" : {
-		"newWith:and:" : "ML 6/1/2022 18:34" },
+		"newWith:and:map:" : "OB 6/13/2022 10:17" },
 	"instance" : {
 		"characterAdministration" : "JA 5/26/2022 12:09",
 		"characterAdministration:" : "JA 5/26/2022 12:09",
 		"createCharacterSheetButtonSpecWith:" : "RK 5/15/2022 21:05",
 		"createDiceToolButtonSpecWith:" : "ML 5/31/2022 16:09",
-		"createRulerToolButtonSpecWith:" : "DS 5/9/2022 14:06",
+		"createRulerToolButtonSpecWith:" : "OB 6/13/2022 08:48",
 		"createSpecWith:" : "RK 5/15/2022 21:05",
 		"initialize" : "JA 5/26/2022 14:17",
 		"inputField" : "ML 6/1/2022 18:34",
 		"inputField:" : "ML 6/1/2022 18:34",
+		"map" : "OB 6/13/2022 08:41",
+		"map:" : "OB 6/13/2022 08:41",
 		"openCharacterSheetDisplay" : "ML 5/31/2022 16:09",
-		"openDiceToolDisplay" : "ML 6/1/2022 18:46" } }
+		"openDiceToolDisplay" : "ML 6/1/2022 18:46",
+		"openRulerTool" : "OB 6/15/2022 10:06" } }

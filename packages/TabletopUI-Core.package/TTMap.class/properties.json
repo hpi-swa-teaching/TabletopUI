@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 21:39",
 	"instvars" : [
-		"tiles" ],
+		"tiles",
+		"rulerToolActive",
+		"rulerTool" ],
 	"name" : "TTMap",
 	"pools" : [
 		 ],
