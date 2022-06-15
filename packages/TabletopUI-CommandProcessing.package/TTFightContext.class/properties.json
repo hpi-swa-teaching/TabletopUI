@@ -1,0 +1,16 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentPlayer",
+		"display",
+		"fightingPlayers" ],
+	"name" : "TTFightContext",
+	"pools" : [
+		 ],
+	"super" : "TTCommandContext",
+	"type" : "normal" }

@@ -2,13 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
+		"changeToDefaultContext" : "ML 6/15/2022 15:39",
+		"changeToFightContextWithWithFightOrder:" : "ML 6/15/2022 15:56",
+		"changeToInitiativeContext" : "ML 6/15/2022 15:40",
+		"context" : "ML 6/15/2022 10:41",
+		"context:" : "ML 6/15/2022 10:41",
 		"diceRegex" : "JA 6/9/2022 21:37",
-		"initialize" : "JA 6/9/2022 21:22",
+		"evaluateInput:from:" : "ML 6/15/2022 16:28",
+		"initialize" : "ML 6/15/2022 10:43",
 		"intRegex" : "JA 6/9/2022 21:38",
 		"lexer" : "JA 6/9/2022 21:22",
 		"lexer:" : "JA 6/9/2022 21:22",
-		"parse:" : "JA 6/9/2022 22:34",
-		"parseAction" : "JA 6/9/2022 22:19",
+		"parse:" : "ML 6/15/2022 16:40",
+		"parseAction" : "ML 6/15/2022 16:41",
 		"parseCharacter" : "JA 6/9/2022 22:21",
-		"parseRollable" : "JA 6/9/2022 22:12",
-		"parseValue" : "JA 6/9/2022 21:42" } }
+		"parseRollable" : "ML 6/15/2022 16:43",
+		"parseValue" : "ML 6/15/2022 16:43" } }

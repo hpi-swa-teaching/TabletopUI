@@ -10,7 +10,6 @@ parseAction
 		^ TTFightCommand new. ].
 	(token = 'turn') ifTrue: [
 		^ TTTurnCommand new. ].
-	
-	"todo: throw syntax error"
+	^TTErrorCommand new
 	
 	

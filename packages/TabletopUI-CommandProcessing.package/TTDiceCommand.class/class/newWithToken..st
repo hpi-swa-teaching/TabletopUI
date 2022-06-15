@@ -1,7 +1,7 @@
 initialize-release
 newWithToken: aString
 	
-	| dPos type count |
+	| dPos count type|
 	
 	dPos := aString indexOf: $d.
 	dPos = 1  ifTrue: [
@@ -11,6 +11,6 @@ newWithToken: aString
 	type := (aString copyFrom: dPos + 1 to: aString size) asInteger.
 	
 	^ self new
-		diceRoll: 
-			(TTDiceRoll newWithRollCount: count diceSize: type modifier: 0);
+		count: count;
+		type: type;
 		yourself

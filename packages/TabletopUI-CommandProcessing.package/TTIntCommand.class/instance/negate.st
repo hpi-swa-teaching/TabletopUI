@@ -1,4 +1,4 @@
 accessing
 negate
 	
-	negated := true
+	self negated: true

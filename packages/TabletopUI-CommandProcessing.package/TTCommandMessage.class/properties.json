@@ -1,0 +1,16 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"outputString",
+		"value",
+		"errorMessage" ],
+	"name" : "TTCommandMessage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -11,6 +11,5 @@ parseRollable
 		self lexer nextToken.
 		value2 := self parseRollable.
 		^ TTAddCommand newWithLeft: value right: (value2 negate; yourself)].
-	
 	^ value
 	

@@ -1,9 +1,16 @@
 {
 	"class" : {
-		"newWithToken:" : "JA 6/9/2022 21:50" },
+		"newWithToken:" : "ML 6/15/2022 09:30" },
 	"instance" : {
+		"count" : "ML 6/15/2022 09:21",
+		"count:" : "ML 6/15/2022 09:21",
 		"diceRoll" : "JA 6/9/2022 20:56",
 		"diceRoll:" : "JA 6/9/2022 20:56",
-		"execute:" : "JA 6/9/2022 21:15",
+		"execute:from:" : "ML 6/15/2022 16:31",
+		"executeDiceRoll" : "ML 6/15/2022 09:28",
 		"initialize" : "JA 6/9/2022 20:52",
-		"negate" : "JA 6/9/2022 21:31" } }
+		"negate" : "ML 6/15/2022 10:16",
+		"negated" : "ML 6/15/2022 10:16",
+		"negated:" : "ML 6/15/2022 10:16",
+		"type" : "ML 6/15/2022 09:21",
+		"type:" : "ML 6/15/2022 09:21" } }

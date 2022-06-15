@@ -9,7 +9,5 @@ parseValue
 	
 	(token matchesRegex: self intRegex) ifTrue: [
 		^ TTIntCommand newWithToken: token ].
-	
-	"todo: throw syntax error"
-	
+	^TTErrorCommand new
 	

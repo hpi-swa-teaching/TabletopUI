@@ -1,16 +1,21 @@
 parsing
 parse: aString
 	
-	| token |
+	| token command |
 	lexer processString: aString.
 	
 	token := lexer nextToken.
 	
 	token = 'roll' ifTrue: [
-		^ TTRollCommand newWith: self parseRollable].
+		command := TTRollCommand newWith: self parseRollable].
 	token = 'start' ifTrue: [
-		^ TTStartCommand newWith: self parseAction].
+		command := TTStartCommand newWith: self parseAction].
 	token = 'end' ifTrue: [
-		^ TTEndCommand newWith: self parseAction].
+		command := TTEndCommand newWith: self parseAction].
 	token = 'remove' ifTrue: [
-		^ TTRemoveCommand newWithToken: self parseCharacter]
+		command := TTRemoveCommand newWithToken: self parseCharacter].
+	command ifNil: [
+		command := TTErrorCommand new].
+	self lexer nextToken ifNotNil: [
+		command := TTErrorCommand new].
+	^command
