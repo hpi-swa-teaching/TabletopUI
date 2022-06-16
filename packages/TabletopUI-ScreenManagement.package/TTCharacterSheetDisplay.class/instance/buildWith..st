@@ -6,7 +6,7 @@ buildWith: aToolBuilder
 				extent: self defaultExtent;
 				model: self model;
 				color: #transparent;
-				label: 'Character Sheet';
+				label: self name;
 				children:
 						(OrderedCollection new
 							add:

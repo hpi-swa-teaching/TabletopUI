@@ -1,13 +1,15 @@
 {
 	"class" : {
 		"newWith:" : "DS 5/22/2022 12:02",
-		"openWith:" : "ob 5/17/2022 18:26" },
+		"newWith:name:" : "RK 6/16/2022 09:40",
+		"openWith:" : "ob 5/17/2022 18:26",
+		"openWith:name:" : "RK 6/16/2022 09:40" },
 	"instance" : {
 		"attributeListFrame" : "DS 5/31/2022 20:28",
 		"attributeListSpec:" : "ML 5/31/2022 17:27",
 		"attributeSpec:name:modifier:stat:onChange:" : "DS 5/22/2022 10:53",
 		"blue" : "DS 5/19/2022 11:18",
-		"buildWith:" : "DS 5/24/2022 20:10",
+		"buildWith:" : "RK 6/16/2022 09:41",
 		"centerColumnFrame" : "DS 5/31/2022 20:32",
 		"centerColumnSpec:" : "DS 5/31/2022 20:19",
 		"deathSavesLabelSpec:name:callBack:" : "DS 5/31/2022 22:24",
@@ -23,6 +25,8 @@
 		"listFrame" : "RK 5/15/2022 21:04",
 		"model" : "DS 5/22/2022 09:40",
 		"model:" : "DS 5/22/2022 09:40",
+		"name" : "RK 6/16/2022 09:41",
+		"name:" : "RK 6/16/2022 09:41",
 		"proficiencyListSpec:" : "DS 5/29/2022 19:56",
 		"proficiencyListSpec:lookup:" : "RK 6/16/2022 09:27",
 		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "DS 5/31/2022 19:44",
