@@ -27,12 +27,8 @@
 		"model:" : "DS 5/22/2022 09:40",
 		"name" : "RK 6/16/2022 09:41",
 		"name:" : "RK 6/16/2022 09:41",
-		"proficiencyListSpec:" : "DS 5/29/2022 19:56",
 		"proficiencyListSpec:lookup:" : "RK 6/16/2022 10:00",
 		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "DS 5/31/2022 19:44",
 		"recoverySpec:" : "RK 6/16/2022 10:26",
 		"rightColumnFrame" : "DS 5/31/2022 20:33",
-		"rightColumnSpec:" : "DS 5/31/2022 20:31",
-		"strength" : "DS 5/22/2022 09:39",
-		"strengthModifier" : "DS 5/22/2022 09:39",
-		"throwsListSpec:" : "DS 5/22/2022 09:59" } }
+		"rightColumnSpec:" : "DS 5/31/2022 20:31" } }

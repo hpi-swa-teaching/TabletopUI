@@ -8,6 +8,7 @@ updateThrowsAndSkills
 	self changed: #wisdomSave.
 	self changed: #charismaSave.
 
+	self changed: #acrobatics.
 	self changed: #animalHandling.
 	self changed: #arcana.
 	self changed: #athletics.
