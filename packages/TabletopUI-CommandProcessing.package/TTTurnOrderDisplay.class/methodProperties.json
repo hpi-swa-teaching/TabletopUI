@@ -1,13 +1,13 @@
 {
 	"class" : {
-		"newWith:" : "MM 7/3/2021 15:36",
-		"openWith:" : "ML 6/2/2022 10:09" },
+		"newWith:" : "ML 6/16/2022 10:33",
+		"openWith:" : "ML 6/16/2022 10:33" },
 	"instance" : {
-		"buildWith:" : "ob 5/11/2022 15:11",
+		"buildWith:" : "ML 6/16/2022 10:34",
 		"buttonFrame" : "ob 5/11/2022 15:11",
-		"buttonSpec:" : "ob 5/11/2022 15:07",
+		"buttonSpec:" : "ML 6/16/2022 10:34",
 		"defaultExtent" : "ob 5/11/2022 15:09",
-		"fightEvaluator" : "MM 7/3/2021 15:35",
-		"fightEvaluator:" : "MM 7/3/2021 15:35",
+		"fightContext" : "ML 6/16/2022 10:33",
+		"fightContext:" : "ML 6/16/2022 10:33",
 		"listFrame" : "ob 5/11/2022 15:11",
-		"listSpec:" : "ob 5/11/2022 15:07" } }
+		"listSpec:" : "ML 6/16/2022 10:34" } }

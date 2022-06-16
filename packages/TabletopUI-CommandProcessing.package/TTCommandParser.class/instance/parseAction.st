@@ -4,7 +4,7 @@ parseAction
 	| token |
 	token := lexer nextToken.
 	
-	(token = 'initiative') ifTrue: [
+	((token = 'initiative') | (token = 'ini')) ifTrue: [
 		^ TTInitiativeCommand new. ].
 	(token = 'fight') ifTrue: [
 		^ TTFightCommand new. ].

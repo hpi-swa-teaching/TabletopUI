@@ -1,3 +1,5 @@
 accessing
-currentPlayer: anObject
-	currentPlayer := anObject
+currentPlayer: aTTCharacter
+
+	currentPlayer := aTTCharacter.
+	self changed: #currentPlayerName
