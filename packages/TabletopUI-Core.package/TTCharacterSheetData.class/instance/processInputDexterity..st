@@ -4,3 +4,4 @@ processInputDexterity: aText
 	self dexterity: aText.
 	self changed: #dexterityModifier.
 	self changed: #dexterity.
+	self updateThrowsAndSkills.

@@ -15,7 +15,7 @@ proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
 		childrenList add: ((self proficiencySpec: aToolBuilder 
 				name: (((pair at: 1), 'Label') asSymbol) 
 				multiplier: (((pair at: 1), 'Multiplier') asSymbol) 
-				multiplierOnChange: (((pair at: 1), 'Multiplier:') asSymbol) 
+				multiplierOnChange: (('processInput', (pair at: 1), 'Multiplier:') asSymbol) 
 				value: ((pair at: 1) asSymbol))
 		frame: (0 @ frameCounter rect: 1 @ frameCounter + lineHeight))].
 	
