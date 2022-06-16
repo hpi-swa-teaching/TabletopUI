@@ -3,10 +3,11 @@ proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
 	| proficiencyList childrenList frameCounter lineHeight |
 	frameCounter := 0.
 	lineHeight := 1.0 / ((model perform: aLookupSymbol) size + 1).
-	proficiencyList := LinkedList new.
+	proficiencyList := OrderedCollection new.
 	(model perform: aLookupSymbol) keysAndValuesDo:
 		[ :key :value | 
 			proficiencyList add: {key asSymbol . value}].
+	proficiencyList := proficiencyList sort: [:firstpair :secondpair | (firstpair at: 1) <= (secondpair at: 1)].
 	childrenList :=	LinkedList new.
 	proficiencyList do:
 		[ :pair | 
