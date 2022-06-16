@@ -1,4 +1,0 @@
-messages
-messageCommandNotFound
-
-	^ 'Invalid input'

@@ -1,4 +1,0 @@
-regex patterns
-removeCharacterPattern
-
-	^ '^remove (.+)$'
