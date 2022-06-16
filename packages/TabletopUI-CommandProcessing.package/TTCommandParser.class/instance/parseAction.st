@@ -2,7 +2,7 @@ parsing
 parseAction
 
 	| token |
-	token := lexer nextToken.
+	token := self lexer nextToken.
 	
 	((token = 'initiative') | (token = 'ini')) ifTrue: [
 		^ TTInitiativeCommand new. ].
