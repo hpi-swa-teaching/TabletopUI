@@ -6,7 +6,10 @@ executeEnd: aContext from: aTTCharacter
 		^TTCommandMessage new
 			errorMessage: aContext wrongContextErrorString].
 	aContext initiativeReady ifTrue: [
-		messageString := aContext endInitiativePhasefrom: aTTCharacter.
+		messageString := aContext endInitiativePhaseFrom: aTTCharacter.
 		^TTCommandMessage new
 			outputString: messageString;
-			yourself]
+			yourself].
+	^TTCommandMessage new
+		errorMessage: aContext initiativeNotReadyErrorString;
+		yourself

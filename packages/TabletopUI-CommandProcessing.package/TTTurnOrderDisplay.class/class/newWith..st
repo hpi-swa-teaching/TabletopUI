@@ -1,8 +1,8 @@
 initialization
-newWith: aTTFightEvaluator
+newWith: aTTFightContext
 
 	^ self new
-		fightEvaluator: aTTFightEvaluator;
+		fightContext: aTTFightContext;
 		yourself
 
 	
