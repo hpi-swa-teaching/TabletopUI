@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"newWithfightOrder:" : "ML 6/15/2022 15:55" },
+	"instance" : {
+		"currentPlayer" : "ML 6/15/2022 13:44",
+		"currentPlayer:" : "ML 6/16/2022 10:15",
+		"currentPlayerName" : "ML 6/15/2022 13:45",
+		"display" : "ML 6/15/2022 13:44",
+		"display:" : "ML 6/15/2022 13:44",
+		"endFightingAs:" : "ML 6/15/2022 15:32",
+		"fightIsOverMessageString" : "ML 6/15/2022 15:33",
+		"fightingPlayers" : "ML 6/15/2022 13:45",
+		"fightingPlayers:" : "ML 6/15/2022 13:45",
+		"fightingPlayersNames" : "ML 6/15/2022 13:45",
+		"gameState" : "ML 6/15/2022 14:39",
+		"nextPlayerMessageString" : "ML 6/15/2022 15:10",
+		"onlyCurrentPlayerErrorString" : "ML 6/16/2022 09:58",
+		"openTurnOrderDisplay" : "ML 6/15/2022 13:48",
+		"playerRemovedMessageString:" : "ML 6/15/2022 15:25",
+		"playersWhoRolled" : "ML 6/15/2022 15:52",
+		"proceedToNextPlayer" : "ML 6/16/2022 10:15",
+		"proceedToNextPlayer:" : "ML 6/16/2022 09:58",
+		"removePlayer:from:" : "ML 6/16/2022 10:11",
+		"validCommands" : "ML 6/15/2022 09:58",
+		"wrongContextErrorString" : "ML 6/15/2022 14:48" } }

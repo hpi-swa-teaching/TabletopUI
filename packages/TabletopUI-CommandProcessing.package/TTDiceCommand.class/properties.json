@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"type",
+		"count",
+		"diceRoll",
+		"negated" ],
+	"name" : "TTDiceCommand",
+	"pools" : [
+		 ],
+	"super" : "TTCommand",
+	"type" : "normal" }

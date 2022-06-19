@@ -5,7 +5,14 @@ recoverySpec: aToolBuilder
 		model: model;
 		name: 'recovery';
 		children: (OrderedCollection new
-			add: ((self hitDiceSpec: aToolBuilder name: #defaultHitDiceLabel levelName: #defaultLevelLabel currentHitDice: #currentHitDiceString level: #levelText hitDieType: #hitDieTypeText onIncrease: #incrementHitDice onDecrease: #decrementHitDice)
+			add: ((self hitDiceSpec: aToolBuilder
+					name: #defaultHitDiceLabel
+					levelName: #defaultLevelLabel
+					currentHitDice: #currentHitDiceString
+					level: #levelText
+					hitDieType: #hitDieTypeText
+					onIncrease: #incrementHitDice
+					onDecrease: #decrementHitDice)
 				model: model;
 				color: #backgroundColorBaseValues;		
 				frame: (0 @ 0 rect: 0.4 @ 1);

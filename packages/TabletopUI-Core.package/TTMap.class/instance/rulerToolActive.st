@@ -1,0 +1,3 @@
+accessing
+rulerToolActive
+	^ rulerToolActive

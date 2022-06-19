@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "joda 7/13/2021 13:15",
 		"test01OpenPlayerCountScreen" : "PB 7/10/2021 23:14",
-		"test02OpenPlayerNamesScreen" : "PB 7/10/2021 23:14",
+		"test02OpenPlayerNamesScreen" : "RK 6/16/2022 09:46",
 		"test03OpenGamemasterSelectionScreen" : "PB 7/10/2021 23:14",
 		"test04OpenGameScreen" : "PB 7/10/2021 23:14",
 		"window" : "MM 7/9/2021 15:10",

@@ -3,6 +3,7 @@
 		"newWithRollCount:diceSize:modifier:" : "MM 7/6/2021 15:20" },
 	"instance" : {
 		"asString" : "MM 7/6/2021 16:12",
+		"asStringWithoutResult" : "ML 6/15/2022 10:30",
 		"formatNumber:" : "MM 7/6/2021 15:53",
 		"isValid" : "MM 7/6/2021 16:16",
 		"modifier" : "MM 7/6/2021 18:23",
@@ -15,4 +16,4 @@
 		"rollsWithModifier" : "MM 7/6/2021 16:58",
 		"size" : "MM 7/6/2021 15:19",
 		"size:" : "MM 7/6/2021 15:20",
-		"validDices" : "MM 7/6/2021 15:15" } }
+		"validDices" : "ML 6/15/2022 16:10" } }

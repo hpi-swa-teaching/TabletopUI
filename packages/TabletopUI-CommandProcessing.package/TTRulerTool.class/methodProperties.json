@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"newWithMap:" : "OB 6/13/2022 09:44",
+		"newWithMap:inputField:" : "OB 6/15/2022 09:48" },
+	"instance" : {
+		"acceptInput:" : "OB 6/15/2022 10:05",
+		"calculateDistance" : "OB 6/15/2022 10:10",
+		"clickCounter" : "OB 6/13/2022 09:44",
+		"clickCounter:" : "OB 6/13/2022 09:44",
+		"endPosition" : "OB 6/13/2022 09:31",
+		"endPosition:" : "OB 6/13/2022 09:31",
+		"incrementClickCounter" : "OB 6/15/2022 10:10",
+		"inputField" : "OB 6/15/2022 09:48",
+		"inputField:" : "OB 6/15/2022 09:48",
+		"map" : "OB 6/13/2022 08:46",
+		"map:" : "OB 6/13/2022 08:46",
+		"startPosition" : "OB 6/13/2022 09:31",
+		"startPosition:" : "OB 6/13/2022 09:31" } }

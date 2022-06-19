@@ -4,7 +4,7 @@ buildWith: aToolBuilder
 	^ aToolBuilder
 		build:
 			(aToolBuilder pluggableWindowSpec new
-				model: self fightEvaluator;
+				model: self fightContext;
 				extent: self defaultExtent;
 				label: 'Turn Order';
 				children:

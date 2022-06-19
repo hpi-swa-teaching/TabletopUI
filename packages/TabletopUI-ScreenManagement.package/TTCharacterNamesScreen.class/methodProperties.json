@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildInputFieldsWith:" : "rf 7/8/2021 09:51",
+		"buildWith:" : "MM 7/18/2021 18:18",
+		"continue" : "PB 7/7/2021 16:24",
+		"continueButtonLabel" : "RK 6/16/2022 09:45",
+		"createInputFieldSpecWith:index:" : "RK 6/16/2022 09:48",
+		"createLayoutWith:forPlayerCount:" : "bv 7/31/2021 17:00",
+		"createScrollPaneSpecWith:" : "bv 7/3/2021 19:11",
+		"inputFieldBoundsForIndex:" : "bv 7/3/2021 20:05",
+		"inputFieldHeight" : "joda 7/7/2021 11:03",
+		"inputFieldListBounds" : "joda 7/7/2021 10:57",
+		"inputFieldWidth" : "joda 7/7/2021 11:04",
+		"leave" : "PB 7/7/2021 16:25" } }

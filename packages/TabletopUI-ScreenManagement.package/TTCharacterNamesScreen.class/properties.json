@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "bv 7/3/2021 21:56",
+	"instvars" : [
+		 ],
+	"name" : "TTCharacterNamesScreen",
+	"pools" : [
+		 ],
+	"super" : "TTScreen",
+	"type" : "normal" }

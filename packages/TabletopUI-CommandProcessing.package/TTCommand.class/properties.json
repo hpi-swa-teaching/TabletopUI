@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTCommand",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

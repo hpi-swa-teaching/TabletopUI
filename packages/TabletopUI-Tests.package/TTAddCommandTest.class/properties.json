@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTAddCommandTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JA 6/9/2022 19:07",
+		"test01OneWord" : "JA 6/9/2022 20:08",
+		"test02TwoWords" : "JA 6/9/2022 20:08",
+		"test03SpecialCharacter" : "JA 6/9/2022 20:08",
+		"test04Peek" : "JA 6/9/2022 20:07",
+		"test05PeekEmpty" : "JA 6/9/2022 20:06",
+		"test06NextTokenEmpty" : "JA 6/9/2022 20:05" } }

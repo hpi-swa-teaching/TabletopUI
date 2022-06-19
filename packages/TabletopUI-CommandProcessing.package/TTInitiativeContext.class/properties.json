@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"rolls" ],
+	"name" : "TTInitiativeContext",
+	"pools" : [
+		 ],
+	"super" : "TTCommandContext",
+	"type" : "normal" }

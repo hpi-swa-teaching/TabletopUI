@@ -1,0 +1,4 @@
+accessing
+gameState
+
+	^self subclassResponsibility
