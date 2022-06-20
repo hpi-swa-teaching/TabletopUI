@@ -4,14 +4,10 @@
 	"instance" : {
 		"characterAdministration" : "JA 5/26/2022 12:09",
 		"characterAdministration:" : "JA 5/26/2022 12:09",
-
-		"createCharacterSheetButtonSpecWith:" : "ML 6/2/2022 12:25",
-		"createDiceToolButtonSpecWith:" : "ML 6/2/2022 12:24",
-		"createSpecWith:" : "ML 6/2/2022 12:22",
-=======
-		
+		"createCharacterSheetButtonSpecWith:" : "RK 5/15/2022 21:05",
+		"createDiceToolButtonSpecWith:" : "ML 5/31/2022 16:09",
 		"createRulerToolButtonSpecWith:" : "OB 6/13/2022 08:48",
-
+		"createSpecWith:" : "RK 5/15/2022 21:05",
 		"initialize" : "JA 5/26/2022 14:17",
 		"inputField" : "ML 6/1/2022 18:34",
 		"inputField:" : "ML 6/1/2022 18:34",
