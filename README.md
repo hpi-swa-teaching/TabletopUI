@@ -30,11 +30,11 @@ Every player including the gamemaster can execute a dice roll.
 The dice command is ```roll dx```. x represents the maximum number of eyes the rolled dice can show. Valid dice sizes are 4, 6, 8, 10, 12 and 20.  
 In the dice command a number y can be added or subtracted to the dice result. This is done by ```roll dx[+|-]y```.  
 It is also possible to roll z dices at once using the command ```roll zdx```.  
-You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|-]y```.
+You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|-]y``` or roll different dice types by combining them with + or -.
 
 ### Fight Mode
 When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```.  
-After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice roll round with ``finalize initiative``.  
+After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice roll round with ``end initiative`` or ``end ini``.  
 Now, the fight begins and the players can roll the dice in the order which appears in the pop up player list. 
 A player can roll the dice as often as he/she wants to and ends its turn manually by typing "end turn".
 At any time the gamemaster can remove players from the fight via the command ```remove [playername]```.  
