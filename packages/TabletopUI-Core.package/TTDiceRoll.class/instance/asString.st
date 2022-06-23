@@ -8,6 +8,6 @@ asString
 		self rollsWithModifier
 			removeFirst;
 			do: [:aNumber | output := output , (self formatNumber: aNumber)].
-		output := output , ' = ' , self resultValue asString].
+		output := output , '=' , self resultValue asString].
 	
 	^ output
