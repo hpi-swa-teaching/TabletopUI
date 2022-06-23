@@ -11,6 +11,7 @@ rollDice
 			ifFalse: [
 				outputString := outputString, (self diceAmounts at: aDice) asString, aDice, self modifierAsString, '+'.
 				modifierUsedOrZero := true]]].
-	outputString := outputString copyFrom: 1 to: (outputString size) - 1.
+	outputString size > 0 ifTrue: [
+	outputString := outputString copyFrom: 1 to: (outputString size) - 1].
 	self inputField processInput: ('roll ', outputString).
 	self reset

@@ -12,16 +12,6 @@ test03RollDice
 	self diceToolDisplay selectd20.
 	self diceToolDisplay rollDice.
 	self diceToolDisplay rollDice.
-	self assert: self mockInputField inputs first equals: 'roll 1d8'.
+	self assert: self mockInputField inputs first equals: 'roll 1d8+1d6+1d4+4d20+1d12+1d10'.
 	self mockInputField inputs removeFirst.
-	self assert: self mockInputField inputs first equals: 'roll 1d6'.
-	self mockInputField inputs removeFirst.
-	self assert: self mockInputField inputs first equals: 'roll 1d4'.
-	self mockInputField inputs removeFirst.
-	self assert: self mockInputField inputs first equals: 'roll 4d20'.
-	self mockInputField inputs removeFirst.
-	self assert: self mockInputField inputs first equals: 'roll 1d12'.
-	self mockInputField inputs removeFirst.
-	self assert: self mockInputField inputs first equals: 'roll 1d10'.
-	self mockInputField inputs removeFirst.
-	self assert: self mockInputField inputs isEmpty
+	self assert: self mockInputField inputs first equals: 'roll '.
