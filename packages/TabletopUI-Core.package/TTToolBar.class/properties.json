@@ -8,7 +8,8 @@
 	"instvars" : [
 		"characterAdministration",
 		"inputField",
-		"map" ],
+		"map",
+		"diceTool" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],
