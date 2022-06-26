@@ -6,11 +6,15 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"process",
 		"map",
 		"startPosition",
 		"endPosition",
-		"clickCounter",
-		"inputField" ],
+		"inputField",
+		"morph",
+		"mouseIsDown",
+		"distance",
+		"arrowMorph" ],
 	"name" : "TTRulerTool",
 	"pools" : [
 		 ],

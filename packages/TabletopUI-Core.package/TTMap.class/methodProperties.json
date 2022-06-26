@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"newWith:" : "OB 6/13/2022 22:39" },
+		"newWith:" : "ML 6/26/2022 14:54" },
 	"instance" : {
-		"convertPixelPositionToTileCoordinates:" : "MM 7/6/2021 18:56",
+		"convertPixelPositionToTileCoordinates:" : "ML 6/26/2022 17:06",
 		"convertTileCoordinatesToPixelPosition:" : "rf 5/8/2021 10:27",
 		"createAndInsertTileAt:" : "rf 7/8/2021 10:07",
 		"createSpecWith:" : "PB 7/3/2021 10:39",
@@ -11,16 +11,14 @@
 		"fillTiles" : "rf 7/7/2021 08:30",
 		"findFreeTile" : "MM 7/7/2021 13:35",
 		"handlesMouseDown:" : "OB 6/13/2022 09:36",
-		"initialize" : "OB 6/13/2022 22:40",
+		"handlesMouseUp:" : "ML 6/26/2022 15:04",
+		"initialize" : "ML 6/26/2022 14:55",
 		"initializePlayerTokens:" : "rf 7/8/2021 14:41",
-		"mouseDown:" : "OB 6/13/2022 10:04",
+		"mouseDown:" : "ML 6/26/2022 15:05",
+		"mouseUp:" : "ML 6/26/2022 15:05",
 		"rulerTool" : "OB 6/13/2022 09:40",
 		"rulerTool:" : "OB 6/13/2022 09:40",
-		"rulerToolActivate" : "OB 6/13/2022 09:43",
-		"rulerToolActive" : "OB 6/13/2022 09:40",
-		"rulerToolActive:" : "OB 6/13/2022 09:40",
-		"rulerToolDeactivate" : "OB 6/13/2022 10:00",
+		"rulerToolActive" : "ML 6/26/2022 14:53",
 		"tiles" : "rf 5/8/2021 09:52",
 		"tiles:" : "rf 5/8/2021 09:52",
-		"toggleRulerTool" : "OB 6/13/2022 10:23",
-		"toggleRulerToolWith:" : "OB 6/15/2022 09:57" } }
+		"toggleRulerToolWith:" : "ML 6/26/2022 14:55" } }

@@ -1,0 +1,4 @@
+initialization
+handlesMouseUp: anEvent
+
+	^ true

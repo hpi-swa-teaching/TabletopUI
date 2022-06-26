@@ -2,7 +2,7 @@ string formatting
 formatNumber: aNumber
 
 	(aNumber positive) ifTrue: [
-		^ '+' , aNumber asString]
+		^ ' + ' , aNumber asString]
 	ifFalse: [
-		^ '-', aNumber abs asString]
+		^ ' - ', aNumber abs asString]
 	
