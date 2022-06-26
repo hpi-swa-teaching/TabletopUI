@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTAddCommandTest",
+		"context",
+		"character" ],
+	"name" : "TTCommandTestBase",
 	"pools" : [
 		 ],
-	"super" : "TTCommandTestBase",
+	"super" : "TestCase",
 	"type" : "normal" }
