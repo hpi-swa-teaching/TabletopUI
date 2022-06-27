@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "TTAddCommandTest",
+		"removedPlayer",
+		"gameState",
+		"hasBeenEnded",
+		"hasBeenStarted" ],
+	"name" : "TTMockCommand",
 	"pools" : [
 		 ],
-	"super" : "TTCommandTestBase",
+	"super" : "TTCommand",
 	"type" : "normal" }

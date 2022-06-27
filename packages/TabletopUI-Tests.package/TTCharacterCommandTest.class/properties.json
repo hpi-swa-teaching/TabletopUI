@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TTAddCommandTest",
+	"name" : "TTCharacterCommandTest",
 	"pools" : [
 		 ],
 	"super" : "TTCommandTestBase",

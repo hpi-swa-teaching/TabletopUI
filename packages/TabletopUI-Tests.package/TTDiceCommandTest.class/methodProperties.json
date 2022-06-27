@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01BasicRoll" : "JA 6/26/2022 23:26",
+		"test02InvalidRoll" : "JA 6/26/2022 23:30",
+		"test03MultipleRolls" : "JA 6/26/2022 23:30" } }
