@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"inputField" : "ML 6/27/2022 15:38",
+		"inputField:" : "ML 6/27/2022 15:38",
+		"map" : "ML 6/27/2022 15:38",
+		"map:" : "ML 6/27/2022 15:38",
+		"rulerTool" : "ML 6/27/2022 15:36",
+		"rulerTool:" : "ML 6/27/2022 15:36",
+		"setUp" : "ML 6/27/2022 15:40",
+		"test01CalculateDistanceWithEnd" : "ML 6/27/2022 15:51",
+		"test02CalculateDistance" : "ML 6/27/2022 15:54",
+		"test03MouseDownMouseUp" : "ML 6/27/2022 16:13" } }

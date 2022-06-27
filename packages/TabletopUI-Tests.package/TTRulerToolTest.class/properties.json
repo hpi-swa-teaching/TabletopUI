@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"inputs",
-		"log" ],
-	"name" : "TTMockInputField",
+		"rulerTool",
+		"map",
+		"inputField" ],
+	"name" : "TTRulerToolTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestCase",
 	"type" : "normal" }
