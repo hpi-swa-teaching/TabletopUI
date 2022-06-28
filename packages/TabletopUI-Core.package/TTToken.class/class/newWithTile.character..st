@@ -7,4 +7,5 @@ newWithTile: aTTTile character: aTTCharacter
 		defaultTile: aTTTile;
 		character: aTTCharacter;
 		initializeFormFor: aTTCharacter;
+		makeDraggable;
 		yourself
