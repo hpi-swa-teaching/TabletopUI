@@ -1,0 +1,4 @@
+labels
+addHPLabel
+	
+	^ 'ADD HP'.

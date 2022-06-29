@@ -1,0 +1,4 @@
+labels
+addTempHPLabel
+	
+	^ 'ADD TEMP'.

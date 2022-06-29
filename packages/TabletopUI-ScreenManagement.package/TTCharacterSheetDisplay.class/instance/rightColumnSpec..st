@@ -9,11 +9,11 @@ rightColumnSpec: aToolBuilder
 				yourself);
 			
 			add: ((self hpSpec: aToolBuilder) 
-				frame: (LayoutFrame fractions: (0 @ 0.2 rect: 1 @ 0.4));
+				frame: (LayoutFrame fractions: (0 @ 0.2 rect: 1 @ 0.55));
 				yourself);
 			
 			add: ((self recoverySpec: aToolBuilder) 
-				frame: (LayoutFrame fractions: (0 @ 0.43 rect: 1 @ 0.6));
+				frame: (LayoutFrame fractions: (0 @ 0.58 rect: 1 @ 0.75));
 				yourself);
 			
 			 yourself);

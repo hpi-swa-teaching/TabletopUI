@@ -1,0 +1,4 @@
+labels
+takeDamageLabel
+	
+	^ 'TAKE DAMAGE!'.
