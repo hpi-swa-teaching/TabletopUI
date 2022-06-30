@@ -5,7 +5,6 @@ buildWith: aToolBuilder
 			(aToolBuilder pluggableWindowSpec new
 				extent: self defaultExtent;
 				model: self model;
-				color: #transparent;
 				label: self name;
 				children:
 						(OrderedCollection new
