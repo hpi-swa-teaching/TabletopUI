@@ -7,6 +7,7 @@ buildWith: aToolBuilder
 				extent: self defaultExtent;
 				color: #red;
 				label: 'Dice Tool';
+				model: self;
 				children:
 						(OrderedCollection new
 							add: (self diceButtonSpecs: aToolBuilder);
