@@ -1,0 +1,4 @@
+accessing
+lightButtonFocusColor
+
+	^ self userInterfaceTheme uniformWindowColor twiceLighter

@@ -1,0 +1,4 @@
+accessing
+darkButtonFocusColor
+
+	^ self userInterfaceTheme uniformWindowColor twiceDarker
