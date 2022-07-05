@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 itemBuffsSpec: aToolBuilder 
 	
 	^aToolBuilder pluggablePanelSpec new

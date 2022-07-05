@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 hpSpec: aToolBuilder 
 	
 	^aToolBuilder pluggablePanelSpec new

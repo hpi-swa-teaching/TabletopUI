@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 centerColumnSpec: aToolBuilder
 	
 	^aToolBuilder pluggablePanelSpec new

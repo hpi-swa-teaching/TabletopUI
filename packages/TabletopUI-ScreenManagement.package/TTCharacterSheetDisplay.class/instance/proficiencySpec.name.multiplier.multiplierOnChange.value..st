@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol multiplierOnChange: aCallbackSymbol value: aValueSymbol
 	
 	^aToolBuilder pluggablePanelSpec new

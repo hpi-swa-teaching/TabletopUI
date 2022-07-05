@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 attributeListSpec: aToolBuilder
 	^ aToolBuilder pluggablePanelSpec new
 		model: model;

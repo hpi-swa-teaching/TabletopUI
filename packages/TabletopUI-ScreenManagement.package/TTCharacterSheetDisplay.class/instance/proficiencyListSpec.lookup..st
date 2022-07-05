@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
 	| proficiencyList childrenList frameCounter lineHeight |
 	frameCounter := 0.

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 deathSavesLabelSpec: aToolBuilder name: aNameSymbol callBack: aCallBackSymbol
 	
 	^aToolBuilder pluggablePanelSpec new

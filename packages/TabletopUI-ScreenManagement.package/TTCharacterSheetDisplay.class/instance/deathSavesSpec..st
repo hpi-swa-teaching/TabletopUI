@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 deathSavesSpec: aToolBuilder
 	
 	^aToolBuilder pluggablePanelSpec new

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aStatSymbol onChange: aCallBackSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
