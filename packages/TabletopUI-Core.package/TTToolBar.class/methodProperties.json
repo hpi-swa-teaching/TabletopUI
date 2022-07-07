@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWith:and:map:" : "OB 6/13/2022 10:17" },
+		"newWith:and:map:" : "DS 7/7/2022 10:04" },
 	"instance" : {
 		"characterAdministration" : "JA 5/26/2022 12:09",
 		"characterAdministration:" : "JA 5/26/2022 12:09",
@@ -16,13 +16,15 @@
 		"initialize" : "RK 6/30/2022 02:14",
 		"inputField" : "ML 6/1/2022 18:34",
 		"inputField:" : "ML 6/1/2022 18:34",
-		"isDiceToolActive" : "RK 6/30/2022 03:20",
+		"isDiceToolActive" : "DS 7/7/2022 13:41",
 		"isDiceToolToBeOpened" : "RK 6/30/2022 03:13",
 		"isRulerToolActive" : "RK 6/30/2022 01:51",
 		"lightButtonFocusColor" : "RK 6/30/2022 02:51",
 		"map" : "OB 6/13/2022 08:41",
 		"map:" : "OB 6/13/2022 08:41",
+		"notifyDiceToolClosed" : "DS 7/7/2022 10:35",
+		"notifyRulerToolClosed" : "DS 7/7/2022 10:34",
 		"openCharacterSheetDisplay" : "RK 6/16/2022 09:38",
-		"openDiceToolDisplay" : "RK 6/30/2022 03:18",
-		"openRulerTool" : "RK 6/30/2022 02:15",
+		"openDiceToolDisplay" : "DS 7/7/2022 10:55",
+		"openRulerTool" : "DS 7/7/2022 10:44",
 		"rulerToolButtonColor" : "RK 6/30/2022 02:52" } }

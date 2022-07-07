@@ -5,7 +5,8 @@ buildWith: aToolBuilder
 		build:
 			(aToolBuilder pluggableWindowSpec new
 				extent: self defaultExtent;
-				color: #red;
+				closeAction: #close;
+				model: self;
 				label: 'Ruler Tool';
 				children:
 						(OrderedCollection new

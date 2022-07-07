@@ -1,11 +1,14 @@
 {
 	"class" : {
-		"newWith:and:" : "ML 6/1/2022 19:45",
+		"newWith:and:" : "DS 7/7/2022 10:56",
 		"openWith:and:" : "ML 6/2/2022 10:20" },
 	"instance" : {
-		"buildWith:" : "RK 6/30/2022 03:40",
+		"aboutToBeClosed" : "DS 7/7/2022 10:42",
+		"aboutToBeClosed:" : "DS 7/7/2022 10:42",
+		"buildWith:" : "DS 7/7/2022 10:44",
 		"characterAdministration" : "ML 5/31/2022 15:57",
 		"characterAdministration:" : "ML 5/31/2022 15:57",
+		"close" : "DS 7/7/2022 10:43",
 		"defaultExtent" : "ML 5/31/2022 17:52",
 		"diceAmounts" : "ML 6/1/2022 19:05",
 		"diceAmounts:" : "ML 6/1/2022 19:05",
@@ -21,6 +24,9 @@
 		"modifier:" : "ML 5/31/2022 17:45",
 		"modifierAsString" : "ML 6/1/2022 19:57",
 		"modifierChanged:" : "ML 6/1/2022 20:29",
+		"notifyObserver" : "DS 7/7/2022 10:58",
+		"observer" : "DS 7/7/2022 10:41",
+		"observer:" : "DS 7/7/2022 10:41",
 		"panelFrame" : "ML 5/31/2022 16:33",
 		"panelSpec:" : "ML 5/31/2022 16:37",
 		"reset" : "ML 6/1/2022 19:14",

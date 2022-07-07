@@ -1,8 +1,11 @@
 as yet unclassified
 newWith: aCharacterAdministration and: anInputField map: aMap
 
-	^ self new
+	| toolBar |
+	
+	toolBar := self new
 		characterAdministration: aCharacterAdministration;
 		inputField: anInputField;
 		map: aMap;
-		yourself
+		yourself.
+	^ toolBar.

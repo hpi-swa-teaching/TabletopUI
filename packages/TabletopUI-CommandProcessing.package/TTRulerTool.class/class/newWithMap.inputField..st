@@ -6,4 +6,5 @@ newWithMap: aMap inputField: aTTInputField
 		inputField: aTTInputField;
 		mouseIsDown: false;
 		distance: 0;
+		aboutToBeClosed: false;
 		yourself

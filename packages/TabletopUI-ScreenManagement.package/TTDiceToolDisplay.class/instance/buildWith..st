@@ -8,6 +8,7 @@ buildWith: aToolBuilder
 				color: #red;
 				label: 'Dice Tool';
 				model: self;
+				closeAction: #close;
 				children:
 						(OrderedCollection new
 							add: (self diceButtonSpecs: aToolBuilder);

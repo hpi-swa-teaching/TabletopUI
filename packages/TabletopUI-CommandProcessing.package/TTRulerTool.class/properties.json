@@ -14,7 +14,9 @@
 		"morph",
 		"mouseIsDown",
 		"distance",
-		"arrowMorph" ],
+		"arrowMorph",
+		"observer",
+		"aboutToBeClosed" ],
 	"name" : "TTRulerTool",
 	"pools" : [
 		 ],

@@ -10,7 +10,9 @@
 		"characterAdministration",
 		"modifier",
 		"diceType",
-		"diceAmounts" ],
+		"diceAmounts",
+		"observer",
+		"aboutToBeClosed" ],
 	"name" : "TTDiceToolDisplay",
 	"pools" : [
 		 ],

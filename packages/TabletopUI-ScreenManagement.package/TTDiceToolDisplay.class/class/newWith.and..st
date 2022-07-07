@@ -6,4 +6,5 @@ newWith: aTTCharacterAdministration and: anInputField
 			inputField: anInputField;
 			initializeDiceAmounts;
 			modifier: 0;
+			aboutToBeClosed: false;
 			yourself
