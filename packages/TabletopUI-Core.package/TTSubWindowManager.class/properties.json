@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"openSubWindows" ],
+	"name" : "TTSubWindowManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

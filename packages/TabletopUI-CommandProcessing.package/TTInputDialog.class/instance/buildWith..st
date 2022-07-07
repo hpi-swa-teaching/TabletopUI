@@ -6,6 +6,8 @@ buildWith: aToolBuilder
 			(aToolBuilder pluggableWindowSpec new
 				extent: self defaultExtent;
 				label: self label;
+				model: self model;
+				closeAction: #onCloseDialog;
 				children:
 						(OrderedCollection new
 							add: (aToolBuilder pluggableInputFieldSpec new

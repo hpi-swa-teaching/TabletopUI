@@ -3,5 +3,6 @@ newWith: aTTTabletopWindow
 	
 	^ (super newWith: aTTTabletopWindow)
 		initializeCommandBar;
-		initializeMapAndSideBar;
+		initializeMap;
+		initializeSideBar;
 		yourself

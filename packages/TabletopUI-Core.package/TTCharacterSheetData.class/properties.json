@@ -20,7 +20,12 @@
 		"level",
 		"currentHitDice",
 		"hitDieType",
-		"gold" ],
+		"gold",
+		"subWindowManager",
+		"addHPDialog",
+		"addTempDialog",
+		"takeDamageDialog",
+		"dialog" ],
 	"name" : "TTCharacterSheetData",
 	"pools" : [
 		 ],

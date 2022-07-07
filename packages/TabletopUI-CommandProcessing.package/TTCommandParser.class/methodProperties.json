@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"changeToDefaultContext" : "ML 6/15/2022 15:39",
-		"changeToFightContextWithWithFightOrder:" : "ML 6/15/2022 15:56",
-		"changeToInitiativeContext" : "ML 6/15/2022 15:40",
+		"changeToDefaultContext" : "DS 7/7/2022 15:42",
+		"changeToFightContextWithWithFightOrder:" : "DS 7/7/2022 18:43",
+		"changeToInitiativeContext" : "DS 7/7/2022 15:43",
 		"context" : "ML 6/15/2022 10:41",
 		"context:" : "ML 6/15/2022 10:41",
 		"diceRegex" : "JA 6/9/2022 21:37",
@@ -17,4 +17,6 @@
 		"parseAction" : "ML 6/16/2022 12:17",
 		"parseCharacter" : "JA 6/9/2022 22:21",
 		"parseRollable" : "ML 6/15/2022 16:43",
-		"parseValue" : "ML 6/27/2022 15:19" } }
+		"parseValue" : "ML 6/27/2022 15:19",
+		"subWindowManager" : "DS 7/7/2022 15:41",
+		"subWindowManager:" : "DS 7/7/2022 18:51" } }

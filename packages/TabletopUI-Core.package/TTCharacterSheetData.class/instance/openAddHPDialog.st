@@ -1,4 +1,4 @@
 health and damage
 openAddHPDialog
 	
-	TTInputDialog openWithModel: self valueSelector: #healInput: label: 'Gain HP'
+	self openInputDialog: #healInput: label: 'Gain HP'
