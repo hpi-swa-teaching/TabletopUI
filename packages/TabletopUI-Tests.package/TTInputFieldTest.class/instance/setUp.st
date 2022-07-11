@@ -1,4 +1,5 @@
 running
 setUp
 
-	self inputField: TTInputField new
+	self inputField: (TTInputField new 
+		subWindowManager: (TTSubWindowManager new); yourself)
