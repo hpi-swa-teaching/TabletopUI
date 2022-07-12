@@ -5,13 +5,12 @@ attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aS
 		model: model;
 		name: aNameSymboi printString;
 		children: (OrderedCollection new
-			add: (aToolBuilder pluggableTextSpec new
+			add: (aToolBuilder pluggableButtonSpec new
 				model: model;
-				getText: aNameSymboi;
-				color: #backgroundColorBaseValues;
-				indicateUnacceptedChanges: false;				
+				label: aNameSymboi;
+				color: #backgroundColorBaseValues;		
 				frame: (0 @ 0 rect: 1 @ 0.2);
-				readOnly: true;
+				action: (aNameSymboi, 'Pressed') asSymbol;
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new

@@ -25,7 +25,8 @@
 		"addHPDialog",
 		"addTempDialog",
 		"takeDamageDialog",
-		"dialog" ],
+		"dialog",
+		"inputField" ],
 	"name" : "TTCharacterSheetData",
 	"pools" : [
 		 ],
