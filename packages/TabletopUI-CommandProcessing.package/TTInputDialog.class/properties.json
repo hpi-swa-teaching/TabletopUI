@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-CommandProcessing",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"valueSelector",
+		"label",
+		"currentValue" ],
+	"name" : "TTInputDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

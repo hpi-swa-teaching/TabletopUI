@@ -1,0 +1,4 @@
+accessing
+notifyObserver
+
+	observer notifyDiceToolClosed.

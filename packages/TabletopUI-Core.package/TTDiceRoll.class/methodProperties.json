@@ -2,9 +2,9 @@
 	"class" : {
 		"newWithRollCount:diceSize:modifier:" : "MM 7/6/2021 15:20" },
 	"instance" : {
-		"asString" : "MM 7/6/2021 16:12",
+		"asString" : "ML 6/27/2022 15:17",
 		"asStringWithoutResult" : "ML 6/15/2022 10:30",
-		"formatNumber:" : "MM 7/6/2021 15:53",
+		"formatNumber:" : "ML 6/27/2022 15:17",
 		"isValid" : "MM 7/6/2021 16:16",
 		"modifier" : "MM 7/6/2021 18:23",
 		"modifier:" : "MM 7/6/2021 15:08",

@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 labelledAttributeSpec: aToolBuilder name: aNameSymbol stat: aStatSymbol 
 	
 	^aToolBuilder pluggablePanelSpec new

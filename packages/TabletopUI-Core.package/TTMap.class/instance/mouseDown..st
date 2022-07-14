@@ -1,5 +1,5 @@
 initialization
 mouseDown: anEvent
 	
-	rulerToolActive ifTrue: [
-			self rulerTool acceptInput: (anEvent cursorPoint)]
+	self rulerToolActive ifTrue: [
+		self rulerTool inputMouseDown: anEvent cursorPoint].

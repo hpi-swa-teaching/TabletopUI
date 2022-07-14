@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newWithModel:valueSelector:label:" : "JA 6/29/2022 17:29",
+		"openWithModel:valueSelector:label:" : "JA 6/29/2022 17:30" },
+	"instance" : {
+		"buildWith:" : "DS 7/7/2022 19:16",
+		"currentValue" : "JA 6/29/2022 16:56",
+		"currentValue:" : "JA 6/29/2022 16:56",
+		"defaultExtent" : "JA 6/29/2022 17:21",
+		"label" : "JA 6/29/2022 16:52",
+		"label:" : "JA 6/29/2022 16:52",
+		"model" : "JA 6/29/2022 16:52",
+		"model:" : "JA 6/29/2022 16:52",
+		"valueSelector" : "JA 6/29/2022 16:52",
+		"valueSelector:" : "JA 6/29/2022 16:52" } }

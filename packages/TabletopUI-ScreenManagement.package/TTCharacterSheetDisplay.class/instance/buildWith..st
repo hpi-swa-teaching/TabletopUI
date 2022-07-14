@@ -1,11 +1,10 @@
-as yet unclassified
+toolbuilder
 buildWith: aToolBuilder
 	^ aToolBuilder
 		build:
 			(aToolBuilder pluggableWindowSpec new
 				extent: self defaultExtent;
 				model: self model;
-				color: #transparent;
 				label: self name;
 				children:
 						(OrderedCollection new

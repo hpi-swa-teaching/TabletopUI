@@ -7,4 +7,5 @@ setUp
 		players: self setUpPlayers;
 		playerCount: self characterAdministration players size;
 		playerSelectionMenu: self playerSelectionMenu.
-	self toolbar: (TTToolBar newWith: self characterAdministration and: TTMockInputField new map: TTMap new).
+	self toolbar: ((TTToolBar newWith: self characterAdministration and: TTMockInputField new map: TTMap new)
+		subWindowManager: TTSubWindowManager new; yourself).

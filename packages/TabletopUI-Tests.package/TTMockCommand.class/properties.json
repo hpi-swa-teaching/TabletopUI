@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"removedPlayer",
+		"gameState",
+		"hasBeenEnded",
+		"hasBeenStarted" ],
+	"name" : "TTMockCommand",
+	"pools" : [
+		 ],
+	"super" : "TTCommand",
+	"type" : "normal" }

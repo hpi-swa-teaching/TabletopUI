@@ -1,0 +1,4 @@
+initialize-release
+observer
+
+	^ observer

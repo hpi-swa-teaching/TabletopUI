@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 recoverySpec: aToolBuilder 
 	
 	^aToolBuilder pluggablePanelSpec new

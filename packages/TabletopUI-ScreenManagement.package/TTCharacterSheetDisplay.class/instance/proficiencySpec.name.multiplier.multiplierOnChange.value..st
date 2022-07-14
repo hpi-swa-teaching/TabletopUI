@@ -1,4 +1,4 @@
-as yet unclassified
+toolbuilder
 proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol multiplierOnChange: aCallbackSymbol value: aValueSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
@@ -25,13 +25,12 @@ proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol mu
 				readOnly: true;
 				yourself);
 				
-			add: (aToolBuilder pluggableTextSpec new
+			add: (aToolBuilder pluggableButtonSpec new
 				model: model;
-				getText: aNameSymbol;
-				color: #backgroundColorBaseValues;
-				indicateUnacceptedChanges: false;				
+				label: aNameSymbol;
+				color: #backgroundColorBaseValues;		
 				frame: (0.3 @ 0 rect: 1 @ 1);
-				readOnly: true;
+				action: (aNameSymbol, 'Pressed') asSymbol;
 				yourself);
 			 yourself);
 		yourself
