@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	self executedActions: OrderedCollection new
+	self executedActions: Set new

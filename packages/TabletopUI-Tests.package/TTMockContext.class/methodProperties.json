@@ -3,13 +3,16 @@
 		 },
 	"instance" : {
 		"addActionTrace:" : "JA 7/18/2022 12:23",
+		"endFightingAs:" : "JA 7/18/2022 14:23",
 		"executedActions" : "JA 7/18/2022 12:22",
 		"executedActions:" : "JA 7/18/2022 12:22",
 		"gameState" : "JA 6/26/2022 23:16",
 		"gameState:" : "JA 6/26/2022 23:16",
-		"hasBeenExecuted:" : "JA 7/18/2022 12:23",
-		"initialize" : "JA 7/18/2022 12:22",
+		"hasBeenExecuted:" : "JA 7/18/2022 14:21",
+		"initialize" : "JA 7/18/2022 14:21",
+		"lastCaller" : "JA 7/18/2022 14:07",
+		"lastCaller:" : "JA 7/18/2022 14:07",
 		"removePlayer:from:" : "JA 6/26/2022 23:11",
 		"removedPlayer" : "JA 6/26/2022 23:12",
 		"removedPlayer:" : "JA 6/26/2022 23:12",
-		"startFightAs:" : "JA 7/18/2022 12:21" } }
+		"startFightAs:" : "JA 7/18/2022 14:08" } }

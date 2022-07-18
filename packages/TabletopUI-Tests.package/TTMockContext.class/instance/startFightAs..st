@@ -1,4 +1,5 @@
 actions
-startFightAs: aTTPlayer
+startFightAs: aTTCharacter
 
-	self fightStarted: true.
+	self addActionTrace: #startFight.
+	self lastCaller: aTTCharacter

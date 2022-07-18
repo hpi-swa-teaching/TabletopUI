@@ -1,4 +1,4 @@
 actions
 hasBeenExecuted: aSymbol
 
-	^ self executedActions contains: aSymbol
+	^ self executedActions includes: aSymbol
