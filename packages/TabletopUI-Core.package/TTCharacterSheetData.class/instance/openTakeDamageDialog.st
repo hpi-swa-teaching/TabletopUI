@@ -1,4 +1,4 @@
 health and damage
 openTakeDamageDialog
 	
-	self openInputDialog: #takeDamageInput: label: 'Take Damage'
+	self takeDamageInput: (UIManager default request: 'Take damage')

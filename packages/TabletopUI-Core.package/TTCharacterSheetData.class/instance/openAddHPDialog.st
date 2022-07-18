@@ -1,4 +1,4 @@
 health and damage
 openAddHPDialog
 	
-	self openInputDialog: #healInput: label: 'Gain HP'
+	self healInput: (UIManager default request: 'Gain HP')
