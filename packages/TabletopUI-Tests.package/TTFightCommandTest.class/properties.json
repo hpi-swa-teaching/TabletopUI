@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"removedPlayer",
-		"gameState",
-		"executedActions" ],
-	"name" : "TTMockContext",
+		"command" ],
+	"name" : "TTFightCommandTest",
 	"pools" : [
 		 ],
-	"super" : "TTCommandContext",
+	"super" : "TTCommandTestBase",
 	"type" : "normal" }
