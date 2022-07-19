@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JA 7/19/2022 13:52",
+		"test01StartInitiative" : "JA 7/19/2022 14:00",
+		"test02EndInitiative" : "JA 7/19/2022 13:58",
+		"test03StartInvalidState" : "JA 7/19/2022 14:06",
+		"test04EndInvalidState" : "JA 7/19/2022 14:06" } }

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gameState" ],
+	"name" : "TTMockParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

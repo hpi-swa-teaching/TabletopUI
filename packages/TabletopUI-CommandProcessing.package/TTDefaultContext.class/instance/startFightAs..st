@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 startFightAs: aTTCharacter
 
 	(aTTCharacter isGamemaster) ifTrue: [

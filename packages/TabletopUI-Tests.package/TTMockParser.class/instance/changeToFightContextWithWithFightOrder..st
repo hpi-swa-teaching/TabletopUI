@@ -1,0 +1,4 @@
+actions
+changeToFightContextWithWithFightOrder: anOrderedCollection
+
+	self changeToFightContext

@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JA 7/19/2022 15:15",
+		"test01CorrectGameState" : "JA 7/19/2022 15:17",
+		"test02StartFight" : "JA 7/19/2022 15:34",
+		"test03StartFightAsPlayer" : "JA 7/19/2022 15:31" } }
