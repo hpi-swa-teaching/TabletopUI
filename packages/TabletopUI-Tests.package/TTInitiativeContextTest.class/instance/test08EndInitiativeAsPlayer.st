@@ -13,4 +13,5 @@ test08EndInitiativeAsPlayer
 	self context processRoll: 9 for: player2.
 	result := self context endInitiativePhaseFrom: player1.
 	
-	self assert: self context onlyGMIsAllowedMessageString equals: result
+	self assert: self context onlyGMIsAllowedMessageString equals: result.
+	self assert: #initiative equals: self parser context gameState

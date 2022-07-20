@@ -1,4 +1,4 @@
 actions
 changeToInitiativeContext
 
-	self gameState: #initiative
+	self context: TTInitiativeContext new

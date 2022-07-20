@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JA 7/19/2022 15:38",
+		"setUp" : "ML 7/20/2022 01:48",
 		"test01CorrectGameState" : "JA 7/19/2022 15:39",
 		"test02Roll" : "JA 7/19/2022 15:52",
 		"test03GMCanNotRoll" : "JA 7/19/2022 15:54",
 		"test04RollTwice" : "JA 7/19/2022 15:58",
 		"test05InitiativeReady" : "JA 7/19/2022 16:02",
 		"test06InitiativeNotReady" : "JA 7/19/2022 16:03",
-		"test07EndInitiative" : "JA 7/19/2022 16:11",
-		"test08EndInitiativeAsPlayer" : "JA 7/19/2022 16:13",
-		"test09EndInitiativeNotReady" : "JA 7/19/2022 16:14" } }
+		"test07EndInitiative" : "ML 7/20/2022 01:49",
+		"test08EndInitiativeAsPlayer" : "ML 7/20/2022 01:50",
+		"test09EndInitiativeNotReady" : "ML 7/20/2022 01:50" } }

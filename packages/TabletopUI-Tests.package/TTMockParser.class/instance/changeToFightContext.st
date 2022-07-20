@@ -1,4 +1,4 @@
 actions
 changeToFightContext
 
-	self gameState: #fight
+	self context: TTFightContext new

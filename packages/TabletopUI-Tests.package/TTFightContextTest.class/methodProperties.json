@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"gm" : "ML 7/20/2022 01:32",
+		"gm:" : "ML 7/20/2022 01:32",
+		"player" : "ML 7/20/2022 01:32",
+		"player:" : "ML 7/20/2022 01:32",
+		"setUp" : "ML 7/20/2022 01:57",
+		"test01CorrectGameState" : "ML 7/20/2022 01:43",
+		"test02EndFightingAsGM" : "ML 7/20/2022 01:46",
+		"test03EndFightingAsPlayer" : "ML 7/20/2022 01:52",
+		"test04ProceedToNextPlayer" : "ML 7/20/2022 01:55",
+		"test05RemovePlayer" : "ML 7/20/2022 02:00" } }

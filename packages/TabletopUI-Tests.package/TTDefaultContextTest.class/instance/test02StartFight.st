@@ -7,4 +7,4 @@ test02StartFight
 		yourself.
 	
 	self context startFightAs: gamemaster.
-	self assert: #initiative equals: self parser gameState
+	self assert: #initiative equals: self parser context gameState

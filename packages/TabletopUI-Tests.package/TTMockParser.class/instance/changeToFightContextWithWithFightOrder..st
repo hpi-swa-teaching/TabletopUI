@@ -1,4 +1,4 @@
 actions
 changeToFightContextWithWithFightOrder: anOrderedCollection
 
-	self changeToFightContext
+	self context: TTFightContext new

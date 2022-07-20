@@ -7,4 +7,5 @@ test03StartFightAsPlayer
 		yourself.
 	
 	result := self context startFightAs: player.
-	self assert: self context onlyGMIsAllowedMessageString equals: result
+	self assert: self context onlyGMIsAllowedMessageString equals: result.
+	self assert: #default equals: self parser context gameState

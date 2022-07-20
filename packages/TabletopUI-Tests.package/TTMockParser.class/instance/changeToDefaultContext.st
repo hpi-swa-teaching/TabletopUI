@@ -1,4 +1,4 @@
 actions
 changeToDefaultContext
 
-	self gameState: #default
+	self context: TTDefaultContext new

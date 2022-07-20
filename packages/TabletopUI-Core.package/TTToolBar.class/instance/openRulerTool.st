@@ -1,4 +1,4 @@
-initialization
+tasks
 openRulerTool
 		
 		self map toggleRulerToolWith: self inputField.

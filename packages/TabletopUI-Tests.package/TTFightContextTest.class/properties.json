@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"characterSheet",
-		"inputField" ],
-	"name" : "TTCharacterSheetDataTest",
+		"gm",
+		"player" ],
+	"name" : "TTFightContextTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTContextTestBase",
 	"type" : "normal" }
