@@ -12,9 +12,11 @@
 		"test01SavingThrows" : "ML 6/2/2022 11:09",
 		"test02ThrowsWithProficiency" : "ML 6/2/2022 11:09",
 		"test03Damage" : "ML 6/2/2022 11:10",
-		"test04Heal" : "ML 6/2/2022 11:10",
+		"test04Heal" : "ML 7/20/2022 14:27",
 		"test05DeathSaves" : "DS 5/16/2022 16:00",
 		"test06TemporaryHP" : "ML 6/2/2022 11:10",
 		"test07GainMoney" : "DS 5/16/2022 16:20",
 		"test08LoseMoney" : "DS 5/16/2022 16:23",
-		"test09InteractivRollPressed" : "ML 7/20/2022 01:22" } }
+		"test09InteractiveRollPressed" : "ML 7/20/2022 14:02",
+		"test10Multiplier" : "ML 7/20/2022 14:12",
+		"test11HitDice" : "ML 7/20/2022 14:20" } }

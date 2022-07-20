@@ -2,4 +2,6 @@ running
 setUp
 
 	self inputField: (TTInputField new 
-		subWindowManager: (TTSubWindowManager new); yourself)
+		subWindowManager: (TTSubWindowManager new);
+		log: TTMockActionLog new;
+		yourself)

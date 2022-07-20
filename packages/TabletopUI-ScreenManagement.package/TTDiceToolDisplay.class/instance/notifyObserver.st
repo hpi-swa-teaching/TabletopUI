@@ -1,4 +1,4 @@
 accessing
 notifyObserver
 
-	observer notifyDiceToolClosed.
+	self observer notifyDiceToolClosed.

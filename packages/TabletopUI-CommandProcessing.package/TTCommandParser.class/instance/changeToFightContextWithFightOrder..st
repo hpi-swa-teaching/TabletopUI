@@ -1,5 +1,5 @@
 context managing
-changeToFightContextWithWithFightOrder: aCollection
+changeToFightContextWithFightOrder: aCollection
 	
 	self context: ((TTFightContext newWithfightOrder: aCollection)
 		parser: self;

@@ -1,4 +1,4 @@
 accessing
 hitDieTypeText
 
-	^ 'D' , (hitDieType asString)
+	^ 'D' , (self hitDieType asString)

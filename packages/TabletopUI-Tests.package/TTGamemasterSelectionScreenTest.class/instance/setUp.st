@@ -1,11 +1,12 @@
 running
 setUp
 	
-	self characterAdministration: TTCharacterAdministration new.
-	self characterAdministration
+	self screen: TTGamemasterSelectionScreen new.
+	self window: TTTabletopWindow new.
+	self screen window: self window.
+	self screen characterAdministration: self window characterAdministration.
+	self screen characterAdministration
 		addPlayer: (TTCharacter newWithName: 'playerA' role: TTCharacter player);
 		addPlayer: (TTCharacter newWithName: 'playerB' role: TTCharacter player).
-	self screen: (TTGamemasterSelectionScreen new 
-		characterAdministration: self characterAdministration)
-	
+	self characterAdministration: self window characterAdministration
 	

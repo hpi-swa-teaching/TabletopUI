@@ -1,5 +1,5 @@
 testing
-test09InteractivRollPressed
+test09InteractiveRollPressed
 	
 	self characterSheet acrobaticsLabelPressed.
 	self assert: (self inputField inputs removeFirst) equals: 'roll d20 +0'.
