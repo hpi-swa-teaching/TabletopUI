@@ -1,7 +1,7 @@
 toolbuilder
 attributeListSpec: aToolBuilder
 	^ aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: 'Attributes';
 		children: (OrderedCollection new
 			add: ((self attributeSpec: aToolBuilder name: #defaultStrengthLabel modifier: #strengthModifier stat: #strength onChange: #processInputStrength:) 

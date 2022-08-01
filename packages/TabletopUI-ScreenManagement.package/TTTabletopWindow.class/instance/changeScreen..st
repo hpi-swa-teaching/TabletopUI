@@ -1,5 +1,9 @@
 screen management
 changeScreen: aTTScreen
 
-	self contents: {aTTScreen buildWith: ToolBuilder default}.
+	| newScreen | 
+	newScreen := aTTScreen buildWith: ToolBuilder default.
+	self contents ifNotEmpty: [self removeDependent: self contents first model].	
+	self contents: {newScreen}.
+	self addDependent: newScreen model.
 	self changed: #contents

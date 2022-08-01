@@ -8,8 +8,7 @@
 	"instvars" : [
 		"tiles",
 		"tokens",
-		"rulerTool",
-		"subWindowManager" ],
+		"rulerTool" ],
 	"name" : "TTMap",
 	"pools" : [
 		 ],

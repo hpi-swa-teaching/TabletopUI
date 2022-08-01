@@ -11,7 +11,8 @@
 		"modifier",
 		"diceAmounts",
 		"observer",
-		"aboutToBeClosed" ],
+		"aboutToBeClosed",
+		"morph" ],
 	"name" : "TTDiceToolDisplay",
 	"pools" : [
 		 ],

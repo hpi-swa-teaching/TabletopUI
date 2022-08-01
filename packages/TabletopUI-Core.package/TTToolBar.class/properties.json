@@ -9,8 +9,7 @@
 		"characterAdministration",
 		"inputField",
 		"map",
-		"diceTool",
-		"subWindowManager" ],
+		"diceTool" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],

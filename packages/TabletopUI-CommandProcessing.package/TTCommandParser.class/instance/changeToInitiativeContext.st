@@ -1,7 +1,6 @@
 context managing
 changeToInitiativeContext
 
-	self context: (TTInitiativeContext new
+	self changeToContext: (TTInitiativeContext new
 		parser: self;
-		subWindowManager: self subWindowManager;
 		yourself)

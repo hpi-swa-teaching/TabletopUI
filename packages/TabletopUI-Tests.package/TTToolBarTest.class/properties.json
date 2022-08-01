@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"toolBar",
-		"subWindowManager" ],
+		"toolBar" ],
 	"name" : "TTToolBarTest",
 	"pools" : [
 		 ],

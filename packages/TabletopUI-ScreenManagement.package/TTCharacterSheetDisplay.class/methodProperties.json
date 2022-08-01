@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"newWith:inputField:" : "ML 7/12/2022 18:14",
-		"openWith:inputField:" : "ML 7/12/2022 18:10" },
+		"openWith:inputField:" : "DS 8/1/2022 13:16" },
 	"instance" : {
 		"attributeListFrame" : "DS 5/31/2022 20:28",
-		"attributeListSpec:" : "ML 5/31/2022 17:27",
+		"attributeListSpec:" : "DS 8/1/2022 12:57",
 		"attributeSpec:name:modifier:stat:onChange:" : "ML 7/12/2022 17:56",
-		"buildWith:" : "DS 7/7/2022 20:14",
+		"buildWith:" : "DS 8/1/2022 13:00",
 		"centerColumnFrame" : "DS 5/31/2022 20:32",
 		"centerColumnSpec:" : "DS 5/31/2022 20:19",
 		"deathSavesLabelSpec:name:callBack:" : "DS 5/31/2022 22:24",
@@ -27,6 +27,4 @@
 		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "ML 7/12/2022 17:53",
 		"recoverySpec:" : "RK 6/16/2022 10:26",
 		"rightColumnFrame" : "DS 5/31/2022 20:33",
-		"rightColumnSpec:" : "JA 6/29/2022 16:28",
-		"subWindowManager" : "DS 7/7/2022 15:13",
-		"subWindowManager:" : "DS 7/7/2022 15:13" } }
+		"rightColumnSpec:" : "JA 6/29/2022 16:28" } }

@@ -2,9 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ML 7/20/2022 13:50",
-		"subWindowManager" : "ML 7/20/2022 13:32",
-		"subWindowManager:" : "ML 7/20/2022 13:32",
+		"setUp" : "DS 8/1/2022 16:02",
 		"test01OpenDiceTool" : "ML 7/20/2022 13:42",
 		"test02OpenRulerTool" : "ML 7/20/2022 13:52",
 		"toolBar" : "ML 7/20/2022 13:33",

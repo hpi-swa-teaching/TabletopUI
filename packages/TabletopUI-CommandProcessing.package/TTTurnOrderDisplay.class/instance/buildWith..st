@@ -4,8 +4,7 @@ buildWith: aToolBuilder
 	^ aToolBuilder
 		build:
 			(aToolBuilder pluggableWindowSpec new
-				model: self fightContext;
-				closeAction: #onCloseTurnOrderDisplay;
+				model: self;
 				extent: self defaultExtent;
 				label: 'Turn Order';
 				children:

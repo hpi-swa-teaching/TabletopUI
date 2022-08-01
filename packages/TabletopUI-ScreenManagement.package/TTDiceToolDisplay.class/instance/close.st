@@ -2,4 +2,4 @@ accessing
 close
 
 	self aboutToBeClosed: true.
-	self notifyObserver.
+	self notifyObserver
