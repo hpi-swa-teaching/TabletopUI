@@ -1,3 +1,3 @@
 accessing
 gold
-	^ gold
+	^ gold asFloat

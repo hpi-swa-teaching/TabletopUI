@@ -1,4 +1,0 @@
-labels
-defaultConstitutionLabel
-	
-	^ 'CONSTITUTION'

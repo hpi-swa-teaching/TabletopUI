@@ -2,10 +2,10 @@ running
 setUpBaseValues
 
 	self characterSheet
-		strength: 4;
-		dexterity: 2;
-		constitution: 20;
-		intelligence: 0;
-		wisdom: 3;
+		strength: 10;
+		dexterity: 10;
+		constitution: 10;
+		intelligence: 10;
+		wisdom: 10;
 		charisma: 10
 	

@@ -1,0 +1,4 @@
+labels
+intelligenceLabel
+	
+	^ 'INTELLIGENCE'
