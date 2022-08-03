@@ -1,5 +1,5 @@
 testing
-test02WrongGameState
+test02WrongGameStateDefault
 	| command result |
 	command := TTCharacterCommand new
 		name: 'Dieter';

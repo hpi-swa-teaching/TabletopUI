@@ -1,12 +1,10 @@
 testing
 test05RemovePlayer
 
-	| result |
-	self assert: self context currentPlayer equals: self gm.
+	| numberOfPlayers |
+	
+	numberOfPlayers := self context fightingPlayers size.
 	self context removePlayer: self gm name from: self gm.
 	self assert: self context currentPlayer equals: self player.
-	self context proceedToNextPlayer: self player.
-	self assert: self context currentPlayer equals: self player.
-	result := self context removePlayer: self gm name from: self player.
-	self assert: self context onlyGMIsAllowedMessageString equals: result.
+	self assert: numberOfPlayers equals: self context fightingPlayers size + 1.
 	

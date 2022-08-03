@@ -9,4 +9,6 @@
 		"test04EndFight" : "JA 6/9/2022 22:30",
 		"test05EndTurn" : "JA 6/9/2022 22:31",
 		"test06EndInitiative" : "JA 6/9/2022 22:32",
-		"test07RemoveCharacter" : "JA 6/9/2022 22:34" } }
+		"test07RemoveCharacter" : "JA 6/9/2022 22:34",
+		"test08RollConstant" : "ML 8/3/2022 14:54",
+		"test09InvalidInput" : "ML 8/3/2022 15:01" } }
