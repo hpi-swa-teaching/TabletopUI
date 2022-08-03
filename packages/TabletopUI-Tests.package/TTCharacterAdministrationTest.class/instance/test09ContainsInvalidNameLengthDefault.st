@@ -1,0 +1,4 @@
+testing
+test09ContainsInvalidNameLengthDefault
+
+	self deny: self characterAdministration containsInvalidNameLength

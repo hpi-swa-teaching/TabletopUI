@@ -9,9 +9,12 @@
 		"setUpPlayers" : "MM 7/9/2021 15:03",
 		"test01AddNPC" : "PB 7/10/2021 23:02",
 		"test02AddPlayer" : "PB 7/10/2021 23:03",
-		"test03ContainsInvalidNameLength" : "MM 7/9/2021 15:04",
-		"test04ContainsNameDuplicates" : "MM 7/9/2021 15:04",
+		"test03ContainsInvalidNameLength" : "ML 8/3/2022 14:15",
+		"test04ContainsNameDuplicates" : "ML 8/3/2022 14:15",
 		"test05IsNameADuplicate" : "joda 7/8/2021 18:48",
 		"test06IsNameLengthInvalid" : "joda 7/8/2021 18:52",
-		"test07ValidateAllNames" : "MM 7/9/2021 15:04",
-		"test08ValidateName" : "joda 7/9/2021 12:06" } }
+		"test07ValidateAllNames" : "ML 8/3/2022 14:15",
+		"test08ValidateName" : "joda 7/9/2021 12:06",
+		"test09ContainsInvalidNameLengthDefault" : "ML 8/3/2022 14:14",
+		"test10ContainsNameDuplicatesDefault" : "ML 8/3/2022 14:15",
+		"test11ValidateAllNamesDefault" : "ML 8/3/2022 14:15" } }

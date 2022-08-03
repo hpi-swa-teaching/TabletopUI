@@ -1,0 +1,4 @@
+testing
+test11ValidateAllNamesDefault
+
+	self assert: self characterAdministration validateAllNames
