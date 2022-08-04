@@ -1,7 +1,8 @@
 toolbuilder
 rightColumnSpec: aToolBuilder
+
 	^ aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: 'Health';
 		children: (OrderedCollection new
 			add: ((self itemBuffsSpec: aToolBuilder) 

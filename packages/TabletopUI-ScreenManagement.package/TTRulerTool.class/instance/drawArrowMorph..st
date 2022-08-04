@@ -1,10 +1,11 @@
 actions
 drawArrowMorph: aPosition
 
-	| adjustedStart adjustedEnd |
+	|adjustedStart adjustedEnd|
+	
 	adjustedStart := self positionToCoordinatePos: self startPosition.
 	adjustedEnd := self positionToCoordinatePos: aPosition.
-	self arrowMorph ifNotNil: [arrowMorph delete].
+	self arrowMorph ifNotNil: [self arrowMorph delete].
 	self arrowMorph: (LineMorph
 		from: adjustedStart
 		to: adjustedEnd

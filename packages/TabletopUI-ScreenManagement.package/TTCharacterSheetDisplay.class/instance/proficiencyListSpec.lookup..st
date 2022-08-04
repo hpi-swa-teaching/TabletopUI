@@ -1,26 +1,28 @@
 toolbuilder
 proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
+
 	| proficiencyList childrenList frameCounter lineHeight |
+	
 	frameCounter := 0.
-	lineHeight := 1.0 / ((model perform: aLookupSymbol) size + 1).
+	lineHeight := 1.0 / ((self model perform: aLookupSymbol) size + 1).
 	proficiencyList := OrderedCollection new.
-	(model perform: aLookupSymbol) keysAndValuesDo:
+	(self model perform: aLookupSymbol) keysAndValuesDo:
 		[ :key :value | 
 			proficiencyList add: {key asSymbol . value}].
-	proficiencyList := proficiencyList sort: [:firstpair :secondpair | (firstpair at: 1) <= (secondpair at: 1)].
+	proficiencyList := proficiencyList sort: [:firstpair :secondpair | (firstpair first) <= (secondpair first)].
 	childrenList :=	LinkedList new.
 	proficiencyList do:
 		[ :pair | 
 		frameCounter := frameCounter + lineHeight.
 		childrenList add: ((self proficiencySpec: aToolBuilder 
-				name: (((pair at: 1), 'Label') asSymbol) 
-				multiplier: (((pair at: 1), 'Multiplier') asSymbol) 
-				multiplierOnChange: (('processInput', (pair at: 1), 'Multiplier:') asSymbol) 
-				value: ((pair at: 1) asSymbol))
+				name: ((pair first), 'Label') asSymbol
+				multiplier: ((pair first), 'Multiplier') asSymbol
+				multiplierOnChange: ('processInput', (pair first), 'Multiplier:') asSymbol
+				value: (pair first) asSymbol)
 		frame: (0 @ frameCounter rect: 1 @ frameCounter + lineHeight))].
 	
 	^ aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: 'Attributes';
 		children: childrenList;
 		yourself

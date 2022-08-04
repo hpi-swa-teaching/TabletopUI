@@ -2,11 +2,11 @@ toolbuilder
 deathSavesListSpec: aToolBuilder name: aNameSymbol  stat: aStatSymbol callBack: aCallBackSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aNameSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				
@@ -15,7 +15,7 @@ deathSavesListSpec: aToolBuilder name: aNameSymbol  stat: aStatSymbol callBack: 
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				color: #backgroundColorBaseValues;
 				getText: aStatSymbol;
 				indicateUnacceptedChanges: false;
@@ -24,7 +24,7 @@ deathSavesListSpec: aToolBuilder name: aNameSymbol  stat: aStatSymbol callBack: 
 				yourself);
 				
 			add: (aToolBuilder pluggableActionButtonSpec new
-				model: model;
+				model: self model;
 				label: '+';
 				action: aCallBackSymbol;
 				frame: (0.85 @ 0 rect: 1 @ 1);

@@ -1,5 +1,6 @@
 toolbuilder
 attributeListSpec: aToolBuilder
+
 	^ aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: 'Attributes';
@@ -27,6 +28,5 @@ attributeListSpec: aToolBuilder
 			add: ((self attributeSpec: aToolBuilder name: #charismaLabel modifier: #charismaModifier stat: #charisma onChange: #processInputCharisma:) 
 				frame: (LayoutFrame fractions: (0 @ 0.75 rect: 1 @ 0.9));
 				yourself);
-			
 			 yourself);
 		yourself

@@ -1,5 +1,6 @@
 toolbuilder
 buildWith: aToolBuilder
+
 	^ aToolBuilder
 		build:
 			(aToolBuilder pluggableWindowSpec new

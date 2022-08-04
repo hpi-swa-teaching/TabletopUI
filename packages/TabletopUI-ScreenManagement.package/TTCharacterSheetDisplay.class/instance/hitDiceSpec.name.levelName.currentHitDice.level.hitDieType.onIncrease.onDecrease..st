@@ -2,11 +2,11 @@ toolbuilder
 hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentHitDice: aCurrentHitDiceSymbol level: aLevelSymbol hitDieType: aDieSymbol onIncrease: anIncreaseSymbol onDecrease: aDecreaseSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aLevelNameSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				
@@ -15,7 +15,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aLevelSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
@@ -25,7 +25,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aCurrentHitDiceSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
@@ -34,7 +34,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				yourself);
 			
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aNameSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
@@ -43,21 +43,21 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				yourself);
 				
 			add: (aToolBuilder pluggableActionButtonSpec new
-				model: model;
+				model: self model;
 				label: '+';
 				action: anIncreaseSymbol;
 				frame: (0 @ 0.8 rect: 0.25 @ 1);
 				yourself);
 				
 			add: (aToolBuilder pluggableActionButtonSpec new
-				model: model;
+				model: self model;
 				label: '-';
 				action: aDecreaseSymbol;
 				frame: (0.35 @ 0.8 rect: 0.6 @ 1);
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aDieSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;

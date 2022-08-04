@@ -7,6 +7,6 @@ initializeSideBar
 		toolBar: (TTToolBar newWith: self characterAdministration 
 			and: self inputField map: self map).
 	self 
-		addDependent: imageBar;
-		addDependent: tokenBar;
-		addDependent: toolBar
+		addDependent: self imageBar;
+		addDependent: self tokenBar;
+		addDependent: self toolBar

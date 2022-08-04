@@ -2,18 +2,18 @@ toolbuilder
 deathSavesLabelSpec: aToolBuilder name: aNameSymbol callBack: aCallBackSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new
 			add: (aToolBuilder pluggableActionButtonSpec new
-				model: model;
+				model: self model;
 				label: 'RESET';
 				action: aCallBackSymbol;
 				frame: (0 @ 0 rect: 1 @ 0.45);
 				yourself);
 			
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aNameSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				

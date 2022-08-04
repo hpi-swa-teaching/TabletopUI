@@ -2,12 +2,12 @@ toolbuilder
 proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol multiplierOnChange: aCallbackSymbol value: aValueSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new
 				
 			add: (aToolBuilder pluggableInputFieldSpec new
-				model: model;
+				model: self model;
 				getText: aMultiplierSymbol;
 				setText: aCallbackSymbol;
 				indicateUnacceptedChanges: false;
@@ -17,7 +17,7 @@ proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol mu
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aValueSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				
@@ -26,7 +26,7 @@ proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol mu
 				yourself);
 				
 			add: (aToolBuilder pluggableButtonSpec new
-				model: model;
+				model: self model;
 				label: aNameSymbol;
 				color: #backgroundColorBaseValues;		
 				frame: (0.3 @ 0 rect: 1 @ 1);

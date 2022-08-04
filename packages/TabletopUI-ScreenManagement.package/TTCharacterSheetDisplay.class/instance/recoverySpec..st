@@ -2,7 +2,7 @@ toolbuilder
 recoverySpec: aToolBuilder 
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: 'recovery';
 		children: (OrderedCollection new
 			add: ((self hitDiceSpec: aToolBuilder
@@ -13,13 +13,13 @@ recoverySpec: aToolBuilder
 					hitDieType: #hitDieTypeText
 					onIncrease: #incrementHitDice
 					onDecrease: #decrementHitDice)
-				model: model;
+				model: self model;
 				color: #backgroundColorBaseValues;		
 				frame: (0 @ 0 rect: 0.4 @ 1);
 				yourself);
 				
 			add: ((self deathSavesSpec: aToolBuilder)
-				model: model;
+				model: self model;
 				color: #backgroundColorBaseValues;		
 				frame: (0.45 @ 0 rect: 1 @ 1);
 				yourself);

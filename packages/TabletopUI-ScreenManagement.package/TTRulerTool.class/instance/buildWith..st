@@ -19,4 +19,4 @@ buildWith: aToolBuilder
 								getText: #distance;
 								yourself);
 							yourself);
-				yourself).
+				yourself)

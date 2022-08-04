@@ -1,0 +1,1 @@
+The Ruler Tool implements a tool to measure distances
