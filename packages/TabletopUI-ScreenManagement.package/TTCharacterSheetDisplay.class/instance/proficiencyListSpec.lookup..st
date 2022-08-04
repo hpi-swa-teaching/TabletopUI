@@ -15,10 +15,10 @@ proficiencyListSpec: aToolBuilder lookup: aLookupSymbol
 		[ :pair | 
 		frameCounter := frameCounter + lineHeight.
 		childrenList add: ((self proficiencySpec: aToolBuilder 
-				name: ((pair first), 'Label') asSymbol
-				multiplier: ((pair first), 'Multiplier') asSymbol
-				multiplierOnChange: ('processInput', (pair first), 'Multiplier:') asSymbol
-				value: (pair first) asSymbol)
+			name: ((pair first), 'Label') asSymbol
+			multiplier: ((pair first), 'Multiplier') asSymbol
+			multiplierOnChange: ('processInput', (pair first), 'Multiplier:') asSymbol
+			value: (pair first) asSymbol)
 		frame: (0 @ frameCounter rect: 1 @ frameCounter + lineHeight))].
 	
 	^ aToolBuilder pluggablePanelSpec new

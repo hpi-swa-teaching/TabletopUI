@@ -37,6 +37,5 @@ hpSpec: aToolBuilder
 				action: #openTakeDamageDialog;
 				frame: (0.15 @ 0.85 rect: 0.85 @ 0.95);
 				yourself);
-			
 			 yourself);
 		yourself

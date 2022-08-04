@@ -1,16 +1,16 @@
 toolbuilder
-attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aStatSymbol onChange: aCallBackSymbol
+attributeSpec: aToolBuilder name: aNameSymbol modifier: aModifierSymbol stat: aStatSymbol onChange: aCallBackSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
 		model: self model;
-		name: aNameSymboi printString;
+		name: aNameSymbol printString;
 		children: (OrderedCollection new
 			add: (aToolBuilder pluggableButtonSpec new
 				model: self model;
-				label: aNameSymboi;
+				label: aNameSymbol;
 				color: #backgroundColorBaseValues;		
 				frame: (0 @ 0 rect: 1 @ 0.2);
-				action: (aNameSymboi, 'Pressed') asSymbol;
+				action: (aNameSymbol, 'Pressed') asSymbol;
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
