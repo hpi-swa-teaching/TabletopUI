@@ -7,4 +7,4 @@ createTokenFor: aTTCharacter
 	tile := self tiles at: position x at: position y.
 	token := TTToken newWithTile: tile character: aTTCharacter.
 	tile addToken: token.
-	self tokens add: token.
+	self tokens add: token

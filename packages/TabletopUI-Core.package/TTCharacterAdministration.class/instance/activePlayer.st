@@ -1,3 +1,3 @@
 accessing
 activePlayer
-	^ self playerSelectionMenu getActivePlayer.
+	^ self playerSelectionMenu getActivePlayer

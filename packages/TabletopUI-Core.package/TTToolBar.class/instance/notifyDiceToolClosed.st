@@ -1,4 +1,4 @@
 initialization
 notifyDiceToolClosed
 	
-	self changed: #diceToolButtonColor.
+	self changed: #diceToolButtonColor

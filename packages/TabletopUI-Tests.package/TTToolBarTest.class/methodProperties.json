@@ -3,9 +3,9 @@
 		 },
 	"instance" : {
 		"setUp" : "DS 8/1/2022 16:02",
-		"test01OpenDiceTool" : "ob 8/3/2022 15:54",
+		"test01OpenDiceTool" : "DS 8/4/2022 10:52",
 		"test02OpenRulerTool" : "ob 8/3/2022 15:54",
-		"test03CloseDiceTool" : "ob 8/3/2022 15:54",
+		"test03CloseDiceTool" : "DS 8/4/2022 10:52",
 		"test04CloseRulerTool" : "ob 8/3/2022 15:54",
 		"toolBar" : "ML 7/20/2022 13:33",
 		"toolBar:" : "ML 7/20/2022 13:33" } }

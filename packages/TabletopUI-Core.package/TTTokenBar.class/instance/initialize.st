@@ -1,6 +1,5 @@
 initialization
 initialize
 
-	super initialize.
-	
+	super initialize.	
 	self currentName: ''

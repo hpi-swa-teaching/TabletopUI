@@ -4,4 +4,4 @@ processInputathleticsMultiplier: aText
 	self athleticsMultiplier: aText.
 	self changed: #athleticsMultiplierModifier.
 	self changed: #athleticsMultiplier.
-	self changed: #athletics.
+	self changed: #athletics

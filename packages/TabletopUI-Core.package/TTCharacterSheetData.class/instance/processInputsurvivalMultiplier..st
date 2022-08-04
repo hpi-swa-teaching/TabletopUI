@@ -4,4 +4,4 @@ processInputsurvivalMultiplier: aText
 	self survivalMultiplier: aText.
 	self changed: #survivalMultiplierModifier.
 	self changed: #survivalMultiplier.
-	self changed: #survival.
+	self changed: #survival

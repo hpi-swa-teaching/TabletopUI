@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWith: aCharacterAdministration and: anInputField map: aMap
 
 	| toolBar |
@@ -8,4 +8,4 @@ newWith: aCharacterAdministration and: anInputField map: aMap
 		inputField: anInputField;
 		map: aMap;
 		yourself.
-	^ toolBar.
+	^ toolBar

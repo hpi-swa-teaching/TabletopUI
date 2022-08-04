@@ -4,4 +4,4 @@ processInputarcanaMultiplier: aText
 	self arcanaMultiplier: aText.
 	self changed: #arcanaMultiplierModifier.
 	self changed: #arcanaMultiplier.
-	self changed: #arcana.
+	self changed: #arcana

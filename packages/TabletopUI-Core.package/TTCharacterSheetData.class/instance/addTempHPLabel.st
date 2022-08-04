@@ -1,4 +1,4 @@
 labels
 addTempHPLabel
 	
-	^ 'ADD TEMP'.
+	^ 'ADD TEMP'

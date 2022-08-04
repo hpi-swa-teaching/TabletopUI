@@ -3,4 +3,4 @@ processInputconstitutionSaveMultiplier: aText
 
 	self constitutionSaveMultiplier: aText.
 	self changed: #constitutionSaveMultiplier.
-	self changed: #constitutionSave.
+	self changed: #constitutionSave

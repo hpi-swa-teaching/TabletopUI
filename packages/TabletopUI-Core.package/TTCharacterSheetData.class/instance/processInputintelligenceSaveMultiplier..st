@@ -3,4 +3,4 @@ processInputintelligenceSaveMultiplier: aText
 
 	self intelligenceSaveMultiplier: aText.
 	self changed: #intelligenceSaveMultiplier.
-	self changed: #intelligenceSave.
+	self changed: #intelligenceSave

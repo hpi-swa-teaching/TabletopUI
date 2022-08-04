@@ -4,4 +4,4 @@ processInputperceptionMultiplier: aText
 	self perceptionMultiplier: aText.
 	self changed: #perceptionMultiplierModifier.
 	self changed: #perceptionMultiplier.
-	self changed: #perception.
+	self changed: #perception

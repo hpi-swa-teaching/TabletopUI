@@ -1,4 +1,4 @@
 initialization
 notifyRulerToolClosed
 	
-	self changed: #rulerToolButtonColor.
+	self changed: #rulerToolButtonColor
