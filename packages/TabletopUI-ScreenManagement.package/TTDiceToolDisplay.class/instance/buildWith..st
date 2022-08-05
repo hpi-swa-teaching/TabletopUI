@@ -33,4 +33,4 @@ buildWith: aToolBuilder
 								action: #reset;
 								yourself);
 							yourself);
-				yourself).
+				yourself)

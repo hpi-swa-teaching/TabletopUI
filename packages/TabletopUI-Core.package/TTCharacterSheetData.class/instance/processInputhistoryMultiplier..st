@@ -4,4 +4,4 @@ processInputhistoryMultiplier: aText
 	self historyMultiplier: aText.
 	self changed: #historyMultiplierModifier.
 	self changed: #historyMultiplier.
-	self changed: #history.
+	self changed: #history

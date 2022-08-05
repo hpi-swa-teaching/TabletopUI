@@ -1,4 +1,4 @@
 labels
 addHPLabel
 	
-	^ 'ADD HP'.
+	^ 'ADD HP'

@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gm",
+		"player" ],
+	"name" : "TTFightContextTest",
+	"pools" : [
+		 ],
+	"super" : "TTContextTestBase",
+	"type" : "normal" }

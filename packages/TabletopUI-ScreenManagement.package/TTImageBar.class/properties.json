@@ -1,0 +1,16 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "joda 11/1/2021 09:46",
+	"instvars" : [
+		"images",
+		"map",
+		"selectedIndex" ],
+	"name" : "TTImageBar",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+The Character Sheet Display takes care of the UI for the Character Sheets

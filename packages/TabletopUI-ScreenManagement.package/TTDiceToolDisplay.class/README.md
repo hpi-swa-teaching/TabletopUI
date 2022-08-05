@@ -1,0 +1,1 @@
+The Dice Tool implements a tool to select and roll dice without having to use commands

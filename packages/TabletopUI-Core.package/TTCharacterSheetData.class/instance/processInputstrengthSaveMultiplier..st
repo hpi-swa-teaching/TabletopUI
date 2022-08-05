@@ -3,4 +3,4 @@ processInputstrengthSaveMultiplier: aText
 
 	self strengthSaveMultiplier: aText.
 	self changed: #strengthSaveMultiplier.
-	self changed: #strengthSave.
+	self changed: #strengthSave

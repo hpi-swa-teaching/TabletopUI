@@ -4,8 +4,9 @@
 	"instance" : {
 		"inputField" : "joda 7/13/2021 11:59",
 		"inputField:" : "joda 7/13/2021 11:59",
-		"setUp" : "JA 7/11/2022 16:01",
-		"tearDown" : "JA 7/11/2022 16:07",
+		"setUp" : "DS 8/1/2022 16:01",
+		"tearDown" : "DS 8/1/2022 16:01",
 		"test01ChangeToInitiativeContext" : "ML 6/16/2022 10:44",
-		"test02ChangeToFightContext" : "ML 6/16/2022 10:45",
-		"test03ChangeToDefaultContext" : "ML 6/16/2022 10:45" } }
+		"test02ChangeToFightContext" : "ML 7/20/2022 15:19",
+		"test03ChangeToDefaultContext" : "ML 6/16/2022 10:45",
+		"test04DefaultContext" : "ML 8/3/2022 15:31" } }

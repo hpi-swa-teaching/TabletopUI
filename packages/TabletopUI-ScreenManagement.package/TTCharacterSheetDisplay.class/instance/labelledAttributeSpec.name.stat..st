@@ -2,12 +2,12 @@ toolbuilder
 labelledAttributeSpec: aToolBuilder name: aNameSymbol stat: aStatSymbol 
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aStatSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
@@ -17,7 +17,7 @@ labelledAttributeSpec: aToolBuilder name: aNameSymbol stat: aStatSymbol
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aNameSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				

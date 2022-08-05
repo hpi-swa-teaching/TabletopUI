@@ -8,5 +8,5 @@ createLayoutWith: aToolBuilder forPlayerCount: aNumber
 		inputFields add: 
 			(self inputFieldBoundsForIndex: anIndex) -> 
 				(self createInputFieldSpecWith: aToolBuilder index: anIndex)].
-	
+			
 	^ inputFields

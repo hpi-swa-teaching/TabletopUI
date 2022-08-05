@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"context" ],
+	"name" : "TTContextTestBase",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

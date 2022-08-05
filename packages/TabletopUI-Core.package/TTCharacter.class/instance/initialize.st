@@ -4,4 +4,4 @@ initialize
 	super initialize.
 	
 	self name: ''.
-	self sheet: TTCharacterSheetData new.
+	self sheet: TTCharacterSheetData new

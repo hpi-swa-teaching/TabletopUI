@@ -1,4 +1,4 @@
 health and damage
 openAddTempDialog
 	
-	self openInputDialog: #gainTemporaryHPInput: label: 'Gain Temp HP'
+	self gainTemporaryHPInput: (UIManager default request: 'Gain Temp HP')

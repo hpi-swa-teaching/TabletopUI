@@ -8,4 +8,4 @@ initialize
 			rows: self defaultSize / TTTile defaultSize rounded 
 			columns: self defaultSize / TTTile defaultSize rounded);
 		fillTiles;
-		tokens: OrderedCollection new.
+		tokens: OrderedCollection new

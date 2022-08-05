@@ -1,3 +1,0 @@
-accessing
-mouseIsDown
-	^ mouseIsDown

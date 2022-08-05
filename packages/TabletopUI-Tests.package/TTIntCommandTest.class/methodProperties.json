@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01CorrectValue" : "JA 7/19/2022 14:17",
+		"test02CorrectValueWhenExecuted" : "JA 7/19/2022 14:22",
+		"test03Negate" : "JA 7/19/2022 14:23" } }

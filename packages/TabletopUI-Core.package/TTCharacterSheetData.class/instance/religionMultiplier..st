@@ -1,4 +1,4 @@
 dice roll modifiers
 religionMultiplier: aText
 
-	self skillsLookup at: #religion put: ((aText asNumber min: 2) max: 0)
+	self setSkillsMultiplier: #religion to: aText

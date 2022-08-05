@@ -1,3 +1,4 @@
 accessing
 proficiencyValueString
-	^ proficiencyValue asString
+
+	^ self proficiencyValue asString

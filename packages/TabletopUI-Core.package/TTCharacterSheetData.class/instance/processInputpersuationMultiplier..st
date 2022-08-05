@@ -4,4 +4,4 @@ processInputpersuationMultiplier: aText
 	self persuationMultiplier: aText.
 	self changed: #persuationMultiplierModifier.
 	self changed: #persuationMultiplier.
-	self changed: #persuation.
+	self changed: #persuation

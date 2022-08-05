@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ob 8/4/2022 14:49",
 	"instvars" : [
 		"model",
-		"subWindowManager",
 		"name" ],
 	"name" : "TTCharacterSheetDisplay",
 	"pools" : [

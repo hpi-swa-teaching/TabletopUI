@@ -1,0 +1,16 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"screen",
+		"characterAdministration",
+		"window" ],
+	"name" : "TTCharacterNamesScreenTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 toolbuilder
 open
 
-	ToolBuilder open: self new
+	^ToolBuilder open: self new

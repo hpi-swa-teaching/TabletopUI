@@ -2,11 +2,11 @@ toolbuilder
 attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aStatSymbol onChange: aCallBackSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: aNameSymboi printString;
 		children: (OrderedCollection new
 			add: (aToolBuilder pluggableButtonSpec new
-				model: model;
+				model: self model;
 				label: aNameSymboi;
 				color: #backgroundColorBaseValues;		
 				frame: (0 @ 0 rect: 1 @ 0.2);
@@ -14,7 +14,7 @@ attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aS
 				yourself);
 				
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: aModifierSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
@@ -24,7 +24,7 @@ attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aS
 				yourself);
 				
 			add: (aToolBuilder pluggableInputFieldSpec new
-				model: model;
+				model: self model;
 				setText: aCallBackSymbol;
 				getText: aStatSymbol;
 				indicateUnacceptedChanges: false;

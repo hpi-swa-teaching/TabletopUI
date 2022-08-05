@@ -1,7 +1,8 @@
 actions
 rollDice
 
-	| modifierUsedOrZero outputString|
+	|modifierUsedOrZero outputString|
+	
 	outputString := ''.
 	modifierUsedOrZero := self modifier = 0.
 	self diceAmounts keys do: [ :aDice |
@@ -11,7 +12,7 @@ rollDice
 			ifFalse: [
 				outputString := outputString, (self diceAmounts at: aDice) asString, aDice, self modifierAsString, '+'.
 				modifierUsedOrZero := true]]].
-	outputString size > 0 ifTrue: [
+	outputString isEmpty ifFalse: [
 	outputString := outputString copyFrom: 1 to: (outputString size) - 1].
-	self inputField processInput: ('roll ', outputString).
+	self inputField processInput: 'roll ', outputString.
 	self reset

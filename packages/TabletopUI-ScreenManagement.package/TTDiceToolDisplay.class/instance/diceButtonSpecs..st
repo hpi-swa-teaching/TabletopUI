@@ -1,7 +1,8 @@
 toolbuilder
 diceButtonSpecs: aToolBuilder
 
-	|tempChildren |
+	|tempChildren|
+	
 	tempChildren := OrderedCollection new.
 	self diceTypesPositions keys do: [:aDiceType |
 	tempChildren add: (self diceButtonSpec: aToolBuilder for: aDiceType)].

@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"gm" : "ML 7/20/2022 01:32",
+		"gm:" : "ML 7/20/2022 01:32",
+		"player" : "ML 7/20/2022 01:32",
+		"player:" : "ML 7/20/2022 01:32",
+		"setUp" : "ML 7/20/2022 01:57",
+		"test01CorrectGameState" : "ML 7/20/2022 01:43",
+		"test02EndFightingAsGM" : "ML 7/20/2022 01:46",
+		"test03EndFightingAsPlayer" : "ML 7/20/2022 01:52",
+		"test04ProceedToNextPlayer" : "ML 8/3/2022 15:11",
+		"test05RemovePlayer" : "ML 8/3/2022 15:14",
+		"test06PlayerDefault" : "ML 8/3/2022 15:09",
+		"test07ProceedToNextPlayerOnlyCurrent" : "ML 8/3/2022 15:11",
+		"test08RemovePlayerOnlyGM" : "ML 8/3/2022 15:14" } }

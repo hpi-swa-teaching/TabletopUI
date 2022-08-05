@@ -1,0 +1,4 @@
+initialize-release
+notifyObserver
+
+	self observer notifyRulerToolClosed

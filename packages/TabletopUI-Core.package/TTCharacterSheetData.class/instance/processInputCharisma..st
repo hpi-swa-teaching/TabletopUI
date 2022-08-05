@@ -4,4 +4,4 @@ processInputCharisma: aText
 	self charisma: aText.
 	self changed: #charismaModifier.
 	self changed: #charisma.
-	self updateThrowsAndSkills.
+	self updateThrowsAndSkills

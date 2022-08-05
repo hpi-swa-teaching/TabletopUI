@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"screen",
-		"characterAdministration" ],
+		"characterAdministration",
+		"window" ],
 	"name" : "TTPlayerCountScreenTest",
 	"pools" : [
 		 ],

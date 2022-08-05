@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TabletopUITestsServiceProvider",
+	"pools" : [
+		 ],
+	"super" : "ServiceProvider",
+	"type" : "normal" }

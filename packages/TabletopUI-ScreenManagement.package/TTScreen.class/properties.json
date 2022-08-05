@@ -7,8 +7,7 @@
 	"commentStamp" : "rf 7/8/2021 10:18",
 	"instvars" : [
 		"characterAdministration",
-		"window",
-		"subWindowManager" ],
+		"window" ],
 	"name" : "TTScreen",
 	"pools" : [
 		 ],

@@ -8,8 +8,7 @@
 	"instvars" : [
 		"parser",
 		"log",
-		"playerSelection",
-		"subWindowManager" ],
+		"playerSelection" ],
 	"name" : "TTInputField",
 	"pools" : [
 		 ],

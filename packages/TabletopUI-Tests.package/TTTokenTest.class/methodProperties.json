@@ -3,8 +3,10 @@
 		 },
 	"instance" : {
 		"setUp" : "joda 7/13/2021 13:15",
-		"test01WantsToBeDroppedInto" : "bv 7/13/2021 11:38",
-		"test02IsTTToken" : "joda 7/13/2021 11:55",
+		"test01WantsToBeDroppedIntoTile" : "ob 8/3/2022 15:51",
+		"test02WantsToBeDroppedIntoMorph" : "ob 8/3/2022 15:52",
+		"test03IsTokenTTToken" : "ob 8/3/2022 15:52",
+		"test04IsMorphTTToken" : "ob 8/3/2022 15:52",
 		"tile" : "bv 7/13/2021 11:15",
 		"tile:" : "bv 7/13/2021 11:15",
 		"token" : "bv 7/13/2021 11:15",

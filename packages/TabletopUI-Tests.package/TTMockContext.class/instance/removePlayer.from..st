@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 removePlayer: aString from: aTTCharacter
 
 	self removedPlayer: aString

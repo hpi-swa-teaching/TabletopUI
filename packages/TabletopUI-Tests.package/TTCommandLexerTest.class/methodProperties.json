@@ -2,10 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"lexer" : "ML 8/3/2022 14:40",
+		"lexer:" : "ML 8/3/2022 14:40",
 		"setUp" : "JA 6/9/2022 19:07",
-		"test01OneWord" : "JA 6/9/2022 20:08",
+		"test01OneWord" : "ML 8/3/2022 14:33",
 		"test02TwoWords" : "JA 6/9/2022 20:08",
 		"test03SpecialCharacter" : "JA 6/9/2022 20:08",
-		"test04Peek" : "JA 6/9/2022 20:07",
-		"test05PeekEmpty" : "JA 6/9/2022 20:06",
-		"test06NextTokenEmpty" : "JA 6/9/2022 20:05" } }
+		"test04Peek" : "ML 8/3/2022 14:50",
+		"test05PeekEmpty" : "ML 8/3/2022 14:51",
+		"test06NextTokenEmpty" : "ML 8/3/2022 14:51",
+		"test07ProcessString" : "ML 8/3/2022 14:35",
+		"test08NextToken" : "ML 8/3/2022 14:37",
+		"test09PeekANumber" : "ML 8/3/2022 14:50",
+		"test10PeekEmptyANumber" : "ML 8/3/2022 14:51" } }

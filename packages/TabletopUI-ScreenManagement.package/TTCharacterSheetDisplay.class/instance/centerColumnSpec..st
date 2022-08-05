@@ -2,7 +2,7 @@ toolbuilder
 centerColumnSpec: aToolBuilder
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		children: (OrderedCollection new
 			add: ((self labelledAttributeSpec: aToolBuilder
 				name: #defaultProficiencyLabel
@@ -13,7 +13,7 @@ centerColumnSpec: aToolBuilder
 				frame: (0 @ 0.05 rect: 1 @ 0.28));
 			
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: #defaultThrowsLabel;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				
@@ -25,7 +25,7 @@ centerColumnSpec: aToolBuilder
 				frame: (0 @ 0.3 rect: 1 @ 0.9));
 			
 			add: (aToolBuilder pluggableTextSpec new
-				model: model;
+				model: self model;
 				getText: #defaultSkillsLabel;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;				

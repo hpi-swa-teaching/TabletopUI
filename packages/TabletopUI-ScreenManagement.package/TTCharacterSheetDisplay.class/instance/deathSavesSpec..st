@@ -2,7 +2,7 @@ toolbuilder
 deathSavesSpec: aToolBuilder
 	
 	^aToolBuilder pluggablePanelSpec new
-		model: model;
+		model: self model;
 		name: 'Death Saves';
 		children: (OrderedCollection new
 			add: ((self deathSavesListSpec: aToolBuilder 

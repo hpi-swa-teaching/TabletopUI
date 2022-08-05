@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"lastCaller",
 		"removedPlayer",
-		"gameState" ],
+		"gameState",
+		"executedActions" ],
 	"name" : "TTMockContext",
 	"pools" : [
 		 ],

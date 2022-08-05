@@ -1,6 +1,6 @@
 initialization
 initializeMap
 
-	self map: ((TTMap newWith: self characterAdministration players)
-		subWindowManager: self subWindowManager;
-		yourself)
+	self map: (TTMap newWith: self characterAdministration players).
+	self addDependent: self map
+		

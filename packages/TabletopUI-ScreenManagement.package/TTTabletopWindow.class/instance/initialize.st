@@ -4,6 +4,7 @@ initialize
 	super initialize.
 	
 	self 
+		contents: {};
 		characterAdministration: TTCharacterAdministration new;
-		subWindowManager: TTSubWindowManager new;
 		openPlayerCountScreen
+		

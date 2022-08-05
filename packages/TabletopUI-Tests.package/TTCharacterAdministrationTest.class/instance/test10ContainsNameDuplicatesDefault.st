@@ -1,0 +1,4 @@
+testing
+test10ContainsNameDuplicatesDefault
+
+	self deny: self characterAdministration containsNameDuplicates

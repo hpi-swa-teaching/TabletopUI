@@ -1,4 +1,0 @@
-labels
-defaultStrengthLabel
-	
-	^ 'STRENGTH'

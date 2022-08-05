@@ -3,7 +3,7 @@
 		"newWithActionLog:playerSelectionMenu:" : "bv 6/8/2021 10:34" },
 	"instance" : {
 		"createSpecWith:" : "joda 7/7/2021 10:35",
-		"initialize" : "DS 7/7/2022 18:50",
+		"initialize" : "DS 8/1/2022 13:06",
 		"log" : "bv 6/8/2021 10:31",
 		"log:" : "bv 6/8/2021 10:31",
 		"parser" : "ML 6/15/2022 16:28",
@@ -11,6 +11,4 @@
 		"playerSelection" : "bv 6/8/2021 10:32",
 		"playerSelection:" : "bv 6/8/2021 10:32",
 		"processInput:" : "ML 6/16/2022 10:23",
-		"resetInputField" : "BV 5/1/2021 12:25",
-		"subWindowManager" : "DS 7/7/2022 15:36",
-		"subWindowManager:" : "DS 7/7/2022 18:50" } }
+		"resetInputField" : "BV 5/1/2021 12:25" } }

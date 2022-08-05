@@ -8,8 +8,7 @@
 	"instvars" : [
 		"currentPlayer",
 		"display",
-		"fightingPlayers",
-		"subWindowManager" ],
+		"fightingPlayers" ],
 	"name" : "TTFightContext",
 	"pools" : [
 		 ],

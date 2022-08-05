@@ -1,7 +1,6 @@
 testing
 test01CreateNPC
 
-	self assert: self tokenBar characterAdministration npcs size equals: 0.
 	self tokenBar createNPC.
 	self 
 		assert: self tokenBar characterAdministration npcs size equals: 1;

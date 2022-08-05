@@ -1,0 +1,24 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ob 8/4/2022 14:50",
+	"instvars" : [
+		"process",
+		"map",
+		"startPosition",
+		"endPosition",
+		"inputField",
+		"morph",
+		"mouseIsDown",
+		"distance",
+		"arrowMorph",
+		"observer",
+		"aboutToBeClosed" ],
+	"name" : "TTRulerTool",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
