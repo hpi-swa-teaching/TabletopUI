@@ -1,7 +1,8 @@
 execution
 execute: aContext from: aTTCharacter
 	
-	| inputMessage outputMessage|
+	| inputMessage outputMessage |
+	
 	inputMessage := self rollable execute: aContext from: aTTCharacter.
 	outputMessage:= TTCommandMessage new.
 	inputMessage valueString = inputMessage outputString ifTrue: [
@@ -11,4 +12,4 @@ execute: aContext from: aTTCharacter
 	outputMessage errorMessage: inputMessage errorMessage.
 	inputMessage errorMessage ifNil:[
 	outputMessage errorMessage: (aContext processRoll: inputMessage value for: aTTCharacter)].
-	^outputMessage
+	^ outputMessage

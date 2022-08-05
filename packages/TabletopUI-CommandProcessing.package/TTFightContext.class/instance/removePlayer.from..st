@@ -2,13 +2,14 @@ fight
 removePlayer: aTTCharacterName from: aPerformingTTCharacter
 
 	| aTTCharacter |
+	
 	aPerformingTTCharacter isGamemaster ifFalse: [
-		^self onlyGMIsAllowedMessageString].
+		^ self onlyGMIsAllowedMessageString].
 	(self currentPlayer name = aTTCharacterName) ifTrue: [
 		self proceedToNextPlayer].
-	self fightingPlayers do: [ :aPlayer |
+	self fightingPlayers do: [:aPlayer |
 		aPlayer name = aTTCharacterName ifTrue: [aTTCharacter := aPlayer]].
-	aTTCharacter ifNil: [^self playerIsNotInFightMessageString: aTTCharacterName].
+	aTTCharacter ifNil: [^ self playerIsNotInFightMessageString: aTTCharacterName].
 	self fightingPlayers remove: aTTCharacter.
 	self changed: #fightingPlayersNames.
-	^self playerRemovedMessageString: aTTCharacter
+	^ self playerRemovedMessageString: aTTCharacter

@@ -2,6 +2,7 @@ parsing
 parse: aString
 	
 	| token command |
+	
 	self lexer processString: aString.
 	
 	token := self lexer nextToken.
@@ -17,4 +18,4 @@ parse: aString
 		command := TTRemoveCommand newWithToken: self parseCharacter].
 	self lexer nextToken ifNotNil: [
 		command := TTErrorCommand new].
-	^command
+	^ command

@@ -2,11 +2,11 @@ lexing
 processString: aString
 
 	| currentToken |
-	self tokens: OrderedCollection new.
 	
+	self tokens: OrderedCollection new.
 	currentToken := ''.
 		
-	aString do: [ :aCharacter |
+	aString do: [:aCharacter |
 		(self splitAndDiscard includes: aCharacter) ifTrue: [
 			self addToken: currentToken.
 			currentToken := '']

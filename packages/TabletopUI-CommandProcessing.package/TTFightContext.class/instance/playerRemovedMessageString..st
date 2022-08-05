@@ -1,4 +1,4 @@
 messages
 playerRemovedMessageString: aTTCharacter
 
-	^aTTCharacter name, ' has been removed.'
+	^ aTTCharacter name, ' has been removed.'

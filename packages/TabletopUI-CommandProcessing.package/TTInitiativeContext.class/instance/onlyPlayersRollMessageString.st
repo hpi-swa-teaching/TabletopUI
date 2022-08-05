@@ -1,4 +1,4 @@
 messages
 onlyPlayersRollMessageString
 
-	^'Only Players are allowed to roll initiative.'
+	^ 'Only Players are allowed to roll initiative.'

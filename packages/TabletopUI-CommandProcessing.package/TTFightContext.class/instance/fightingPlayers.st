@@ -1,3 +1,4 @@
 accessing
 fightingPlayers
+
 	^ fightingPlayers

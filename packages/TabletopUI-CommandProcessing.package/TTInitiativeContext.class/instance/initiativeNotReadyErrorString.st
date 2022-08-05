@@ -1,4 +1,4 @@
 messages
 initiativeNotReadyErrorString
 
-	^'Not enough players have rolled jet.'
+	^ 'Not enough players have rolled jet.'

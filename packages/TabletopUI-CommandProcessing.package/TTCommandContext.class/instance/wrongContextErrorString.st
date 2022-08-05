@@ -1,4 +1,4 @@
 messages
 wrongContextErrorString
 
-	^'Can not be performed.'
+	^ 'Not possible right now.'

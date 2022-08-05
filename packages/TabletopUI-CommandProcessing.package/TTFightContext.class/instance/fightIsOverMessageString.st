@@ -1,4 +1,4 @@
 messages
 fightIsOverMessageString
 
-	^'The fight is over.'
+	^ 'The fight is over.'

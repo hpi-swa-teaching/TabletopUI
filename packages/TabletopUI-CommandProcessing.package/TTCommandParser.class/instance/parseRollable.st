@@ -2,6 +2,7 @@ parsing
 parseRollable
 
 	| value value2 |
+	
 	value := self parseValue.
 	
 	self lexer peek ifNil: [^ value].
@@ -12,5 +13,5 @@ parseRollable
 		self lexer nextToken.
 		value2 := self parseRollable.
 		^ TTAddCommand newWithLeft: value right: (value2 negate; yourself)].
-	^TTErrorCommand new
+	^ TTErrorCommand new
 	

@@ -2,6 +2,7 @@ execution
 execute: aContext from: aTTCharacter
 	
 	|message leftMessage rightMessage|
+	
 	leftMessage := self left execute: aContext from: aTTCharacter.
 	rightMessage := self right execute: aContext from: aTTCharacter.
 	message := TTCommandMessage new
@@ -15,4 +16,4 @@ execute: aContext from: aTTCharacter
 		message errorMessage: leftMessage errorMessage].
 	rightMessage errorMessage ifNotNil: [
 		message errorMessage: rightMessage errorMessage].
-	^message
+	^ message

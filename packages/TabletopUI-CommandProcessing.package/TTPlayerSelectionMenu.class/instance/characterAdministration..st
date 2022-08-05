@@ -2,4 +2,4 @@ accessing
 characterAdministration: aTTCharacterAdministration
 
 	characterAdministration := aTTCharacterAdministration.
-	characterAdministration playerSelectionMenu: self.
+	characterAdministration playerSelectionMenu: self

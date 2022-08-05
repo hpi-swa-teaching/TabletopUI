@@ -1,4 +1,4 @@
 accessing
 gameState
 
-	^#fight
+	^ #fight

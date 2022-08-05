@@ -2,16 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
-		"endInitiativePhaseFrom:" : "ML 8/5/2022 13:12",
-		"gameState" : "ML 6/15/2022 14:39",
+		"endInitiativePhaseFrom:" : "ML 8/5/2022 14:46",
+		"gameState" : "ML 8/5/2022 14:47",
 		"initialize" : "ML 6/15/2022 13:53",
-		"initiativeNotReadyErrorString" : "ML 6/16/2022 09:52",
-		"initiativeReady" : "ML 8/5/2022 12:12",
-		"multipleRollsMessageString" : "ML 6/15/2022 16:56",
-		"onlyPlayersRollMessageString" : "ML 6/15/2022 16:57",
+		"initiativeNotReadyErrorString" : "ML 8/5/2022 14:47",
+		"initiativeReady" : "ML 8/5/2022 14:47",
+		"multipleRollsMessageString" : "ML 8/5/2022 14:47",
+		"onlyPlayersRollMessageString" : "ML 8/5/2022 14:47",
 		"playersWhoRolled" : "ML 6/15/2022 13:50",
-		"processRoll:for:" : "ML 6/15/2022 16:58",
-		"rolls" : "ML 6/15/2022 13:50",
-		"rolls:" : "ML 6/15/2022 13:50",
-		"startFightMessageString" : "ML 6/15/2022 14:43",
-		"wrongContextErrorString" : "ML 6/15/2022 14:49" } }
+		"processRoll:for:" : "ML 8/5/2022 14:47",
+		"rolls" : "ML 8/5/2022 14:47",
+		"rolls:" : "ML 8/5/2022 14:47",
+		"startFightMessageString" : "ML 8/5/2022 14:47",
+		"wrongContextErrorString" : "ML 8/5/2022 14:47" } }

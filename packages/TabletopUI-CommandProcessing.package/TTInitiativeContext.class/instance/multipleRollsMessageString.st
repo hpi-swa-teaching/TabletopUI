@@ -1,4 +1,4 @@
 messages
 multipleRollsMessageString
 
-	^'You have already rolled initiative!'
+	^ 'You have already rolled initiative!'

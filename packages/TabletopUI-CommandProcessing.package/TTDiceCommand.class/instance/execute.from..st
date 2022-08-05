@@ -1,16 +1,17 @@
 execution
 execute: aContext from: aTTCharacter
 	
-	| value|
+	| value |
+	
 	self executeDiceRoll.
 	self diceRoll isValid ifFalse: [
-		^TTCommandMessage new
+		^ TTCommandMessage new
 			value: 0;
 			outputString: '';
 			errorMessage: aContext invalidDiceRollMessageString;
 			yourself].
 	value :=  self diceRoll resultValue.
-	^TTCommandMessage new
+	^ TTCommandMessage new
 		value: value;
 		outputString: self diceRoll asStringWithoutResult;
 		yourself

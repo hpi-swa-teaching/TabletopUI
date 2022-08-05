@@ -1,4 +1,4 @@
 messages
 invalidDiceRollMessageString
 
-	^'A dice is invalid.'
+	^ 'A dice is invalid.'
