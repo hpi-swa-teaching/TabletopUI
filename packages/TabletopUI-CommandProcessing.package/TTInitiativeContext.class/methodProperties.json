@@ -2,10 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"endInitiativePhaseFrom:" : "ML 7/20/2022 15:19",
+		"endInitiativePhaseFrom:" : "ML 8/5/2022 13:12",
 		"gameState" : "ML 6/15/2022 14:39",
 		"initialize" : "ML 6/15/2022 13:53",
-		"initiativeIsOverMessageString" : "ML 6/15/2022 15:50",
 		"initiativeNotReadyErrorString" : "ML 6/16/2022 09:52",
 		"initiativeReady" : "ML 8/5/2022 12:12",
 		"multipleRollsMessageString" : "ML 6/15/2022 16:56",
@@ -15,5 +14,4 @@
 		"rolls" : "ML 6/15/2022 13:50",
 		"rolls:" : "ML 6/15/2022 13:50",
 		"startFightMessageString" : "ML 6/15/2022 14:43",
-		"validCommands" : "ML 6/15/2022 09:59",
 		"wrongContextErrorString" : "ML 6/15/2022 14:49" } }

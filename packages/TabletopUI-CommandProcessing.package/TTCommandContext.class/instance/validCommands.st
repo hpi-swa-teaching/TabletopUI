@@ -1,4 +1,0 @@
-accessing
-validCommands
-
-	^self subclassResponsibility

@@ -1,0 +1,1 @@
+Data class to pass an output and error string as well as a value

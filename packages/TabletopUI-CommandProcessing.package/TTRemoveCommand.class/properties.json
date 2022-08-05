@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ML 8/5/2022 13:30",
 	"instvars" : [
 		"character" ],
 	"name" : "TTRemoveCommand",

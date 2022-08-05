@@ -8,5 +8,5 @@ test03MultipleRolls
 		
 	roll := command executeDiceRoll.
 	
-	self assert: 20 equals: roll size.
-	self assert: 4 equals: roll rolls size.
+	self assert: 20 equals: command diceRoll size.
+	self assert: 4 equals: command diceRoll rolls size.

@@ -1,4 +1,6 @@
 execution
 execute: aContext from: aTTCharacter
 	
-	^ self subclassResponsibility
+	^TTCommandMessage new
+		outputString: self invalidActionString;
+		yourself
