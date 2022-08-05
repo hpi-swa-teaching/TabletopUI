@@ -1,4 +1,4 @@
 messages
 messageStartedInitiative
 
-	^ 'Start rolling for initiative.'
+	^'Start rolling for initiative.'

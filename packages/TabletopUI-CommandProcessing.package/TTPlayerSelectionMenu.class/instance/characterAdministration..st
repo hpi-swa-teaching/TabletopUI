@@ -1,5 +1,0 @@
-accessing
-characterAdministration: aTTCharacterAdministration
-
-	characterAdministration := aTTCharacterAdministration.
-	characterAdministration playerSelectionMenu: self

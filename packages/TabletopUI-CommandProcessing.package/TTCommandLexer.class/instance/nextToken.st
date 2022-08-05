@@ -1,5 +1,5 @@
-accessing
+as yet unclassified
 nextToken
 
-	self tokens ifEmpty: [^ nil].
-	^ self tokens removeFirst
+	tokens ifEmpty: [^ nil].
+	^ tokens removeFirst

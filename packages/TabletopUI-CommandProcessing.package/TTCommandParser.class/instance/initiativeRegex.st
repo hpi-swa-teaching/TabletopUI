@@ -1,4 +1,0 @@
-terminals
-initiativeRegex
-
-	^ 'initiative|ini'

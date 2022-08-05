@@ -1,7 +1,7 @@
 toolbuilder
 addChildren: aDictionary to: aPluggablePanelSpec
-		
-	aDictionary keysAndValuesDo:  [ :aRectangle :aBlockClosure |
+	
+	aDictionary keysAndValuesDo:  [:aRectangle :aBlockClosure |
 		| aSpec |
 		aSpec := aBlockClosure value.
 		aSpec frame: aRectangle.

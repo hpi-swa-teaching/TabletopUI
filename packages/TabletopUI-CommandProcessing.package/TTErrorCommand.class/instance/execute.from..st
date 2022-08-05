@@ -1,7 +1,7 @@
 execution
 execute: aContext from: aTTCharacter
 
-	^ TTCommandMessage new
+	^TTCommandMessage new
 		errorMessage: 'Invalid input!';
 		outputString: '';
 		value: 0;

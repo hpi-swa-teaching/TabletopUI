@@ -1,4 +1,4 @@
 messages
 wrongContextErrorString
 
-	^ 'Not possible while rolling initiative.'
+	^'Not possible while rolling initiative.'

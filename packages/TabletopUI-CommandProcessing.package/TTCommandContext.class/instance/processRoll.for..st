@@ -1,4 +1,4 @@
-roll for initiative
+accessing
 processRoll: aValue for: aCharacter
 
-	^ nil
+	^nil

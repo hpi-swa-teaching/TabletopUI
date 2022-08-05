@@ -1,1 +1,0 @@
-Can start and end the initiative phase

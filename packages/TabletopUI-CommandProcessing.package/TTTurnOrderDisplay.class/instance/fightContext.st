@@ -1,4 +1,3 @@
 accessing
 fightContext
-
 	^ fightContext

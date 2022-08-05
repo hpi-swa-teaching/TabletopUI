@@ -1,4 +1,4 @@
 messages
 onlyCurrentPlayerErrorString
 
-	^ 'Only the current Player can do that.'
+	^'Only the current Player can do that.'

@@ -1,1 +1,0 @@
-Represents the initiative phase

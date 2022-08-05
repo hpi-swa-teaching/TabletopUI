@@ -1,7 +1,7 @@
 toolbuilder
 createInputFieldSpecWith: aToolBuilder
 	
-	^ aToolBuilder pluggableInputFieldSpec new
+	^  aToolBuilder pluggableInputFieldSpec new
 		model: self;
 		editText: #countText:;
 		getText: #countText;

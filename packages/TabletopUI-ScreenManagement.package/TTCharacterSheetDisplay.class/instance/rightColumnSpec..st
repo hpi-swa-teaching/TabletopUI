@@ -16,5 +16,6 @@ rightColumnSpec: aToolBuilder
 			add: ((self recoverySpec: aToolBuilder) 
 				frame: (LayoutFrame fractions: (0 @ 0.58 rect: 1 @ 0.75));
 				yourself);
+			
 			 yourself);
 		yourself

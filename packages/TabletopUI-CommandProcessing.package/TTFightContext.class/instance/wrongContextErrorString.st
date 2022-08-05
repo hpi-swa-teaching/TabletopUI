@@ -1,4 +1,4 @@
 messages
 wrongContextErrorString
 
-	^ 'Not possible in a fight.'
+	^'Not possible in a fight.'

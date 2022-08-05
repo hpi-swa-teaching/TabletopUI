@@ -1,7 +1,7 @@
 toolbuilder
 deathSavesListSpec: aToolBuilder name: aNameSymbol  stat: aStatSymbol callBack: aCallBackSymbol
 	
-	^ aToolBuilder pluggablePanelSpec new
+	^aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new

@@ -1,16 +1,15 @@
 execution
 executeEnd: aContext from: aTTCharacter
 
-	| messageString |
-	
+	|messageString|
 	aContext gameState = #initiative ifFalse: [
-		^ TTCommandMessage new
+		^TTCommandMessage new
 			errorMessage: aContext wrongContextErrorString].
 	aContext initiativeReady ifTrue: [
 		messageString := aContext endInitiativePhaseFrom: aTTCharacter.
-		^ TTCommandMessage new
+		^TTCommandMessage new
 			outputString: messageString;
 			yourself].
-	^ TTCommandMessage new
+	^TTCommandMessage new
 		errorMessage: aContext initiativeNotReadyErrorString;
 		yourself

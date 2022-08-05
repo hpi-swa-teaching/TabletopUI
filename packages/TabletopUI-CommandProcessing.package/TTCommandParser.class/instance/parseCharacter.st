@@ -2,9 +2,8 @@ parsing
 parseCharacter
 
 	| token |
+	token := lexer nextToken.
 	
-	token := self lexer nextToken.
-	
-	^ TTCharacterCommand newWith: token
+	^ TTCharacterCommand newWith: token.
 	
 	

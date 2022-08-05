@@ -1,13 +1,12 @@
 execution
 executeRemove: aContext from: aTTCharacter
 
-	| messageString |
-	
+	|messageString|
 	aContext gameState = #fight ifFalse: [
-		^ TTCommandMessage new
+		^TTCommandMessage new
 			errorMessage: aContext wrongContextErrorString;
 			yourself].
 	messageString := aContext removePlayer: self name from: aTTCharacter.
-	^ TTCommandMessage new
+	^TTCommandMessage new
 		outputString: messageString;
 		yourself

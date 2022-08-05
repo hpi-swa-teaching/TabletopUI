@@ -1,6 +1,6 @@
 execution
 executeEnd: aContext from: aTTCharacter
 	
-	^ TTCommandMessage new
+	^TTCommandMessage new
 		outputString: self invalidActionString;
 		yourself

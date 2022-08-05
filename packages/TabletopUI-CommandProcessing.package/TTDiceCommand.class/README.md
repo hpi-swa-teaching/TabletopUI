@@ -1,1 +1,0 @@
-Rolls dice of one specific kind

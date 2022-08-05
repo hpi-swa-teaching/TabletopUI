@@ -6,4 +6,4 @@ processRoll: aValue for: aTTCharacter
 	(aTTCharacter isGamemaster) ifTrue: [
 		^ self onlyPlayersRollMessageString].
 	self rolls add: aTTCharacter -> aValue.
-	^ nil
+	^nil

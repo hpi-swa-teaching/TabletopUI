@@ -1,7 +1,7 @@
 toolbuilder
 hpSpec: aToolBuilder 
 	
-	^ aToolBuilder pluggablePanelSpec new
+	^aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: 'itemBuffs';
 		children: (OrderedCollection new
@@ -37,5 +37,6 @@ hpSpec: aToolBuilder
 				action: #openTakeDamageDialog;
 				frame: (0.15 @ 0.85 rect: 0.85 @ 0.95);
 				yourself);
+			
 			 yourself);
 		yourself

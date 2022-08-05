@@ -1,1 +1,0 @@
-Can start the initiative phase and end fight phase

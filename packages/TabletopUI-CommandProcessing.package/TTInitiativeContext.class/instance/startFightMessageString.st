@@ -1,4 +1,4 @@
 messages
 startFightMessageString
 
-	^ 'The fight begins!'
+	^'The fight begins!'

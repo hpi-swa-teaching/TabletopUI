@@ -1,12 +1,11 @@
 execution
 executeEnd: aContext from: aTTCharacter
 
-	| messageString |
-	
+	|messageString|
 	aContext gameState = #fight ifFalse: [
-		^ TTCommandMessage new
+		^TTCommandMessage new
 			errorMessage: aContext wrongContextErrorString].
 	messageString := aContext endFightingAs: aTTCharacter.
-	^ TTCommandMessage new
+	^TTCommandMessage new
 		outputString: messageString;
 		yourself

@@ -1,1 +1,0 @@
-Can split an input into tokens

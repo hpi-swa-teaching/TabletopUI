@@ -1,7 +1,7 @@
 toolbuilder
 itemBuffsSpec: aToolBuilder 
 	
-	^ aToolBuilder pluggablePanelSpec new
+	^aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: 'itemBuffs';
 		children: (OrderedCollection new
@@ -22,5 +22,6 @@ itemBuffsSpec: aToolBuilder
 				color: #backgroundColorBaseValues;		
 				frame: (0.67 @ 0 rect: 1 @ 0.8);
 				yourself);
+			
 			 yourself);
 		yourself

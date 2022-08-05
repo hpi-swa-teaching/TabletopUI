@@ -1,4 +1,3 @@
 accessing
 speed
-
 	^ speed asString

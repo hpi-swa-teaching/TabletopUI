@@ -1,7 +1,7 @@
 toolbuilder
 centerColumnSpec: aToolBuilder
 	
-	^ aToolBuilder pluggablePanelSpec new
+	^aToolBuilder pluggablePanelSpec new
 		model: self model;
 		children: (OrderedCollection new
 			add: ((self labelledAttributeSpec: aToolBuilder

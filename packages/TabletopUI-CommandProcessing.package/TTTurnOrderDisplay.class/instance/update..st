@@ -1,4 +1,4 @@
-actions
+accessing
 update: aSymbol
 
 	aSymbol = #fightingPlayersNames ifTrue: [self changed: #fightingPlayersNames].

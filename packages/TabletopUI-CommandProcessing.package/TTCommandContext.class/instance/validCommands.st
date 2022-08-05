@@ -1,0 +1,4 @@
+accessing
+validCommands
+
+	^self subclassResponsibility

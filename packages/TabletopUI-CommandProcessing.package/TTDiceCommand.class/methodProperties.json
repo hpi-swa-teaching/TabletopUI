@@ -2,15 +2,15 @@
 	"class" : {
 		"newWithToken:" : "ML 6/15/2022 09:30" },
 	"instance" : {
-		"count" : "ML 8/5/2022 14:37",
-		"count:" : "ML 8/5/2022 14:37",
-		"diceRoll" : "ML 8/5/2022 14:37",
-		"diceRoll:" : "ML 8/5/2022 14:37",
-		"execute:from:" : "ML 8/5/2022 14:55",
-		"executeDiceRoll" : "ML 8/5/2022 13:16",
-		"initialize" : "ML 8/5/2022 14:37",
+		"count" : "ML 6/15/2022 09:21",
+		"count:" : "ML 6/15/2022 09:21",
+		"diceRoll" : "JA 6/9/2022 20:56",
+		"diceRoll:" : "JA 6/9/2022 20:56",
+		"execute:from:" : "ML 6/15/2022 16:31",
+		"executeDiceRoll" : "ML 6/15/2022 09:28",
+		"initialize" : "JA 6/9/2022 20:52",
 		"negate" : "ML 6/15/2022 10:16",
-		"negated" : "ML 8/5/2022 14:38",
-		"negated:" : "ML 8/5/2022 14:38",
-		"type" : "ML 8/5/2022 14:38",
-		"type:" : "ML 8/5/2022 14:38" } }
+		"negated" : "ML 6/15/2022 10:16",
+		"negated:" : "ML 6/15/2022 10:16",
+		"type" : "ML 6/15/2022 09:21",
+		"type:" : "ML 6/15/2022 09:21" } }

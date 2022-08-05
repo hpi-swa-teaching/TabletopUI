@@ -1,7 +1,7 @@
 actions
 rollDice
 
-	| modifierUsedOrZero outputString |
+	|modifierUsedOrZero outputString|
 	
 	outputString := ''.
 	modifierUsedOrZero := self modifier = 0.
