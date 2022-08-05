@@ -1,4 +1,4 @@
 result
 resultValue
 
-	^ self rolls inject: self modifier into: [:sum :roll | sum + roll]
+	^ self rolls inject: self modifier into: [:aSum :aRoll | aSum + aRoll]

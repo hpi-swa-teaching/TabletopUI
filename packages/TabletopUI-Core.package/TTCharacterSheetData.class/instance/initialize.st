@@ -2,6 +2,7 @@ initialize-release
 initialize
 
 	super initialize.
+	
 	self initializeBaseValues;
 		initializeThrowsLookup;
 		initializeSkillsLookup;

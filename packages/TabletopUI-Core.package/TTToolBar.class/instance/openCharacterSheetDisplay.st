@@ -7,4 +7,5 @@ openCharacterSheetDisplay
 		inputField: self inputField).
 	characterSheetDisplay label: (self characterAdministration activePlayer name).
 	self addDependent: characterSheetDisplay model. 
+	
 	^ characterSheetDisplay
