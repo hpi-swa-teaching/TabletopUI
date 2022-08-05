@@ -36,7 +36,7 @@ You can also combine modifiers and multiple dice rolls like this: ```roll zdx[+|
 ### Fight Mode
 When the gamemaster is selected, one can choose to begin an initiative roll. The command to start an initiative roll is ```start fight```, ```start initiative``` or ```start ini```.  
 After this command, all players except the gamemaster may now roll a dice to determine their fight position. Not all players have to roll the dice. The gamemaster ends the dice roll round with ``end initiative`` or ``end ini``.  
-Now, the fight begins and the players can roll the dice in the order which appears in the pop up player list. 
+Now, the fight begins and the turnorder appears as a pop up list. 
 A player can roll the dice as often as he/she wants to and ends its turn manually by typing "end turn".
 At any time the gamemaster can remove players from the fight via the command ```remove [playername]```.  
 To end the fight and return to the default mode the gamemaster can use ```end fight```.
