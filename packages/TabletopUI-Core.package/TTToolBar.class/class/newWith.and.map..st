@@ -8,4 +8,5 @@ newWith: aCharacterAdministration and: anInputField map: aMap
 		inputField: anInputField;
 		map: aMap;
 		yourself.
+		
 	^ toolBar

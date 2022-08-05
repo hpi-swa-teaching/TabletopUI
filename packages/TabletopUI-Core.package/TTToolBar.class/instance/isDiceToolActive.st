@@ -6,5 +6,5 @@ isDiceToolActive
 	self diceTool model aboutToBeClosed ifTrue: [^ false].
 	
 	self diceTool owner
-		ifNotNil: [ ^ true] 
-		ifNil: [ ^ false ]
+		ifNotNil: [^ true] 
+		ifNil: [^ false ]
