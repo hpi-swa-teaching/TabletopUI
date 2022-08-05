@@ -4,7 +4,7 @@ execute: aContext from: aTTCharacter
 	| inputMessage outputMessage|
 	inputMessage := self rollable execute: aContext from: aTTCharacter.
 	outputMessage:= TTCommandMessage new.
-	inputMessage value asString = inputMessage outputString ifTrue: [
+	inputMessage valueString = inputMessage outputString ifTrue: [
 		outputMessage outputString: inputMessage outputString]
 	ifFalse: [
 		outputMessage outputString: inputMessage outputString, '=', inputMessage value asString].

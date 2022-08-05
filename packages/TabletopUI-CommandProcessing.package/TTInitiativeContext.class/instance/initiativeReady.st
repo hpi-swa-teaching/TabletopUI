@@ -1,4 +1,4 @@
 roll for initiative
 initiativeReady
 
-	 ^rolls size > 1
+	 ^self rolls size > 1

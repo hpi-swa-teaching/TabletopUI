@@ -2,7 +2,7 @@ as yet unclassified
 processString: aString
 
 	| currentToken |
-	tokens := OrderedCollection new.
+	self tokens: OrderedCollection new.
 	
 	currentToken := ''.
 		

@@ -2,7 +2,7 @@ execution
 execute: aContext from: aTTCharacter
 
 	| signedValue|
-	negated ifTrue: [
+	self negated ifTrue: [
 		signedValue := -1 * self value] 
 	ifFalse: [
 		signedValue := self value].

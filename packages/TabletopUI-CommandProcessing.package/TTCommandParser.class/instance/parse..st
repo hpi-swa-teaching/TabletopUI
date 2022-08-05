@@ -2,9 +2,9 @@ parsing
 parse: aString
 	
 	| token command |
-	lexer processString: aString.
+	self lexer processString: aString.
 	
-	token := lexer nextToken.
+	token := self lexer nextToken.
 	
 	token = 'roll' ifTrue: [
 		command := TTRollCommand newWith: self parseRollable].

@@ -2,7 +2,7 @@ parsing
 parseValue
 
 	| token |
-	token := lexer nextToken.
+	token := self lexer nextToken.
 	token ifNotNil:[
 		(token matchesRegex: self diceRegex) ifTrue: [
 			^ TTDiceCommand newWithToken: token ].

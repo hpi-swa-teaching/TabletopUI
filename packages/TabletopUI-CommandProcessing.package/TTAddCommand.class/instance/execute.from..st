@@ -7,7 +7,7 @@ execute: aContext from: aTTCharacter
 	message := TTCommandMessage new
 		value: leftMessage value + rightMessage value;
 		yourself.
-	rightMessage outputString first = $- ifTrue: [
+	rightMessage firstLiteral = $- ifTrue: [
 		message outputString: leftMessage outputString,  rightMessage outputString]
 	ifFalse: [
 		message outputString: leftMessage outputString, '+', rightMessage outputString].

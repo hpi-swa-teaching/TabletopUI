@@ -13,4 +13,4 @@ execute: aContext from: aTTCharacter
 	^TTCommandMessage new
 		value: value;
 		outputString: diceRoll asStringWithoutResult;
-		yourself.
+		yourself
