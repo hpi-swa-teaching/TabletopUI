@@ -14,7 +14,7 @@ Metacello new
   load.
 ```
 ## Screenshot
-![](https://github.com/hpi-swa-teaching/TabletopUI/blob/main/documentation/tabletopScreenshot.png)
+![](documentation/tabletopScreenshot.png)
 
 ## Open
 You can open the Tabletop UI with the command `TTTabletopWindow open`. A window will open offering you different configuration options before starting a Tabletop game.
