@@ -1,0 +1,4 @@
+terminals
+additionRegex
+
+	^ '\+'

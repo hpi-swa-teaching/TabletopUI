@@ -1,0 +1,1 @@
+Removes a character with the same name

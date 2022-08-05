@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ML 8/5/2022 13:30",
+	"commentStamp" : "",
 	"instvars" : [
-		"action" ],
-	"name" : "TTStartCommand",
+		 ],
+	"name" : "TTCanStartInitiativeCommand",
 	"pools" : [
 		 ],
 	"super" : "TTCommand",

@@ -1,4 +1,4 @@
-as yet unclassified
+lexing
 splitAndKeep
 	
 	^ OrderedCollection new

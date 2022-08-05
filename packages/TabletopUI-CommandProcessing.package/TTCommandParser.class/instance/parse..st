@@ -5,6 +5,7 @@ parse: aString
 	self lexer processString: aString.
 	
 	token := self lexer nextToken.
+	command := TTErrorCommand new.
 	
 	token = 'roll' ifTrue: [
 		command := TTRollCommand newWith: self parseRollable].
@@ -14,8 +15,6 @@ parse: aString
 		command := TTEndCommand newWith: self parseAction].
 	token = 'remove' ifTrue: [
 		command := TTRemoveCommand newWithToken: self parseCharacter].
-	command ifNil: [
-		command := TTErrorCommand new].
 	self lexer nextToken ifNotNil: [
 		command := TTErrorCommand new].
 	^command

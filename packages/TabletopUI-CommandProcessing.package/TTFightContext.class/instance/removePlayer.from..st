@@ -8,6 +8,7 @@ removePlayer: aTTCharacterName from: aPerformingTTCharacter
 		self proceedToNextPlayer].
 	self fightingPlayers do: [ :aPlayer |
 		aPlayer name = aTTCharacterName ifTrue: [aTTCharacter := aPlayer]].
+	aTTCharacter ifNil: [^self playerIsNotInFightMessageString: aTTCharacterName].
 	self fightingPlayers remove: aTTCharacter.
 	self changed: #fightingPlayersNames.
 	^self playerRemovedMessageString: aTTCharacter

@@ -7,5 +7,5 @@ endInitiativePhaseFrom: aTTCharacter
 	self rolls sort: [:anAssociation1 :anAssociation2 |
 		(anAssociation1 value) > (anAssociation2 value)].
 	self parser changeToFightContextWithFightOrder: self playersWhoRolled.
-	^  self initiativeIsOverMessageString
+	^  self startFightMessageString
 	

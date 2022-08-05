@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 peek: aNumber
 	
 	self tokenSize < aNumber ifTrue: [^ nil].
