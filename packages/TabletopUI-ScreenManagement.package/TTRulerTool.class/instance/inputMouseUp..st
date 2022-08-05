@@ -8,6 +8,4 @@ inputMouseUp: aPosition
 				startPosition: nil;
 				endPosition: nil.
 			self process terminate.
-			self arrowMorph ifNotNil:[self arrowMorph delete]]
-
-	
+			self arrowMorph ifNotNil: [self arrowMorph delete]]

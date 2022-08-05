@@ -1,7 +1,7 @@
 toolbuilder
 attributeSpec: aToolBuilder name: aNameSymbol modifier: aModifierSymbol stat: aStatSymbol onChange: aCallBackSymbol
 	
-	^aToolBuilder pluggablePanelSpec new
+	^ aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new

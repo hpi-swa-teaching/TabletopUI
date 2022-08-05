@@ -1,7 +1,7 @@
 toolbuilder
 proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol multiplierOnChange: aCallbackSymbol value: aValueSymbol
 	
-	^aToolBuilder pluggablePanelSpec new
+	^ aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new

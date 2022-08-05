@@ -1,7 +1,7 @@
 toolbuilder
 labelledAttributeButtonSpec: aToolBuilder name: aNameSymbol stat: aStatSymbol 
 	
-	^aToolBuilder pluggablePanelSpec new
+	^ aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: aNameSymbol printString;
 		children: (OrderedCollection new

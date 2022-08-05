@@ -1,7 +1,7 @@
 toolbuilder
 recoverySpec: aToolBuilder 
 	
-	^aToolBuilder pluggablePanelSpec new
+	^ aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: 'recovery';
 		children: (OrderedCollection new

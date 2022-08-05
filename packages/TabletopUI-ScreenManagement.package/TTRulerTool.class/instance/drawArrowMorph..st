@@ -1,7 +1,7 @@
 actions
 drawArrowMorph: aPosition
 
-	|adjustedStart adjustedEnd|
+	| adjustedStart adjustedEnd |
 	
 	adjustedStart := self positionToCoordinatePos: self startPosition.
 	adjustedEnd := self positionToCoordinatePos: aPosition.
@@ -11,4 +11,4 @@ drawArrowMorph: aPosition
 		to: adjustedEnd
 		color: Color red
 		width: 5).
-	self map addMorph: self arrowMorph.
+	self map addMorph: self arrowMorph

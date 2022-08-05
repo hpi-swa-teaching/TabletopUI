@@ -1,7 +1,7 @@
 toolbuilder
 hpSpec: aToolBuilder 
 	
-	^aToolBuilder pluggablePanelSpec new
+	^ aToolBuilder pluggablePanelSpec new
 		model: self model;
 		name: 'itemBuffs';
 		children: (OrderedCollection new
