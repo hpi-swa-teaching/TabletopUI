@@ -1,0 +1,146 @@
+GSMetadata {
+	#version : 1,
+	#mappers : [
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'.github',
+				'workflows',
+				'ci.yml'
+			],
+			#encoding : 'TXT'
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TabletopUI-Core'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'BaselineOfTabletop'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'LICENSE'
+			],
+			#encoding : 'TXT'
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TabletopUI-CommandProcessing'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'documentation',
+				'tabletopScreenshot.png'
+			],
+			#encoding : Class [ #PNGReadWriter ]
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'.github',
+				'ISSUE_TEMPLATE',
+				'user-story.md'
+			],
+			#encoding : 'TXT'
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'README.md'
+			],
+			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'indoor.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'skyrim.png'
+			],
+			#encoding : @18
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TabletopUI-Tests'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'documentation',
+				'class-diagram.png'
+			],
+			#encoding : @18
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'.smalltalk.ston'
+			],
+			#encoding : 'TXT'
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'character_token_red.png'
+			],
+			#encoding : @18
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TabletopUI-ScreenManagement'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'character_token_blue.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'hafenstadt.png'
+			],
+			#encoding : @18
+		}
+	],
+	#name : 'TabletopUI'
+}
