@@ -1,0 +1,4 @@
+printing/formatting
+bodyTextFormatted: shouldPreferRichText showAttachments: shouldShowAttachments
+
+	^ self body bodyTextFormatted: shouldPreferRichText showAttachments: shouldShowAttachments

@@ -1,0 +1,16 @@
+{
+	"category" : "Network-URI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ClientClasses" ],
+	"commentStamp" : "tpr 2/18/2019 18:06",
+	"instvars" : [
+		"fragment",
+		"scheme",
+		"schemeSpecificPart" ],
+	"name" : "URI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

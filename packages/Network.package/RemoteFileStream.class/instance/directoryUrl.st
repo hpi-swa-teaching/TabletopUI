@@ -1,0 +1,3 @@
+accessing
+directoryUrl
+	^ remoteFile directoryUrl

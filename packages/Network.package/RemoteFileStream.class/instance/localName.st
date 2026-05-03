@@ -1,0 +1,3 @@
+accessing
+localName
+	^ remoteFile fileName

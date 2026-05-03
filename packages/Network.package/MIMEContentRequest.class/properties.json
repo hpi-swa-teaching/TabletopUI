@@ -1,0 +1,14 @@
+{
+	"category" : "Network-MIME",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 5/18/2023 21:10",
+	"instvars" : [
+		"cid" ],
+	"name" : "MIMEContentRequest",
+	"pools" : [
+		 ],
+	"super" : "Notification",
+	"type" : "normal" }

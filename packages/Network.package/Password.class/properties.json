@@ -1,0 +1,14 @@
+{
+	"category" : "Network-Kernel",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "cbc 6/7/2019 11:19",
+	"instvars" : [
+		"cache" ],
+	"name" : "Password",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

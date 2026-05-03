@@ -1,0 +1,17 @@
+{
+	"category" : "Network-MIME",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"DefaultSuffixes",
+		"StandardMIMEMappings" ],
+	"commentStamp" : "pre 6/1/2023 14:05",
+	"instvars" : [
+		"main",
+		"sub",
+		"parameters" ],
+	"name" : "MIMEType",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

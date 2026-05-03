@@ -52,6 +52,21 @@ GSMetadata {
 			],
 			#encoding : Class [ #PNGReadWriter ]
 		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'indoor.png'
+			],
+			#encoding : @18
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'README.md'
+			],
+			#encoding : 'TXT'
+		},
 		GSPlaintextMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -61,20 +76,14 @@ GSMetadata {
 			],
 			#encoding : 'TXT'
 		},
-		GSPlaintextMapper {
+		GSCypressMapper {
 			#version : 1,
+			#package : MCPackage {
+				#name : 'Network'
+			},
 			#path : FSAbsolutePath [
-				'README.md'
-			],
-			#encoding : 'TXT'
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'indoor.png'
-			],
-			#encoding : @18
+				'packages'
+			]
 		},
 		GSImageMapper {
 			#version : 1,

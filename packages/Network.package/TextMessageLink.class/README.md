@@ -1,0 +1,1 @@
+A link to a document of a mail message. Clicking on it allows the document to be viewed or saved to disk.

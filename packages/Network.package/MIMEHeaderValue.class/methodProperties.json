@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"forField:fromString:" : "pre 5/2/2018 15:15",
+		"fromMIMEHeader:" : "pre 5/2/2018 15:19",
+		"fromTraditionalHeader:" : "pre 5/2/2018 15:19" },
+	"instance" : {
+		"asHeaderValue" : "eem 5/3/2018 00:47",
+		"mainValue" : "pre 5/2/2018 15:15",
+		"mainValue:" : "dvf 4/27/2000 18:13",
+		"parameterAt:ifAbsent:" : "pre 6/29/2017 11:51",
+		"parameterAt:put:" : "ls 2/10/2001 13:06",
+		"parameters" : "dvf 4/27/2000 18:18",
+		"parameters:" : "dvf 4/27/2000 18:11",
+		"printOn:" : "ls 2/10/2001 12:37" } }

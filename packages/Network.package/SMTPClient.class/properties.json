@@ -1,0 +1,15 @@
+{
+	"category" : "Network-Protocols",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "pre 4/22/2025 15:25",
+	"instvars" : [
+		"useTLSIfAvailable",
+		"responseMessage" ],
+	"name" : "SMTPClient",
+	"pools" : [
+		 ],
+	"super" : "TelnetProtocolClient",
+	"type" : "normal" }
