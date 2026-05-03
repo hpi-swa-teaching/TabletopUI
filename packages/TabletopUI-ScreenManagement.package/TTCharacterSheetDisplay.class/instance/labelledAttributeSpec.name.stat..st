@@ -11,7 +11,7 @@ labelledAttributeSpec: aToolBuilder name: aNameSymbol stat: aStatSymbol
 				getText: aStatSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
-				font: (TextStyle defaultFont pointSize: 24; yourself);
+				font: (TextStyle defaultFont asPointSize: 24; yourself);
 				frame: (0.1 @ 0 rect: 0.9 @ 0.6);
 				readOnly: true;
 				yourself);

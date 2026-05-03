@@ -11,7 +11,7 @@ proficiencySpec: aToolBuilder name: aNameSymbol multiplier: aMultiplierSymbol mu
 				getText: aMultiplierSymbol;
 				setText: aCallbackSymbol;
 				indicateUnacceptedChanges: false;
-				font: (TextStyle defaultFont pointSize: 24; yourself);
+				font: (TextStyle defaultFont asPointSize: 24; yourself);
 				frame: (0 @ 0 rect: 0.15 @ 1);
 				readOnly: false;
 				yourself);
