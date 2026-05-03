@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildWith:" : "tf 5/3/2026 13:29",
+		"characterAdministration:" : "tf 5/3/2026 16:00",
+		"characterSheets" : "tf 5/3/2026 13:59",
+		"characterSheets:" : "tf 5/3/2026 13:59",
+		"confirmSelection" : "tf 5/3/2026 16:22",
+		"continue" : "tf 5/3/2026 16:23",
+		"continueButtonLabel" : "tf 5/3/2026 12:18",
+		"createListSpecWith:" : "tf 5/3/2026 15:53",
+		"initialize" : "tf 5/3/2026 14:21",
+		"leave" : "tf 5/3/2026 12:17",
+		"listBounds" : "tf 5/3/2026 12:33",
+		"nameList" : "tf 5/3/2026 15:49",
+		"selectPreset" : "tf 5/3/2026 16:22",
+		"selectedIndex" : "tf 5/3/2026 13:41",
+		"selectedIndex:" : "tf 5/3/2026 13:43" } }

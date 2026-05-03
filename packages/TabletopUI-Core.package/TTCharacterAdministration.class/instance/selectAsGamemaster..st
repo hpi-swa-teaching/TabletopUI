@@ -1,4 +1,8 @@
 accessing
 selectAsGamemaster: aTTCharacter
 
-	aTTCharacter role: TTCharacter gamemaster
+	self players do: [ :player |
+		player role: TTCharacter player].
+
+	aTTCharacter role: TTCharacter gamemaster.
+	

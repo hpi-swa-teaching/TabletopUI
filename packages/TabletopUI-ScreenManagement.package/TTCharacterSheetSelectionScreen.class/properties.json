@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tf 5/3/2026 16:19",
+	"instvars" : [
+		"selectedIndex",
+		"characterSheets" ],
+	"name" : "TTCharacterSheetSelectionScreen",
+	"pools" : [
+		 ],
+	"super" : "TTScreen",
+	"type" : "normal" }
