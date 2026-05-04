@@ -14,5 +14,7 @@ baseline: spec
 				package: 'TabletopUI-Tests' 
 					with: [spec requires: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement')];
 				yourself.
-			spec group: 'default' with: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement' 'TabletopUI-Tests')];
+			spec group: 'default' with: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement' 'TabletopUI-Tests');
+				yourself.
+			spec baseline: 'GitS' with: [spec repository: 'github://hpi-swa/git-s:latest-release/src']];
 			yourself
