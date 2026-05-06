@@ -7,7 +7,7 @@ baseline: spec
 		do: [
 			spec
 				baseline: 'GitS' with: [spec repository: 'github://hpi-swa/git-s:latest-release/src'];
-				package: 'TabletopUI-Core';
+				package: 'TabletopUI-Core' with: [spec requires: #('GitS')];
 				package: 'TabletopUI-CommandProcessing'
                     		with: [spec requires: #('TabletopUI-Core')];
 				package: 'TabletopUI-ScreenManagement'
