@@ -18,7 +18,7 @@ attributeSpec: aToolBuilder name: aNameSymboi modifier: aModifierSymbol stat: aS
 				getText: aModifierSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
-				font: (TextStyle defaultFont pointSize: 24; yourself);
+				font: (TextStyle defaultFont asPointSize: 24; yourself);
 				frame: (0.1 @ 0.2 rect: 0.9 @ 0.8);
 				readOnly: true;
 				yourself);

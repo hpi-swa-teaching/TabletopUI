@@ -2,4 +2,6 @@ screen management
 continue
 
 	self selectGamemaster.
-	self window openGameScreen
+	
+	self window openCharacterSheetSelectionScreen
+	

@@ -19,7 +19,7 @@ hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentH
 				getText: aLevelSymbol;
 				color: #backgroundColorBaseValues;
 				indicateUnacceptedChanges: false;
-				font: (TextStyle defaultFont pointSize: 24; yourself);
+				font: (TextStyle defaultFont asPointSize: 24; yourself);
 				frame: (0.7 @ 0 rect: 1 @ 0.2);
 				readOnly: true;
 				yourself);
