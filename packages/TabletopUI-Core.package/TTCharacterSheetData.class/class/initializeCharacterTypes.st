@@ -50,4 +50,3 @@ initializeCharacterTypes
 		at: #charisma put: 10;
 		at: #maxHP put: 12;		
 		yourself.
-	

@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"characterTypes" : "MK 5/7/2026 16:58",
-		"initializeCharacterTypes" : "MK 5/7/2026 17:23" },
+		"initializeCharacterTypes" : "MK 5/7/2026 17:44" },
 	"instance" : {
 		"acrobatics" : "DS 5/31/2022 18:28",
 		"acrobaticsLabel" : "DS 5/31/2022 18:39",
@@ -124,11 +124,12 @@
 		"incrementFailedDeathSaves" : "DS 8/4/2022 09:58",
 		"incrementHitDice" : "DS 8/4/2022 09:58",
 		"incrementSuccessfulDeathSaves" : "DS 8/4/2022 09:58",
-		"initialize" : "DS 5/31/2022 18:03",
-		"initializeBaseValues" : "DS 5/16/2022 15:32",
-		"initializeHP" : "DS 5/15/2022 14:27",
+		"initialize" : "MK 5/7/2026 17:56",
+		"initializeBaseValuesWith:" : "MK 5/7/2026 17:52",
+		"initializeHPWith:" : "MK 5/7/2026 17:53",
 		"initializeSkillsLookup" : "DS 5/31/2022 18:03",
 		"initializeThrowsLookup" : "DS 5/31/2022 18:02",
+		"initializeWith:" : "MK 5/7/2026 18:39",
 		"initiative" : "DS 5/31/2022 18:28",
 		"inputField" : "ML 7/12/2022 18:06",
 		"inputField:" : "ML 7/12/2022 18:06",
