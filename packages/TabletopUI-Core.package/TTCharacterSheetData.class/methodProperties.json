@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"characterTypes" : "MK 5/7/2026 16:58",
+		"initializeCharacterTypes" : "MK 5/7/2026 17:23" },
 	"instance" : {
 		"acrobatics" : "DS 5/31/2022 18:28",
 		"acrobaticsLabel" : "DS 5/31/2022 18:39",
