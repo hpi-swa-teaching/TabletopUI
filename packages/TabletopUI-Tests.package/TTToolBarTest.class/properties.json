@@ -10,5 +10,5 @@
 	"name" : "TTToolBarTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }

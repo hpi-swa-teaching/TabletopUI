@@ -1,6 +1,7 @@
 running
 setUp
 	
+	self resource: TTTestResource current.
 	self screen: TTGamemasterSelectionScreen new.
 	self window: TTTabletopWindow new.
 	self screen window: self window.
