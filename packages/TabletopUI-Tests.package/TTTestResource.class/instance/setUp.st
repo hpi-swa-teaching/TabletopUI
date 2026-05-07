@@ -1,5 +1,4 @@
 running
 setUp
 	
-	self assetLoader: (GitAssetLoader for: 'TabletopUI').
-	hasRun := false
+	self assetLoader: (GitAssetLoader for: 'TabletopUI')
