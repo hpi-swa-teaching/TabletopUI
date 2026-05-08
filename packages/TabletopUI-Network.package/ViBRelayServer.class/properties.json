@@ -1,0 +1,21 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JF 1/16/2026 11:31",
+	"instvars" : [
+		"clientAcceptor",
+		"clients",
+		"server",
+		"idAssigner",
+		"udpSocket",
+		"udpEndpoints",
+		"playerPositions",
+		"shouldClose" ],
+	"name" : "ViBRelayServer",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

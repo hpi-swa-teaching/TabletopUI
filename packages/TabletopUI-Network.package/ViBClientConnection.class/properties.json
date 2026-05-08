@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JF 1/16/2026 11:28",
+	"instvars" : [
+		"clientId" ],
+	"name" : "ViBClientConnection",
+	"pools" : [
+		 ],
+	"super" : "ViBRelayConnection",
+	"type" : "normal" }

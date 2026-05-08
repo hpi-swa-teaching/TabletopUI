@@ -1,0 +1,1 @@
+I offer a high-level interface for tcp message sends and receives on the relay server. Subclasses have to implement sendToRelay:. sendToRelay: hands a received message to the relay server

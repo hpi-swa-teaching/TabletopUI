@@ -1,0 +1,1 @@
+Extend RelayConnection to include clientId functionality

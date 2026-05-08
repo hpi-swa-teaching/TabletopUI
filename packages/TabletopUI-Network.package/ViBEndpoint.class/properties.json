@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "JF 1/16/2026 11:16",
+	"instvars" : [
+		"address",
+		"port" ],
+	"name" : "ViBEndpoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
