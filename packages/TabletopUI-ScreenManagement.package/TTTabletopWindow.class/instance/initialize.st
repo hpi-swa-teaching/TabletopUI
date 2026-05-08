@@ -6,5 +6,7 @@ initialize
 	self 
 		contents: {};
 		characterAdministration: TTCharacterAdministration new;
-		openPlayerCountScreen
+		openPlayerCountScreen.
+		
+	TTCharacterSheetData initializeCharacterTypes
 		

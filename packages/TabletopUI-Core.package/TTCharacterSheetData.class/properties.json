@@ -1,7 +1,7 @@
 {
 	"category" : "TabletopUI-Core",
 	"classinstvars" : [
-		 ],
+		"characterTypes" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "DS 5/15/2022 12:55",

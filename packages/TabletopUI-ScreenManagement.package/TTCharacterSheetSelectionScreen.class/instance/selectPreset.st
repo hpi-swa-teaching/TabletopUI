@@ -3,7 +3,7 @@ selectPreset
 	
 	| preset |
 	preset := ListChooser chooseItemFrom: (('Gamemaster' = (self characterSheets at: self selectedIndex))
-			ifFalse: [#('Default' 'Preset 1' 'Preset 2' 'Preset 3')]
+			ifFalse: [#('default' 'wizard' 'cleric' 'fighter')]
 			ifTrue: [#('Gamemaster')])
 		title:'Pick a character sheet'.
 	preset ifNil: [ ^ self].
