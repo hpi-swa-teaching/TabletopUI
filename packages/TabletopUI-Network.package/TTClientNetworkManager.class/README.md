@@ -1,0 +1,1 @@
+I abstract network messaging, handling message sends and receives. Subclasses need to implement isMeantForMe:. isMeantForMe: is given a message dictionary and returns if that message is meant for the NWM that received it

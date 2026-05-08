@@ -1,0 +1,4 @@
+receiving
+isMeantForMe: messageDict
+
+	^ true

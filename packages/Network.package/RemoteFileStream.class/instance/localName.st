@@ -1,3 +1,0 @@
-accessing
-localName
-	^ remoteFile fileName

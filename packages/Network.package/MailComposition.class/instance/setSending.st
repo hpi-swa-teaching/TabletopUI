@@ -1,4 +1,0 @@
-private
-setSending
-
-	isSending := true.

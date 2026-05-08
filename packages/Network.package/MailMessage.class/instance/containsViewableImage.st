@@ -1,3 +1,0 @@
-testing
-containsViewableImage
-	^self body containsViewableImage

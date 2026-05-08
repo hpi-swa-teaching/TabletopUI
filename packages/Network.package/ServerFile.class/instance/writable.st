@@ -1,3 +1,0 @@
-file modes
-writable
-	^ rwmode

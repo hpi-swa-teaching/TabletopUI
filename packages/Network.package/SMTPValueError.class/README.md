@@ -1,1 +1,0 @@
-A SMTPValueError is an error resulting from invalid data passed to the SMTPClient.

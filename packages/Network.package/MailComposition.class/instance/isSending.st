@@ -1,4 +1,0 @@
-private
-isSending
-
-	^ isSending

@@ -1,0 +1,1 @@
+I add additional features to ViBNetworkManager that are only needed on the server

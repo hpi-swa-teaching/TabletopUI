@@ -1,3 +1,0 @@
-accessing
-readOnly
-	^ remoteFile readOnly

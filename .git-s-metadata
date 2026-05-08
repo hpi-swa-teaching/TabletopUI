@@ -13,6 +13,15 @@ GSMetadata {
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
+				#name : 'TabletopUI-Network'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
 				#name : 'TabletopUI-Core'
 			},
 			#path : FSAbsolutePath [
@@ -35,6 +44,30 @@ GSMetadata {
 			],
 			#encoding : 'TXT'
 		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'documentation',
+				'tabletopScreenshot.png'
+			],
+			#encoding : Class [ #PNGReadWriter ]
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'.github',
+				'ISSUE_TEMPLATE',
+				'user-story.md'
+			],
+			#encoding : 'TXT'
+		},
+		GSPlaintextMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'README.md'
+			],
+			#encoding : 'TXT'
+		},
 		GSCypressMapper {
 			#version : 1,
 			#package : MCPackage {
@@ -47,43 +80,10 @@ GSMetadata {
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
-				'documentation',
-				'tabletopScreenshot.png'
-			],
-			#encoding : Class [ #PNGReadWriter ]
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'indoor.png'
 			],
 			#encoding : @18
-		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'README.md'
-			],
-			#encoding : 'TXT'
-		},
-		GSPlaintextMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'.github',
-				'ISSUE_TEMPLATE',
-				'user-story.md'
-			],
-			#encoding : 'TXT'
-		},
-		GSCypressMapper {
-			#version : 1,
-			#package : MCPackage {
-				#name : 'Network'
-			},
-			#path : FSAbsolutePath [
-				'packages'
-			]
 		},
 		GSImageMapper {
 			#version : 1,
