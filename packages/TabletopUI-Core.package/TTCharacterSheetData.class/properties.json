@@ -24,7 +24,8 @@
 		"takeDamageDialog",
 		"dialog",
 		"inputField",
-		"morph" ],
+		"morph",
+		"inspiration" ],
 	"name" : "TTCharacterSheetData",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 forms
 hitDiceForm
 
-	^ TTImageLoader loadFormFromFileNamed: 'hitDice.png'.
+	^ (TTImageLoader loadFormFromFileNamed: 'hitDice.png') scaledToSize: self hitDiceExtent

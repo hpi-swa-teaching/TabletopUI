@@ -1,4 +1,4 @@
 forms
 statsForm
 
-	^ TTImageLoader loadFormFromFileNamed: 'stats.png'.
+	^ (TTImageLoader loadFormFromFileNamed: 'stats.png') scaledToSize: self statsExtent

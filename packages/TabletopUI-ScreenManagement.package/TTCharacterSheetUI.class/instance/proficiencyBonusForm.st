@@ -1,4 +1,4 @@
 forms
 proficiencyBonusForm
 
-	^ TTImageLoader loadFormFromFileNamed: 'proficiencyBonus.png'.
+	^ (TTImageLoader loadFormFromFileNamed: 'proficiencyBonus.png') scaledToSize: self proficiencyBonusExtent

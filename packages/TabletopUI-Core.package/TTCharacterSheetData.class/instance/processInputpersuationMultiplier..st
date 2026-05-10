@@ -1,7 +1,7 @@
 input and processing
 processInputpersuationMultiplier: aText
 
-	self persuationMultiplier: aText.
+	self persuasionMultiplier: aText.
 	self changed: #persuationMultiplierModifier.
-	self changed: #persuationMultiplier.
-	self changed: #persuation
+	self changed: #persuasionMultiplier.
+	self changed: #persuasion

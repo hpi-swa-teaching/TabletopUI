@@ -1,4 +1,4 @@
 forms
 perceptionForm
 
-	^ TTImageLoader loadFormFromFileNamed: 'perception.png'.
+	^ (TTImageLoader loadFormFromFileNamed: 'perception.png') scaledToSize: self perceptionExtent

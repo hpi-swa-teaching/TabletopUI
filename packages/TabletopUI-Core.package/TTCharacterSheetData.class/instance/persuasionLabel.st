@@ -1,4 +1,4 @@
 dice roll modifiers
-persuationLabel
+persuasionLabel
 
 	^ 'persuation'

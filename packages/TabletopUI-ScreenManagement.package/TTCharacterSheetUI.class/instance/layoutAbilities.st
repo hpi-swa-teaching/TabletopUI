@@ -6,9 +6,7 @@ layoutAbilities
 	container := Morph new 
 		extent: (self abilitiesExtent);
 		color: Color transparent.
-	container addMorph: (ImageMorph new
-		image: form;
-		lock;
-		yourself).
-	self buildAbilitiesIn: container.
+	self 
+		configureContainer: container withImage: form;
+		buildAbilitiesIn: container.
 	^ container
