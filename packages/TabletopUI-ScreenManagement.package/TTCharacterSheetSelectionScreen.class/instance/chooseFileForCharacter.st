@@ -3,5 +3,5 @@ chooseFileForCharacter
 
 	| fileName |
 	
-	fileName := (StandardFileMenu oldFileFrom: FileDirectory default) name.
+	fileName := (StandardFileMenu oldFileFrom: FileDirectory default withPattern: '*.obj') name.
 	^ fileName. 
