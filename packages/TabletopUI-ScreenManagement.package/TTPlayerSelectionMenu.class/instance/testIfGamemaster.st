@@ -3,6 +3,7 @@ testIfGamemaster
 
 	| player |
 	
+	self toolBar isNil ifTrue: [^self].
 	self characterAdministration isNil ifFalse: [
 	player := self getActivePlayer.
 	player isGamemaster

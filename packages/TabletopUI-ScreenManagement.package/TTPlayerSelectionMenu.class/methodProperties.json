@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"newWith:toolBar:" : "TR 5/9/2026 13:39" },
+		"newWith:" : "TR 5/13/2026 17:16" },
 	"instance" : {
+		"addToolBar:" : "TR 5/13/2026 17:10",
 		"characterAdministration" : "PB 7/7/2021 16:23",
 		"characterAdministration:" : "JA 5/26/2022 14:31",
 		"createSpecWith:" : "joda 7/7/2021 10:35",
 		"getActivePlayer" : "PB 7/7/2021 16:26",
-		"initialize" : "TR 5/9/2026 13:20",
+		"initialize" : "TR 5/13/2026 17:08",
 		"nameList" : "rf 7/8/2021 14:41",
 		"selectedIndex" : "bv 5/29/2021 12:18",
 		"selectedIndex:" : "TR 5/9/2026 11:43",
-		"testIfGamemaster" : "TR 5/9/2026 12:45",
+		"testIfGamemaster" : "TR 5/13/2026 17:15",
 		"toolBar" : "TR 5/9/2026 12:01",
 		"toolBar:" : "TR 5/9/2026 12:01" } }
