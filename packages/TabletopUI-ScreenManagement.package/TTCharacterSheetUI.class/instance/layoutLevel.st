@@ -1,12 +1,12 @@
 layout containers
-layoutProficiencyBonus
+layoutLevel
 
 	| form container |
-	form := self proficiencyBonusForm.
+	form := self levelForm.
 	container := Morph new 
-		extent: (self proficiencyBonusExtent);
+		extent: (self levelExtent);
 		color: Color transparent.
 	self
 		configureContainer: container withImage: form;
-		buildProficiencyBonusIn: container.
+		buildLevelIn: container.
 	^ container

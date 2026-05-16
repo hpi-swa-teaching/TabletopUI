@@ -1,4 +1,4 @@
-layout
+layout containers
 configureContainer: aMorph withImage: aForm
 
 	aMorph addMorph: (ImageMorph new

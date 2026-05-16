@@ -5,7 +5,7 @@ addField: aSymbol editable: aBoolean at: aPoint in: anImageMorph
 	textMorph := PluggableTextMorph
 		on: self model
 		text: aSymbol
-		accept: (aBoolean ifTrue: [(aSymbol , ',') asSymbol] ifFalse: [nil]).
+		accept: (aBoolean ifTrue: [(aSymbol , ':') asSymbol] ifFalse: [nil]).
 	textMorph
 		color: Color transparent;
 		borderWidth: 0;

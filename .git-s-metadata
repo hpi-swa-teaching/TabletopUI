@@ -252,6 +252,22 @@ GSMetadata {
 				'toggle_toggled.png'
 			],
 			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'level.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'arrow.png'
+			],
+			#encoding : @18
 		}
 	],
 	#name : 'TabletopUI'

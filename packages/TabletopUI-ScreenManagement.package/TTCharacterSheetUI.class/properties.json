@@ -8,7 +8,10 @@
 	"instvars" : [
 		"model",
 		"name",
-		"label" ],
+		"label",
+		"sheet",
+		"currentPage",
+		"arrow" ],
 	"name" : "TTCharacterSheetUI",
 	"pools" : [
 		 ],

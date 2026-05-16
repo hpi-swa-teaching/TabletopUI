@@ -6,5 +6,4 @@ newWith: aTTCharacterSheetData inputField: aTTInputField
 		model: aTTCharacterSheetData;
 		yourself.
 	display model inputField: aTTInputField.
-	display layoutSheet.
 	^ display
