@@ -9,7 +9,7 @@ recoverySpec: aToolBuilder
 					name: #defaultHitDiceLabel
 					levelName: #defaultLevelLabel
 					currentHitDice: #currentHitDiceString
-					level: #levelText
+					level: #levelString
 					hitDieType: #hitDieTypeText
 					onIncrease: #incrementHitDice
 					onDecrease: #decrementHitDice)

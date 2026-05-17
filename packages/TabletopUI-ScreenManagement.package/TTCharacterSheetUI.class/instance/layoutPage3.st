@@ -1,4 +1,4 @@
 layout pages
 layoutPage3
 
-	self add: self layoutName at: 20 @ 50.
+	self add: self layoutCenterColumn at: 20 @ 50.

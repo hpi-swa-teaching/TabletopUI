@@ -1,12 +1,12 @@
 layout containers
-layoutPerception
+layoutInfoBlock
 
 	| form container |
-	form := self perceptionForm.
+	form := self infoBlockForm.
 	container := Morph new 
-		extent: (self perceptionExtent);
+		extent: (self largeBlockExtent);
 		color: Color transparent.
 	self
 		configureContainer: container withImage: form;
-		buildPerceptionIn: container.
+		buildInfoBlockIn: container.
 	^ container

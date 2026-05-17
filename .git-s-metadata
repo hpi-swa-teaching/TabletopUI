@@ -193,30 +193,6 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'name.png'
-			],
-			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'perception.png'
-			],
-			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'proficiencyBonus.png'
-			],
-			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'savingThrows.png'
 			],
 			#encoding : @18
@@ -257,7 +233,7 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'level.png'
+				'arrow.png'
 			],
 			#encoding : @18
 		},
@@ -265,7 +241,39 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'arrow.png'
+				'centerColumn.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'infoBlock.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'leftColumn.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'rightColumn.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'levelBlock.png'
 			],
 			#encoding : @18
 		}

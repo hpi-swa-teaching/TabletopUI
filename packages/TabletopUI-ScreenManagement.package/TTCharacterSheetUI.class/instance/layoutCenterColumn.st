@@ -1,12 +1,12 @@
 layout containers
-layoutName
+layoutCenterColumn
 
 	| form container |
-	form := self nameForm.
+	form := self centerColumnForm.
 	container := Morph new 
-		extent: (self nameExtent);
+		extent: (self columnExtent);
 		color: Color transparent.
 	self
 		configureContainer: container withImage: form;
-		buildNameIn: container.
+		buildCenterColumnIn: container.
 	^ container

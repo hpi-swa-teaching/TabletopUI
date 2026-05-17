@@ -1,12 +1,12 @@
 layout containers
-layoutProficiencyBonus
+layoutRightColumn
 
 	| form container |
-	form := self proficiencyBonusForm.
+	form := self rightColumnForm.
 	container := Morph new 
-		extent: (self proficiencyBonusExtent);
+		extent: (self columnExtent);
 		color: Color transparent.
 	self
 		configureContainer: container withImage: form;
-		buildProficiencyBonusIn: container.
+		buildRightColumnIn: container.
 	^ container

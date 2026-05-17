@@ -1,9 +1,7 @@
 layout pages
 layoutPage1
 
-	self add: self layoutLevel at: 20 @ 0.
-	self add: self layoutPerception at: 20 @ 65.
-	self add: self layoutProficiencyBonus at: 230 @ 0.
+	self add: self layoutLevelBlock at: 20 @ 0.
 	self add: self layoutInspiration at: 230 @ 65.
 	self add: self layoutStats at: 50 @ 140.
 	self add: self layoutSkills at: 20 @ 250.

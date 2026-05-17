@@ -1,17 +1,16 @@
 primitives
-addField: aSymbol editable: aBoolean at: aPoint in: anImageMorph
+addField: aSymbol sized: anExtent at: aPoint in: anImageMorph
 
 	| textMorph |
 	textMorph := PluggableTextMorph
 		on: self model
 		text: aSymbol
-		accept: (aBoolean ifTrue: [(aSymbol , ':') asSymbol] ifFalse: [nil]).
+		accept: (aSymbol , ':') asSymbol.
 	textMorph
 		color: Color transparent;
 		borderWidth: 0;
 		font: (StrikeFont familyName: 'BitstreamVeraSans' pointSize: 20);
-		extent: 150 @ 40;
+		extent: anExtent;
 		wrapFlag: false.
-	aBoolean ifFalse: [textMorph lock].
  	anImageMorph addMorph: textMorph.
 	textMorph position: aPoint

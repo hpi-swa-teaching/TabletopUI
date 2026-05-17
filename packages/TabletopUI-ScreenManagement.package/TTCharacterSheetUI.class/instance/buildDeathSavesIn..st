@@ -2,7 +2,7 @@ build
 buildDeathSavesIn: aMorph
 
 	| xOffset xDifference yOffsetRow1 yOffsetRow2 |
-	Transcript show: 'we need more containers, and we need help'.
+	Transcript show: 'we need more containers, we need the logic and we need help'.
 	yOffsetRow1 := 52.
 	yOffsetRow2 := 98.
 	xOffset := 52.
