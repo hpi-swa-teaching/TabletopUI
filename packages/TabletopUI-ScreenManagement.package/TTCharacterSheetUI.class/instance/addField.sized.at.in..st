@@ -1,6 +1,7 @@
 primitives
 addField: aSymbol sized: anExtent at: aPoint in: anImageMorph
 
+	"editable fields get a size matching their container"
 	| textMorph |
 	textMorph := PluggableTextMorph
 		on: self model
