@@ -10,5 +10,5 @@
 	"name" : "TTDiceRollTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }
