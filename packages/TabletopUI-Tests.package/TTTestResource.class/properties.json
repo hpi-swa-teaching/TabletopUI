@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"screen",
-		"characterAdministration",
-		"window",
-		"resource" ],
-	"name" : "TTGamemasterSelectionScreenTest",
+		"assetLoader" ],
+	"name" : "TTTestResource",
 	"pools" : [
 		 ],
-	"super" : "TTTestCase",
+	"super" : "TestResource",
 	"type" : "normal" }

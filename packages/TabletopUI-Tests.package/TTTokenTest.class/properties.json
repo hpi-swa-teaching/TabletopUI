@@ -11,5 +11,5 @@
 	"name" : "TTTokenTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }

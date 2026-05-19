@@ -10,5 +10,5 @@
 	"name" : "TTCommandLexerTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }
