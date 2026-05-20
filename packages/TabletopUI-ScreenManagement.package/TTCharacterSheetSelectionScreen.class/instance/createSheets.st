@@ -1,7 +1,14 @@
 selecting preset
 createSheets
 
+	| file stream |
+	
 	(self characterAdministration players) withIndexDo: [ :player :index |
-		('Gamemaster' = (self characterSheets at: index))
-			ifFalse: [player sheet initializeWith: ((self characterSheets at: index) asSymbol)]
+		('gamemaster' = (self characterSheets at: index))
+			ifFalse: [((self characterSheets at: index) endsWith: '.obj')
+				ifTrue: [file := (FileStream readOnlyFileNamed: ((self characterSheets at: index) asString)) binary.
+					stream := ReferenceStream on: file.
+					player sheet: stream next.
+					stream close]
+				ifFalse: [player sheet initializeWith: ((self characterSheets at: index) asSymbol)]]
 		]
