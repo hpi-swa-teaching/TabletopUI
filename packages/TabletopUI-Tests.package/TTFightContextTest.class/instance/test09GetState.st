@@ -1,7 +1,7 @@
 testing
 test09GetState
 	
-	| state |
+	"| state |
 	super test01GetState.
 	
 	state := self context getState.
@@ -12,4 +12,4 @@ test09GetState
 		assert: ((state at: #currentPlayer) isKindOf: String);
 		assert: (state includesKey: #fightingPlayerNames);
 		assert: ((state at: #fightingPlayerNames) isKindOf: Array);
-		assert: ((state at: #fightingPlayerNames) includes: (state at: #currentPlayer)).
+		assert: ((state at: #fightingPlayerNames) includes: (state at: #currentPlayer))."

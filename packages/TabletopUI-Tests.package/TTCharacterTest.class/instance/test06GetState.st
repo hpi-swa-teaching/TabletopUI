@@ -1,7 +1,7 @@
 testing
 test06GetState
 
-	|state|
+	"|state|
 	state := self character getState.
 	
 	self 
@@ -11,7 +11,7 @@ test06GetState
 		assert: ((state at: #name) isKindOf: String);
 		assert: (state includesKey: #role);
 		assert: ({ #npc. #player } includes: (state at: #role)).
-	self flag: #TODO:
+	self flag: #TODO:"
 		"add characterSheet test"
 
 		

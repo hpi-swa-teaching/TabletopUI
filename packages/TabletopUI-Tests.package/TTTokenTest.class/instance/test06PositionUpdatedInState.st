@@ -1,6 +1,6 @@
 testing
 test06PositionUpdatedInState
-	| eventAtOrigin  stateBeforeDrag stateAfterStationaryDrag stateAfterDrag |
+	"| eventAtOrigin  stateBeforeDrag stateAfterStationaryDrag stateAfterDrag |
 	
 	stateBeforeDrag:= self token getState.
 	
@@ -17,7 +17,7 @@ test06PositionUpdatedInState
 	self assert: ((stateBeforeDrag at: #mapPosition) = (stateAfterStationaryDrag at: #mapPosition)).
 	self token position: 250 @ 300.
 	stateAfterDrag:= self token getState.
-	self assert: ((stateAfterDrag mapCoordinates at: #x = 250) and: (stateAfterDrag mapCoordinates at: #y = 300))
+	self assert: ((stateAfterDrag mapCoordinates at: #x = 250) and: (stateAfterDrag mapCoordinates at: #y = 300))"
 	
 	
 
