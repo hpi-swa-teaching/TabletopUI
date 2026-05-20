@@ -1,3 +1,5 @@
 accessing
 resources
-	^Set new add:TTTestResource; yourself
+
+	^ Set new add: TTTestResource;
+		yourself
