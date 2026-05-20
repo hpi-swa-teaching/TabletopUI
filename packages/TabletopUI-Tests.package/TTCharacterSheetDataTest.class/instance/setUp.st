@@ -2,7 +2,7 @@ running
 setUp
 
 	self characterSheet: TTCharacterSheetData new.
-	self setUpBaseValues.
+	characterSheet initializeWith: 'default'.
 	self inputField: TTMockInputField new.
 	self characterSheet inputField: self inputField
 	
