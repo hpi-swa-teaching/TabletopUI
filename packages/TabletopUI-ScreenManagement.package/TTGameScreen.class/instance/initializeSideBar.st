@@ -9,4 +9,6 @@ initializeSideBar
 	self 
 		addDependent: self imageBar;
 		addDependent: self tokenBar;
-		addDependent: self toolBar
+		addDependent: self toolBar.
+		
+	self playerSelectionMenu addToolBar: self toolBar

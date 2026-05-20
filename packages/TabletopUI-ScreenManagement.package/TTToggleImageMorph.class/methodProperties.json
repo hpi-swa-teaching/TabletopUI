@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getSelector" : "jv 5/10/2026 12:13",
+		"getSelector:" : "jv 5/10/2026 12:13",
+		"handlesMouseDown:" : "jv 5/10/2026 13:30",
+		"image" : "jv 5/10/2026 12:12",
+		"image:" : "jv 5/10/2026 12:11",
+		"model" : "jv 5/10/2026 12:10",
+		"model:" : "jv 5/10/2026 12:09",
+		"mouseUp:" : "jv 5/10/2026 13:41",
+		"offForm" : "jv 5/10/2026 12:12",
+		"offForm:" : "jv 5/10/2026 12:12",
+		"on:get:set:onForm:offForm:" : "jv 5/10/2026 13:35",
+		"onForm" : "jv 5/10/2026 12:12",
+		"onForm:" : "jv 5/10/2026 12:12",
+		"setImageFor:" : "jv 5/10/2026 13:35",
+		"setSelector" : "jv 5/10/2026 12:13",
+		"setSelector:" : "jv 5/10/2026 12:13" } }

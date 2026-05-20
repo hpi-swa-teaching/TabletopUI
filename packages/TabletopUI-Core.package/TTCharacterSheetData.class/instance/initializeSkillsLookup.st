@@ -16,7 +16,7 @@ initializeSkillsLookup
 		at: #nature put: self defaultProficiencyMultiplier;
 		at: #perception put: self defaultProficiencyMultiplier;
 		at: #performance put: self defaultProficiencyMultiplier;
-		at: #persuation put: self defaultProficiencyMultiplier;
+		at: #persuasion put: self defaultProficiencyMultiplier;
 		at: #religion put: self defaultProficiencyMultiplier;
 		at: #sleightOfHand put: self defaultProficiencyMultiplier;
 		at: #stealth put: self defaultProficiencyMultiplier;

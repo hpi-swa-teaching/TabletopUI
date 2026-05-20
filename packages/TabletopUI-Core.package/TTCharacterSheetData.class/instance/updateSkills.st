@@ -13,7 +13,7 @@ updateSkills
 	self changed: #nature.
 	self changed: #perception.
 	self changed: #performance.
-	self changed: #persuation.
+	self changed: #persuasion.
 	self changed: #religion.
 	self changed: #sleightOfHand.
 	self changed: #stealth.

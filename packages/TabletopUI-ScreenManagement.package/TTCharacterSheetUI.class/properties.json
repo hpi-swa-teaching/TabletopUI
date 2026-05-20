@@ -1,0 +1,19 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model",
+		"name",
+		"label",
+		"sheet",
+		"currentPage",
+		"arrow" ],
+	"name" : "TTCharacterSheetUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
