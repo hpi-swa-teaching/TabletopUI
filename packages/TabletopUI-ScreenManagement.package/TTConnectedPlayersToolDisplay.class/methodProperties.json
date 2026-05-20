@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"newWithPlayerList:" : "tak2 5/6/2026 20:50",
+		"open" : "tak2 5/6/2026 20:50",
+		"openWithPlayerList:" : "tak2 5/6/2026 20:49" },
+	"instance" : {
+		"aboutToBeClosed" : "ob 8/4/2022 15:00",
+		"aboutToBeClosed:" : "ob 8/4/2022 15:00",
+		"buildWith:" : "tak2 5/11/2026 15:50",
+		"close" : "tak2 5/6/2026 20:18",
+		"createListSpecWith:" : "tak2 5/6/2026 20:25",
+		"defaultExtent" : "tak2 5/11/2026 15:57",
+		"initialize" : "tak2 5/6/2026 20:52",
+		"listBounds" : "tak2 5/6/2026 20:28",
+		"morph" : "ob 8/4/2022 15:01",
+		"morph:" : "ob 8/4/2022 15:01",
+		"nameList" : "tak2 5/6/2026 20:21",
+		"nameList:" : "tak2 5/6/2026 20:25",
+		"notifyObserver" : "tak2 5/6/2026 20:19",
+		"observer" : "tak2 5/6/2026 20:19",
+		"observer:" : "tak2 5/6/2026 20:19",
+		"parentIsClosing" : "DS 8/1/2022 14:42" } }

@@ -1,4 +1,0 @@
-pass access
-projectName
-
-	^ 'TabletopUI'

@@ -1,4 +1,4 @@
 pass access
-basePathName
+imageDirectoryName
 
 	^ 'tabletop-graphics' , FileDirectory slash
