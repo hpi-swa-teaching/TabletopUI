@@ -11,5 +11,5 @@
 	"name" : "TTContextTestBase",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }

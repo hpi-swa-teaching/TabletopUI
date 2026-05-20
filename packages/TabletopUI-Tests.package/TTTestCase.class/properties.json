@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"screen",
-		"characterAdministration",
-		"window",
-		"resource" ],
-	"name" : "TTGamemasterSelectionScreenTest",
+		 ],
+	"name" : "TTTestCase",
 	"pools" : [
 		 ],
-	"super" : "TTTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

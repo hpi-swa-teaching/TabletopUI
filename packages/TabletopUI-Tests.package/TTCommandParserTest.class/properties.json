@@ -10,5 +10,5 @@
 	"name" : "TTCommandParserTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }
