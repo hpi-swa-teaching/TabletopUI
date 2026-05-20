@@ -1,4 +1,4 @@
 accessing
 tiles
 
-	^ tiles
+	^ tiles ifNil: [ self initializeTiles ]
