@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 21:13",
 	"instvars" : [
-		"actionLogList" ],
+		"actionLogList",
+		"networkmanager" ],
 	"name" : "TTActionLog",
 	"pools" : [
 		 ],

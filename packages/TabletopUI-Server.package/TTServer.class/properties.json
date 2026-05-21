@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"networkmanager",
+		"referencemanager" ],
+	"name" : "TTServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

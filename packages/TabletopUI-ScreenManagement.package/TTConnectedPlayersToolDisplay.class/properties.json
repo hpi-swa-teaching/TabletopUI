@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"morph",
+		"observer",
+		"aboutToBeClosed",
+		"nameList" ],
+	"name" : "TTConnectedPlayersToolDisplay",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

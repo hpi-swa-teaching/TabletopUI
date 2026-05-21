@@ -4,9 +4,12 @@
 	"instance" : {
 		"character" : "joda 7/8/2021 15:37",
 		"character:" : "joda 7/8/2021 15:36",
+		"characterInstantiationDict" : "CR 5/11/2026 16:16",
 		"setUp" : "joda 7/13/2021 13:14",
 		"test01IsGamemaster" : "joda 7/13/2021 12:29",
 		"test02IsPlayer" : "joda 7/13/2021 12:29",
 		"test03IsNPC" : "joda 7/13/2021 12:29",
 		"test04ChangeName" : "ML 8/3/2022 14:32",
-		"test05NameDefault" : "ML 8/3/2022 14:31" } }
+		"test05NameDefault" : "ML 8/3/2022 14:31",
+		"test06GetState" : "Jakob Fanselow 5/20/2026 16:20",
+		"test07LoadState" : "Jakob Fanselow 5/20/2026 16:21" } }

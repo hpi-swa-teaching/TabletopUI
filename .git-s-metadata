@@ -1,6 +1,6 @@
 GSMetadata {
 	#version : 1,
-	#mappers : [
+	#mappers : OrderedCollection [
 		GSPlaintextMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
@@ -140,6 +140,22 @@ GSMetadata {
 				'hafenstadt.png'
 			],
 			#encoding : @18
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TabletopUI-Network'
+			},
+			#path : FSAbsolutePath [
+				'packages'
+			]
+		},
+		GSCypressMapper {
+			#version : 1,
+			#package : MCPackage {
+				#name : 'TabletopUI-Server'
+			},
+			#path : @45
 		}
 	],
 	#name : 'TabletopUI'

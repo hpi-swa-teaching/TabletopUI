@@ -9,7 +9,8 @@
 		"characterAdministration",
 		"inputField",
 		"map",
-		"diceTool" ],
+		"diceTool",
+		"connectedPlayerstool" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],

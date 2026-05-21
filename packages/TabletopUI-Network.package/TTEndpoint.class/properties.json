@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"address",
+		"port" ],
+	"name" : "TTEndpoint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

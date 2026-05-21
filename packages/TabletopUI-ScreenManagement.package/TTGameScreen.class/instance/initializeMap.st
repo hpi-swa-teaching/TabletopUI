@@ -1,6 +1,6 @@
 initialization
 initializeMap
 
-	self map: (TTMap newWith: self characterAdministration players).
+	self map: (TTMap newWith: (self characterAdministration players) and: (self characterAdministration npcs)).
 	self addDependent: self map
 		

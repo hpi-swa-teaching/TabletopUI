@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"lowestUnusedId" ],
+	"name" : "TTIdAssigner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

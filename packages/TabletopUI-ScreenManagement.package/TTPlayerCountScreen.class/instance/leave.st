@@ -1,5 +1,5 @@
 screen management
 leave
 
-	self window openPlayerCountScreen
+	self window openJoinNetworkingScreen
 	

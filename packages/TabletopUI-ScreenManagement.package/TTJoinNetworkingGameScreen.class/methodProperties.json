@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"address" : "DavidSimon 5/16/2026 15:07",
+		"address:" : "Jakob Fanselow 5/18/2026 17:14",
+		"buildInputFieldsWith:" : "DavidSimon 5/17/2026 13:45",
+		"buildWith:" : "DavidSimon 5/16/2026 14:55",
+		"continue" : "Jakob Fanselow 5/18/2026 17:14",
+		"continueButtonLabel" : "DavidSimon 5/16/2026 14:57",
+		"createInputFieldSpecWith:index:" : "DavidSimon 5/16/2026 15:53",
+		"createScrollPaneSpecWith:" : "DavidSimon 5/16/2026 14:56",
+		"inputFieldBoundsForIndex:" : "DavidSimon 5/16/2026 14:56",
+		"inputFieldHeight" : "DavidSimon 5/16/2026 14:54",
+		"inputFieldLabels" : "DavidSimon 5/17/2026 13:46",
+		"inputFieldListBounds" : "DavidSimon 5/16/2026 14:54",
+		"inputFieldSelectors" : "DavidSimon 5/17/2026 13:46",
+		"inputFieldSetterSelectors" : "DavidSimon 5/17/2026 13:48",
+		"inputFieldWidth" : "DavidSimon 5/16/2026 14:54",
+		"leave" : "DavidSimon 5/16/2026 16:06",
+		"playerName" : "DavidSimon 5/16/2026 15:52",
+		"playerName:" : "DavidSimon 5/16/2026 15:52",
+		"role" : "DavidSimon 5/17/2026 13:46",
+		"role:" : "DavidSimon 5/17/2026 13:46",
+		"tcpPort" : "DavidSimon 5/16/2026 15:07",
+		"tcpPort:" : "Jakob Fanselow 5/18/2026 17:19" } }

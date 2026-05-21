@@ -1,0 +1,21 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"referenceManager",
+		"shouldClose",
+		"udpSocket",
+		"tcpSocket",
+		"serverAddress",
+		"tcpPort",
+		"udpPort",
+		"tcpSocketStream" ],
+	"name" : "TTNetworkManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clientId" ],
+	"name" : "TTClientNetworkManager",
+	"pools" : [
+		 ],
+	"super" : "TTNetworkManager",
+	"type" : "normal" }

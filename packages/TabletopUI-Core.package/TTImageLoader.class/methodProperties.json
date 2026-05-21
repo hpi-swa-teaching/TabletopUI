@@ -1,7 +1,11 @@
 {
 	"class" : {
+		"baseDirectory" : "bv 7/31/2021 16:49",
 		"basePathName" : "jv 4/29/2026 18:14",
-		"loadFormFromFileNamed:" : "jv 4/29/2026 18:15",
+		"getFullPathForFileNamed:" : "bv 7/31/2021 15:04",
+		"imageDirectoryName" : "bv 7/31/2021 16:42",
+		"loadFormFromFileNamed:" : "bv 7/31/2021 15:06",
+		"loadFormFromPath:" : "bv 7/31/2021 15:05",
 		"projectName" : "jv 4/29/2026 18:14" },
 	"instance" : {
 		 } }
