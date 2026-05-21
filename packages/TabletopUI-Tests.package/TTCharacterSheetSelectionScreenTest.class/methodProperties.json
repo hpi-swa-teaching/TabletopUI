@@ -13,5 +13,7 @@
 		"test04SelectedIndex" : "tf 5/21/2026 20:05",
 		"test05Continue" : "tf 5/21/2026 20:12",
 		"test06Leave" : "tf 5/21/2026 20:11",
+		"test07CreateSheetsSetsPlayerSheetValues" : "tf 5/21/2026 20:59",
+		"test08CreateSheetsSkipsGamemaster" : "tf 5/21/2026 21:00",
 		"window" : "tf 5/21/2026 18:18",
 		"window:" : "tf 5/21/2026 18:19" } }

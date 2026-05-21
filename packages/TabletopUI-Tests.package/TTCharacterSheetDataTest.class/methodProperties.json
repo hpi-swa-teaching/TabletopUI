@@ -54,4 +54,8 @@
 		"test44HitDiceDecrement" : "ob 8/3/2022 16:53",
 		"test45HitDiceIncrementOutOfBounds" : "ob 8/3/2022 16:54",
 		"test46HitDiceDecrementOutOfBounds" : "ob 8/3/2022 16:55",
-		"test47ResetHitDice" : "ob 8/3/2022 16:56" } }
+		"test47ResetHitDice" : "ob 8/3/2022 16:56",
+		"test48InitializeCharacterTypesHasFourTypes" : "tf 5/21/2026 20:58",
+		"test49InitializeWithWizardBaseValues" : "tf 5/21/2026 20:58",
+		"test50InitializeWithWizardHP" : "tf 5/21/2026 20:58",
+		"test51InitializeWithFighterArmorClassAndSpeed" : "tf 5/21/2026 20:58" } }

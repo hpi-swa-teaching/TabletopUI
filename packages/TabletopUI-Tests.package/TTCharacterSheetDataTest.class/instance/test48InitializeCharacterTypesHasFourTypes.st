@@ -1,0 +1,5 @@
+testing-initialization
+test48InitializeCharacterTypesHasFourTypes
+
+	TTCharacterSheetData initializeCharacterTypes.
+	self assert: TTCharacterSheetData characterTypes size equals: 4.
