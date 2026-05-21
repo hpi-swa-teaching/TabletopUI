@@ -1,5 +1,5 @@
 testing
-test07CharacterSheetButtonReflectsActivePlayerRole
+test06CharacterSheetButtonReflectsActivePlayerRole
 
 	| toolBar |
 	toolBar := TTToolBar new.

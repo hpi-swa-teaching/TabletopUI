@@ -1,5 +1,5 @@
 testing-initialization
-test51InitializeWithFighterArmorClassAndSpeed
+test49InitializeWithFighter
 
 	self characterSheet initializeWith: #fighter.
 	self assert: self characterSheet armorClass equals: '18'.
