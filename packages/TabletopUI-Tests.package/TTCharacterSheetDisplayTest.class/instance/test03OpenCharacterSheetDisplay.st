@@ -5,5 +5,5 @@ test03OpenCharacterSheetDisplay
 	
 	display := self toolbar openCharacterSheetDisplay.
 	self assert: display model class equals: TTCharacterSheetData.
-	display abandon
+	display sheet abandon
 	

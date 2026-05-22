@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"screen",
-		"characterAdministration",
-		"window" ],
-	"name" : "TTGamemasterSelectionScreenTest",
+		"window",
+		"characterAdministration" ],
+	"name" : "TTCharacterSheetSelectionScreenTest",
 	"pools" : [
 		 ],
 	"super" : "TTTestCase",

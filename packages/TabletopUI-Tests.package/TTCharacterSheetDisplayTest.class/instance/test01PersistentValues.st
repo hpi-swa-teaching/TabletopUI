@@ -7,8 +7,6 @@ test01PersistentValues
 	firstDisplay model strength: 12.
 	secondDisplay :=	self toolbar openCharacterSheetDisplay.
 	self assert: ((secondDisplay model strength) = '12').
-	
-	firstDisplay abandon.
-	secondDisplay abandon
-	
-	
+
+	firstDisplay sheet abandon.
+	secondDisplay sheet abandon

@@ -1,4 +1,4 @@
 interactive rolls
-persuationLabelPressed
+persuasionLabelPressed
 
 	self inputField processInput: 'roll d20 ', (self signedModifier: self persuasion)

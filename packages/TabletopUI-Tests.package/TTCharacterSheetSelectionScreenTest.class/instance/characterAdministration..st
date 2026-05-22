@@ -1,0 +1,4 @@
+accessing
+characterAdministration: aCharacterAdministration
+
+	characterAdministration := aCharacterAdministration.

@@ -1,0 +1,5 @@
+testing
+test06OpenCharacterSheetSelectionScreen
+	
+	self window openCharacterSheetSelectionScreen.
+	self assertOpenScreenClass: TTCharacterSheetSelectionScreen
