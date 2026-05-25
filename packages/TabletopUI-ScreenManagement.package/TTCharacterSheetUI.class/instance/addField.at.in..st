@@ -7,13 +7,8 @@ addField: aSymbol at: aPoint in: anImageMorph
 		on: self model
 		text: aSymbol
 		accept: nil.
-	textMorph
-		color: Color transparent;
-		borderWidth: 0;
-		font: (StrikeFont familyName: 'BitstreamVeraSans' pointSize: 20);
-		extent: 150 @ 40;
-		wrapFlag: false;
-		lock.
+	textMorph lock.
+	self textSettingsFor: textMorph.
 	self model addDependent: textMorph.
  	anImageMorph addMorph: textMorph.
 	textMorph position: aPoint.

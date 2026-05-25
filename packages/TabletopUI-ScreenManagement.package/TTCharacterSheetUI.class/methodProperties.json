@@ -7,8 +7,8 @@
 		"abilitiesForm" : "jv 5/10/2026 13:01",
 		"add:at:" : "jv 5/16/2026 20:57",
 		"addAbility:at:in:" : "jv 5/17/2026 13:46",
-		"addField:at:in:" : "jv 5/25/2026 10:10",
-		"addField:sized:at:in:" : "jv 5/18/2026 14:39",
+		"addField:at:in:" : "jv 5/25/2026 10:40",
+		"addField:sized:at:in:" : "jv 5/25/2026 10:40",
 		"addInspirationToggle:at:in:" : "jv 5/10/2026 13:38",
 		"addRegularToggle:at:in:" : "jv 5/10/2026 13:38",
 		"addSkill:at:in:" : "jv 5/17/2026 13:46",
@@ -103,6 +103,7 @@
 		"spellcastingBlockForm" : "jv 5/18/2026 14:40",
 		"statsExtent" : "jv 5/10/2026 15:06",
 		"statsForm" : "jv 5/10/2026 13:00",
+		"textSettingsFor:" : "jv 5/25/2026 10:38",
 		"toggleExtent" : "jv 5/10/2026 14:13",
 		"toggleToggledForm" : "jv 5/10/2026 13:00",
 		"toggleUntoggledForm" : "jv 5/10/2026 13:00" } }

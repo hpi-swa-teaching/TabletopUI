@@ -2,6 +2,8 @@ selecting preset
 createSheets
 
 	(self characterAdministration players) withIndexDo: [ :player :index |
-		('Gamemaster' = (self characterSheets at: index))
-			ifFalse: [TTCharacterSheetData forTemplate: ((self characterSheets at: index) asSymbol)]
+		| templateName |
+		templateName := self characterSheets at: index.
+		('Gamemaster' = templateName)
+			ifFalse: [player sheet: (TTCharacterSheetData forTemplate: (templateName asSymbol))]
 		]
