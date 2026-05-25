@@ -1,4 +1,4 @@
 dice roll modifiers
 religion
 
-	^ self intelligenceModifier + (self proficiencyValue * self skillsLookup at: #religion) asString
+	^ self intelligenceModifier + (self proficiencyBonus * self skillsLookup at: #religion) asString

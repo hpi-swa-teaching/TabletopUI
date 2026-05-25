@@ -1,4 +1,4 @@
 accessing - abilities
 intelligenceModifier
 	
-	^ (self convertToModifier: self intelligence) asString
+	^ (self modifierOf: #intelligence) asString

@@ -1,4 +1,4 @@
 accessing - abilities
 charismaModifier
 	
-	^ (self convertToModifier: self charisma) asString
+	^ (self modifierOf: #charisma) asString

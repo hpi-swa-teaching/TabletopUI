@@ -1,4 +1,4 @@
 dice roll modifiers
 nature
 
-	^ self intelligenceModifier + (self proficiencyValue * self skillsLookup at: #nature) asString
+	^ self intelligenceModifier + (self proficiencyBonus * self skillsLookup at: #nature) asString

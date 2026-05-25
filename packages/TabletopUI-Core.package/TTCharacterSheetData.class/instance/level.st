@@ -1,4 +1,4 @@
-accessing
+accessing - identity
 level
 
-	^ level
+	^ self class levelForExperiencePoints: (self experiencePoints asNumber)

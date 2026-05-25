@@ -2,6 +2,7 @@ templates
 fighter
 
 	^ self default
+		className: 'Fighter';
 		armorClass: 18;
 		speed: 9;
 		maxHP: 12;

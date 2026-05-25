@@ -1,4 +1,4 @@
 dice roll modifiers
 medicine
 
-	^ self wisdomModifier + (self proficiencyValue * self skillsLookup at: #medicine) asString
+	^ self wisdomModifier + (self proficiencyBonus * self skillsLookup at: #medicine) asString

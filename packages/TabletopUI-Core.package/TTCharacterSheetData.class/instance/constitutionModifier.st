@@ -1,4 +1,4 @@
 accessing - abilities
 constitutionModifier
 	
-	^ (self convertToModifier: self constitution) asString
+	^ (self modifierOf: #constitution) asString

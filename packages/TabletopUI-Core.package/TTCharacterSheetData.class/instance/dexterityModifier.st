@@ -1,4 +1,4 @@
 accessing - abilities
 dexterityModifier
 	
-	^ (self convertToModifier: self dexterity) asString
+	^ (self modifierOf: #dexterity) asString

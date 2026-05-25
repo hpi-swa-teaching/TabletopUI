@@ -1,0 +1,4 @@
+accessing
+maximumPageCount
+
+	^ 3

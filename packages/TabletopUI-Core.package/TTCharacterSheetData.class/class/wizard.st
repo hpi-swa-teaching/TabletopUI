@@ -2,6 +2,7 @@ templates
 wizard
 
 	^ self default
+		className: 'Wizard';
 		armorClass: 12;
 		speed: 9;
 		maxHP: 8;

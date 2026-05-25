@@ -7,7 +7,6 @@
 	"commentStamp" : "DS 5/15/2022 12:55",
 	"instvars" : [
 		"baseValues",
-		"proficiencyValue",
 		"throwsLookup",
 		"skillsLookup",
 		"armorClass",
@@ -26,7 +25,10 @@
 		"inputField",
 		"morph",
 		"inspiration",
-		"abilities" ],
+		"abilities",
+		"className",
+		"proficiencyBonus",
+		"experiencePoints" ],
 	"name" : "TTCharacterSheetData",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 dice roll modifiers
 intimidation
 
-	^ self charismaModifier + (self proficiencyValue * self skillsLookup at: #intimidation) asString
+	^ self charismaModifier + (self proficiencyBonus * self skillsLookup at: #intimidation) asString

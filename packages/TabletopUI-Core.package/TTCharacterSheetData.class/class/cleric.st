@@ -2,6 +2,7 @@ templates
 cleric
 
 	^ self default
+		className: 'Cleric';
 		armorClass: 16;
 		speed: 7.5;
 		maxHP: 12;

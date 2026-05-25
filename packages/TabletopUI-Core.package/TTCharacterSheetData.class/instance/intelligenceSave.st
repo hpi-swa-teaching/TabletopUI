@@ -1,4 +1,4 @@
 dice roll modifiers
 intelligenceSave
 
-	^ self intelligenceModifier + (self proficiencyValue * self throwsLookup at: #intelligenceSave) asString
+	^ self intelligenceModifier + (self proficiencyBonus * self throwsLookup at: #intelligenceSave) asString

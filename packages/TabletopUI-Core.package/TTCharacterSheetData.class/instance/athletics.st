@@ -1,4 +1,4 @@
 dice roll modifiers
 athletics
 
-	^ self strengthModifier + (self proficiencyValue * self skillsLookup at: #athletics) asString
+	^ self strengthModifier + (self proficiencyBonus * self skillsLookup at: #athletics) asString

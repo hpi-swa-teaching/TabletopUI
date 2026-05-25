@@ -1,4 +1,4 @@
 dice roll modifiers
 deception
 
-	^ self charismaModifier + (self proficiencyValue * self skillsLookup at: #deception) asString
+	^ self charismaModifier + (self proficiencyBonus * self skillsLookup at: #deception) asString

@@ -3,3 +3,4 @@ initialize
 	
 	super initialize.
 	self abilities: Dictionary new.
+	self initializeSkillsLookup.

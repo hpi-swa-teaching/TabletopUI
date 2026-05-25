@@ -6,7 +6,7 @@ centerColumnSpec: aToolBuilder
 		children: (OrderedCollection new
 			add: ((self labelledAttributeSpec: aToolBuilder
 				name: #defaultProficiencyLabel
-				stat: #proficiencyValueString)
+				stat: #proficiencyBonusString)
 				frame: (0 @ 0 rect: 1 @ 0.075));
 		
 			add: ((self proficiencyListSpec: aToolBuilder lookup: #throwsLookup)
