@@ -1,4 +1,5 @@
-accessing
+accessing - abilities
 wisdom: anObject
 
-	self baseValues at: #wisdom put: anObject
+	self abilities at: #wisdom put: anObject.
+	self changed: #wisdom

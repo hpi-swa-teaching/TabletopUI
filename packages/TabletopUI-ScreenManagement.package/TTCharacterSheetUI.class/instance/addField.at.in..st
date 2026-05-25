@@ -14,5 +14,6 @@ addField: aSymbol at: aPoint in: anImageMorph
 		extent: 150 @ 40;
 		wrapFlag: false;
 		lock.
+	self model addDependent: textMorph.
  	anImageMorph addMorph: textMorph.
 	textMorph position: aPoint.

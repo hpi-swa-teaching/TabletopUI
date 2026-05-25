@@ -25,7 +25,8 @@
 		"dialog",
 		"inputField",
 		"morph",
-		"inspiration" ],
+		"inspiration",
+		"abilities" ],
 	"name" : "TTCharacterSheetData",
 	"pools" : [
 		 ],

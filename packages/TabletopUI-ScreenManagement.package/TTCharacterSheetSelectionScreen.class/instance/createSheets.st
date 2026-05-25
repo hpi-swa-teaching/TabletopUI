@@ -3,5 +3,5 @@ createSheets
 
 	(self characterAdministration players) withIndexDo: [ :player :index |
 		('Gamemaster' = (self characterSheets at: index))
-			ifFalse: [player sheet initializeWith: ((self characterSheets at: index) asSymbol)]
+			ifFalse: [TTCharacterSheetData forTemplate: ((self characterSheets at: index) asSymbol)]
 		]

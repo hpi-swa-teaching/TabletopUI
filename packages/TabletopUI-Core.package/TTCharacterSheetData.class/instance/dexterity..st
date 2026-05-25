@@ -1,3 +1,5 @@
-accessing
+accessing - abilities
 dexterity: anObject
-	self baseValues at: #dexterity put: anObject
+
+	self abilities at: #dexterity put: anObject.
+	self changed: #dexterity
