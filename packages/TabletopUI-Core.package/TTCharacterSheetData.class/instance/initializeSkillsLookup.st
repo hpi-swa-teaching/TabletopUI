@@ -1,5 +1,5 @@
 initialize-release
 initializeSkillsLookup
 
-	skillsLookup := Dictionary new.
-	self class skillNames do: [:skill | skillsLookup at: skill put: 0]
+	self skillsLookup: Dictionary new.
+	self class skillNames do: [:skill | self skillsLookup at: skill put: 0]

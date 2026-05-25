@@ -1,3 +1,3 @@
 accessing
 throwsLookup
-	^ throwsLookup
+	^ savingThrowsLookup

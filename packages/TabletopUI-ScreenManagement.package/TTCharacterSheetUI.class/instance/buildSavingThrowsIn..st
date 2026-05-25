@@ -5,6 +5,6 @@ buildSavingThrowsIn: aMorph
 	xOffset := 20.
 	yOffset := 37.
 	yDistance := 23.3.
-	savingThrows := #(#strengthSave #dexteritySave #constitutionSave #intelligenceSave #wisdomSave #charismaSave).
+	savingThrows := TTCharacterSheetData savingThrowAbilities.
 	savingThrows doWithIndex: [:savingThrow :n |
-		self addSkill: savingThrow at: xOffset @ (yDistance * (n - 1) + yOffset) in: aMorph].
+		self addSavingThrow: savingThrow at: xOffset @ (yDistance * (n - 1) + yOffset) in: aMorph].

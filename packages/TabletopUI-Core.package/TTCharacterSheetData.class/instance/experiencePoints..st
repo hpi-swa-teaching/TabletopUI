@@ -6,4 +6,4 @@ experiencePoints: anObject
 	self changed: #level.
 	self changed: #levelString.
 	self changed: #proficiencyBonus.
-	self broadcastSkillChanges
+	self broadcastSkillAndSavingThrowChanges

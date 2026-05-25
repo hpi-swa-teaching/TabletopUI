@@ -1,3 +1,3 @@
 accessing
 throwsLookup: anObject
-	throwsLookup := anObject
+	savingThrowsLookup := anObject

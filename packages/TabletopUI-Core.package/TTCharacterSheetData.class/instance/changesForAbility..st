@@ -3,4 +3,4 @@ changesForAbility: aSymbol
 
 	self changed: aSymbol.
 	self changed: (aSymbol , 'Modifier') asSymbol.
-	self broadcastSkillChanges
+	self broadcastSkillAndSavingThrowChanges
