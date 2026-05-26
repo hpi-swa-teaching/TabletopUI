@@ -1,4 +1,5 @@
 forms
 plusButtonForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'plusButton.png') scaledToSize: self buttonExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'plusButton.png')
+		scaledToSize: self buttonExtent

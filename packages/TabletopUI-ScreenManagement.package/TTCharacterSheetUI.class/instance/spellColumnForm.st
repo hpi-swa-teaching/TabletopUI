@@ -1,4 +1,5 @@
 forms
 spellColumnForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'spellColumn.png') scaledToSize: self spellColumnExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'spellColumn.png')
+		scaledToSize: self spellColumnExtent

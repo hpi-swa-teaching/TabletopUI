@@ -6,5 +6,7 @@ buildSkillsIn: aMorph
 	yOffset := 52.
 	yDistance := 31.5.
 	skills := TTCharacterSheetData skillNames.
-	skills doWithIndex: [:skill :n |
-		self addSkill: skill at: xOffset @ (yDistance * (n - 1) + yOffset) in: aMorph].
+	skills doWithIndex: [:skill :index |
+		self addSkill: skill
+			at: xOffset @ (yDistance * (index - 1) + yOffset)
+			in: aMorph].

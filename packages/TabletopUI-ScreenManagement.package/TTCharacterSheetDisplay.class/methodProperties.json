@@ -11,7 +11,7 @@
 		"centerColumnSpec:" : "jv 5/25/2026 11:59",
 		"deathSavesLabelSpec:name:callBack:" : "ob 8/4/2022 13:57",
 		"deathSavesListSpec:name:stat:callBack:" : "ob 8/4/2022 13:58",
-		"deathSavesSpec:" : "jv 5/26/2026 06:32",
+		"deathSavesSpec:" : "jv 5/26/2026 16:39",
 		"defaultExtent" : "ob 8/4/2022 14:13",
 		"hitDiceSpec:name:levelName:currentHitDice:level:hitDieType:onIncrease:onDecrease:" : "tf 5/3/2026 11:38",
 		"hpSpec:" : "ob 8/4/2022 14:32",
@@ -25,6 +25,6 @@
 		"name:" : "ob 8/4/2022 14:59",
 		"proficiencyListSpec:lookup:" : "ob 8/4/2022 14:33",
 		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "tf 5/3/2026 11:38",
-		"recoverySpec:" : "jv 5/26/2026 09:10",
+		"recoverySpec:" : "jv 5/26/2026 14:52",
 		"rightColumnFrame" : "ob 8/4/2022 14:13",
 		"rightColumnSpec:" : "ob 8/4/2022 14:10" } }

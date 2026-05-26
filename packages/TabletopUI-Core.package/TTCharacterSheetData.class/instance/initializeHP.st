@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeHP
 
 	self maxHP: 10.

@@ -1,3 +1,7 @@
 accessing - combat
 deathSaveFailures: anObject
-	deathSaveFailures := (anObject max: 0) min: self defaultMaxDeathSaves
+
+	deathSaveFailures := anObject asNumber \\ (self defaultMaxDeathSaves + 1).
+	self
+		changed: #deathSaveFailures;
+		changed: #deathSaveFailuresString

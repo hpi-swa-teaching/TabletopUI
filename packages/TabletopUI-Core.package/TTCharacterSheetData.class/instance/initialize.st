@@ -1,8 +1,10 @@
-initialize-release
+initialization
 initialize
 	
 	super initialize.
 	self abilities: Dictionary new.
-	self initializeSkillsLookup.
-	self initializeSavingThrowsLookup.
-	self initializeHP
+	self
+		initializeSkillsLookup;
+		initializeSavingThrowsLookup;
+		initializeHP;
+		initializeDeathSaves

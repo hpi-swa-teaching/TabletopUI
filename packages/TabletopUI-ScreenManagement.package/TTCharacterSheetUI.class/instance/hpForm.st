@@ -1,4 +1,5 @@
 forms
 hpForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'hp.png') scaledToSize: self hpExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'hp.png')
+		scaledToSize: self hpExtent

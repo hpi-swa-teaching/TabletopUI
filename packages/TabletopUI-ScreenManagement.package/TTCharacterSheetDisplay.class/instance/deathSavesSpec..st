@@ -8,13 +8,13 @@ deathSavesSpec: aToolBuilder
 			add: ((self deathSavesListSpec: aToolBuilder 
 				name: #defaultSuccessesLabel 
 				stat: #deathSaveSuccessesString 
-				callBack: #incrementSuccessfulDeathSaves)
+				callBack: #incrementDeathSaveSuccesses)
 				frame: (0 @ 0 rect: 1 @ 0.28));
 				
 			add: ((self deathSavesListSpec: aToolBuilder 
 				name: #defaultFailuresLabel 
 				stat: #deathSaveFailuresString
-				callBack: #incrementFailedDeathSaves)
+				callBack: #incrementDeathSaveFailures)
 				frame: (0 @ 0.3 rect: 1 @ 0.58));
 				
 			add: ((self deathSavesLabelSpec: aToolBuilder 

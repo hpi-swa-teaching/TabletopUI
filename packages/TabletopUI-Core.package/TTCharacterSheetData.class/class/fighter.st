@@ -11,4 +11,5 @@ fighter
 		constitution: 15;
 		intelligence: 8;
 		wisdom: 12;
+		hitDieType: 10;
 		yourself

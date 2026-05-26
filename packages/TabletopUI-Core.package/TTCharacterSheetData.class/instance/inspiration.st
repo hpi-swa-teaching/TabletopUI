@@ -1,4 +1,4 @@
-accessing
+accessing - combat
 inspiration
 
-	^ inspiration ifNil: [false]
+	^ inspiration ifNil: [0]

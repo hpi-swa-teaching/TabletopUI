@@ -12,4 +12,5 @@ wizard
 		intelligence: 16;
 		wisdom: 13;
 		charisma: 8;
+		hitDieType: 6;
 		yourself

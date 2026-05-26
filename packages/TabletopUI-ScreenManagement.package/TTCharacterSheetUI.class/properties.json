@@ -11,7 +11,9 @@
 		"label",
 		"sheet",
 		"currentPage",
-		"arrow" ],
+		"arrow",
+		"deathSaveSuccessMorph",
+		"deathSaveFailureMorph" ],
 	"name" : "TTCharacterSheetUI",
 	"pools" : [
 		 ],

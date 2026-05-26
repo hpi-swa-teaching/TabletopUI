@@ -1,4 +1,5 @@
 input handling
 applyLongRest
 
-	self model longRest.
+	self model rest.
+	self synchronizeDeathSaveRows

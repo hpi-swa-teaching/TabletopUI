@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeSavingThrowsLookup
 	
 	self savingThrowsLookup: Dictionary new.

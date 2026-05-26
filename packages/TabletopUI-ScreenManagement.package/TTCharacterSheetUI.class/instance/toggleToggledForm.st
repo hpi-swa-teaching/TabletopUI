@@ -1,4 +1,5 @@
 forms
 toggleToggledForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'toggle_toggled.png') scaledToSize: self toggleExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'toggle_toggled.png')
+		scaledToSize: self toggleExtent

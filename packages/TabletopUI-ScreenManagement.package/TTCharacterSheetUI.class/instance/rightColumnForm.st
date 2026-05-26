@@ -1,4 +1,5 @@
 forms
 rightColumnForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'rightColumn.png') scaledToSize: self columnExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'rightColumn.png')
+		scaledToSize: self columnExtent

@@ -1,4 +1,5 @@
 input handling
 applyDamage
 
-	self processInputRequesting: 'How much damage?' calling: [:receiver :argument | receiver takeDamage: argument]
+	self processInputRequesting: 'How much damage?'
+		calling: [:receiver :argument | receiver takeDamage: argument]

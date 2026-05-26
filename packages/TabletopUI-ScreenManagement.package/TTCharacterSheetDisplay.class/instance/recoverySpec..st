@@ -11,7 +11,7 @@ recoverySpec: aToolBuilder
 					currentHitDice: #hitDiceRemainingString
 					level: #levelString
 					hitDieType: #hitDieTypeString
-					onIncrease: #incrementHitDice
+					onIncrease: #gainHitDie
 					onDecrease: #spendHitDie)
 				model: self model;
 				color: #backgroundColorBaseValues;		

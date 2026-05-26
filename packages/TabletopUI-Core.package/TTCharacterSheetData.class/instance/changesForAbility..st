@@ -1,6 +1,7 @@
 accessing - abilities
 changesForAbility: aSymbol
 
-	self changed: aSymbol.
-	self changed: (aSymbol , 'Modifier') asSymbol.
-	self broadcastSkillAndSavingThrowChanges
+	self
+		changed: aSymbol;
+		changed: (aSymbol , 'Modifier') asSymbol;
+		broadcastSkillAndSavingThrowChanges
