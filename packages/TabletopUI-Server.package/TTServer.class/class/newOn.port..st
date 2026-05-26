@@ -1,7 +1,7 @@
 as yet unclassified
 newOn: address port: port
 
-	| inst echo |
+	| inst echo window sessionmanager |
 	inst := self new.
 	inst networkmanager: (TTServerNetworkManager newWithAddress: address tcpPort: port udpPort: port).
 	inst referencemanager: TTReferenceManager new.
@@ -10,6 +10,13 @@ newOn: address port: port
 	echo := ChatEcho new.
 	inst referencemanager addEntry: echo forId: 'chat'.
 	echo networkmanager: (inst networkmanager).
+	
+	window:= TTTabletopWindow openEmptySessionAddress: address tcpPort: port.
+	
+	sessionmanager:= TTServerSessionManager new.
+	sessionmanager window: window.
+	sessionmanager networkmanager: inst networkmanager.
+	inst referencemanager addEntry: sessionmanager forId: 'sessionmanager'.
 	
 	inst networkmanager start.
 	

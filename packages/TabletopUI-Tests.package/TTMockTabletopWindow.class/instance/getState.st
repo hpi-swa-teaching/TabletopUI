@@ -1,0 +1,4 @@
+accessing
+getState
+
+	^self currentState.

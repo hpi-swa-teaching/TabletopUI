@@ -1,4 +1,4 @@
 accessing
-gameState
+getState
 
 	 ^ self contents first model getState.

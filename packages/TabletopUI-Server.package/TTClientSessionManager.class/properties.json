@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"networkmanager",
-		"referencemanager",
-		"sessionmanager" ],
-	"name" : "TTServer",
+		 ],
+	"name" : "TTClientSessionManager",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTSessionManager",
 	"type" : "normal" }
