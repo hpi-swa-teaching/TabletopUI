@@ -6,4 +6,7 @@ experiencePoints: anObject
 	self changed: #level.
 	self changed: #levelString.
 	self changed: #proficiencyBonus.
-	self broadcastSkillAndSavingThrowChanges
+	self broadcastSkillAndSavingThrowChanges.
+	self changed: #hitDiceTotal.
+	self changed: #hitDiceRemaining.
+	self hitDiceRemaining: ((self hitDiceRemaining min: self level) max: 0)

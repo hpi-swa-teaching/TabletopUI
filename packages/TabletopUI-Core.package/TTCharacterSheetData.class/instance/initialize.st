@@ -5,4 +5,4 @@ initialize
 	self abilities: Dictionary new.
 	self initializeSkillsLookup.
 	self initializeSavingThrowsLookup.
-	self initializeHP.
+	self initializeHP

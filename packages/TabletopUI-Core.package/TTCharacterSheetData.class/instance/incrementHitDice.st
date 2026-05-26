@@ -1,5 +1,5 @@
 health and damage
 incrementHitDice
 
-	self currentHitDice: self currentHitDice + 1.
-	self changed: #currentHitDiceString
+	self hitDiceRemaining: self hitDiceRemaining + 1.
+	self changed: #hitDiceRemainingString

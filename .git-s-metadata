@@ -308,6 +308,30 @@ GSMetadata {
 				'spellBlock.png'
 			],
 			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'restButton.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'minusButton.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'plusButton.png'
+			],
+			#encoding : @18
 		}
 	],
 	#name : 'TabletopUI'

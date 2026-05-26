@@ -1,4 +1,4 @@
 health and damage
 resetHitDice
 
-	self currentHitDice: self level
+	self hitDiceRemaining: self level

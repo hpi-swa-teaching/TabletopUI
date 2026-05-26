@@ -8,11 +8,11 @@ recoverySpec: aToolBuilder
 			add: ((self hitDiceSpec: aToolBuilder
 					name: #defaultHitDiceLabel
 					levelName: #defaultLevelLabel
-					currentHitDice: #currentHitDiceString
+					currentHitDice: #hitDiceRemainingString
 					level: #levelString
-					hitDieType: #hitDieTypeText
+					hitDieType: #hitDieTypeString
 					onIncrease: #incrementHitDice
-					onDecrease: #decrementHitDice)
+					onDecrease: #spendHitDie)
 				model: self model;
 				color: #backgroundColorBaseValues;		
 				frame: (0 @ 0 rect: 0.4 @ 1);

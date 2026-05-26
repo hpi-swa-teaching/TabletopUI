@@ -13,4 +13,5 @@ default
 		intelligence: 10;
 		wisdom: 10;
 		charisma: 10;
+		hitDieType: 8;
 		yourself

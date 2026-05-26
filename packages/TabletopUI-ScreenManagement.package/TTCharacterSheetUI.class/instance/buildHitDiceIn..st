@@ -2,4 +2,5 @@ build
 buildHitDiceIn: aMorph
 
 	Transcript show: 'placeholder value'.
-	self addField: #strength sized: 50 @ 30 at: 80 @ 35 in: aMorph.
+	self addField: #hitDieTypeString at: 20 @ 35 in: aMorph.
+	self addField: #hitDiceTotal at: 80 @ 35 in: aMorph.
