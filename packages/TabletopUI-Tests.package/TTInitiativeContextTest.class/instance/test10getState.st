@@ -1,16 +1,22 @@
 testing
 test10getState
 
-	"| state playerKey |
-	super test01GetState.
-	
-	state:= self context getState.
-	
-	self 
-		assert: (state includesKey: #rolls);
-		assert: ((state at: #rolls) isKindOf: Dictionary).
-	playerKey:= (state at: #rolls) ifEmpty: [nil] ifNotEmpty: [:dict | dict keys anyOne].
-	playerKey ifNil: [^self].
-	self 
-		assert: (((state at: #rolls) at: playerKey) isKindOf: Integer)."
-	
+	| state rollsDict alice |
+	self assertContextHasGameStateKey.
+
+	alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
+	self context rolls add: alice -> 12.
+
+	state := self context getState.
+
+	self
+		assert: (state includesKey: TTGameStateKeys keyRolls);
+		assert: ((state at: TTGameStateKeys keyRolls) isKindOf: Dictionary).
+
+	rollsDict := state at: TTGameStateKeys keyRolls.
+	self
+		assert: rollsDict notEmpty;
+		assert: (rollsDict keys allSatisfy: [:key | key isKindOf: String]);
+		assert: (rollsDict values allSatisfy: [:val | val isKindOf: Integer]);
+		assert: (rollsDict includesKey: 'Alice');
+		assert: (rollsDict at: 'Alice') = 12

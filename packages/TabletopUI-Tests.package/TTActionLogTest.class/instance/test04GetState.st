@@ -1,12 +1,10 @@
 testing
 test04GetState
 
-	|state|
+	| state |
 	state := self log getState.
-	
-	self 
+
+	self
 		assert: (state isKindOf: Dictionary);
-		
-		assert: (state includesKey: #actionLogList);
-		assert: ((state at: #actionLogList) isKindOf: Array).
-		
+		assert: (state includesKey: TTGameStateKeys keyActionLogList);
+		assert: ((state at: TTGameStateKeys keyActionLogList) isKindOf: Array)

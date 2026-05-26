@@ -1,16 +1,17 @@
 testing
 test04CharacterTokenAggregationInState
 
-	| state tokenKey tokenEntry |
+	| state characterTokens aliceEntry |
+	self map initializePlayerTokens: (OrderedCollection new
+		add: (TTCharacter newWithName: 'Alice' role: TTCharacter player);
+		yourself).
 	state := self map getState.
-	tokenKey:= (state at: #characterTokens) ifEmpty: [nil] ifNotEmpty: [ :dict | dict keys anyOne ].
-	tokenKey ifNil: [ ^self].
-	
-	tokenEntry:= (state at: #characterTokens) at: tokenKey.
-	self 
-		assert: (tokenEntry isKindOf: Dictionary);
-		assert: (tokenEntry includesKey: #name);
-		assert: (tokenKey = (tokenEntry at: #name));
-		assert: (tokenEntry includesKey: #tileCoordinates);
-		assert: (tokenEntry includesKey: #pixelCoordinates);
-		assert: ((tokenEntry at: #tileCoordinates) = self map convertPixelPositionToTileCoordinates: (self tokenEntry at: #pixelCoordinates)).
+	characterTokens := state at: TTGameStateKeys keyCharacterTokens.
+
+	self assert: (characterTokens includesKey: 'Alice').
+	aliceEntry := characterTokens at: 'Alice'.
+	self
+		assert: (aliceEntry isKindOf: Dictionary);
+		assert: (aliceEntry includesKey: TTGameStateKeys keyCharacter);
+		assert: (aliceEntry includesKey: TTGameStateKeys keyMapCoordinates);
+		assert: ((aliceEntry at: TTGameStateKeys keyCharacter) at: TTGameStateKeys keyName) = 'Alice'

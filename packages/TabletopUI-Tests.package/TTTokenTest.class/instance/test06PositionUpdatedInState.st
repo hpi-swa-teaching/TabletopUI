@@ -1,24 +1,27 @@
 testing
 test06PositionUpdatedInState
-	"| eventAtOrigin  stateBeforeDrag stateAfterStationaryDrag stateAfterDrag |
-	
-	stateBeforeDrag:= self token getState.
-	
-	eventAtOrigin:= MouseButtonEvent new
-		setType: #mouseDown
-		position: self token position
-		which: 1
-		buttons: 1
-		hand: nil
-		stamp: 0.
-		
-	self token mouseMove: eventAtOrigin.
-	stateAfterStationaryDrag := self token getState.
-	self assert: ((stateBeforeDrag at: #mapPosition) = (stateAfterStationaryDrag at: #mapPosition)).
-	self token position: 250 @ 300.
-	stateAfterDrag:= self token getState.
-	self assert: ((stateAfterDrag mapCoordinates at: #x = 250) and: (stateAfterDrag mapCoordinates at: #y = 300))"
-	
-	
 
-		
+	| newTile stateBefore stateAfter mapBefore mapAfter |
+	self tile
+		mapCoordinates: 1 @ 1;
+		position: 0 @ 0.
+
+	stateBefore := self token getState.
+	mapBefore := stateBefore at: TTGameStateKeys keyMapCoordinates.
+	self
+		assert: ((mapBefore at: TTGameStateKeys keyTileCoordinates) at: #x) = 1;
+		assert: ((mapBefore at: TTGameStateKeys keyTileCoordinates) at: #y) = 1.
+
+	newTile := TTTile new
+		mapCoordinates: 5 @ 7;
+		position: 200 @ 300;
+		yourself.
+	self token defaultTile: newTile.
+
+	stateAfter := self token getState.
+	mapAfter := stateAfter at: TTGameStateKeys keyMapCoordinates.
+	self
+		assert: ((mapAfter at: TTGameStateKeys keyTileCoordinates) at: #x) = 5;
+		assert: ((mapAfter at: TTGameStateKeys keyTileCoordinates) at: #y) = 7;
+		assert: ((mapAfter at: TTGameStateKeys keyPixelCoordinates) at: #x) = 200;
+		assert: ((mapAfter at: TTGameStateKeys keyPixelCoordinates) at: #y) = 300

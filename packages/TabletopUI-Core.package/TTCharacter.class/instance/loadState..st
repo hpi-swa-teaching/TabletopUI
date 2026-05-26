@@ -1,6 +1,6 @@
 initialization
 loadState: aDictionary
 
-	self 
-		name: (aDictionary at: #name);
-		role: (aDictionary at: #role)
+	self
+		name: (aDictionary at: TTGameStateKeys keyName);
+		role: (aDictionary at: TTGameStateKeys keyRole)

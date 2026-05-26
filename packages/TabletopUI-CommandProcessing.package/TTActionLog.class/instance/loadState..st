@@ -1,5 +1,5 @@
 initialization
 loadState: aDictionary
 
-	self actionLogList: (aDictionary at: #actionLogList) asOrderedCollection.
-	self	changed: #actionLogList
+	self actionLogList: (aDictionary at: TTGameStateKeys keyActionLogList) asOrderedCollection.
+	self changed: #actionLogList

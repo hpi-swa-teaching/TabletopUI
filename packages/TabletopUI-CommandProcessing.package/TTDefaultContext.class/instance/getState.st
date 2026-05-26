@@ -2,5 +2,5 @@ accessing
 getState
 
 	^ Dictionary new
-		at: #gameState put: self gameState;
+		at: TTGameStateKeys keyGameState put: self gameState;
 		yourself

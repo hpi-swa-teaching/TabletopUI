@@ -2,6 +2,6 @@ accessing
 getState
 
 	^ Dictionary new
-		at: #character put: self character getState;
-		at: #mapCoordinates put: self getMapCoordinates;
+		at: TTGameStateKeys keyCharacter put: self character getState;
+		at: TTGameStateKeys keyMapCoordinates put: self getMapCoordinates;
 		yourself

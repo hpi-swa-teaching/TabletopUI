@@ -1,14 +1,15 @@
 testing
 test05GetState
 
-	"|state |
+	| state |
+	self tile
+		mapCoordinates: 2 @ 3;
+		position: 50 @ 75.
 	state := self token getState.
-	
-	self 
+
+	self
 		assert: (state isKindOf: Dictionary);
-		
-		assert: (state includesKey: #character);
-		assert: ((state at: #character) isKindOf: Dictionary);
-		assert: (state includesKey: #mapCoordinates);
-		assert: ((state at: #mapCoordinates) isKindOf: Dictionary)."
-		
+		assert: (state includesKey: TTGameStateKeys keyCharacter);
+		assert: ((state at: TTGameStateKeys keyCharacter) isKindOf: Dictionary);
+		assert: (state includesKey: TTGameStateKeys keyMapCoordinates);
+		assert: ((state at: TTGameStateKeys keyMapCoordinates) isKindOf: Dictionary)

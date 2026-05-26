@@ -1,6 +1,6 @@
 accessing
 getState
 
-	 ^Dictionary new
-		at: #parser put: self parser getState;
+	^ Dictionary new
+		at: TTGameStateKeys keyParser put: self parser getState;
 		yourself

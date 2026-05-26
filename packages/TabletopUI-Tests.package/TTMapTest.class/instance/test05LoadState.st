@@ -1,14 +1,22 @@
 testing
 test05LoadState
 
-    self map loadState: self mapInstantiationDict.
+	| state characterTokens aliceEntry newTileCoords aliceToken |
+	self map initializePlayerTokens: (OrderedCollection new
+		add: (TTCharacter newWithName: 'Alice' role: TTCharacter player);
+		yourself).
+	aliceToken := self map tokens first.
 
-    self map tokens do: [:token |
+	state := self map getState.
+	characterTokens := state at: TTGameStateKeys keyCharacterTokens.
+	aliceEntry := characterTokens at: 'Alice'.
+	newTileCoords := Dictionary new
+		at: #x put: 3;
+		at: #y put: 5;
+		yourself.
+	(aliceEntry at: TTGameStateKeys keyMapCoordinates)
+		at: TTGameStateKeys keyTileCoordinates put: newTileCoords.
 
-        self assert:
-            (self map convertPixelPositionToTileCoordinates: (token defaultTile coordinates) =
-                (((self characterTokenDictionary
-                    at: token character name asString)
-                        at: #mapPosition)
-                            at: #tileCoordinates))
-    ].
+	self map loadState: state.
+
+	self assert: aliceToken defaultTile mapCoordinates = (3 @ 5)

@@ -1,0 +1,4 @@
+testing
+test04GetState
+
+	self assertContextHasGameStateKey
