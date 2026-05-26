@@ -1,4 +1,4 @@
 forms
 arrowForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'arrow.png') scaledToSize: self arrowExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'arrow.png') scaledToSize: self buttonExtent

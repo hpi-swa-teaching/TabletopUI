@@ -1,11 +1,4 @@
 initialization
 initializeArrow
 
-	| form container |
-	form := self arrowForm.
-	container := Morph new
-		extent: self arrowExtent;
-		color: Color transparent.
-	self configureContainer: container withImage: form.
-	container on: #click send: #nextPage to: self.
-	^ container
+	^ self addButton: #nextPage form: self arrowForm sized: self buttonExtent at: 595 @ 865 in: self sheet.

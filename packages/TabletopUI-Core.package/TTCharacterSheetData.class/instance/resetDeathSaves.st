@@ -1,7 +1,7 @@
 health and damage
 resetDeathSaves
 
-	self failedDeathSaves: self defaultDeathSaves.
-	self successfulDeathSaves: self defaultDeathSaves.
-	self changed: #failedDeathSavesString.
-	self changed: #successfulDeathSavesString
+	self deathSaveFailures: self defaultDeathSaves.
+	self deathSaveSuccesses: self defaultDeathSaves.
+	self changed: #deathSaveFailuresString.
+	self changed: #deathSaveSuccessesString

@@ -1,5 +1,5 @@
 health and damage
 incrementSuccessfulDeathSaves
 
-	self successfulDeathSaves: self successfulDeathSaves + 1.
-	self changed: #successfulDeathSavesString
+	self deathSaveSuccesses: self deathSaveSuccesses + 1.
+	self changed: #deathSaveSuccessesString

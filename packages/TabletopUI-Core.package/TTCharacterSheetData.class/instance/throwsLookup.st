@@ -1,3 +1,0 @@
-accessing
-throwsLookup
-	^ savingThrowsLookup

@@ -1,9 +1,10 @@
 health and damage
 takeDamage: aNumber
 	
-	| hpOvershoot | 
-	
-	aNumber < 0 ifFalse: [
-		hpOvershoot := aNumber - self temporaryHP max: 0.
-		self temporaryHP: (self temporaryHP - aNumber max: 0).
-		self currentHP: (self currentHP - hpOvershoot max: 0)]
+	| absorbed remaining |
+	absorbed := aNumber min: self temporaryHP.
+	self temporaryHP: self temporaryHP - absorbed.
+	remaining := aNumber - absorbed.
+	self currentHP: self currentHP - remaining.
+	self changed: #temporaryHP.
+	self changed: #currentHP

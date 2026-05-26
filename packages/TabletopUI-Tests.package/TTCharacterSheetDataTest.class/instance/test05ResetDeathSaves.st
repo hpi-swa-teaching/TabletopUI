@@ -2,8 +2,8 @@ testing-death-saves
 test05ResetDeathSaves
 
 	self characterSheet 
-		successfulDeathSaves: 1;
-		failedDeathSaves: 1;
+		deathSaveSuccesses: 1;
+		deathSaveFailures: 1;
 		resetDeathSaves.
-	self assert: (self characterSheet successfulDeathSaves = 0).
-	self assert: (self characterSheet failedDeathSaves = 0)
+	self assert: (self characterSheet deathSaveSuccesses = 0).
+	self assert: (self characterSheet deathSaveFailures = 0)

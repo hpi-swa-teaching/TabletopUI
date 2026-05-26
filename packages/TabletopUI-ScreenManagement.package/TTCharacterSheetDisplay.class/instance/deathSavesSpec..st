@@ -7,13 +7,13 @@ deathSavesSpec: aToolBuilder
 		children: (OrderedCollection new
 			add: ((self deathSavesListSpec: aToolBuilder 
 				name: #defaultSuccessesLabel 
-				stat: #successfulDeathSavesString 
+				stat: #deathSaveSuccessesString 
 				callBack: #incrementSuccessfulDeathSaves)
 				frame: (0 @ 0 rect: 1 @ 0.28));
 				
 			add: ((self deathSavesListSpec: aToolBuilder 
 				name: #defaultFailuresLabel 
-				stat: #failedDeathSavesString
+				stat: #deathSaveFailuresString
 				callBack: #incrementFailedDeathSaves)
 				frame: (0 @ 0.3 rect: 1 @ 0.58));
 				
