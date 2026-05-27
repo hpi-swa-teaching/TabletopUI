@@ -2,10 +2,10 @@
 	"class" : {
 		"newWith:" : "TR 5/13/2026 17:16" },
 	"instance" : {
+		"addPlayerSelectionMenuTo:" : "MH 5/27/2026 22:34",
 		"addToolBar:" : "TR 5/13/2026 17:10",
 		"characterAdministration" : "PB 7/7/2021 16:23",
 		"characterAdministration:" : "JA 5/26/2022 14:31",
-		"createSpecWith:" : "MK 5/21/2026 18:17",
 		"getActivePlayer" : "PB 7/7/2021 16:26",
 		"initialize" : "TR 5/13/2026 17:08",
 		"nameList" : "rf 7/8/2021 14:41",
