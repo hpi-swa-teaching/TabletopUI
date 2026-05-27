@@ -4,8 +4,6 @@ default
 	^ self new
 		experiencePoints: 6000;
 		className: 'Adventurer';
-		armorClass: 10;
-		speed: 30;
 		maxHP: 20;
 		strength: 10;
 		dexterity: 10;

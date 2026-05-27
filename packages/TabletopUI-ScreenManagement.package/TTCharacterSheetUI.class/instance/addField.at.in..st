@@ -8,7 +8,7 @@ addField: aSymbol at: aPoint in: anImageMorph
 		text: aSymbol
 		accept: nil.
 	textMorph lock.
-	self textSettingsFor: textMorph.
-	self model addDependent: textMorph.
- 	anImageMorph addMorph: textMorph.
+	self
+		textSettingsFor: textMorph;
+		add: textMorph ToUI: anImageMorph.
 	textMorph position: aPoint.

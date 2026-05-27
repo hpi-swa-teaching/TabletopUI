@@ -7,4 +7,7 @@ initialize
 		initializeSkillsLookup;
 		initializeSavingThrowsLookup;
 		initializeHP;
-		initializeDeathSaves
+		initializeDeathSaves;
+		initializeStats;
+		initializeInformation;
+		initializeIdentity

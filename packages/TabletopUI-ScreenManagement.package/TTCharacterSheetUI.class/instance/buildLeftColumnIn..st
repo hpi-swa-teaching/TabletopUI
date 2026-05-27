@@ -1,12 +1,11 @@
 build
 buildLeftColumnIn: aMorph
 
-	Transcript show: 'placeholder values'.
-	self addField: #strength
+	self addField: #background
 		sized: 150 @ 330
 		at: 20 @ 40
-		in: aMorph. "Background"
-	self addField: #strength
+		in: aMorph.
+	self addField: #organizations
 		sized: 150 @ 330
 		at: 20 @ 420
-		in: aMorph. "Organizations"	
+		in: aMorph.	

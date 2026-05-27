@@ -10,7 +10,7 @@ addField: aSymbol sized: anExtent at: aPoint in: anImageMorph
 	textMorph
 		extent: anExtent;
 		wrapFlag: false.
-	self textSettingsFor: textMorph.
-	self model addDependent: textMorph.
- 	anImageMorph addMorph: textMorph.
+	self
+		textSettingsFor: textMorph;
+		add: textMorph ToUI: anImageMorph.
 	textMorph position: aPoint

@@ -2,26 +2,26 @@ build
 buildRightColumnIn: aMorph
 
 	Transcript show: 'placeholder values'.
-	self addField: #strength
+	self addField: #personalityTraits
 		sized: 150 @ 70
 		at: 20 @ 20
-		in: aMorph. "Traits"
-	self addField: #strength
+		in: aMorph.
+	self addField: #ideals
 		sized: 150 @ 70 
 		at: 20 @ 115
-		in: aMorph. "Ideals"
-	self addField: #strength
+		in: aMorph.
+	self addField: #bonds
 		sized: 150 @ 70
 		at: 20 @ 210
-		in: aMorph. "Bonds"
-	self addField: #strength
+		in: aMorph.
+	self addField: #flaws
 		sized: 150 @ 70
 		at: 20 @ 305
-		in: aMorph. "Flaws"
-	self addField: #strength
+		in: aMorph.
+	self addField: #appearance
 		sized: 150 @ 155
 		at: 20 @ 400
-		in: aMorph. "Appearance"
+		in: aMorph.
 	self addField: #strength
 		sized: 150 @ 155
 		at: 20 @ 588

@@ -1,4 +1,4 @@
 accessing - identity
 className
 
-	^ className
+	^ self identity at: #className
