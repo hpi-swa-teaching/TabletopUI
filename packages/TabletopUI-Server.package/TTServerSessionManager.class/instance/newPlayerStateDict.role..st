@@ -1,8 +1,5 @@
-server session management
+as yet unclassified
 newPlayerStateDict:name role: role
-
-	| stateJSON |
-	stateJSON:= self gameState.
 
 	^		
 		Dictionary new

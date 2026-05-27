@@ -13,5 +13,5 @@
 	"name" : "TTGamemasterSelectionScreenTest",
 	"pools" : [
 		 ],
-	"super" : "TTTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"currentState" ],
+	"name" : "TTMockTabletopWindow",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
