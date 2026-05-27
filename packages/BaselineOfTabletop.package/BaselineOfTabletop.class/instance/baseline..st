@@ -8,12 +8,14 @@ baseline: spec
 			spec
 				baseline: 'GitS' with: [spec repository: 'github://hpi-swa/git-s:latest-release/src'];
 				package: 'TabletopUI-Core' with: [spec requires: #('GitS')];
+				package: 'TabletopUI-Network';
+				package: 'TabletopUI-Server';
 				package: 'TabletopUI-CommandProcessing'
                     		with: [spec requires: #('TabletopUI-Core')];
 				package: 'TabletopUI-ScreenManagement'
                     		with: [spec requires: #('TabletopUI-Core')];
 				package: 'TabletopUI-Tests' 
-					with: [spec requires: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement')];
+					with: [spec requires: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement' 'TabletopUI-Network' 'TabletopUI-Server')];
 				yourself.
-			spec group: 'default' with: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement' 'TabletopUI-Tests')];
+			spec group: 'default' with: #('TabletopUI-Core' 'TabletopUI-CommandProcessing' 'TabletopUI-ScreenManagement' 'TabletopUI-Tests' 'TabletopUI-Network' 'TabletopUI-Server')];
 			yourself
