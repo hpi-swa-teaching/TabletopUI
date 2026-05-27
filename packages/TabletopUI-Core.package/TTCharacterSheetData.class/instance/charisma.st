@@ -1,4 +1,4 @@
-accessing - abilities
+accessing
 charisma
 
-	^ (self abilities at: #charisma) asString
+	^ (self baseValues at: #charisma) asString

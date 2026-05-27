@@ -1,4 +1,4 @@
-accessing - abilities
+accessing
 strength
 
-	^ (self abilities at: #strength) asString
+	^ (self baseValues at: #strength) asString

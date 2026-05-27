@@ -11,5 +11,5 @@
 	"name" : "TTCommandTestBase",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }

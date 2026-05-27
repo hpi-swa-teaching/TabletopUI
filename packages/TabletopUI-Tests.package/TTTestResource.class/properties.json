@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"assetLoader" ],
+	"name" : "TTTestResource",
+	"pools" : [
+		 ],
+	"super" : "TestResource",
+	"type" : "normal" }

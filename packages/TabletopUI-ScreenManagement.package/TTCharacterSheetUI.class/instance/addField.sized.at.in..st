@@ -8,9 +8,10 @@ addField: aSymbol sized: anExtent at: aPoint in: anImageMorph
 		text: aSymbol
 		accept: (aSymbol , ':') asSymbol.
 	textMorph
+		color: Color transparent;
+		borderWidth: 0;
+		font: (StrikeFont familyName: 'BitstreamVeraSans' pointSize: 20);
 		extent: anExtent;
 		wrapFlag: false.
-	self textSettingsFor: textMorph.
-	self model addDependent: textMorph.
  	anImageMorph addMorph: textMorph.
 	textMorph position: aPoint

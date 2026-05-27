@@ -8,9 +8,10 @@
 	"instvars" : [
 		"screen",
 		"characterAdministration",
-		"window" ],
+		"window",
+		"resource" ],
 	"name" : "TTGamemasterSelectionScreenTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }

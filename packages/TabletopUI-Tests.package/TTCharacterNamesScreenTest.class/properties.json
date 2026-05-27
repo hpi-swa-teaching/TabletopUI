@@ -12,5 +12,5 @@
 	"name" : "TTCharacterNamesScreenTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "TTTestCase",
 	"type" : "normal" }

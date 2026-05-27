@@ -1,8 +1,12 @@
 initialization
 newWith: aTTTabletopWindow
+
+	| window |
 	
-	^ (super newWith: aTTTabletopWindow)
-		initializeCommandBar;
+	window := super newWith: aTTTabletopWindow.
+	window initializeCommandBar;
 		initializeMap;
 		initializeSideBar;
-		yourself
+		initializeMultipanel;
+		yourself.
+	^ window

@@ -1,4 +1,0 @@
-accessing - abilities
-abilities
-
-	^ abilities

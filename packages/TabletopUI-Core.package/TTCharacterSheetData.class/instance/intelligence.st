@@ -1,4 +1,4 @@
-accessing - abilities
+accessing
 intelligence
 
-	^ (self abilities at: #intelligence) asString
+	^ (self baseValues at: #intelligence) asString
