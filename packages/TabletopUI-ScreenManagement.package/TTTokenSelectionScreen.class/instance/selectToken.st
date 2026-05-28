@@ -5,9 +5,9 @@ selectToken
 	
 	fileName := StandardFileMenu oldFileFrom: FileDirectory default withPattern: '*.png'.
 	
-	fileName ifNotNil: [
-		fullPath := fileName directory fullNameFor: fileName name
-	].
+	fileName 
+		ifNotNil: [fullPath := fileName directory fullNameFor: fileName name]
+		ifNil: [fullPath := 'default'].
 	
 	self tokenList at: self selectedIndex put: fullPath.
 	self changed: #nameList.

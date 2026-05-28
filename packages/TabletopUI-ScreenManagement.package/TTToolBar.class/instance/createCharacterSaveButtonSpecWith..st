@@ -5,6 +5,6 @@ createCharacterSaveButtonSpecWith: aToolBuilder
 		model: self;
 		frame: (0 @ 0.3 corner: 1 @ 0.4);
 		label: 'Save';
-		action: #saveCharacterSheet;
+		action: #saveOptions;
 		enabled: #isCharacterSheetEnabled;
 		yourself
