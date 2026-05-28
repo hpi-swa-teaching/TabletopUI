@@ -3,10 +3,12 @@
 		"defaultSize" : "MM 5/8/2021 17:29",
 		"newWith:" : "rf 7/8/2021 10:03" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "rf 7/8/2021 09:50",
+		"acceptDroppingMorph:event:" : "GF 5/26/2026 18:54",
 		"addToken:" : "MM 5/8/2021 12:15",
 		"initialize" : "DS 8/4/2022 10:21",
 		"isTTTile" : "joda 5/9/2021 17:57",
+		"mapCoordinates" : "TK 5/11/2026 01:06",
+		"mapCoordinates:" : "TK 5/11/2026 01:06",
 		"occupied" : "joda 5/9/2021 17:36",
 		"occupied:" : "joda 5/9/2021 17:36",
 		"repelsMorph:event:" : "joda 5/9/2021 17:38",

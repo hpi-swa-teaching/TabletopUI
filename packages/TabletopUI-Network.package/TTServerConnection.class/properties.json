@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTServerConnection",
+	"pools" : [
+		 ],
+	"super" : "TTRelayConnection",
+	"type" : "normal" }

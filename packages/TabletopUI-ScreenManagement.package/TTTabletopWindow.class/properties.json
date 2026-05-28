@@ -8,7 +8,11 @@
 	"instvars" : [
 		"characterAdministration",
 		"contents",
-		"subWindowManager" ],
+		"subWindowManager",
+		"relay",
+		"referencemanager",
+		"networkmanager",
+		"serverSessionManager" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],

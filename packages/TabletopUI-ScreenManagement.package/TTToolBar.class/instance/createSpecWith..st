@@ -6,6 +6,7 @@ createSpecWith: aToolBuilder
 		children: {
 			self createDiceToolButtonSpecWith: aToolBuilder . 
 			self createRulerToolButtonSpecWith: aToolBuilder .
-			self createCharacterSheetButtonSpecWith: aToolBuilder};
+			self createCharacterSheetButtonSpecWith: aToolBuilder .
+			self createConnectedPlayersToolButtonSpecWith: aToolBuilder};
 		frame: (0 @ 0 corner: 1 @ 1);
 		yourself

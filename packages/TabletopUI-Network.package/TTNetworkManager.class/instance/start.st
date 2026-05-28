@@ -1,0 +1,4 @@
+initialization
+start
+
+	self startSharedObjectReceiveLoop

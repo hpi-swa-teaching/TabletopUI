@@ -1,4 +1,4 @@
 toolbuilder
 defaultExtent
 
-	^ 69 * 2 @ 420 / 2
+	^ 210 @ 210

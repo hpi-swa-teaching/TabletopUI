@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWith:" : "DS 8/1/2022 15:58" },
+		"newWith:" : "Jakob Fanselow 5/19/2026 12:01" },
 	"instance" : {
 		"addChildren:to:" : "bv 7/6/2021 14:13",
 		"buildWith:" : "bv 7/3/2021 20:53",
@@ -12,10 +12,12 @@
 		"continueButtonBounds" : "joda 7/7/2021 10:56",
 		"continueButtonLabel" : "MM 5/23/2021 11:00",
 		"createContinueButtonSpecWith:" : "MM 5/23/2021 11:00",
-		"createLeaveButtonSpecWith:" : "MM 5/23/2021 11:02",
+		"createLeaveButtonSpecWith:" : "DavidSimon 5/17/2026 12:46",
 		"createSpecWith:resizable:" : "MM 7/7/2021 13:42",
 		"leave" : "MM 5/23/2021 11:01",
 		"leaveButtonBounds" : "joda 7/7/2021 10:55",
 		"leaveButtonLabel" : "MM 5/24/2021 12:01",
+		"networkmanager" : "Jakob Fanselow 5/19/2026 11:10",
+		"networkmanager:" : "Jakob Fanselow 5/19/2026 11:10",
 		"window" : "joda 5/14/2021 16:29",
 		"window:" : "joda 5/26/2021 18:13" } }

@@ -1,0 +1,19 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tcpSocket",
+		"relayServer",
+		"listener",
+		"shouldClose",
+		"closed",
+		"tcpSocketStream" ],
+	"name" : "TTRelayConnection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,21 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clientAcceptor",
+		"clients",
+		"server",
+		"idAssigner",
+		"udpSocket",
+		"udpEndpoints",
+		"playerPositions",
+		"shouldClose" ],
+	"name" : "TTRelayServer",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

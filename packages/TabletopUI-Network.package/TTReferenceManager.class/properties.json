@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"table" ],
+	"name" : "TTReferenceManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+schema keys
+keyFightingPlayerNames
+
+        ^ #fightingPlayerNames

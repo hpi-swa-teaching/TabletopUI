@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"map" ],
+		"map",
+		"mapHasChanged" ],
 	"name" : "TTMapTest",
 	"pools" : [
 		 ],

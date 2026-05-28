@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTClientSessionManager",
+	"pools" : [
+		 ],
+	"super" : "TTSessionManager",
+	"type" : "normal" }

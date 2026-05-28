@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"invalidPlayerName" : "CR 5/26/2026 13:46",
+		"manager" : "CR 5/25/2026 18:06",
+		"manager:" : "CR 5/25/2026 18:06",
+		"registerTwoGameMasters" : "CR 5/26/2026 13:45",
+		"registerValidPlayer" : "CR 5/26/2026 13:46",
+		"setUp" : "CR 5/26/2026 15:31",
+		"testHandlePlayerRegistrationAddsPlayerToWindow" : "CR 5/26/2026 13:56",
+		"testHandlePlayerRegistrationAddsToRegistry" : "CR 5/26/2026 13:49",
+		"testHandlePlayerRegistrationRejectsDuplicateRole" : "CR 5/26/2026 13:56",
+		"testHandlePlayerRegistrationRejectsToAddToRegistry" : "CR 5/26/2026 13:50",
+		"validPlayerName" : "CR 5/26/2026 13:46",
+		"window" : "CR 5/25/2026 18:06",
+		"window:" : "CR 5/25/2026 18:06" } }

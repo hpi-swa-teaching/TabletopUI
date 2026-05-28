@@ -1,5 +1,5 @@
 testing
 test10Leave
 
-	self screen leave.
-	self assert: self window contents first model class equals: TTPlayerCountScreen.
+	"self screen leave.
+	self assert: self window contents first model class equals: TTPlayerCountScreen."

@@ -1,0 +1,4 @@
+actions
+notifyObserver
+
+	self observer notifyConnectedPlayersToolClosed
