@@ -5,5 +5,5 @@ setUp
 	self window loadState: TTTabletopWindow emptyState.
 	self manager: (TTServerSessionManager new 
 		window: window;
-		networkmanager: TTMockNetworkmanager new;
+		networkManager: TTMockNetworkmanager new;
 		yourself).
