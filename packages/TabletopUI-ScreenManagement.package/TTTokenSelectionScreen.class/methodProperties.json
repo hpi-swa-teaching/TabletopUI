@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"buildWith:" : "TR 5/28/2026 15:21",
+		"characterAdministration:" : "TR 5/28/2026 15:22",
+		"continue" : "TR 5/28/2026 15:22",
+		"continueButtonLabel" : "TR 5/28/2026 15:22",
+		"createListSpecWith:" : "TR 5/28/2026 15:22",
+		"initialize" : "TR 5/28/2026 15:23",
+		"leave" : "TR 5/28/2026 15:23",
+		"listBounds" : "TR 5/28/2026 15:23",
+		"nameList" : "TR 5/28/2026 15:23",
+		"selectToken" : "TR 5/28/2026 15:23",
+		"selectedIndex" : "TR 5/28/2026 15:24",
+		"selectedIndex:" : "TR 5/28/2026 15:24",
+		"tokenList" : "TR 5/28/2026 15:24",
+		"tokenList:" : "TR 5/28/2026 15:24" } }

@@ -3,4 +3,4 @@ continue
 
 	self confirmSelection.
 	
-	self window openGameScreen
+	self window openTokenSelectionScreen

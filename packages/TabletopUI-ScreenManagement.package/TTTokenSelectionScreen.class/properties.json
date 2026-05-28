@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedIndex",
+		"tokenList" ],
+	"name" : "TTTokenSelectionScreen",
+	"pools" : [
+		 ],
+	"super" : "TTScreen",
+	"type" : "normal" }
