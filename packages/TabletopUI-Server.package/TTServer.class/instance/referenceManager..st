@@ -1,3 +1,3 @@
 accessing
-referencemanager: anObject
+referenceManager: anObject
 	referenceManager := anObject

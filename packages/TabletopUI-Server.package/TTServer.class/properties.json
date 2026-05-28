@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"networkmanager",
-		"referencemanager",
-		"sessionmanager" ],
+		"networkManager",
+		"sessionManager",
+		"referenceManager" ],
 	"name" : "TTServer",
 	"pools" : [
 		 ],

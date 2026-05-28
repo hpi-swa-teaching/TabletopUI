@@ -7,7 +7,7 @@
 		"manager:" : "CR 5/25/2026 18:06",
 		"registerTwoGameMasters" : "CR 5/26/2026 13:45",
 		"registerValidPlayer" : "CR 5/26/2026 13:46",
-		"setUp" : "CR 5/26/2026 15:31",
+		"setUp" : "JF 5/28/2026 12:41",
 		"testHandlePlayerRegistrationAddsPlayerToWindow" : "CR 5/26/2026 13:56",
 		"testHandlePlayerRegistrationAddsToRegistry" : "CR 5/26/2026 13:49",
 		"testHandlePlayerRegistrationRejectsDuplicateRole" : "CR 5/26/2026 13:56",
