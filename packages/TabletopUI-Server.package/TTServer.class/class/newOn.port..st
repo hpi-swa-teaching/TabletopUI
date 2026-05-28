@@ -7,7 +7,7 @@ newOn: address port: port
 	inst referencemanager: TTReferenceManager new.
 	inst networkmanager referenceManager: (inst referencemanager).
 	
-	echo := ChatEcho new.
+	echo := TTChatEcho new.
 	inst referencemanager addEntry: echo forId: 'chat'.
 	echo networkmanager: (inst networkmanager).
 	
