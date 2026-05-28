@@ -1,9 +1,13 @@
 as yet unclassified
 selectToken
 
-	| fileName |
+	| fileName fullPath |
 	
-	fileName := (StandardFileMenu oldFileFrom: FileDirectory default withPattern: '*.png') name.
+	fileName := StandardFileMenu oldFileFrom: FileDirectory default withPattern: '*.png'.
 	
-	self tokenList at: self selectedIndex put: fileName.
+	fileName ifNotNil: [
+		fullPath := fileName directory fullNameFor: fileName name
+	].
+	
+	self tokenList at: self selectedIndex put: fullPath.
 	self changed: #nameList.
