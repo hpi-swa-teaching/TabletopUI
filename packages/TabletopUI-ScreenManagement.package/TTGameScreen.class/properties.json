@@ -12,7 +12,10 @@
 		"inputField",
 		"map",
 		"playerSelectionMenu",
-		"tokenBar" ],
+		"tokenBar",
+		"multipanel",
+		"multipanelChanged",
+		"viewContainer" ],
 	"name" : "TTGameScreen",
 	"pools" : [
 		 ],
