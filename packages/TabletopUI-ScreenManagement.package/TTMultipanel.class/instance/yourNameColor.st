@@ -1,5 +1,5 @@
 button management
 yourNameColor
 
-	self flag: #todo. 
-	^ self buttonColorFor: #yourName.
+	self flag: #todo.
+	^ self buttonColorFor: #yourName

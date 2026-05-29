@@ -1,5 +1,5 @@
 toolbuilder
-addConsoleTo: aTransformationMorph
+createMorph
 
 	| consoleMorph |
 
@@ -18,7 +18,5 @@ addConsoleTo: aTransformationMorph
 		color: Color white;
 		borderWidth: 1;
 		borderColor: Color black.
-
-	aTransformationMorph addMorphFront: consoleMorph.
 
 	^ consoleMorph

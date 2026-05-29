@@ -1,4 +1,4 @@
 accessing
-activeView: anObject
+activeView: aSymbol
 
-	activeView := anObject
+	activeView := aSymbol

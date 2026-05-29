@@ -1,4 +1,4 @@
 view management
 addDefaultView
 
-	self openConsole
+	self changeViewTo: #console

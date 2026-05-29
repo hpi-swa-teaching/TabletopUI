@@ -7,7 +7,10 @@
 	"commentStamp" : "MH 5/27/2026 22:45",
 	"instvars" : [
 		"activeView",
-		"gameScreen" ],
+		"viewContainer",
+		"actionLog",
+		"inputField",
+		"playerSelectionMenu" ],
 	"name" : "TTMultipanel",
 	"pools" : [
 		 ],

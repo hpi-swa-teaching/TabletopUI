@@ -1,5 +1,5 @@
 toolbuilder
-addInputFieldTo: aTransformationMorph
+createMorph
 
 	| inputMorph |
 
@@ -19,7 +19,5 @@ addInputFieldTo: aTransformationMorph
 	inputMorph acceptOnCR: true.
 	"inputMorph askBeforeDiscardingEdits: false."
 	"inputMorph hideScrollBarsIndefinitely."
-
-	aTransformationMorph addMorphFront: inputMorph.
 
 	^ inputMorph

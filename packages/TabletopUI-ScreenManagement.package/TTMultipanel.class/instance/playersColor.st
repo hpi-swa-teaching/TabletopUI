@@ -1,4 +1,4 @@
 button management
 playersColor
 
-	^ self buttonColorFor: #players.
+	^ self buttonColorFor: #players

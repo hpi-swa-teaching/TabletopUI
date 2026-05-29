@@ -1,4 +1,4 @@
 button management
 consoleColor
 
-	^ self buttonColorFor: #console.
+	^ self buttonColorFor: #console

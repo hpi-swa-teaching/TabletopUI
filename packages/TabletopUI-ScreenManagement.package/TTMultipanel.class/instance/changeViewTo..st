@@ -1,7 +1,8 @@
 view management
 changeViewTo: aSymbol
-	
+
+	self viewContainer removeAllMorphs.
+
 	self
-		removeOldViewFrom: (self gameScreen viewContainer);
-		setActiveView: aSymbol;
-		addCurrentViewTo: (self gameScreen viewContainer) 
+		activeView: aSymbol;
+		addCurrentView

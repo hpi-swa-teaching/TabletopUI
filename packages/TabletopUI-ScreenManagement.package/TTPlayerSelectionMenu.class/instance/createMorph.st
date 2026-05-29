@@ -1,5 +1,5 @@
-as yet unclassified
-addPlayerSelectionMenuTo: aTransformationMorph
+toolbuilder
+createMorph
 
 	| listMorph |
 	
@@ -16,7 +16,5 @@ addPlayerSelectionMenuTo: aTransformationMorph
 		color: Color white;
 		borderWidth: 1;
 		borderColor: Color black.
-
-	aTransformationMorph addMorphFront: listMorph.
 
 	^ listMorph

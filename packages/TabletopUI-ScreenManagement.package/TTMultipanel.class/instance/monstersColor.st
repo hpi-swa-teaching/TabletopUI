@@ -1,4 +1,4 @@
 button management
 monstersColor
 
-	^ self buttonColorFor: #monsters.
+	^ self buttonColorFor: #monsters
