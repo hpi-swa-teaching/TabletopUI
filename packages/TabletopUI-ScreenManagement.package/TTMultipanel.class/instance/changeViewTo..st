@@ -5,4 +5,6 @@ changeViewTo: aSymbol
 
 	self
 		activeView: aSymbol;
-		addCurrentView
+		addCurrentView;
+		updateButtonColors
+	

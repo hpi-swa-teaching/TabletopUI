@@ -1,9 +1,7 @@
 button actions
 openConsole
 
-	self changeViewTo: #console.
-	self updateButtonColors
-	
+	self changeViewTo: #console
 	
 	
 	

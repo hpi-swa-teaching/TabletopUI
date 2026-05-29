@@ -8,7 +8,7 @@
 	"instvars" : [
 		"activeView",
 		"viewContainer",
-		"actionLog",
+		"console",
 		"inputField",
 		"playerSelectionMenu" ],
 	"name" : "TTMultipanel",

@@ -1,8 +1,6 @@
 button actions
 openPlayers
 	
-	self changeViewTo: #players.
-	self updateButtonColors
-	
+	self changeViewTo: #players
 	
 	
