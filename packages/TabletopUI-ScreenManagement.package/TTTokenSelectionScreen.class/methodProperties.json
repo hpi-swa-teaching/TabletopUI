@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"buildWith:" : "TR 5/28/2026 15:21",
-		"characterAdministration:" : "MK 6/1/2026 15:31",
+		"characterAdministration:" : "RH 6/1/2026 20:30",
 		"confirmSelection" : "TR 5/28/2026 16:20",
 		"continue" : "TR 5/28/2026 16:18",
 		"continueButtonLabel" : "TR 5/28/2026 15:22",
@@ -12,7 +12,7 @@
 		"leave" : "TR 5/28/2026 15:23",
 		"listBounds" : "TR 5/28/2026 15:23",
 		"nameList" : "TR 5/28/2026 16:56",
-		"selectToken" : "RH 5/28/2026 17:40",
+		"selectToken" : "RH 6/1/2026 20:40",
 		"selectedIndex" : "TR 5/28/2026 15:24",
 		"selectedIndex:" : "TR 5/28/2026 15:24",
 		"setTokens" : "TR 5/28/2026 16:23",

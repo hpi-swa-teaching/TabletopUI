@@ -4,4 +4,5 @@ characterAdministration: aCharacterAdministration
 	super characterAdministration: aCharacterAdministration.
 
 	(self characterAdministration players) withIndexDo: [ :player :index |
-		self tokenList at: index put: 'default']
+		self tokenList at: index put: (player isGamemaster 
+			ifTrue: ['gamemaster'] ifFalse: ['default'])]
