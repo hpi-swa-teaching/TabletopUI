@@ -9,5 +9,5 @@ createSpecWith: aToolBuilder
 			self createMonstersButtonSpecWith: aToolBuilder.
 			self createPlayersButtonSpecWith: aToolBuilder.
 			self createWikiButtonSpecWith: aToolBuilder};
-		frame: (0 @ 0 corner: 3 @ 1);
+		frame: (0.75 @ 0 corner: 1 @ 0.1);
 		yourself

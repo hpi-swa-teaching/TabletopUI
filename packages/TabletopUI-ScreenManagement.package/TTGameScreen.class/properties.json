@@ -15,7 +15,8 @@
 		"tokenBar",
 		"multipanel",
 		"multipanelChanged",
-		"viewContainer" ],
+		"viewContainer",
+		"wiki" ],
 	"name" : "TTGameScreen",
 	"pools" : [
 		 ],

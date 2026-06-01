@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"contentMorph" : "MK 6/1/2026 16:22",
+		"contentMorph:" : "MK 6/1/2026 16:22",
+		"handlesMouseDown:" : "MK 6/1/2026 16:26",
+		"initialize" : "MK 6/1/2026 16:09",
+		"initializeLayout" : "MK 6/1/2026 16:09",
+		"initializeWithTitle:content:" : "MK 6/1/2026 16:26",
+		"isExpanded" : "MK 6/1/2026 16:05",
+		"isExpanded:" : "MK 6/1/2026 16:05",
+		"mouseUp:" : "MK 6/1/2026 17:59",
+		"titleMorph" : "MK 6/1/2026 16:22",
+		"titleMorph:" : "MK 6/1/2026 16:22" } }
