@@ -1,4 +1,4 @@
-initialization
+setup - initialization
 initializeIdentity
 
 	self identity: Dictionary new.

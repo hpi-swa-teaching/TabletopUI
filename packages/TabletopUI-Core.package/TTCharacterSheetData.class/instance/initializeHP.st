@@ -1,4 +1,4 @@
-initialization
+setup - initialization
 initializeHP
 
 	self maxHP: 10.

@@ -1,4 +1,4 @@
-initialization
+setup - initialization
 initializeInformation
 
 	self information: Dictionary new.

@@ -5,7 +5,7 @@ buildSpellcastingBlockIn: aMorph
 	self addField: #levelString
 		at: 80 @ 35
 		in: aMorph. "Spellcasting Class"
-	self addField: #perception
+	self addField: #strength
 		at: 80 @ 105
 		in: aMorph. "Spellcasting Ability"
 	self addField: #proficiencyBonusString

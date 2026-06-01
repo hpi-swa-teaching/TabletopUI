@@ -1,4 +1,4 @@
-initialization
+setup - initialization
 initialize
 	
 	super initialize.
@@ -10,4 +10,6 @@ initialize
 		initializeDeathSaves;
 		initializeStats;
 		initializeInformation;
-		initializeIdentity
+		initializeIdentity;
+		initializeAttacks;
+		initializeWallet

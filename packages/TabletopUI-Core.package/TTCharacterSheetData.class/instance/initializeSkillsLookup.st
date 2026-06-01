@@ -1,4 +1,4 @@
-initialization
+setup - initialization
 initializeSkillsLookup
 
 	self skillsLookup: Dictionary new.

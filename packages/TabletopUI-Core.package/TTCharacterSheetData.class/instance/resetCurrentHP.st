@@ -1,4 +1,4 @@
-health and damage
+rules - health and damage
 resetCurrentHP
 
 	self currentHP: self maxHP

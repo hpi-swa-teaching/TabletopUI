@@ -1,4 +1,4 @@
-constants and defaults
+setup - constants and defaults
 defaultMaxDeathSaves
 
 	^ 3

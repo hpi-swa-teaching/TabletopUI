@@ -1,10 +1,11 @@
-health and damage
+rules - health and damage
 takeDamage: aNumber
 	
 	| absorbed remaining |
 	absorbed := aNumber min: self temporaryHP.
 	self temporaryHP: self temporaryHP - absorbed.
-	remaining := aNumber - absorbed.
-	self currentHP: self currentHP - remaining.
-	self changed: #temporaryHP.
-	self changed: #currentHP
+	remaining := aNumber - absorbed. .
+	self
+		currentHP: self currentHP - remaining;
+		changed: #temporaryHP;
+		changed: #currentHP

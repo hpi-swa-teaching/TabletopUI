@@ -1,4 +1,4 @@
-initialization
+setup - initialization
 initializeDeathSaves
 
 	self deathSaveSuccesses: self defaultDeathSaves.

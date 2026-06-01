@@ -1,4 +1,4 @@
-screen management
+setup - screen management
 parentIsClosing
 
 	super parentIsClosing.

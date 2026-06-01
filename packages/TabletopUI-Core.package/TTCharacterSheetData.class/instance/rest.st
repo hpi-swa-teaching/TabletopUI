@@ -1,7 +1,8 @@
-health and damage
+rules - health and damage
 rest
 
-	self resetCurrentHP.
-	self resetTemporaryHP.
-	self resetDeathSaves.
-	self restoreHitDice
+	self
+		resetCurrentHP;
+		resetTemporaryHP;
+		resetDeathSaves;
+		restoreHitDice

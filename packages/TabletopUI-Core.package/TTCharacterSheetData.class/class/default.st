@@ -2,7 +2,7 @@ templates
 default
 
 	^ self new
-		experiencePoints: 6000;
+		experiencePoints: 0;
 		className: 'Adventurer';
 		maxHP: 20;
 		strength: 10;

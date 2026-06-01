@@ -1,4 +1,4 @@
-health and damage
+rules - health and damage
 resetHitDice
 
 	self hitDiceRemaining: self level
