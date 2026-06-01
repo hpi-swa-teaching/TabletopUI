@@ -6,5 +6,4 @@ initializeFormFor: aTTCharacter
 	ifFalse: [
 		aTTCharacter token = 'default'
 			ifTrue: [self newForm: self defaultPlayerForm]
-			ifFalse: [self newForm: (self customizedPlayerFormWith: aTTCharacter token)].
-		]
+			ifFalse: [self newForm: (self customizedPlayerFormWith: aTTCharacter token)]]
