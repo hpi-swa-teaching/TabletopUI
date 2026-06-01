@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"options" : "MK 6/1/2026 12:33" },
+	"instance" : {
+		"buildWith:" : "MK 6/1/2026 11:41",
+		"characterAdministration:" : "MK 6/1/2026 11:57",
+		"choices" : "MK 6/1/2026 12:11",
+		"choices:" : "MK 6/1/2026 12:11",
+		"continue" : "MK 6/1/2026 12:29",
+		"continueButtonLabel" : "MK 6/1/2026 11:15",
+		"createListSpecWith:" : "MK 6/1/2026 11:29",
+		"currentStep" : "MK 6/1/2026 12:23",
+		"currentStep:" : "MK 6/1/2026 12:23",
+		"initialize" : "MK 6/1/2026 12:25",
+		"leave" : "MK 6/1/2026 11:16",
+		"listBounds" : "MK 6/1/2026 11:39",
+		"nameList" : "MK 6/1/2026 12:30",
+		"selectedIndex" : "MK 6/1/2026 11:40",
+		"selectedIndex:" : "MK 6/1/2026 11:40" } }
