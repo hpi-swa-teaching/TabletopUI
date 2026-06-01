@@ -6,4 +6,5 @@ createListSpecWith: aToolBuilder
 		list: #nameList;
 		getIndex: #selectedIndex;
 		setIndex: #selectedIndex:;
+		doubleClick: #doubleClicked;
 		yourself

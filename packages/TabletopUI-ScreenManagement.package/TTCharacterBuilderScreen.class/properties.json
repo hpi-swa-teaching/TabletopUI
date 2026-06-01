@@ -8,7 +8,8 @@
 	"instvars" : [
 		"selectedIndex",
 		"choices",
-		"currentStep" ],
+		"currentStep",
+		"remainingNumbers" ],
 	"name" : "TTCharacterBuilderScreen",
 	"pools" : [
 		 ],
