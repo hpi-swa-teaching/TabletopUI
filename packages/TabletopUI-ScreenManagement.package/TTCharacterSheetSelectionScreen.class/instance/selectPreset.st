@@ -12,4 +12,5 @@ selectPreset
 	(preset = 'build character') ifTrue: [self window openCharacterBuilderScreen. preset := 'customized character'].
 	
 	self characterSheets at: self selectedIndex put: preset.
+	self createSheetFor: self selectedIndex.
 	self changed: #nameList.
