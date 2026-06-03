@@ -12,6 +12,7 @@
 		"currentStep" : "MK 6/1/2026 12:23",
 		"currentStep:" : "MK 6/1/2026 12:23",
 		"doubleClicked" : "RH 6/1/2026 21:13",
+		"getAbilitySelection" : "MK 6/3/2026 16:59",
 		"initialize" : "RH 6/1/2026 22:09",
 		"initializeChoices" : "RH 6/1/2026 21:52",
 		"leave" : "RH 6/1/2026 21:35",
@@ -19,6 +20,8 @@
 		"nameList" : "RH 6/3/2026 16:34",
 		"remainingNumbers" : "RH 6/1/2026 22:08",
 		"remainingNumbers:" : "RH 6/1/2026 22:19",
+		"removeAbilitySelection" : "MK 6/3/2026 17:05",
 		"selectedIndex" : "MK 6/1/2026 11:40",
 		"selectedIndex:" : "MK 6/1/2026 11:40",
-		"setAbilities" : "RH 6/3/2026 16:42" } }
+		"setAbilities" : "MK 6/3/2026 17:00",
+		"setAbilitySelectionWith:" : "MK 6/3/2026 17:06" } }
