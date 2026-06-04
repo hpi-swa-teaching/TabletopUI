@@ -1,3 +1,4 @@
 accessing
-serverAddress: anObject
-	serverAddress := anObject
+serverAddress: anAddress
+
+	self endpoint address: anAddress

@@ -4,5 +4,6 @@ initialize
 	super initialize.
 	
 	self shouldClose: false.
+	self endpoint: TTEndpoint new.
 	self udpSocket: Socket newUDP.
-	self serverAddress: (NetNameResolver addressForName: '127.0.0.1')
+	
