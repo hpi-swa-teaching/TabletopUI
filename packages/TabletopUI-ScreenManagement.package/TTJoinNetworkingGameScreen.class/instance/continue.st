@@ -10,6 +10,3 @@ continue
 			yourself );
 		yourself.
 	self window networkmanager send: #handlePlayerRegistration: to: 'sessionmanager' with: aDict.
-		
-	
-	
