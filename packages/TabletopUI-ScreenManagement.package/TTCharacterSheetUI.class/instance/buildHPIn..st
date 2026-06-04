@@ -4,7 +4,7 @@ buildHPIn: aMorph
 	self addField: #currentHP
 		at: 55 @ 65
 		in: aMorph.
-	self addField: #temporaryHP
+	self addEditableField: #temporaryHP
 		sized: 50 @ 30
 		at: 148 @ 110
 		in: aMorph.

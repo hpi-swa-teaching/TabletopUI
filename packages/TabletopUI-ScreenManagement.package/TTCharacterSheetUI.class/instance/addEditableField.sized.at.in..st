@@ -1,5 +1,5 @@
 primitives
-addField: aSymbol sized: anExtent at: aPoint in: anImageMorph
+addEditableField: aSymbol sized: anExtent at: aPoint in: anImageMorph
 
 	"editable fields get a size matching their container"
 	| textMorph |

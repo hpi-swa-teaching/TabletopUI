@@ -1,4 +1,4 @@
 accessing - identity
 identityAt: aSymbol
 
-	^ self identityAt: aSymbol
+	^ self identity at: aSymbol

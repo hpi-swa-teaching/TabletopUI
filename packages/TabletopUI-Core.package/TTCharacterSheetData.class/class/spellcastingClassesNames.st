@@ -1,4 +1,4 @@
 rules
 spellcastingClassesNames
 
-	#('Wizard' 'Sorcerer' 'Cleric' 'Druid' 'Bard' 'Paladin' 'Ranger' 'Warlock' 'Artificer')
+	^ #('Wizard' 'Sorcerer' 'Cleric' 'Druid' 'Bard' 'Paladin' 'Ranger' 'Warlock' 'Artificer')

@@ -2,5 +2,5 @@ setup - initialization
 initializeIdentity
 
 	self identity: Dictionary new.
-	#(characterName className background race alignment appearance)
+	self class identityNames
 		do: [:key | self identity at: key put: '']
