@@ -1,4 +1,4 @@
-input handling
+input handling - combat
 applyHealing
 
 	self processInputRequesting: 'How much healing?'

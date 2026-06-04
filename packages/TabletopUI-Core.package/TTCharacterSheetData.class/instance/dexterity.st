@@ -1,4 +1,4 @@
 accessing - abilities
 dexterity
 
-	^ (self abilities at: #dexterity) asString
+	^ self abilitiesAt: #dexterity

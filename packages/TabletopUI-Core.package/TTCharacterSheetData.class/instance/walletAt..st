@@ -1,5 +1,5 @@
 accessing - money
 walletAt: aSymbol
 
-	^ self wallet at: aSymbol
+	^ (self wallet at: aSymbol) asString
 	

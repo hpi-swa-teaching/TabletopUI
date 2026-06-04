@@ -1,5 +1,4 @@
-input handling
+input handling - money
 applySpendCopper
 
-	self processInputRequesting: 'How much copper spent?'
-		calling: [:receiver :argument | receiver gain: argument of: #copper].
+	self applySpendOf: #copper

@@ -1,4 +1,4 @@
-input handling
+input handling - combat
 applyIncrementDeathSaveFailures
 
 	self model incrementDeathSaveFailures.

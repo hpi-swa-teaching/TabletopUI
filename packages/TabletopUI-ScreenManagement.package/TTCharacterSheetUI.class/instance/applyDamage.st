@@ -1,4 +1,4 @@
-input handling
+input handling - combat
 applyDamage
 
 	self processInputRequesting: 'How much damage?'

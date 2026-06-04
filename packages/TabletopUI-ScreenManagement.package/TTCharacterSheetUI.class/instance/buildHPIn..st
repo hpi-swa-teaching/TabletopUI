@@ -21,7 +21,7 @@ buildHPIn: aMorph
 		sized: self buttonExtent
 		at: 30 @ 140
 		in: aMorph.
-	self addButton: #applyLongRest
+	self addButton: #applyRest
 		form: self restButtonForm
 		sized: self buttonExtent
 		at: 80 @ 140

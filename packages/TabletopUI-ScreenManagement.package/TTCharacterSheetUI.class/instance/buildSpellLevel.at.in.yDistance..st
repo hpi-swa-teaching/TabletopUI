@@ -11,13 +11,13 @@ buildSpellLevel: aLevelNumber at: aPoint in: aMorph yDistance: anOffsetNumber
 		sized: 40 @ 30
 		at: aPoint + (55 @ 5)
 		in: aMorph.
-	self addButton: ('applyGainSpellSlot' , aLevelNumber asString) asSymbol
-		form: self plusButtonForm
+	self addButton: ('applySpendSpellSlot' , aLevelNumber asString) asSymbol
+		form: self minusButtonForm
 		sized: self buttonExtent
 		at: aPoint + (90 @ 10)
 		in: aMorph.
-	self addButton: ('applySpendSpellSlot' , aLevelNumber asString) asSymbol
-		form: self minusButtonForm
+	self addButton: ('applyGainSpellSlot' , aLevelNumber asString) asSymbol
+		form: self plusButtonForm
 		sized: self buttonExtent
 		at: aPoint + (120 @ 10)
 		in: aMorph.

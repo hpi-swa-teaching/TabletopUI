@@ -1,4 +1,4 @@
-rules - health and damage
+rules - combat
 incrementDeathSaveFailures
 
 	self deathSaveFailures: self deathSaveFailures + 1

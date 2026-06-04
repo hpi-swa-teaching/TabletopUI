@@ -1,4 +1,4 @@
-rules - health and damage
+rules - combat
 restoreTemporaryHP
 
 	self temporaryHP: self defaultTemporaryHP

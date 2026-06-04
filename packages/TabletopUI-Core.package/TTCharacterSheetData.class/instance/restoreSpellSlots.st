@@ -1,4 +1,4 @@
-rules - health and damage
+rules - combat
 restoreSpellSlots
 
 	self spellSlots keysDo: [:level | 

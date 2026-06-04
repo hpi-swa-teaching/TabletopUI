@@ -1,4 +1,4 @@
 accessing - abilities
 abilitiesAt: aSymbol
 
-	^ self abilities at: aSymbol
+	^ (self abilities at: aSymbol) asString
