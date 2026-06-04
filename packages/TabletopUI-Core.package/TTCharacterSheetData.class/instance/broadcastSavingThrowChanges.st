@@ -1,4 +1,4 @@
 accessing - saving throws
 broadcastSavingThrowChanges
 
-	self class savingThrowAbilities do: [:ability | self changed: (ability , 'SavingThrow') asSymbol]
+	self class abilityNames do: [:ability | self changed: (ability , 'SavingThrow') asSymbol]

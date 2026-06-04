@@ -404,6 +404,30 @@ GSMetadata {
 				'failures3.png'
 			],
 			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'inventory.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'wallet.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'attacks.png'
+			],
+			#encoding : @18
 		}
 	],
 	#name : 'TabletopUI'

@@ -1,4 +1,4 @@
-setup - constants and defaults
-informationKeys
+constants
+informationNames
 
 	^ #(personalityTraits ideals bonds flaws backstory featuresAndTraits organizations proficienciesAndLanguages treasure)

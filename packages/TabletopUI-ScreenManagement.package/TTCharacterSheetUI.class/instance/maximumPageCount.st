@@ -1,4 +1,4 @@
 accessing
 maximumPageCount
 
-	^ 3
+	^ 4

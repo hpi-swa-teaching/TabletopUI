@@ -1,4 +1,4 @@
-constants and defaults
+constants
 currencies
 
 	^ #(copper silver electrum gold platinum)

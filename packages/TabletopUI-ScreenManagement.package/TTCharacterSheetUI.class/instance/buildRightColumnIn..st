@@ -1,7 +1,6 @@
 build
 buildRightColumnIn: aMorph
 
-	Transcript show: 'placeholder values'.
 	self addField: #personalityTraits
 		sized: 150 @ 70
 		at: 20 @ 20
