@@ -12,6 +12,7 @@ openWithAddress: anAddress tcpPort: tcpPort
 	sessionmanager:= TTClientSessionManager new.
 	sessionmanager window: inst.
 	sessionmanager networkmanager: inst networkmanager.
+	inst sessionManager: sessionmanager.
 	inst networkmanager referenceManager addEntry: sessionmanager forId: 'sessionmanager'.
 
 	inst networkmanager start.

@@ -6,7 +6,7 @@
 		"openEmptySessionAddress:tcpPort:" : "CR 5/21/2026 11:47",
 		"openFromState:" : "CR 5/26/2026 14:38",
 		"openFromState:Address:tcpPort:" : "CR 5/26/2026 14:41",
-		"openWithAddress:tcpPort:" : "CR 5/26/2026 14:29",
+		"openWithAddress:tcpPort:" : "CR 5/28/2026 14:58",
 		"setupNetworkOn:Address:tcpPort:" : "CR 5/26/2026 14:40" },
 	"instance" : {
 		"buildWith:" : "DS 7/7/2022 19:02",
@@ -40,6 +40,6 @@
 		"referencemanager:" : "Jakob Fanselow 5/11/2026 16:19",
 		"relay" : "Jakob Fanselow 5/11/2026 12:55",
 		"relay:" : "Jakob Fanselow 5/11/2026 12:55",
-		"serverSessionManager" : "GF 5/26/2026 18:10",
-		"serverSessionManager:" : "GF 5/26/2026 18:39",
+		"sessionManager" : "CR 5/28/2026 14:57",
+		"sessionManager:" : "CR 5/28/2026 14:58",
 		"startingSize" : "MM 7/7/2021 13:59" } }

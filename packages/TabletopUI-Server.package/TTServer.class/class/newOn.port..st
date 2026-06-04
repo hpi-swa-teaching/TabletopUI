@@ -15,7 +15,7 @@ newOn: address port: port
 	
 	sessionmanager:= TTServerSessionManager new.
 	sessionmanager window: window.
-	window serverSessionManager: sessionmanager.
+	window sessionManager: sessionmanager.
 	sessionmanager networkmanager: inst networkmanager.
 	inst referencemanager addEntry: sessionmanager forId: 'sessionmanager'.
 	

@@ -12,7 +12,7 @@
 		"relay",
 		"referencemanager",
 		"networkmanager",
-		"serverSessionManager" ],
+		"sessionManager" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],
