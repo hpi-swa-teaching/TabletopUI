@@ -1,7 +1,7 @@
 build
 buildSpellcastingBlockIn: aMorph
 
-	self addField: #className
+	self addField: #spellcastingClassName
 		at: 18 @ 27
 		in: aMorph.
 	self addField: #spellAbilityString

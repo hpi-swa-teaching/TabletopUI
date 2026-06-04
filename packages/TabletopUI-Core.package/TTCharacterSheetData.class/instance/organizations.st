@@ -1,4 +1,4 @@
 accessing - information
 organizations
 
-	^ self information at: #organizations
+	^ self informationAt: #organizations

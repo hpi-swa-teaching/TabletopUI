@@ -1,4 +1,4 @@
 accessing - information
 backstory
 
-	^ self information at: #backstory
+	^ self informationAt: #backstory

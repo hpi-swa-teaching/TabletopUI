@@ -1,4 +1,4 @@
 accessing - skills
 persuasionProficiency
 
-	^ self skillsLookup at: #persuasion
+	^ self skillsLookupAt: #persuasion

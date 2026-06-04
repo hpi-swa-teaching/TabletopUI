@@ -1,4 +1,4 @@
 accessing - saving throws
 charismaSavingThrowProficiency
 	
-	^ self savingThrowsLookup at: #charisma
+	^ self savingThrowsLookupAt: #charisma

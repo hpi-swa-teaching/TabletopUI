@@ -1,4 +1,4 @@
 accessing - information
 inventory
 
-	^ self information at: #inventory
+	^ self informationAt: #inventory

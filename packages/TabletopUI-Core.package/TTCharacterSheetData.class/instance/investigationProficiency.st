@@ -1,4 +1,4 @@
 accessing - skills
 investigationProficiency
 
-	^ self skillsLookup at: #investigation
+	^ self skillsLookupAt: #investigation

@@ -1,4 +1,4 @@
 accessing - skills
 perceptionProficiency
 
-	^ self skillsLookup at: #perception
+	^ self skillsLookupAt: #perception

@@ -1,4 +1,4 @@
 accessing - skills
 natureProficiency
 
-	^ self skillsLookup at: #nature
+	^ self skillsLookupAt: #nature

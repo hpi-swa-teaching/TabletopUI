@@ -1,4 +1,4 @@
 accessing - skills
 insightProficiency
 
-	^ self skillsLookup at: #insight
+	^ self skillsLookupAt: #insight

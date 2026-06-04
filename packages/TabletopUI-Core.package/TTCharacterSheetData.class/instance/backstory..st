@@ -1,5 +1,4 @@
 accessing - information
 backstory: aString
 
-	self information at: #backstory put: aString.
-	self changed: #backstory
+	self informationAt: #backstory put: aString

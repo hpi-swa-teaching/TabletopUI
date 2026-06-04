@@ -1,4 +1,4 @@
 accessing - saving throws
 wisdomSavingThrowProficiency
 	
-	^ self savingThrowsLookup at: #wisdom
+	^ self savingThrowsLookupAt: #wisdom

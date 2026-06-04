@@ -1,7 +1,7 @@
 generators
 generateSpellSlotAccessors
 
-	1 to: 9 do: [:level |
+	1 to: self maximumSpellcastingLevel do: [:level |
 		| maxAccessor currentAccessor |
 		maxAccessor := 'spellSlot' , level asString , 'Maximum'.
 		currentAccessor := 'spellSlot' , level asString , 'Current'.

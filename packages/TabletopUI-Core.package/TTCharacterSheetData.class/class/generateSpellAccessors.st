@@ -1,8 +1,8 @@
 generators
 generateSpellAccessors
 
-	0 to: 9 do: [:level |
-		1 to: 4 do: [:slot |
+	0 to: self maximumSpellcastingLevel do: [:level |
+		1 to: self spellCount do: [:slot |
 			| nameAccessor equippedAccessor |
 			nameAccessor := 'spell' , level asString , 'Slot' , slot asString , 'Name'.
 			equippedAccessor := 'spell' , level asString , 'Slot' , slot asString , 'Equipped'.

@@ -1,4 +1,4 @@
 accessing - identity
 race
 
-	^ self identity at: #race
+	^ self identityAt: #race

@@ -1,4 +1,4 @@
 accessing - information
 flaws
 
-	^ self information at: #flaws
+	^ self informationAt: #flaws

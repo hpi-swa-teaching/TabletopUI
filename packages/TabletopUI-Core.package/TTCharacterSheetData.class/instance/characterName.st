@@ -1,4 +1,4 @@
 accessing - identity
 characterName
 
-	^ self identity at: #characterName
+	^ self identityAt: #characterName

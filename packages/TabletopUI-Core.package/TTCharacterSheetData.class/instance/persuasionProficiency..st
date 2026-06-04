@@ -1,5 +1,4 @@
 accessing - skills
 persuasionProficiency: aNumber
 
-	self skillsLookup at: #persuasion put: aNumber.
-	self changesForSkill: #persuasion
+	self skillsLookupAt: #persuasion put: aNumber

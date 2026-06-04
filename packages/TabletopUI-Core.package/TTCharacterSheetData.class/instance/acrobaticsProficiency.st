@@ -1,4 +1,4 @@
 accessing - skills
 acrobaticsProficiency
 
-	^ self skillsLookup at: #acrobatics
+	^ self skillsLookupAt: #acrobatics

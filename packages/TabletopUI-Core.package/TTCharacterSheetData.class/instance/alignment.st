@@ -1,4 +1,4 @@
 accessing - identity
 alignment
 
-	^ self identity at: #alignment
+	^ self identityAt: #alignment

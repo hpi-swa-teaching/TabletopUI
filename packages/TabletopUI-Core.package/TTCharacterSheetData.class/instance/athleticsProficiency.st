@@ -1,4 +1,4 @@
 accessing - skills
 athleticsProficiency
 
-	^ self skillsLookup at: #athletics
+	^ self skillsLookupAt: #athletics

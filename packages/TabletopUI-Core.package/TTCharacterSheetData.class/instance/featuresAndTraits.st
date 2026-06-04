@@ -1,4 +1,4 @@
 accessing - information
 featuresAndTraits
 
-	^ self information at: #featuresAndTraits
+	^ self informationAt: #featuresAndTraits

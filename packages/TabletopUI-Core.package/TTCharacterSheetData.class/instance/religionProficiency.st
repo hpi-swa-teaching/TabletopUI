@@ -1,4 +1,4 @@
 accessing - skills
 religionProficiency
 
-	^ self skillsLookup at: #religion
+	^ self skillsLookupAt: #religion

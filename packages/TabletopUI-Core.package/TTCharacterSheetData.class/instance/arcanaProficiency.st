@@ -1,4 +1,4 @@
 accessing - skills
 arcanaProficiency
 
-	^ self skillsLookup at: #arcana
+	^ self skillsLookupAt: #arcana

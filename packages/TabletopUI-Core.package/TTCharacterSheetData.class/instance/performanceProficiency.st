@@ -1,4 +1,4 @@
 accessing - skills
 performanceProficiency
 
-	^ self skillsLookup at: #performance
+	^ self skillsLookupAt: #performance

@@ -1,4 +1,4 @@
 accessing - saving throws
 constitutionSavingThrowProficiency
 	
-	^ self savingThrowsLookup at: #constitution
+	^ self savingThrowsLookupAt: #constitution

@@ -1,4 +1,4 @@
 accessing - skills
 intimidationProficiency
 
-	^ self skillsLookup at: #intimidation
+	^ self skillsLookupAt: #intimidation

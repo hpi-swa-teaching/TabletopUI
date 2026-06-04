@@ -1,4 +1,4 @@
 accessing - information
 proficienciesAndLanguages
 
-	^ self information at: #proficienciesAndLanguages
+	^ self informationAt: #proficienciesAndLanguages

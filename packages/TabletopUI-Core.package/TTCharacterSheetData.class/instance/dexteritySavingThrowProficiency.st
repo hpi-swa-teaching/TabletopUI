@@ -1,4 +1,4 @@
 accessing - saving throws
 dexteritySavingThrowProficiency
 	
-	^ self savingThrowsLookup at: #dexterity
+	^ self savingThrowsLookupAt: #dexterity

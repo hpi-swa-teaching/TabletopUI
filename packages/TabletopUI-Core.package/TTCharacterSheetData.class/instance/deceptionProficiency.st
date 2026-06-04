@@ -1,4 +1,4 @@
 accessing - skills
 deceptionProficiency
 
-	^ self skillsLookup at: #deception
+	^ self skillsLookupAt: #deception

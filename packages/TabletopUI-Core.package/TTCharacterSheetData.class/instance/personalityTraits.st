@@ -1,4 +1,4 @@
 accessing - information
 personalityTraits
 
-	^ self information at: #personalityTraits
+	^ self informationAt: #personalityTraits

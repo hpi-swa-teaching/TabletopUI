@@ -1,5 +1,4 @@
 accessing - identity
 characterName: aString
 
-	self identity at: #characterName put: aString.
-	self changed: #characterName.
+	self identityAt: #characterName put: aString

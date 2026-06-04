@@ -1,4 +1,4 @@
 accessing - skills
 historyProficiency
 
-	^ self skillsLookup at: #history
+	^ self skillsLookupAt: #history
