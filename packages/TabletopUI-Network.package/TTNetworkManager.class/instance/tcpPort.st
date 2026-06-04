@@ -1,3 +1,4 @@
 accessing
 tcpPort
-	^ tcpPort
+
+	^ self endpoint port

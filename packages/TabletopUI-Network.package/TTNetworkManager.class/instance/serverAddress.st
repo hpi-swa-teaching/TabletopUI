@@ -1,3 +1,3 @@
 accessing
 serverAddress
-	^ serverAddress
+	^ self endpoint address.

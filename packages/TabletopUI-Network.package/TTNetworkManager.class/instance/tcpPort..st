@@ -1,3 +1,4 @@
 accessing
-tcpPort: anObject
-	tcpPort := anObject
+tcpPort: aPort
+
+	self endpoint port: aPort
