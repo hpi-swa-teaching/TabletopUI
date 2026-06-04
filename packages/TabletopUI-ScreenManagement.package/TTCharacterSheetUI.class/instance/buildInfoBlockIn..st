@@ -1,7 +1,6 @@
 build
 buildInfoBlockIn: aMorph
 
-	Transcript show: 'huge amount of placeholders'.
 	self addField: #characterName
 		sized: 150 @ 35
 		at: 18 @ 27

@@ -22,7 +22,7 @@ buildRightColumnIn: aMorph
 		sized: 150 @ 155
 		at: 20 @ 400
 		in: aMorph.
-	self addField: #strength
+	self addField: #treasure
 		sized: 150 @ 155
 		at: 20 @ 588
-		in: aMorph. "Treasure"	
+		in: aMorph.	

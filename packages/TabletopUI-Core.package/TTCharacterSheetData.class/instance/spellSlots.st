@@ -1,0 +1,4 @@
+accessing - spellcasting
+spellSlots
+
+	^ spellSlots

@@ -4,6 +4,6 @@ test05ResetDeathSaves
 	self characterSheet 
 		deathSaveSuccesses: 1;
 		deathSaveFailures: 1;
-		resetDeathSaves.
+		restoreDeathSaves.
 	self assert: (self characterSheet deathSaveSuccesses = 0).
 	self assert: (self characterSheet deathSaveFailures = 0)

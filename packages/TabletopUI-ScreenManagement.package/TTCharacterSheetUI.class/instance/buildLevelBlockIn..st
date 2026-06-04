@@ -4,8 +4,7 @@ buildLevelBlockIn: aMorph
 	self addField: #levelString
 		at: 80 @ 35
 		in: aMorph.
-	Transcript show: 'perception vs. passive perception?'.
-	self addField: #strength
+	self addField: #passivePerception
 		at: 80 @ 105
 		in: aMorph.
 	self addField: #proficiencyBonusString

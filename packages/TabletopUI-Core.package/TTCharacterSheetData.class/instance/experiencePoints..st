@@ -10,4 +10,6 @@ experiencePoints: anObject
 		changed: #experiencePoints;
 		changed: #level;
 		changed: #levelString;
-		changed: #proficiencyBonus
+		changed: #proficiencyBonus;
+		changed: #spellSaveDC;
+		changed: #spellAttackBonus

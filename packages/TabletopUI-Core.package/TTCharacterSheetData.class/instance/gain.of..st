@@ -1,4 +1,4 @@
-accessing - money
+rules - input processing
 gain: aNumber of: aSymbol
 
 	| current |

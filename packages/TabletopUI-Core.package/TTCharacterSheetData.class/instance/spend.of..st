@@ -1,4 +1,4 @@
-accessing - money
+rules - input processing
 spend: aNumber of: aSymbol
 
 	| current |

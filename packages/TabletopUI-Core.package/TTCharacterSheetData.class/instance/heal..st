@@ -3,4 +3,4 @@ heal: aNumber
 
 	self 
 		currentHP: self currentHP + aNumber;
-		resetDeathSaves
+		restoreDeathSaves

@@ -12,4 +12,5 @@ initialize
 		initializeInformation;
 		initializeIdentity;
 		initializeAttacks;
-		initializeWallet
+		initializeWallet;
+		initializeSpellcasting

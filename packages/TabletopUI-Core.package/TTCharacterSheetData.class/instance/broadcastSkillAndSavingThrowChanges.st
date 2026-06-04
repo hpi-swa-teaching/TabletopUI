@@ -1,5 +1,7 @@
 accessing - abilities
 broadcastSkillAndSavingThrowChanges
 
-	self broadcastSkillChanges.
-	self broadcastSavingThrowChanges
+	self
+		broadcastSkillChanges;
+		broadcastSavingThrowChanges;
+		changed: #passivePerception
