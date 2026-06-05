@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"server" ],
 	"name" : "TTUpstreamMockConnector",
 	"pools" : [
 		 ],
-	"super" : "TTMockConnector",
+	"super" : "Object",
 	"type" : "normal" }

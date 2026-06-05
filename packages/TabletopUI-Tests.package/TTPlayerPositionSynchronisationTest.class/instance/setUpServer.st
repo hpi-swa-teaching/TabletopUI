@@ -3,7 +3,7 @@ setUpServer
 
 	| window  |
 	self server: TTServerSessionManager new.
-	window:= TTTabletopWindow openEmptySessionAddress: '' tcpPort: 0.
+	window:= TTTabletopWindow openEmptySession.
 	self server window: window.
 	window sessionManager: self server.
 

@@ -1,10 +1,10 @@
 toolbuilder
-openWithAddress: anAddress tcpPort: tcpPort
+openSessionless
 
 	| inst ref sessionmanager |
 	ref := TTReferenceManager new.
 	inst := self new.
-	inst networkmanager: (TTClientNetworkManager newWithAddress: anAddress tcpPort: tcpPort udpPort: tcpPort).
+	inst networkmanager: TTClientNetworkManager new.
 	inst referenceManager: ref.
 	inst networkmanager referenceManager: (ref).
 	inst networkmanager referenceManager addEntry: inst forId: 'window'.
@@ -14,6 +14,5 @@ openWithAddress: anAddress tcpPort: tcpPort
 	sessionmanager networkmanager: inst networkmanager.
 	inst sessionManager: sessionmanager.
 	inst networkmanager referenceManager addEntry: sessionmanager forId: 'sessionmanager'.
-
-	inst networkmanager start.
-	^ ToolBuilder open: (inst openPlayerCountScreen; yourself)
+	ToolBuilder open: (inst openPlayerCountScreen; yourself).
+	^ inst.

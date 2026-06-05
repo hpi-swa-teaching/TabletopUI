@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sender",
-		"recipient" ],
-	"name" : "TTMockConnector",
+		"subscribers" ],
+	"name" : "TTBroadcastMockConnector",
 	"pools" : [
 		 ],
 	"super" : "Object",

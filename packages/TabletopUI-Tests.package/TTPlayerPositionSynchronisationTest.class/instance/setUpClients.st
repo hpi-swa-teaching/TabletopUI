@@ -7,9 +7,7 @@ setUpClients
         | client window |
         client := TTClientSessionManager new.
 
-        window := TTTabletopWindow
-            openWithAddress: ''
-            tcpPort: 0.
+        window := TTTabletopWindow openSessionless.
 
         client window: window.
         window sessionManager: client.

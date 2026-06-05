@@ -1,6 +1,5 @@
 as yet unclassified
 testDownstreamUpdate
-
-	self server changeTokenPosition.
 	
-	self assert: self server getState = self client getState.
+	self changeTokenPositionOn: self server.
+	self assert: self server getState = self clients first getState.

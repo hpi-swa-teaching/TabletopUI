@@ -1,21 +1,25 @@
 as yet unclassified
 setUp
 
-    | upstreamConnectionManager downstreamConnectionManager |
-
+    | upstreamConnectionManager |
+	
     self
         setUpServer;
         setUpClients.
 
-    self clients do: [ :client |
-        upstreamConnectionManager := (TTUpstreamMockConnector new)
-            server: self server;
-            client: client;
-            yourself.
-	self client networkmanager: upstreamConnectionManager.
-    ].
-	downstreamConnectionManager := (TTDownstreamMockConnector new)
-            server: self server;
-            client: self clients first;
-            yourself.
-	self server networkmanager: downstreamConnectionManager.
+	    self clients do: [ :client |
+	        upstreamConnectionManager := (TTUpstreamMockConnector new)
+	            server: self server;
+	            yourself.
+		client networkmanager: upstreamConnectionManager.
+	    ].
+	self broadcastConnectionmanager: TTBroadcastMockConnector new.
+	self broadcastConnectionmanager subscribers add: self server.
+	self clients do: [:client | self broadcastConnectionmanager subscribers add: client].
+	
+	self server networkmanager: self broadcastConnectionmanager.
+	self server 
+		handlePlayerRegistration: self dummyRegistrationJSONPlayer1;
+		handlePlayerRegistration: self dummyRegistrationJSONPlayer2.
+		
+	self clients do: [:client | client networkmanager: self broadcastConnectionmanager].

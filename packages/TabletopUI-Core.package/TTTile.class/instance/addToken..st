@@ -2,5 +2,5 @@ token placement
 addToken: aTTToken
 	
 	self addMorph: aTTToken.
-	aTTToken position: self position
+	aTTToken position: self position.
 	

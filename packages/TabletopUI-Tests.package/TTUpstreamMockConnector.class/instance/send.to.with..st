@@ -1,4 +1,4 @@
 as yet unclassified
 send: message to: object with: stateDict
 
-	self recipient handleClientUpdate: stateDict.
+	self server handlePlayerRegistration: stateDict.
