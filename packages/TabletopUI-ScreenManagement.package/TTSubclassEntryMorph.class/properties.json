@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"titleMorph",
-		"contentMorph",
-		"isExpanded",
-		"contentWrapperMorph" ],
-	"name" : "TTWikiEntryMorph",
+		 ],
+	"name" : "TTSubclassEntryMorph",
 	"pools" : [
 		 ],
-	"super" : "BorderedMorph",
+	"super" : "TTWikiEntryMorph",
 	"type" : "normal" }

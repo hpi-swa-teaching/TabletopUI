@@ -1,0 +1,4 @@
+accessing
+contentWrapperMorph
+
+	^ contentWrapperMorph

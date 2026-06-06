@@ -1,9 +1,10 @@
-initialization
+accessing
 initializeWithTitle: aTitleString content: aContentString
 
-	self titleMorph: (StringMorph contents: '> ', aTitleString).
-	self titleMorph font: (TextStyle default fontOfSize: 16).
-	self addMorphBack: titleMorph.
-	
-	self contentMorph: (StringMorph contents: '	', aContentString).
-	self contentMorph font: (TextStyle default fontOfSize: 12)
+	self 
+		titleMorph: (self buildTitleMorph: aTitleString);
+		addMorphBack: self titleMorph;
+		contentMorph: (self buildContentMorph: aContentString).
+		
+	contentWrapperMorph := self buildContentWrapper.
+	contentWrapperMorph addMorphBack: self contentMorph

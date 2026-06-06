@@ -1,0 +1,4 @@
+accessing
+standardPointSize
+
+	^ 10

@@ -3,7 +3,11 @@
 		 },
 	"instance" : {
 		"addEntry:content:" : "MK 6/1/2026 16:35",
-		"addEntrys" : "MH 6/1/2026 19:50",
+		"addEntrys" : "CSK 6/5/2026 21:34",
+		"addItem:type:damage:damageType:rarity:properties:weight:" : "CSK 6/5/2026 21:35",
+		"addMonster:description:lair:traits:actions:" : "CSK 6/5/2026 21:35",
+		"addSpell:school:castingTime:range:components:duration:description:" : "CSK 6/5/2026 21:35",
+		"addSubclass:className:sections:" : "CSK 6/5/2026 21:35",
 		"createMorph" : "MH 6/1/2026 19:49",
 		"initialize" : "MH 6/1/2026 19:49",
-		"initializeLayout" : "MH 6/1/2026 19:49" } }
+		"initializeLayout" : "CSK 6/5/2026 21:00" } }

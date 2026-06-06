@@ -8,4 +8,4 @@ initializeLayout
 		cellSpacing: #none;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		color: (Color black alpha: 0.7)
+		color: Color transparent.
