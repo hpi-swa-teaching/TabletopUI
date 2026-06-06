@@ -1,7 +1,8 @@
 selecting preset
 chooseFileForCharacter
 
-	| fileName |
+	| filePath |
 	
-	fileName := (StandardFileMenu oldFileFrom: FileDirectory default withPattern: '*.obj') name.
-	^ fileName. 
+	filePath := FileChooserDialog openOn: FileDirectory default pattern: '*.obj' label: 'Choose character sheet file'.
+	filePath ifNil: [ ^ nil ].
+	^ filePath 
