@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JF 6/7/2026 23:02",
+		"test01ManySmallIntegers" : "JF 6/7/2026 23:13",
+		"test02ByteArrayDeserialization" : "JF 6/7/2026 23:15" } }
