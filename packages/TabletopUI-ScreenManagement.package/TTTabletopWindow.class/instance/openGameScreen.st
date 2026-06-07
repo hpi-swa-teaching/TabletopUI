@@ -1,5 +1,6 @@
 screen management
 openGameScreen
-	
-	self changeScreen: (TTGameScreen newWith: self)
-			
+
+	self isGamemaster
+		ifTrue: [self changeScreen: (TTGamemasterGameScreen newWith: self)]
+		ifFalse: [self changeScreen: (TTPlayerGameScreen newWith: self)]

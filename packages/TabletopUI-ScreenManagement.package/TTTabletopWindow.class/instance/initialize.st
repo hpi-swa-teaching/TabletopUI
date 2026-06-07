@@ -1,9 +1,10 @@
 initialization
 initialize
-	
+
 	super initialize.
-	
-	self 
+
+	self
 		contents: {};
 		characterAdministration: TTCharacterAdministration new;
-		connectionRegistry: Dictionary new.
+		connectionRegistry: Dictionary new;
+		setAsGamemaster.
