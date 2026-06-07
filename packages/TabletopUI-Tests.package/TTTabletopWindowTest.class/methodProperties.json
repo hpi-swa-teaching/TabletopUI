@@ -2,11 +2,13 @@
 	"class" : {
 		"lastStoredRun" : "MM 7/9/2021 15:22" },
 	"instance" : {
-		"setUp" : "CR 5/11/2026 16:39",
-		"test01OpenPlayerCountScreen" : "PB 7/10/2021 23:14",
-		"test02OpenPlayerNamesScreen" : "RK 6/16/2022 09:46",
-		"test03OpenGamemasterSelectionScreen" : "PB 7/10/2021 23:14",
-		"test04OpenGameScreen" : "Jakob Fanselow 5/20/2026 16:22",
-		"test05Open" : "ML 7/20/2022 14:38",
+		"setUp" : "GF 6/7/2026 16:52",
+		"test01OpenPlayerCountScreen" : "GF 6/7/2026 17:13",
+		"test02OpenPlayerNamesScreen" : "GF 6/7/2026 17:12",
+		"test03OpenGamemasterSelectionScreen" : "GF 6/7/2026 17:12",
+		"test04OpenGameScreen" : "GF 6/7/2026 17:10",
+		"test05Open" : "GF 6/7/2026 17:12",
+		"test06OpenGamemasterGameScreen" : "GF 6/7/2026 17:11",
+		"test07OpenPlayerGameScreen" : "GF 6/7/2026 17:11",
 		"window" : "MM 7/9/2021 15:10",
 		"window:" : "MM 7/9/2021 15:10" } }
