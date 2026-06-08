@@ -1,9 +1,7 @@
 running
 setUp
 
-	| map characterAdministration |
-	
-	map := TTMap newWith: {}.
-	characterAdministration := TTCharacterAdministration new.
-	self tokenBar: (TTTokenBar newWithMap: map characterAdministration: characterAdministration).
+	| screen |
+	screen := TTGamemasterGameScreen newWith: TTTabletopWindow new.
+	self tokenBar: screen tokenBar.
 	self tokenBar currentName: 'Bert'
