@@ -10,5 +10,7 @@
 		"test05Open" : "GF 6/7/2026 17:12",
 		"test06OpenGamemasterGameScreen" : "GF 6/7/2026 17:11",
 		"test07OpenPlayerGameScreen" : "GF 6/7/2026 17:11",
+		"test08GamemasterGameScreenCreatesNPC" : "I. S. 6/8/2026 18:52",
+		"test09PlayerGameScreenDoesNotCreateNPC" : "I. S. 6/8/2026 18:52",
 		"window" : "MM 7/9/2021 15:10",
 		"window:" : "MM 7/9/2021 15:10" } }
