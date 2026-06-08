@@ -1,4 +1,4 @@
 constants
-validPlayerName
+acceptedPlayerName
 
 	^'Alice'

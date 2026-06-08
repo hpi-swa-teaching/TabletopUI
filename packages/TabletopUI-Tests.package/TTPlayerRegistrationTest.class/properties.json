@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"window",
-		"manager" ],
+		"manager",
+		"sessionMembers" ],
 	"name" : "TTPlayerRegistrationTest",
 	"pools" : [
 		 ],

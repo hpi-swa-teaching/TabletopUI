@@ -3,4 +3,4 @@ testHandlePlayerRegistrationAddsPlayerToWindow
 
 	
 	self registerValidPlayer.
-	self assert: (self window hasPlayerNamed: self validPlayerName).
+	self assert: (self manager window hasPlayerNamed: self acceptedPlayerName).
