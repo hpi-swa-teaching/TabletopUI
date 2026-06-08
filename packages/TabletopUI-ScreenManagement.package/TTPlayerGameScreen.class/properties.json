@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTPlayerGameScreen",
+	"pools" : [
+		 ],
+	"super" : "TTGameScreen",
+	"type" : "normal" }
