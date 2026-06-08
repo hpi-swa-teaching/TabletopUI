@@ -2,4 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"send:to:with:" : "CR 5/26/2026 15:30" } }
+		"lastMessage" : "DavidSimon 6/8/2026 14:31",
+		"lastMessage:" : "DavidSimon 6/8/2026 14:31",
+		"lastParameters" : "DavidSimon 6/8/2026 14:32",
+		"lastParameters:" : "DavidSimon 6/8/2026 14:32",
+		"lastRecipient" : "DavidSimon 6/8/2026 14:31",
+		"lastRecipient:" : "DavidSimon 6/8/2026 14:31",
+		"send:to:with:" : "DavidSimon 6/8/2026 15:25",
+		"sendCount" : "DavidSimon 6/8/2026 14:32",
+		"sendCount:" : "DavidSimon 6/8/2026 14:32" } }

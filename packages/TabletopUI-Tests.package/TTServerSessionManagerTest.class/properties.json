@@ -6,12 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"lastMessage",
-		"lastRecipient",
-		"lastParameters",
-		"sendCount" ],
-	"name" : "TTMockNetworkmanager",
+		"mockNetwork",
+		"window",
+		"manager" ],
+	"name" : "TTServerSessionManagerTest",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTTestCase",
 	"type" : "normal" }

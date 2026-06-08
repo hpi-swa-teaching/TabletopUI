@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "DavidSimon 6/8/2026 14:28",
+		"test01BroadcastOnParserState" : "DavidSimon 6/8/2026 15:33",
+		"test02IgnoresUnrelatedAspect" : "DavidSimon 6/8/2026 14:33",
+		"test03BroadcastOnMapState" : "DavidSimon 6/8/2026 14:33",
+		"update:" : "DavidSimon 6/8/2026 14:51" } }

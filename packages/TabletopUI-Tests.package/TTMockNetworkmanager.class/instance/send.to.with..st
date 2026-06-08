@@ -1,4 +1,6 @@
 as yet unclassified
-send: message to: id with: params
-
-	
+send: aMessage to: anId with: aParams
+    lastMessage := aMessage.
+    lastRecipient := anId.
+    lastParameters := aParams.
+    sendCount := (sendCount ifNil: [0]) + 1
