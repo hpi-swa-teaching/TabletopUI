@@ -9,7 +9,7 @@ continue
 			at: #port put: (self tcpPort);
 			yourself );
 		yourself.
-	self window networkmanager send: #handlePlayerRegistration: to: 'sessionmanager' with: aDict.
+	self window networkManager send: #handlePlayerRegistration: to: 'sessionmanager' with: aDict.
 		
 	
 	
