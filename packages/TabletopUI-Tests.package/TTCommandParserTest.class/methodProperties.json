@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"contextChangePropagated" : "DavidSimon 6/8/2026 12:39",
+		"contextChangePropagated:" : "DavidSimon 6/8/2026 12:40",
 		"setUp" : "JA 6/9/2022 19:55",
 		"test01DiceRollCommand" : "JA 6/9/2022 21:48",
 		"test02ComplexDiceRollCommand" : "JA 6/9/2022 22:13",
@@ -11,4 +13,6 @@
 		"test06EndInitiative" : "JA 6/9/2022 22:32",
 		"test07RemoveCharacter" : "JA 6/9/2022 22:34",
 		"test08RollConstant" : "ML 8/3/2022 14:54",
-		"test09InvalidInput" : "ML 8/3/2022 15:01" } }
+		"test09InvalidInput" : "ML 8/3/2022 15:01",
+		"test10PropogateChange" : "DavidSimon 6/8/2026 12:41",
+		"update:" : "DavidSimon 6/8/2026 13:01" } }

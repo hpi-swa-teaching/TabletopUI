@@ -1,3 +1,3 @@
 accessing
 context: anObject
-	context := anObject
+	context := anObject.

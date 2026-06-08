@@ -2,6 +2,8 @@
 	"class" : {
 		"CUT" : "CR 5/9/2026 16:59" },
 	"instance" : {
+		"contextHasChanged" : "DavidSimon 6/8/2026 12:12",
+		"contextHasChanged:" : "DavidSimon 6/8/2026 12:11",
 		"setUp" : "I. S. 5/20/2026 13:58",
 		"test01CorrectGameState" : "JA 7/19/2022 15:39",
 		"test02Roll" : "JA 7/19/2022 15:52",
@@ -12,4 +14,6 @@
 		"test07EndInitiative" : "ML 7/20/2022 01:49",
 		"test08EndInitiativeAsPlayer" : "ML 7/20/2022 01:50",
 		"test09EndInitiativeNotReady" : "ML 7/20/2022 01:50",
-		"test10getState" : "I. S. 5/26/2026 21:23" } }
+		"test10getState" : "I. S. 5/26/2026 21:23",
+		"test11ObserverFiresOnRoll" : "DavidSimon 6/8/2026 12:15",
+		"update:" : "DavidSimon 6/8/2026 12:11" } }
