@@ -3,22 +3,22 @@ newOn: address port: port
 
 	| inst echo window sessionmanager |
 	inst := self new.
-	inst networkmanager: (TTServerNetworkManager newWithAddress: address tcpPort: port udpPort: port).
-	inst referencemanager: TTReferenceManager new.
-	inst networkmanager referenceManager: (inst referencemanager).
+	inst networkManager: (TTServerNetworkManager newWithAddress: address tcpPort: port udpPort: port).
+	inst referenceManager: TTReferenceManager new.
+	inst networkManager referenceManager: (inst referenceManager).
 	
-	echo := ChatEcho new.
-	inst referencemanager addEntry: echo forId: 'chat'.
-	echo networkmanager: (inst networkmanager).
+	echo := TTChatEcho new.
+	inst referenceManager addEntry: echo forId: 'chat'.
+	echo networkManager: (inst networkManager).
 	
 	window:= TTTabletopWindow openEmptySessionAddress: address tcpPort: port.
 	
 	sessionmanager:= TTServerSessionManager new.
 	sessionmanager window: window.
-	window sessionManager: sessionmanager.
-	sessionmanager networkmanager: inst networkmanager.
-	inst referencemanager addEntry: sessionmanager forId: 'sessionmanager'.
+	window serverSessionManager: sessionmanager.
+	sessionmanager networkManager: inst networkManager.
+	inst referenceManager addEntry: sessionmanager forId: 'sessionmanager'.
 	
-	inst networkmanager start.
+	inst networkManager start.
 	
 	^ inst
