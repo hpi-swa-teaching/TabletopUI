@@ -1,4 +1,4 @@
 as yet unclassified
 broadcastUpdatedState
-
-	self networkManager send: 'loadState:' to: 'sessionmanager' with: self window getState.
+	
+	self networkmanager send: 'loadState:' to: 'sessionmanager' with: self window getState.

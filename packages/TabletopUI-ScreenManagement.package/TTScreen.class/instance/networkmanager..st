@@ -1,3 +1,3 @@
 accessing
-networkManager: anObject
+networkmanager: anObject
 	networkmanager := anObject

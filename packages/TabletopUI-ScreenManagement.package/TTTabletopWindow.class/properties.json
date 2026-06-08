@@ -10,9 +10,9 @@
 		"contents",
 		"subWindowManager",
 		"relay",
-		"serverSessionManager",
-		"referenceManager",
-		"networkManager" ],
+		"referencemanager",
+		"networkmanager",
+		"sessionManager" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],

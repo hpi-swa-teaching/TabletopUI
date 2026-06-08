@@ -3,5 +3,5 @@ newWithNWM: networkmanager
 
 	| inst |
 	inst := self new.
-	inst networkManager: networkmanager.
+	inst networkmanager: networkmanager.
 	^ inst
