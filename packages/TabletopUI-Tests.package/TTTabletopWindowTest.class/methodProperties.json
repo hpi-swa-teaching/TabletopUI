@@ -2,7 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "MM 7/9/2021 15:22" },
 	"instance" : {
-		"setUp" : "GF 6/7/2026 16:52",
+		"setUp" : "I. S. 6/9/2026 21:40",
 		"test01OpenPlayerCountScreen" : "GF 6/7/2026 17:13",
 		"test02OpenPlayerNamesScreen" : "GF 6/7/2026 17:12",
 		"test03OpenGamemasterSelectionScreen" : "GF 6/7/2026 17:12",

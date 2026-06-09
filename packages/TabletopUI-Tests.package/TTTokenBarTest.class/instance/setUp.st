@@ -1,7 +1,9 @@
 running
 setUp
 
-	| screen |
-	screen := TTGamemasterGameScreen newWith: TTTabletopWindow new.
+	| window screen |
+	window := TTTabletopWindow new.
+	window networkManager: TTMockNetworkmanager new.
+	screen := TTGamemasterGameScreen newWith: window.
 	self tokenBar: screen tokenBar.
 	self tokenBar currentName: 'Bert'
