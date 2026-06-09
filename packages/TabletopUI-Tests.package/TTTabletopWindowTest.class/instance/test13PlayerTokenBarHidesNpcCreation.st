@@ -1,7 +1,7 @@
 testing
 test13PlayerTokenBarHidesNpcCreation
 
-	self window: TTTabletopWindow new.
+	self window: self newMockWindow.
 	self window
 		setAsPlayer;
 		openGameScreen.

@@ -1,5 +1,4 @@
 running
 setUp
 
-	self window: TTTabletopWindow new.
-	self window networkManager: TTMockNetworkmanager new
+	self window: self newMockWindow

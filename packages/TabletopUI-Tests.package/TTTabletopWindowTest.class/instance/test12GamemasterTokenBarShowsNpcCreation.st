@@ -1,7 +1,7 @@
 testing
 test12GamemasterTokenBarShowsNpcCreation
 
-	self window: TTTabletopWindow new.
+	self window: self newMockWindow.
 	self window
 		setAsGamemaster;
 		openGameScreen.
