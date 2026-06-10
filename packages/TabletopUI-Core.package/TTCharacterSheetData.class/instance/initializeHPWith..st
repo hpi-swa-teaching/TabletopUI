@@ -1,6 +1,6 @@
 initialize-release
-initializeHPWith: aSymbol
+initializeHPWith: aSmallInteger
 
-	self maxHP: ((TTCharacterSheetData characterTypes at: aSymbol) at: #maxHP).
+	self maxHP: aSmallInteger.
 	self currentHP: self maxHP.
 	self temporaryHP: self defaultTemporaryHP

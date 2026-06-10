@@ -9,7 +9,7 @@ initializeWithPreset: aSymbol
 	self initializeBaseValuesWith: aSymbol;
 		initializeThrowsLookup;
 		initializeSkillsLookup;
-		initializeHPWith: aSymbol;
+		initializeHPWith: (data at: #maxHP);
 		level: self defaultLevel;
 		proficiencyValue: self defaultProficiencyValue;
 		currentHitDice: self level;

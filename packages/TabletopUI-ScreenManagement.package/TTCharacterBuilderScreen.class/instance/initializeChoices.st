@@ -1,8 +1,8 @@
 as yet unclassified
 initializeChoices
 
-	self choices at: 1 put: 1.
-	self choices at: 2 put: 1.
+	self choices at: 1 put: #barbarian.
+	self choices at: 2 put: #dwarf.
 	self choices at: 3 put: Dictionary new.
 	(self choices at: 3)
 		at: #strength put: 0;

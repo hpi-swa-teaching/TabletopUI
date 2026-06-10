@@ -8,5 +8,6 @@ initialize
 		characterAdministration: TTCharacterAdministration new;
 		openPlayerCountScreen.
 		
-	TTCharacterSheetData initializeCharacterTypes
+	TTCharacterSheetData initializeCharacterTypes.
+	TTCharacterSheetData initializeHPValues
 		

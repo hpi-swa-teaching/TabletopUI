@@ -1,21 +1,20 @@
 initialize-release
 initializeCustomizedCharacterWith: aDictionary
 
-	| data |
 	
 	"data := TTCharacterSheetData characterTypes at: aSymbol."
 	
 	super initialize.
-	self initializeBaseValuesWith: (aDictionary at: 3).
-		"initializeThrowsLookup;
+	self initializeBaseValuesWith: (aDictionary at: 3);
+		initializeThrowsLookup;
 		initializeSkillsLookup;
-		initializeHPWith: aSymbol;
+		initializeHPWith: (TTCharacterSheetData HPValues at: (aDictionary at: 1));
 		level: self defaultLevel;
 		proficiencyValue: self defaultProficiencyValue;
 		currentHitDice: self level;
 		hitDieType: self defaultHitDieType;
-		armorClass: (data at: #armorClass);
-		speed: (data at: #speed);
+		armorClass: self defaultArmorClass;
+		speed: self defaultSpeed;
 		failedDeathSaves: self defaultDeathSaves;
 		successfulDeathSaves: self defaultDeathSaves;
-		gold: self defaultGold"
+		gold: self defaultGold
