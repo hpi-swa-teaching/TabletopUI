@@ -9,7 +9,7 @@ nameList
 			abilities := OrderedCollection new.
 			 ((TTCharacterBuilderScreen options) at: self currentStep) withIndexDo: [ :name :index |
 				| currentScore |
-				currentScore := (self choices at: currentStep) at: index.
+				currentScore := (self choices at: currentStep) at:( ((TTCharacterBuilderScreen options) at: 3) at: index).
 				(currentScore = 0) ifTrue: [currentScore := 'not selected'].
 				abilities add: '[ ', currentScore ,' ] ', name].
 			^ abilities]

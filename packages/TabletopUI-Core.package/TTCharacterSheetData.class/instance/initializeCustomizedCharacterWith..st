@@ -3,11 +3,11 @@ initializeCustomizedCharacterWith: aDictionary
 
 	| data |
 	
-	"data := TTCharacterSheetData characterTypes at: aSymbol.
+	"data := TTCharacterSheetData characterTypes at: aSymbol."
 	
 	super initialize.
-	self initializeBaseValuesWith: aSymbol;
-		initializeThrowsLookup;
+	self initializeBaseValuesWith: (aDictionary at: 3).
+		"initializeThrowsLookup;
 		initializeSkillsLookup;
 		initializeHPWith: aSymbol;
 		level: self defaultLevel;
