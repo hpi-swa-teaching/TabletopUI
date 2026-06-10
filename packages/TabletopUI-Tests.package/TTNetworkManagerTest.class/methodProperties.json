@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bounceBackTestFor:" : "JF 6/10/2026 20:33",
+		"receiveTestFor:" : "JF 6/10/2026 20:31",
+		"setUp" : "JF 6/8/2026 22:06",
+		"test01clientReceive" : "JF 6/10/2026 20:29",
+		"test02clientBounceBack" : "JF 6/10/2026 20:34",
+		"test03serverReceive" : "JF 6/10/2026 20:34",
+		"test04clientBounceBack" : "JF 6/10/2026 20:34" } }

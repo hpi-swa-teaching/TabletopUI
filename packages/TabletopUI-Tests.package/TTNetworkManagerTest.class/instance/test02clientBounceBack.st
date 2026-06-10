@@ -1,0 +1,4 @@
+as yet unclassified
+test02clientBounceBack
+
+	self bounceBackTestFor: TTClientNetworkManager

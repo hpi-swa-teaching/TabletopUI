@@ -1,0 +1,4 @@
+as yet unclassified
+test04clientBounceBack
+
+	self bounceBackTestFor: TTServerNetworkManager

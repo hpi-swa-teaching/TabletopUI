@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"connection" ],
+	"name" : "TTMockNetworkReceiver",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

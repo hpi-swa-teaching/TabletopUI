@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTMockNetworkConnection",
+	"pools" : [
+		 ],
+	"super" : "TTRelayConnection",
+	"type" : "normal" }
