@@ -6,10 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"characterIndex",
 		"selectedIndex",
 		"choices",
 		"currentStep",
-		"remainingNumbers" ],
+		"remainingNumbers",
+		"selectedPresets" ],
 	"name" : "TTCharacterBuilderScreen",
 	"pools" : [
 		 ],

@@ -9,8 +9,8 @@ selectPreset
 	preset ifNil: [ ^ self].
 	
 	(preset = 'load character') ifTrue: [preset := self chooseFileForCharacter. preset = 'nil' ifTrue: [preset := #default]].
-	(preset = 'build character') ifTrue: [self window openCharacterBuilderScreen. preset := 'customized character'].
+	(preset = 'build character') ifTrue: [self window openCharacterBuilderScreenWith: self characterSheets For: self selectedIndex. preset := 'customized character'].
 	
 	self characterSheets at: self selectedIndex put: preset.
-	self createSheetFor: self selectedIndex.
+	preset = 'customized character' ifFalse: [self createSheetFor: self selectedIndex].
 	self changed: #nameList.
