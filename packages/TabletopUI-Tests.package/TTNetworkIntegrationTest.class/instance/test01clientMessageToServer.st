@@ -26,9 +26,5 @@ test01clientMessageToServer
 	[(ref resolve: 'MOCKNWO') val = 'E' or: [DateAndTime now > deadline]] whileFalse: [
 		(Delay forMilliseconds: 10) wait.
 		Processor yield].
-	Transcript
-		show: 'WHY', (ref resolve: 'MOCKNWO') val;
-		cr.
 	self assert: (ref resolve: 'MOCKNWO') val = 'E'.
-	(ref resolve: 'MOCKNWO') val.
 	relay kill
