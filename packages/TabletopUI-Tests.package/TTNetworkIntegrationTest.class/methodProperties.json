@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "JF 6/10/2026 20:52",
+		"test01clientMessageToServer" : "JF 6/10/2026 21:35",
+		"test02serverMessageToClient" : "JF 6/10/2026 21:58" } }
