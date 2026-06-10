@@ -2,13 +2,13 @@ as yet unclassified
 receiveTestFor: NetworkManagerSubclass
 
 	| receiver nwm ref params msg |
-	receiver := TTMockNetworkReceiver newOnPort: 16632.
+	receiver := TTMockNetworkReceiver newOnPort: 16001.
 	self assert: receiver connection tcpSocket isValid.
 	nwm := NetworkManagerSubclass new.
 	
 	Processor yield.
 	self assert: receiver connection tcpSocket isValid.
-	nwm connectTo: 'localhost' tcpPort: 16632.
+	nwm connectTo: 'localhost' tcpPort: 16001.
 	ref := TTReferenceManager new.
 	nwm referenceManager: ref.
 	ref addEntry: TTMockNetworkObject new forId: 'NWMO'.
