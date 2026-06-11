@@ -2,7 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "MM 7/9/2021 15:22" },
 	"instance" : {
-		"newWindowWithMockNetwork" : "GF 6/11/2026 11:56",
+		"newWindowWithMockNetwork" : "CR 6/11/2026 14:00",
 		"setUp" : "GF 6/11/2026 11:56",
 		"test01OpenPlayerCountScreen" : "GF 6/11/2026 12:05",
 		"test02OpenPlayerNamesScreen" : "GF 6/11/2026 12:08",
