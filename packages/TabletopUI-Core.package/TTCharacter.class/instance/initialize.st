@@ -3,5 +3,7 @@ initialize
 
 	super initialize.
 	
-	self name: ''.
-	self sheet: TTCharacterSheetData new
+	self 
+		name: '';
+		token: 'default';
+		sheet: TTCharacterSheetData new

@@ -5,8 +5,10 @@ nameList
 	playerNameList := self characterAdministration players collect: [:aTTCharacter | aTTCharacter name].
 
 	playerNameList withIndexDo: [ :name :index |
-		| selectedSheet |
-		selectedSheet := self characterSheets at: index.
-		playerNameList at: index put: '[ ', selectedSheet, ' ] ', name].
+		| selectedCheet |
+		(self characterSheets at: index) = 'default'
+			ifTrue: [selectedCheet := self characterSheets at: index]
+			ifFalse: [selectedCheet := FileDirectory localNameFor: (self characterSheets at: index)].
+		playerNameList at: index put: '[ ', selectedCheet, ' ] ', name].
 	
 	^ playerNameList

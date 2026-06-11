@@ -8,7 +8,7 @@ selectPreset
 		title:'Pick a character sheet'.
 	preset ifNil: [ ^ self].
 	
-	(preset = 'load character') ifTrue: [preset := self chooseFileForCharacter. preset = 'nil' ifTrue: [preset := #default]].
+	(preset = 'load character') ifTrue: [preset := self chooseFileForCharacter. preset ifNil: [ ^ self ]].
 	
 	self characterSheets at: self selectedIndex put: preset.
 	self changed: #nameList.
