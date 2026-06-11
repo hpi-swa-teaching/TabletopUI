@@ -1,14 +1,14 @@
 {
-	"category" : "TabletopUI-Tests",
+	"category" : "TabletopUI-ScreenManagement",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"referenceManager" ],
-	"name" : "TTMockNetworkmanager",
+		 ],
+	"name" : "TTGamemasterGameScreen",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTGameScreen",
 	"type" : "normal" }
