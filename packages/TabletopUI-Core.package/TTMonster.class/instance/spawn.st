@@ -1,0 +1,4 @@
+copying
+spawn
+
+	^ self veryDeepCopy

@@ -1,0 +1,4 @@
+accessing
+damageResistances
+
+	^ damageResistances

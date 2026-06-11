@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"allTemplates" : "tf 6/11/2026 19:13",
+		"fromSpec:" : "tf 6/11/2026 18:47",
+		"goblin" : "tf 6/11/2026 19:14" },
+	"instance" : {
+		"initialize" : "tf 6/11/2026 18:16",
+		"spawn" : "tf 6/11/2026 18:16" } }

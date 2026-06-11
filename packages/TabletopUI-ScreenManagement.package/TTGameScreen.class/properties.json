@@ -8,13 +8,14 @@
 	"instvars" : [
 		"actionLog",
 		"imageBar",
-		"toolBar",
 		"inputField",
 		"map",
-		"playerSelectionMenu",
-		"tokenBar",
+		"monsterSelectionMenu",
 		"multipanel",
 		"multipanelChanged",
+		"playerSelectionMenu",
+		"tokenBar",
+		"toolBar",
 		"viewContainer" ],
 	"name" : "TTGameScreen",
 	"pools" : [

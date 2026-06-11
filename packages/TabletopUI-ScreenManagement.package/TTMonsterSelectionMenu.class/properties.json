@@ -4,16 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MH 5/27/2026 22:45",
+	"commentStamp" : "tf 6/11/2026 18:21",
 	"instvars" : [
-		"activeView",
 		"characterAdministration",
-		"console",
-		"inputField",
-		"monsterMenu",
-		"playerSelectionMenu",
-		"viewContainer" ],
-	"name" : "TTMultipanel",
+		"map",
+		"selectedIndex" ],
+	"name" : "TTMonsterSelectionMenu",
 	"pools" : [
 		 ],
 	"super" : "Model",

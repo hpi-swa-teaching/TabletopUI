@@ -6,4 +6,5 @@ initialize
 	self 
 		playerCount: 0;
 		players: OrderedCollection new;
-		npcs: OrderedCollection new
+		npcs: OrderedCollection new;
+		monsters: TTMonster allTemplates

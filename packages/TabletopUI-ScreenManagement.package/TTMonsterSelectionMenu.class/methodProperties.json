@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"newWith:map:" : "tf 6/11/2026 18:21" },
+	"instance" : {
+		"characterAdministration" : "tf 6/11/2026 18:21",
+		"characterAdministration:" : "tf 6/11/2026 18:22",
+		"createMorph" : "tf 6/11/2026 18:30",
+		"initialize" : "tf 6/11/2026 18:24",
+		"map" : "tf 6/11/2026 18:21",
+		"map:" : "tf 6/11/2026 18:22",
+		"nameList" : "tf 6/11/2026 18:28",
+		"selectedIndex" : "tf 6/11/2026 18:21",
+		"selectedIndex:" : "tf 6/11/2026 18:27",
+		"selectedMonster" : "tf 6/11/2026 18:30" } }

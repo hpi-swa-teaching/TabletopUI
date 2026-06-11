@@ -8,4 +8,7 @@ addCurrentView
 	self activeView = #players ifTrue: [
 		^ self viewContainer addMorph: self playerSelectionMenu].
 	
+	self activeView = #monsters ifTrue: [
+		^ self viewContainer addMorph: self monsterMenu].
+	
 	^ self

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tf 6/11/2026 17:32",
+	"instvars" : [
+		 ],
+	"name" : "TTMonster",
+	"pools" : [
+		 ],
+	"super" : "TTCharacter",
+	"type" : "normal" }

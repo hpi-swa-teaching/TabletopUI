@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "bv 7/3/2021 21:22",
 	"instvars" : [
+		"monsters",
 		"npcs",
 		"playerCount",
-		"players",
-		"playerSelectionMenu" ],
+		"playerSelectionMenu",
+		"players" ],
 	"name" : "TTCharacterAdministration",
 	"pools" : [
 		 ],
