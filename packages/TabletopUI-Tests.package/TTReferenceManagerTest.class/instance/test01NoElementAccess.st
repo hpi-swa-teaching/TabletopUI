@@ -1,10 +1,9 @@
 as yet unclassified
 test01NoElementAccess
 
-	| referenceManager crashes |
+	| crashes |
 	crashes := false.
-	referenceManager := TTReferenceManager new.
 	
-	[referenceManager resolve: 'test'] on: Error do: [crashes := true].
+	[self referenceManager resolve: 'test'] on: Error do: [crashes := true].
 	
 	self assert: crashes

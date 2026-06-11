@@ -1,11 +1,10 @@
 as yet unclassified
 test02WrongElementAccess
 
-	| referenceManager crashes |
+	| crashes |
 	crashes := false.
-	referenceManager := TTReferenceManager new.
-	referenceManager addEntry: referenceManager forId: 'ref'.
+	self referenceManager addEntry: self referenceManager forId: 'ref'.
 	
-	[referenceManager resolve: 'a'] on: Error do: [crashes := true].
+	[self referenceManager resolve: 'a'] on: Error do: [crashes := true].
 	
 	self assert: crashes
