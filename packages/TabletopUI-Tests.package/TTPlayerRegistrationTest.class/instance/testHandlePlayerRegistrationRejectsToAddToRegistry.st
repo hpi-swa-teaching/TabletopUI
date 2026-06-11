@@ -1,6 +1,6 @@
-as yet unclassified
+testing
 testHandlePlayerRegistrationRejectsToAddToRegistry
     
 	self registerTwoGameMasters.
-	self assert: ((self manager connectionRegistry) includesKey: self validPlayerName).
-	self deny: ((self manager connectionRegistry) includesKey: self invalidPlayerName).
+	self assert: ((self manager connectionRegistry) includesKey: self acceptedPlayerName).
+	self deny: ((self manager connectionRegistry) includesKey: self rejectedPlayerName).

@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server" ],
+	"name" : "TTUpstreamMockConnector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

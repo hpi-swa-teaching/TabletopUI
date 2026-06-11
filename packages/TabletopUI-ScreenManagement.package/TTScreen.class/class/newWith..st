@@ -3,6 +3,6 @@ newWith: aTTTabletopWindow
 
 	^ self new
 		window: aTTTabletopWindow;
-		networkManager: aTTTabletopWindow networkManager;
+		networkmanager: aTTTabletopWindow networkmanager;
 		characterAdministration: aTTTabletopWindow characterAdministration;
 		yourself

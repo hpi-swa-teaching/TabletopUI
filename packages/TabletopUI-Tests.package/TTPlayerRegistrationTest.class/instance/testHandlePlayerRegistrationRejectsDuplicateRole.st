@@ -1,6 +1,6 @@
-as yet unclassified
+testing
 testHandlePlayerRegistrationRejectsDuplicateRole
 
     self registerTwoGameMasters.
-    self assert: (self window hasPlayerNamed: self validPlayerName).
-    self deny: (self window hasPlayerNamed: self invalidPlayerName).
+    self assert: (self manager window hasPlayerNamed: self acceptedPlayerName).
+    self deny: (self manager window hasPlayerNamed: self rejectedPlayerName).
