@@ -1,0 +1,18 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MH 5/27/2026 22:45",
+	"instvars" : [
+		"activeView",
+		"viewContainer",
+		"console",
+		"inputField",
+		"playerSelectionMenu" ],
+	"name" : "TTMultipanel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

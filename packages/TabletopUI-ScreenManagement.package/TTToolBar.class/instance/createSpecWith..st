@@ -1,5 +1,6 @@
 toolbuilder
 createSpecWith: aToolBuilder
+
 	^ aToolBuilder pluggablePanelSpec new
 		model: self;
 		minimumWidth: 0;
