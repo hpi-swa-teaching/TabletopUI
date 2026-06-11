@@ -12,7 +12,8 @@
 		"relay",
 		"serverSessionManager",
 		"referenceManager",
-		"networkManager" ],
+		"networkManager",
+		"isGamemaster" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],
