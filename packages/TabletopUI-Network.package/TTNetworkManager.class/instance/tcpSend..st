@@ -6,7 +6,7 @@ tcpSend: aBytes
 	(self isKindOf: TTClientNetworkManager) ifFalse: [class := 'Server'].
 	lengthBytes := TTPrimitiveSerializer serializeInt: aBytes size.
 	Transcript
-		show: class, 'NWM sending: ', aBytes size asString, '   ', lengthBytes, aBytes asByteArray;
+		show: class, 'NWM sending: ', aBytes size asString, '   ', aBytes asByteArray;
 		cr.
 	self tcpSocketStream nextPutAll: lengthBytes, aBytes asByteArray.
 	self tcpSocketStream flush.

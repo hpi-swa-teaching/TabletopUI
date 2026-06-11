@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"clientNWM1" : "JF 6/11/2026 12:23",
+		"clientNWM1:" : "JF 6/11/2026 12:23",
+		"clientNWM1Ref" : "JF 6/11/2026 12:23",
+		"clientNWM1Ref:" : "JF 6/11/2026 12:23",
+		"clientNWM2" : "JF 6/11/2026 12:23",
+		"clientNWM2:" : "JF 6/11/2026 12:23",
+		"clientNWM2Ref" : "JF 6/11/2026 12:23",
+		"clientNWM2Ref:" : "JF 6/11/2026 12:23",
+		"relay" : "JF 6/11/2026 12:16",
+		"relay:" : "JF 6/11/2026 12:16",
+		"serverNWM" : "JF 6/11/2026 12:19",
+		"serverNWM:" : "JF 6/11/2026 12:19",
+		"serverRef" : "JF 6/11/2026 12:21",
+		"serverRef:" : "JF 6/11/2026 12:21",
+		"setUp" : "JF 6/11/2026 13:00",
+		"tearDown" : "JF 6/11/2026 12:17",
+		"test01clientMessageToServer" : "JF 6/11/2026 12:43",
+		"test02serverMessageToClient" : "JF 6/11/2026 12:44" } }

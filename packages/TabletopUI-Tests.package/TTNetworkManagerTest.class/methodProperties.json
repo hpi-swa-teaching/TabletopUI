@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bounceBackTestFor:" : "JF 6/11/2026 12:56",
+		"receiveTestFor:" : "JF 6/11/2026 12:55",
+		"receiver" : "JF 6/11/2026 12:06",
+		"receiver:" : "JF 6/11/2026 12:06",
+		"ref" : "JF 6/11/2026 12:12",
+		"ref:" : "JF 6/11/2026 12:12",
+		"setUp" : "JF 6/11/2026 12:13",
+		"tearDown" : "JF 6/11/2026 12:11",
+		"test01clientReceive" : "JF 6/10/2026 20:29",
+		"test02clientBounceBack" : "JF 6/10/2026 20:34",
+		"test03serverReceive" : "JF 6/10/2026 20:34",
+		"test04serverBounceBack" : "JF 6/10/2026 22:16" } }

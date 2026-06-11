@@ -1,0 +1,20 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"relay",
+		"serverNWM",
+		"serverRef",
+		"clientNWM1",
+		"clientNWM1Ref",
+		"clientNWM2",
+		"clientNWM2Ref" ],
+	"name" : "TTNetworkIntegrationTest",
+	"pools" : [
+		 ],
+	"super" : "TTTestCase",
+	"type" : "normal" }
