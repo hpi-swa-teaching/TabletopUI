@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"referenceManager" ],
+	"name" : "TTMockNetworkmanager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

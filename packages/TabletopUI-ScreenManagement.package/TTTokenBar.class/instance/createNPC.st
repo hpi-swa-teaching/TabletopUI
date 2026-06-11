@@ -2,10 +2,9 @@ npc creation
 createNPC
 
 	| npc |
-	
+
 	npc := TTCharacter newWithName: self currentName role: TTCharacter npc.
-	self 
+	self
 		currentName: '';
 		changed: #currentName.
-	self characterAdministration addNPC: npc.
-	self map createTokenFor: npc
+	self screen createNPC: npc

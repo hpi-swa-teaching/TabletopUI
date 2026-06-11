@@ -1,0 +1,4 @@
+accessing
+setAsDefaultRole
+
+	self setAsGamemaster
