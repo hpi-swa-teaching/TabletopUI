@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"referenceManager" : "JF 6/11/2026 11:46",
+		"referenceManager:" : "JF 6/11/2026 11:46",
+		"setUp" : "JF 6/11/2026 11:46",
+		"test01NoElementAccess" : "JF 6/11/2026 11:47",
+		"test02WrongElementAccess" : "JF 6/11/2026 11:47",
+		"test03OnlyElementAccess" : "JF 6/11/2026 11:49",
+		"test04ArbitraryElementAccess" : "JF 6/4/2026 17:01" } }

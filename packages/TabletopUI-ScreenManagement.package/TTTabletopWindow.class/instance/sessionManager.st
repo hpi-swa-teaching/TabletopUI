@@ -1,0 +1,4 @@
+accessing
+sessionManager
+
+	^ sessionManager

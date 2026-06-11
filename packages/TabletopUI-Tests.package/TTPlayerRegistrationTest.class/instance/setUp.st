@@ -1,9 +1,16 @@
 initialize-release
 setUp
-
-	self window: TTMockTabletopWindow new.
-	self window loadState: TTTabletopWindow emptyState.
+	
+	| connector |
+	self sessionMembers: OrderedCollection new.
+	self sessionMembers
+		add: (TTClientSessionManager new window: TTMockTabletopWindow new; yourself);
+		add: (TTClientSessionManager new window: TTMockTabletopWindow new; yourself).
+		
 	self manager: (TTServerSessionManager new 
-		window: window;
-		networkManager: TTMockNetworkmanager new;
+		window: TTMockTabletopWindow new;
 		yourself).
+	
+	connector:= TTBroadcastMockConnector new.
+	connector subscribers: self sessionMembers.
+	self manager networkmanager: connector.
