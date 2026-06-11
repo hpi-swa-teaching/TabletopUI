@@ -1,30 +1,16 @@
 as yet unclassified
 test01clientMessageToServer
 
-	| clientNWM relay serverNWM ref params deadline |
-	relay := TTRelayServer new.
-	clientNWM := TTClientNetworkManager new.
-	
-	serverNWM := TTServerNetworkManager new.
-	
-	serverNWM connectTo: 'localhost' tcpPort: relay getServerPort.
-	clientNWM connectTo: 'localhost' tcpPort: relay getClientPort.
-	ref := TTReferenceManager new.
-	serverNWM referenceManager: ref.
-	ref addEntry: TTMockNetworkObject new forId: 'MOCKNWO'.
+	| params deadline |
+	self serverRef addEntry: TTMockNetworkObject new forId: 'MOCKNWO'.
 	params := Dictionary new.
 	params at: 'val' put: 'E'.
 	Processor yield.
-	relay checkClientConnect.
-	Processor yield.
-	relay checkClientConnect.
-	Processor yield.
 	
-	clientNWM send: #setFrom: to: 'MOCKNWO' with: params.
+	self clientNWM1 send: #setFrom: to: 'MOCKNWO' with: params.
 	deadline := DateAndTime now + (Duration milliSeconds: 2000).
 	Processor activeProcess priority: Processor userBackgroundPriority.
-	[(ref resolve: 'MOCKNWO') val = 'E' or: [DateAndTime now > deadline]] whileFalse: [
+	[(self serverRef resolve: 'MOCKNWO') val = 'E' or: [DateAndTime now > deadline]] whileFalse: [
 		(Delay forMilliseconds: 10) wait.
 		Processor yield].
-	self assert: (ref resolve: 'MOCKNWO') val = 'E'.
-	relay kill
+	self assert: (self serverRef resolve: 'MOCKNWO') val = 'E'
