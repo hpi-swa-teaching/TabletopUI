@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 dummyRegistrationJSONPlayer1
 
 ^Dictionary new

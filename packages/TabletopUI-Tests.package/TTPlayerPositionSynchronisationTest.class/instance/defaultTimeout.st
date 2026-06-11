@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 defaultTimeout
 
 	 ^30 "seconds"

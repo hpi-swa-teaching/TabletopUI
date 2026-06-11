@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 registerTwoGameMasters
     | firstDict secondDict |
     firstDict := Dictionary new

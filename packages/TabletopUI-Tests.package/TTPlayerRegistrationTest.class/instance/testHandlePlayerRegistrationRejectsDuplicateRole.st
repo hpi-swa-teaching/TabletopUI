@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testHandlePlayerRegistrationRejectsDuplicateRole
 
     self registerTwoGameMasters.

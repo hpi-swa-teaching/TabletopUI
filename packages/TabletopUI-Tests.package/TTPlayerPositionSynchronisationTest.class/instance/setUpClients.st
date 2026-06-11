@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 setUpClients
 
     self clients: (Array new: 2).

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testRoundtripUpdate
 	
 	self changeTokenPositionOn: self clients second.

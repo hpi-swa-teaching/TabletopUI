@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testDownstreamUpdate
 	
 	self changeTokenPositionOn: self server.

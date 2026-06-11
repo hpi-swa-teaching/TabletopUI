@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 changeTokenPositionOn: object
 	
 	| map token tile |

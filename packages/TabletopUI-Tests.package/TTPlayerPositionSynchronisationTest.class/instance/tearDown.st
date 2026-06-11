@@ -1,5 +1,5 @@
-as yet unclassified
+teardown
 tearDown
 
-	self clients do:[:client | client window contents first owner delete].
-	self server window contents first owner delete.
+	self clients do:[:client | self deleteWindowOf: client].
+	self deleteWindowOf: self server.
