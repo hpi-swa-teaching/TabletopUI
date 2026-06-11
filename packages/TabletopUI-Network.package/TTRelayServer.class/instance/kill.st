@@ -1,6 +1,7 @@
 termination
 kill
 
+	self shouldClose: true.
 	self stopStepping.
 	self server tcpSocket closeAndDestroy.
 	self clientAcceptor closeAndDestroy.

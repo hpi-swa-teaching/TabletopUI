@@ -9,7 +9,8 @@
 		"lastMessage",
 		"lastRecipient",
 		"lastParameters",
-		"sendCount" ],
+		"sendCount",
+		"referenceManager" ],
 	"name" : "TTMockNetworkmanager",
 	"pools" : [
 		 ],
