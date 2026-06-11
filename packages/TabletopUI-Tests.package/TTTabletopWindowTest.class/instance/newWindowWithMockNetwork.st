@@ -1,5 +1,5 @@
 running
-newMockWindow
+newWindowWithMockNetwork
 
 	^ TTTabletopWindow new
 		networkManager: TTMockNetworkmanager new;

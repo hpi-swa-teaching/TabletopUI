@@ -1,4 +1,4 @@
 running
 setUp
 
-	self window: self newMockWindow
+	self window: self newWindowWithMockNetwork

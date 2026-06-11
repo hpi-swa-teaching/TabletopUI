@@ -2,7 +2,7 @@ testing
 test08GamemasterGameScreenCreatesNPC
 
 	| screen npc |
-	self window: self newMockWindow.
+	self window: self newWindowWithMockNetwork.
 	npc := TTCharacter newWithName: 'orc' role: TTCharacter npc.
 	self window
 		setAsGamemaster;

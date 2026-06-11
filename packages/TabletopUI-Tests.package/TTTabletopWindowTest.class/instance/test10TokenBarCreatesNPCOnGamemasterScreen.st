@@ -1,7 +1,7 @@
 testing
 test10TokenBarCreatesNPCOnGamemasterScreen
 
-	self window: self newMockWindow.
+	self window: self newWindowWithMockNetwork.
 	self window
 		setAsGamemaster;
 		openGameScreen.

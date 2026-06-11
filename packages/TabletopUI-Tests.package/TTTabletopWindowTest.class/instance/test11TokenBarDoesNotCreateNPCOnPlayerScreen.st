@@ -1,7 +1,7 @@
 testing
 test11TokenBarDoesNotCreateNPCOnPlayerScreen
 
-	self window: self newMockWindow.
+	self window: self newWindowWithMockNetwork.
 	self window
 		setAsPlayer;
 		openGameScreen.

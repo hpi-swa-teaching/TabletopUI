@@ -1,4 +1,0 @@
-npc creation
-createNPC: aTTCharacter
-
-	

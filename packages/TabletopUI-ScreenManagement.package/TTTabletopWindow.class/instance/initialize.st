@@ -7,4 +7,4 @@ initialize
 		contents: {};
 		characterAdministration: TTCharacterAdministration new;
 		connectionRegistry: Dictionary new;
-		setAsGamemaster.
+		setAsDefaultRole.
