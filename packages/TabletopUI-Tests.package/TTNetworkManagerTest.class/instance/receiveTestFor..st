@@ -5,8 +5,9 @@ receiveTestFor: NetworkManagerSubclass
 	nwm := NetworkManagerSubclass new.
 	
 	Processor yield.
-	nwm connectTo: 'localhost' tcpPort: 16000.
 	nwm referenceManager: self ref.
+	nwm connectTo: 'localhost' tcpPort: 16000.
+	
 	self ref addEntry: TTMockNetworkObject new forId: 'NWMO'.
 	params := Dictionary new.
 	params at: 'val' put: '42'.
