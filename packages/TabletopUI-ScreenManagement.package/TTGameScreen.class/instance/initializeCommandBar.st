@@ -7,4 +7,4 @@ initializeCommandBar
 		inputField: (TTInputField newWithActionLog: self actionLog 
 			playerSelectionMenu: self playerSelectionMenu);
 		addDependent: self inputField.
-	self inputField parser addDependent: self window serverSessionManager
+	self inputField parser addDependent: self window sessionManager

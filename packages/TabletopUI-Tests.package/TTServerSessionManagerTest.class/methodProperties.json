@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "DavidSimon 6/8/2026 14:28",
-		"test01BroadcastOnParserState" : "DavidSimon 6/8/2026 15:33",
-		"test02IgnoresUnrelatedAspect" : "DavidSimon 6/8/2026 14:33",
-		"test03BroadcastOnMapState" : "DavidSimon 6/8/2026 14:33",
+		"setUp" : "DavidSimon 6/11/2026 14:54",
+		"test01BroadcastOnParserState" : "DavidSimon 6/11/2026 14:56",
+		"test02IgnoresUnrelatedAspect" : "DavidSimon 6/11/2026 14:57",
+		"test03BroadcastOnMapState" : "DavidSimon 6/11/2026 14:55",
 		"update:" : "DavidSimon 6/8/2026 14:51" } }

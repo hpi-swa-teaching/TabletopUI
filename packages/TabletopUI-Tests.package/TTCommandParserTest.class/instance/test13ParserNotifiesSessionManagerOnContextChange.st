@@ -5,7 +5,7 @@ test13ParserNotifiesSessionManagerOnContextChange
     window := TTMockTabletopWindow new.
     manager := TTServerSessionManager new
         window: window;
-        networkManager: mockNetwork;
+        networkmanager: mockNetwork;
         yourself.
 
     parser changeToInitiativeContext.

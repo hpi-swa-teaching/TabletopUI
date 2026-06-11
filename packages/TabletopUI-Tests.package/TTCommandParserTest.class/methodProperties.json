@@ -16,6 +16,6 @@
 		"test09InvalidInput" : "ML 8/3/2022 15:01",
 		"test10PropogateChange" : "DavidSimon 6/8/2026 12:41",
 		"test11PropagateRollFromContext" : "DavidSimon 6/8/2026 14:06",
-		"test12ParserNotifiesSessionManager" : "DavidSimon 6/8/2026 14:56",
-		"test13ParserNotifiesSessionManagerOnContextChange" : "DavidSimon 6/11/2026 14:24",
+		"test12ParserNotifiesSessionManager" : "DavidSimon 6/11/2026 14:54",
+		"test13ParserNotifiesSessionManagerOnContextChange" : "DavidSimon 6/11/2026 14:56",
 		"update:" : "DavidSimon 6/8/2026 13:01" } }

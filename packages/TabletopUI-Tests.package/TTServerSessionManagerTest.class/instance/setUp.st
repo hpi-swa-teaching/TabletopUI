@@ -5,5 +5,5 @@ super setUp.
     window := TTMockTabletopWindow new.
     manager := TTServerSessionManager new
         window: window;
-        networkManager: mockNetwork;
+        networkmanager: mockNetwork;
         yourself
