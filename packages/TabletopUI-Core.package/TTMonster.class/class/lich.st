@@ -1,0 +1,96 @@
+templates
+lich
+
+	self flag: #todo. "description for legendary actions"
+	^ self fromSpec: (Dictionary new
+		at: #name put: 'Lich';
+		at: #size put: 'Medium';
+		at: #type put: 'Undead';
+		at: #alignment put: 'Any Evil Alignment';
+		at: #armor_class put: 17;
+		at: #hit_points put: 135;
+		at: #speed put: 30;
+		at: #strength put: 11;
+		at: #dexterity put: 16;
+		at: #constitution put: 16;
+		at: #intelligence put: 20;
+		at: #wisdom put: 14;
+		at: #charisma put: 16;
+		at: #saving_throws put: 'CON +10, INT +12, WIS +9';
+		at: #skills put: 'Arcana +19, History +12, Insight +9, Perception +9';
+		at: #damage_resistances put:  'Cold, Lightning, Necrotic';
+		at: #damage_immunities put:  'Poison; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks';
+		at: #condition_immunities put:  'Charmed, Exhaustion, Frightened, Paralyzed, Poisoned';
+		at: #senses put: 'Truesight 120 ft., Passive Perception 19';
+		at: #languages put: 'Common plus up to five other languages';
+		at: #challenge_rating put: '21';
+		at: #proficiency_value put: 7;
+		at: #special_abilities put: {
+			Dictionary new
+				at: #name put: 'Legendary Resistance (3/Day)';
+				at: #desc
+					put: 'If the lich fails a saving throw, it can choose to succeed instead.';
+				yourself.
+			Dictionary new
+				at: #name put: 'Rejuvenation';
+				at: #desc
+					put: 'If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.';
+				yourself.
+			Dictionary new
+				at: #name put: 'Spellcasting';
+				at: #desc
+					put: 'The lich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:
+
+Cantrips (at will): mage hand, prestidigitation, ray of frost
+
+1st level (4 slots): detect magic, magic missile, shield, thunderwave
+
+2nd level (3 slots): acid arrow, detect thoughts, invisibility, mirror image
+
+3rd level (3 slots): animate dead, counterspell, dispel magic, fireball
+
+4th level (3 slots): blight, dimension door
+
+5th level (3 slots): cloudkill, scrying
+
+6th level (1 slot): disintegrate, globe of invulnerability
+
+7th level (1 slot): finger of death, plane shift
+
+8th level (1 slot): dominate monster, power word stun
+
+9th level (1 slot): power word kill';
+				yourself.
+			Dictionary new
+				at: #name put: 'Turn Resistance';
+				at: #desc
+					put: 'The lich has advantage on saving throws against any effect that turns undead.';
+				yourself};
+		at: #actions put: {
+			Dictionary new
+				at: #name put: 'Paralyzing Touch';
+				at: #desc
+					put: 'Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.';
+				yourself};
+		at: #legendary_actions put: { "The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The lich regains spent legendary actions at the start of its turn."
+			Dictionary new
+				at: #name put: 'Cantrip';
+				at: #desc
+					put: 'The lich casts a cantrip.';
+				yourself.
+			Dictionary new
+				at: #name put: 'Paralyzing Touch (Costs 2 Actions)';
+				at: #desc
+					put: 'The lich uses its Paralyzing Touch.';
+				yourself.
+			Dictionary new
+				at: #name put: 'Frightening Gaze (Costs 2 Actions)';
+				at: #desc
+					put: 'The lich fixes its gaze on one creature it can see within 10 feet of it. The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to the lich’s gaze for the next 24 hours.';
+				yourself.
+			Dictionary new
+				at: #name put: 'Disrupt Life (Costs 3 Actions)';
+				at: #desc
+					put: 'Each non-undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.';
+				yourself};
+		yourself)

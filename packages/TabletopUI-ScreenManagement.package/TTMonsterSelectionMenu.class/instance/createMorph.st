@@ -11,7 +11,7 @@ createMorph
 
 	listMorph
 		position: 0 @ 0;
-		extent: 200 @ 300;
+		extent: 200 @ 400;
 		color: Color white;
 		borderWidth: 1;
 		borderColor: Color black.

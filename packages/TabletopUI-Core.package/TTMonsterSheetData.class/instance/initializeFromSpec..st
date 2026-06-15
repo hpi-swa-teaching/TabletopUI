@@ -24,7 +24,9 @@ initializeFromSpec: aDictionary
 		alignment: (aDictionary at: #alignment);
 		challengeRating: (aDictionary at: #challenge_rating);
 		senses: (aDictionary at: #senses ifAbsent: ['']);
+		savingThrows: (aDictionary at: #saving_throws ifAbsent: ['']);
 		languages: (aDictionary at: #languages ifAbsent: ['']);
+		damageVulnerabilities: (aDictionary at: #damage_vulnerabilities ifAbsent: ['']);
 		damageResistances: (aDictionary at: #damage_resistances ifAbsent: ['']);
 		damageImmunities: (aDictionary at: #damage_immunities ifAbsent: ['']);
 		conditionImmunities: (aDictionary at: #condition_immunities ifAbsent: ['']);
