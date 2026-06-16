@@ -1,6 +1,8 @@
 accessing
 buildTitleMorph: aTitleString
 
-	| font |
-	font := TextStyle default fontOfSize: self standardPointSize.
-	^ StringMorph new font: font; contents: '> ' , aTitleString; hResizing: #spaceFill; yourself
+	| morph font |
+	font := TextStyle default fontOfSize: 30.
+	morph := StringMorph new. 
+	morph font: font; emphasis: 4; contents: '> ' , aTitleString; hResizing: #spaceFill. 
+	^ morph

@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"items",
-		"spells",
-		"monsters",
-		"subclasses" ],
-	"name" : "TTWiki",
+		 ],
+	"name" : "TTWikiCategoryMorph",
 	"pools" : [
 		 ],
-	"super" : "BorderedMorph",
+	"super" : "TTWikiEntryMorph",
 	"type" : "normal" }

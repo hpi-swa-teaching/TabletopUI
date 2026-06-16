@@ -1,4 +1,4 @@
 accessing
 standardPointSize
 
-	^ 10
+	^ 24

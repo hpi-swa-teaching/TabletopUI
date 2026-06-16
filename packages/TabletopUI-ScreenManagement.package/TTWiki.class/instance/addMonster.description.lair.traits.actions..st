@@ -4,4 +4,4 @@ addMonster: aTitle description: aDescription lair: aLairCollection traits: aTrai
 	| entry |
 	entry := TTMonsterEntryMorph new
 	initializeWithTitle: aTitle description: aDescription lair: aLairCollection traits: aTraitsCollection actions: anActionsCollection.
-	self addMorphBack: entry
+	monsters add: entry
