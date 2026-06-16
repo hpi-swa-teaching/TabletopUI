@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "PB 7/7/2021 16:27" },
+		"newWith:" : "CR 6/16/2026 21:28" },
 	"instance" : {
-		"characterAdministration" : "PB 7/7/2021 16:23",
-		"characterAdministration:" : "JA 5/26/2022 14:31",
+		"characterList" : "CR 6/16/2026 18:26",
+		"characterList:" : "CR 6/16/2026 18:26",
 		"createSpecWith:" : "joda 7/7/2021 10:35",
-		"getActivePlayer" : "PB 7/7/2021 16:26",
+		"getActivePlayer" : "CR 6/16/2026 18:27",
 		"initialize" : "joda 6/28/2021 17:03",
-		"nameList" : "rf 7/8/2021 14:41",
+		"nameList" : "CR 6/16/2026 18:26",
 		"selectedIndex" : "bv 5/29/2021 12:18",
 		"selectedIndex:" : "bv 7/3/2021 18:57" } }

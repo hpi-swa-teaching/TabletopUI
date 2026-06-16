@@ -13,7 +13,8 @@
 		"referencemanager",
 		"networkmanager",
 		"sessionManager",
-		"isGamemaster" ],
+		"isGamemaster",
+		"owningPlayerName" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],

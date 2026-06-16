@@ -1,0 +1,4 @@
+accessing
+charactersToDisplay
+
+	self subclassResponsibility.

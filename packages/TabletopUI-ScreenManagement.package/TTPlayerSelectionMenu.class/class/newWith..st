@@ -1,8 +1,8 @@
 initialization
-newWith: aTTCharacterAdministration
-
+newWith: anOrderedCollection
+	
 	^ self new
-		characterAdministration: aTTCharacterAdministration;
+		characterList: anOrderedCollection;
 		yourself
 
 	
