@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bv 7/3/2021 22:01",
+	"commentStamp" : "tak2 1/15/2026 13:01",
 	"instvars" : [
-		"character",
-		"defaultTile",
-		"isDraggable" ],
-	"name" : "TTToken",
+		"imagePath" ],
+	"name" : "TTImageMorph",
 	"pools" : [
 		 ],
-	"super" : "TTImageMorph",
+	"super" : "ImageMorph",
 	"type" : "normal" }

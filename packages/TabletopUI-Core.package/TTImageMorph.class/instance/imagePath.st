@@ -1,0 +1,4 @@
+getter/setter
+imagePath
+
+	^ imagePath.

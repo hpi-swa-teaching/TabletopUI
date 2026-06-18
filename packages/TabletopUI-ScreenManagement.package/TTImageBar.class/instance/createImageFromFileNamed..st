@@ -1,4 +1,4 @@
 image loading
 createImageFromFileNamed: aString
 	
-	^ ImageMorph new newForm: (TTImageLoader loadFormFromFileNamed: aString)
+	^ (TTImageMorph new newForm: (TTImageLoader loadFormFromFileNamed: aString) ) extent: (1200px @ 850px)
