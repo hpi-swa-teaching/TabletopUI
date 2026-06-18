@@ -1,5 +1,5 @@
 testing-money
 test32GainElectrum
 
-	self characterSheet gainElectrum: 1.
-	self assert: self characterSheet gold = 0.5
+	self characterSheet gain: 1 of: #electrum.
+	self assert: self characterSheet electrum = '1'

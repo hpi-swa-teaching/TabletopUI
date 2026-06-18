@@ -1,4 +1,0 @@
-constants
-savingThrowsDefault
-
-	^ 0

@@ -4,6 +4,8 @@ initialize
 	super initialize.
 	self abilities: Dictionary new.
 	self
+		experiencePoints: 0;
+		initializeAbilities;
 		initializeSkillsLookup;
 		initializeSavingThrowsLookup;
 		initializeHP;

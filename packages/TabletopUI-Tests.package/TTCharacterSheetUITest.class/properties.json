@@ -9,7 +9,7 @@
 		"playerSelectionMenu",
 		"toolbar",
 		"characterAdministration" ],
-	"name" : "TTCharacterSheetDisplayTest",
+	"name" : "TTCharacterSheetUITest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

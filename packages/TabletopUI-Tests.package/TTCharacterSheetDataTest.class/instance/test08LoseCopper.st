@@ -1,6 +1,6 @@
 testing-money
 test08LoseCopper
 
-	self characterSheet gold: 100.
-	self characterSheet loseCopper: 5.
-	self assert: self characterSheet gold = 99.95
+	self characterSheet walletAt: #copper put: 100.
+	self characterSheet spend: 5 of: #copper.
+	self assert: self characterSheet copper = '95'

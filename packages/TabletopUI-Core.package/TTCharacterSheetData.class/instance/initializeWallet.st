@@ -3,5 +3,5 @@ initializeWallet
 
 	self wallet: Dictionary new.
 	self class currencies do: [:coin |
-		self wallet at: coin put: 0]
+		self wallet at: coin put: self defaultMoney]
 	

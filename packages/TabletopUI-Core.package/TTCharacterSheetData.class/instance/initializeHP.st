@@ -1,6 +1,6 @@
 setup - initialization
 initializeHP
 
-	self maxHP: 10.
-	self currentHP: 10.
+	self maxHP: 20.
+	self currentHP: 20.
 	self temporaryHP: 0.

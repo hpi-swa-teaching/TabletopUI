@@ -14,7 +14,7 @@ test02DifferentPlayers
 	thirdDisplay :=	self toolbar openCharacterSheetDisplay.
 	self assert: ((thirdDisplay model strength) = '12').
 	
-	firstDisplay abandon.
-	secondDisplay abandon.
-	thirdDisplay abandon
+	firstDisplay closeSheet.
+	secondDisplay closeSheet.
+	thirdDisplay closeSheet
 	
