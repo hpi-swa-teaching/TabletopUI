@@ -1,7 +1,6 @@
 templates
 tarrasque
 
-	self flag: #todo. "all"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Tarrasque';
 		at: #size put: 'Gargantuan';
@@ -82,7 +81,12 @@ tarrasque
 
 If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the tarrasque. If the tarrasque dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone.';
 				yourself};
-		at: #legendary_actions put: { "The tarrasque can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The tarrasque regains spent legendary actions at the start of its turn."
+		at: #legendary_actions put: {
+			Dictionary new "description for legendary actions, therefore no name"
+				at: #name put: '';
+				at: #desc
+					put: 'The tarrasque can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The tarrasque regains spent legendary actions at the start of its turn.';
+				yourself.
 			Dictionary new
 				at: #name put: 'Attack';
 				at: #desc

@@ -1,7 +1,6 @@
 templates
 harpy
 
-	self flag: #todo. "fly speed"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Harpy';
 		at: #size put: 'Medium';
@@ -9,7 +8,12 @@ harpy
 		at: #alignment put: 'Chaotic Evil';
 		at: #armor_class put: 11;
 		at: #hit_points put: 38;
-		at: #speed put: 20; "Fly 40 ft."
+		at: #speed put: 20;
+		at: #additional_speeds put:{
+			Dictionary new
+				at: #name put: 'Fly';
+				at: #value put: 40
+				yourself};
 		at: #strength put: 12;
 		at: #dexterity put: 13;
 		at: #constitution put: 12;

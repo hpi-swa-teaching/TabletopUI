@@ -11,6 +11,7 @@ initializeFromSpec: aDictionary
 		temporaryHP: self defaultTemporaryHP;
 		armorClass: (aDictionary at: #armor_class);
 		speed: (aDictionary at: #speed);
+		additionalSpeeds: (aDictionary at: #additional_speeds ifAbsent: [#()]);
 		level: self defaultLevel;
 		proficiencyValue: (aDictionary at: #proficiency_value);
 		currentHitDice: self level;

@@ -1,7 +1,6 @@
 templates
 aboleth
 
-	self flag: #todo. "swim speed" "description for legendary actions"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Aboleth';
 		at: #size put: 'Large';
@@ -9,7 +8,12 @@ aboleth
 		at: #alignment put: 'Lawful Evil';
 		at: #armor_class put: 17;
 		at: #hit_points put: 135;
-		at: #speed put: 10; "Swim 40 ft."
+		at: #speed put: 10;
+		at: #additional_speeds put:{
+			Dictionary new
+				at: #name put: 'Swim';
+				at: #value put: 40
+				yourself};
 		at: #strength put: 21;
 		at: #dexterity put: 9;
 		at: #constitution put: 15;
@@ -61,7 +65,12 @@ aboleth
 
 Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.';
 				yourself};
-		at: #legendary_actions put: { "The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn."
+		at: #legendary_actions put: {
+			Dictionary new "description for legendary actions, therefore no name"
+				at: #name put: '';
+				at: #desc
+					put: 'The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.';
+				yourself.
 			Dictionary new
 				at: #name put: 'Detect';
 				at: #desc

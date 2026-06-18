@@ -1,7 +1,6 @@
 templates
 adultBronzeDragon
 
-	self flag: #todo. "fly and swim speed" "description for legendary actions"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Adult Bronze Dragon';
 		at: #size put: 'Huge';
@@ -9,7 +8,16 @@ adultBronzeDragon
 		at: #alignment put: 'Lawful Good';
 		at: #armor_class put: 19;
 		at: #hit_points put: 212;
-		at: #speed put: 40; "Fly 80 ft., Swim 40 ft."
+		at: #speed put: 40;
+		at: #additional_speeds put:{
+			Dictionary new
+				at: #name put: 'Fly';
+				at: #value put: 80
+				yourself.
+			Dictionary new
+				at: #name put: 'Swim';
+				at: #value put: 40
+				yourself};
 		at: #strength put: 25;
 		at: #dexterity put: 10;
 		at: #constitution put: 23;
@@ -82,7 +90,12 @@ adultBronzeDragon
 
 In a new form, the dragon retains its alignment, hit points, Hit Dice, ability to speak, proficiencies, Legendary Resistance, lair actions, and Intelligence, Wisdom, and Charisma scores, as well as this action. Its statistics and capabilities are otherwise replaced by those of the new form, except any class features or legendary actions of that form.';
 				yourself.};
-		at: #legendary_actions put: { "The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The dragon regains spent legendary actions at the start of its turn."
+		at: #legendary_actions put: {
+			Dictionary new "description for legendary actions, therefore no name"
+				at: #name put: '';
+				at: #desc
+					put: 'The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature''s turn. The dragon regains spent legendary actions at the start of its turn.';
+				yourself.
 			Dictionary new
 				at: #name put: 'Detect';
 				at: #desc

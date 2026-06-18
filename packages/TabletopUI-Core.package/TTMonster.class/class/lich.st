@@ -1,7 +1,6 @@
 templates
 lich
 
-	self flag: #todo. "description for legendary actions"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Lich';
 		at: #size put: 'Medium';
@@ -72,7 +71,12 @@ Cantrips (at will): mage hand, prestidigitation, ray of frost
 				at: #desc
 					put: 'Melee Spell Attack: +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.';
 				yourself};
-		at: #legendary_actions put: { "The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The lich regains spent legendary actions at the start of its turn."
+		at: #legendary_actions put: {
+			Dictionary new "description for legendary actions, therefore no name"
+				at: #name put: '';
+				at: #desc
+					put: 'The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The lich regains spent legendary actions at the start of its turn.';
+				yourself.
 			Dictionary new
 				at: #name put: 'Cantrip';
 				at: #desc

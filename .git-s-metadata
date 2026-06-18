@@ -488,6 +488,15 @@ GSMetadata {
 				'adultBronzeDragon.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'beholder.png'
+			],
+			#encoding : @87
 		}
 	],
 	#name : 'TabletopUI'

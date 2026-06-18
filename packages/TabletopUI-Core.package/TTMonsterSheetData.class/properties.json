@@ -7,6 +7,7 @@
 	"commentStamp" : "tf 6/11/2026 19:15",
 	"instvars" : [
 		"actions",
+		"additionalSpeeds",
 		"alignment",
 		"challengeRating",
 		"conditionImmunities",

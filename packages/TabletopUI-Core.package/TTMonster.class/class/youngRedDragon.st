@@ -1,7 +1,6 @@
 templates
 youngRedDragon
 
-	self flag: #todo. "climb and fly speed"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Young Red Dragon';
 		at: #size put: 'Large';
@@ -9,7 +8,16 @@ youngRedDragon
 		at: #alignment put: 'Chaotic Evil';
 		at: #armor_class put: 18;
 		at: #hit_points put: 178;
-		at: #speed put: 40; "Climb 40 ft., Fly 80 ft."
+		at: #speed put: 40;
+		at: #additional_speeds put:{
+			Dictionary new
+				at: #name put: 'Climb';
+				at: #value put: 40
+				yourself.
+			Dictionary new
+				at: #name put: 'Fly';
+				at: #value put: 80
+				yourself};
 		at: #strength put: 23;
 		at: #dexterity put: 10;
 		at: #constitution put: 21;
