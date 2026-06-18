@@ -1,4 +1,0 @@
-accessing
-standardFont
-
-	^ TextStyle defaultFont

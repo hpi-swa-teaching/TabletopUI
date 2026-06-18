@@ -1,4 +1,4 @@
-tests
+testing
 test01playerButtonShowsPlayerSelectionMenu
 
 	| viewContainer |

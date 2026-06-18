@@ -1,4 +1,4 @@
-as yet unclassified
+display
 buildCategory: aTitle from: aCollection 
 
 	| category space |

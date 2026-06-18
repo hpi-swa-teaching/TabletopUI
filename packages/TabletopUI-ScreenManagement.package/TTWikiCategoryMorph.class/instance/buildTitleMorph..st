@@ -1,6 +1,10 @@
-as yet unclassified
+display
 buildTitleMorph: aTitleString
 
 	| font |
-	font := TextStyle default fontOfSize: self standardPointSize.
-	^ StringMorph new font: font; emphasis: 1; contents: '> ' , aTitleString; hResizing: #spaceFill; yourself
+	font := TextStyle default fontOfSize: self class standardPointSize.
+	^ StringMorph new 
+		font: font; 
+		emphasis: 1; 
+		contents: '> ' , aTitleString; 
+		hResizing: #spaceFill

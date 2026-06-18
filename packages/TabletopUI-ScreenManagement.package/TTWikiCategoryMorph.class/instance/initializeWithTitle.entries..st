@@ -1,7 +1,7 @@
-as yet unclassified
+display
 initializeWithTitle: aTitleString entries: aCollection
 
-	self initializeWithTitle: aTitleString buildContent: [:container |
+	self initializeCategoryWithTitle: aTitleString buildContent: [:container |
 		container cellInset: 7.
 		aCollection do: [:entry |
 			container addMorphBack: entry]]

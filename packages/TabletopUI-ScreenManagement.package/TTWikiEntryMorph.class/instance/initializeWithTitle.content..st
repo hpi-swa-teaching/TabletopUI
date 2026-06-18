@@ -1,4 +1,4 @@
-accessing
+display
 initializeWithTitle: aTitleString content: aContentString
 
 	self 

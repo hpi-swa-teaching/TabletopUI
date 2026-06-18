@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeLayout
 
 	self
@@ -8,4 +8,4 @@ initializeLayout
 		cellSpacing: #none;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap;
-		color: Color transparent.
+		color: Color transparent

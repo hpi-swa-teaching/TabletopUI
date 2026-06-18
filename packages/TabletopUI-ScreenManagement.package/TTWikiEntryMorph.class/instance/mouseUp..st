@@ -1,4 +1,4 @@
-as yet unclassified
+input handling
 mouseUp: anEvent
 
 	self isExpanded: isExpanded not.
@@ -9,6 +9,4 @@ mouseUp: anEvent
 		self removeMorph: contentWrapperMorph.
 		self titleMorph contents: '> ', (self titleMorph contents allButFirst: 2)].
  
-	self layoutChanged.
-	self	owner layoutChanged.
-	self ownerChain do: [:m | m layoutChanged]
+	self layoutChanged

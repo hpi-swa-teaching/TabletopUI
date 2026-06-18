@@ -1,4 +1,8 @@
-accessing
+display
 buildContentMorph: aContentString
     
-	^ TextMorph new contents: (self styledText: '    ' , aContentString); hResizing: #spaceFill; wrapFlag: true; autoFit: true; yourself
+	^ TextMorph new 
+		contents: (self styledText: '    ' , aContentString); 
+		hResizing: #spaceFill; 
+		wrapFlag: true; 
+		autoFit: true

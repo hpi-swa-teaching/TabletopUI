@@ -1,7 +1,7 @@
-as yet unclassified
+display
 addSubclass: aTitle className: aClassName sections: aSectionsCollection
 
 	| entry |
-	entry := TTSubclassEntryMorph new
-	initializeWithTitle: aTitle className: aClassName sections: aSectionsCollection.
+	entry := TTWikiEntryMorph new
+	initializeSubclassWithTitle: aTitle className: aClassName sections: aSectionsCollection.
 	subclasses add: entry

@@ -1,7 +1,7 @@
-as yet unclassified
+display
 addMonster: aTitle description: aDescription lair: aLairCollection traits: aTraitsCollection actions: anActionsCollection
 
 	| entry |
-	entry := TTMonsterEntryMorph new
-	initializeWithTitle: aTitle description: aDescription lair: aLairCollection traits: aTraitsCollection actions: anActionsCollection.
+	entry := TTWikiEntryMorph new
+	initializeMonsterWithTitle: aTitle description: aDescription lair: aLairCollection traits: aTraitsCollection actions: anActionsCollection.
 	monsters add: entry

@@ -1,4 +1,4 @@
-as yet unclassified
+display
 buildCategories
 
 	self buildCategory: 'Item' from: items.

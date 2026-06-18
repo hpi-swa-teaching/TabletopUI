@@ -1,4 +1,4 @@
-button management
+toolbuilder
 createSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggablePanelSpec new
