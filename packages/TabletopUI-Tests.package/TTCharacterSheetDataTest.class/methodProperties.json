@@ -6,7 +6,7 @@
 		"characterSheet:" : "DS 5/15/2022 14:57",
 		"inputField" : "ML 7/20/2022 01:05",
 		"inputField:" : "ML 7/20/2022 01:05",
-		"setUp" : "tf 5/20/2026 15:05",
+		"setUp" : "MK 6/18/2026 16:34",
 		"test01SavingThrowsDefault" : "ob 8/3/2022 16:00",
 		"test02SavingThrowsWithProficiency" : "ob 8/3/2022 16:13",
 		"test03Damage" : "ob 8/3/2022 16:20",
@@ -55,5 +55,5 @@
 		"test45HitDiceIncrementOutOfBounds" : "ob 8/3/2022 16:54",
 		"test46HitDiceDecrementOutOfBounds" : "ob 8/3/2022 16:55",
 		"test47ResetHitDice" : "ob 8/3/2022 16:56",
-		"test48InitializeWithWizard" : "tf 5/21/2026 22:32",
-		"test49InitializeWithFighter" : "tf 5/21/2026 22:43" } }
+		"test48InitializeWithWizard" : "MK 6/18/2026 16:35",
+		"test49InitializeWithFighter" : "MK 6/18/2026 16:36" } }

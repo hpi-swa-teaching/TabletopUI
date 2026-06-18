@@ -1,8 +1,5 @@
 initialize-release
 initializeCustomizedCharacterWith: aDictionary
-
-	
-	"data := TTCharacterSheetData characterTypes at: aSymbol."
 	
 	super initialize.
 	self initializeBaseValuesWith: (aDictionary at: 3);

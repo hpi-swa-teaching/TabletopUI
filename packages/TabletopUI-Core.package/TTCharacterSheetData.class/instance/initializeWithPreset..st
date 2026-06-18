@@ -6,7 +6,7 @@ initializeWithPreset: aSymbol
 	data := TTCharacterSheetData characterTypes at: aSymbol.
 	
 	super initialize.
-	self initializeBaseValuesWith: aSymbol;
+	self initializeBaseValuesWith: data;
 		initializeThrowsLookup;
 		initializeSkillsLookup;
 		initializeHPWith: (data at: #maxHP);
