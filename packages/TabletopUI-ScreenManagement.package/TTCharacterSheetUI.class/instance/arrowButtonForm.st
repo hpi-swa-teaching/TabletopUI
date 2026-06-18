@@ -1,4 +1,4 @@
 forms
-arrowForm
+arrowButtonForm
 
 	^ (TTImageLoader loadFormFromFileNamed: 'arrow.png')

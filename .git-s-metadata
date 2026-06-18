@@ -428,6 +428,14 @@ GSMetadata {
 				'attacks.png'
 			],
 			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'close.png'
+			],
+			#encoding : @18
 		}
 	],
 	#name : 'TabletopUI'

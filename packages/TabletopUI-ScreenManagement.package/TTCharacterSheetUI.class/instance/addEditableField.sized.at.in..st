@@ -7,10 +7,5 @@ addEditableField: aSymbol sized: anExtent at: aPoint in: anImageMorph
 		on: self model
 		text: aSymbol
 		accept: (aSymbol , ':') asSymbol.
-	textMorph
-		extent: anExtent;
-		wrapFlag: false.
-	self
-		textSettingsFor: textMorph;
-		add: textMorph ToUI: anImageMorph.
-	textMorph position: aPoint
+	textMorph extent: anExtent.
+	self finalize: textMorph at: aPoint in: anImageMorph

@@ -1,7 +1,7 @@
 layout pages
 clearPageContent
 
-	self sheet submorphs copy do: [:m |
-        m == arrow ifFalse: [
-		self model removeDependent: m.
-		m delete]].
+	self sheet submorphs copy do: [:morph |
+         (self isImportant: morph) ifFalse: [
+		self model removeDependent: morph.
+		morph delete]].
