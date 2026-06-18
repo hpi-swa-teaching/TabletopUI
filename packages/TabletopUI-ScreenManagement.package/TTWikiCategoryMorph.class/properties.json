@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MH 6/18/2026 12:50",
+	"instvars" : [
+		 ],
+	"name" : "TTWikiCategoryMorph",
+	"pools" : [
+		 ],
+	"super" : "TTWikiEntryMorph",
+	"type" : "normal" }

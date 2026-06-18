@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addEntrys" : "MH 6/18/2026 13:08",
+		"addItem:type:damage:damageType:rarity:properties:weight:" : "MH 6/18/2026 11:58",
+		"addMonster:description:lair:traits:actions:" : "MH 6/18/2026 11:59",
+		"addSpell:castingTime:range:components:duration:class:description:" : "MH 6/18/2026 11:59",
+		"addSubclass:className:sections:" : "MH 6/18/2026 11:59",
+		"buildCategories" : "CSK 6/16/2026 21:54",
+		"buildCategory:from:" : "CSK 6/16/2026 20:53",
+		"createMorph" : "MH 6/18/2026 12:41",
+		"initialize" : "CSK 6/16/2026 20:38",
+		"initializeLayout" : "MH 6/18/2026 12:40",
+		"items" : "CSK 6/16/2026 20:26",
+		"items:" : "CSK 6/16/2026 20:26",
+		"monsters" : "CSK 6/16/2026 20:26",
+		"monsters:" : "CSK 6/16/2026 20:26",
+		"spells" : "CSK 6/16/2026 20:26",
+		"spells:" : "CSK 6/16/2026 20:26",
+		"subclasses" : "CSK 6/16/2026 20:26",
+		"subclasses:" : "CSK 6/16/2026 20:26" } }

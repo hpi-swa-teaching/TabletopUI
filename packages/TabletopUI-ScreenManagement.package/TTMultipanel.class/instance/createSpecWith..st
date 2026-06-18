@@ -1,4 +1,4 @@
-button management
+toolbuilder
 createSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggablePanelSpec new
@@ -7,6 +7,7 @@ createSpecWith: aToolBuilder
 		children: {
 			self createConsoleButtonSpecWith: aToolBuilder.
 			self createMonstersButtonSpecWith: aToolBuilder.
-			self createPlayersButtonSpecWith: aToolBuilder};
-		frame: (0 @ 0 corner: 3 @ 1);
+			self createPlayersButtonSpecWith: aToolBuilder.
+			self createWikiButtonSpecWith: aToolBuilder};
+		frame: (0.75 @ 0 corner: 1 @ 0.1);
 		yourself

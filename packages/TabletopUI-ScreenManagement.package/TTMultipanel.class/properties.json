@@ -10,7 +10,8 @@
 		"viewContainer",
 		"console",
 		"inputField",
-		"playerSelectionMenu" ],
+		"playerSelectionMenu",
+		"wiki" ],
 	"name" : "TTMultipanel",
 	"pools" : [
 		 ],

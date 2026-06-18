@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "MH 6/18/2026 12:45",
+	"instvars" : [
+		"items",
+		"spells",
+		"monsters",
+		"subclasses" ],
+	"name" : "TTWiki",
+	"pools" : [
+		 ],
+	"super" : "BorderedMorph",
+	"type" : "normal" }
