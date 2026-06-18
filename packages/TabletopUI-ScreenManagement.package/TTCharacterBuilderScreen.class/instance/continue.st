@@ -1,7 +1,7 @@
 as yet unclassified
 continue
 	
-	(self currentStep = 3)
+	(self currentStep = 5)
 		ifTrue: [self allAbilitiesSelected 
 			ifFalse: [UIManager default inform: 'Please select a value for every ability.'. 
 				^ self]].

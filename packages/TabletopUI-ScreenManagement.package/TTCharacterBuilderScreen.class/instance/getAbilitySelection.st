@@ -8,6 +8,6 @@ getAbilitySelection
 	
 	selection := UIManager default
 		chooseFrom: remainingValues
-		title: ('Please choose your value for ', (((TTCharacterBuilderScreen options) at: 3) at: self selectedIndex)).
+		title: ('Please choose your value for ', (((TTCharacterBuilderScreen options) at: 5) at: self selectedIndex)).
 		
 	^ selection

@@ -2,7 +2,7 @@ initialize-release
 initializeCustomizedCharacterWith: aDictionary
 	
 	super initialize.
-	self initializeBaseValuesWith: (aDictionary at: 3);
+	self initializeBaseValuesWith: (aDictionary at: 5);
 		initializeThrowsLookup;
 		initializeSkillsLookup;
 		initializeHPWith: (TTCharacterSheetData HPValues at: (aDictionary at: 1));
