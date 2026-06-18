@@ -2,6 +2,5 @@ accessing - saving throws
 changesForSavingThrow: aSymbol
 
 	self
-		update: aSymbol;
-		update: (aSymbol , 'Proficiency') asSymbol;
-		broadcastSavingThrowChanges
+		changed: (aSymbol, 'SavingThrow') asSymbol;
+		changed: (aSymbol , 'SavingThrowProficiency') asSymbol.

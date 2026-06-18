@@ -1,6 +1,7 @@
 testing-throws
 test01SavingThrowsDefault
 
-	self characterSheet baseValues keys do: [:aBaseValue | 
-		self assert: (self characterSheet perform: (aBaseValue, 'Save') asSymbol) = '0']
+	self characterSheet abilities keys do: [:ability | 
+		self assert: (self characterSheet perform: (ability , 'SavingThrowProficiency') asSymbol) = 0.
+		self assert: (self characterSheet perform: (ability , 'SavingThrow') asSymbol) = '0']
 
