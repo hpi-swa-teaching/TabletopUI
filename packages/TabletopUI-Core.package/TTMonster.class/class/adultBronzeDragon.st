@@ -12,11 +12,11 @@ adultBronzeDragon
 		at: #additional_speeds put:{
 			Dictionary new
 				at: #name put: 'Fly';
-				at: #value put: 80
+				at: #value put: 80;
 				yourself.
 			Dictionary new
 				at: #name put: 'Swim';
-				at: #value put: 40
+				at: #value put: 40;
 				yourself};
 		at: #strength put: 25;
 		at: #dexterity put: 10;

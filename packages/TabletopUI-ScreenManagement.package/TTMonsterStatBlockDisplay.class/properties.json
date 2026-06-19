@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tf 6/19/2026 15:19",
+	"instvars" : [
+		"monster",
+		"map" ],
+	"name" : "TTMonsterStatBlockDisplay",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -20,7 +20,7 @@ initializeFromSpec: aDictionary
 		successfulDeathSaves: self defaultDeathSaves;
 		gold: self defaultGold.
 	self
-		size: (aDictionary at: #size);
+		monsterSize: (aDictionary at: #size);
 		monsterType: (aDictionary at: #type);
 		alignment: (aDictionary at: #alignment);
 		challengeRating: (aDictionary at: #challenge_rating);

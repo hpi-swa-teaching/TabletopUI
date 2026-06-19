@@ -332,15 +332,6 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'gelatinousCube.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
 				'lich.png'
 			],
 			#encoding : @87
@@ -404,15 +395,6 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'mindFlayer.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
 				'doppelganger.png'
 			],
 			#encoding : @87
@@ -449,25 +431,7 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'youngRedDragon.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
 				'kobold.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'vampireSpawn.png'
 			],
 			#encoding : @87
 		},
@@ -485,7 +449,7 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'adultBronzeDragon.png'
+				'beholder.png'
 			],
 			#encoding : @87
 		},
@@ -494,7 +458,43 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'beholder.png'
+				'gelatinous_cube.png'
+			],
+			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'mind_flayer.png'
+			],
+			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'young_red_dragon.png'
+			],
+			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'vampire_spawn.png'
+			],
+			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'adult_bronze_dragon.png'
 			],
 			#encoding : @87
 		}

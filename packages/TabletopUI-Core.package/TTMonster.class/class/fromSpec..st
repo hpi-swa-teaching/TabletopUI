@@ -7,5 +7,5 @@ fromSpec: aDictionary
 	
 	^ self new
 		name: (aDictionary at: #name);
-		sheet: sheet; "todo: initialize token"
+		sheet: sheet;
 		yourself

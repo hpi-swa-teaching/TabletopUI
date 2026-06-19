@@ -1,7 +1,6 @@
 templates
 mindFlayer
 
-	self flag: #todo. "proficiency_value" "https://www.aidedd.org/dnd/monstres.php?vo=mind-flayer"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Mind Flayer';
 		at: #size put: 'Medium';
@@ -21,7 +20,7 @@ mindFlayer
 		at: #senses put: 'Darkvision 120 ft., Passive Perception 16';
 		at: #languages put: 'Deep Speech, Undercommon, telepathy 120 ft.';
 		at: #challenge_rating put: '7';
-		"at: #proficiency_value put: ???;"
+		at: #proficiency_value put: '3';
 		at: #special_abilities put: {
 			Dictionary new
 				at: #name put: 'Magic Resistance';

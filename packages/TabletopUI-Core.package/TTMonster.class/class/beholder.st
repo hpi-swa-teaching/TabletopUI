@@ -1,7 +1,6 @@
 templates
 beholder
 
-	self flag: #todo. "proficiency_value" "https://www.aidedd.org/dnd/monstres.php?vo=beholder"
 	^ self fromSpec: (Dictionary new
 		at: #name put: 'Beholder';
 		at: #size put: 'Large';
@@ -13,7 +12,8 @@ beholder
 		at: #additional_speeds put: {
 			Dictionary new
 				at: #name put: 'Fly (hover)';
-				at: #value put: 20};
+				at: #value put: 20;
+				yourself.};
 		at: #strength put: 10;
 		at: #dexterity put: 14;
 		at: #constitution put: 18;
@@ -26,7 +26,7 @@ beholder
 		at: #senses put: 'Darkvision 120 ft., Passive Perception 22';
 		at: #languages put: 'Deep Speech, Undercommon';
 		at: #challenge_rating put: '13';
-		"at: #proficiency_value put: ???;"
+		at: #proficiency_value put: '5';
 		at: #special_abilities put: {
 			Dictionary new
 				at: #name put: 'Antimagic Cone';

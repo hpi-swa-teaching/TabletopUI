@@ -14,6 +14,7 @@ createMorph
 		extent: 200 @ 400;
 		color: Color white;
 		borderWidth: 1;
-		borderColor: Color black.
+		borderColor: Color black;
+		doubleClickSelector: #openSelectedMonsterSheet.
 
 	^ listMorph

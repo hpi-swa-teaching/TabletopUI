@@ -12,7 +12,7 @@ aboleth
 		at: #additional_speeds put:{
 			Dictionary new
 				at: #name put: 'Swim';
-				at: #value put: 40
+				at: #value put: 40;
 				yourself};
 		at: #strength put: 21;
 		at: #dexterity put: 9;

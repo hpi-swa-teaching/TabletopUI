@@ -8,7 +8,12 @@ banshee
 		at: #alignment put: 'Chaotic Evil';
 		at: #armor_class put: 12;
 		at: #hit_points put: 58;
-		at: #speed put: 0; "fly 40 ft. (hover)"
+		at: #speed put: 0;
+		at: #additional_speeds put:{
+			Dictionary new
+				at: #name put: 'Fly (hover)';
+				at: #value put: 40;
+				yourself};
 		at: #strength put: 1;
 		at: #dexterity put: 14;
 		at: #constitution put: 10;

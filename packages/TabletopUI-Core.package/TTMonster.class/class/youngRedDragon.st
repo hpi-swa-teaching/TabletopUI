@@ -12,11 +12,11 @@ youngRedDragon
 		at: #additional_speeds put:{
 			Dictionary new
 				at: #name put: 'Climb';
-				at: #value put: 40
+				at: #value put: 40;
 				yourself.
 			Dictionary new
 				at: #name put: 'Fly';
-				at: #value put: 80
+				at: #value put: 80;
 				yourself};
 		at: #strength put: 23;
 		at: #dexterity put: 10;

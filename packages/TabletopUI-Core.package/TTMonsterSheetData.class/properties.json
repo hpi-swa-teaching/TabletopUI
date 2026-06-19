@@ -19,7 +19,7 @@
 		"monsterType",
 		"savingThrows",
 		"senses",
-		"size",
+		"monsterSize",
 		"traits",
 		"skills" ],
 	"name" : "TTMonsterSheetData",

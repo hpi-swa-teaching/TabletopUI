@@ -12,7 +12,7 @@ manticore
 		at: #additional_speeds put:{
 			Dictionary new
 				at: #name put: 'Fly';
-				at: #value put: 50
+				at: #value put: 50;
 				yourself};
 		at: #strength put: 17;
 		at: #dexterity put: 16;
