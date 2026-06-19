@@ -10,7 +10,7 @@
 		"fromSpec:" : "tf 6/19/2026 16:38",
 		"gelatinousCube" : "TR 6/14/2026 22:06",
 		"goblin" : "TR 6/13/2026 16:16",
-		"harpy" : "TR 6/17/2026 14:29",
+		"harpy" : "tf 6/19/2026 18:05",
 		"kobold" : "TR 6/13/2026 16:09",
 		"lich" : "TR 6/17/2026 14:24",
 		"manticore" : "tf 6/19/2026 16:13",
@@ -24,5 +24,4 @@
 		"youngRedDragon" : "tf 6/19/2026 16:13",
 		"zombie" : "TR 6/14/2026 11:37" },
 	"instance" : {
-		"initialize" : "tf 6/19/2026 16:37",
-		"spawn" : "tf 6/11/2026 18:16" } }
+		"initialize" : "tf 6/19/2026 16:37" } }

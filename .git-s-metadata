@@ -413,15 +413,6 @@ GSMetadata {
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'golem.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
 				'harpy.png'
 			],
 			#encoding : @87
@@ -495,6 +486,15 @@ GSMetadata {
 				'tabletop-graphics',
 				'monster-tokens',
 				'adult_bronze_dragon.png'
+			],
+			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'goblin.png'
 			],
 			#encoding : @87
 		}

@@ -12,7 +12,7 @@ harpy
 		at: #additional_speeds put:{
 			Dictionary new
 				at: #name put: 'Fly';
-				at: #value put: 40
+				at: #value put: 40;
 				yourself};
 		at: #strength put: 12;
 		at: #dexterity put: 13;
