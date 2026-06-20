@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"display" : "tf 6/20/2026 17:20",
+		"display:" : "tf 6/20/2026 17:20",
+		"linesTerminated:" : "tf 6/20/2026 18:19",
+		"setUp" : "tf 6/20/2026 17:45",
+		"test01Signed" : "tf 6/20/2026 18:12",
+		"test02SpeedText" : "tf 6/20/2026 17:45",
+		"test03SpeedTextWithAdditionalSpeeds" : "tf 6/20/2026 17:36",
+		"test04CoreStatsText" : "tf 6/20/2026 18:20",
+		"test05TitleText" : "tf 6/20/2026 18:20",
+		"test06AbilityCellTexts" : "tf 6/20/2026 18:22",
+		"test07RightColumnText" : "tf 6/20/2026 18:20",
+		"test08AddToken" : "tf 6/20/2026 20:19" } }
