@@ -16,7 +16,8 @@
 		"playerSelectionMenu",
 		"tokenBar",
 		"toolBar",
-		"viewContainer" ],
+		"viewContainer",
+    "wiki" ],
 	"name" : "TTGameScreen",
 	"pools" : [
 		 ],

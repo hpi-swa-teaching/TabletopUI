@@ -12,7 +12,8 @@
 		"inputField",
 		"monsterMenu",
 		"playerSelectionMenu",
-		"viewContainer" ],
+		"viewContainer",
+    "wiki" ],
 	"name" : "TTMultipanel",
 	"pools" : [
 		 ],
