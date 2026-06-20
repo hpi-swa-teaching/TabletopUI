@@ -1,5 +1,5 @@
 testing
-test06RemoveFromMap
+test05RemoveFromMap
 
 	| token |
 	self map createTokenFor: (TTCharacter newWithName: '' role: TTCharacter player).

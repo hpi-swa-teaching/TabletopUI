@@ -13,4 +13,8 @@
 		"test05TitleText" : "tf 6/20/2026 18:20",
 		"test06AbilityCellTexts" : "tf 6/20/2026 18:22",
 		"test07RightColumnText" : "tf 6/20/2026 18:20",
-		"test08AddToken" : "tf 6/20/2026 20:19" } }
+		"test08AddToken" : "tf 6/20/2026 20:19",
+		"test09CoreStatsTextWithOptionalFields" : "tf 6/20/2026 20:56",
+		"test10RightColumnTextWithAllSections" : "tf 6/20/2026 21:00",
+		"test10RightColumnTextWithMultipleActions" : "tf 6/20/2026 20:56",
+		"test11AssembleRunsAppliesEmphasisPerRange" : "tf 6/20/2026 20:57" } }

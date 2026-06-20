@@ -1,4 +1,4 @@
 testing
 test05MonsterForm
 
-	self assert: (self token monsterForm: TTMonster goblin name) extent equals: 50@50
+	self assert: (self token monsterForm: TTMonster youngRedDragon name) extent equals: 50@50
