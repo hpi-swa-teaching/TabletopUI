@@ -1,8 +1,8 @@
 inputEvaluation
 evaluateInput: aText from: aTTCharacter
 
-	|outputMessage|
+	| outputMessage |
+	self halt.
 	outputMessage := (self parse: aText) execute: self context from: aTTCharacter.
-	outputMessage errorMessage ifNotNil:[
-		^outputMessage errorMessage].
-	^outputMessage outputString
+	outputMessage errorMessage ifNotNil: [^ outputMessage errorMessage].
+	^ outputMessage outputString
