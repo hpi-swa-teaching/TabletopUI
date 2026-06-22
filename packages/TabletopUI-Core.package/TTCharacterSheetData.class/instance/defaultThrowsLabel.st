@@ -1,4 +1,0 @@
-labels
-defaultThrowsLabel
-	
-	^ 'SAVING THROWS'

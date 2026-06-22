@@ -1,4 +1,4 @@
-constants and defaults
+setup - defaults
 defaultTemporaryHP
 
 	^ 0

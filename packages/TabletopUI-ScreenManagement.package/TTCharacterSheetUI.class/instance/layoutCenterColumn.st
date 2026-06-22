@@ -1,12 +1,6 @@
 layout containers
 layoutCenterColumn
 
-	| form container |
-	form := self centerColumnForm.
-	container := Morph new 
-		extent: (self columnExtent);
-		color: Color transparent.
-	self
-		configureContainer: container withImage: form;
-		buildCenterColumnIn: container.
-	^ container
+	^ self layoutContainerWithForm: self centerColumnForm
+		extent: self columnExtent
+		calling: [:container | self buildCenterColumnIn: container]

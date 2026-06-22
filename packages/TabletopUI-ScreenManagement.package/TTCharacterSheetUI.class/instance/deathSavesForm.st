@@ -1,4 +1,4 @@
 forms
 deathSavesForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'deathSaves.png') scaledToSize: self deathSavesExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'deathSaves.png')

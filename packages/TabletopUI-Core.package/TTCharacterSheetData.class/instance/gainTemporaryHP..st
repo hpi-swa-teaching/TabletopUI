@@ -1,4 +1,6 @@
-health and damage
-gainTemporaryHP: aNumber
+rules - combat
+gainTemporaryHP: aSmallinteger
 
-	aNumber < 0 ifFalse: [self temporaryHP: self temporaryHP + aNumber]
+	self
+		temporaryHP: self temporaryHP + aSmallinteger;
+		changed: #temporaryHP

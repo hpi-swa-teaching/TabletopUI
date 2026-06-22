@@ -1,4 +1,0 @@
-labels
-addHPLabel
-	
-	^ 'ADD HP'

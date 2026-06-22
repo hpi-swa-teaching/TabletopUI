@@ -1,4 +1,4 @@
-accessing
+accessing - combat
 temporaryHP
 
 	^ temporaryHP asString

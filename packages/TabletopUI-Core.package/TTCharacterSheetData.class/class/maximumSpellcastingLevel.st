@@ -1,0 +1,4 @@
+constants
+maximumSpellcastingLevel
+
+	^ 9

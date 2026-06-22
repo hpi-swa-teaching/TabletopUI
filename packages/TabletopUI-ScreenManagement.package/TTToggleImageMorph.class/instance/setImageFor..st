@@ -1,5 +1,7 @@
 input handling
-setImageFor: aBoolean
+setImageFor: aNumber
 
-	self image: (aBoolean ifTrue: [self onForm] ifFalse: [self offForm]).
+	self image: (aNumber = 1
+		ifTrue: [self onForm]
+		ifFalse: [self offForm]).
 	self changed.

@@ -1,7 +1,7 @@
 testing-death-saves
 test43HitDiceIncrement
 
-	self characterSheet currentHitDice: 0.
-	self characterSheet incrementHitDice.
-	self assert: self characterSheet currentHitDice equals: 1
+	self characterSheet hitDiceRemaining: 0.
+	self characterSheet gainHitDie.
+	self assert: self characterSheet hitDiceRemaining equals: 1
 

@@ -1,4 +1,0 @@
-styling
-backgroundColorBaseValues
-
-	^ Color transparent

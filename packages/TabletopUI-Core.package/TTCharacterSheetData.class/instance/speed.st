@@ -1,3 +1,4 @@
-accessing
+accessing - combat
 speed
+
 	^ speed asString

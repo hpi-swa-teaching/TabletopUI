@@ -1,6 +1,6 @@
 testing-money
 test41LoseElectrum
 
-	self characterSheet gold: 100.
-	self characterSheet loseElectrum: 5.
-	self assert: self characterSheet gold = 97.5
+	self characterSheet walletAt: #electrum put: 100.
+	self characterSheet spend: 5 of: #electrum.
+	self assert: self characterSheet electrum = '95'

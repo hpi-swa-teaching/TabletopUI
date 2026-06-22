@@ -1,12 +1,6 @@
 layout containers
 layoutLevelBlock
 
-	| form container |
-	form := self levelBlockForm.
-	container := Morph new 
-		extent: (self smallBlockExtent);
-		color: Color transparent.
-	self
-		configureContainer: container withImage: form;
-		buildLevelBlockIn: container.
-	^ container
+	^ self layoutContainerWithForm: self levelBlockForm
+		extent: self smallBlockExtent
+		calling: [:container | self buildLevelBlockIn: container]

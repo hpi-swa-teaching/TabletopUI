@@ -1,0 +1,4 @@
+accessing - combat
+deathSaveSuccesses
+
+	^ deathSaveSuccesses

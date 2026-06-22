@@ -1,4 +1,4 @@
 forms
 abilitiesForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'abilities.png') scaledToSize: self abilitiesExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'abilities.png')

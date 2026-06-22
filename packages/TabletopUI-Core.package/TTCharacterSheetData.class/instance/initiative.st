@@ -1,4 +1,4 @@
-health and damage
+accessing - combat
 initiative
 
-	^ self dexterityModifier asString
+	^ ((self modifierOf: #dexterity) + self initiativeBonus asNumber) asString
