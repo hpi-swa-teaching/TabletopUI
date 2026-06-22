@@ -5,9 +5,8 @@ test14EndTurnWorksAcrossLoadStateRebuild
 	alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
 	bob := TTCharacter newWithName: 'Bob' role: TTCharacter player.
 	parser changeToContext: ((TTFightContext newWithfightOrder: {alice. bob} asOrderedCollection) parser: parser).
-	"Simulates the player object from characterAdministration / player selection."
+	"Different object, same name — as returned by characterAdministration after sync."
 	adminAlice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
-	"Simulates downstream sync: fight context is rebuilt with new TTCharacter instances."
 	parser loadState: parser getState.
 	result := parser evaluateInput: 'end turn' from: adminAlice.
 	self deny: result equals: parser context onlyCurrentPlayerErrorString.

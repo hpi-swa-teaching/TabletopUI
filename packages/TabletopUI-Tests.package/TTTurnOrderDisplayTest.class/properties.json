@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window" ],
+		"alice",
+		"bob",
+		"display",
+		"playerSelection",
+		"inputField" ],
 	"name" : "TTTurnOrderDisplayTest",
 	"pools" : [
 		 ],
-	"super" : "TTTestCase",
+	"super" : "TTContextTestBase",
 	"type" : "normal" }

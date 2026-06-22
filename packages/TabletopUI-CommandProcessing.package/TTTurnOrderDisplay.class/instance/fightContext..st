@@ -1,3 +1,5 @@
 accessing
 fightContext: anObject
-	fightContext := anObject
+
+
+	fightContext := anObject.
