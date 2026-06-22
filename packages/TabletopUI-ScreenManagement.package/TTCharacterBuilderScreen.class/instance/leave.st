@@ -1,9 +1,9 @@
 as yet unclassified
 leave
 	
-	(self currentStep > 1)
+	(self currentStep ~= #class)
 		ifTrue: [
-			currentStep := currentStep - 1.
+			self currentStep: self determineBeforeStep.
 			self changed: #nameList.
 			self selectedIndex: self getIndexBasedOnChoice]
 		ifFalse: [self abortCharacterBuilding]

@@ -2,10 +2,10 @@ initialize-release
 initializeCustomizedCharacterWith: aDictionary
 	
 	super initialize.
-	self initializeBaseValuesWith: (aDictionary at: 5);
+	self initializeBaseValuesWith: (aDictionary at: #abilities);
 		initializeThrowsLookup;
 		initializeSkillsLookup;
-		initializeHPWith: (TTCharacterSheetData HPValues at: (aDictionary at: 1));
+		initializeHPWith: (TTCharacterSheetData HPValues at: (aDictionary at: #class));
 		level: self defaultLevel;
 		proficiencyValue: self defaultProficiencyValue;
 		currentHitDice: self level;

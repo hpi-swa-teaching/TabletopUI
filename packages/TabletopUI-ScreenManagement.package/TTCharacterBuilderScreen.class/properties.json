@@ -10,7 +10,7 @@
 		"selectedIndex",
 		"choices",
 		"currentStep",
-		"remainingNumbers",
+		"remainingOptions",
 		"selectedPresets" ],
 	"name" : "TTCharacterBuilderScreen",
 	"pools" : [

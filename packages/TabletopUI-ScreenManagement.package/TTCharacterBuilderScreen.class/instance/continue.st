@@ -1,14 +1,14 @@
 as yet unclassified
 continue
 	
-	(self currentStep = 5)
+	(self currentStep = #abilities)
 		ifTrue: [self allAbilitiesSelected 
 			ifFalse: [UIManager default inform: 'Please select a value for every ability.'. 
 				^ self]].
-	(self currentStep < (TTCharacterBuilderScreen options) size)
-		ifTrue: [
-			currentStep := currentStep + 1.
+	(self isLastStep: self currentStep)
+		ifFalse: [
+			self currentStep: self determineNextStep.
 			self changed: #nameList.
 			self selectedIndex: self getIndexBasedOnChoice]
-		ifFalse: [self createSheet. 
+		ifTrue: [self createSheet. 
 			self window openCharacterSheetSelectionScreenWith: selectedPresets]
