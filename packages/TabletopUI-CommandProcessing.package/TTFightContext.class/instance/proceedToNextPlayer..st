@@ -1,6 +1,6 @@
 fight
 proceedToNextPlayer: aTTCharacter
 
-	(aTTCharacter = self currentPlayer) ifTrue: [
-		^ self proceedToNextPlayer].
-	^self onlyCurrentPlayerErrorString
+	
+	aTTCharacter name = self currentPlayer name ifTrue: [^ self proceedToNextPlayer].
+	^ self onlyCurrentPlayerErrorString

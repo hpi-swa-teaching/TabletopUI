@@ -1,3 +1,5 @@
 context managing
 update: anAspect
- (anAspect = #initiativeState) ifTrue: [self changed: #parserState]
+
+	self flag: 'pass anAspect up'.
+	anAspect = #initiativeState ifTrue: [self changed: #parserState]
