@@ -1,12 +1,6 @@
 layout containers
 layoutRightColumn
 
-	| form container |
-	form := self rightColumnForm.
-	container := Morph new 
-		extent: (self columnExtent);
-		color: Color transparent.
-	self
-		configureContainer: container withImage: form;
-		buildRightColumnIn: container.
-	^ container
+	^ self layoutContainerWithForm: self rightColumnForm
+		extent: self columnExtent
+		calling: [:container | self buildRightColumnIn: container]

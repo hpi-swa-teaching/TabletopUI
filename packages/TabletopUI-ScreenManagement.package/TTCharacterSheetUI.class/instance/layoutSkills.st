@@ -1,12 +1,6 @@
 layout containers
 layoutSkills
 
-	| form container |
-	form := self skillsForm.
-	container := Morph new 
-		extent: (self skillsExtent);
-		color: Color transparent.
-	self
-		configureContainer: container withImage: form;
-		buildSkillsIn: container.
-	^ container
+	^ self layoutContainerWithForm: self skillsForm
+		extent: self skillsExtent
+		calling: [:container | self buildSkillsIn: container]

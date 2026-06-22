@@ -1,0 +1,4 @@
+accessing
+deathSaveSuccessMorph
+
+	^ deathSaveSuccessMorph

@@ -1,4 +1,4 @@
-accessing
+accessing - abilities
 wisdomModifier
 	
-	^ (self convertToModifier: self wisdom) asString
+	^ (self modifierOf: #wisdom) asString

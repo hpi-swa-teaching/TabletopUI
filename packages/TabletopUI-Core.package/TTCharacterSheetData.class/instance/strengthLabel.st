@@ -1,4 +1,0 @@
-labels
-strengthLabel
-	
-	^ 'STRENGTH'

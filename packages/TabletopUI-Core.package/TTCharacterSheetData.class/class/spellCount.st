@@ -1,0 +1,4 @@
+constants
+spellCount
+
+	^ 4

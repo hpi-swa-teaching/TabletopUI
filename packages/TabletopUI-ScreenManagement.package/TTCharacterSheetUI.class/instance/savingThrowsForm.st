@@ -1,4 +1,4 @@
 forms
 savingThrowsForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'savingThrows.png') scaledToSize: self savingThrowsExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'savingThrows.png')

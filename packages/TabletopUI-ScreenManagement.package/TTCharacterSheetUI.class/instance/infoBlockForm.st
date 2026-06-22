@@ -1,4 +1,4 @@
 forms
 infoBlockForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'infoBlock.png') scaledToSize: self largeBlockExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'infoBlock.png')

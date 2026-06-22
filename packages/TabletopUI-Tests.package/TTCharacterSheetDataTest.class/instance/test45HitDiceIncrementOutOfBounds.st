@@ -1,5 +1,5 @@
 testing-death-saves
 test45HitDiceIncrementOutOfBounds
 
-	self characterSheet incrementHitDice.
-	self assert: self characterSheet currentHitDice equals: self characterSheet level
+	self characterSheet gainHitDie.
+	self assert: self characterSheet hitDiceRemaining equals: self characterSheet level

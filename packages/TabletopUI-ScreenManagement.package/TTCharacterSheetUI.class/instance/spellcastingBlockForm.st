@@ -1,4 +1,4 @@
 forms
 spellcastingBlockForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'spellcastingBlock.png') scaledToSize: self smallBlockExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'spellcastingBlock.png')

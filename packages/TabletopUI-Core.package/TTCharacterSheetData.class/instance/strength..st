@@ -1,4 +1,4 @@
-accessing
+accessing - abilities
 strength: anObject
 
-	self baseValues at: #strength put: anObject
+	self abilitiesAt: #strength put: anObject

@@ -4,14 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "jv 6/1/2026 15:41",
 	"instvars" : [
 		"model",
 		"name",
 		"label",
 		"sheet",
 		"currentPage",
-		"arrow" ],
+		"closeButton",
+		"deathSaveSuccessMorph",
+		"deathSaveFailureMorph",
+		"arrowButton" ],
 	"name" : "TTCharacterSheetUI",
 	"pools" : [
 		 ],

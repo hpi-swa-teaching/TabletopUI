@@ -8,3 +8,4 @@ on: aModel get: aGetSymbol set: aSetSymbol onForm: anOnForm offForm: anOffForm
 		onForm: anOnForm;
 		offForm: anOffForm;
 		setImageFor: (aModel perform: aGetSymbol).
+	aModel addDependent: self

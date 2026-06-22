@@ -10,5 +10,5 @@ createSheets
 					stream := ReferenceStream on: file.
 					player sheet: stream next.
 					stream close]
-				ifFalse: [player sheet initializeWith: ((self characterSheets at: index) asSymbol)]]
+				ifFalse: [player sheet: (TTCharacterSheetData forTemplate: (templateName asSymbol))]]
 		]

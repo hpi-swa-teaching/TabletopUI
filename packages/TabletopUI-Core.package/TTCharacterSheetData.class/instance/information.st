@@ -1,0 +1,4 @@
+accessing - information
+information
+
+	^ information

@@ -1,4 +1,4 @@
-accessing
+accessing - abilities
 constitution
 
-	^ (self baseValues at: #constitution) asString
+	^ self abilitiesAt: #constitution

@@ -1,4 +1,4 @@
-accessing
+accessing - identity
 levelString
 
-	^ level asString
+	^ self level asString

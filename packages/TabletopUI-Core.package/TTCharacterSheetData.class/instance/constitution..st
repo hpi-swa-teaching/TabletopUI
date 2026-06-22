@@ -1,3 +1,4 @@
-accessing
+accessing - abilities
 constitution: anObject
-	self baseValues at: #constitution put: anObject
+
+	self abilitiesAt: #constitution put: anObject

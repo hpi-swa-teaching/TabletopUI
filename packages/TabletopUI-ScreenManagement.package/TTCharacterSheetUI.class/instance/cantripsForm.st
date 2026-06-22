@@ -1,4 +1,4 @@
 forms
 cantripsForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'cantrips.png') scaledToSize: self smallBlockExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'cantrips.png')

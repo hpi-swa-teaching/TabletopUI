@@ -1,16 +1,13 @@
 build
 buildDeathSavesIn: aMorph
 
-	| xOffset xDifference yOffsetRow1 yOffsetRow2 |
-	Transcript show: 'we need more containers, we need the logic and we need help'.
-	yOffsetRow1 := 52.
-	yOffsetRow2 := 98.
-	xOffset := 52.
-	xDifference := 47.5.
-	
-	self addRegularToggle: #inspiration at: (xDifference * 0 + xOffset) @ yOffsetRow1 in: aMorph.
-	self addRegularToggle: #inspiration at: (xDifference * 1 + xOffset) @ yOffsetRow1 in: aMorph.
-	self addRegularToggle: #inspiration at: (xDifference * 2 + xOffset) @ yOffsetRow1 in: aMorph.
-	self addRegularToggle: #inspiration at: (xDifference * 0 + xOffset) @ yOffsetRow2	 in: aMorph.
-	self addRegularToggle: #inspiration at: (xDifference * 1 + xOffset) @ yOffsetRow2 in: aMorph.
-	self addRegularToggle: #inspiration at: (xDifference * 2 + xOffset) @ yOffsetRow2 in: aMorph.
+	self deathSaveSuccessMorph: (self addButton: #applyIncrementDeathSaveSuccesses
+		form: (self formForDeathSave: 'successes' at: self model deathSaveSuccesses)
+		sized: self buttonRowExtent
+		at: 47 @ 43
+		in: aMorph).
+	self deathSaveFailureMorph: (self addButton: #applyIncrementDeathSaveFailures
+		form: (self formForDeathSave: 'failures' at: self model deathSaveFailures)
+		sized: self buttonRowExtent
+		at: 47 @ 91
+		in: aMorph)

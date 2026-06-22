@@ -1,8 +1,12 @@
 testing-throws
 test14SavingThrowsWithProficiencyOutOfBounds
 
-	self characterSheet baseValues keys do: [:aBaseValue | 
-		self characterSheet perform: (aBaseValue, 'SaveMultiplier:') asSymbol withArguments: (Array with: 3). 
-		self assert: (self characterSheet perform: (aBaseValue, 'Save') asSymbol) equals: '4'.
-		self characterSheet perform: (aBaseValue, 'SaveMultiplier:') asSymbol withArguments: (Array with: -69). 
-		self assert: (self characterSheet perform: (aBaseValue, 'Save') asSymbol) equals: '0']
+	self characterSheet abilities keys do: [:ability | 
+		self characterSheet 
+			perform: (ability, 'SavingThrowProficiency:') asSymbol 
+			with: 3. 
+		self assert: (self characterSheet perform: (ability , 'SavingThrow') asSymbol) equals: '2'.
+		self characterSheet 
+			perform: (ability, 'SavingThrowProficiency:') asSymbol 
+			with: -69. 
+		self assert: (self characterSheet perform: (ability , 'SavingThrow') asSymbol) equals: '0']
