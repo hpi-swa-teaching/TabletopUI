@@ -5,7 +5,7 @@
 		"availableTemplates" : "jv 5/25/2026 09:16",
 		"cleric" : "jv 5/26/2026 15:12",
 		"currencies" : "jv 6/4/2026 06:10",
-		"default" : "MK 6/18/2026 18:15",
+		"default" : "MK 6/22/2026 15:36",
 		"fighter" : "jv 5/26/2026 15:12",
 		"forTemplate:" : "jv 5/25/2026 09:10",
 		"generateSpellAccessors" : "jv 6/4/2026 09:12",
@@ -19,7 +19,7 @@
 		"skillNames" : "jv 5/25/2026 15:44",
 		"spellCount" : "jv 6/4/2026 08:35",
 		"spellcastingClassesNames" : "jv 6/4/2026 13:14",
-		"wizard" : "jv 5/26/2026 15:13" },
+		"wizard" : "MK 6/22/2026 15:41" },
 	"instance" : {
 		"abilities" : "jv 5/25/2026 09:26",
 		"abilities:" : "jv 5/25/2026 09:22",
