@@ -1,4 +1,4 @@
-testing-throws
+testing-saving throws
 test09InteractiveRollPressed
 
 	self flag: #todo

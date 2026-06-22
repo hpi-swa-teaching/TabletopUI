@@ -1,4 +1,4 @@
-testing-death-saves
+testing-combat
 test11HitDice
 
 	self assert: self characterSheet hitDiceRemaining equals: self characterSheet level.

@@ -1,4 +1,4 @@
-testing-death-saves
+testing-combat
 test46HitDiceDecrementOutOfBounds
 
 	self characterSheet hitDiceRemaining: 0.

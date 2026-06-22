@@ -1,4 +1,4 @@
-testing-throws
+testing-saving throws
 test02SavingThrowsWithProficiency
 
 	self characterSheet abilities keys do: [:ability | 

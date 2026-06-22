@@ -1,4 +1,4 @@
-testing-heal-damage
+testing-health
 test04Heal
 
 	self characterSheet currentHP: 10.

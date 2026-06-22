@@ -1,4 +1,4 @@
-accessing - combat
+accessing-health
 temporaryHP: anObject
 
 	temporaryHP := anObject asNumber max: 0.

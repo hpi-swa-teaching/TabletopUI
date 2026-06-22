@@ -1,4 +1,4 @@
-testing-throws
+testing-saving throws
 test14SavingThrowsWithProficiencyOutOfBounds
 
 	self characterSheet abilities keys do: [:ability | 
