@@ -1,4 +1,5 @@
 as yet unclassified
 update: anAspect
 
-	(anAspect = #mapState) ifTrue: [self sendUpdatedStateToServer]
+    self applyingRemoteState ifTrue: [^self].
+    ((anAspect = #mapState) or: [anAspect = #parserState]) ifTrue: [self sendUpdatedStateToServer]
