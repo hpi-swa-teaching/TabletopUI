@@ -1,6 +1,7 @@
-accessing
+running
 setUp
 
+	self openedDisplays: OrderedCollection new.
 	self characterAdministration: TTCharacterAdministration new.
 	self playerSelectionMenu: (TTPlayerSelectionMenu newWith: self characterAdministration).
 	self characterAdministration 

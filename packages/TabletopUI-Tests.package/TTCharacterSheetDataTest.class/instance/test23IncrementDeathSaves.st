@@ -1,4 +1,4 @@
-testing-death-saves
+testing-combat
 test23IncrementDeathSaves
 
 	self characterSheet incrementDeathSaveSuccesses.

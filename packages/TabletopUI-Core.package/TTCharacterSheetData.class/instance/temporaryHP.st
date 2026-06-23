@@ -1,4 +1,4 @@
-accessing - combat
+accessing-health
 temporaryHP
 
 	^ temporaryHP asString

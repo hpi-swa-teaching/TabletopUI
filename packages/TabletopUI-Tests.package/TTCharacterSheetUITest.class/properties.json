@@ -8,7 +8,8 @@
 	"instvars" : [
 		"playerSelectionMenu",
 		"toolbar",
-		"characterAdministration" ],
+		"characterAdministration",
+		"openedDisplays" ],
 	"name" : "TTCharacterSheetUITest",
 	"pools" : [
 		 ],

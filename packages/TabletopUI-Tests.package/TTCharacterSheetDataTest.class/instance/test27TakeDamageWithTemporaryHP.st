@@ -1,4 +1,4 @@
-testing-heal-damage
+testing-health
 test27TakeDamageWithTemporaryHP
 
 	self characterSheet gainTemporaryHP: 10.

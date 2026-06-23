@@ -1,4 +1,4 @@
-testing-death-saves
+testing-combat
 test45HitDiceIncrementOutOfBounds
 
 	self characterSheet gainHitDie.

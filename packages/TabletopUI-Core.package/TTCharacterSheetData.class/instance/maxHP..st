@@ -1,4 +1,4 @@
-accessing - combat
+accessing-health
 maxHP: anObject
 
 	maxHP := anObject asNumber.

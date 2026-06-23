@@ -1,4 +1,4 @@
-testing-throws
+testing-saving throws
 test17SkillThrowsDefaultWithProficiencyOutOfBounds
 
 	self characterSheet skillsLookup keys do: [:skill | 

@@ -5,5 +5,4 @@ initialize
 	
 	self 
 		name: '';
-		token: 'default';
-		sheet: TTCharacterSheetData new
+		token: 'default'

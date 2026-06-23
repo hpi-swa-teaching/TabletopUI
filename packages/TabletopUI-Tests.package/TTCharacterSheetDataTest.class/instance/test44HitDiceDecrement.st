@@ -1,4 +1,4 @@
-testing-death-saves
+testing-combat
 test44HitDiceDecrement
 
 	self characterSheet spendHitDie.
