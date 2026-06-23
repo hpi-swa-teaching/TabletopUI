@@ -9,7 +9,8 @@
 		"playerSelectionMenu",
 		"toolbar",
 		"characterAdministration",
-		"openedDisplays" ],
+		"openedDisplays",
+		"originalUIManager" ],
 	"name" : "TTCharacterSheetUITest",
 	"pools" : [
 		 ],
