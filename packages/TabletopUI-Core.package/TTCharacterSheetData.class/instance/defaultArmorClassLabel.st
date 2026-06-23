@@ -1,4 +1,0 @@
-labels
-defaultArmorClassLabel
-	
-	^ 'ARMOR CLASS'

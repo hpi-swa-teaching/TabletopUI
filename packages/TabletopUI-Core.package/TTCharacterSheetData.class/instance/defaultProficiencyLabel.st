@@ -1,4 +1,0 @@
-labels
-defaultProficiencyLabel
-	
-	^ 'PROFICIENCY BONUS'

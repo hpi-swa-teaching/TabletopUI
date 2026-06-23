@@ -1,5 +1,5 @@
-accessing
-inspiration: aBoolean
+accessing - combat
+inspiration: aNumber
 
-	inspiration := aBoolean.
+	inspiration := aNumber.
 	self changed: #inspiration.

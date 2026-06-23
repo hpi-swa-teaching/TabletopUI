@@ -1,4 +1,5 @@
 forms
 inspirationToggledForm
 
-	^ (TTImageLoader loadFormFromFileNamed: 'inspiration_toggled.png') scaledToSize: self inspirationExtent
+	^ (TTImageLoader loadFormFromFileNamed: 'inspiration_toggled.png')
+	scaledToSize: self inspirationExtent

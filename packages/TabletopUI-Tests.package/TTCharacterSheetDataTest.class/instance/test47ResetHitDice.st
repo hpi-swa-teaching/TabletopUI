@@ -1,6 +1,6 @@
-testing-death-saves
+testing-combat
 test47ResetHitDice
 
-	self characterSheet currentHitDice: 0.
+	self characterSheet hitDiceRemaining: 0.
 	self characterSheet resetHitDice.
-	self assert: self characterSheet currentHitDice equals: self characterSheet level
+	self assert: self characterSheet hitDiceRemaining equals: self characterSheet level

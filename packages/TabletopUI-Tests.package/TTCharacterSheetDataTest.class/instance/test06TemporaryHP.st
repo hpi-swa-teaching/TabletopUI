@@ -1,4 +1,4 @@
-testing-heal-damage
+testing-health
 test06TemporaryHP
 
 	self characterSheet gainTemporaryHP: 10.

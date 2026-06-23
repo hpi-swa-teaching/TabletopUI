@@ -1,5 +1,5 @@
 testing-money
 test38GainNegativeCopper
 
-	self characterSheet gainCopper: -42069.
-	self assert: self characterSheet gold = 0
+	self characterSheet gain: -42069 of: #copper.
+	self assert: self characterSheet copper = '0'

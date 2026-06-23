@@ -1,4 +1,0 @@
-labels
-defaultDeathSavesLabel
-	
-	^ 'DEATH SAVES'

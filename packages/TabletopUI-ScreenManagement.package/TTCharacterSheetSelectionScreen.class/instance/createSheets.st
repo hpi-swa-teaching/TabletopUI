@@ -4,11 +4,14 @@ createSheets
 	| file stream |
 	
 	(self characterAdministration players) withIndexDo: [ :player :index |
-		('gamemaster' = (self characterSheets at: index))
-			ifFalse: [((self characterSheets at: index) endsWith: '.obj')
+		| templateName |
+		templateName := self characterSheets at: index.
+		('gamemaster' = templateName)
+			ifFalse: [Transcript show: templateName.
+					((self characterSheets at: index) endsWith: '.obj')
 				ifTrue: [file := (FileStream readOnlyFileNamed: (self characterSheets at: index)) binary.
 					stream := ReferenceStream on: file.
 					player sheet: stream next.
 					stream close]
-				ifFalse: [player sheet initializeWith: ((self characterSheets at: index) asSymbol)]]
+				ifFalse: [player sheet: (TTCharacterSheetData forTemplate: (templateName asSymbol))]]
 		]

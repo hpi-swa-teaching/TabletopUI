@@ -1,0 +1,4 @@
+constants
+attackCount
+
+	^ 4

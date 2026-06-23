@@ -1,5 +1,5 @@
-testing-death-saves
+testing-combat
 test44HitDiceDecrement
 
-	self characterSheet decrementHitDice.
-	self assert: self characterSheet currentHitDice equals: self characterSheet level -1
+	self characterSheet spendHitDie.
+	self assert: self characterSheet hitDiceRemaining equals: self characterSheet level -1

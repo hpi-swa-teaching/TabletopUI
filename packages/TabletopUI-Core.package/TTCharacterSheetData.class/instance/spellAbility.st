@@ -1,0 +1,4 @@
+accessing - spellcasting
+spellAbility
+
+	^ spellAbility

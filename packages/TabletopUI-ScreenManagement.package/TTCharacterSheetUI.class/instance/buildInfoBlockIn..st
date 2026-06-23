@@ -1,10 +1,26 @@
 build
 buildInfoBlockIn: aMorph
 
-	Transcript show: 'huge amount of placeholders'.
-	self addField: #levelString at: 80 @ 35 in: aMorph. "Name"
-	self addField: #perception at: 80 @ 105 in: aMorph. "Background"
-	self addField: #proficiencyValueString at: 290 @ 35 in: aMorph. "Class"
-	self addField: #proficiencyValueString at: 290 @ 105 in: aMorph. "Race"
-	self addField: #proficiencyValueString at: 500 @ 35 in: aMorph. "XP"
-	self addField: #proficiencyValueString at: 500 @ 105 in: aMorph. "Alignment"
+	self addEditableField: #characterName
+		sized: 150 @ 35
+		at: 18 @ 27
+		in: aMorph.
+	self addEditableField: #background
+		sized: 150 @ 35
+		at: 18 @ 97
+		in: aMorph.
+	self addField: #className
+		at: 228 @ 27
+		in: aMorph.
+	self addEditableField: #race
+		sized: 150 @ 35
+		at: 228 @ 97
+		in: aMorph.
+	self addEditableField: #experiencePoints
+		sized: 120 @ 35
+		at: 460 @ 35
+		in: aMorph.
+	self addEditableField: #alignment
+		sized: 140 @ 35
+		at: 440 @ 97
+		in: aMorph.

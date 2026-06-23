@@ -1,4 +1,4 @@
-accessing
+accessing - abilities
 charisma: anObject
 
-	self baseValues at: #charisma put: anObject
+	self abilitiesAt: #charisma put: anObject

@@ -1,3 +1,4 @@
-accessing
+accessing - money
 gold
-	^ gold asFloat
+
+	^ self walletAt: #gold

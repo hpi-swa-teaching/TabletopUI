@@ -1,8 +1,12 @@
-testing-throws
+testing-saving throws
 test16SkillThrowsDefaultWithProficiency
 
-	self characterSheet skillsLookup keys do: [:aSkill | 
-		self characterSheet perform: (aSkill, 'Multiplier:') asSymbol withArguments: (Array with: 1).
-		self assert: (self characterSheet perform: aSkill asSymbol) equals: '2'.
-		self characterSheet perform: (aSkill, 'Multiplier:') asSymbol withArguments: (Array with: 2).
-		self assert: (self characterSheet perform: aSkill asSymbol) equals: '4'].
+	self characterSheet skillsLookup keys do: [:skill | 
+		self characterSheet 
+			perform: (skill, 'Proficiency:') asSymbol 
+			with: 1.
+		self assert: (self characterSheet perform: (skill, 'Bonus') asSymbol) equals: '2'.
+		self characterSheet 
+			perform: (skill, 'Proficiency:') asSymbol 
+			with: 0.
+		self assert: (self characterSheet perform: (skill, 'Bonus') asSymbol) equals: '0'].

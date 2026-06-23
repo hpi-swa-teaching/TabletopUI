@@ -7,6 +7,3 @@ initialize
 		contents: {};
 		characterAdministration: TTCharacterAdministration new;
 		openPlayerCountScreen.
-		
-	TTCharacterSheetData initializeCharacterTypes
-		

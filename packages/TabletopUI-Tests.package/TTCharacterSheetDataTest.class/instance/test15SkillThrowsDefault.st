@@ -1,5 +1,5 @@
-testing-throws
+testing-saving throws
 test15SkillThrowsDefault
 
-	self characterSheet skillsLookup keys do: [:aSkill | 
-		self assert: (self characterSheet perform: aSkill asSymbol) equals: '0'].
+	self characterSheet skillsLookup keys do: [:skill | 
+		self assert: (self characterSheet perform: (skill, 'Bonus') asSymbol) equals: '0'].

@@ -1,12 +1,6 @@
 layout containers
 layoutStats
 
-	| form container |
-	form := self statsForm.
-	container := Morph new 
-		extent: (self statsExtent);
-		color: Color transparent.
-	self
-		configureContainer: container withImage: form;
-		buildStatsIn: container.
-	^ container
+	^ self layoutContainerWithForm: self statsForm
+		extent: self statsExtent
+		calling: [:container | self buildStatsIn: container]

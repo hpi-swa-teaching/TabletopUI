@@ -1,7 +1,7 @@
-testing-death-saves
+testing-combat
 test23IncrementDeathSaves
 
-	self characterSheet incrementSuccessfulDeathSaves.
-	self characterSheet incrementFailedDeathSaves.
-	self assert: (self characterSheet successfulDeathSaves = 1).
-	self assert: (self characterSheet failedDeathSaves = 1)
+	self characterSheet incrementDeathSaveSuccesses.
+	self characterSheet incrementDeathSaveFailures.
+	self assert: (self characterSheet deathSaveSuccesses = 1).
+	self assert: (self characterSheet deathSaveFailures = 1)

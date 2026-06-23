@@ -1,0 +1,3 @@
+input handling - money
+applySpend
+

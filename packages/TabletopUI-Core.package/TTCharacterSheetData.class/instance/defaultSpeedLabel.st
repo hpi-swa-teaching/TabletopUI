@@ -1,4 +1,0 @@
-labels
-defaultSpeedLabel
-	
-	^ 'SPEED'

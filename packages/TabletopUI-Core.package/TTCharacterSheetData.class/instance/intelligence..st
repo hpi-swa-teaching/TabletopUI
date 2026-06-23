@@ -1,4 +1,4 @@
-accessing
+accessing - abilities
 intelligence: anObject
 
-	self baseValues at: #intelligence put: anObject
+	self abilitiesAt: #intelligence put: anObject

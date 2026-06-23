@@ -1,4 +1,0 @@
-labels
-addTempHPLabel
-	
-	^ 'ADD TEMP'

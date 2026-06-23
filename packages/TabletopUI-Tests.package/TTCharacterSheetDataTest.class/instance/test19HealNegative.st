@@ -1,4 +1,4 @@
-testing-heal-damage
+testing-health
 test19HealNegative
 	
 	self characterSheet currentHP: 10.

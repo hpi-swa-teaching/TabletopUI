@@ -1,3 +1,5 @@
-accessing
+accessing - combat
 speed: anObject
-	speed := anObject
+
+	speed := anObject.
+	self changed: #speed

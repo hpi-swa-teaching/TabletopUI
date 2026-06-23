@@ -1,0 +1,18 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"playerSelectionMenu",
+		"toolbar",
+		"characterAdministration",
+		"openedDisplays",
+		"originalUIManager" ],
+	"name" : "TTCharacterSheetUITest",
+	"pools" : [
+		 ],
+	"super" : "TTTestCase",
+	"type" : "normal" }

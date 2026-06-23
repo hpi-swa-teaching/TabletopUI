@@ -1,12 +1,6 @@
 layout containers
 layoutInfoBlock
 
-	| form container |
-	form := self infoBlockForm.
-	container := Morph new 
-		extent: (self largeBlockExtent);
-		color: Color transparent.
-	self
-		configureContainer: container withImage: form;
-		buildInfoBlockIn: container.
-	^ container
+	^ self layoutContainerWithForm: self infoBlockForm
+		extent: self largeBlockExtent
+		calling: [:container | self buildInfoBlockIn: container]

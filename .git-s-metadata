@@ -322,10 +322,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'restButton.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'tarrasque.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'minusButton.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -340,10 +356,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'plusButton.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'manticore.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'resetButton.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -358,10 +390,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'successes0.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'aboleth.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'successes1.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -376,10 +424,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'successes2.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'mimic.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'successes3.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -394,10 +458,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'failures0.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'doppelganger.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'failures1.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -412,10 +492,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'failures2.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'harpy.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'failures3.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -430,6 +526,14 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'inventory.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'zombie.png'
 			],
@@ -439,10 +543,26 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
+				'wallet.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
 				'monster-tokens',
 				'beholder.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'attacks.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -497,6 +617,14 @@ GSMetadata {
 				'goblin.png'
 			],
 			#encoding : @87
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'close.png'
+			],
+			#encoding : @18
 		}
 	],
 	#name : 'TabletopUI'

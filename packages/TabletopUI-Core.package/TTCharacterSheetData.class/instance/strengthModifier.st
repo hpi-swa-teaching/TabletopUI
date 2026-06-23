@@ -1,4 +1,4 @@
-accessing
+accessing - abilities
 strengthModifier
 	
-	^ (self convertToModifier: self strength) asString
+	^ (self modifierOf: #strength) asString
