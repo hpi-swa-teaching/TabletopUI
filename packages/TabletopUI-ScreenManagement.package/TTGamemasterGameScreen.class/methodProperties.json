@@ -3,4 +3,6 @@
 		 },
 	"instance" : {
 		"canCreateNpc" : "GF 6/11/2026 11:41",
-		"charactersToDisplay" : "CR 6/16/2026 20:51" } }
+		"charactersToDisplay" : "CR 6/16/2026 20:51",
+		"initializeFightorderDisplay:" : "GF 6/23/2026 02:11",
+		"initializePlayerDisplay" : "GF 6/22/2026 22:24" } }
