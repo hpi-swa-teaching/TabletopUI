@@ -1,3 +1,0 @@
-accessing
-fightContext
-	^ fightContext

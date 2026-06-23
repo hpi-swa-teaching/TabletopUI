@@ -1,4 +1,0 @@
-running
-proceedToNextPlayer
-
-	self fightContext proceedToNextPlayer
