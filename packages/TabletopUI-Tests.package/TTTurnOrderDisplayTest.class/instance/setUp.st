@@ -11,6 +11,6 @@ setUp
 	self parser context: self context.
 	self context addDependent: self display.
 	charAdmin := TTCharacterAdministration new players: {self alice. self bob} asOrderedCollection.
-	self playerSelection: (TTPlayerSelectionMenu newWith: charAdmin).
+	self playerSelection: (TTPlayerSelectionMenu newWith: charAdmin players).
 	self inputField: (TTInputField newWithActionLog: TTMockActionLog new playerSelectionMenu: self playerSelection).
 	self inputField parser: self parser

@@ -13,7 +13,7 @@
 		"playerSelection" : "DavidSimon 6/22/2026 19:00",
 		"playerSelection:" : "DavidSimon 6/22/2026 19:00",
 		"proceedToNextPlayer" : "DavidSimon 6/22/2026 18:31",
-		"setUp" : "DavidSimon 6/22/2026 18:50",
+		"setUp" : "DavidSimon 6/23/2026 14:23",
 		"test01ProceedToNextPlayerButtonAdvancesCurrentPlayer" : "DavidSimon 6/23/2026 00:29",
 		"test02EndTurnViaChatUpdatesTurnOrderDisplay" : "DavidSimon 6/22/2026 19:08",
 		"test03EndTurnViaChatRejectsWrongPlayer" : "DavidSimon 6/23/2026 00:33",
