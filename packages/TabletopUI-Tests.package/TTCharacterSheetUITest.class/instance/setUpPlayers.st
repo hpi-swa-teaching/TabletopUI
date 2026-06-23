@@ -1,4 +1,4 @@
-accessing
+running
 setUpPlayers
 
 	| player1 player2 |
