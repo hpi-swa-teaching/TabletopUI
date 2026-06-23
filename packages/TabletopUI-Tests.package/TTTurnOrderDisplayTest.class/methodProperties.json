@@ -18,4 +18,5 @@
 		"test02EndTurnViaChatUpdatesTurnOrderDisplay" : "DavidSimon 6/22/2026 19:08",
 		"test03EndTurnViaChatRejectsWrongPlayer" : "DavidSimon 6/23/2026 00:33",
 		"test04EndTurnViaButtonRejectsWhenNotInFight" : "DavidSimon 6/23/2026 00:35",
-		"test05EndTurnViaButtonUsesCommandPath" : "DavidSimon 6/23/2026 00:36" } }
+		"test05EndTurnViaButtonUsesCommandPath" : "DavidSimon 6/23/2026 00:36",
+		"test06EndTurnViaChatRejectsAfterDisplayAdvance" : "DavidSimon 6/23/2026 01:51" } }

@@ -1,11 +1,11 @@
-as yet unclassified
+setup
 dummyRegistrationJSONPlayer2
 
 	^ Dictionary new
-		at: #name put: 'second';
-		at: #role put: 'player';
-		at: #connectionDetails put: (Dictionary new
-			at: #ip put: '';
-			at: #port put: 1;
+		at: 'name' put: 'Bob';
+		at: 'role' put: 'player';
+		at: 'connectionDetails' put: (Dictionary new
+			at: 'ip' put: '';
+			at: 'port' put: 1;
 			yourself);
 		yourself
