@@ -1,0 +1,3 @@
+accessing
+sendCount
+	^ sendCount

@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"applyingRemoteState",
 		"window",
 		"networkmanager" ],
 	"name" : "TTSessionManager",

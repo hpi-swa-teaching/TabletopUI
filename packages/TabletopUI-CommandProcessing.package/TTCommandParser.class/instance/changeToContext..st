@@ -1,6 +1,6 @@
 context managing
 changeToContext: aContext
-
-	self removeDependent: self context.
-	self context: aContext.
-	self addDependent: self context
+    self context ifNotNil: [self context removeDependent: self].
+    self context: aContext.
+    self context addDependent: self.
+	self changed: #parserState
