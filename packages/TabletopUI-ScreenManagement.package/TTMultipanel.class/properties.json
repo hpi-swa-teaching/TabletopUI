@@ -13,7 +13,7 @@
 		"monsterMenu",
 		"playerSelectionMenu",
 		"viewContainer",
-    "wiki" ],
+		"wiki" ],
 	"name" : "TTMultipanel",
 	"pools" : [
 		 ],

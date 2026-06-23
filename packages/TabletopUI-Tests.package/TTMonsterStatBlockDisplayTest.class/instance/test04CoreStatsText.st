@@ -8,4 +8,5 @@ test04CoreStatsText
 		'Skills: Stealth +6'
 		'Senses: Darkvision 60 ft., Passive Perception 9'
 		'Languages: Common, Goblin'
-		'Challenge: 1/4'))
+		'Challenge: 1/4'
+		'Proficiency Bonus: +2'))

@@ -16,6 +16,7 @@ coreStatsText
 	addLine value: 'Senses' value: self sheet senses.
 	addLine value: 'Languages' value: self sheet languages.
 	addLine value: 'Challenge' value: self sheet challengeRating.
+	addLine value: 'Proficiency Bonus' value: (self signed: self sheet proficiencyBonus asString).
 	addLine value: 'Damage Vulnerabilities' value: self sheet damageVulnerabilities.
 	addLine value: 'Damage Resistances' value: self sheet damageResistances.
 	addLine value: 'Damage Immunities' value: self sheet damageImmunities.

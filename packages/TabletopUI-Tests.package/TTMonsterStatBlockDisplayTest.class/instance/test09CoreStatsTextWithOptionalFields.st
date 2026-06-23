@@ -11,4 +11,5 @@ test09CoreStatsTextWithOptionalFields
 		'Senses: Blindsight 30 ft., Darkvision 120 ft., Passive Perception 18'
 		'Languages: Common, Draconic'
 		'Challenge: 10'
+		'Proficiency Bonus: +4'
 		'Damage Immunities: Fire'))

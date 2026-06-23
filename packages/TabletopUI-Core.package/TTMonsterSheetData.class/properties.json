@@ -8,7 +8,6 @@
 	"instvars" : [
 		"actions",
 		"additionalSpeeds",
-		"alignment",
 		"challengeRating",
 		"conditionImmunities",
 		"damageImmunities",
