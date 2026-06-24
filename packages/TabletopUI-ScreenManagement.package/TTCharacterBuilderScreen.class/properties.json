@@ -1,0 +1,19 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"characterIndex",
+		"selectedIndex",
+		"choices",
+		"currentStep",
+		"remainingOptions",
+		"selectedPresets" ],
+	"name" : "TTCharacterBuilderScreen",
+	"pools" : [
+		 ],
+	"super" : "TTScreen",
+	"type" : "normal" }
