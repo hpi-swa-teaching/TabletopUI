@@ -8,4 +8,5 @@
 		"test01playerButtonShowsPlayerSelectionMenu" : "tf 5/29/2026 18:12",
 		"test02consoleButtonShowsConsole" : "tf 5/29/2026 18:44",
 		"test03buttonsChangeColor" : "tf 5/29/2026 18:37",
-		"test04changeToNonExistingView" : "tf 5/29/2026 18:37" } }
+		"test04changeToNonExistingView" : "tf 5/29/2026 18:37",
+		"test05monsterButtonShowsMonsterMenu" : "tf 6/20/2026 20:09" } }

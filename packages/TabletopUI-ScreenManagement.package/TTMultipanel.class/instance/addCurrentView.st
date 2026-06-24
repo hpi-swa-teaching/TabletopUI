@@ -15,6 +15,11 @@ addCurrentView
 			addMorph: self playerSelectionMenu
 			fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1))].
 	
+	self activeView = #monsters ifTrue: [
+    ^ self viewContainer
+        addMorph: self monsterMenu
+        fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1))].
+	
 	self activeView = #wiki ifTrue: [
 		^ self viewContainer
 			addMorph: self wiki

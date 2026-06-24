@@ -7,10 +7,12 @@
 	"commentStamp" : "MH 5/27/2026 22:45",
 	"instvars" : [
 		"activeView",
-		"viewContainer",
+		"characterAdministration",
 		"console",
 		"inputField",
+		"monsterMenu",
 		"playerSelectionMenu",
+		"viewContainer",
 		"wiki" ],
 	"name" : "TTMultipanel",
 	"pools" : [

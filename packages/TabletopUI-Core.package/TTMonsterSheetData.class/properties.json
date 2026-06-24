@@ -1,0 +1,28 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tf 6/11/2026 19:15",
+	"instvars" : [
+		"actions",
+		"additionalSpeeds",
+		"challengeRating",
+		"conditionImmunities",
+		"damageImmunities",
+		"damageResistances",
+		"damageVulnerabilities",
+		"languages",
+		"legendaryActions",
+		"monsterType",
+		"savingThrows",
+		"senses",
+		"monsterSize",
+		"traits",
+		"skills" ],
+	"name" : "TTMonsterSheetData",
+	"pools" : [
+		 ],
+	"super" : "TTCharacterSheetData",
+	"type" : "normal" }

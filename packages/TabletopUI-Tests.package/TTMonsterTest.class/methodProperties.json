@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "tf 6/20/2026 19:45",
+		"templates" : "tf 6/20/2026 19:44",
+		"templates:" : "tf 6/20/2026 19:45",
+		"test01AllTemplatesIncludesKnownMonsters" : "tf 6/20/2026 19:45",
+		"test02AllTemplatesAreWellFormed" : "tf 6/20/2026 19:46" } }

@@ -1,0 +1,4 @@
+accessing
+monsterSelectionMenu: aTTMonsterSelectionMenu
+
+	monsterSelectionMenu := aTTMonsterSelectionMenu
