@@ -11,4 +11,4 @@ continue
 			self changed: #nameList.
 			self selectedIndex: self getIndexBasedOnChoice]
 		ifTrue: [self createSheet. 
-			self window openCharacterSheetSelectionScreenWith: selectedPresets]
+			self window openCharacterSheetSelectionScreenWith: self selectedPresets]

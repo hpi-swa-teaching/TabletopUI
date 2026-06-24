@@ -1,4 +1,4 @@
 accessing-health
 currentHP
 
-	^ currentHP asString
+	^ (currentHP ifNil: [0]) asString

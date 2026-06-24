@@ -7,4 +7,4 @@ createSheetFor: anIndex
 	player = 'gamemaster'
 		ifFalse: [((self characterSheets at: anIndex) endsWith: '.obj')
 			ifTrue: [self createSheetFromFileFor: anIndex]
-			ifFalse: [player sheet initializeWithPreset: ((self characterSheets at: anIndex) asSymbol)]]
+			ifFalse: [player sheet: (TTCharacterSheetData forTemplate: (self characterSheets at: anIndex))]]

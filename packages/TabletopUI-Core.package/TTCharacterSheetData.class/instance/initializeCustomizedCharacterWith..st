@@ -1,17 +1,10 @@
-initialize-release
+setup - initialization
 initializeCustomizedCharacterWith: aDictionary
+
+	self flag: 'TODO: Die anderen beiden Klassen noch einfügen'.
+	self class forTemplate: (aDictionary at: #class) asSymbol.
 	
-	super initialize.
-	self initializeBaseValuesWith: (aDictionary at: #abilities);
-		initializeThrowsLookup;
-		initializeSkillsLookup;
-		initializeHPWith: (TTCharacterSheetData HPValues at: (aDictionary at: #class));
-		level: self defaultLevel;
-		proficiencyValue: self defaultProficiencyValue;
-		currentHitDice: self level;
-		hitDieType: self defaultHitDieType;
-		armorClass: self defaultArmorClass;
-		speed: self defaultSpeed;
-		failedDeathSaves: self defaultDeathSaves;
-		successfulDeathSaves: self defaultDeathSaves;
-		gold: self defaultGold
+	self 
+		abilities: (aDictionary at: #abilities);
+		speed: ((self class raceSpeedValues) at: (aDictionary at: #race));
+		initializeSpellcastingFrom: aDictionary

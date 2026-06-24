@@ -4,11 +4,10 @@ initialize
 	super initialize.
 	self abilities: Dictionary new.
 	self
-		experiencePoints: 0;
 		initializeAbilities;
+		experiencePoints: 0;
 		initializeSkillsLookup;
 		initializeSavingThrowsLookup;
-		initializeHP;
 		initializeDeathSaves;
 		initializeStats;
 		initializeInformation;

@@ -6,13 +6,8 @@ buildStatsIn: aMorph
 		at: 35 @ 40
 		in: aMorph.
 	self addField: #initiative
-		at: 145 @ 28
+		at: 145 @ 18
 		in: aMorph.
-	self addEditableField: #initiativeBonus
-		sized: 50 @ 30
-		at: 145 @ 5
-		in: aMorph.
-	self addEditableField: #armorClass
-		sized: 50 @ 30
+	self addField: #armorClass
 		at: 265 @ 40
 		in: aMorph.

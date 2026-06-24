@@ -3,7 +3,6 @@ wizard
 
 	^ self default
 		className: 'Wizard';
-		maxHP: 8;
 		currentHP: 8;
 		armorClass: 12;
 		speed: 9;

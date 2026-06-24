@@ -1,4 +1,4 @@
 accessing - combat
 hitDieType
 
-	^ hitDieType
+	^ hitDieType ifNil: [0]
