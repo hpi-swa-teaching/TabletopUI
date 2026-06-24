@@ -6,5 +6,6 @@ styledLabel: aString
 	morph := StringMorph new.
 	morph 
 		font: font; 
+		color: self defaultTextColor;
 		contents: aString.
 	^ morph

@@ -12,9 +12,7 @@ createMorph
 		position: 0@510;
 		extent: 300@40;
 		hResizing: #spaceFill;
-		color: Color white;
-		borderWidth: 1;
-		borderColor: Color black.
+		borderWidth: 1.
 		
 	inputMorph acceptOnCR: true.
 	"inputMorph askBeforeDiscardingEdits: false."
