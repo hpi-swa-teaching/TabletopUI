@@ -5,9 +5,8 @@ initializeFromSpec: aDictionary
 	
 	self 
 		initializeAbilitiesFromSpec: aDictionary;
-		maxHP: (aDictionary at: #hit_points);
-		currentHP: (aDictionary at: #hit_points);
 		armorClass: (aDictionary at: #armor_class);
+		maxHP: (aDictionary at: #hit_points);
 		speed: (aDictionary at: #speed);
 		alignment: (aDictionary at: #alignment);
 		proficiencyBonus: (aDictionary at: #proficiency_value).
