@@ -2,5 +2,6 @@ initialization
 initialize
 
 	super initialize.
+	self color: Color white.
 	self initializeInstanceVariables.
 	self start

@@ -1,4 +1,0 @@
-getter/setter
-imagePath
-
-	^ imagePath.
