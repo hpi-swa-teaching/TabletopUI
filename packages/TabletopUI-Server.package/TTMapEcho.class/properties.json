@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTMapEcho",
+	"pools" : [
+		 ],
+	"super" : "NetworkObject",
+	"type" : "normal" }
