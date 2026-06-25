@@ -5,11 +5,11 @@ experiencePoints: anObject
 	self
 		broadcastSkillAndSavingThrowChanges;
 		updateHitDice;
-		changed: #hitDiceTotal;
-		changed: #hitDiceRemaining;
 		changed: #experiencePoints;
 		changed: #level;
 		changed: #levelString;
 		changed: #proficiencyBonus;
+		changed: #maxHP;
+		clampCurrentHP;
 		changed: #spellSaveDC;
 		changed: #spellAttackBonus

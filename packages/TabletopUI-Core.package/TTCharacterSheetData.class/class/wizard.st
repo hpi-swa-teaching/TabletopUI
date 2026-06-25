@@ -3,16 +3,13 @@ wizard
 
 	^ self default
 		className: 'Wizard';
-		maxHP: 8;
-		currentHP: 8;
-		armorClass: 12;
-		speed: 9;
-		maxHP: 8;
+		speed: 30;
 		strength: 8;
-		dexterity: 14;
-		constitution: 15;
-		intelligence: 16;
-		wisdom: 13;
-		charisma: 8;
+		dexterity: 13;
+		constitution: 14;
+		intelligence: 15;
+		wisdom: 12;
 		hitDieType: 6;
+		intelligenceSavingThrowProficiency: 1;
+		wisdomSavingThrowProficiency: 1;
 		yourself

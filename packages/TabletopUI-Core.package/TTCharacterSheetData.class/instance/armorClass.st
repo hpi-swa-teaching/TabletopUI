@@ -1,4 +1,4 @@
 accessing - combat
 armorClass
 
-	^ armorClass asString
+	^ (10 + (self modifierOf: #dexterity)) asString

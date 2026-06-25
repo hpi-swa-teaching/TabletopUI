@@ -1,6 +1,5 @@
 screen management
 continue
-
-	self confirmSelection.
 	
+	self createSheets.
 	self window openTokenSelectionScreen

@@ -8,7 +8,7 @@ test09CreateSheetsLoadsSheetFromObjFile
 	[ self characterAdministration saveCharacter: 1.
 	  self screen characterSheets at: 1 put: fileName.
 	  self screen createSheets.
-	  self assert: player sheet armorClass equals: '12' ] 
+	  self assert: player sheet armorClass equals: '11' ] 
 		ensure: [ 
 			(FileDirectory default fileExists: fileName)
 				ifTrue: [ FileDirectory default deleteFileNamed: fileName ] ].

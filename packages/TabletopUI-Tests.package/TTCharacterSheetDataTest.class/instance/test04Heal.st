@@ -1,6 +1,6 @@
 testing-health
 test04Heal
 
-	self characterSheet currentHP: 10.
+	self characterSheet currentHP: 3.
 	self characterSheet heal: 5.
-	self assert: (self characterSheet currentHP = '15')
+	self assert: (self characterSheet currentHP = '8')

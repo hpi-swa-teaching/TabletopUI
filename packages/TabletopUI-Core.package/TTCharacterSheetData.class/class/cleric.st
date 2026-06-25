@@ -3,11 +3,13 @@ cleric
 
 	^ self default
 		className: 'Cleric';
-		armorClass: 16;
-		speed: 7.5;
-		maxHP: 12;
-		strength: 14;
-		constitution: 16;
+		speed: 30;
+		strength: 13;
+		constitution: 14;
 		intelligence: 8;
-		wisdom: 16;
+		wisdom: 15;
+		charisma: 12;
+		spellAbility: #wisdom;
+		wisdomSavingThrowProficiency: 1;
+		charismaSavingThrowProficiency: 1;
 		yourself

@@ -1,5 +1,5 @@
 testing-combat
 test69ArmorClassChange
 
-	self characterSheet armorClass: 16.
-	self assert: self characterSheet armorClass = '16'
+	self characterSheet dexterity: 12.
+	self assert: self characterSheet armorClass = '11'

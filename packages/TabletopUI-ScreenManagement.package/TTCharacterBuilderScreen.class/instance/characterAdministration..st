@@ -1,0 +1,5 @@
+as yet unclassified
+characterAdministration: aCharacterAdministration
+
+	super characterAdministration: aCharacterAdministration.
+

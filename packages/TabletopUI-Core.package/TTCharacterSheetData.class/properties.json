@@ -1,9 +1,10 @@
 {
 	"category" : "TabletopUI-Core",
 	"classinstvars" : [
-		"characterTypes" ],
+		"characterTypes",
+		"speedValues" ],
 	"classvars" : [
-		 ],
+		"HPValues" ],
 	"commentStamp" : "DS 5/15/2022 12:55",
 	"instvars" : [
 		"identity",
