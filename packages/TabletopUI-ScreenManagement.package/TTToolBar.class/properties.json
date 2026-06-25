@@ -11,7 +11,8 @@
 		"map",
 		"diceTool",
 		"connectedPlayerstool",
-		"newMapTool" ],
+		"newMapTool",
+		"networkManager" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],
