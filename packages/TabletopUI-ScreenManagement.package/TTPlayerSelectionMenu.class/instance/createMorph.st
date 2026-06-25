@@ -14,8 +14,6 @@ createMorph
 		position: 0@0;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		color: Color white;
-		borderWidth: 1;
-		borderColor: Color black.
+		borderWidth: 1.
 
 	^ listMorph

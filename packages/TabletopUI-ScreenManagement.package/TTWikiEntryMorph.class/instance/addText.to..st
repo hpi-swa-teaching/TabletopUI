@@ -7,4 +7,5 @@ addText: aString to: aContainer
 		wrapFlag: true; 
 		hResizing: #spaceFill; 
 		autoFit: true; 
+		color: self defaultTextColor;
 		yourself)

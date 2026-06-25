@@ -15,8 +15,6 @@ createMorph
 		extent: 300@500;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		color: Color white;
-		borderWidth: 1;
-		borderColor: Color black.
+		borderWidth: 1.
 
 	^ consoleMorph

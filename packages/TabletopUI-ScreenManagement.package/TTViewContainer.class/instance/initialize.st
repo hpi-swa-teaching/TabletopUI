@@ -7,5 +7,5 @@ initialize
 		changeTableLayout;
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
-		vResizing: #spaceFill;
-		color: Color white
+		vResizing: #spaceFill
+		"color: Color white"

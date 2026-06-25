@@ -1,6 +1,6 @@
 initialization
 initializeLayout
-
+	
 	self 
 		changeTableLayout;
 		listDirection: #topToBottom;
