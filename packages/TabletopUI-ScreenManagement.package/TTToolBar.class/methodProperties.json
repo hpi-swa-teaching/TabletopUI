@@ -2,6 +2,7 @@
 	"class" : {
 		"newWith:and:map:" : "DS 8/4/2022 09:36" },
 	"instance" : {
+		"addNewMap" : "tak2 6/25/2026 13:36",
 		"characterAdministration" : "JA 5/26/2022 12:09",
 		"characterAdministration:" : "JA 5/26/2022 12:09",
 		"closeConnectedPlayersToolDisplay" : "tak2 5/6/2026 20:45",
@@ -12,8 +13,9 @@
 		"createCharacterSheetButtonSpecWith:" : "RK 5/15/2022 21:05",
 		"createConnectedPlayersToolButtonSpecWith:" : "tak2 5/6/2026 20:51",
 		"createDiceToolButtonSpecWith:" : "DS 8/4/2022 10:52",
-		"createRulerToolButtonSpecWith:" : "RK 6/30/2022 01:49",
-		"createSpecWith:" : "tak2 5/6/2026 19:30",
+		"createNewMapToolButtonSpecWith:" : "tak2 6/25/2026 12:57",
+		"createRulerToolButtonSpecWith:" : "tak2 6/24/2026 10:27",
+		"createSpecWith:canAddMap:" : "tak2 6/25/2026 13:03",
 		"darkButtonFocusColor" : "RK 6/30/2022 02:52",
 		"diceTool" : "ML 6/26/2022 14:59",
 		"diceTool:" : "ML 6/26/2022 14:59",
@@ -29,6 +31,7 @@
 		"lightButtonFocusColor" : "RK 6/30/2022 02:51",
 		"map" : "OB 6/13/2022 08:41",
 		"map:" : "OB 6/13/2022 08:41",
+		"newMapToolButtonColor" : "tak2 6/25/2026 13:06",
 		"notifyConnectedPlayersToolClosed" : "tak2 5/6/2026 20:34",
 		"notifyDiceToolClosed" : "DS 8/4/2022 10:06",
 		"notifyRulerToolClosed" : "DS 8/4/2022 10:06",
