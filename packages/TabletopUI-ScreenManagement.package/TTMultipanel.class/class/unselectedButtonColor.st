@@ -1,4 +1,0 @@
-constants
-unselectedButtonColor
-
-	^ Color veryVeryLightGray

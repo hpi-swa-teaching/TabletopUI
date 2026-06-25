@@ -1,4 +1,0 @@
-constants
-selectedButtonColor
-
-	^ Color lightBlue
