@@ -20,7 +20,7 @@ mindFlayer
 		at: #senses put: 'Darkvision 120 ft., Passive Perception 16';
 		at: #languages put: 'Deep Speech, Undercommon, telepathy 120 ft.';
 		at: #challenge_rating put: '7';
-		at: #proficiency_value put: '3';
+		at: #proficiency_value put: 3;
 		at: #special_abilities put: {
 			Dictionary new
 				at: #name put: 'Magic Resistance';

@@ -26,7 +26,7 @@ beholder
 		at: #senses put: 'Darkvision 120 ft., Passive Perception 22';
 		at: #languages put: 'Deep Speech, Undercommon';
 		at: #challenge_rating put: '13';
-		at: #proficiency_value put: '5';
+		at: #proficiency_value put: 5;
 		at: #special_abilities put: {
 			Dictionary new
 				at: #name put: 'Antimagic Cone';
