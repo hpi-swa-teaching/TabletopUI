@@ -10,7 +10,8 @@
 		"inputField",
 		"map",
 		"diceTool",
-		"connectedPlayerstool" ],
+		"connectedPlayerstool",
+		"newMapTool" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],
