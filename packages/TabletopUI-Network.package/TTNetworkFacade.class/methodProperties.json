@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyOccupyingTokenUpdateOnTile:with:" : "CR 6/24/2026 17:25",
-		"applyPositionUpdateOnToken:with:" : "CR 6/25/2026 14:40",
+		"applyOccupyingTokenUpdateOnTile:with:" : "CR 6/26/2026 18:37",
+		"applyPositionUpdateOnToken:with:" : "CR 6/26/2026 18:38",
 		"connectTo:tcpPort:" : "CR 6/23/2026 21:56",
 		"getIdOf:" : "CR 6/24/2026 17:32",
 		"idAssigner" : "CR 6/23/2026 21:31",
