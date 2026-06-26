@@ -1,6 +1,6 @@
 fight
 proceedToNextPlayer: aTTCharacter
 
-	(aTTCharacter = self currentPlayer) ifTrue: [
-		^ self proceedToNextPlayer].
-	^self onlyCurrentPlayerErrorString
+	
+	(aTTCharacter name = self currentPlayer name or: aTTCharacter isGamemaster) ifTrue: [^ self proceedToNextPlayer].
+	^ self onlyCurrentPlayerErrorString

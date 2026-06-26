@@ -1,0 +1,4 @@
+turnorder
+initializePlayerDisplay
+
+	self subclassResponsibility

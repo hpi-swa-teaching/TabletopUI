@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"contextHasChanged" ],
 	"name" : "TTInitiativeContextTest",
 	"pools" : [
 		 ],

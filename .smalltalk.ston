@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #packages : [ 'TabletopUI-Core', 'TabletopUI-CommandProcessing', 'TabletopUI-ScreenManagement' ]
+      #packages : [ 'TabletopUI-Core', 'TabletopUI-CommandProcessing', 'TabletopUI-ScreenManagement', 'TabletopUI-Network', 'TabletopUI-Server' ]
     }
   }
 }

@@ -1,11 +1,10 @@
 execution
 executeStart: aContext from: aTTCharacter
 
-	|messageString|
-	aContext gameState = #default ifFalse: [
-		^TTCommandMessage new
-			errorMessage: aContext wrongContextErrorString].
+	| messageString |
+
+	aContext gameState = #default ifFalse: [^ TTCommandMessage new errorMessage: aContext wrongContextErrorString].
 	messageString := aContext startFightAs: aTTCharacter.
-	^TTCommandMessage new
+	^ TTCommandMessage new
 		outputString: messageString;
 		yourself

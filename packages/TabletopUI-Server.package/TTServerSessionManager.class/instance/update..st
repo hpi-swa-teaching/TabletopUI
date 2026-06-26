@@ -1,4 +1,4 @@
 as yet unclassified
 update: anAspect
-	
-	(anAspect = #mapState) ifTrue: [self broadcastUpdatedState]
+    self applyingRemoteState ifTrue: [^self].
+    ((anAspect = #mapState) or: [anAspect = #parserState]) ifTrue: [self broadcastUpdatedState]

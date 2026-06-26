@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "rf 7/8/2021 10:18",
 	"instvars" : [
-		"characterAdministration",
-		"selectedIndex" ],
+		"selectedIndex",
+		"characterList" ],
 	"name" : "TTPlayerSelectionMenu",
 	"pools" : [
 		 ],
