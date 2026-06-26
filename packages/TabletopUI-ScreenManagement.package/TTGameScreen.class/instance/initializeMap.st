@@ -1,7 +1,10 @@
 initialization
 initializeMap
 
-	self map: (TTMap newWith: (self characterAdministration players) and: (self characterAdministration npcs)).
+	self map: (self networkFacade instantiate: TTMap).
+	self map 
+		initializePlayerTokens: self characterAdministration players;
+	 	initializePlayerTokens: self characterAdministration npcs.
 	self addDependent: self map.
 	self map addDependent: self window sessionManager
 		

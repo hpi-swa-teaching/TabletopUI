@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
-		"networkmanager" ],
+		"window" ],
 	"name" : "TTSessionManager",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "NetworkObject",
 	"type" : "normal" }

@@ -7,7 +7,8 @@
 	"commentStamp" : "bv 7/3/2021 22:00",
 	"instvars" : [
 		"occupied",
-		"mapCoordinates" ],
+		"mapCoordinates",
+		"networkFacade" ],
 	"name" : "TTTile",
 	"pools" : [
 		 ],
