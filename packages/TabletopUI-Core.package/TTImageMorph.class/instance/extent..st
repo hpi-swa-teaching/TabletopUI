@@ -1,4 +1,4 @@
-getter/setter
+accessors
 extent: anExtent
 	
 	self image: (self scaleToSize: anExtent).
