@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"joinScreen" ],
+	"name" : "TTJoinNetworkingGameScreenTest",
+	"pools" : [
+		 ],
+	"super" : "TTTestCase",
+	"type" : "normal" }

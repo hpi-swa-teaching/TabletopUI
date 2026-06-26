@@ -2,11 +2,14 @@ testing
 test08EndInitiativeAsPlayer
 
 	| player1 player2 result |
+	self context rolls: OrderedDictionary new.
 	player1 := TTCharacter new
 		role: #player;
+		name: #player1;
 		yourself.
 	player2 := TTCharacter new
 		role: #player;
+		name: #player2;
 		yourself.
 	
 	self context processRoll: 6 for: player1.

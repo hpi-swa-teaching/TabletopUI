@@ -1,0 +1,4 @@
+accessing
+getActivePlayer
+
+	^ self currentPlayer

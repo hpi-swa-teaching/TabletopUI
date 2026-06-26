@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser" ],
+		"parser",
+		"contextChangePropagated" ],
 	"name" : "TTCommandParserTest",
 	"pools" : [
 		 ],

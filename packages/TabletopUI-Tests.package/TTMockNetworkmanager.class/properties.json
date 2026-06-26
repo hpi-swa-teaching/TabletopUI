@@ -6,6 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"lastMessage",
+		"lastRecipient",
+		"lastParameters",
+		"sendCount",
 		"referenceManager" ],
 	"name" : "TTMockNetworkmanager",
 	"pools" : [
