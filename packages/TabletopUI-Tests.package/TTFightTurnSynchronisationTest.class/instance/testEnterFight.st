@@ -1,5 +1,5 @@
 helpers
-enterFightAndAssertBaseline
+testEnterFight
 
 	self enterFightOnAll.
 	self useMockActionLogsOnAll.

@@ -2,6 +2,7 @@ testing
 test14EndTurnWorksAcrossLoadStateRebuild
 
 	| alice bob adminAlice result |
+	self flag: 'TODO: move this test to a more fitting test class'.
 	alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
 	bob := TTCharacter newWithName: 'Bob' role: TTCharacter player.
 	parser changeToContext: ((TTFightContext newWithfightOrder: {alice. bob} asOrderedCollection) parser: parser).

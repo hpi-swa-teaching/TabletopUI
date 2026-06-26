@@ -6,7 +6,7 @@
 		"currentPlayer:" : "ML 6/16/2022 10:15",
 		"currentPlayerName" : "ML 6/15/2022 13:45",
 		"display" : "ML 6/15/2022 13:44",
-		"display:" : "DavidSimon 6/23/2026 16:41",
+		"display:" : "DavidSimon 6/25/2026 16:39",
 		"endFightingAs:" : "DavidSimon 6/22/2026 19:58",
 		"fightIsOverMessageString" : "ML 6/15/2022 15:33",
 		"fightingPlayers" : "ML 6/15/2022 13:45",
@@ -21,6 +21,5 @@
 		"proceedToNextPlayer" : "DavidSimon 6/22/2026 20:49",
 		"proceedToNextPlayer:" : "DavidSimon 6/23/2026 22:51",
 		"removePlayer:from:" : "ML 6/16/2022 10:11",
-		"update:" : "DavidSimon 6/22/2026 20:29",
 		"validCommands" : "ML 6/15/2022 09:58",
 		"wrongContextErrorString" : "ML 6/15/2022 14:48" } }
