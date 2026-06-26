@@ -1,14 +1,15 @@
 {
-	"category" : "TabletopUI-Server",
+	"category" : "TabletopUI-Network",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ChatEcho",
+		"networkmanager",
+		"idAssigner" ],
+	"name" : "TTNetworkFacade",
 	"pools" : [
 		 ],
-	"super" : "NetworkObject",
+	"super" : "Object",
 	"type" : "normal" }

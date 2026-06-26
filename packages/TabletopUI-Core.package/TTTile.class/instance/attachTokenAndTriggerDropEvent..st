@@ -1,10 +1,11 @@
 drag and drop
 attachTokenAndTriggerDropEvent: aTTToken
-
-	aTTToken 
-		position: self position;
-		defaultTile: self.
-	self 
-		occupied: true;
-		addMorph: aTTToken;
-		changed: #dropEvent
+	
+	aTTToken moveToPosition: self position onTile: self.
+	self getOccupiedByToken: aTTToken.
+	
+	self networkFacade 
+		updateToken: aTTToken Position: aTTToken getMapCoordinates ToTile: self;
+		updateTile: self OccupyingToken: aTTToken.
+	
+	

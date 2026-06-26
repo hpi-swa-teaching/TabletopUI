@@ -1,8 +1,9 @@
 initialization
 newWith: aTTTabletopWindow
 
-	^ self new
+	| screen |
+	screen := aTTTabletopWindow networkFacade instantiate: self.
+	screen 
 		window: aTTTabletopWindow;
-		networkmanager: aTTTabletopWindow networkmanager;
-		characterAdministration: aTTTabletopWindow characterAdministration;
-		yourself
+		characterAdministration: aTTTabletopWindow characterAdministration.
+	^ screen.

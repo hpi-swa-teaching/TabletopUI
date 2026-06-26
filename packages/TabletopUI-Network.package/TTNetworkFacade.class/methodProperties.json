@@ -1,0 +1,17 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"applyOccupyingTokenUpdateOnTile:with:" : "CR 6/24/2026 17:25",
+		"applyPositionUpdateOnToken:with:" : "CR 6/25/2026 14:40",
+		"connectTo:tcpPort:" : "CR 6/23/2026 21:56",
+		"getIdOf:" : "CR 6/24/2026 17:32",
+		"idAssigner" : "CR 6/23/2026 21:31",
+		"idAssigner:" : "CR 6/23/2026 21:31",
+		"instantiate:" : "CR 6/25/2026 11:29",
+		"instantiate:withId:" : "CR 6/25/2026 11:28",
+		"networkmanager" : "CR 6/23/2026 21:30",
+		"networkmanager:" : "CR 6/23/2026 22:26",
+		"send:to:with:" : "CR 6/23/2026 22:13",
+		"updateTile:OccupyingToken:" : "CR 6/25/2026 14:31",
+		"updateToken:Position:ToTile:" : "CR 6/25/2026 14:31" } }

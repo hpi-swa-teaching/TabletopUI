@@ -15,7 +15,8 @@
 		"sessionManager",
 		"isGamemaster",
 		"owningPlayerName",
-		"context" ],
+		"context",
+		"networkFacade" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],

@@ -9,7 +9,7 @@ continue
 			at: #port put: (self tcpPort);
 			yourself );
 		yourself.
-	self networkmanager connectTo: self address tcpPort: self tcpPort.
-	self window networkmanager send: #handlePlayerRegistration: to: 'sessionmanager' with: aDict.
+	self networkFacade connectTo: self address tcpPort: self tcpPort.
+	self networkFacade send: #handlePlayerRegistration: to: 'sessionmanager' with: aDict.
 	self window setRole: self role.
 	self window owningPlayerName: self playerName asString.

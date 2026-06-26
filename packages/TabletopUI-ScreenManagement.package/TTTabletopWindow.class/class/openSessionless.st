@@ -1,18 +1,12 @@
 toolbuilder
 openSessionless
 
-	| inst ref sessionmanager |
-	ref := TTReferenceManager new.
-	inst := self new.
-	inst networkmanager: TTClientNetworkManager new.
-	inst referenceManager: ref.
-	inst networkmanager referenceManager: (ref).
-	inst networkmanager referenceManager addEntry: inst forId: 'window'.
+	| window networkFacade |
+	window := self new.
+	networkFacade:= self createNetworkFacade: TTClientNetworkManager new.
+	window sessionManager:(networkFacade instantiate: TTClientSessionManager withId: 'sessionmanager').
+	window sessionManager window: window.
+	window networkFacade: networkFacade.
 	
-	sessionmanager:= TTClientSessionManager new.
-	sessionmanager window: inst.
-	sessionmanager networkmanager: inst networkmanager.
-	inst sessionManager: sessionmanager.
-	inst networkmanager referenceManager addEntry: sessionmanager forId: 'sessionmanager'.
-	ToolBuilder open: (inst openPlayerCountScreen; yourself).
-	^ inst.
+	ToolBuilder open: (window openPlayerCountScreen; yourself).
+	^ window.
