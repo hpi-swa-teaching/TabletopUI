@@ -5,4 +5,4 @@ performFrom: messageDictionary
 	| params object |
 	params := (messageDictionary at: 'Params') as: Dictionary.
 	object := self referenceManager resolve: (messageDictionary at: 'Obj-Id').
-	object perform: (messageDictionary at: 'Msg-Id') asSymbol with: params
+	(object notNil) ifTrue: [object perform: (messageDictionary at: 'Msg-Id') asSymbol with: params]

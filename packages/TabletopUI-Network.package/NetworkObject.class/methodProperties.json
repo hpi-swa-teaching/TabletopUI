@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithNWM:" : "Jakob Fanselow 5/19/2026 09:23" },
+		"newWithNetworkFacade:" : "CR 6/27/2026 15:58" },
 	"instance" : {
-		"networkmanager" : "Jakob Fanselow 5/19/2026 09:22",
-		"networkmanager:" : "Jakob Fanselow 5/19/2026 09:22" } }
+		"networkFacade" : "CR 6/27/2026 13:34",
+		"networkFacade:" : "CR 6/27/2026 13:34" } }

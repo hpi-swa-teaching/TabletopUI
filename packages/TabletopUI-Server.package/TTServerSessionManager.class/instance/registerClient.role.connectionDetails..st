@@ -1,4 +1,4 @@
-as yet unclassified
+registration
 registerClient: name role: role connectionDetails: aDict
 
 	self connectionRegistry at: name

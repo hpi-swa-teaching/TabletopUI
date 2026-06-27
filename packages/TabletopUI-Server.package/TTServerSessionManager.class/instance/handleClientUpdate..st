@@ -1,5 +1,5 @@
-as yet unclassified
+updating
 handleClientUpdate: aDict
 
 	self loadState: aDict.
-	self broadcastUpdatedState.
+	self sendFullGameStateToRegisteredPlayer.

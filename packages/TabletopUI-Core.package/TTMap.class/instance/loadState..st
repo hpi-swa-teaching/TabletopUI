@@ -1,4 +1,4 @@
-initialization
+updating
 loadState: aDictionary
 
 	| tile position tokenState |

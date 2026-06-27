@@ -8,4 +8,5 @@
 		"test01NoElementAccess" : "JF 6/11/2026 11:47",
 		"test02WrongElementAccess" : "JF 6/11/2026 11:47",
 		"test03OnlyElementAccess" : "JF 6/11/2026 11:49",
-		"test04ArbitraryElementAccess" : "JF 6/4/2026 17:01" } }
+		"test04ArbitraryElementAccess" : "JF 6/4/2026 17:01",
+		"test05IdRenaming" : "CR 6/26/2026 19:12" } }

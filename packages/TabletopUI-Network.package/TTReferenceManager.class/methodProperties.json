@@ -2,11 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEntry:forId:" : "CR 6/26/2026 16:11",
+		"addEntry:forId:" : "CR 6/27/2026 13:50",
 		"getIdOf:" : "CR 6/24/2026 17:30",
 		"initialize" : "CR 6/24/2026 17:38",
 		"objectToIdTable" : "CR 6/24/2026 17:30",
 		"objectToIdTable:" : "CR 6/24/2026 17:30",
-		"resolve:" : "DavidSimon 5/3/2026 18:02",
+		"removeId:" : "CR 6/27/2026 13:54",
+		"resolve:" : "CR 6/27/2026 13:33",
 		"table" : "DavidSimon 5/3/2026 18:01",
 		"table:" : "DavidSimon 5/3/2026 18:01" } }

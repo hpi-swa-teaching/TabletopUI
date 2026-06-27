@@ -1,4 +1,4 @@
-accessing
+wrapping
 connectTo: anAddress tcpPort: tcpPort
 
 	self networkmanager connectTo: anAddress tcpPort: tcpPort.

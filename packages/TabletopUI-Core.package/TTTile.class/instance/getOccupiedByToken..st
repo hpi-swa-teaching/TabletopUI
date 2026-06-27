@@ -1,4 +1,4 @@
-drag and drop
+token placement
 getOccupiedByToken: aTTToken
 	
 	self occupied: true.

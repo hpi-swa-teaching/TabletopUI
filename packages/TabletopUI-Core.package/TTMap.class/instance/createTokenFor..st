@@ -6,11 +6,10 @@ createTokenFor: aTTCharacter
 	position := self findFreeTile.
 	tile := self tiles at: position x at: position y.
 	tokenId:= 'token_', aTTCharacter name.
-	token:= self networkFacade instantiate: TTToken withId: tokenId.
+	token:= self networkFacade instantiateTokenWithId: tokenId.
 	token
-		defaultTile: tile;
 		character: aTTCharacter;
 		initializeFormFor: aTTCharacter;
 		makeDraggable.
-	tile getOccupiedByToken: token.
+	self loadToken: token at: tile.
 	self tokens add: token

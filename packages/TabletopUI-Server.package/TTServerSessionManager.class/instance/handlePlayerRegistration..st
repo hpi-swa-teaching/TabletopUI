@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 handlePlayerRegistration: aDict
 
 	| name role connectionDetails |
@@ -11,5 +11,6 @@ handlePlayerRegistration: aDict
 	self 
 		registerClient: name role: role connectionDetails: connectionDetails;
 		addToGameState: name role: role;
-		broadcastUpdatedState.
+		addToGameStateOfSessionMembers: aDict;
+		sendFullGameStateToRegisteredPlayer.
 	]
