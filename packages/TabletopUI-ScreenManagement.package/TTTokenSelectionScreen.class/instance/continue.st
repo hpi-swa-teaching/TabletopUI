@@ -1,5 +1,5 @@
 screen management
 continue
 	
-	self confirmSelection.
+	self setTokens.
 	self window openGameScreen

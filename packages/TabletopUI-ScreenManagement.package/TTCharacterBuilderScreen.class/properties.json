@@ -7,7 +7,6 @@
 	"commentStamp" : "RH 6/27/2026 12:04",
 	"instvars" : [
 		"characterIndex",
-		"selectedIndex",
 		"choices",
 		"currentStep",
 		"remainingOptions",
@@ -15,5 +14,5 @@
 	"name" : "TTCharacterBuilderScreen",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "TTSelectionScreen",
 	"type" : "normal" }

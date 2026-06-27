@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rf 7/8/2021 10:15",
+	"commentStamp" : "tf 6/27/2026 13:13",
 	"instvars" : [
-		 ],
-	"name" : "TTGamemasterSelectionScreen",
+		"selectedIndex" ],
+	"name" : "TTSelectionScreen",
 	"pools" : [
 		 ],
-	"super" : "TTSelectionScreen",
+	"super" : "TTScreen",
 	"type" : "normal" }

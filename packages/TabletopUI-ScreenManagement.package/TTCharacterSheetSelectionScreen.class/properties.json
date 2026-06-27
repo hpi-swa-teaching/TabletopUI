@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "RH 6/27/2026 12:06",
 	"instvars" : [
-		"selectedIndex",
 		"characterSheets" ],
 	"name" : "TTCharacterSheetSelectionScreen",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "TTSelectionScreen",
 	"type" : "normal" }

@@ -2,19 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "TR 5/28/2026 15:21",
 		"characterAdministration:" : "RH 6/1/2026 20:30",
-		"confirmSelection" : "TR 5/28/2026 16:20",
-		"continue" : "TR 5/28/2026 16:18",
+		"configureListSpec:" : "tf 6/27/2026 13:27",
+		"continue" : "tf 6/27/2026 13:38",
 		"continueButtonLabel" : "TR 5/28/2026 15:22",
-		"createListSpecWith:" : "TR 5/28/2026 15:22",
-		"initialize" : "TR 5/28/2026 15:23",
+		"initialize" : "tf 6/27/2026 13:31",
 		"leave" : "TR 5/28/2026 15:23",
-		"listBounds" : "TR 5/28/2026 15:23",
 		"nameList" : "TR 5/28/2026 16:56",
 		"selectToken" : "TR 6/6/2026 16:22",
-		"selectedIndex" : "TR 5/28/2026 15:24",
-		"selectedIndex:" : "TR 5/28/2026 15:24",
 		"setTokens" : "TR 5/28/2026 16:23",
 		"tokenList" : "TR 5/28/2026 15:24",
 		"tokenList:" : "TR 5/28/2026 15:24" } }
