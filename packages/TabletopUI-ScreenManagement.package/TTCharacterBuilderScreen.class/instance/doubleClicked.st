@@ -1,5 +1,5 @@
-as yet unclassified
+selection management
 doubleClicked
 
 	(#(#cantrips #spells #abilities) includes: self currentStep)
-		ifTrue: [self setDoubleClickedSelectionFor: self currentStep]
+		ifTrue: [self setDoubleClickedSelection]

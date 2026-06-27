@@ -1,4 +1,4 @@
-as yet unclassified
+screen management
 abortCharacterBuilding
 
 	self selectedPresets at: self characterIndex put: #default.

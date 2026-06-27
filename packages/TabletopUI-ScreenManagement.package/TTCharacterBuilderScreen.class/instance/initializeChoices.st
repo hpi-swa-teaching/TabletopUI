@@ -1,7 +1,7 @@
-as yet unclassified
+initialize-release
 initializeChoices
 
-	self choices at: #class put: #barbarian.
+	self choices at: #class put: ((TTCharacterBuilderScreen options at: #class) at: 1).
 	self choices at: #cantrips put: Dictionary new.
 	(self choices at: #cantrips)
 		at: #cantrip1 put: 0;
@@ -12,7 +12,7 @@ initializeChoices
 		at: #spell1 put: 0;
 		at: #spell2 put: 0;
 		at: #spell3 put: 0.
-	self choices at: #race put: #dwarf.
+	self choices at: #race put: ((TTCharacterBuilderScreen options at: #race) at: 1).
 	self choices at: #abilities put: Dictionary new.
 	(self choices at: #abilities)
 		at: #strength put: 0;

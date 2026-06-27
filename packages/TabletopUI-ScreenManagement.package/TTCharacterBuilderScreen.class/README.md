@@ -1,27 +1,27 @@
-In the TTCharacterBuilderScreen users are guided through the process of building their own character.
+In TTCharacterBuilderScreen a player can build their own character in consecutive steps.
 
 Instance Variables
-	characterIndex:		<Object>
-	choices:		<Object>
-	currentStep:		<Object>
-	remainingOptions:		<Object>
-	selectedIndex:		<Object>
-	selectedPresets:		<Object>
+	characterIndex:		<Integer>
+	choices:		<Dictionary>
+	currentStep:		<Symbol>
+	remainingOptions:		<Dictionary>
+	selectedIndex:		<Integer>
+	selectedPresets:		<Dictionary>
 
 characterIndex
-	- xxxxx
+	- refers to the player whose character is builded
 
 choices
-	- xxxxx
+	- stores the different choices the player has already made while building
 
 currentStep
-	- xxxxx
+	- the current step of the process of building the character
 
 remainingOptions
-	- xxxxx
+	- stores values that can still be chosen for steps that require assignments
 
 selectedIndex
-	- xxxxx
+	- index of selected option in the list
 
 selectedPresets
-	- xxxxx
+	- stores preset for each character that was selected before
