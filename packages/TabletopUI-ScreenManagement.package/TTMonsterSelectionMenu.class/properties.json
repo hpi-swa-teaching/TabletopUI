@@ -7,10 +7,9 @@
 	"commentStamp" : "MH 6/27/2026 10:44",
 	"instvars" : [
 		"characterAdministration",
-		"map",
-		"selectedIndex" ],
+		"map" ],
 	"name" : "TTMonsterSelectionMenu",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTCharacterSelectionMenu",
 	"type" : "normal" }

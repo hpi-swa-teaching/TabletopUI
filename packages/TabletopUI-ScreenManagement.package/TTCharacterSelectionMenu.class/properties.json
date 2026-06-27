@@ -4,11 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rf 7/8/2021 10:18",
+	"commentStamp" : "",
 	"instvars" : [
-		"toolBar" ],
-	"name" : "TTPlayerSelectionMenu",
+		"selectedIndex",
+		"characterAdministration" ],
+	"name" : "TTCharacterSelectionMenu",
 	"pools" : [
 		 ],
-	"super" : "TTCharacterSelectionMenu",
+	"super" : "Model",
 	"type" : "normal" }

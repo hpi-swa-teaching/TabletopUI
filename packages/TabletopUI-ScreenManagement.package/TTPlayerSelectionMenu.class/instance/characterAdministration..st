@@ -1,5 +1,5 @@
 accessing
 characterAdministration: aTTCharacterAdministration
 
-	characterAdministration := aTTCharacterAdministration.
+	super characterAdministration: aTTCharacterAdministration.
 	characterAdministration playerSelectionMenu: self.

@@ -2,14 +2,8 @@
 	"class" : {
 		"newWith:map:" : "tf 6/11/2026 18:21" },
 	"instance" : {
-		"characterAdministration" : "tf 6/11/2026 18:21",
-		"characterAdministration:" : "tf 6/11/2026 18:22",
-		"createMorph" : "MH 6/24/2026 12:18",
-		"initialize" : "tf 6/11/2026 18:24",
+		"configureListMorph:" : "tf 6/27/2026 12:39",
+		"items" : "tf 6/27/2026 12:46",
 		"map" : "tf 6/11/2026 18:21",
 		"map:" : "tf 6/11/2026 18:22",
-		"nameList" : "tf 6/11/2026 18:28",
-		"openSelectedMonsterSheet" : "tf 6/19/2026 16:56",
-		"selectedIndex" : "tf 6/11/2026 18:21",
-		"selectedIndex:" : "tf 6/11/2026 18:27",
-		"selectedMonster" : "tf 6/11/2026 18:30" } }
+		"openSelectedMonsterSheet" : "tf 6/27/2026 12:49" } }

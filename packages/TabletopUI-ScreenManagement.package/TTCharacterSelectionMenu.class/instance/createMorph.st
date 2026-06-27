@@ -9,10 +9,6 @@ createMorph
 		changeSelected: #selectedIndex:
 		menu: nil.
 
-	listMorph
-		position: 0 @ 0;
-		extent: 200 @ 400;
-		borderWidth: 1;
-		doubleClickSelector: #openSelectedMonsterSheet.
+	self configureListMorph: listMorph.
 
 	^ listMorph
