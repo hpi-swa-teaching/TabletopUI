@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "CR 6/11/2026 14:00",
+		"setUp" : "GF 6/27/2026 21:06",
 		"test01CreateNPC" : "ob 8/3/2022 15:49",
 		"test02ValidateAndCreateNPC" : "ob 8/3/2022 15:50",
 		"test03ValidateAndCreateNPCFails" : "ob 8/3/2022 15:50",

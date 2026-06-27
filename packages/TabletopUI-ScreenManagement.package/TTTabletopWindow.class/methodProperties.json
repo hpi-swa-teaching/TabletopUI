@@ -2,10 +2,9 @@
 	"class" : {
 		"createNetworkFacade:" : "CR 6/25/2026 11:46",
 		"emptyState" : "GF 6/7/2026 16:07",
-		"open" : "GF 6/7/2026 16:51",
 		"openEmptySessionWithNetworkManager:" : "CR 6/25/2026 11:58",
 		"openFromState:Networkmanager:" : "CR 6/25/2026 12:07",
-		"openSessionless" : "CR 6/26/2026 18:56" },
+		"openSessionless" : "GF 6/27/2026 23:13" },
 	"instance" : {
 		"buildWith:" : "DS 7/7/2022 19:02",
 		"changeScreen:" : "ob 8/4/2022 15:06",
@@ -33,10 +32,7 @@
 		"notifyNetworkFail" : "Jakob Fanselow 5/11/2026 15:07",
 		"onClose" : "ML 8/3/2022 14:21",
 		"openGameScreen" : "GF 6/7/2026 17:07",
-		"openGamemasterSelectionScreen" : "DS 7/7/2022 15:31",
 		"openJoinNetworkingScreen" : "DavidSimon 5/16/2026 15:16",
-		"openPlayerCountScreen" : "DS 7/7/2022 15:31",
-		"openPlayerNamesScreen" : "DS 7/7/2022 15:32",
 		"owningPlayerName" : "CR 6/16/2026 20:15",
 		"owningPlayerName:" : "CR 6/16/2026 20:15",
 		"relay" : "Jakob Fanselow 5/11/2026 12:55",

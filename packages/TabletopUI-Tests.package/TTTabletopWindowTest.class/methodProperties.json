@@ -2,13 +2,10 @@
 	"class" : {
 		"lastStoredRun" : "MM 7/9/2021 15:22" },
 	"instance" : {
-		"newWindowWithMockNetwork" : "CR 6/11/2026 14:00",
+		"newWindowWithMockNetwork" : "GF 6/27/2026 20:48",
 		"setUp" : "GF 6/11/2026 11:56",
-		"test01OpenPlayerCountScreen" : "GF 6/11/2026 12:05",
-		"test02OpenPlayerNamesScreen" : "GF 6/11/2026 12:08",
-		"test03OpenGamemasterSelectionScreen" : "GF 6/11/2026 12:08",
 		"test04OpenGameScreen" : "GF 6/11/2026 12:13",
-		"test05Open" : "GF 6/11/2026 12:08",
+		"test05Open" : "GF 6/27/2026 23:14",
 		"test06OpenGamemasterGameScreen" : "GF 6/11/2026 12:08",
 		"test07OpenPlayerGameScreen" : "GF 6/11/2026 12:08",
 		"test08GamemasterGameScreenCreatesNPC" : "GF 6/11/2026 11:56",

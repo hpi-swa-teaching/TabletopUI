@@ -8,5 +8,5 @@ openSessionless
 	window sessionManager window: window.
 	window networkFacade: networkFacade.
 	
-	ToolBuilder open: (window openPlayerCountScreen; yourself).
+	ToolBuilder open: (window openJoinNetworkingScreen; yourself).
 	^ window.

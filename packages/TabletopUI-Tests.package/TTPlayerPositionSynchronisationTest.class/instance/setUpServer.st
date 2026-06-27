@@ -1,12 +1,7 @@
 initialize-release
 setUpServer
-
-	| window  |
+	| t1 |
 	self server: TTServerSessionManager new.
-	window:= TTTabletopWindow openEmptySession.
-	self server window: window.
-	window sessionManager: self server.
-
-	
-	
-	
+	t1 := TTTabletopWindow openEmptySessionWithNetworkManager: self broadcastConnectionmanager.
+	self server window: t1.
+	t1 sessionManager: self server

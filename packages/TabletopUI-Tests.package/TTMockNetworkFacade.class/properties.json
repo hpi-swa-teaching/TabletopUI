@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"map" ],
-	"name" : "TTMapTest",
+		 ],
+	"name" : "TTMockNetworkFacade",
 	"pools" : [
 		 ],
-	"super" : "TTTestCase",
+	"super" : "Object",
 	"type" : "normal" }
