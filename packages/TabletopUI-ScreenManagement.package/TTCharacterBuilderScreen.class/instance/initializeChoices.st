@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeChoices
 
 	self choices at: #class put: ((TTCharacterBuilderScreen options at: #class) at: 1).

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getOptionsForCurrentStep
 
 	^ TTCharacterBuilderScreen options at: self currentStep

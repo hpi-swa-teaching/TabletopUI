@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getChoicesForCurrentStep
 
 	^ self choices at: self currentStep

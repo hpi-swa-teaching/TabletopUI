@@ -1,4 +1,4 @@
-as yet unclassified
+screen management
 isLastStep: aSymbol
 
 	self currentStep = #abilities

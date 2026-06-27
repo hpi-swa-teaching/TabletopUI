@@ -1,4 +1,4 @@
-as yet unclassified
+selection management
 removeDoubleClickedSelection
 
 	(self getChoicesForCurrentStep at: (self getOptionsForCurrentStep at: self selectedIndex)) ~= 0

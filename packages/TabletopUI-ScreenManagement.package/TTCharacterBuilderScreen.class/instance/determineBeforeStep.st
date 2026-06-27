@@ -1,4 +1,4 @@
-as yet unclassified
+screen management
 determineBeforeStep
 
 	self currentStep = #cantrips ifTrue: [^ #class].

@@ -1,4 +1,4 @@
-as yet unclassified
+selection management
 setDoubleClickedSelectionWith: selection
 
 	selection = 0 

@@ -1,4 +1,4 @@
-In the TTCharacterSheetSelectionScreen a plaxer can select a preset or blank character sheet.
+In the TTCharacterSheetSelectionScreen a player can select a preset or blank character sheet.
 
 Instance Variables
 	characterSheets:		<Dictionary>

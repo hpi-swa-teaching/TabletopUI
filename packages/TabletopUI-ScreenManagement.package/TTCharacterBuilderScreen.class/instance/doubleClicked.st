@@ -1,4 +1,4 @@
-as yet unclassified
+selection management
 doubleClicked
 
 	(#(#cantrips #spells #abilities) includes: self currentStep)

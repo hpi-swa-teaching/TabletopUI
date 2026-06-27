@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getRemainingOptionsForCurrentStep
 
 	^ self remainingOptions at: self currentStep

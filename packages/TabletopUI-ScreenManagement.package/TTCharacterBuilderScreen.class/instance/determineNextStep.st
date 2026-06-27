@@ -1,4 +1,4 @@
-as yet unclassified
+screen management
 determineNextStep
 
 	self currentStep = #class ifTrue: [

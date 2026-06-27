@@ -1,4 +1,4 @@
-as yet unclassified
+selection management
 setDoubleClickedSelection
 
 	| selection |
