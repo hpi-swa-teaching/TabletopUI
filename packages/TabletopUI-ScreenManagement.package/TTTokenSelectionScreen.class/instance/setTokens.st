@@ -1,4 +1,4 @@
-as yet unclassified
+token selection
 setTokens
 	
 	(self characterAdministration players) withIndexDo: [ :player :index |

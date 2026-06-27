@@ -1,4 +1,4 @@
-as yet unclassified
+token selection
 confirmSelection
 
 	self setTokens

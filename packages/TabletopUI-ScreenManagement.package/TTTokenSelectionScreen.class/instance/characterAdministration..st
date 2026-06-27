@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 characterAdministration: aCharacterAdministration
 
 	super characterAdministration: aCharacterAdministration.
