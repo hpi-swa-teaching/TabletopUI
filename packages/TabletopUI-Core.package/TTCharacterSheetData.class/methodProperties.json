@@ -1,6 +1,5 @@
 {
 	"class" : {
-		"HPValues" : "6/24/2026 14:18:46",
 		"abilityNames" : "jv 5/26/2026 18:30",
 		"attackCount" : "jv 6/4/2026 08:35",
 		"availableTemplates" : "MK 6/24/2026 14:27",
@@ -14,8 +13,6 @@
 		"generateSpellSlotAccessors" : "jv 6/4/2026 09:12",
 		"identityNames" : "jv 6/4/2026 14:47",
 		"informationNames" : "jv 6/4/2026 18:53",
-		"initializeHPValues" : "6/24/2026 14:18:46",
-		"initializeSpeedValues" : "6/24/2026 14:18:46",
 		"levelForExperiencePoints:" : "jv 5/25/2026 12:31",
 		"levelThresholds" : "jv 5/25/2026 12:07",
 		"maximumSpellcastingLevel" : "jv 6/4/2026 06:30",
@@ -23,7 +20,6 @@
 		"skillAbilities" : "jv 5/25/2026 15:43",
 		"skillNames" : "jv 5/25/2026 15:44",
 		"sorcerer" : "RH 6/24/2026 17:32",
-		"speedValues" : "6/24/2026 14:18:46",
 		"spellCount" : "jv 6/4/2026 08:35",
 		"spellcastingClassesNames" : "RH 6/27/2026 11:40",
 		"wizard" : "RH 6/24/2026 17:37" },
@@ -177,7 +173,7 @@
 		"initializeAbilities" : "MK 6/18/2026 18:17",
 		"initializeAttacks" : "jv 6/4/2026 08:35",
 		"initializeCantripsFrom:" : "MK 6/24/2026 16:55",
-		"initializeCustomizedCharacterWith:" : "MK 6/24/2026 16:53",
+		"initializeCustomizedCharacterWith:" : "MH 6/27/2026 16:56",
 		"initializeDeathSaves" : "jv 5/26/2026 15:32",
 		"initializeHP" : "MK 6/24/2026 17:08",
 		"initializeIdentity" : "jv 6/4/2026 14:46",

@@ -8,5 +8,5 @@ initialize
 	monsters := OrderedCollection new.
 	subclasses := OrderedCollection new.
 	self initializeLayout.
-	self addEntrys.
+	self addEntries.
 	self buildCategories

@@ -1,7 +1,6 @@
 setup - initialization
 initializeCustomizedCharacterWith: aDictionary
 
-	self flag: 'TODO: Die anderen beiden Klassen noch einfügen'.
 	self class forTemplate: (aDictionary at: #class) asSymbol.
 	
 	self 

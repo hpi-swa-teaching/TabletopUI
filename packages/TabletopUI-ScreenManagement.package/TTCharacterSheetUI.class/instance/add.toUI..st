@@ -1,5 +1,5 @@
 primitives
-add: aMorph ToUI: anImageMorph
+add: aMorph toUI: anImageMorph
 
 	self model addDependent: aMorph.
 	anImageMorph addMorph: aMorph

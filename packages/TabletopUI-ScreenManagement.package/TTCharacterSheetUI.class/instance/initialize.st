@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self sheet: self initializeSheet.
-	self nexPageButton: self initializeArrowButton.
+	self nextPageButton: self initializeArrowButton.
 	self closeButton: self initializeCloseButton.

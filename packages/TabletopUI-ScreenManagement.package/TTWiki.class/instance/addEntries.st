@@ -1,5 +1,5 @@
 display
-addEntrys
+addEntries
 	
 	self addSpell: 'Acid Splash' 
 	castingTime: '1 action' 

@@ -1,4 +1,4 @@
 accessing
-nexPageButton: aMorph
+nextPageButton: aMorph
 
 	nextPageButton := aMorph

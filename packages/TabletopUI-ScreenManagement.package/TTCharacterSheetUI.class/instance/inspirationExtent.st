@@ -1,4 +1,4 @@
 extents
 inspirationExtent
 
-	^ ((self sheetExtent x) * (6 / 21)) @ ((self sheetExtent y) * (3 / 29.7))
+	^ ((self sheetExtent x) * (6 / self a4Width)) @ ((self sheetExtent y) * (3 / self a4Height))

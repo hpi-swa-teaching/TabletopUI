@@ -1,4 +1,4 @@
-tasks
+toolbuilder
 createCharacterSaveButtonSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggableActionButtonSpec new

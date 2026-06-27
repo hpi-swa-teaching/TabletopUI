@@ -1,9 +1,9 @@
 screen management
-openCharacterBuilderScreenWith: aDictionary For: aSmallinteger
+openCharacterBuilderScreenWith: aDictionary for: aSmallInteger
 	
 	| screen |
 	screen := (TTCharacterBuilderScreen newWith: self).
 	self changeScreen: screen.
 	screen selectedPresets: aDictionary.
-	screen characterIndex: aSmallinteger
+	screen characterIndex: aSmallInteger
 			

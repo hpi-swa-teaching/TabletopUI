@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEntrys" : "tf 6/27/2026 13:53",
+		"addEntries" : "MH 6/27/2026 17:12",
 		"addItem:type:damage:damageType:rarity:properties:weight:" : "MH 6/18/2026 11:58",
 		"addMonster:description:lair:traits:actions:" : "MH 6/18/2026 11:59",
 		"addSpell:castingTime:range:components:duration:class:description:" : "MH 6/18/2026 11:59",
@@ -10,7 +10,7 @@
 		"buildCategories" : "CSK 6/16/2026 21:54",
 		"buildCategory:from:" : "MH 6/24/2026 20:12",
 		"createMorph" : "MH 6/18/2026 12:41",
-		"initialize" : "CSK 6/16/2026 20:38",
+		"initialize" : "MH 6/27/2026 17:12",
 		"initializeLayout" : "MH 6/24/2026 20:13",
 		"items" : "CSK 6/16/2026 20:26",
 		"items:" : "MH 6/27/2026 11:03",

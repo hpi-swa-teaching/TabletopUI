@@ -9,5 +9,5 @@ addToggle: aSymbol at: aPoint in: anImageMorph onForm: anOnForm offForm: anOffFo
 		onForm: anOnForm
 		offForm: anOffForm;
 		extent: anExtent.
-	self add: toggleMorph ToUI: anImageMorph.
+	self add: toggleMorph toUI: anImageMorph.
 	toggleMorph position: aPoint.
