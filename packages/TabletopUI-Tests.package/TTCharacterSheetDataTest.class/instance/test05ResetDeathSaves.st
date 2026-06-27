@@ -5,5 +5,5 @@ test05ResetDeathSaves
 		deathSaveSuccesses: 1;
 		deathSaveFailures: 1;
 		restoreDeathSaves.
-	self assert: (self characterSheet deathSaveSuccesses = 0).
-	self assert: (self characterSheet deathSaveFailures = 0)
+	self assert: self characterSheet deathSaveSuccesses equals: 0.
+	self assert: self characterSheet deathSaveFailures equals: 0

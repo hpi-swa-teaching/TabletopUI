@@ -1,4 +1,4 @@
 testing-combat
 test76InspirationDefault
 
-	self characterSheet inspiration = 0
+	self assert: self characterSheet inspiration equals: 0

@@ -2,5 +2,5 @@ testing-health
 test03Damage
 
 	self characterSheet takeDamage: 3.
-	self assert: (self characterSheet currentHP = '5')
+	self assert: self characterSheet currentHP equals: '5'
 
