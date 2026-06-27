@@ -7,7 +7,7 @@ test12ParserNotifiesSessionManager
         window: window;
         networkmanager: mockNetwork;
         yourself.
-    parser changeToInitiativeContext.
+    parser contextManager changeToInitiativeContext.
     parser addDependent: manager.
     alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
     parser context processRoll: 12 for: alice.

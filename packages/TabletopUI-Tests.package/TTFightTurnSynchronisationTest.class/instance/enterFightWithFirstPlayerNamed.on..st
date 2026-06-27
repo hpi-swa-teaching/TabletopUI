@@ -5,4 +5,4 @@ enterFightWithFirstPlayerNamed: aName on: aSessionManager
 	players := aSessionManager window characterAdministration players reject: [:p | p isGamemaster].
 	first := players detect: [:p | p name = aName].
 	rest := (players reject: [:p | p name = aName]) asOrderedCollection.
-	(self parserOf: aSessionManager) changeToFightContextWithFightOrder: {first}, rest
+	(self parserOf: aSessionManager) contextManager changeToFightContextWithFightOrder: {first}, rest

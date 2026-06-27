@@ -2,5 +2,5 @@ testing
 test01ChangeToInitiativeContext
 	
 	self deny: (self inputField parser context isKindOf: TTInitiativeContext).
-	self inputField parser changeToInitiativeContext. 
+	self inputField parser contextManager changeToInitiativeContext. 
 	self assert: (self inputField parser context isKindOf: TTInitiativeContext)
