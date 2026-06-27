@@ -5,4 +5,4 @@ initialize
 	
 	self 
 		name: '';
-		token: 'default'
+		token: self class defaultToken

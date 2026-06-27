@@ -1,12 +1,13 @@
 {
 	"class" : {
+		"defaultToken" : "tf 6/27/2026 14:05",
 		"gamemaster" : "rf 7/8/2021 11:55",
 		"monster" : "tf 6/19/2026 16:36",
 		"newWithName:role:" : "rf 7/8/2021 11:58",
 		"npc" : "rf 7/8/2021 11:56",
 		"player" : "rf 7/8/2021 11:55" },
 	"instance" : {
-		"initialize" : "MK 6/22/2026 15:58",
+		"initialize" : "tf 6/27/2026 14:05",
 		"isGamemaster" : "rf 7/8/2021 12:01",
 		"isMonster" : "tf 6/19/2026 16:37",
 		"isNPC" : "rf 7/8/2021 12:02",

@@ -1,14 +1,14 @@
 initialization
 initializeFormFor: aTTCharacter
 
-	(aTTCharacter isNPC) ifTrue: [
+	aTTCharacter isNPC ifTrue: [
 		self newForm: self NPCForm. 
 		^ self ].
 	
-	(aTTCharacter isMonster) ifTrue: [
+	aTTCharacter isMonster ifTrue: [
 		self newForm: (self monsterForm: aTTCharacter name).
 		^ self ].
 		
-	aTTCharacter token = 'default'
+	aTTCharacter token = TTCharacter defaultToken
 		ifTrue: [self newForm: self defaultPlayerForm]
 		ifFalse: [self newForm: (self customizedPlayerFormWith: aTTCharacter token)]

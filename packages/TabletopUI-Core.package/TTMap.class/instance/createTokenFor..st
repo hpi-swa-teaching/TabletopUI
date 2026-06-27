@@ -3,9 +3,9 @@ createTokenFor: aTTCharacter
 
 	| tile position token |
 	
+	aTTCharacter isGamemaster ifTrue: [^ self].
 	position := self findFreeTile.
 	tile := self tiles at: position x at: position y.
-	(aTTCharacter isGamemaster)
-		ifFalse: [token := TTToken newWithTile: tile character: aTTCharacter.
-			tile addToken: token.
-			self tokens add: token]
+	token := TTToken newWithTile: tile character: aTTCharacter.
+	tile addToken: token.
+	self tokens add: token

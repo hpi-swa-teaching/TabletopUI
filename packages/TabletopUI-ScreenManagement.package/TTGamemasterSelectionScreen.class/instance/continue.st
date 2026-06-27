@@ -4,4 +4,3 @@ continue
 	self selectGamemaster.
 	
 	self window openCharacterSheetSelectionScreen
-	

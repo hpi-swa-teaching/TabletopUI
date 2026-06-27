@@ -9,7 +9,7 @@ addEntrys
 	class: 'Artificer, Sorcerer, Wizard, Occultist, Spellblade'
 	description: 'You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.'.
 
-    	self addItem: 'Battleaxe' 
+	self addItem: 'Battleaxe' 
 	type: 'Melee Weapon (martial)' 
 	damage: '1d8' 
 	damageType: 'Slashing' 
@@ -19,13 +19,13 @@ addEntrys
 
 	self addMonster: 'Bronze Dragon' 
 	description: 'Bronze dragons usually make their homes near or under the sea.'  , Character cr asString , 'The region containing an adult or ancient bronze dragons lair is ' , Character cr asString , 'changed by its presence, creating the following effects:'
-     	lair: {'Buoying Currents:Creatures within 1 mile of the lair that lack a Swim Speed' , Character cr asString ,' ignore the extra cost of movement while swimming.' .
+	lair: {'Buoying Currents:Creatures within 1 mile of the lair that lack a Swim Speed' , Character cr asString ,' ignore the extra cost of movement while swimming.' .
 	'Sun and Storms: While in its lair, the dragon can cast Control Weather,', Character cr asString ,' requiring no Material components and using the same spellcasting ability as its Spellcasting action. ', Character cr asString ,'When casting the spell this way, the dragon can control the weather within 1 mile of its lair,', Character cr asString ,' regardless if the dragon is inside or outside.' .
 	'If the dragon dies or moves its lair elsewhere, these effects end immediately.'}
-     	traits: {
+	traits: {
 	'Amphibious. The dragon can breathe air and water.' .
 	'Legendary Resistance (3/Day, or 4/Day in Lair).', Character cr asString ,' If the dragon fails a saving throw, it can choose to succeed instead.'}
-     	actions: {
+	actions: {
 	'Multiattack. The dragon makes three Rend attacks. ', Character cr asString ,'It can replace one attack with a use of (A) Repulsion Breath ', Character cr asString ,'or (B) Spellcasting to cast Guiding Bolt (level 2 version).'}.
 	
 	self addSubclass: 'War Mind'

@@ -5,4 +5,3 @@ selectAsGamemaster: aTTCharacter
 		player role: TTCharacter player].
 
 	aTTCharacter role: TTCharacter gamemaster.
-	

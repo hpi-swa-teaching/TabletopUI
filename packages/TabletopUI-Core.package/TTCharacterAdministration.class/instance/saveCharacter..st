@@ -1,10 +1,10 @@
 accessing
-saveCharacter: aSmallInteger
+saveCharacter: aPlayerIndex
 
-	| fileStream stream |
+	| player fileStream stream |
 	
-	fileStream := (FileStream newFileNamed: (self players at: aSmallInteger) name, '.obj') binary.
+	player := self players at: aPlayerIndex.
+	fileStream := (FileStream newFileNamed: player name, '.obj') binary.
 	stream := ReferenceStream on: fileStream.
-	stream nextPut: (self players at: aSmallInteger) sheet.
-	stream close
-	
+	[ stream nextPut: player sheet ]
+		ensure: [ stream close ]

@@ -1,10 +1,10 @@
 accessing
-saveToken: aSmallInteger
+saveToken: aPlayerIndex
 
-	| sourcePath fileName targetDirectory targetPath inputStream outputStream |
-	
-	sourcePath := (self players at: aSmallInteger) token.
-	fileName := 'Token_Player_', (self players at: aSmallInteger) name, '.png'.
+	| player sourcePath fileName targetDirectory targetPath inputStream outputStream |
+	player :=  self players at: aPlayerIndex.
+	sourcePath := player token.
+	fileName := 'Token_Player_', player name, '.png'.
 	targetDirectory := FileDirectory default.
 	targetDirectory assureExistence.
 	targetPath := targetDirectory fullNameFor: fileName.
