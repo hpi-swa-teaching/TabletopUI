@@ -5,7 +5,7 @@ createAndInsertTileAt: aPoint
 	
 	pixelPosition := self convertTileCoordinatesToPixelPosition: aPoint.
 	tileId := aPoint x asString, '_', aPoint y asString.
-	newTile:= self networkFacade instantiate: TTTile withId: tileId.
+	newTile:= self networkFacade instantiateTileWithId: tileId.
 	newTile 
 		position: pixelPosition;
 		mapCoordinates: aPoint;

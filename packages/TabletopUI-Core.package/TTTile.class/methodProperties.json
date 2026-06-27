@@ -2,11 +2,11 @@
 	"class" : {
 		"defaultSize" : "MM 5/8/2021 17:29",
 		"newWith:" : "rf 7/8/2021 10:03",
-		"newWithNWM:" : "CR 6/25/2026 12:11" },
+		"newWithNetworkFacade:" : "CR 6/27/2026 15:58" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "CR 6/5/2026 12:14",
+		"acceptDroppingMorph:event:" : "CR 6/27/2026 16:02",
 		"addToken:" : "CR 6/5/2026 11:18",
-		"attachTokenAndTriggerDropEvent:" : "CR 6/25/2026 14:40",
+		"attachToken:" : "CR 6/27/2026 16:02",
 		"getOccupiedByToken:" : "CR 6/25/2026 14:24",
 		"initialize" : "DS 8/4/2022 10:21",
 		"isTTTile" : "joda 5/9/2021 17:57",

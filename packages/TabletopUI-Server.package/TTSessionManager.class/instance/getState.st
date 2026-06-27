@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 getState
 
 	^self window getState.

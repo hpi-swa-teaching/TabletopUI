@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTTokenNetworkFacadeDecorator",
+	"pools" : [
+		 ],
+	"super" : "TTNetworkFacadeDecorator",
+	"type" : "normal" }

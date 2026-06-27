@@ -2,15 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addToGameState:role:" : "CR 5/26/2026 14:03",
-		"addToState:PlayerWithName:role:" : "CR 5/26/2026 13:54",
-		"broadcastUpdatedState" : "CR 5/28/2026 15:39",
+		"addToGameStateOfSessionMembers:" : "CR 6/27/2026 13:37",
 		"connectionRegistry" : "CR 5/26/2026 13:52",
 		"connectionRegistry:" : "CR 5/26/2026 13:52",
-		"handleClientUpdate:" : "CR 5/28/2026 14:42",
-		"handlePlayerRegistration:" : "CR 5/26/2026 15:02",
+		"handleClientUpdate:" : "CR 6/27/2026 13:26",
+		"handlePlayerRegistration:" : "CR 6/27/2026 13:26",
 		"initialize" : "CR 5/26/2026 13:59",
-		"newPlayerStateDict:role:" : "CR 5/26/2026 14:08",
 		"registerClient:role:connectionDetails:" : "CR 5/26/2026 13:52",
 		"registrationRequestIsValid:" : "CR 5/26/2026 14:13",
-		"update:" : "CR 5/28/2026 15:00" } }
+		"sendFullGameStateToRegisteredPlayer" : "CR 6/27/2026 13:36" } }
