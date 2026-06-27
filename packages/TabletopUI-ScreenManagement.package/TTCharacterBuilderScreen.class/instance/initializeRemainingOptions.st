@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeRemainingOptions
 
 	self remainingOptions: Dictionary new.

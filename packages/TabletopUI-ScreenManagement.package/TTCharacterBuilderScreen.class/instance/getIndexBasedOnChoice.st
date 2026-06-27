@@ -1,6 +1,6 @@
-as yet unclassified
+accessing
 getIndexBasedOnChoice
 
 	(self currentStep = #abilities)
-		ifFalse: [ ^ (TTCharacterBuilderScreen options at: self currentStep) indexOf: (self choices at: self currentStep)].
+		ifFalse: [ ^ self getOptionsForCurrentStep indexOf: self getChoicesForCurrentStep].
 	^ 1

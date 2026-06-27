@@ -1,4 +1,4 @@
-as yet unclassified
+screen management
 allAbilitiesSelected
 
 	(self choices at: #abilities) do: [ :ability |
