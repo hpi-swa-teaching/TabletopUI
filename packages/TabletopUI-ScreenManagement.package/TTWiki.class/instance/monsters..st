@@ -1,4 +1,4 @@
 accessing
-monsters: anObject
+monsters: anOrderedCollection
 
-	monsters := anObject
+	monsters := anOrderedCollection

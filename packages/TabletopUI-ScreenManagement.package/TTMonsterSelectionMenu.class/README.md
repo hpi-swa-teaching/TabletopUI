@@ -2,14 +2,14 @@ A TTMonsterSelectionMenu is the model behind the monsters tab of the multipanel.
 
 Instance Variables
 	characterAdministration:		<Object>
-	map:		<Object>
-	selectedIndex:		<Object>
+	map:		<TTMap>
+	selectedIndex:		<Number>
 
 characterAdministration
-	- xxxxx
+	- stores information about the participating characters
 
 map
-	- xxxxx
+	- stores the map of the current game screen so that one can add monster tokens to it
 
 selectedIndex
-	- xxxxx
+	- indicates which monster is selected

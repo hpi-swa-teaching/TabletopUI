@@ -1,20 +1,21 @@
 A TTCharacterSheetUI is the view component for the character sheet.
 
 Instance Variables
-	arrow:		<Object>
-	currentPage:		<Object>
-	deathSaveFailureMorph:		<Object>
-	deathSaveSuccessMorph:		<Object>
+	closeButton:		<Morph>
+	currentPage:		<Number>
+	deathSaveFailureMorph:		<Morph>
+	deathSaveSuccessMorph:		<Morph>
 	label:		<Object>
 	model:		<Object>
 	name:		<Object>
-	sheet:		<Object>
+	nextPageButton:		<Morph>
+	sheet:		<Morph>
 
-arrow
-	- button for clicking to next page
+closeButton
+	- button for closing the character sheet
 
 currentPage
-	- index of current page
+	-  index of current page
 
 deathSaveFailureMorph
 	- explicit display for death save failures
@@ -30,6 +31,9 @@ model
 
 name
 	- name of the character
+	
+nextPageButton
+	- button for clicking to next page
 
 sheet
-	- the morph of the character sheer
+	- the morph of the character sheet

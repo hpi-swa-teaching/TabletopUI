@@ -8,4 +8,3 @@ initialize
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill
-		"color: Color white"

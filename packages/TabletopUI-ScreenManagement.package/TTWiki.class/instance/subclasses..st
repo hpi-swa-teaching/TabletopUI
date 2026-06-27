@@ -1,4 +1,4 @@
 accessing
-subclasses: anObject
+subclasses: anOrderedCollection
 
-	subclasses := anObject
+	subclasses := anOrderedCollection

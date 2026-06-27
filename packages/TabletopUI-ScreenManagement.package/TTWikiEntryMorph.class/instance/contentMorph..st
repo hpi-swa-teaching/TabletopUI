@@ -1,4 +1,4 @@
 accessing
-contentMorph: anObject
+contentMorph: aTextMorph
 
-	contentMorph := anObject
+	contentMorph := aTextMorph

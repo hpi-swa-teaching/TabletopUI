@@ -1,4 +1,0 @@
-accessing
-arrowButton
-
-	^ arrowButton
