@@ -15,7 +15,5 @@ createMorph
 		borderWidth: 1.
 		
 	inputMorph acceptOnCR: true.
-	"inputMorph askBeforeDiscardingEdits: false."
-	"inputMorph hideScrollBarsIndefinitely."
 
 	^ inputMorph
