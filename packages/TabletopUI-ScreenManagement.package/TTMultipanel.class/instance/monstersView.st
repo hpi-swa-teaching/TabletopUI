@@ -1,4 +1,4 @@
 view management
 monstersView
 
-	self showFullFrameView: self monsterMenu
+	self showFullFrameView: self monsterSelectionMenu

@@ -6,4 +6,4 @@ test05monsterButtonShowsMonsterMenu
 
 	self multiPanel openMonsters.
 
-	self assert: (viewContainer submorphs at: 1) equals: self multiPanel monsterMenu
+	self assert: (viewContainer submorphs at: 1) equals: self multiPanel monsterSelectionMenu

@@ -2,14 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"characterAdministration:" : "RH 6/1/2026 20:30",
+		"characterAdministration:" : "tf 6/27/2026 15:11",
 		"configureListSpec:" : "tf 6/27/2026 13:27",
 		"continue" : "tf 6/27/2026 13:38",
 		"continueButtonLabel" : "TR 5/28/2026 15:22",
 		"initialize" : "tf 6/27/2026 13:31",
 		"leave" : "TR 5/28/2026 15:23",
-		"nameList" : "TR 5/28/2026 16:56",
-		"selectToken" : "TR 6/6/2026 16:22",
+		"nameList" : "tf 6/27/2026 15:13",
+		"selectToken" : "tf 6/27/2026 15:08",
 		"setTokens" : "TR 5/28/2026 16:23",
 		"tokenList" : "TR 5/28/2026 15:24",
 		"tokenList:" : "TR 5/28/2026 15:24" } }

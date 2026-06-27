@@ -5,7 +5,7 @@ Instance Variables
 	characterAdministration:		<Object>
 	console:		<Morph>
 	inputField:		<Morph>
-	monsterMenu:		<Morph>
+	monsterSelectionMenu		<Morph>
 	playerSelectionMenu:		<Morph>
 	viewContainer:		<Morph>
 	wiki:		<TransformMorph>
@@ -16,7 +16,7 @@ activeView
 characterAdministration
 	- stores information about the participating characters
 
-console, monsterMenu, playerSelectionMenu, wiki
+console, monsterSelectionMenu, playerSelectionMenu, wiki
 	- store the morph of the different views
 
 viewContainer

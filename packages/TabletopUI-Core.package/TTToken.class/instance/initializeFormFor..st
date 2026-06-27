@@ -9,6 +9,6 @@ initializeFormFor: aTTCharacter
 		self newForm: (self monsterForm: aTTCharacter name).
 		^ self ].
 		
-	aTTCharacter token = TTCharacter defaultToken
+	aTTCharacter token = TTCharacter defaultTokenName
 		ifTrue: [self newForm: self defaultPlayerForm]
 		ifFalse: [self newForm: (self customizedPlayerFormWith: aTTCharacter token)]

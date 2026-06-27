@@ -13,7 +13,7 @@ initializeMultipanel
 		characterAdministration: self characterAdministration;
 		console: self actionLog createMorph;
 		playerSelectionMenu: self playerSelectionMenu createMorph;
-		monsterMenu: self monsterSelectionMenu createMorph;
+		monsterSelectionMenu: self monsterSelectionMenu createMorph;
 		inputField: self inputField createMorph;
 		wiki: self wiki createMorph;
 		yourself).

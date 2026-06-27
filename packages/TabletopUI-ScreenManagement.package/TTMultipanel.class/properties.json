@@ -4,13 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MH 6/27/2026 11:25",
+	"commentStamp" : "tf 6/27/2026 15:04",
 	"instvars" : [
 		"activeView",
 		"characterAdministration",
 		"console",
 		"inputField",
-		"monsterMenu",
+		"monsterSelectionMenu",
 		"playerSelectionMenu",
 		"viewContainer",
 		"wiki" ],

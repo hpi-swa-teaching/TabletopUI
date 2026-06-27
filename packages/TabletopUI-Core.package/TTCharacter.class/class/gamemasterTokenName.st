@@ -1,0 +1,4 @@
+roles
+gamemasterTokenName
+
+	^ 'gamemaster'

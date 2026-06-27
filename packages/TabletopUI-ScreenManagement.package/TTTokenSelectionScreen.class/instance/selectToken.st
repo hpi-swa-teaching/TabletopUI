@@ -3,7 +3,7 @@ selectToken
 
 	| filePath |
 	
-	((self characterAdministration players) at: selectedIndex) isGamemaster
+	(self characterAdministration players at: self selectedIndex) isGamemaster
 		ifTrue: [UIManager default inform: 'Gamemaster does not have a token.']
 		ifFalse: [
 			filePath := FileChooserDialog openOn: FileDirectory default pattern: '*.png' label: 'Choose character sheet file'.
