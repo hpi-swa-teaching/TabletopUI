@@ -5,6 +5,7 @@ continue
 		ifTrue: [self allAbilitiesSelected 
 			ifFalse: [UIManager default inform: 'Please select a value for every ability.'. 
 				^ self]].
+	
 	(self isLastStep: self currentStep)
 		ifFalse: [
 			self currentStep: self determineNextStep.

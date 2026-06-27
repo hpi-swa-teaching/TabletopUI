@@ -2,7 +2,7 @@ as yet unclassified
 test02Continue
 	
 	self screen currentStep: #abilities.
-	(self screen choices at: #abilities )
+	(self screen getChoicesForCurrentStep)
 		at: #strength put: 8;
 		at: #dexterity put: 10;
 		at: #constitution put: 12;

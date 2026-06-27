@@ -9,10 +9,10 @@ test18RemoveDoubleClickedSelectionFor
 	self screen currentStep: #abilities.
 	self screen selectedIndex: 1.
 	
-	(self screen choices at: #abilities) at: key put: value.
-	(self screen remainingOptions at: #abilities) remove: value.
+	self screen getChoicesForCurrentStep at: key put: value.
+	self screen getRemainingOptionsForCurrentStep remove: value.
 	
-	self screen removeDoubleClickedSelectionFor: #abilities.
+	self screen removeDoubleClickedSelection.
 	self assert: ((self screen choices at: #abilities) at: key) equals: 0.
-	self assert: ((self screen remainingOptions at: #abilities) includes: value)
+	self assert: (self screen getRemainingOptionsForCurrentStep includes: value)
 	
