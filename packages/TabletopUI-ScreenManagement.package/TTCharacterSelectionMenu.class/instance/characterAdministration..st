@@ -1,4 +1,4 @@
 accessing
-characterAdministration: anObject
+characterAdministration: aTTCharacterAdministration
 
-	characterAdministration := anObject.
+	characterAdministration := aTTCharacterAdministration

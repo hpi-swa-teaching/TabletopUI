@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "MH 6/27/2026 10:44",
+	"commentStamp" : "tf 6/27/2026 13:04",
 	"instvars" : [
-		"characterAdministration",
 		"map" ],
 	"name" : "TTMonsterSelectionMenu",
 	"pools" : [

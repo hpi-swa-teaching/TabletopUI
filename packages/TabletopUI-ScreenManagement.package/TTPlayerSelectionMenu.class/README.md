@@ -1,8 +1,7 @@
 A TTPlayerSelectionMenu a list of all players where you can select the one who is currently entering the commands in the inputfield.
 
 Instance Variables
-	characterAdministration:		<TTCharacterAdministration>
-	selectedIndex:		<Number>
+	toolBar:		<TTToolBar>
 
-selectedIndex
-	- indicates which player is currently selected
+toolBar
+	- updates the toolbar to make the character sheet button not available when the gamemaster is selected
