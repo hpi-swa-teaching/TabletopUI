@@ -1,6 +1,6 @@
 button management
-buttonColorFor: aButton
+buttonColorFor: aViewSymbol
 	
-	self activeView = aButton
+	self activeView = aViewSymbol
 		ifTrue: [^ self selectedButtonColor ]
 		ifFalse: [ ^ self unselectedButtonColor ]

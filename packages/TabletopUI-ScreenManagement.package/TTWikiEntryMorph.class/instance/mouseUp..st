@@ -8,5 +8,5 @@ mouseUp: anEvent
 	ifFalse: [
 		self removeMorph: contentWrapperMorph.
 		self titleMorph contents: '> ', (self titleMorph contents allButFirst: 2)].
- 
+
 	self layoutChanged
