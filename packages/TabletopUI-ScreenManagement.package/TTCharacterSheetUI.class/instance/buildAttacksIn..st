@@ -2,7 +2,7 @@ build
 buildAttacksIn: aMorph
 
 	self buildAttackFields: #(damage bonus)
-		extent: 50 @ 30
+		extent: self smallFieldExtent
 		at: 30 @ 42
 		in: aMorph.
 	self buildAttackFields: #(damageType name)

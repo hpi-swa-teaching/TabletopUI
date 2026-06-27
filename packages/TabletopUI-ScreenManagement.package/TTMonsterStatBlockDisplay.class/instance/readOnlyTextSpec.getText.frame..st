@@ -1,5 +1,5 @@
 toolbuilder
-abilityCellSpec: aToolBuilder getText: aSelector frame: aFrame
+readOnlyTextSpec: aToolBuilder getText: aSelector frame: aFrame
 
 	^ aToolBuilder pluggableTextSpec new
 		model: self;

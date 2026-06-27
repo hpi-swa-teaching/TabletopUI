@@ -1,5 +1,5 @@
 testing-combat
-test11HitDice
+test10HitDice
 
 	self assert: self characterSheet hitDiceRemaining equals: self characterSheet level.
 	self characterSheet spendHitDie.
