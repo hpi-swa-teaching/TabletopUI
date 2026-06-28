@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tak2 1/15/2026 13:01",
+	"instvars" : [
+		 ],
+	"name" : "TTImageMorph",
+	"pools" : [
+		 ],
+	"super" : "ImageMorph",
+	"type" : "normal" }

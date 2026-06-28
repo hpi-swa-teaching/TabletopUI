@@ -4,14 +4,15 @@
 	"instance" : {
 		"actionLog" : "joda 5/14/2021 14:01",
 		"actionLog:" : "Jakob Fanselow 5/19/2026 12:01",
-		"buildWith:" : "RK 5/12/2022 09:24",
+		"canAddMap" : "tak2 6/24/2026 10:35",
+		"buildWith:" : "tak2 6/25/2026 13:04",
 		"canCreateNpc" : "GF 6/22/2026 22:15",
 		"charactersToDisplay" : "CR 6/16/2026 20:46",
 		"continue" : "ob 8/4/2022 14:39",
 		"createNPC:" : "GF 6/11/2026 11:42",
 		"getState" : "CR 5/11/2026 13:31",
 		"imageBar" : "joda 7/1/2021 12:39",
-		"imageBar:" : "joda 7/1/2021 12:39",
+		"imageBar:" : "JF 6/25/2026 11:02",
 		"initializeCommandBar" : "DavidSimon 6/23/2026 13:55",
 		"initializeFightorderDisplay:" : "GF 6/22/2026 22:30",
 		"initializeMap" : "CR 5/28/2026 14:57",
@@ -31,4 +32,4 @@
 		"tokenBar" : "joda 7/1/2021 12:41",
 		"tokenBar:" : "joda 7/1/2021 12:41",
 		"toolBar" : "ob 8/4/2022 15:02",
-		"toolBar:" : "ob 8/4/2022 15:05" } }
+		"toolBar:" : "JF 6/25/2026 11:53" } }

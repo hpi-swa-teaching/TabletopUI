@@ -4,4 +4,4 @@ extractMessageLength
 
 	| messageLengthBuffer |
 	messageLengthBuffer := (self tcpSocketStream next: 4) asByteArray.
-	^ TTPrimitiveSerializer deSerializeInt: messageLengthBuffer
+	^ TTSerializer deSerializeInt: messageLengthBuffer

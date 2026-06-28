@@ -1,0 +1,4 @@
+adding maps
+canAddMap
+	
+	^ true.

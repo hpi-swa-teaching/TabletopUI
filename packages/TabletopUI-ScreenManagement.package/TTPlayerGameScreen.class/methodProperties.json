@@ -2,7 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"canCreateNpc" : "I. S. 6/9/2026 00:31",
-		"charactersToDisplay" : "CR 6/16/2026 20:51",
-		"initializeFightorderDisplay:" : "GF 6/23/2026 02:29",
-		"initializePlayerDisplay" : "GF 6/22/2026 22:24" } }
+		"canAddMap" : "tak2 6/25/2026 13:07",
+		"canCreateNpc" : "I. S. 6/9/2026 00:31" } }

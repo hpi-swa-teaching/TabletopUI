@@ -2,18 +2,24 @@
 	"class" : {
 		"newWith:" : "PB 6/27/2021 12:02" },
 	"instance" : {
+		"addImage:" : "tak2 6/26/2026 21:18",
 		"addStandardImages" : "bv 7/31/2021 15:10",
+		"changeAllBackgroundTo:" : "JF 6/25/2026 12:20",
+		"changeBackground:" : "JF 6/25/2026 12:36",
 		"changeBackgroundTo:" : "bv 7/3/2021 17:48",
-		"createImageFromFileNamed:" : "bv 7/31/2021 15:10",
-		"createSpecWith:" : "bv 7/3/2021 17:50",
+		"createImageFromFileNamed:" : "tak2 6/26/2026 13:34",
+		"createSpecWith:" : "JF 6/25/2026 12:21",
+		"defaultImageExtent" : "tak2 6/26/2026 13:33",
 		"imageNameList" : "MM 7/26/2021 16:09",
 		"images" : "PB 6/27/2021 12:29",
 		"images:" : "PB 6/27/2021 12:29",
 		"initialize" : "MM 7/18/2021 18:26",
 		"map" : "PB 6/27/2021 11:48",
 		"map:" : "PB 6/27/2021 11:49",
+		"networkManager" : "JF 6/25/2026 10:57",
+		"networkManager:" : "JF 6/25/2026 10:57",
 		"removeCurrentBackground" : "bv 7/3/2021 17:49",
 		"selectedImage" : "bv 7/3/2021 17:47",
 		"selectedIndex" : "bv 7/3/2021 17:46",
 		"selectedIndex:" : "bv 7/3/2021 17:47",
-		"setNewBackground" : "bv 7/3/2021 17:49" } }
+		"setNewBackground" : "tak2 6/26/2026 21:19" } }

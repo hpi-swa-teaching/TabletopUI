@@ -20,6 +20,6 @@ jsonReceive
 	Transcript
 		show: class, 'NWM Length received';
 		cr.
-	messageLength := TTPrimitiveSerializer deSerializeInt: lengthBuffer.
+	messageLength := TTSerializer deSerializeInt: lengthBuffer.
 	messageBuffer := (self tcpSocketStream next: messageLength) asString.
 	^ messageBuffer asString

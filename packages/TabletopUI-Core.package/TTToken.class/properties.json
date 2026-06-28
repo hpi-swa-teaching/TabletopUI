@@ -12,5 +12,5 @@
 	"name" : "TTToken",
 	"pools" : [
 		 ],
-	"super" : "ImageMorph",
+	"super" : "TTImageMorph",
 	"type" : "normal" }

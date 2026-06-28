@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTSerializer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
