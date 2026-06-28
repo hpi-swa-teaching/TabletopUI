@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "bv 7/3/2021 21:40",
+	"commentStamp" : "",
 	"instvars" : [
-		"parser",
-		"log",
-		"playerSelection" ],
-	"name" : "TTInputField",
+		"context" ],
+	"name" : "TTContextManager",
 	"pools" : [
 		 ],
-	"super" : "TTNetworkModel",
+	"super" : "TTNetworkObject",
 	"type" : "normal" }

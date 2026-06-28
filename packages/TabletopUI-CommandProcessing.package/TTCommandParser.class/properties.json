@@ -11,5 +11,5 @@
 	"name" : "TTCommandParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTNetworkObject",
 	"type" : "normal" }

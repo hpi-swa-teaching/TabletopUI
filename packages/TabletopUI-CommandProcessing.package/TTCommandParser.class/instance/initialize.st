@@ -3,4 +3,4 @@ initialize
 
 	super initialize.
 	self lexer: TTCommandLexer new.
-	self contextManager: TTContextManager new
+	self contextManager: (self networkFacade instantiate: TTContextManager withId: 'contextManager')

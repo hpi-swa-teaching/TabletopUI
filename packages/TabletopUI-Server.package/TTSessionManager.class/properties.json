@@ -10,5 +10,5 @@
 	"name" : "TTSessionManager",
 	"pools" : [
 		 ],
-	"super" : "NetworkObject",
+	"super" : "TTNetworkObject",
 	"type" : "normal" }
