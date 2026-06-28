@@ -2,7 +2,7 @@ actions
 startFightAs: aTTCharacter
 
 	(aTTCharacter isGamemaster) ifTrue: [
-		self parser updateToInitiaiveContext.
+		self parser updateToInitiativeContext.
 		^ self messageStartedInitiative]
 	ifFalse: [
 		^ self onlyGMIsAllowedMessageString]

@@ -1,0 +1,4 @@
+actions
+updatePlayerRemoval: anObject
+
+	^ self
