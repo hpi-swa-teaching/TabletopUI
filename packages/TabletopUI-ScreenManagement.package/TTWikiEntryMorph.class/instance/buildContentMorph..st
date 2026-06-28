@@ -6,4 +6,5 @@ buildContentMorph: aContentString
 		hResizing: #spaceFill; 
 		color: self defaultTextColor;
 		wrapFlag: true; 
-		autoFit: true
+		autoFit: true;
+		yourself

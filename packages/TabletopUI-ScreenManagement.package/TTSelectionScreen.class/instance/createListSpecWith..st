@@ -6,6 +6,7 @@ createListSpecWith: aToolBuilder
 		model: self;
 		list: #nameList;
 		getIndex: #selectedIndex;
-		setIndex: #selectedIndex:.
+		setIndex: #selectedIndex: ;
+		yourself.
 	self configureListSpec: spec.
 	^ spec

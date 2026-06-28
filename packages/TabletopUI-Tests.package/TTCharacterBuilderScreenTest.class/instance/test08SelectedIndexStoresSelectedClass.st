@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test08SelectedIndexStoresSelectedClass
 
 	self screen currentStep: #class.

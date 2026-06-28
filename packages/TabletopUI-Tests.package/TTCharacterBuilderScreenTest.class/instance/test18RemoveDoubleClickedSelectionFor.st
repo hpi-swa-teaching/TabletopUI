@@ -1,9 +1,9 @@
-as yet unclassified
+testing
 test18RemoveDoubleClickedSelectionFor
 
 	| key value |
 	
-	key := ((TTCharacterBuilderScreen options at: #abilities) at: 1).
+	key := ((TTCharacterBuilderScreen options at: #abilities) first).
 	value := 15.
 
 	self screen currentStep: #abilities.

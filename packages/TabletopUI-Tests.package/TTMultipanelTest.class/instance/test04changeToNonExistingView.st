@@ -2,7 +2,7 @@ testing
 test04changeToNonExistingView
 
 	| buttonMorphs |
-	buttonMorphs :=  (self multiPanel dependents at: 1) dependents.
+	buttonMorphs :=  (self multiPanel dependents first) dependents.
 
 	self multiPanel changeViewTo: #bla.
 	

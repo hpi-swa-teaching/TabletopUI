@@ -3,4 +3,4 @@ initializeHP
 
 	self
 		currentHP: self maxHP;
-		temporaryHP: 0.
+		temporaryHP: 0

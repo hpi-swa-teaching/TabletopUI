@@ -3,12 +3,12 @@ determineBeforeStep
 
 	self currentStep = #cantrips ifTrue: [^ #class].
 	self currentStep = #spells ifTrue: [
-		((TTCharacterBuilderScreen cantrips at: (self choices at: #class)) size > 0)
-			ifTrue: [^ #cantrips]
-			ifFalse: [^ #class]].
+		((self class cantrips at: (self choices at: #class)) isEmpty)
+			ifTrue: [^ #class]
+			ifFalse: [^ #cantrips]].
 	self currentStep = #race ifTrue: [
-		((TTCharacterBuilderScreen spellsLevel1 at: (self choices at: #class)) size > 0)
-			ifTrue: [^ #spells]
-			ifFalse: [^ #class]].
+		((self class spellsLevel1 at: (self choices at: #class)) isEmpty)
+			ifTrue: [^ #class]
+			ifFalse: [^ #spells]].
 	self currentStep = #abilities ifTrue: [^ #race]
 	

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test11AllAbilitiesSelectedTrue
 
 	(self screen choices at: #abilities )

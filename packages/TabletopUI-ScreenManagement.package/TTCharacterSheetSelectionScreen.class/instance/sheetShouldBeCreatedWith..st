@@ -1,6 +1,12 @@
 selecting preset
 sheetShouldBeCreatedWith: anObject
 
-	^ ('gamemaster' = anObject or: ['customized character' = anObject]) not
+	'gamemaster' = anObject
+		ifFalse: ['customized character' = anObject
+			ifFalse: [^true]].
+			
+	^ false 
+			
+		
 
 	

@@ -5,4 +5,4 @@ initializeArrowButton
 		form: self arrowButtonForm
 		sized: self buttonExtent
 		at: self arrowButtonPosition
-		in: self sheet.
+		in: self sheet

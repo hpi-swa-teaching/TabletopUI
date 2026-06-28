@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test13GetIndexBasedOnChoice
 
 	self screen currentStep: #class.

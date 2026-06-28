@@ -1,9 +1,9 @@
 formatting
 assembleRuns: aCollectionOfRuns
+
 	"A 'run' is a contiguous span of characters that all share the same formatting.
 	Each run is an Array { aString. anArrayOfTextAttributes }. Builds a single
 	Text by concatenating the strings and applying each run's attributes to its range."
-
 	| text |
 	text := Text new.
 	aCollectionOfRuns do: [:run | | start |

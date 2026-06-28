@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test04DetermineNextStepForBarbarian
 
 	self screen currentStep: #class.

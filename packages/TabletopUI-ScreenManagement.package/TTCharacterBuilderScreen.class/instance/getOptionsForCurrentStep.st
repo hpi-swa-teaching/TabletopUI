@@ -1,4 +1,4 @@
 accessing
 getOptionsForCurrentStep
 
-	^ TTCharacterBuilderScreen options at: self currentStep
+	^ self class options at: self currentStep

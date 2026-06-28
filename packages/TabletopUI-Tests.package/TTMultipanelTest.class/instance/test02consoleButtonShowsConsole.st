@@ -9,5 +9,5 @@ test02consoleButtonShowsConsole
 		openConsole.
 
 	self
-		assert: (viewContainer submorphs at: 2) equals: self multiPanel console;
-		assert: (viewContainer submorphs at: 1) equals: self multiPanel inputField.
+		assert: (viewContainer submorphs first) equals: self multiPanel inputField;
+		assert: (viewContainer submorphs second) equals: self multiPanel console

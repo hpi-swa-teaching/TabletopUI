@@ -1,4 +1,4 @@
-token placement
+token management
 addToken: aTTToken
 	
 	self addMorph: aTTToken.

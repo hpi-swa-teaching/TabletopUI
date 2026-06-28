@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test07DetermineBeforeStepForBarbarian
 
 	self screen currentStep: #race.

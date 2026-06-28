@@ -17,9 +17,9 @@
 		"makeDraggable" : "RK 6/28/2022 18:00",
 		"makeFixed" : "RK 6/28/2022 18:00",
 		"monsterForm:" : "tf 6/27/2026 14:06",
-		"mouseDown:" : "tf 6/19/2026 18:03",
+		"mouseDown:" : "MH 6/28/2026 11:29",
 		"rejectDropMorphEvent:" : "bv 6/8/2021 10:44",
-		"removeFromMap" : "tf 6/19/2026 18:01",
+		"removeFromMap" : "MH 6/28/2026 10:43",
 		"showTokenMenu" : "tf 6/19/2026 18:00",
 		"tokenExtent" : "tf 6/27/2026 14:03",
 		"wantsToBeDroppedInto:" : "joda 5/9/2021 17:33" } }

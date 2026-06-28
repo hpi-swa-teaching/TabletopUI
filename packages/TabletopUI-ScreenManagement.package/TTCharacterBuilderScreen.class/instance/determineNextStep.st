@@ -2,13 +2,13 @@ screen management
 determineNextStep
 
 	self currentStep = #class ifTrue: [
-		((TTCharacterBuilderScreen cantrips at: (self choices at: #class)) size > 0 )
-			ifTrue: [^ #cantrips]
-			ifFalse: [^ #race]].
+		((self class cantrips at: (self choices at: #class)) isEmpty)
+			ifTrue: [^ #race]
+			ifFalse: [^ #cantrips]].
 	self currentStep = #cantrips ifTrue: [
-		((TTCharacterBuilderScreen spellsLevel1 at: (self choices at: #class)) size > 0 )
-			ifTrue: [^ #spells]
-			ifFalse: [^ #race]].
+		((self class spellsLevel1 at: (self choices at: #class)) isEmpty)
+			ifTrue: [^ #race]
+			ifFalse: [^ #spells]].
 	self currentStep = #spells ifTrue: [^ #race].
 	self currentStep = #race ifTrue: [^ #abilities].
 	

@@ -1,4 +1,4 @@
 accessing
-characterIndex: aSmallinteger
+characterIndex: aSmallInteger
 
-	characterIndex := aSmallinteger
+	characterIndex := aSmallInteger

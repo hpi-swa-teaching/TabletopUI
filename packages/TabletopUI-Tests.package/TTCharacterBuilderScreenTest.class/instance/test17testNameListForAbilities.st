@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test17testNameListForAbilities
 
 	self screen currentStep: #abilities. 
