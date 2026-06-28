@@ -1,0 +1,4 @@
+network
+receiveToFightContextWithFightOrderUpdate: aCollection
+
+	self changeToFightContextWithFightOrder: aCollection.

@@ -1,0 +1,4 @@
+network
+receiveDefaultContextUpdate
+
+	self changeToDefaultContext

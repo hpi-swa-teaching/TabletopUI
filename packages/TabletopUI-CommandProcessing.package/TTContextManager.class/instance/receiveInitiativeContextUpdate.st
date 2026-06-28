@@ -1,0 +1,4 @@
+network
+receiveInitiativeContextUpdate
+
+	self changeToInitiativeContext
