@@ -1,4 +1,5 @@
 network
-receiveInitiativeRollUpdate: aDictionary
+receiveInitiativeRollUpdate: params
 
-	self rolls add: (aDictionary at: #player) -> (aDictionary at: #value)
+	self rolls add: (params at: #player) -> (params at: #value).
+	self conditionalBroadcastOf: 'receiveInitiativeRollUpdate:' to: 'contextManager' with: params

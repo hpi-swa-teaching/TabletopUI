@@ -1,4 +1,10 @@
 network
 updateToDefaultContext
 
-	self networkFacade send: 'receiveDefaultContextUpdate' to: 'contextManager' with: Dictionary new.
+	| params |
+	
+	params := Dictionary new
+		at: 'receiver' put: 'server';
+		yourself.
+	
+	self networkFacade send: 'receiveDefaultContextUpdate:' to: 'contextManager' with: params.

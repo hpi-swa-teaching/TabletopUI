@@ -1,4 +1,5 @@
 network
-receiveCurrentPlayerUpdate: aDictionary
+receiveCurrentPlayerUpdate: params
 	
-	self context currentPlayer: (aDictionary at: #player)
+	self context currentPlayer: (params at: #player).
+	self conditionalBroadcastOf: 'receiveCurrentPlayerUpdate:' to: 'contextManager' with: params

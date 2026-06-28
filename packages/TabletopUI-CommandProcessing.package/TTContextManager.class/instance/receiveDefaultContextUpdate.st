@@ -1,4 +1,0 @@
-network
-receiveDefaultContextUpdate
-
-	self changeToDefaultContext
