@@ -1,6 +1,4 @@
 screen management
 allAbilitiesSelected
 
-	(self choices at: #abilities) do: [ :ability |
-		ability = 0 ifTrue: [ ^ false]].
-	^ true
+	^ (self choices at: #abilities) noneSatisfy: [ :ability | ability = 0 ]

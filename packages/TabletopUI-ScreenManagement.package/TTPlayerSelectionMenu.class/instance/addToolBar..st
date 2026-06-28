@@ -1,6 +1,6 @@
 initialization
-addToolBar: TTToolBar
+addToolBar: aTTToolBar
 	
 	self
-		toolBar: TTToolBar;
+		toolBar: aTTToolBar;
 		selectedIndex: 1

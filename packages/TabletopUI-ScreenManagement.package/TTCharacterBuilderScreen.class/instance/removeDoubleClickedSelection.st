@@ -1,6 +1,6 @@
 selection management
 removeDoubleClickedSelection
 
-	(self getChoicesForCurrentStep at: (self getOptionsForCurrentStep at: self selectedIndex)) ~= 0
-		ifTrue: [self getRemainingOptionsForCurrentStep add: (self getChoicesForCurrentStep at: (self getOptionsForCurrentStep at: self selectedIndex)).
-			self getChoicesForCurrentStep at: (self getOptionsForCurrentStep at: self selectedIndex) put: 0]
+	(self choicesForCurrentStep at: (self optionsForCurrentStep at: self selectedIndex)) ~= 0
+		ifTrue: [self remainingOptionsForCurrentStep add: (self choicesForCurrentStep at: (self optionsForCurrentStep at: self selectedIndex)).
+			self choicesForCurrentStep at: (self optionsForCurrentStep at: self selectedIndex) put: 0]

@@ -1,5 +1,5 @@
 screen management
-isLastStep: aSymbol
+isLastStep
 
 	self currentStep = #abilities
 		ifTrue: [^ true]

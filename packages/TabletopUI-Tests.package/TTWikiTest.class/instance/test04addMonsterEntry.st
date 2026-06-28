@@ -8,5 +8,5 @@ test04addMonsterEntry
      	lair: {'a lair'}
      	traits: {'a trait'}
      	actions: {'an action'}.
-	self assert: self wiki monsters size = (sizeBefore + 1).
-	self assert: self wiki monsters last titleMorph contents = '> Test Monster'
+	self assert: self wiki monsters size equals: (sizeBefore + 1).
+	self assert: self wiki monsters last titleMorph contents equals: '> Test Monster'

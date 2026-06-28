@@ -7,7 +7,6 @@ test02consoleButtonShowsConsole
 	self multiPanel
 		changeViewTo: #players;
 		openConsole.
-
 	self
 		assert: (viewContainer submorphs first) equals: self multiPanel inputField;
 		assert: (viewContainer submorphs second) equals: self multiPanel console

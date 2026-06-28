@@ -1,4 +1,4 @@
 accessing
-getChoicesForCurrentStep
+choicesForCurrentStep
 
 	^ self choices at: self currentStep

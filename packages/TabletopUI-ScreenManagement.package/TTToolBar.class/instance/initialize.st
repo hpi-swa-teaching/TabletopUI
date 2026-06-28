@@ -1,4 +1,5 @@
 initialization
 initialize
 
-		super initialize
+	super initialize.
+	self characterSheetActive: true

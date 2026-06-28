@@ -2,7 +2,7 @@ testing
 test02Continue
 	
 	self screen currentStep: #abilities.
-	(self screen getChoicesForCurrentStep)
+	(self screen choicesForCurrentStep)
 		at: #strength put: 8;
 		at: #dexterity put: 10;
 		at: #constitution put: 12;

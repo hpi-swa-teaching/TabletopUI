@@ -10,5 +10,5 @@ test01addItemEntry
 	rarity: 'a rarity' 
 	properties: 'a property' 
 	weight: 42.
-	self assert: self wiki items size = (sizeBefore + 1).
-	self assert: self wiki items last titleMorph contents = '> Test Item'
+	self assert: self wiki items size equals: (sizeBefore + 1).
+	self assert: self wiki items last titleMorph contents equals: '> Test Item'

@@ -5,5 +5,5 @@ leave
 		ifTrue: [
 			self currentStep: self determineBeforeStep.
 			self changed: #nameList.
-			self selectedIndex: self getIndexBasedOnChoice]
+			self selectedIndex: self indexBasedOnChoice]
 		ifFalse: [self abortCharacterBuilding]

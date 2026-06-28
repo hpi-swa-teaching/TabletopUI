@@ -2,11 +2,11 @@ selection management
 setDoubleClickedSelectionWith: selection
 
 	selection = 0 
-		ifFalse: [(#(0 '0') includes: (self getRemainingOptionsForCurrentStep at: selection))
+		ifFalse: [(#(0 '0') includes: (self remainingOptionsForCurrentStep at: selection))
 				ifTrue: [self removeDoubleClickedSelection]
 				ifFalse: [
-					self getChoicesForCurrentStep
-						at: (self getOptionsForCurrentStep
-							at: self selectedIndex) put: (self getRemainingOptionsForCurrentStep at: selection).
-					self getRemainingOptionsForCurrentStep
-						remove: (self getRemainingOptionsForCurrentStep at: selection)]]
+					self choicesForCurrentStep
+						at: (self optionsForCurrentStep
+							at: self selectedIndex) put: (self remainingOptionsForCurrentStep at: selection).
+					self remainingOptionsForCurrentStep
+						remove: (self remainingOptionsForCurrentStep at: selection)]]

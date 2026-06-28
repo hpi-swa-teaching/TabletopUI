@@ -1,4 +1,4 @@
 accessing
-getOptionsForCurrentStep
+optionsForCurrentStep
 
 	^ self class options at: self currentStep

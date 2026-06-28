@@ -10,5 +10,5 @@ test02addSpellEntry
 	duration: 'a duration' 
 	class: 'classes'
 	description: 'a description'.
-	self assert: self wiki spells size = (sizeBefore + 1).
-	self assert: self wiki spells last titleMorph contents = '> Test Spell'
+	self assert: self wiki spells size equals: (sizeBefore + 1).
+	self assert: self wiki spells last titleMorph contents equals: '> Test Spell'
