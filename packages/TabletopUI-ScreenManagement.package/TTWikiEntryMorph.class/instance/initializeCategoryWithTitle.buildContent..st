@@ -12,6 +12,6 @@ initializeCategoryWithTitle: aTitle buildContent: aBlock
 	aBlock value: container.
 	
 	self initializeWithTitle: aTitle content: ''.
-	contentWrapperMorph removeMorph: self contentMorph. 
+	self contentWrapperMorph removeMorph: self contentMorph. 
 	self contentMorph: container.
-	contentWrapperMorph addMorphBack: container
+	self contentWrapperMorph addMorphBack: container

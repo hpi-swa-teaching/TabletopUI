@@ -4,4 +4,4 @@ addItem: aTitle type: aType damage: aDamage damageType: aDmgType rarity: aRarity
 	| entry |
 	entry := TTWikiEntryMorph new
 	initializeItemWithTitle: aTitle type: aType damage: aDamage damageType: aDmgType rarity: aRarity properties: aProperty weight: aWeight.
-	items add: entry
+	self items add: entry

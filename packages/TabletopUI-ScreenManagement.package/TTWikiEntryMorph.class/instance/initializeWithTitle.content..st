@@ -6,5 +6,5 @@ initializeWithTitle: aTitleString content: aContentString
 		addMorphBack: self titleMorph;
 		contentMorph: (self buildContentMorph: aContentString).
 		
-	contentWrapperMorph := self buildContentWrapper.
-	contentWrapperMorph addMorphBack: self contentMorph
+	self contentWrapperMorph: self buildContentWrapper.
+	self contentWrapperMorph addMorphBack: self contentMorph

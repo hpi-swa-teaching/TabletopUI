@@ -3,10 +3,10 @@ initialize
 
 	super initialize.
 	
-	items := OrderedCollection new.
-	spells := OrderedCollection new.
-	monsters := OrderedCollection new.
-	subclasses := OrderedCollection new.
+	self items: OrderedCollection new.
+	self spells: OrderedCollection new.
+	self monsters: OrderedCollection new.
+	self subclasses: OrderedCollection new.
 	self initializeLayout.
 	self addEntries.
 	self buildCategories
