@@ -6,7 +6,7 @@ assertBobEndTurnRejectedOn: aSessionManager
 	self selectActivePlayerNamed: 'Bob' on: aSessionManager.
 	(self gameScreenOf: aSessionManager) inputField processInput: 'end turn'.
 	context := self fightContextOf: aSessionManager.
-	self assert: context currentPlayer name equals: 'Alice'.
+	self assert: context currentPlayer equals: 'Alice'.
 	self
 		assert: (self gameScreenOf: aSessionManager) inputField log outputs last
 		equals: context onlyCurrentPlayerErrorString

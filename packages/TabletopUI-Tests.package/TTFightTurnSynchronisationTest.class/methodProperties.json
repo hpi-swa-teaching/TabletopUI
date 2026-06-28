@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertBobEndTurnRejectedOn:" : "DavidSimon 6/26/2026 13:57",
-		"assertTurnAdvancedAndStatesMatch:with:" : "DavidSimon 6/23/2026 01:57",
+		"assertBobEndTurnRejectedOn:" : "GF 6/28/2026 13:18",
+		"assertTurnAdvancedAndStatesMatch:with:" : "GF 6/28/2026 13:18",
 		"broadcastConnectionmanager" : "DavidSimon 6/23/2026 00:59",
 		"broadcastConnectionmanager:" : "DavidSimon 6/23/2026 00:59",
 		"changeTokenPositionOn:" : "DavidSimon 6/23/2026 01:58",
@@ -16,7 +16,7 @@
 		"deleteWindowOf:" : "DavidSimon 6/23/2026 00:47",
 		"dummyRegistrationJSONPlayer1" : "DavidSimon 6/23/2026 01:41",
 		"dummyRegistrationJSONPlayer2" : "DavidSimon 6/23/2026 01:42",
-		"endTurnViaChatOn:" : "DavidSimon 6/23/2026 01:17",
+		"endTurnViaChatOn:" : "GF 6/28/2026 13:18",
 		"endTurnViaStaleTurnOrderOn:using:" : "DavidSimon 6/23/2026 01:44",
 		"endTurnViaTurnOrderOn:" : "DavidSimon 6/23/2026 22:42",
 		"enterFight" : "DavidSimon 6/26/2026 14:05",
@@ -35,8 +35,8 @@
 		"setUpServer" : "DavidSimon 6/23/2026 01:54",
 		"tearDown" : "DavidSimon 6/23/2026 01:19",
 		"testDownstreamEndTurnViaChat" : "DavidSimon 6/26/2026 14:06",
-		"testEnterFight" : "DavidSimon 6/26/2026 14:05",
-		"testRoundtripEndTurnViaChat" : "DavidSimon 6/26/2026 14:06",
+		"testEnterFight" : "GF 6/28/2026 13:18",
+		"testRoundtripEndTurnViaChat" : "GF 6/28/2026 13:18",
 		"testUpstreamEndTurnViaChat" : "DavidSimon 6/26/2026 14:06",
 		"useMockActionLogOn:" : "DavidSimon 6/23/2026 01:12",
 		"useMockActionLogsOnAll" : "DavidSimon 6/23/2026 01:12" } }

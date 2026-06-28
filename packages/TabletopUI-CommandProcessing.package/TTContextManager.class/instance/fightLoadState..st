@@ -1,14 +1,11 @@
 state
 fightLoadState: aContextDict
 
-	| currentPlayerName fakeCharacters fightContext fightingNames |
+	| currentPlayerName fightContext fightingNames |
 	fightingNames := aContextDict at: TTGameStateKeys keyFightingPlayerNames ifAbsent: [#()].
-	fakeCharacters := (fightingNames collect: [:aName | TTCharacter newWithName: aName role: TTCharacter player]) asOrderedCollection.
-	fakeCharacters isEmpty ifFalse: [
-		fightContext := (TTFightContext newWithfightOrder: fakeCharacters) parser: self.
+	fightingNames isEmpty ifFalse: [
+		fightContext := (TTFightContext newWithfightOrder: fightingNames) parser: self.
 		currentPlayerName := aContextDict at: TTGameStateKeys keyCurrentPlayer ifAbsent: [nil].
 		currentPlayerName ifNotNil: [
-			fightContext currentPlayer: (fakeCharacters
-				detect: [:each | each name = currentPlayerName]
-				ifNone: [fakeCharacters first])].
+			fightContext currentPlayer: currentPlayerName].
 		self changeToContext: fightContext]

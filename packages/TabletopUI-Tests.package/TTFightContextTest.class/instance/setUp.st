@@ -6,7 +6,7 @@ setUp
 	super setUp.
 	self gm: (TTCharacter newWithName: 'GM' role: #gamemaster).
 	self player: (TTCharacter newWithName: 'player' role: #player).
-	players add: self gm;
-		add: self player.
+	players add: self gm name;
+		add: self player name.
 	self context fightingPlayers: players;
 		currentPlayer: players first.

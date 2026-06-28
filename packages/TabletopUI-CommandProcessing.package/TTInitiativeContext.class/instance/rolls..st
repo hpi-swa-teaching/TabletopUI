@@ -1,3 +1,4 @@
 accessing
-rolls: anObject
-	rolls := anObject
+rolls: aDictionary
+
+	rolls := aDictionary
