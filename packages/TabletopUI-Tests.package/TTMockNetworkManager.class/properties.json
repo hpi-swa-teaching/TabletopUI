@@ -11,7 +11,7 @@
 		"lastParameters",
 		"sendCount",
 		"referenceManager" ],
-	"name" : "TTMockNetworkmanager",
+	"name" : "TTMockNetworkManager",
 	"pools" : [
 		 ],
 	"super" : "Object",

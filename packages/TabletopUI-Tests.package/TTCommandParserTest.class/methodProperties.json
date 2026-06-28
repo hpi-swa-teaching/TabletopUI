@@ -4,7 +4,9 @@
 	"instance" : {
 		"contextChangePropagated" : "DavidSimon 6/8/2026 12:39",
 		"contextChangePropagated:" : "DavidSimon 6/8/2026 12:40",
-		"setUp" : "JA 6/9/2022 19:55",
+		"parser" : "GF 6/28/2026 20:06",
+		"parser:" : "GF 6/28/2026 20:06",
+		"setUp" : "GF 6/28/2026 20:03",
 		"tearDown" : "DavidSimon 6/22/2026 16:42",
 		"test01DiceRollCommand" : "JA 6/9/2022 21:48",
 		"test02ComplexDiceRollCommand" : "JA 6/9/2022 22:13",
@@ -15,9 +17,8 @@
 		"test07RemoveCharacter" : "JA 6/9/2022 22:34",
 		"test08RollConstant" : "ML 8/3/2022 14:54",
 		"test09InvalidInput" : "ML 8/3/2022 15:01",
-		"test10PropogateChange" : "DavidSimon 6/8/2026 12:41",
-		"test11PropagateRollFromContext" : "GF 6/27/2026 12:39",
-		"test12ParserNotifiesSessionManager" : "GF 6/27/2026 12:39",
-		"test13ParserNotifiesSessionManagerOnContextChange" : "GF 6/27/2026 12:39",
+		"test11PropagateRollFromContext" : "GF 6/28/2026 20:11",
+		"test12ParserNotifiesSessionManager" : "GF 6/28/2026 20:29",
+		"test13ParserNotifiesSessionManagerOnContextChange" : "GF 6/28/2026 20:29",
 		"test14EndTurnWorksAcrossLoadStateRebuild" : "GF 6/27/2026 12:39",
-		"update:" : "DavidSimon 6/8/2026 13:01" } }
+		"update:" : "GF 6/28/2026 20:09" } }

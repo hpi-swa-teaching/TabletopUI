@@ -1,7 +1,7 @@
 testing
 test13ParserNotifiesSessionManagerOnContextChange
     | alice bob gm manager mockNetwork window |
-    mockNetwork := TTMockNetworkmanager new.
+    mockNetwork := TTMockNetworkManager new.
     window := TTMockTabletopWindow new.
     manager := TTServerSessionManager new
         window: window;

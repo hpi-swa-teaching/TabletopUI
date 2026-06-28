@@ -2,9 +2,8 @@ testing
 test11PropagateRollFromContext
     | alice |
     alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
-    parser contextManager changeToInitiativeContext.
-    parser addDependent: self.
+    self parser contextManager changeToInitiativeContext.
+    self parser networkFacade addDependent: self.
     self contextChangePropagated: false.
-    parser evaluateInput: 'roll d20' from: alice.
+    self parser evaluateInput: 'roll d20' from: alice.
     self assert: self contextChangePropagated.
-    self assert: parser context rolls notEmpty

@@ -3,8 +3,8 @@
 		"createNetworkFacade:" : "CR 6/25/2026 11:46",
 		"emptyState" : "GF 6/7/2026 16:07",
 		"openEmptySessionWithNetworkManager:" : "CR 6/25/2026 11:58",
-		"openFromState:Networkmanager:" : "CR 6/25/2026 12:07",
-		"openSessionless" : "GF 6/27/2026 23:13" },
+		"openFromState:Networkmanager:" : "GF 6/28/2026 20:33",
+		"openSessionless" : "GF 6/28/2026 20:21" },
 	"instance" : {
 		"buildWith:" : "DS 7/7/2022 19:02",
 		"changeScreen:" : "ob 8/4/2022 15:06",

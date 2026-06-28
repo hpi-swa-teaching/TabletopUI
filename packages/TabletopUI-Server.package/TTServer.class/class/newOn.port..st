@@ -9,7 +9,7 @@ newOn: address port: port
 
 	
 	window:= TTTabletopWindow openEmptySessionWithNetworkManager: inst networkmanager.
-	window networkFacade instantiate: TTChatEcho withId: 'chat'.
+	window model networkFacade instantiate: TTChatEcho withId: 'chat'.
 
 	
 	inst networkmanager start.

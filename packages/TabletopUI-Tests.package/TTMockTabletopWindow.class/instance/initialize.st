@@ -2,5 +2,5 @@ accessing
 initialize
 
 	self loadState: TTTabletopWindow emptyState.
-	self networkmanager: TTMockNetworkmanager new.
+	self networkmanager: TTMockNetworkManager new.
 	self characterAdministration: TTCharacterAdministration new.
