@@ -1,4 +1,4 @@
 actions
 updateCurrentPlayer: anObject
 
-	^ self
+	self context currentPlayer: anObject

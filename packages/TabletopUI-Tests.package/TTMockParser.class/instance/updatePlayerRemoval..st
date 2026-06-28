@@ -1,4 +1,4 @@
 actions
 updatePlayerRemoval: anObject
 
-	^ self
+	self context fightingPlayers remove: anObject

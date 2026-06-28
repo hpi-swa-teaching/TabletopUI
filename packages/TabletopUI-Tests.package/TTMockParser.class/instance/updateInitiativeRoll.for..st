@@ -1,4 +1,4 @@
 actions
 updateInitiativeRoll: anObject for: anotherObject
 
-	^ self
+	self context rolls add: anotherObject name -> anObject.
