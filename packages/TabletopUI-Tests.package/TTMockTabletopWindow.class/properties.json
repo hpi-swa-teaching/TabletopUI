@@ -6,7 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"currentState" ],
+		"currentState",
+		"characterAdministration",
+		"networkmanager",
+		"sessionManager",
+		"isGamemaster",
+		"owningPlayerName",
+		"networkFacade" ],
 	"name" : "TTMockTabletopWindow",
 	"pools" : [
 		 ],

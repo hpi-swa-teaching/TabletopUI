@@ -1,4 +1,4 @@
 running
 setUp
 	
-	parser := TTCommandParser new.
+	parser := TTCommandParser newWithNetworkFacade: TTMockNetworkFacade new.

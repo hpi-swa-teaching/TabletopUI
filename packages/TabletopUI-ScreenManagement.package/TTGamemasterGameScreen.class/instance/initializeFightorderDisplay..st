@@ -1,0 +1,4 @@
+turnorder
+initializeFightorderDisplay: aDictionary
+
+	self initializePlayerDisplay

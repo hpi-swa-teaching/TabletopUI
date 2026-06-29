@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"lexer",
-		"context" ],
+		"contextManager" ],
 	"name" : "TTCommandParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTNetworkObject",
 	"type" : "normal" }

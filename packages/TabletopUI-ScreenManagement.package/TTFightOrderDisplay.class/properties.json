@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"characterList",
+		"currentPlayer" ],
+	"name" : "TTFightOrderDisplay",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

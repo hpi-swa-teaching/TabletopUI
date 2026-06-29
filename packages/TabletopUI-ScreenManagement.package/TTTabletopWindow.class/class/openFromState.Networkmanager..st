@@ -10,5 +10,4 @@ openFromState: aDictionary Networkmanager: aTTServerNetworkmanager
 	window
 		loadState: aDictionary; 
 		yourself.
-	ToolBuilder open: window.
-	^window.
+	^ ToolBuilder open: window

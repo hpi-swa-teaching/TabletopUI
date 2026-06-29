@@ -9,7 +9,7 @@ setUpClients
 
         window := TTTabletopWindow openSessionless.
 
-        client window: window.
+        client window: window model.
         window sessionManager: client.
 
         self clients at: i put: client

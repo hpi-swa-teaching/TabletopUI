@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Network",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"networkFacade" ],
+	"name" : "TTNetworkModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

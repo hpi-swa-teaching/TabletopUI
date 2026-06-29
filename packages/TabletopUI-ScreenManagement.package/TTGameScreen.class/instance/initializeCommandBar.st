@@ -1,9 +1,10 @@
 initialization
 initializeCommandBar
 
-	self 
+	self
 		actionLog: (self networkFacade instantiate: TTActionLog withId: 'actionLog');
-		playerSelectionMenu: (TTPlayerSelectionMenu newWith: self characterAdministration);
-		inputField: (TTInputField newWithActionLog: self actionLog 
-			playerSelectionMenu: self playerSelectionMenu);
+		initializePlayerDisplay;
+		inputField: ((self networkFacade instantiate: TTInputField withId: 'inputField')
+			log: self actionLog;
+			playerSelection: self playerSelectionMenu);
 		addDependent: self inputField

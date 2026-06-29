@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	
-	self parser: TTCommandParser new.
+	self parser: (self networkFacade instantiate: TTCommandParser withId: 'commandParser').
 	self addDependent: self parser

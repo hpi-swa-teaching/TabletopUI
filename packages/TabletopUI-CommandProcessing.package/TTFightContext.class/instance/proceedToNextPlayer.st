@@ -1,6 +1,7 @@
 fight
 proceedToNextPlayer
 
-	self currentPlayer: (
-		self fightingPlayers after: self currentPlayer ifAbsent: [self fightingPlayers first]).
+	| newPlayer |
+	newPlayer := self fightingPlayers after: self currentPlayer ifAbsent: [self fightingPlayers first].
+	self parser updateCurrentPlayer: newPlayer.
 	^self nextPlayerMessageString

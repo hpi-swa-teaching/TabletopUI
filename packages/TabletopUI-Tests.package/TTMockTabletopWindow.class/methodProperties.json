@@ -2,10 +2,23 @@
 	"class" : {
 		 },
 	"instance" : {
+		"characterAdministration" : "CR 6/16/2026 18:37",
+		"characterAdministration:" : "CR 6/16/2026 18:37",
 		"currentState" : "CR 5/25/2026 17:09",
 		"currentState:" : "CR 5/25/2026 17:09",
 		"getState" : "CR 5/25/2026 17:10",
 		"hasPlayerNamed:" : "CR 5/26/2026 14:16",
 		"informationAboutPlayer:" : "CR 6/8/2026 14:59",
-		"initialize" : "CR 6/8/2026 14:34",
-		"loadState:" : "CR 5/25/2026 17:10" } }
+		"initialize" : "GF 6/28/2026 20:29",
+		"isGamemaster" : "CR 6/16/2026 20:05",
+		"isGamemaster:" : "CR 6/16/2026 20:05",
+		"loadState:" : "CR 5/25/2026 17:10",
+		"networkFacade" : "GF 6/28/2026 20:40",
+		"networkFacade:" : "GF 6/28/2026 20:40",
+		"networkmanager" : "CR 6/16/2026 18:38",
+		"networkmanager:" : "CR 6/16/2026 18:38",
+		"owningPlayerName" : "CR 6/16/2026 20:15",
+		"owningPlayerName:" : "CR 6/16/2026 20:15",
+		"sessionManager" : "CR 6/16/2026 20:59",
+		"sessionManager:" : "CR 6/16/2026 20:59",
+		"setRole:" : "CR 6/16/2026 20:07" } }
