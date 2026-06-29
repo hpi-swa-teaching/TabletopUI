@@ -15,15 +15,15 @@
 		"initialize" : "GF 6/26/2026 19:02",
 		"initiativeLoadState:" : "GF 6/28/2026 13:13",
 		"loadState:" : "GF 6/26/2026 19:15",
-		"receiveCurrentPlayerUpdate:" : "GF 6/28/2026 15:30",
+		"receiveCurrentPlayerUpdate:" : "GF 6/29/2026 14:23",
 		"receiveDefaultContextUpdate:" : "GF 6/28/2026 15:31",
 		"receiveFightContextWithFightOrderUpdate:" : "GF 6/28/2026 15:30",
 		"receiveInitiativeContextUpdate:" : "GF 6/28/2026 15:31",
 		"receiveInitiativeRollUpdate:" : "GF 6/28/2026 15:37",
 		"receivePlayerRemovalUpdate:" : "GF 6/28/2026 15:32",
-		"updateCurrentPlayer:" : "GF 6/28/2026 15:25",
+		"updateCurrentPlayer:" : "GF 6/29/2026 14:24",
 		"updateInitiativeRoll:for:" : "GF 6/28/2026 15:26",
 		"updatePlayerRemoval:" : "GF 6/28/2026 15:26",
 		"updateToDefaultContext" : "GF 6/28/2026 15:27",
 		"updateToFightContextWithFightOrder:" : "GF 6/28/2026 15:27",
-		"updateToInitiaiveContext" : "GF 6/28/2026 15:28" } }
+		"updateToInitiativeContext" : "GF 6/29/2026 12:27" } }

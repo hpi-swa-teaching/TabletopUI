@@ -1,4 +1,4 @@
-as yet unclassified
-fightContextOf: aSessionManager
+accessing
+fightContextOf: anInputField
 
-	^ (self parserOf: aSessionManager) context
+	^ (self parserOf: anInputField) context

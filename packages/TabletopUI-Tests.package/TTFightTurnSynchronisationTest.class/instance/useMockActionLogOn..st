@@ -1,4 +1,4 @@
 helpers
-useMockActionLogOn: aSessionManager
+useMockActionLogOn: anInputField
 
-	(self gameScreenOf: aSessionManager) inputField log: TTMockActionLog new
+	anInputField log: TTMockActionLog new

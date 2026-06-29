@@ -1,4 +1,4 @@
-as yet unclassified
-parserOf: aSessionManager
+accessing
+parserOf: anInputField
 
-	^ (self gameScreenOf: aSessionManager) inputField parser
+	^ anInputField parser
