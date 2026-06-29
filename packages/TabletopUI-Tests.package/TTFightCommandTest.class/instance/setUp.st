@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	command := TTFightCommand new
+	self command: TTFightCommand new

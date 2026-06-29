@@ -1,4 +1,4 @@
 running
 setUp
 	
-	parser := TTCommandParser new.
+	self parser: TTCommandParser new.

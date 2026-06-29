@@ -1,4 +1,4 @@
 testing
 test03BroadcastOnMapState
-    manager update: #mapState.
-    self assert: manager networkmanager sendCount equals: 1
+    self manager update: #mapState.
+    self assert: self manager networkmanager sendCount equals: 1

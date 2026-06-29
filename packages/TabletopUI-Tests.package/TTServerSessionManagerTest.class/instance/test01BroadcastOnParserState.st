@@ -1,8 +1,8 @@
 testing
 test01BroadcastOnParserState
- manager networkmanager sendCount: 0.
-    manager update: #parserState.
-    self assert: manager networkmanager sendCount equals: 1.
-    self assert: manager networkmanager lastMessage equals: 'loadState:'.
-    self assert: manager networkmanager lastRecipient equals: 'sessionmanager'.
-    self assert: manager networkmanager lastParameters equals: window getState
+ self manager networkmanager sendCount: 0.
+    self manager update: #parserState.
+    self assert: self manager networkmanager sendCount equals: 1.
+    self assert: self manager networkmanager lastMessage equals: 'loadState:'.
+    self assert: self manager networkmanager lastRecipient equals: 'sessionmanager'.
+    self assert: self manager networkmanager lastParameters equals: self window getState
