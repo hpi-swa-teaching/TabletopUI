@@ -10,8 +10,6 @@
 		"contents",
 		"subWindowManager",
 		"relay",
-		"referencemanager",
-		"networkmanager",
 		"sessionManager",
 		"isGamemaster",
 		"owningPlayerName",

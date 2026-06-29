@@ -2,5 +2,6 @@ screen management
 newGameScreen
 
 	self isGamemaster
-		ifTrue: [^ TTGamemasterGameScreen newWith: self]
-		ifFalse: [^ TTPlayerGameScreen newWith: self]
+		ifTrue: 
+		[^ self networkFacade instantiateScreen: TTGamemasterGameScreen WithId: 'gamescreen' Window: self]
+		ifFalse: [^  self networkFacade instantiateScreen: TTPlayerGameScreen WithId: 'gamescreen' Window: self]

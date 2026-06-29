@@ -1,4 +1,4 @@
-npc creation
+turnorder
 canCreateNpc
 
 	^ true
