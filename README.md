@@ -45,25 +45,25 @@ If you want to measure the distance between two tiles, simply drag your cursor b
 A new window displaying the distance will open.
 The distance will also be displayed in the log.
 ### Character Sheet
-Select *Sheet* on the left of the screen to open the character sheet of the currently selected player.
-The sheet has four pages. Click the arrow in the bottom right corner to turn the page. When you have arrived on the last page, the button will bring you back to the first page.
-**Page 1:**  All relevant attributes of the current player and the possibility to edit those attributes according to DnD rules
-**Page 2:** Storytelling and background information
-**Page 3:** Spellcasting information
-**Page 4:** Inventory and attacks
+Select *Sheet* on the left of the screen to open the character sheet of the currently selected player.  
+The sheet has four pages. Click the arrow in the bottom right corner to turn the page. When you have arrived on the last page, the button will bring you back to the first page.  
+**Page 1:**  All relevant attributes of the current player and the possibility to edit those attributes according to DnD rules  
+**Page 2:** Storytelling and background information  
+**Page 3:** Spellcasting information  
+**Page 4:** Inventory and attacks  
 ### Save Character Sheet
 Select *Save* on the left of the screen to save the character sheet of the currently selected player and confirm it by clicking on *Save Character Sheet (s)* or by pressing ```ctrl + s```.
 ### Monster selection
-Select *Monsters* in the top right corner to open the monster selection in the multipanel.
-It shows a list of all available monsters.
+Select *Monsters* in the top right corner to open the monster selection in the multipanel.  
+It shows a list of all available monsters.  
 Double click on a name to open the stat block of the selected monster. A new window will open where you can see all important information. By clicking *Add Token*, the monster will be added to the map.
 ### Wiki 
-Select *Wiki* at the top right corner to open the wiki in the multipanel. 
+Select *Wiki* at the top right corner to open the wiki in the multipanel.   
 In the wiki you can browse important DnD information, categorized by topic.
 ## Pre Game Functionality
-When you start the game, you will be guided through a few selection screens.
-**Step 1-3:** Select the number of players and who will be the gamemaster, as well as entering player names
-**Step 4:** Here you can select a character sheet for each player who is not the gamemaster. When entering this step, each player is first assigned the default character sheet. You can select between different options by double clicking on a player's name. Either choose one of the predesigned templates, build a character or upload a previously saved character sheet.
+When you start the game, you will be guided through a few selection screens.  
+**Step 1-3:** Select the number of players and who will be the gamemaster, as well as entering player names  
+**Step 4:** Here you can select a character sheet for each player who is not the gamemaster. When entering this step, each player is first assigned the default character sheet. You can select between different options by double clicking on a player's name. Either choose one of the predesigned templates, build a character or upload a previously saved character sheet.  
 **Step 5:** You can upload a token for each player except the gamemaster by double clicking on the player's name. A .png file can be selected in the new window.
 ### Character Builder
 You can pick a class, race and values for the abilities of the character. If the character is able to cast spells, you can enter up to three spells and cantrips each. Use double clicks to make your selections.
