@@ -1,2 +1,2 @@
-In the TTPlayerNamesScreen the players can enter their names.
+I am the screen where the players can enter their names.
 

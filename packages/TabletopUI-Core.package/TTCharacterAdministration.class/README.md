@@ -1,4 +1,4 @@
-A TTGame is a central administration for characters.
+I am a central administration for characters.
 
 Instance Variables
 	npcs:		<OrderedCollection>

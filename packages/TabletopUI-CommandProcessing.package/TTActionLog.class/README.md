@@ -1,4 +1,4 @@
-A TTActionLog is a log which displays the commands and results of these commands.
+I am a log which displays the commands and results of these commands.
 
 Instance Variables
 	actionLogList:		<OrderedCollection>

@@ -1,4 +1,4 @@
-A TTTokenBar is a sidebar to add npcs to the game.
+I am a sidebar to add npcs to the game.
 
 Instance Variables
 	currentName:		<String>

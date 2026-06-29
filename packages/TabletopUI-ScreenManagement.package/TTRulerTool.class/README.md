@@ -1,1 +1,1 @@
-The Ruler Tool implements a tool to measure distances
+I implement a tool to measure distances

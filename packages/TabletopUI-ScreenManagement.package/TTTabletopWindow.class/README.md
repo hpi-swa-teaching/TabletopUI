@@ -1,4 +1,4 @@
-A TTTabletopWindow loads a scene and allows switching between scenes.
+I load a scene and allow switching between scenes.
 
 Instance Variables
 	contents:		<Array>
