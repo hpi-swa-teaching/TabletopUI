@@ -7,7 +7,7 @@ test09Synchronization
 	secondDisplay := self openDisplay.
 	
 	firstDisplay model acrobaticsProficiency: 1.
-	self assert: secondDisplay model acrobaticsProficiency = 1.
+	self assert: secondDisplay model acrobaticsProficiency equals: 1.
 	
 	firstDisplay model takeDamage: 5.
-	self assert: firstDisplay model currentHP = secondDisplay model currentHP.
+	self assert: firstDisplay model currentHP equals: secondDisplay model currentHP.

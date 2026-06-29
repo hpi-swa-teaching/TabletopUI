@@ -5,4 +5,6 @@ test01expandEntry
 	expansionStatus := self wikiEntry isExpanded.
 	
 	self wikiEntry mouseUp: nil. 
-	self deny: expansionStatus equals: (self wikiEntry isExpanded)
+	self deny: expansionStatus equals: (self wikiEntry isExpanded).
+	self wikiEntry mouseUp: nil. 
+	self assert: expansionStatus equals: (self wikiEntry isExpanded)

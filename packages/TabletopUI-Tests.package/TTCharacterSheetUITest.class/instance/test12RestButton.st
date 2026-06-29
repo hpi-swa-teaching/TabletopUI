@@ -13,7 +13,7 @@ test12RestButton
 	
 	display applyRest.
 	
-	self assert: display model currentHP = display model maxHP.
-	self assert: display model deathSaveSuccesses = 0.
-	self assert: display model deathSaveFailures = 0.
-	self assert: (display model spellSlot1Current) = (display model spellSlot1Maximum)
+	self assert: display model currentHP equals: display model maxHP.
+	self assert: display model deathSaveSuccesses equals: 0.
+	self assert: display model deathSaveFailures equals: 0.
+	self assert: (display model spellSlot1Current) equals: (display model spellSlot1Maximum)
