@@ -8,4 +8,4 @@ openFromState: aDictionary Address: anAddress tcpPort: tcpPort
 		loadState: aDictionary; 
 		yourself.
 	ToolBuilder open: window.
-	^window.
+	^window

@@ -1,4 +1,4 @@
 accessing
 getState
 
-	^self currentState.
+	^self currentState

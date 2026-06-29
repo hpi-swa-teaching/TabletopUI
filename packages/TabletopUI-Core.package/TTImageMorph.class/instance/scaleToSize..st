@@ -11,4 +11,4 @@ scaleToSize: numberOrPoint
 		
 	scaleX := newExtent x / self image width.
 	scaleY := newExtent y / self image height.
-	^ self image magnify: self image boundingBox by: (scaleX@scaleY) smoothing: 2.
+	^ self image magnify: self image boundingBox by: (scaleX@scaleY) smoothing: 2

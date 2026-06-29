@@ -1,4 +1,4 @@
 accessing
 getState
 
-	 ^ self contents first model getState.
+	 ^ self contents first model getState

@@ -15,4 +15,4 @@ openSessionless
 	inst sessionManager: sessionmanager.
 	inst networkmanager referenceManager addEntry: sessionmanager forId: 'sessionmanager'.
 	ToolBuilder open: (inst openPlayerCountScreen; yourself).
-	^ inst.
+	^ inst

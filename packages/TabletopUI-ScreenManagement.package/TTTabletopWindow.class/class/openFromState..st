@@ -12,4 +12,4 @@ openFromState: aDictionary
 	window loadState: aDictionary; 
 		yourself.
 	ToolBuilder open: window.
-	^window.
+	^window

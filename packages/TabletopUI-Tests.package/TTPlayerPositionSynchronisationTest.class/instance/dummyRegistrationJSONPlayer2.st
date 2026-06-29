@@ -8,7 +8,7 @@ dummyRegistrationJSONPlayer2
 		at: #ip put: '';
 		at: #port put: 1;
 		yourself );
-	yourself.
+	yourself
 
 
 	
