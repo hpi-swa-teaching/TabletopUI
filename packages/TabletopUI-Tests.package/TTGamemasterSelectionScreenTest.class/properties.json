@@ -8,8 +8,7 @@
 	"instvars" : [
 		"screen",
 		"characterAdministration",
-		"window",
-		"resource" ],
+		"window" ],
 	"name" : "TTGamemasterSelectionScreenTest",
 	"pools" : [
 		 ],

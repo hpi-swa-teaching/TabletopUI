@@ -21,8 +21,6 @@
 		"currentHitDice",
 		"hitDieType",
 		"gold",
-		"takeDamageDialog",
-		"dialog",
 		"inputField",
 		"morph" ],
 	"name" : "TTCharacterSheetData",

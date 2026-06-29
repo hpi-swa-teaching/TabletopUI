@@ -9,7 +9,6 @@
 		"images",
 		"map",
 		"selectedIndex",
-		"dic",
 		"networkManager" ],
 	"name" : "TTImageBar",
 	"pools" : [

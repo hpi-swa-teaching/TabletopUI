@@ -5,7 +5,7 @@
 		"command:" : "I. S. 6/29/2026 3:58",
 		"command" : "I. S. 6/29/2026 9:13",
 		"setUp" : "I. S. 6/28/2026 10:42",
-		"test01StartFight" : "I. S. 6/28/2026 11:26",
-		"test02EndFight" : "I. S. 6/28/2026 10:36",
+		"test01StartFight" : "I. S. 6/29/2026 8:52",
+		"test02EndFight" : "I. S. 6/29/2026 8:51",
 		"test03InvalidStateFight" : "I. S. 6/28/2026 9:35",
 		"test04InvalidStateDefault" : "I. S. 6/28/2026 13:47" } }
