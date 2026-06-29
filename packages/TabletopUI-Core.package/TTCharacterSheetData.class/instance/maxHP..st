@@ -2,7 +2,7 @@ accessing-health
 maxHP: anObject
 
 	maxHP := anObject asNumber.
-	self currentHP > self maxHP
+	self currentHP asNumber > self maxHP asNumber
 		ifTrue: [self currentHP: self maxHP].
 	self
 		changed: #maxHP;

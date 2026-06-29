@@ -4,5 +4,5 @@ createSheet
 	| player|
 	
 	player := (self characterAdministration players) at: self characterIndex.
-	player sheet ifNil: [player sheet: TTCharacterSheetData new].
+	player sheet: (TTCharacterSheetData forTemplate: (self choices at: #class) asSymbol).
 	player sheet initializeCustomizedCharacterWith: self choices
