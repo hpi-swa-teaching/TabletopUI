@@ -3,8 +3,10 @@ sheetShouldBeCreatedWith: anObject
 
 	'gamemaster' = anObject
 		ifFalse: ['customized character' = anObject
-			ifFalse: [^ true]].
+			ifFalse: [^true]].
 			
-	^ false
+	^ false 
+			
+		
 
 	

@@ -1,4 +1,4 @@
 accessing
-viewContainer: anObject
+viewContainer: aTTViewContainer
 
-	viewContainer := anObject
+	viewContainer := aTTViewContainer

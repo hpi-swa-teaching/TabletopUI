@@ -1,4 +1,4 @@
 accessing
-traits: anObject
+traits: aDictionary
 
-	traits := anObject.
+	traits := aDictionary

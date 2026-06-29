@@ -1,4 +1,4 @@
 accessing - combat
-armorClass: anObject
+armorClass: aSmallInteger
 
-	armorClass := anObject
+	armorClass := aSmallInteger

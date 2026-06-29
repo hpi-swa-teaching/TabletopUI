@@ -1,4 +1,4 @@
 accessing
-languages: anObject
+languages: aString
 
-	languages := anObject.
+	languages := aString

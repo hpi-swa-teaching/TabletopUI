@@ -1,4 +1,4 @@
 accessing
-damageResistances: anObject
+damageResistances: aString
 
-	damageResistances := anObject.
+	damageResistances := aString

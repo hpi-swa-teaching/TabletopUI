@@ -2,10 +2,10 @@ A TTMultipanel is a panel where one can select different views.
 
 Instance Variables
 	activeView:		<Symbol>
-	characterAdministration:		<Object>
+	characterAdministration:		<TTCharacterAdministration>
 	console:		<Morph>
 	inputField:		<Morph>
-	monsterSelectionMenu		<Morph>
+	monsterSelectionMenu:		<Morph>
 	playerSelectionMenu:		<Morph>
 	viewContainer:		<Morph>
 	wiki:		<TransformMorph>

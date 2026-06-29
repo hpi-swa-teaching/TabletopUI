@@ -1,4 +1,0 @@
-*TabletopUI-Core
-isTTMap
-
-	^ false

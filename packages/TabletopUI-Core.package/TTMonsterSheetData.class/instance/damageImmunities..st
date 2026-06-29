@@ -1,4 +1,4 @@
 accessing
-damageImmunities: anObject
+damageImmunities: aString
 
-	damageImmunities := anObject.
+	damageImmunities := aString

@@ -1,4 +1,4 @@
 accessing
-additionalSpeeds: anObject
+additionalSpeeds: aDictionary
 
-	additionalSpeeds := anObject.
+	additionalSpeeds := aDictionary

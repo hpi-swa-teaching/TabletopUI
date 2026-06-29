@@ -1,4 +1,4 @@
 accessing
-challengeRating: anObject
+challengeRating: aString
 
-	challengeRating := anObject.
+	challengeRating := aString

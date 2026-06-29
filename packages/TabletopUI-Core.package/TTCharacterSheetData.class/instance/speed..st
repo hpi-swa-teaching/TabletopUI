@@ -1,5 +1,5 @@
 accessing - combat
-speed: anObject
+speed: aSmallInteger
 
-	speed := anObject.
+	speed := aSmallInteger.
 	self changed: #speed

@@ -1,1 +1,1 @@
-A TTViewContainer is makes different views easily interchangeable.
+A TTViewContainer makes different views easily interchangeable.

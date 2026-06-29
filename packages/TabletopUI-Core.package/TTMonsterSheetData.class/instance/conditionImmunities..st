@@ -1,4 +1,4 @@
 accessing
-conditionImmunities: anObject
+conditionImmunities: aString
 
-	conditionImmunities := anObject.
+	conditionImmunities := aString

@@ -8,4 +8,4 @@ test11GainSpellSlotsButton
 		display model spellSlotMaximumAt: level put: 4.
 		display model spellSlotCurrentAt: level put: 2.
 		display perform: ('applyGainSpellSlot' , level asString) asSymbol.
-		self assert: (display model spellSlotCurrentAt: level) equals: 3]
+		self assert: (display model spellSlotCurrentAt: level) = 3]

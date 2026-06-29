@@ -1,4 +1,4 @@
 accessing - saving throws
-savingThrowsLookup: anObject
+savingThrowsLookup: aDictionary
 
-	savingThrowsLookup := anObject
+	savingThrowsLookup := aDictionary

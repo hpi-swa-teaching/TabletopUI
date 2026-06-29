@@ -1,4 +1,4 @@
 accessing
-skills: anObject
+skills: aString
 
-	skills := anObject.
+	skills := aString

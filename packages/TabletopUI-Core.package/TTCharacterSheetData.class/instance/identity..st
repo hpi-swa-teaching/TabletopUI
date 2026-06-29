@@ -1,4 +1,4 @@
 accessing - identity
-identity: anObject
+identity: aDictionary
 
-	identity := anObject
+	identity := aDictionary
