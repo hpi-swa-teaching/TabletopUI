@@ -1,4 +1,4 @@
-testing-money
+testing
 test34GainNegativePlatinum
 
 	self characterSheet gainPlatinum: -41.

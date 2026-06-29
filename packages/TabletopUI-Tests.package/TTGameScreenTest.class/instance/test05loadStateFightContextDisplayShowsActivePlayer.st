@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test05loadStateFightContextDisplayShowsActivePlayer
 
 	self playerGameScreen loadState: self fightingState1.

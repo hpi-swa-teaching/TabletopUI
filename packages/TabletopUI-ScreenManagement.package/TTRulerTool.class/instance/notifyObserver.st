@@ -1,4 +1,4 @@
-initialize-release
+initialization
 notifyObserver
 
 	self observer notifyRulerToolClosed

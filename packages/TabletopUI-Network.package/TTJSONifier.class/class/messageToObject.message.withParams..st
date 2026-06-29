@@ -1,4 +1,4 @@
-as yet unclassified
+message creation
 messageToObject: object message: message withParams: params
 
 	| jsonDict |

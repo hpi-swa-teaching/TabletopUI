@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test02GamemastersPlayerSelectionMenuContainsAllPlayers
 
 	self assert: self gamemasterGameScreen playerSelectionMenu nameList = (self characterAdministration players collect: [:player | player name])

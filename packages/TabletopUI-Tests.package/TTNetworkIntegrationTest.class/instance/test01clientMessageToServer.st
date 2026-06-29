@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test01clientMessageToServer
 
 	| params deadline crashes1 crashes2 |

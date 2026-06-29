@@ -1,4 +1,4 @@
-initialize-release
+initialization
 setUpClients
 
     self clients: (Array new: 2).

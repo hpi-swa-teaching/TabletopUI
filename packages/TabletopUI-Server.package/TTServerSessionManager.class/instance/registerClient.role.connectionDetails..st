@@ -1,4 +1,4 @@
-as yet unclassified
+session management
 registerClient: name role: role connectionDetails: aDict
 
 	self connectionRegistry at: name

@@ -1,4 +1,4 @@
-as yet unclassified
+session management
 addToGameState: name role: role
 
 	| stateDict |

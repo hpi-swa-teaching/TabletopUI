@@ -1,4 +1,4 @@
-setup
+running
 setUpClients
 
 	self clients: (Array new: 2).

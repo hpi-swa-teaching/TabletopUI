@@ -1,4 +1,4 @@
-initialize-release
+initialization
 fightLoadState: aContextDict
 
 	| contextDict currentPlayerName fakeCharacters fightContext fightingNames |

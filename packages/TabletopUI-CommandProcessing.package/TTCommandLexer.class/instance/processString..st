@@ -1,4 +1,4 @@
-as yet unclassified
+scanning
 processString: aString
 
 	| currentToken |

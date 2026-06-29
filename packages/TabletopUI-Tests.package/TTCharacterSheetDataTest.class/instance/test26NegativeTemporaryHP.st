@@ -1,4 +1,4 @@
-testing-heal-damage
+testing
 test26NegativeTemporaryHP
 
 	self characterSheet gainTemporaryHP: -10.

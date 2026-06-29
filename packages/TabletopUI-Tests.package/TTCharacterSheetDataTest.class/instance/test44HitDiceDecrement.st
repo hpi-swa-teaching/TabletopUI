@@ -1,4 +1,4 @@
-testing-death-saves
+testing
 test44HitDiceDecrement
 
 	self characterSheet decrementHitDice.

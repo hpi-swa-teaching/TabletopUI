@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	self receiver: (TTMockNetworkReceiver newOnPort: 16000).

@@ -1,4 +1,4 @@
-cleanup
+running
 deleteAllTurnOrderWindows
 
 	self deleteTurnOrderWindowsOf: self server.

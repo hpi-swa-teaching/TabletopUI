@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test04loadStateFightContext
 
 	self gamemasterGameScreen loadState: self fightingState1.

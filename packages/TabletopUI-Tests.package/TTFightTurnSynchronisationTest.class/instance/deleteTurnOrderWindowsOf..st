@@ -1,4 +1,4 @@
-cleanup
+running
 deleteTurnOrderWindowsOf: aSessionManager
 
 	| ctx |

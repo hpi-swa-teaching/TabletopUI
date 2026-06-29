@@ -1,4 +1,4 @@
-testing-heal-damage
+testing
 test03Damage
 
 	self characterSheet takeDamage: 3.

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openWith: aTTCharacterAdministration and: anInputField
 
 	| morph instance|

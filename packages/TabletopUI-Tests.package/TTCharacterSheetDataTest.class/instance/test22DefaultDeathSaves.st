@@ -1,4 +1,4 @@
-testing-death-saves
+testing
 test22DefaultDeathSaves
 
 	self assert: (self characterSheet successfulDeathSaves = 0).

@@ -1,4 +1,4 @@
-setup
+running
 dummyRegistrationJSONPlayer1
 
 	^ Dictionary new

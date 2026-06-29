@@ -1,4 +1,4 @@
-testing-heal-damage
+testing
 test20Overheal
 
 	self characterSheet heal: 10.

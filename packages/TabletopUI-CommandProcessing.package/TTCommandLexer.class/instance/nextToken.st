@@ -1,4 +1,4 @@
-as yet unclassified
+scanning
 nextToken
 
 	self tokens ifEmpty: [^ nil].

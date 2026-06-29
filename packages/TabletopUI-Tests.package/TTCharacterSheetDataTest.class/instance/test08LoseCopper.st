@@ -1,4 +1,4 @@
-testing-money
+testing
 test08LoseCopper
 
 	self characterSheet gold: 100.

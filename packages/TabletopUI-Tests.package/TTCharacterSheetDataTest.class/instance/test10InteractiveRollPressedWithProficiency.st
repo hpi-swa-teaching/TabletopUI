@@ -1,4 +1,4 @@
-testing-throws
+testing
 test10InteractiveRollPressedWithProficiency
 
 	self characterSheet skillsLookup keys do: [:aSkill | 

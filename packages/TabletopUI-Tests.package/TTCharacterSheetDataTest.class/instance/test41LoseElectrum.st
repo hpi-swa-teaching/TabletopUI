@@ -1,4 +1,4 @@
-testing-money
+testing
 test41LoseElectrum
 
 	self characterSheet gold: 100.

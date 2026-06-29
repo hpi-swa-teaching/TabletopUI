@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test05ImageEncodeDecode
 
 	| assetLoader image deserializedImage |

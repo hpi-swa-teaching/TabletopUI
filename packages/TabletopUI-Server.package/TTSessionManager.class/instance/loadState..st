@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 loadState: aDict
 
 	self applyingRemoteState: true.

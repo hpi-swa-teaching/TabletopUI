@@ -1,4 +1,4 @@
-as yet unclassified
+message creation
 createNetworkMessage: message to: id with: params
 
 	| messageDictionary |

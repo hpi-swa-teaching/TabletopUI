@@ -1,4 +1,4 @@
-testing-throws
+testing
 test02SavingThrowsWithProficiency
 
 	self characterSheet baseValues keys do: [:aBaseValue | 

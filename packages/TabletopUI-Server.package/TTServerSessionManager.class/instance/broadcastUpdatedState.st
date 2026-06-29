@@ -1,4 +1,4 @@
-as yet unclassified
+session management
 broadcastUpdatedState
     self applyingRemoteState ifTrue: [^self].
     self networkmanager send: 'loadState:' to: 'sessionmanager' with: self window getState

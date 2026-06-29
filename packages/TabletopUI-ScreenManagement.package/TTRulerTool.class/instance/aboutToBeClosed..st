@@ -1,4 +1,4 @@
-initialize-release
+accessing
 aboutToBeClosed: aBoolean
 
 	aboutToBeClosed := aBoolean.

@@ -1,4 +1,4 @@
-as yet unclassified
+scanning
 splitAndDiscard
 	
 	^ OrderedCollection new

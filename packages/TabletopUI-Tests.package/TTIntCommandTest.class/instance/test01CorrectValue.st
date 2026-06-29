@@ -1,4 +1,4 @@
-running
+testing
 test01CorrectValue
 
 	| command |

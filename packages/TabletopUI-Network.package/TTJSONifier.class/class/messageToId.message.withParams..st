@@ -1,4 +1,4 @@
-as yet unclassified
+message creation
 messageToId: id message: message withParams: params
 
 	| jsonDict |

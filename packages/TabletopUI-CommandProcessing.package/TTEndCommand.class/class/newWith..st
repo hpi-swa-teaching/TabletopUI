@@ -1,4 +1,4 @@
-initialize-release
+initialization
 newWith: aCommand
 
 	^ self new

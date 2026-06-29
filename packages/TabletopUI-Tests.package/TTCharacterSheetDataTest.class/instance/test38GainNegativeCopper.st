@@ -1,4 +1,4 @@
-testing-money
+testing
 test38GainNegativeCopper
 
 	self characterSheet gainCopper: -42069.

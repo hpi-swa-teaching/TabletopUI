@@ -1,4 +1,4 @@
-testing-money
+testing
 test36GainNegativeElectrum
 
 	self characterSheet gainElectrum: -1.

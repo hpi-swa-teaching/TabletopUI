@@ -1,4 +1,4 @@
-teardown
+running
 tearDown
 
 	self clients do:[:client | self deleteWindowOf: client].

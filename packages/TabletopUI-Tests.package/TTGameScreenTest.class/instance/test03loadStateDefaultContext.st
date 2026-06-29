@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test03loadStateDefaultContext
 
 	self gamemasterGameScreen loadState: self defaultState.

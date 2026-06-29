@@ -1,4 +1,4 @@
-testing-money
+testing
 test32GainElectrum
 
 	self characterSheet gainElectrum: 1.

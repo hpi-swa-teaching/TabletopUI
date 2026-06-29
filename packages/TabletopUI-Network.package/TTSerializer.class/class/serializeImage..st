@@ -1,4 +1,4 @@
-as yet unclassified
+serializing
 serializeImage: imageToSerialize
 	"serializes an image to a base64 encoded string"
 

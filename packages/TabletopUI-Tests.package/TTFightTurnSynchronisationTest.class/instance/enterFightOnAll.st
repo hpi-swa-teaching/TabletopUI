@@ -1,4 +1,4 @@
-setup
+running
 enterFightOnAll
 
 	self enterFightOn: self server.

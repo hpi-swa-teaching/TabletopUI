@@ -1,4 +1,4 @@
-setup
+running
 setUp
 super setUp.
     self mockNetwork: TTMockNetworkmanager new.

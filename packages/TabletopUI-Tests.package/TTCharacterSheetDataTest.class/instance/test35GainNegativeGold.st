@@ -1,4 +1,4 @@
-testing-money
+testing
 test35GainNegativeGold
 
 	self characterSheet gainGold: -8.

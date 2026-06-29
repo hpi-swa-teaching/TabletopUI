@@ -1,4 +1,4 @@
-initialize-release
+initialization
 close
 
 	self aboutToBeClosed: true.

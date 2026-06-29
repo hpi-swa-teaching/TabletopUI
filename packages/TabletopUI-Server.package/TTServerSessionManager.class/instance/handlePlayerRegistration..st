@@ -1,4 +1,4 @@
-as yet unclassified
+session management
 handlePlayerRegistration: aDict
 
 	| name role connectionDetails |

@@ -1,4 +1,4 @@
-setup
+running
 enterFightOn: aSessionManager
 
 	| players |

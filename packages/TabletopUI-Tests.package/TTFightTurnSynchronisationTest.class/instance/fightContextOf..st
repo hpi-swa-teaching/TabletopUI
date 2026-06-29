@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 fightContextOf: aSessionManager
 
 	^ (self parserOf: aSessionManager) context
