@@ -1,0 +1,4 @@
+constants
+maxMultiplier
+
+	^ 2
