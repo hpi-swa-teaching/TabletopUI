@@ -5,7 +5,8 @@ test14EndTurnWorksAcrossLoadStateRebuild
 	self flag: 'TODO: move this test to a more fitting test class'.
 	alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
 	bob := TTCharacter newWithName: 'Bob' role: TTCharacter player.
-	self parser changeToContext: ((TTFightContext newWithfightOrder: {alice. bob} asOrderedCollection) parser: self parser).
+	self parser changeToContext:
+		((TTFightContext newWithfightOrder: {alice. bob} asOrderedCollection) parser: self parser).
 	"Different object, same name — as returned by characterAdministration after sync."
 	adminAlice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
 	self parser loadState: self parser getState.

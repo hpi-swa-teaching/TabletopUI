@@ -14,7 +14,7 @@
 		"playerScreenOwner" : "I. S. 6/28/2026 8:14",
 		"setUp" : "GF 6/23/2026 01:04",
 		"test01PlayersSelectionMenuOnlyReturnsOwnerAsActive" : "CR 6/16/2026 21:06",
-		"test02GamemastersPlayerSelectionMenuContainsAllPlayers" : "GF 6/23/2026 01:48",
+		"test02GamemastersPlayerSelectionMenuContainsAllPlayers" : "I. S. 6/29/2026 9:11",
 		"test03loadStateDefaultContext" : "GF 6/23/2026 01:48",
 		"test04loadStateFightContext" : "GF 6/23/2026 01:54",
 		"test05loadStateFightContextDisplayShowsActivePlayer" : "GF 6/23/2026 02:03" } }
