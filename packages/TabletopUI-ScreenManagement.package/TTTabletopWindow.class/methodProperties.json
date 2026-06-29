@@ -6,7 +6,7 @@
 		"openEmptySessionAddress:tcpPort:" : "GF 6/7/2026 16:07",
 		"openFromState:" : "I. S. 6/28/2026 21:11",
 		"openFromState:Address:tcpPort:" : "I. S. 6/28/2026 21:14",
-		"openSessionless" : "I. S. 6/27/2026 23:39",
+		"openSessionless" : "I. S. 6/29/2026 9:07",
 		"setupNetworkOn:Address:tcpPort:" : "CR 6/4/2026 15:17" },
 	"instance" : {
 		"buildWith:" : "DS 7/7/2022 19:02",
@@ -21,7 +21,7 @@
 		"contents:" : "bv 6/8/2021 10:38",
 		"context" : "DavidSimon 6/23/2026 16:17",
 		"context:" : "DavidSimon 6/23/2026 16:17",
-		"getState" : "I. S. 6/24/2026 12:30",
+		"getState" : "I. S. 6/28/2026 13:52",
 		"initialize" : "GF 6/11/2026 11:44",
 		"isGamemaster" : "GF 6/7/2026 16:13",
 		"isGamemaster:" : "GF 6/7/2026 16:12",

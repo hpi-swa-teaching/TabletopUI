@@ -3,5 +3,5 @@ setUp
 
 	self window: TTMockTabletopWindow new.
 	self manager: (TTSessionManager new 
-		window: window;
+		window: self window;
 		yourself).

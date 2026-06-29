@@ -1,3 +1,3 @@
 running
 setUp
-	lexer := TTCommandLexer new.
+	self lexer: TTCommandLexer new.

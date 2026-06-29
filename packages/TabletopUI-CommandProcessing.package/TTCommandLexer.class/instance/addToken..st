@@ -1,4 +1,4 @@
 as yet unclassified
 addToken: aString
 	
-	aString = '' ifFalse: [tokens addLast: aString]
+	aString = '' ifFalse: [self tokens addLast: aString]

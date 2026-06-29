@@ -1,5 +1,5 @@
 as yet unclassified
 peek: aNumber
 	
-	tokens size < aNumber ifTrue: [^ nil].
-	^ tokens at: aNumber
+	self tokens size < aNumber ifTrue: [^ nil].
+	^ self tokens at: aNumber
