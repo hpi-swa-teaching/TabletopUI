@@ -1,0 +1,1 @@
+I am a command that removes a character from the game.

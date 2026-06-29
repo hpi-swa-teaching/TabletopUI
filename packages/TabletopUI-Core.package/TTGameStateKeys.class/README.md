@@ -1,0 +1,1 @@
+I provide the shared key symbols used to serialise and load the game state.

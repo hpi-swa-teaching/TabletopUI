@@ -1,0 +1,1 @@
+I build JSON network messages from objects and parameters.

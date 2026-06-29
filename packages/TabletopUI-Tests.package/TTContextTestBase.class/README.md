@@ -1,0 +1,1 @@
+I am the abstract base class for command-context test cases.

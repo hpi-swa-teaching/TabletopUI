@@ -1,0 +1,1 @@
+I am a mock tabletop window used in tests.

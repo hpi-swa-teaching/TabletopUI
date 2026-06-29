@@ -1,0 +1,1 @@
+I am the abstract superclass that synchronises game state between the local window and the network.

@@ -1,0 +1,1 @@
+I am the command context active during the initiative phase.

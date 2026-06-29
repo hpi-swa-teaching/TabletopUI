@@ -1,0 +1,1 @@
+I am the screen where a player enters the details to join a networked game.

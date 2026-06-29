@@ -1,0 +1,1 @@
+I am the session manager on the client that sends local state changes to the server.

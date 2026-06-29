@@ -1,0 +1,1 @@
+I am a shared network object that synchronises map changes across clients.

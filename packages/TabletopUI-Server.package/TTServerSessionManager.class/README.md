@@ -1,0 +1,1 @@
+I am the session manager on the server that validates registrations and broadcasts state to clients.

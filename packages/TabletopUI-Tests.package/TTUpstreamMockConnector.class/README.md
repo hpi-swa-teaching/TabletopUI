@@ -1,0 +1,1 @@
+I am a mock upstream connector used in tests.

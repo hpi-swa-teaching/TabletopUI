@@ -1,0 +1,1 @@
+I am the network manager used by the server, assigning ids to shared objects.

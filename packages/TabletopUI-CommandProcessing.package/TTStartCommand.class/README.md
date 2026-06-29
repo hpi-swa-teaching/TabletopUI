@@ -1,0 +1,1 @@
+I am a command that starts a game phase.

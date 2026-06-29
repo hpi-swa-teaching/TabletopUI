@@ -1,0 +1,1 @@
+I am the abstract superclass that sends and receives messages over the network.

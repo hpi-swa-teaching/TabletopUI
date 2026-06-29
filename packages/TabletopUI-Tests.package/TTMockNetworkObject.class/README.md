@@ -1,0 +1,1 @@
+I am a mock network object used in tests.

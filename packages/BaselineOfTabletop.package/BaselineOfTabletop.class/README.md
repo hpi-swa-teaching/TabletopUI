@@ -1,0 +1,1 @@
+I am the Metacello baseline describing the packages and load order of the Tabletop project.

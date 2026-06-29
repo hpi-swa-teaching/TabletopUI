@@ -1,0 +1,1 @@
+I am a shared test resource for the test suite.

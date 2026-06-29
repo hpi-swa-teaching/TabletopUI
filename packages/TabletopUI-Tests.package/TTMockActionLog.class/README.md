@@ -1,0 +1,1 @@
+I am a mock action log used in tests.

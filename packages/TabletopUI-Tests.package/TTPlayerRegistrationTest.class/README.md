@@ -1,0 +1,1 @@
+I am a test case for registering players with the server.
