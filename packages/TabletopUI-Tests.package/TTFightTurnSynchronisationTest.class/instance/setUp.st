@@ -2,8 +2,10 @@ setup
 setUp
 
 	self broadcastConnectionmanager: TTBroadcastMockConnector new.
-	self networkFacade: (TTNetworkFacade new networkmanager: self broadcastConnectionmanager).
-
+	self networkFacade: (TTNetworkFacade new
+		networkmanager: self broadcastConnectionmanager;
+		yourself).
+	
 	self
 		setUpServer;
 		setUpClients.

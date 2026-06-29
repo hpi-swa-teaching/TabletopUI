@@ -1,7 +1,6 @@
-initialize-release
+setup
 setUpServer
-	| t1 |
-	self server: TTServerSessionManager new.
-	t1 := TTTabletopWindow openEmptySessionWithNetworkManager: self broadcastConnectionmanager.
-	self server window: t1 model.
-	t1 sessionManager: self server
+	
+	self server: (TTMap newWithNetworkFacade: self networkFacade).
+	self server initializePlayerTokens: self players.
+	self broadcastConnectionmanager server: self server.
