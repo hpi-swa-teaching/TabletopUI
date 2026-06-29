@@ -1,6 +1,6 @@
 setup
-enterFightOn: aSessionManager
+enterFightOn: anInputField
 
-	| players |
-	players := aSessionManager window characterAdministration players reject: [:p | p isGamemaster].
-	(self parserOf: aSessionManager) contextManager changeToFightContextWithFightOrder: players asOrderedCollection
+	(self parserOf: anInputField) context endInitiativePhaseFrom: (TTCharacter new
+		role: #gamemaster;
+		yourself)

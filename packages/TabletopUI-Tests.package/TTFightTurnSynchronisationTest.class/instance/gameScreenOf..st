@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 gameScreenOf: aSessionManager
 
-	^ aSessionManager window contents first model
+	^ aSessionManager contents first model
