@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"tokenBar",
-		"window" ],
+		"window",
+		"screen" ],
 	"name" : "TTTokenBarTest",
 	"pools" : [
 		 ],

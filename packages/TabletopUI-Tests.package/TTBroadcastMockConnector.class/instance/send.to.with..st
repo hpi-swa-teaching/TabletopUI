@@ -40,5 +40,8 @@ send: message to: object with: params
 						perform: message asSymbol
 						with: params]].
 		^ self].
+	(object = 'sessionmanager') ifTrue: [
+		self subscribers do: [:subscriber | subscriber perform: message asSymbol with: params].
+		^self].
 	
 	self server perform: message asSymbol with: params

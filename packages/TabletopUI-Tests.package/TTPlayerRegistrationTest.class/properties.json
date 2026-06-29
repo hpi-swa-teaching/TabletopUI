@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"window",
+		"windows",
 		"manager",
 		"sessionMembers" ],
 	"name" : "TTPlayerRegistrationTest",

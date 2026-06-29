@@ -1,6 +1,7 @@
 testing
 test05Open
 	
-	self window: TTTabletopWindow openSessionless.
-	self assert: self window model class equals: TTTabletopWindow.
-	self window abandon
+	| systemWindow |
+	systemWindow:= TTTabletopWindow openSessionless.
+	self assert: (systemWindow model class = TTTabletopWindow).
+	systemWindow abandon.

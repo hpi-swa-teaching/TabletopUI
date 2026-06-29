@@ -3,6 +3,8 @@
 		 },
 	"instance" : {
 		"acceptedPlayerName" : "CR 6/8/2026 14:09",
+		"hasPlayer:Named:" : "CR 6/29/2026 18:46",
+		"informationIn:AboutPlayer:" : "CR 6/29/2026 18:58",
 		"manager" : "CR 5/25/2026 18:06",
 		"manager:" : "CR 5/25/2026 18:06",
 		"registerTwoGameMasters" : "CR 6/8/2026 14:10",
@@ -10,9 +12,12 @@
 		"rejectedPlayerName" : "CR 6/8/2026 14:10",
 		"sessionMembers" : "CR 6/8/2026 14:54",
 		"sessionMembers:" : "CR 6/8/2026 14:54",
-		"setUp" : "GF 6/27/2026 23:03",
-		"testHandlePlayerRegistrationAddsPlayerToWindow" : "CR 6/8/2026 15:03",
+		"setUp" : "CR 6/29/2026 20:51",
+		"tearDown" : "CR 6/29/2026 20:16",
+		"testHandlePlayerRegistrationAddsPlayerToWindow" : "CR 6/29/2026 18:47",
 		"testHandlePlayerRegistrationAddsToRegistry" : "CR 6/8/2026 14:09",
-		"testHandlePlayerRegistrationRejectsDuplicateRole" : "CR 6/8/2026 15:03",
+		"testHandlePlayerRegistrationRejectsDuplicateRole" : "CR 6/29/2026 18:48",
 		"testHandlePlayerRegistrationRejectsToAddToRegistry" : "CR 6/8/2026 14:10",
-		"testPlayerRegistrationBecomesVisibleOnSessionMembers" : "CR 6/8/2026 15:04" } }
+		"testPlayerRegistrationBecomesVisibleOnSessionMembers" : "CR 6/29/2026 19:03",
+		"windows" : "CR 6/29/2026 20:12",
+		"windows:" : "CR 6/29/2026 20:12" } }

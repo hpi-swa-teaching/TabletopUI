@@ -1,7 +1,6 @@
 testing
 test13PlayerTokenBarHidesNpcCreation
 
-	self window: self newWindowWithMockNetwork.
 	self window
 		setAsPlayer;
 		openGameScreen.

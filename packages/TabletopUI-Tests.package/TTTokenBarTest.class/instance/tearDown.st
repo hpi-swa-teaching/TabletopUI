@@ -1,4 +1,4 @@
 running
 tearDown
 
-	window abandon
+	(self window dependents at: 2) abandon
