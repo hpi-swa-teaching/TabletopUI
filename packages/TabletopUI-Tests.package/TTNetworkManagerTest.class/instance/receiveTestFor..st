@@ -1,8 +1,8 @@
 helpers
-receiveTestFor: NetworkManagerSubclass
+receiveTestFor: networkManagerSubclass
 
 	| nwm params msg |
-	nwm := NetworkManagerSubclass new.
+	nwm := networkManagerSubclass new.
 	
 	Processor yield.
 	nwm referenceManager: self ref.

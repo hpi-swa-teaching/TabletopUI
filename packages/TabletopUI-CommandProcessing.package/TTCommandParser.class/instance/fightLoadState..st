@@ -1,7 +1,7 @@
 initialization
 fightLoadState: aContextDict
 
-	| contextDict currentPlayerName fakeCharacters fightContext fightingNames |
+	| currentPlayerName fakeCharacters fightContext fightingNames |
 	fightingNames := aContextDict at: TTGameStateKeys keyFightingPlayerNames ifAbsent: [#()].
 	fakeCharacters := (fightingNames collect: [:aName | TTCharacter newWithName: aName role: TTCharacter player]) asOrderedCollection.
 	fakeCharacters isEmpty ifFalse: [

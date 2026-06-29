@@ -1,10 +1,10 @@
 testing
 test01AddNPC
 
-	| NPC |
+	| npc |
 	
 	self characterAdministration addNPC: (TTCharacter newWithName: 'Nele' role: TTCharacter npc).
-	NPC := self characterAdministration npcs last.
+	npc := self characterAdministration npcs last.
 	self 
-		assert: NPC role equals: TTCharacter npc;
-		assert: NPC name equals: 'Nele'
+		assert: npc role equals: TTCharacter npc;
+		assert: npc name equals: 'Nele'

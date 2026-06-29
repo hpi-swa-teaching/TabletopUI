@@ -1,8 +1,8 @@
 helpers
-bounceBackTestFor: NetworkManagerSubclass
+bounceBackTestFor: networkManagerSubclass
 
 	| nwm params deadline |
-	nwm := NetworkManagerSubclass new.
+	nwm := networkManagerSubclass new.
 	
 	Processor yield.
 	nwm referenceManager: self ref.
