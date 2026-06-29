@@ -1,7 +1,7 @@
 A TTWikiEntryMorph is the structure as which the entries are displayed.
 
 Instance Variables
-	contentMorph:		<Object>
+	contentMorph:		<TextMorph>
 	contentWrapperMorph: 	<TextMorph>
 	isExpanded:		<Boolean>
 	titleMorph:		<StringMorph>
@@ -10,7 +10,7 @@ contentMorph
 	- stores the content of the entry
 
 contentWrapperMorph
-	- stores all the entries in a category
+	- wraps the content of an entry
 
 isExpanded
 	- boolean that stores whether the entry is expanded

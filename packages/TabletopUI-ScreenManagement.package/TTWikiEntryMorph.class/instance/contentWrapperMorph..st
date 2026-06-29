@@ -1,4 +1,4 @@
 accessing
-contentWrapperMorph: anObject
+contentWrapperMorph: aTextMorph
 
-	contentWrapperMorph := anObject
+	contentWrapperMorph := aTextMorph

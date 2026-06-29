@@ -1,3 +1,4 @@
 accessing
-map: anObject
-	map := anObject
+map: aTTMap
+
+	map := aTTMap

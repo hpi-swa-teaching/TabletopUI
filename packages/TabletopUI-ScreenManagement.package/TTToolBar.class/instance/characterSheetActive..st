@@ -1,4 +1,4 @@
 accessing
-characterSheetActive: anObject
+characterSheetActive: aBoolean
 
-	characterSheetActive := anObject
+	characterSheetActive := aBoolean

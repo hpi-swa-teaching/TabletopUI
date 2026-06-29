@@ -7,8 +7,8 @@
 	"commentStamp" : "MH 6/27/2026 11:04",
 	"instvars" : [
 		"items",
-		"spells",
 		"monsters",
+		"spells",
 		"subclasses" ],
 	"name" : "TTWiki",
 	"pools" : [
