@@ -1,3 +1,0 @@
-accessing
-networkFacade
-	^ networkFacade
