@@ -1,4 +1,4 @@
-accessors
+geometry
 extent: anExtent
 	
 	self image: (self scaleToSize: anExtent).

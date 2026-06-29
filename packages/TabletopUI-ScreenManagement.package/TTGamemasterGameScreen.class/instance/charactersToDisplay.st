@@ -1,4 +1,4 @@
-npc creation
+accessing
 charactersToDisplay
 
 	^self characterAdministration players

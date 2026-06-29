@@ -1,4 +1,4 @@
-initialization
+initialize-release
 initialize
 
 	self loadState: TTTabletopWindow emptyState.

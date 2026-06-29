@@ -1,4 +1,4 @@
-initialization
+initialize-release
 initialize
 
 	self port: self emptyPort.
