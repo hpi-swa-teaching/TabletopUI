@@ -1,4 +1,4 @@
 extents
 fieldFontSize
 
-	^ 20
+	^ 20 / Display uiScaleFactor
