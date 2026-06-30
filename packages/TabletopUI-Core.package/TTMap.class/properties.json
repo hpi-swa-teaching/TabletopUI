@@ -8,7 +8,8 @@
 	"instvars" : [
 		"tiles",
 		"tokens",
-		"rulerTool" ],
+		"rulerTool",
+		"networkFacade" ],
 	"name" : "TTMap",
 	"pools" : [
 		 ],

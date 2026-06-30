@@ -3,4 +3,8 @@
 		 },
 	"instance" : {
 		"canAddMap" : "I. S. 6/28/2026 14:05",
-		"canCreateNpc" : "I. S. 6/9/2026 00:31" } }
+		"canCreateNpc" : "I. S. 6/9/2026 00:31",
+		"charactersToDisplay" : " 6/30/2026 17:38:02",
+		"createNPC:" : "CR 6/29/2026 15:54",
+		"initializeFightorderDisplay:" : " 6/30/2026 17:38:02",
+		"initializePlayerDisplay" : " 6/30/2026 17:38:02" } }

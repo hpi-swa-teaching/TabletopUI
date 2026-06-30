@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 16:03",
 	"instvars" : [
-		"map",
-		"mapHasChanged" ],
+		"map" ],
 	"name" : "TTMapTest",
 	"pools" : [
 		 ],

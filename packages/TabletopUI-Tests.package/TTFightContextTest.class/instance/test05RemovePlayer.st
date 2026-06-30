@@ -5,6 +5,6 @@ test05RemovePlayer
 	
 	numberOfPlayers := self context fightingPlayers size.
 	self context removePlayer: self gm name from: self gm.
-	self assert: self context currentPlayer equals: self player.
+	self assert: self context currentPlayer equals: self player name.
 	self assert: numberOfPlayers equals: self context fightingPlayers size + 1.
 	

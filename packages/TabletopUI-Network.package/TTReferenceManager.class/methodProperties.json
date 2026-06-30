@@ -2,8 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEntry:forId:" : "DavidSimon 5/3/2026 18:02",
-		"initialize" : "DavidSimon 5/3/2026 18:02",
-		"resolve:" : "DavidSimon 5/3/2026 18:02",
+		"addEntry:forId:" : "CR 6/27/2026 13:50",
+		"getIdOf:" : "CR 6/24/2026 17:30",
+		"initialize" : "CR 6/24/2026 17:38",
+		"objectToIdTable" : "CR 6/24/2026 17:30",
+		"objectToIdTable:" : "CR 6/24/2026 17:30",
+		"removeId:" : "CR 6/27/2026 13:54",
+		"renameIdOf:To:" : "CR 6/29/2026 17:21",
+		"resolve:" : "CR 6/27/2026 13:33",
 		"table" : "DavidSimon 5/3/2026 18:01",
 		"table:" : "DavidSimon 5/3/2026 18:01" } }

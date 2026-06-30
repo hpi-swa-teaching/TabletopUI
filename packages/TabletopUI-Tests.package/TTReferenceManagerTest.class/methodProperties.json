@@ -5,7 +5,8 @@
 		"referenceManager" : "JF 6/11/2026 11:46",
 		"referenceManager:" : "JF 6/11/2026 11:46",
 		"setUp" : "JF 6/11/2026 11:46",
-		"test01NoElementAccess" : "JF 6/11/2026 11:47",
-		"test02WrongElementAccess" : "JF 6/11/2026 11:47",
+		"test01NoElementAccess" : "CR 6/29/2026 17:28",
+		"test02WrongElementAccess" : "CR 6/29/2026 17:29",
 		"test03OnlyElementAccess" : "I. S. 6/29/2026 8:43",
-		"test04ArbitraryElementAccess" : "I. S. 6/29/2026 8:42" } }
+		"test04ArbitraryElementAccess" : "I. S. 6/29/2026 8:42",
+		"test05IdRenaming" : "CR 6/26/2026 19:12" } }

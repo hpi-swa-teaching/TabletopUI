@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"endInitiativePhaseFrom:" : "ML 7/20/2022 15:19",
+		"endInitiativePhaseFrom:" : "GF 6/28/2026 14:52",
 		"gameState" : "ML 6/15/2022 14:39",
-		"getState" : "I. S. 5/20/2026 13:45",
-		"hasRolled:" : "DavidSimon 6/22/2026 16:35",
+		"getState" : "GF 6/28/2026 13:14",
+		"hasRolled:" : "GF 6/28/2026 13:15",
 		"initialize" : "ML 6/15/2022 13:53",
 		"initiativeIsOverMessageString" : "ML 6/15/2022 15:50",
 		"initiativeNotReadyErrorString" : "ML 6/16/2022 09:52",
@@ -13,9 +13,9 @@
 		"multipleRollsMessageString" : "ML 6/15/2022 16:56",
 		"onlyPlayersRollMessageString" : "ML 6/15/2022 16:57",
 		"playersWhoRolled" : "ML 6/15/2022 13:50",
-		"processRoll:for:" : "DavidSimon 6/22/2026 16:36",
-		"rolls" : "ML 6/15/2022 13:50",
-		"rolls:" : "ML 6/15/2022 13:50",
+		"processRoll:for:" : "GF 6/28/2026 19:50",
+		"rolls" : "GF 6/28/2026 13:11",
+		"rolls:" : "GF 6/28/2026 13:11",
 		"startFightMessageString" : "ML 6/15/2022 14:43",
-		"validCommands" : "ML 6/15/2022 09:59",
+		"validCommands" : "GF 6/28/2026 13:11",
 		"wrongContextErrorString" : "ML 6/15/2022 14:49" } }

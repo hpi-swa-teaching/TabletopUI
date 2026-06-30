@@ -1,6 +1,8 @@
 {
 	"class" : {
-		"newWith:" : "Jakob Fanselow 5/19/2026 12:01" },
+		"newWith:" : "CR 6/29/2026 14:37",
+		"newWithNetworkFacade:" : "CR 6/27/2026 15:58",
+		"newWithNetworkFacade:Window:" : "CR 6/29/2026 15:01" },
 	"instance" : {
 		"addChildren:to:" : "bv 7/6/2021 14:13",
 		"buildWith:" : "bv 7/3/2021 20:53",
@@ -17,7 +19,7 @@
 		"leave" : "MM 5/23/2021 11:01",
 		"leaveButtonBounds" : "joda 7/7/2021 10:55",
 		"leaveButtonLabel" : "MM 5/24/2021 12:01",
-		"networkmanager" : "Jakob Fanselow 5/19/2026 11:10",
-		"networkmanager:" : "Jakob Fanselow 5/19/2026 11:10",
+		"networkFacade" : "CR 6/25/2026 11:17",
+		"networkFacade:" : "CR 6/25/2026 11:17",
 		"window" : "joda 5/14/2021 16:29",
 		"window:" : "joda 5/26/2021 18:13" } }

@@ -1,4 +1,4 @@
-npc creation
+accessing
 canCreateNpc
 
-	self subclassResponsibility
+	self subclassResponsibility.

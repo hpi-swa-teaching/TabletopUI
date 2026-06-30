@@ -1,8 +1,8 @@
 testing
 test02serverMessageToClient
 
-	| params deadline crashes |
-	crashes := false.
+	| params deadline notFound |
+	notFound := false.
 	self clientNWM1Ref addEntry: TTMockNetworkObject new forId: 'MOCKNWO'.
 	
 	params := Dictionary new.
@@ -18,5 +18,4 @@ test02serverMessageToClient
 		Processor yield].
 	self assert: (self clientNWM1Ref resolve: 'MOCKNWO') val = 'chess'.
 	self assert: (self clientNWM2Ref resolve: 'MOCKNWO') val = 'chess'.
-	[self serverRef resolve: 'MOCKNWO'] on: Error do: [crashes := true].
-	self assert: crashes
+	self assert: ((self serverRef resolve: 'MOCKNWO') isNil).

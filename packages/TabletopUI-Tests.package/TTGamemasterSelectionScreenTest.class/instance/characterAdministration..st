@@ -1,4 +1,0 @@
-accessing
-characterAdministration: aTTCharacterAdministration
-
-	characterAdministration := aTTCharacterAdministration

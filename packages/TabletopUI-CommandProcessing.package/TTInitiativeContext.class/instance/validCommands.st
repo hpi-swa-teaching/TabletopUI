@@ -1,7 +1,7 @@
 accessing
 validCommands
 
-	^Collection new
+	^ Collection new
 		add: 'roll';
 		add: 'end initiative';
 		yourself

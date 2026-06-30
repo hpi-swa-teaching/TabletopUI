@@ -1,27 +1,16 @@
-initialization
+as yet unclassified
 newOn: address port: port
 
-	| inst chat window sessionmanager mapSelector |
+	| inst window |
 	inst := self new.
 	inst networkmanager: (TTServerNetworkManager newWithAddress: address tcpPort: port udpPort: port).
 	inst referencemanager: TTReferenceManager new.
-	inst networkmanager referenceManager: inst referencemanager.
+	inst networkmanager referenceManager: (inst referencemanager).
+
 	
-	chat := ChatEcho new.
-	inst referencemanager addEntry: chat forId: 'chat'.
-	chat networkmanager: inst networkmanager.
-	
-	mapSelector := TTMapEcho new.
-	inst referencemanager addEntry: mapSelector forId: 'mapSelector'.
-	mapSelector networkmanager: inst networkmanager.
-	
-	window := TTTabletopWindow openEmptySessionAddress: address tcpPort: port.
-	
-	sessionmanager := TTServerSessionManager new.
-	sessionmanager window: window.
-	window sessionManager: sessionmanager.
-	sessionmanager networkmanager: inst networkmanager.
-	inst referencemanager addEntry: sessionmanager forId: 'sessionmanager'.
+	window:= TTTabletopWindow openEmptySessionWithNetworkManager: inst networkmanager.
+	window model networkFacade instantiate: TTChatEcho withId: 'chat'.
+
 	
 	inst networkmanager start.
 	

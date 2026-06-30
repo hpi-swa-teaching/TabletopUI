@@ -1,4 +1,4 @@
 running
 setUp
 
-	self map: TTMap new.
+	self map: (TTMap newWithNetworkFacade: TTMockNetworkFacade new)

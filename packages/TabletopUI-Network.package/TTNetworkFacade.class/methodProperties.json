@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"connectTo:tcpPort:" : "CR 6/23/2026 21:56",
+		"getIdOf:" : "CR 6/24/2026 17:32",
+		"idAssigner" : "CR 6/23/2026 21:31",
+		"idAssigner:" : "CR 6/23/2026 21:31",
+		"instantiate:" : "CR 6/27/2026 15:58",
+		"instantiate:withId:" : "CR 6/27/2026 15:58",
+		"instantiateScreen:WithId:Window:" : "CR 6/29/2026 14:56",
+		"instantiateTileWithId:" : "CR 6/27/2026 15:58",
+		"instantiateTokenWithId:" : "CR 6/27/2026 15:58",
+		"networkmanager" : "CR 6/23/2026 21:30",
+		"networkmanager:" : "CR 6/23/2026 22:26",
+		"renameIdOf:To:" : "CR 6/30/2026 16:31",
+		"resolve:" : "CR 6/27/2026 15:43",
+		"send:to:with:" : "CR 6/23/2026 22:13" } }

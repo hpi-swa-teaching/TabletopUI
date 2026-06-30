@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 16:42",
 	"instvars" : [
-		"window" ],
+		"window",
+		"systemWindow" ],
 	"name" : "TTTabletopWindowTest",
 	"pools" : [
 		 ],

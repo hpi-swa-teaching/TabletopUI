@@ -2,5 +2,5 @@ testing
 testHandlePlayerRegistrationRejectsDuplicateRole
 
     self registerTwoGameMasters.
-    self assert: (self manager window hasPlayerNamed: self acceptedPlayerName).
-    self deny: (self manager window hasPlayerNamed: self rejectedPlayerName).
+    self assert: (self hasPlayer: self manager window Named: self acceptedPlayerName).
+    self deny: (self hasPlayer: self manager window Named:  self rejectedPlayerName).

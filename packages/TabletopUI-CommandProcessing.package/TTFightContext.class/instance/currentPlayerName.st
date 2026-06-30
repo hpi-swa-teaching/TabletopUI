@@ -1,5 +1,5 @@
 accessing
 currentPlayerName
 
-	^ self currentPlayer name
+	^ self currentPlayer
 	

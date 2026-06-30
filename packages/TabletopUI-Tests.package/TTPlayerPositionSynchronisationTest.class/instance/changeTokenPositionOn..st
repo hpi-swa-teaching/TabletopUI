@@ -1,11 +1,7 @@
 testing
-changeTokenPositionOn: object
-	
-	| map token tile |
-	map := object window contents first model map.
-	token:= map tokens first.
-	tile:= (map tiles atRow: 2) at: 2.
-	tile attachTokenAndTriggerDropEvent: token.
-	
-	
-	
+changeTokenPositionOn: aMap
+
+	| token tile |
+	token := aMap tokens first.
+	tile := (aMap tiles atRow: 2) at: 2.
+	tile acceptDroppingMorph: token event: DropEvent new

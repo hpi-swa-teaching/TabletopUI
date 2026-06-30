@@ -4,13 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "I. S. 6/28/2026 17:22",
+	"commentStamp" : "bv 7/3/2021 22:01",
 	"instvars" : [
 		"character",
 		"defaultTile",
-		"isDraggable" ],
+		"isDraggable",
+		"networkFacade" ],
 	"name" : "TTToken",
 	"pools" : [
 		 ],
-	"super" : "TTImageMorph",
+	"super" : "ImageMorph",
 	"type" : "normal" }

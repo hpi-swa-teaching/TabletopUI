@@ -2,7 +2,7 @@ testing
 test09PlayerGameScreenDoesNotCreateNPC
 
 	| screen npc |
-	self window: self newWindowWithMockNetwork.
+
 	npc := TTCharacter newWithName: 'orc' role: TTCharacter npc.
 	self window
 		setAsPlayer;

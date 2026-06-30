@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 16:38",
 	"instvars" : [
-		"applyingRemoteState",
-		"window",
-		"networkmanager" ],
+		"window" ],
 	"name" : "TTSessionManager",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TTNetworkObject",
 	"type" : "normal" }

@@ -7,7 +7,8 @@
 	"commentStamp" : "I. S. 6/28/2026 17:21",
 	"instvars" : [
 		"occupied",
-		"mapCoordinates" ],
+		"mapCoordinates",
+		"networkFacade" ],
 	"name" : "TTTile",
 	"pools" : [
 		 ],

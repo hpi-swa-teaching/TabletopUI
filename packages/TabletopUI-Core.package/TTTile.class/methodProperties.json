@@ -1,16 +1,21 @@
 {
 	"class" : {
 		"defaultSize" : "MM 5/8/2021 17:29",
-		"newWith:" : "rf 7/8/2021 10:03" },
+		"newWith:" : "rf 7/8/2021 10:03",
+		"newWithNetworkFacade:" : "CR 6/27/2026 15:58" },
 	"instance" : {
-		"acceptDroppingMorph:event:" : "CR 6/5/2026 12:14",
+		"acceptDroppingMorph:event:" : "GF 6/28/2026 12:38",
 		"addToken:" : "CR 6/5/2026 11:18",
-		"attachTokenAndTriggerDropEvent:" : "CR 6/5/2026 12:14",
+		"attachToken:" : "GF 6/28/2026 12:38",
+		"getOccupiedByToken:" : "CR 6/25/2026 14:24",
 		"initialize" : "DS 8/4/2022 10:21",
 		"isTTTile" : "joda 5/9/2021 17:57",
 		"mapCoordinates" : "TK 5/11/2026 01:06",
 		"mapCoordinates:" : "TK 5/11/2026 01:06",
+		"networkFacade" : "CR 6/24/2026 18:25",
+		"networkFacade:" : "CR 6/24/2026 18:25",
 		"occupied" : "joda 5/9/2021 17:36",
 		"occupied:" : "joda 5/9/2021 17:36",
+		"receiveOccupyingTokenUpdate:" : "CR 6/24/2026 17:25",
 		"repelsMorph:event:" : "joda 5/9/2021 17:38",
 		"wantsDroppedMorph:event:" : "joda 5/9/2021 17:43" } }
