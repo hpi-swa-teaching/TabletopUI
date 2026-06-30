@@ -2,12 +2,11 @@ initialization
 initializeSideBar
 
 	self
-		imageBar: (TTImageBar newWith: self map);
+		imageBar: (self networkFacade instantiate: TTImageBar withId: 'mapSelector');
 		tokenBar: ((TTTokenBar newWithMap: self map characterAdministration: self characterAdministration)
 			screen: self;
 			yourself);
-		toolBar: (TTToolBar newWith: self characterAdministration
-			and: self inputField map: self map).
+		toolBar: (self networkFacade instantiate: TTToolBar withId: 'toolBar').
 	self
 		addDependent: self imageBar;
 		addDependent: self tokenBar;

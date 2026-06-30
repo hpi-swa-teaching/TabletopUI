@@ -9,7 +9,7 @@
 		"images",
 		"map",
 		"selectedIndex",
-		"networkManager" ],
+		"networkFacade" ],
 	"name" : "TTImageBar",
 	"pools" : [
 		 ],

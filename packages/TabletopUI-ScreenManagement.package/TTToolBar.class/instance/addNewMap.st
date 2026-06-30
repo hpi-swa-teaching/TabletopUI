@@ -15,4 +15,4 @@ addNewMap
 	params := Dictionary new.
 	params at: 'name' put: name.
 	params at: 'image' put: (TTSerializer serializeImage: form).
-	self networkManager send: #addImage: to: 'mapSelector' with: params
+	self networkFacade send: #addImage: to: 'mapSelector' with: params

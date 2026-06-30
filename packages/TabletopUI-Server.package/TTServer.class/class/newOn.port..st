@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newOn: address port: port
 
 	| inst window |
@@ -10,6 +10,7 @@ newOn: address port: port
 	
 	window:= TTTabletopWindow openEmptySessionWithNetworkManager: inst networkmanager.
 	window model networkFacade instantiate: TTChatEcho withId: 'chat'.
+	window model networkFacade instantiate: TTMapEcho withId: 'mapSelector'.
 
 	
 	inst networkmanager start.

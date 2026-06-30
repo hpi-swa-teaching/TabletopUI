@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"newWith:and:map:" : "DS 8/4/2022 09:36" },
+		"newWithNetworkFacade:" : "CR 6/30/2026 18:23" },
 	"instance" : {
-		"addNewMap" : "JF 6/25/2026 12:38",
+		"addNewMap" : "CR 6/30/2026 18:08",
 		"characterAdministration" : "JA 5/26/2022 12:09",
 		"characterAdministration:" : "JA 5/26/2022 12:09",
 		"closeConnectedPlayersToolDisplay" : "tak2 5/6/2026 20:45",
@@ -31,8 +31,8 @@
 		"luminanceThreshold" : "I. S. 6/29/2026 4:57",
 		"map" : "OB 6/13/2022 08:41",
 		"map:" : "OB 6/13/2022 08:41",
-		"networkManager" : "JF 6/25/2026 11:53",
-		"networkManager:" : "JF 6/25/2026 11:53",
+		"networkFacade" : "CR 6/30/2026 18:09",
+		"networkFacade:" : "CR 6/30/2026 18:09",
 		"newMapToolButtonColor" : "tak2 6/25/2026 13:06",
 		"notifyConnectedPlayersToolClosed" : "tak2 5/6/2026 20:34",
 		"notifyDiceToolClosed" : "DS 8/4/2022 10:06",

@@ -10,5 +10,5 @@
 	"name" : "TTMapEcho",
 	"pools" : [
 		 ],
-	"super" : "AnObsoleteNetworkObject",
+	"super" : "TTNetworkObject",
 	"type" : "normal" }
