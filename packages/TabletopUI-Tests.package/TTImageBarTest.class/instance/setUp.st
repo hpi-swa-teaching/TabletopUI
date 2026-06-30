@@ -3,4 +3,4 @@ setUp
 
 	| map |
 	map := TTMap newWith: {}.
-	self imageBar: (TTImageBar newWith: map)
+	self imageBar: (TTImageBar new map: map; yourself)
