@@ -1,4 +1,4 @@
-drag and drop
+event handling
 mouseDown: anEvent
 
 	(self owner isTTTile) ifTrue: [

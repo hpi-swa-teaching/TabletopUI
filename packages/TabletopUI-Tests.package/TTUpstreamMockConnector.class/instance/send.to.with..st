@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 send: message to: object with: stateDict
 
 	self server handlePlayerRegistration: stateDict.

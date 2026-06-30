@@ -1,4 +1,4 @@
-initialize-release
+initialization
 newWithToken: aToken
 
 	^ self new

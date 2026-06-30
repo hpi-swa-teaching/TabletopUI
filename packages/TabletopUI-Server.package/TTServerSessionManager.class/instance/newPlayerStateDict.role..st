@@ -1,4 +1,4 @@
-as yet unclassified
+session management
 newPlayerStateDict:name role: role
 
 	^		

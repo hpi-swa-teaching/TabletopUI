@@ -3,5 +3,5 @@ test07ProcessString
 	
 	| testString |
 	testString := 'test'.
-	lexer processString: testString.
-	self assert: lexer tokens first equals: testString
+	self lexer processString: testString.
+	self assert: self lexer tokens first equals: testString

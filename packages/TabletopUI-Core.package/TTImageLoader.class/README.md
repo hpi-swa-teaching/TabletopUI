@@ -1,1 +1,1 @@
-TTImageLoader provides functions to load images from the correct directories.
+I provide functions to load images from the correct directories.

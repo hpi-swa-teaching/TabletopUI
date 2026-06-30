@@ -1,4 +1,4 @@
-running
+testing
 test03Negate
 
 	| result command |

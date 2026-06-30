@@ -1,0 +1,4 @@
+accessing
+mockNetwork
+
+	^ mockNetwork

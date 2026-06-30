@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 playerScreenOwner
 
-	^TTCharacter newWithName: 'Giuseppe' role: #player.
+	^TTCharacter newWithName: 'Giuseppe' role: #player

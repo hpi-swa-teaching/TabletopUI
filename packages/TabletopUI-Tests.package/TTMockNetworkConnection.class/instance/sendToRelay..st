@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 sendToRelay: message
 
 	Transcript show: 'Mock connection sending to self'.

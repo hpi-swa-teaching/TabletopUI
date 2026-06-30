@@ -1,7 +1,7 @@
-as yet unclassified
+scanning
 splitAndDiscard
 	
 	^ OrderedCollection new
 			add: ' ' asCharacter;
 			add: String tab asCharacter;
-			yourself.
+			yourself

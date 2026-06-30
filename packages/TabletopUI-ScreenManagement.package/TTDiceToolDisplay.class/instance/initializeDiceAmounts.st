@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeDiceAmounts
 
 	self diceAmounts: (Dictionary new

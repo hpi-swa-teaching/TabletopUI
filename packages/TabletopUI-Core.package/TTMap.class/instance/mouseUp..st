@@ -1,4 +1,4 @@
-initialization
+event handling
 mouseUp: anEvent
 	
 	self rulerToolActive ifTrue: [

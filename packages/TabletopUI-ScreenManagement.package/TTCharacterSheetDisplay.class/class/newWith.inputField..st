@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWith: aTTCharacterSheetData inputField: aTTInputField
 
 	| display |

@@ -1,4 +1,4 @@
-roll for initiative
+accessing
 processRoll: aValue for: aTTCharacter
 
 	(self hasRolled: aTTCharacter) ifTrue: [^ self multipleRollsMessageString].

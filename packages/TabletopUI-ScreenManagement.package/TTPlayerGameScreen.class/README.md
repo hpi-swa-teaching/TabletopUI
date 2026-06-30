@@ -1,0 +1,1 @@
+I am the game screen shown to a regular player.

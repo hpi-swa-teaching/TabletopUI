@@ -1,0 +1,1 @@
+I am the abstract superclass for objects that are shared across the network.

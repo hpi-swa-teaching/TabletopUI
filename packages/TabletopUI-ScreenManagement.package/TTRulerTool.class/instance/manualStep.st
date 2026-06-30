@@ -6,4 +6,4 @@ manualStep
 		self distance: (self calculateDistanceWithEnd: self currentCurserPosition).
 		self changed: #distance.
 		self drawArrowMorph: self currentCurserPosition].
-		(Delay forMilliseconds: 20) wait] repeat] fork
+		(Delay forMilliseconds: self refreshDelayInMilliseconds) wait] repeat] fork

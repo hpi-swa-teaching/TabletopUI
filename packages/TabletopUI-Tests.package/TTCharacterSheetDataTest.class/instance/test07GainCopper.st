@@ -1,4 +1,4 @@
-testing-money
+testing
 test07GainCopper
 
 	self characterSheet gainCopper: 42069.

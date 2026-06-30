@@ -1,4 +1,4 @@
-testing-money
+testing
 test42LoseSilver
 
 	self characterSheet gold: 100.

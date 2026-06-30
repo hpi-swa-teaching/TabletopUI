@@ -1,4 +1,4 @@
-as yet unclassified
+connection
 terminate
 
 	self connection terminateConnection

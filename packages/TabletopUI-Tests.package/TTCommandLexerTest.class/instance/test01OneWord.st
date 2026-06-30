@@ -3,9 +3,9 @@ test01OneWord
 	
 	| testString |
 	testString := 'test'.
-	lexer processString: testString.
-	self assert: lexer nextToken = testString.
+	self lexer processString: testString.
+	self assert: self lexer nextToken = testString.
 
 	testString := '420'.
-	lexer processString: testString.
-	self assert: lexer nextToken = testString
+	self lexer processString: testString.
+	self assert: self lexer nextToken = testString

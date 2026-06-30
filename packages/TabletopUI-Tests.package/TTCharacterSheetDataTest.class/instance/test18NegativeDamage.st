@@ -1,4 +1,4 @@
-testing-heal-damage
+testing
 test18NegativeDamage
 
 	self characterSheet takeDamage: -1.

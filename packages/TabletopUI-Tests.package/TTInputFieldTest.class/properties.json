@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "I. S. 6/28/2026 15:55",
 	"instvars" : [
 		"inputField",
-		"gamemaster",
-		"regularPlayers" ],
+		"gamemaster" ],
 	"name" : "TTInputFieldTest",
 	"pools" : [
 		 ],

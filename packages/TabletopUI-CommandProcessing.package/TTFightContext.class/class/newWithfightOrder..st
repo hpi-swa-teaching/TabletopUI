@@ -1,4 +1,4 @@
-initialize-release
+initialization
 newWithfightOrder: aCollection
 
 	^ self new

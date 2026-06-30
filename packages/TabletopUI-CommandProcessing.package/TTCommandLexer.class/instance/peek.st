@@ -1,4 +1,4 @@
-as yet unclassified
+scanning
 peek
 		
 	^ self peek: 1

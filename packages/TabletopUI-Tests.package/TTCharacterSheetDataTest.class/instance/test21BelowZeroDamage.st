@@ -1,4 +1,4 @@
-testing-heal-damage
+testing
 test21BelowZeroDamage
 
 	self characterSheet takeDamage: 25.

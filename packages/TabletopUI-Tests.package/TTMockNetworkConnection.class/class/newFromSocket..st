@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newFromSocket: tcpSocket
 
 	| inst |

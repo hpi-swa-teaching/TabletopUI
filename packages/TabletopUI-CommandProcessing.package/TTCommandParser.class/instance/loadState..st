@@ -1,4 +1,4 @@
-initialize-release
+initialization
 loadState: aDictionary
 
 	| state contextDict |

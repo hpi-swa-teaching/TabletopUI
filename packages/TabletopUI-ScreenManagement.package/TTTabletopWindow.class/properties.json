@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "rf 7/8/2021 10:17",
+	"commentStamp" : "I. S. 6/28/2026 17:20",
 	"instvars" : [
 		"characterAdministration",
 		"contents",
-		"subWindowManager",
 		"relay",
 		"referencemanager",
 		"networkmanager",

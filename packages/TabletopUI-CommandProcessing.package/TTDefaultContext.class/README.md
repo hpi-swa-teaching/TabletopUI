@@ -1,0 +1,1 @@
+I am the command context for the default game state outside of a fight.

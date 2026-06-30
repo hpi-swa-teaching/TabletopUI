@@ -1,4 +1,4 @@
-as yet unclassified
+serializing
 deSerializeImage: imageToDeserialize
 	"de-serializes a base64 encoded string to an imByteSymbol"
 

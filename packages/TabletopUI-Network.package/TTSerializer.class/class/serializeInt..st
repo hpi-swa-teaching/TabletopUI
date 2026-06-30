@@ -1,4 +1,4 @@
-as yet unclassified
+serializing
 serializeInt: intToSerialize
 	"serializes an integer to a little endian 4-byte string"
 

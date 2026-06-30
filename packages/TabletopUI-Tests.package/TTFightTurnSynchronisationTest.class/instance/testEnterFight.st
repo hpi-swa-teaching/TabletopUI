@@ -1,4 +1,4 @@
-helpers
+testing
 testEnterFight
 
 	self enterFightOnAll.

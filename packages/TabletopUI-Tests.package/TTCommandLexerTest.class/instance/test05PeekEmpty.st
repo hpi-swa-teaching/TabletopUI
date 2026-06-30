@@ -1,5 +1,5 @@
 testing
 test05PeekEmpty
 	
-	lexer processString: ''.
-	self assert: lexer peek = nil
+	self lexer processString: ''.
+	self assert: self lexer peek = nil

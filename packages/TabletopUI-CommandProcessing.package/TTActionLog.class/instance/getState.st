@@ -1,4 +1,4 @@
-logging
+accessing
 getState
 
 	^ Dictionary new

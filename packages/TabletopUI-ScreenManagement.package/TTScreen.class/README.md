@@ -1,4 +1,4 @@
-A TTScreen is an abstract super class for specific UIs which embed other graphical elements.
+I am an abstract super class for specific UIs which embed other graphical elements.
 
 Instance Variables
 	characterAdministration:		<TTCharacterAdministration>

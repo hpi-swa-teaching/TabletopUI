@@ -1,0 +1,1 @@
+I am the abstract superclass for the command contexts that represent the current game state.

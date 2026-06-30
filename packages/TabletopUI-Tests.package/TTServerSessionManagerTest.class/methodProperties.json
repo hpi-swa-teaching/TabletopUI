@@ -2,8 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "DavidSimon 6/11/2026 14:54",
-		"test01BroadcastOnParserState" : "DavidSimon 6/11/2026 14:56",
-		"test02IgnoresUnrelatedAspect" : "DavidSimon 6/11/2026 14:57",
-		"test03BroadcastOnMapState" : "DavidSimon 6/11/2026 14:55",
+		"manager" : "I. S. 6/29/2026 0:09",
+		"manager:" : "I. S. 6/28/2026 13:03",
+		"mockNetwork" : "I. S. 6/28/2026 16:51",
+		"mockNetwork:" : "I. S. 6/29/2026 2:29",
+		"window" : "I. S. 6/29/2026 1:49",
+		"window:" : "I. S. 6/29/2026 0:57",
+		"setUp" : "I. S. 6/28/2026 13:45",
+		"test01BroadcastOnParserState" : "I. S. 6/28/2026 10:40",
+		"test02IgnoresUnrelatedAspect" : "I. S. 6/29/2026 9:14",
+		"test03BroadcastOnMapState" : "I. S. 6/28/2026 18:03",
 		"update:" : "DavidSimon 6/8/2026 14:51" } }

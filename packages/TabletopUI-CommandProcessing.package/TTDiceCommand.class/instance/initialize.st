@@ -2,4 +2,4 @@ initialize-release
 initialize
 	
 	super initialize.
-	negated := false
+	self negated: false

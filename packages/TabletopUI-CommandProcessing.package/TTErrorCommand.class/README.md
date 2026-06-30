@@ -1,0 +1,1 @@
+I am a command representing invalid input that reports an error.

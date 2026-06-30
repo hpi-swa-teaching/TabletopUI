@@ -1,5 +1,7 @@
 toolbuilder
-hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol currentHitDice: aCurrentHitDiceSymbol level: aLevelSymbol hitDieType: aDieSymbol onIncrease: anIncreaseSymbol onDecrease: aDecreaseSymbol
+hitDiceSpec: aToolBuilder name: aNameSymbol levelName: aLevelNameSymbol
+	currentHitDice: aCurrentHitDiceSymbol level: aLevelSymbol hitDieType: aDieSymbol
+	onIncrease: anIncreaseSymbol onDecrease: aDecreaseSymbol
 	
 	^aToolBuilder pluggablePanelSpec new
 		model: self model;

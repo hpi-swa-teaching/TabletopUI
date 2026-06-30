@@ -1,9 +1,9 @@
-setup
+running
 setUp
 super setUp.
-    mockNetwork := TTMockNetworkmanager new.
-    window := TTMockTabletopWindow new.
-    manager := TTServerSessionManager new
-        window: window;
-        networkmanager: mockNetwork;
-        yourself
+    self mockNetwork: TTMockNetworkmanager new.
+    self window: TTMockTabletopWindow new.
+    self manager: (TTServerSessionManager new
+        window: self window;
+        networkmanager: self mockNetwork;
+        yourself)

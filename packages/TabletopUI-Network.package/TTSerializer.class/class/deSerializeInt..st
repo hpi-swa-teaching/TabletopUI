@@ -1,4 +1,4 @@
-as yet unclassified
+serializing
 deSerializeInt: intToDeserialize
 	"de-serializes a 4-long byte array or string interpreted as little endian to an integer"
 

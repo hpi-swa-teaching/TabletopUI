@@ -1,0 +1,1 @@
+I am a mock network receiver used in tests.

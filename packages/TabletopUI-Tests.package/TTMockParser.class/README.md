@@ -1,0 +1,1 @@
+I am a mock command parser used in tests.

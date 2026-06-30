@@ -3,5 +3,5 @@ test08NextToken
 	
 	| testString |
 	testString := 'test'.
-	lexer tokens: (OrderedCollection new add: testString; yourself).
-	self assert: lexer nextToken equals: testString
+	self lexer tokens: (OrderedCollection new add: testString; yourself).
+	self assert: self lexer nextToken equals: testString

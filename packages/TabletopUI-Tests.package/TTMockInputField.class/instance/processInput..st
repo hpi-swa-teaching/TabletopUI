@@ -1,4 +1,4 @@
-as yet unclassified
+text management
 processInput: aString
 
 	self inputs add: aString

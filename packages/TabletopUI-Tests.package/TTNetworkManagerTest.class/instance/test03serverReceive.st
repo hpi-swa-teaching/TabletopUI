@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test03serverReceive
 
 	self receiveTestFor: TTServerNetworkManager

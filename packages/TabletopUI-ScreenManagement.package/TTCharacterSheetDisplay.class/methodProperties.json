@@ -4,7 +4,7 @@
 		"openWith:inputField:" : "DS 8/1/2022 13:16" },
 	"instance" : {
 		"attributeListFrame" : "ob 8/4/2022 14:13",
-		"attributeListSpec:" : "ob 8/4/2022 14:06",
+		"attributeListSpec:" : "I. S. 6/29/2026 8:55",
 		"attributeSpec:name:modifier:stat:onChange:" : "ob 8/4/2022 14:19",
 		"buildWith:" : "ob 8/4/2022 14:06",
 		"centerColumnFrame" : "ob 8/4/2022 14:13",
@@ -13,7 +13,7 @@
 		"deathSavesListSpec:name:stat:callBack:" : "ob 8/4/2022 13:58",
 		"deathSavesSpec:" : "ob 8/4/2022 13:58",
 		"defaultExtent" : "ob 8/4/2022 14:13",
-		"hitDiceSpec:name:levelName:currentHitDice:level:hitDieType:onIncrease:onDecrease:" : "ob 8/4/2022 14:32",
+		"hitDiceSpec:name:levelName:currentHitDice:level:hitDieType:onIncrease:onDecrease:" : "I. S. 6/29/2026 8:56",
 		"hpSpec:" : "ob 8/4/2022 14:32",
 		"itemBuffsSpec:" : "ob 8/4/2022 13:59",
 		"labelledAttributeButtonSpec:name:stat:" : "ob 8/4/2022 13:59",
@@ -24,7 +24,7 @@
 		"name" : "ob 8/4/2022 14:59",
 		"name:" : "ob 8/4/2022 14:59",
 		"proficiencyListSpec:lookup:" : "ob 8/4/2022 14:33",
-		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "ob 8/4/2022 14:00",
+		"proficiencySpec:name:multiplier:multiplierOnChange:value:" : "I. S. 6/29/2026 8:57",
 		"recoverySpec:" : "ob 8/4/2022 14:01",
 		"rightColumnFrame" : "ob 8/4/2022 14:13",
 		"rightColumnSpec:" : "ob 8/4/2022 14:10" } }

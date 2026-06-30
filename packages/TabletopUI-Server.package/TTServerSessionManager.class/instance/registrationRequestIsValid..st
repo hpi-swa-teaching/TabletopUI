@@ -1,11 +1,11 @@
-as yet unclassified
+session management
 registrationRequestIsValid: aDict
 
-	| name role connectionDetails |
+	| name role |
 
 	name := aDict at: 'name' ifAbsent: [ ^ false ].
 	role := aDict at: 'role' ifAbsent: [ ^ false ].
-	connectionDetails := aDict at: 'connectionDetails' ifAbsent: [ ^ false ].
+	aDict at: 'connectionDetails' ifAbsent: [ ^ false ].
 
 	(self connectionRegistry keys includes: name)
 		ifTrue: [ ^ false ].

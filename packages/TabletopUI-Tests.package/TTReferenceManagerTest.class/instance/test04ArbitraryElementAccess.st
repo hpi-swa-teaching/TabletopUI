@@ -1,13 +1,13 @@
-as yet unclassified
+testing
 test04ArbitraryElementAccess
 
-	| referenceManager crashes |
+	| refManager crashes |
 	crashes := false.
-	referenceManager := TTReferenceManager new.
-	referenceManager addEntry: 6 forId: 7.
-	referenceManager addEntry: referenceManager forId: 1.
-	referenceManager addEntry: crashes forId: crashes.
+	refManager := TTReferenceManager new.
+	refManager addEntry: 6 forId: 7.
+	refManager addEntry: refManager forId: 1.
+	refManager addEntry: crashes forId: crashes.
 	
-	self assert: referenceManager = (referenceManager resolve: 1).
-	self assert: crashes = (referenceManager resolve: crashes).
-	self assert: 6 = (referenceManager resolve: 7)
+	self assert: refManager = (refManager resolve: 1).
+	self assert: crashes = (refManager resolve: crashes).
+	self assert: 6 = (refManager resolve: 7)

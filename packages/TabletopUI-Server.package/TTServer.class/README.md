@@ -1,0 +1,1 @@
+I am the server that ties together the network manager, reference manager and session manager.

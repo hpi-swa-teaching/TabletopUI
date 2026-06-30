@@ -1,4 +1,4 @@
-testing-money
+testing
 test31GainGold
 
 	self characterSheet gainGold: 8.

@@ -1,4 +1,4 @@
-A TTImageBar is a Sidebar where you can choose a background image for the map.
+I am a Sidebar where you can choose a background image for the map.
 
 Instance Variables
 	images:		<Dictionary>

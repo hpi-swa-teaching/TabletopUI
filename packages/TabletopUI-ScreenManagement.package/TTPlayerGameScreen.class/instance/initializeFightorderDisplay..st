@@ -1,4 +1,4 @@
-turnoder
+turnorder
 initializeFightorderDisplay: aDictionary
 
 	self playerSelectionMenu: (TTFightOrderDisplay

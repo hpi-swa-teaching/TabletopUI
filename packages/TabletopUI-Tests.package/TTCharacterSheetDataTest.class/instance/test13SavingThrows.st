@@ -1,4 +1,4 @@
-testing-throws
+testing
 test13SavingThrows
 
 	self characterSheet baseValues keys do: [:aBaseValue | 

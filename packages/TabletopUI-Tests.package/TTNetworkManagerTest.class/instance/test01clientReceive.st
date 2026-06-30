@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test01clientReceive
 
 	self receiveTestFor: TTClientNetworkManager

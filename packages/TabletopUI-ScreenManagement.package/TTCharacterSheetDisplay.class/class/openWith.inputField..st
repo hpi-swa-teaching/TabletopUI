@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 openWith: aTTCharacterSheetData inputField: aTTInputField
 
 	| morph | 

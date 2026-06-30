@@ -2,10 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JA 7/19/2022 13:52",
-		"test01StartInitiative" : "JA 7/19/2022 14:00",
-		"test02EndInitiative" : "JA 7/19/2022 13:58",
-		"test03StartInvalidStateInitiative" : "ML 8/3/2022 15:07",
-		"test04StartInvalidStateFight" : "ML 8/3/2022 15:07",
-		"test05EndInvalidStateDefault" : "ML 8/3/2022 15:07",
-		"test06EndInvalidStateFight" : "ML 8/3/2022 15:08" } }
+		"command:" : "I. S. 6/29/2026 5:37",
+		"command" : "I. S. 6/28/2026 17:36",
+		"setUp" : "I. S. 6/28/2026 19:25",
+		"test01StartInitiative" : "I. S. 6/28/2026 17:59",
+		"test02EndInitiative" : "I. S. 6/29/2026 3:18",
+		"test03StartInvalidStateInitiative" : "I. S. 6/29/2026 3:03",
+		"test04StartInvalidStateFight" : "I. S. 6/28/2026 19:37",
+		"test05EndInvalidStateDefault" : "I. S. 6/29/2026 2:01",
+		"test06EndInvalidStateFight" : "I. S. 6/28/2026 22:54" } }

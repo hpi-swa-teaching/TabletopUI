@@ -1,4 +1,4 @@
-stepping and presenter
+stepping
 stepTime
 
 	^ 10

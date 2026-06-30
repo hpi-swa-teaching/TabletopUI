@@ -1,4 +1,4 @@
-initialize-release
+initialization
 initializeBaseValues
 
 	self baseValues: Dictionary new.

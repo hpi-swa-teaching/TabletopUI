@@ -2,19 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"characterAdministration" : "CR 6/16/2026 20:58",
+		"characterAdministration" : "I. S. 6/29/2026 3:31",
 		"defaultState" : "GF 6/23/2026 01:09",
 		"fightingState1" : "GF 6/23/2026 01:54",
 		"fightingState2" : "GF 6/23/2026 01:54",
 		"gamemasterGameScreen" : "CR 6/16/2026 18:41",
 		"gamemasterGameScreen:" : "CR 6/16/2026 18:41",
-		"gamemasterScreenOwner" : "CR 6/16/2026 18:56",
+		"gamemasterScreenOwner" : "I. S. 6/28/2026 20:52",
 		"playerGameScreen" : "CR 6/16/2026 18:41",
 		"playerGameScreen:" : "CR 6/16/2026 18:41",
-		"playerScreenOwner" : "CR 6/16/2026 18:54",
+		"playerScreenOwner" : "I. S. 6/28/2026 8:14",
 		"setUp" : "GF 6/23/2026 01:04",
 		"test01PlayersSelectionMenuOnlyReturnsOwnerAsActive" : "CR 6/16/2026 21:06",
-		"test02GamemastersPlayerSelectionMenuContainsAllPlayers" : "GF 6/23/2026 01:48",
+		"test02GamemastersPlayerSelectionMenuContainsAllPlayers" : "I. S. 6/29/2026 9:11",
 		"test03loadStateDefaultContext" : "GF 6/23/2026 01:48",
 		"test04loadStateFightContext" : "GF 6/23/2026 01:54",
 		"test05loadStateFightContextDisplayShowsActivePlayer" : "GF 6/23/2026 02:03" } }

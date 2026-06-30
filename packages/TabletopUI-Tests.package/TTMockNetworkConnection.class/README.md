@@ -1,0 +1,1 @@
+I am a mock network connection used in tests.

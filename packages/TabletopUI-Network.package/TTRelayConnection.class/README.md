@@ -1,0 +1,1 @@
+I am the abstract superclass for a connection to the relay server.

@@ -1,4 +1,4 @@
 adding maps
 canAddMap
 
-	^ false.
+	^ false

@@ -1,4 +1,4 @@
-running
+testing
 test02CorrectValueWhenExecuted
 
 	| result command |

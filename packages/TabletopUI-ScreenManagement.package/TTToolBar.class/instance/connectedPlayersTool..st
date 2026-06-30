@@ -1,4 +1,4 @@
 accessing
 connectedPlayersTool: anObject
 
-	connectedPlayerstool := anObject
+	connectedPlayersTool := anObject

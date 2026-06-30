@@ -1,4 +1,4 @@
-cleanup
+running
 tearDown
 
 	self deleteAllTurnOrderWindows.

@@ -1,4 +1,4 @@
-testing-money
+testing
 test37GainNegativeSilver
 
 	self characterSheet gainSilver: -17.

@@ -1,0 +1,4 @@
+constants
+feetPerTile
+
+	^ 5

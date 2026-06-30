@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	command := TTInitiativeCommand new
+	self command: TTInitiativeCommand new

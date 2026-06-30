@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	command := TTErrorCommand new
+	self command: TTErrorCommand new

@@ -1,4 +1,4 @@
-A TTDiceRoll stores the roll of one or multiple dices and provides additional accessing functionalities
+I store the roll of one or multiple dices and provide additional accessing functionalities
 
 Instance Variables
 	modifier:		<Number>

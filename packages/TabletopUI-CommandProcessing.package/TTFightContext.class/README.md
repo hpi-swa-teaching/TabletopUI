@@ -1,0 +1,1 @@
+I am the command context active while a fight is in progress.

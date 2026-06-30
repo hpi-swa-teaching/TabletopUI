@@ -1,4 +1,4 @@
-as yet unclassified
+running
 setUp
 
 	self playerGameScreen: ((TTPlayerGameScreen newWith: (TTMockTabletopWindow new

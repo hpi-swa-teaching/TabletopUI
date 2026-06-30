@@ -1,0 +1,1 @@
+I am a shared network object that broadcasts chat messages to all clients.

@@ -2,7 +2,7 @@ testing
 test02ComplexDiceRollCommand
 	
 	| command |
-	command := parser parse: 'roll d20 -4	+  d8'.
+	command := self parser parse: 'roll d20 -4	+  d8'.
 	self assert: (command isKindOf: TTRollCommand).
 	self assert: (command rollable isKindOf: TTAddCommand).
 	self assert: (command rollable left isKindOf: TTDiceCommand).

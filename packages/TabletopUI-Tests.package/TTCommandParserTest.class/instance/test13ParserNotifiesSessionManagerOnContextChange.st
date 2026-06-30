@@ -8,18 +8,18 @@ test13ParserNotifiesSessionManagerOnContextChange
         networkmanager: mockNetwork;
         yourself.
 
-    parser changeToInitiativeContext.
-    parser addDependent: manager.
+    self parser changeToInitiativeContext.
+    self parser addDependent: manager.
 
     alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
     bob   := TTCharacter newWithName: 'Bob'   role: TTCharacter player.
     gm    := TTCharacter newWithName: 'GM'    role: TTCharacter gamemaster.
 
-    parser context processRoll: 6 for: alice.
-    parser context processRoll: 9 for: bob.
+    self parser context processRoll: 6 for: alice.
+    self parser context processRoll: 9 for: bob.
 
     mockNetwork sendCount: 0.  
 
-    parser context endInitiativePhaseFrom: gm.
+    self parser context endInitiativePhaseFrom: gm.
 
     self assert: mockNetwork sendCount equals: 1

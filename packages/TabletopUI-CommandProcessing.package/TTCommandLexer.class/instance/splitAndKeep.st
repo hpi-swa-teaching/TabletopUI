@@ -1,7 +1,7 @@
-as yet unclassified
+scanning
 splitAndKeep
 	
 	^ OrderedCollection new
 			add: $+;
 			add: $-;
-			yourself.
+			yourself

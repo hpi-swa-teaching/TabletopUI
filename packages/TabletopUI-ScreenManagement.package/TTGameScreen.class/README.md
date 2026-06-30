@@ -1,4 +1,4 @@
-A TTGameScreen is instantiated after all the information has been entered in the previous screens. It is the screen where the actual game is played.
+I am instantiated after all the information has been entered in the previous screens. It is the screen where the actual game is played.
  
 Instance Variables
 	actionLog:		<TTActionLog>

@@ -1,8 +1,8 @@
-as yet unclassified
+scanning
 processString: aString
 
 	| currentToken |
-	tokens := OrderedCollection new.
+	self tokens: OrderedCollection new.
 	
 	currentToken := ''.
 		

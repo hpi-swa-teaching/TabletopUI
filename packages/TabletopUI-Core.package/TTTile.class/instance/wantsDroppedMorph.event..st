@@ -1,4 +1,4 @@
-drag and drop
+dropping/grabbing
 wantsDroppedMorph: aMorph event: anEvent
 
 	^ (self occupied not) and:[

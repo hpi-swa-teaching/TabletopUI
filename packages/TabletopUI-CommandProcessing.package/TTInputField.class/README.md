@@ -1,4 +1,4 @@
-In an TTInputField you can type in commands.
+I am an input field in which you can type in commands.
 
 Instance Variables
 	evaluator:		<TTInputEvaluator>

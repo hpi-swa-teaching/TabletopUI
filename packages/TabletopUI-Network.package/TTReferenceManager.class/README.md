@@ -1,0 +1,1 @@
+I map network ids to local objects so that references can be resolved.

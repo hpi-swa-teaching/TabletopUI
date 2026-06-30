@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWithMap: aMap inputField: aTTInputField
 	
 	^self new

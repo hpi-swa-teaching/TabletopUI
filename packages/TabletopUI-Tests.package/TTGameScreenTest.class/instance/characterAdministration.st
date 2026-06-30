@@ -1,7 +1,7 @@
-as yet unclassified
+helpers
 characterAdministration
 	
 	^TTCharacterAdministration new players: {
 	self playerScreenOwner.
 	self gamemasterScreenOwner.};
-	yourself.
+	yourself

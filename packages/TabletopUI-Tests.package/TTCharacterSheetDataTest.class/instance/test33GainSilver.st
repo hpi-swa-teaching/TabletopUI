@@ -1,4 +1,4 @@
-testing-money
+testing
 test33GainSilver
 
 	self characterSheet gainSilver: 17.

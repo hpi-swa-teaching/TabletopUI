@@ -1,7 +1,7 @@
 sending
 send: aMessage to: anId with: aParams
 
-	lastMessage := aMessage.
-	lastRecipient := anId.
-	lastParameters := aParams.
-	sendCount := (sendCount ifNil: [0]) + 1
+	self lastMessage: aMessage.
+	self lastRecipient: anId.
+	self lastParameters: aParams.
+	self sendCount: (self sendCount ifNil: [0]) + 1

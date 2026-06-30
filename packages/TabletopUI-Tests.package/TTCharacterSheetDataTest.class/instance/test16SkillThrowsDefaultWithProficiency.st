@@ -1,4 +1,4 @@
-testing-throws
+testing
 test16SkillThrowsDefaultWithProficiency
 
 	self characterSheet skillsLookup keys do: [:aSkill | 

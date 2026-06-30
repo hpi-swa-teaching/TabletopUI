@@ -1,4 +1,4 @@
-testing-death-saves
+testing
 test47ResetHitDice
 
 	self characterSheet currentHitDice: 0.

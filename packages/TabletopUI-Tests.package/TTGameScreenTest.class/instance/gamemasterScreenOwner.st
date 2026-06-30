@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 gamemasterScreenOwner
 
-	^TTCharacter newWithName: 'Giorgio' role: #gamemaster.
+	^TTCharacter newWithName: 'Giorgio' role: #gamemaster

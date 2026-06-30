@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addToken:" : "JA 6/9/2022 19:52",
-		"nextToken" : "JA 6/9/2022 20:05",
+		"addToken:" : "I. S. 6/28/2026 11:05",
+		"nextToken" : "I. S. 6/28/2026 11:15",
 		"peek" : "JA 6/9/2022 19:52",
-		"peek:" : "JA 6/9/2022 20:04",
-		"processString:" : "JA 6/9/2022 19:52",
-		"splitAndDiscard" : "JA 6/9/2022 19:39",
-		"splitAndKeep" : "JA 6/9/2022 19:38",
+		"peek:" : "I. S. 6/29/2026 1:21",
+		"processString:" : "I. S. 6/29/2026 9:22",
+		"splitAndDiscard" : "I. S. 6/28/2026 11:56",
+		"splitAndKeep" : "I. S. 6/28/2026 21:11",
 		"tokens" : "ML 8/3/2022 14:35",
 		"tokens:" : "ML 8/3/2022 14:35" } }

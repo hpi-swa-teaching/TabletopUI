@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newOn: address port: port
 
 	| inst chat window sessionmanager mapSelector |

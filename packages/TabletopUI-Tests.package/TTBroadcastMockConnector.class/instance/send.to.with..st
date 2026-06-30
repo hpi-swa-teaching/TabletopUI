@@ -1,4 +1,4 @@
-as yet unclassified
+sending
 send: message to: object with: stateDict
 
     (message = 'loadState:' or: [message = #loadState:]) ifTrue: [

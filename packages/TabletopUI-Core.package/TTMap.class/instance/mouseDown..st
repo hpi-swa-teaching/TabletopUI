@@ -1,4 +1,4 @@
-initialization
+event handling
 mouseDown: anEvent
 	
 	self rulerToolActive ifTrue: [

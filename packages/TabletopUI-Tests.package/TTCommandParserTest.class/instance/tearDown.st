@@ -3,6 +3,6 @@ tearDown
 
 	| fightContext |
 	super tearDown.
-	(parser context isKindOf: TTFightContext) ifTrue: [
-		fightContext := parser context.
+	(self parser context isKindOf: TTFightContext) ifTrue: [
+		fightContext := self parser context.
 		fightContext display ifNotNil: [fightContext display delete]]

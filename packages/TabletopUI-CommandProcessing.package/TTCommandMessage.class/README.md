@@ -1,0 +1,1 @@
+I am the result of executing a command, holding its value, output and error message.

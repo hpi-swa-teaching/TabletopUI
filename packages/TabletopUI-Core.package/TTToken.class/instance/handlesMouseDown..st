@@ -1,4 +1,4 @@
-drag and drop
+event handling
 handlesMouseDown: anEvent
 
 	^ self isDraggable

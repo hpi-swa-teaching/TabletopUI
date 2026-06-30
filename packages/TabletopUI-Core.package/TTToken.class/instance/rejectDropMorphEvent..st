@@ -1,4 +1,4 @@
-drag and drop
+dropping/grabbing
 rejectDropMorphEvent: anEvent
 
 	self

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWith: aTTCharacterAdministration and: anInputField
 
 	^ self new

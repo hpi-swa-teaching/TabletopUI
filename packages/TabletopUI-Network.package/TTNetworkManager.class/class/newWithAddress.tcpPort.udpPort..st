@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newWithAddress: anAddress tcpPort: tcpPort udpPort: udpPort
 
 	| nwm |

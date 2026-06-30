@@ -1,0 +1,1 @@
+I parse player input into commands and manage the current game-state context.

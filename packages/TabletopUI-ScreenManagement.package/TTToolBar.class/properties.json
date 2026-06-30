@@ -4,14 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "DS 5/9/2022 10:09",
+	"commentStamp" : "I. S. 6/28/2026 17:24",
 	"instvars" : [
 		"characterAdministration",
 		"inputField",
 		"map",
 		"diceTool",
-		"connectedPlayerstool",
-		"newMapTool",
+		"connectedPlayersTool",
 		"networkManager" ],
 	"name" : "TTToolBar",
 	"pools" : [

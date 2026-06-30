@@ -1,4 +1,4 @@
-A TTMap is a grid of tiles where Tokens can be moved on.
+I am a grid of tiles where Tokens can be moved on.
 
 Instance Variables
 	tiles:		<Matrix>
