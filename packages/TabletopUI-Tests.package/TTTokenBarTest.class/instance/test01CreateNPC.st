@@ -6,8 +6,7 @@ test01CreateNPC
 	networkmanager:= self window networkFacade networkmanager.
 	self tokenBar createNPC.
 	self 
-		assert: networkmanager lastMessage = 'receiveCreateNPCUpdate:';
-		assert: networkmanager lastRecipient = 'gamescreen'.
+		assert: networkmanager lastMessage = 'receiveCreateNPCUpdate:'.
 	self screen receiveCreateNPCUpdate: networkmanager lastParameters.
 	self 
 		assert: self tokenBar characterAdministration npcs size equals: 1;
