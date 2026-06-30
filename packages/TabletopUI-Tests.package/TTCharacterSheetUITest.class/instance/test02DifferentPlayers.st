@@ -13,5 +13,5 @@ test02DifferentPlayers
 	
 	self playerSelectionMenu selectedIndex: 1.
 	thirdDisplay := self openDisplay.
-	self assert: thirdDisplay model strength = '12'.
-	self assert: thirdDisplay model className = 'Adventurer'
+	self assert: thirdDisplay model strength equals: '12'.
+	self assert: thirdDisplay model className equals: 'Adventurer'
