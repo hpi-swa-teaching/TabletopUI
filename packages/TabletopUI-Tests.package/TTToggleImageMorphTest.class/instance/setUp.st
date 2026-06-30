@@ -7,8 +7,8 @@ setUp
 	self toggle: TTToggleImageMorph new.
 	self toggle
 		on: self sheet
-		get: #arcanaProficiency
-		set: #arcanaProficiency:
+		get: #acrobaticsProficiency
+		set: #acrobaticsProficiency:
 		onForm: self mockForm
 		offForm: self mockForm.
 	
