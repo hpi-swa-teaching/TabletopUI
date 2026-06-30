@@ -9,8 +9,11 @@ setUp
 		playerCount: 2;
 		addPlayer: (TTCharacter newWithName: 'playerA' role: TTCharacter player);
 		addPlayer: (TTCharacter newWithName: 'playerB' role: TTCharacter gamemaster).
-	self screen characterAdministration: self characterAdministration.
-	self screen	characterIndex: 1.
-	self screen selectedPresets: Dictionary new. 
-	self screen selectedPresets at: 1 put: 'build character'.
-	self screen selectedPresets at: 2 put: 'gamemaster'
+	self window characterAdministration: self characterAdministration.
+	self screen
+		characterAdministration: self characterAdministration;
+		characterIndex: 1;
+		selectedPresets: Dictionary new.
+	self screen selectedPresets 
+		at: 1 put: 'build character';
+		at: 2 put: 'gamemaster'

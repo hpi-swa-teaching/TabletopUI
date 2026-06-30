@@ -1,7 +1,7 @@
 input handling
-setImageFor: aNumber
+setImage
 
-	self image: (aNumber = 1
+	self image: (self state = 1
 		ifTrue: [self onForm]
 		ifFalse: [self offForm]).
-	self changed.
+	self changed

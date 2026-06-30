@@ -10,7 +10,8 @@
 		"onForm",
 		"offForm",
 		"getSelector",
-		"setSelector" ],
+		"setSelector",
+		"state" ],
 	"name" : "TTToggleImageMorph",
 	"pools" : [
 		 ],

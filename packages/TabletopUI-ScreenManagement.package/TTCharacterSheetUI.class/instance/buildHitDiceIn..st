@@ -2,10 +2,10 @@ build
 buildHitDiceIn: aMorph
 
 	self addField: #hitDieTypeString
-		at: 20 @ 35
+		at: 45 @ 35
 		in: aMorph.
 	self addField: #hitDiceRemainingString
-		at: 60 @ 35
+		at: 20 @ 35
 		in: aMorph.
 	self addButton: #applyGainHitDie
 		form: self plusButtonForm
