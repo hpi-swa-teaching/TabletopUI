@@ -1,9 +1,8 @@
 {
 	"class" : {
-		"newWith:map:" : "tf 6/11/2026 18:21" },
+		"newWith:map:" : "tf 6/30/2026 16:11" },
 	"instance" : {
 		"configureListMorph:" : "tf 6/27/2026 12:39",
-		"items" : "tf 6/27/2026 12:46",
 		"map" : "tf 6/11/2026 18:21",
 		"map:" : "tf 6/11/2026 18:22",
 		"openSelectedMonsterSheet" : "MH 6/28/2026 12:16" } }

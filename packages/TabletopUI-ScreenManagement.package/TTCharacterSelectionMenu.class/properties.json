@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tf 6/27/2026 13:03",
+	"commentStamp" : "tf 6/30/2026 16:14",
 	"instvars" : [
 		"selectedIndex",
-		"characterAdministration" ],
+		"items" ],
 	"name" : "TTCharacterSelectionMenu",
 	"pools" : [
 		 ],

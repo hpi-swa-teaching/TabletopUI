@@ -5,11 +5,11 @@ Subclasses implement items to supply the collection being listed. The superclass
 Subclasses may also override configureListMorph: to extend the list morph with additional settings such as a double-click action.
 
 Instance Variables
-	characterAdministration:		<Object>
 	selectedIndex:		<Integer>
-
-characterAdministration
-	- stores information about the participating characters
+	items:			<OrderedCollection>
+				
+items:
+	- named list of domain objects
 
 selectedIndex
 	- the 1-based index of the currently highlighted entry

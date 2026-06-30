@@ -5,7 +5,7 @@ test09CreateSheetsLoadsSheetFromObjFile
 	player := self characterAdministration players first.
 	player sheet: (TTCharacterSheetData forTemplate: #wizard).
 	fileName := player name, '.obj'.
-	[ self characterAdministration saveCharacter: 1.
+	[ TTCharacterAdministration saveCharacter: player.
 	  self screen characterSheets at: 1 put: fileName.
 	  self screen createSheets.
 	  self assert: player sheet armorClass equals: '11' ] 

@@ -1,4 +1,4 @@
 accessing
 saveCharacter
 
-	self characterAdministration saveCharacter: self selectedIndex
+	TTCharacterAdministration saveCharacter: self selectedItem

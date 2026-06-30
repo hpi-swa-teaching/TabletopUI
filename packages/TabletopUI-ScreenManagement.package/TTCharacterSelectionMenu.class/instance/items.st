@@ -1,4 +1,4 @@
 accessing
 items
 
-	^ self subclassResponsibility
+	^ items

@@ -1,10 +1,9 @@
-accessing
-saveToken: aPlayerIndex
+saving
+saveToken: aPlayer
 
-	| player sourcePath fileName targetDirectory targetPath inputStream outputStream |
-	player :=  self players at: aPlayerIndex.
-	sourcePath := player token.
-	fileName := 'Token_Player_', player name, '.png'.
+	| sourcePath fileName targetDirectory targetPath inputStream outputStream |
+	sourcePath := aPlayer token.
+	fileName := 'Token_Player_', aPlayer name, '.png'.
 	targetDirectory := FileDirectory default.
 	targetDirectory assureExistence.
 	targetPath := targetDirectory fullNameFor: fileName.
@@ -15,5 +14,4 @@ saveToken: aPlayerIndex
 	[ outputStream nextPutAll: inputStream contentsOfEntireFile ] 
 	    ensure: [ 
 	        inputStream close.
-	        outputStream close.
-	    ].
+	        outputStream close ]
