@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parser:" : "I. S. 6/28/2026 17:11",
 		"contextChangePropagated" : "DavidSimon 6/8/2026 12:39",
 		"contextChangePropagated:" : "DavidSimon 6/8/2026 12:40",
 		"parser" : "I. S. 6/28/2026 18:56",
+		"parser:" : "I. S. 6/28/2026 17:11",
 		"setUp" : "I. S. 6/28/2026 20:56",
 		"tearDown" : "I. S. 6/28/2026 8:22",
 		"test01DiceRollCommand" : "I. S. 6/29/2026 4:20",
