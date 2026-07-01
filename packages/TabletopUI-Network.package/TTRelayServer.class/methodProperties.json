@@ -23,7 +23,6 @@
 		"initializeInstanceVariables" : "JF 7/1/2026 21:46",
 		"initializeServer:" : "JF 6/4/2026 13:01",
 		"kill" : "JF 7/1/2026 21:48",
-		"readRemoteEndpointFromUdpSocket" : "Jakob Fanselow 5/11/2026 12:46",
 		"sendToAllClients:" : "JF 1/18/2026 14:51",
 		"sendToServer:" : "JF 1/18/2026 16:38",
 		"server" : "TK 1/18/2026 10:33",
