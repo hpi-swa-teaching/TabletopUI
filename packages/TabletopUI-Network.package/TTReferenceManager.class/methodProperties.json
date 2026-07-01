@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEntry:forId:" : "CR 6/27/2026 13:50",
+		"addEntry:forId:" : "JF 7/1/2026 20:47",
 		"getIdOf:" : "CR 6/24/2026 17:30",
+		"hasEntry:" : "JF 7/1/2026 21:07",
 		"initialize" : "CR 6/24/2026 17:38",
 		"objectToIdTable" : "CR 6/24/2026 17:30",
 		"objectToIdTable:" : "CR 6/24/2026 17:30",

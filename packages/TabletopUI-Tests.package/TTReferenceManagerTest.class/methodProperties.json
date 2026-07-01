@@ -9,4 +9,6 @@
 		"test02WrongElementAccess" : "CR 6/29/2026 17:29",
 		"test03OnlyElementAccess" : "I. S. 6/29/2026 8:43",
 		"test04ArbitraryElementAccess" : "I. S. 6/29/2026 8:42",
-		"test05IdRenaming" : "CR 6/26/2026 19:12" } }
+		"test05IdRenaming" : "CR 6/26/2026 19:12",
+		"test06alreadyUsedId" : "JF 7/1/2026 20:45",
+		"test07checkEntryExistance" : "JF 7/1/2026 21:06" } }
