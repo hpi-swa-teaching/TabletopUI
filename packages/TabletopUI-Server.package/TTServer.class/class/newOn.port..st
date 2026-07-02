@@ -3,7 +3,7 @@ newOn: address port: port
 
 	| inst chat window sessionmanager mapSelector |
 	inst := self new.
-	inst networkmanager: (TTServerNetworkManager newWithAddress: address tcpPort: port udpPort: port).
+	inst networkmanager: (TTServerNetworkManager newWithAddress: address tcpPort: port).
 	inst referencemanager: TTReferenceManager new.
 	inst networkmanager referenceManager: inst referencemanager.
 	
