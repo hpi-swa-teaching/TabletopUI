@@ -10,9 +10,6 @@
 		"clients",
 		"server",
 		"idAssigner",
-		"udpSocket",
-		"udpEndpoints",
-		"playerPositions",
 		"shouldClose" ],
 	"name" : "TTRelayServer",
 	"pools" : [
