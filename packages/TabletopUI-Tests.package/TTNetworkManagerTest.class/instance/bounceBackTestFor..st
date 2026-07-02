@@ -18,4 +18,6 @@ bounceBackTestFor: networkManagerSubclass
 	deadline := DateAndTime now + (Duration milliSeconds: 2000).
 	
 	[(self ref resolve: 'NWMO') val = 49 or: [DateAndTime now > deadline]] whileFalse: [Processor yield].
-	self assert: (self ref resolve: 'NWMO') val = 'test'
+	self assert: (self ref resolve: 'NWMO') val = 'test'.
+	
+	nwm end
