@@ -15,4 +15,6 @@ receiveTestFor: networkManagerSubclass
 	
 	self receiver connection sendMessage: msg.
 	Processor yield.
-	self assert: (self ref resolve: 'NWMO') val = '42'
+	self assert: (self ref resolve: 'NWMO') val = '42'.
+	
+	nwm end

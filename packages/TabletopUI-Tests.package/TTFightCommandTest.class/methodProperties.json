@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"command:" : "I. S. 6/29/2026 3:58",
 		"command" : "I. S. 6/29/2026 9:13",
+		"command:" : "I. S. 6/29/2026 3:58",
 		"setUp" : "I. S. 6/28/2026 10:42",
 		"test01StartFight" : "I. S. 6/29/2026 8:52",
 		"test02EndFight" : "I. S. 6/29/2026 8:51",
