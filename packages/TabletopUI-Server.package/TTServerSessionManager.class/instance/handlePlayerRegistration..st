@@ -10,7 +10,7 @@ handlePlayerRegistration: aDict
 
 	self 
 		registerClient: name role: role connectionDetails: connectionDetails;
-		addToGameState: name role: role;
+		addToGameState: aDict;
 		addToGameStateOfSessionMembers: aDict;
 		sendFullGameStateToRegisteredPlayer.
 	]

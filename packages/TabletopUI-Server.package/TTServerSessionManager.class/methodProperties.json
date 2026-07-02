@@ -2,12 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addToGameState:role:" : "CR 5/26/2026 14:03",
 		"addToGameStateOfSessionMembers:" : "CR 6/27/2026 13:37",
 		"connectionRegistry" : "CR 5/26/2026 13:52",
 		"connectionRegistry:" : "CR 5/26/2026 13:52",
 		"handleClientUpdate:" : "CR 6/30/2026 18:33",
-		"handlePlayerRegistration:" : "CR 6/30/2026 18:30",
+		"handlePlayerRegistration:" : "CR 7/2/2026 14:16",
 		"initialize" : "CR 5/26/2026 13:59",
 		"newPlayerStateDict:role:" : "CR 5/26/2026 14:08",
 		"registerClient:role:connectionDetails:" : "CR 5/26/2026 13:52",
