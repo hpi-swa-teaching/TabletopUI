@@ -12,6 +12,7 @@ setUp
 		add: (TTClientSessionManager new window: self windows first model; networkFacade: TTMockNetworkFacade new);
 		add: (TTClientSessionManager new window: self windows second model; networkFacade: TTMockNetworkFacade new).
 	self sessionMembers do: [:member | member loadState: TTTabletopWindow emptyState].
+	self halt.
 	self manager: (TTServerSessionManager new 
 		window:( self windows third model);
 		networkFacade: self windows third model networkFacade).
