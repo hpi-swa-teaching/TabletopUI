@@ -1,0 +1,4 @@
+accessing
+defaultDisplay: aTTMonsterStatBlockDisplay
+
+	defaultDisplay := aTTMonsterStatBlockDisplay

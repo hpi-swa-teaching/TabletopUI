@@ -1,7 +1,7 @@
 testing
 test04CoreStatsText
 
-	self assert: self display coreStatsText asString equals: (self linesTerminated: #(
+	self assert: self defaultDisplay coreStatsText asString equals: (self linesTerminated: #(
 		'Armor Class: 15'
 		'Hit Points: 7'
 		'Speed: 30 ft.'

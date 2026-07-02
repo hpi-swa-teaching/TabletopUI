@@ -1,7 +1,7 @@
 testing
 test07RightColumnText
 
-	self assert: self display rightColumnText asString equals: (self linesTerminated: #(
+	self assert: self defaultDisplay rightColumnText asString equals: (self linesTerminated: #(
 		'Traits'
 		'Nimble Escape. The goblin can take the Disengage or Hide action as a bonus action on each of its turns.'
 		''

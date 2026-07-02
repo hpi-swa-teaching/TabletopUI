@@ -1,4 +1,4 @@
 testing
 test02SpeedText
 
-	self assert: self display speedText equals: '30 ft.'
+	self assert: self defaultDisplay speedText equals: '30 ft.'

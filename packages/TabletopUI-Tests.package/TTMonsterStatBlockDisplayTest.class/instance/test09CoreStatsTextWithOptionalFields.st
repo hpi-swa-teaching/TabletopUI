@@ -1,8 +1,7 @@
 testing
 test09CoreStatsTextWithOptionalFields
 
-	self display monster: TTMonster youngRedDragon.
-	self assert: self display coreStatsText asString equals: (self linesTerminated: #(
+	self assert: self exhaustiveDisplay coreStatsText asString equals: (self linesTerminated: #(
 		'Armor Class: 18'
 		'Hit Points: 178'
 		'Speed: 40 ft., Climb 40 ft., Fly 80 ft.'
