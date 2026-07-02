@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"networkObject",
+		"id" ],
+	"name" : "TTMockNetworkRelay",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

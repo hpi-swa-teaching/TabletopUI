@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"log",
+		"chatEcho",
+		"toServerNetworkRelay",
+		"toClientNetworkRelay" ],
+	"name" : "TTActionLogChatEchoIntegrationTest",
+	"pools" : [
+		 ],
+	"super" : "TTTestCase",
+	"type" : "normal" }
