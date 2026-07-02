@@ -2,6 +2,6 @@ testing-health
 test26NegativeTemporaryHP
 
 	self characterSheet gainTemporaryHP: -10.
-	self assert: (self characterSheet temporaryHP = '0')
+	self assert: self characterSheet temporaryHP equals: '0'
 	
 

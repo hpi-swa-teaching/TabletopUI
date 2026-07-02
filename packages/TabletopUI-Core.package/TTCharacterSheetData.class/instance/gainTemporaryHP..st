@@ -1,6 +1,4 @@
 rules - combat
-gainTemporaryHP: aSmallinteger
+gainTemporaryHP: aSmallInteger
 
-	self
-		temporaryHP: self temporaryHP + aSmallinteger;
-		changed: #temporaryHP
+	self temporaryHP: self temporaryHP + aSmallInteger

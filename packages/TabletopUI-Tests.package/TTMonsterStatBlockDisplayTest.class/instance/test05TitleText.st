@@ -1,6 +1,6 @@
 testing
 test05TitleText
 
-	self assert: self display titleText asString equals: (self linesTerminated: #(
+	self assert: self defaultDisplay titleText asString equals: (self linesTerminated: #(
 		'Goblin'
 		'Small Humanoid (Goblinoid), Neutral Evil'))

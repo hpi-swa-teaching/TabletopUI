@@ -4,13 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MH 6/27/2026 11:01",
 	"instvars" : [
 		"model",
 		"onForm",
 		"offForm",
 		"getSelector",
-		"setSelector" ],
+		"setSelector",
+		"state" ],
 	"name" : "TTToggleImageMorph",
 	"pools" : [
 		 ],

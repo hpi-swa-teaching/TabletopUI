@@ -313,27 +313,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'bugbear.png'
-			],
-			#encoding : Class [ #JPEGReadWriter2 ]
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'restButton.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'tarrasque.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -347,27 +329,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'lich.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'plusButton.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'manticore.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -381,27 +345,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'worg.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'successes0.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'aboleth.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -415,27 +361,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'skeleton.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'successes2.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'mimic.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -449,27 +377,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'banshee.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'failures0.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'doppelganger.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -483,27 +393,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'owlbear.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'failures2.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'harpy.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -517,27 +409,9 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'kobold.png'
-			],
-			#encoding : @87
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
 				'inventory.png'
 			],
 			#encoding : @18
-		},
-		GSImageMapper {
-			#version : 1,
-			#path : FSAbsolutePath [
-				'tabletop-graphics',
-				'monster-tokens',
-				'zombie.png'
-			],
-			#encoding : @87
 		},
 		GSImageMapper {
 			#version : 1,
@@ -554,7 +428,7 @@ GSMetadata {
 				'monster-tokens',
 				'beholder.png'
 			],
-			#encoding : @87
+			#encoding : Class [ #JPEGReadWriter2 ]
 		},
 		GSImageMapper {
 			#version : 1,
@@ -568,46 +442,135 @@ GSMetadata {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'monster-tokens',
-				'gelatinous_cube.png'
+				'close.png'
 			],
-			#encoding : @87
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'mind_flayer.png'
+				'bugbear.png'
 			],
-			#encoding : @87
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'young_red_dragon.png'
+				'tarrasque.png'
 			],
-			#encoding : @87
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'vampire_spawn.png'
+				'lich.png'
 			],
-			#encoding : @87
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
 				'monster-tokens',
-				'adult_bronze_dragon.png'
+				'manticore.png'
 			],
-			#encoding : @87
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'worg.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'aboleth.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'skeleton.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'mimic.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'banshee.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'doppelganger.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'owlbear.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'harpy.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'kobold.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'zombie.png'
+			],
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
@@ -616,13 +579,50 @@ GSMetadata {
 				'monster-tokens',
 				'goblin.png'
 			],
-			#encoding : @87
+			#encoding : @18
 		},
 		GSImageMapper {
 			#version : 1,
 			#path : FSAbsolutePath [
 				'tabletop-graphics',
-				'close.png'
+				'monster-tokens',
+				'young_red_dragon.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'adult_bronze_dragon.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'mind_flayer.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'gelatinous_cube.png'
+			],
+			#encoding : @18
+		},
+		GSImageMapper {
+			#version : 1,
+			#path : FSAbsolutePath [
+				'tabletop-graphics',
+				'monster-tokens',
+				'vampire_spawn.png'
 			],
 			#encoding : @18
 		}

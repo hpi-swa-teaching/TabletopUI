@@ -1,4 +1,4 @@
 accessing - spellcasting
 spellAbilityString
 
-	^ spellAbility asString
+	^ self spellAbility asString capitalized

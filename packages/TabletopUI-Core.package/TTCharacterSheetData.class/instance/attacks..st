@@ -1,4 +1,4 @@
 accessing - attacks
-attacks: anObject
+attacks: aDictionary
 
-	attacks := anObject
+	attacks := aDictionary

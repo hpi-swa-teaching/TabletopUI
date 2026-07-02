@@ -1,4 +1,4 @@
 extents
 hpExtent
 
-	^ ((self sheetExtent x) * (7 / 21)) @ ((self sheetExtent y) * (8 / 29.7))
+	^ ((self sheetExtent x) * (7 / self a4Width)) @ ((self sheetExtent y) * (8 / self a4Height))

@@ -1,4 +1,4 @@
 accessing
-damageVulnerabilities: anObject
+damageVulnerabilities: aString
 
-	damageVulnerabilities := anObject.
+	damageVulnerabilities := aString

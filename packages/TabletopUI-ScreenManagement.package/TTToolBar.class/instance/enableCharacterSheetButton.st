@@ -1,5 +1,5 @@
 tasks
 enableCharacterSheetButton
 	
-	characterSheetActive := true.
+	self characterSheetActive: true.
 	self changed: #isCharacterSheetEnabled.

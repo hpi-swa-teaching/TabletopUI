@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test10AllAbilitiesSelectedInitiallyFalse
 
 	self deny: self screen allAbilitiesSelected

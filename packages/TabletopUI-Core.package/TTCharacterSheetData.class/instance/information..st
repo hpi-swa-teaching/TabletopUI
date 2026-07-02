@@ -1,4 +1,4 @@
 accessing - information
-information: anObject
+information: aDictionary
 
-	information := anObject
+	information := aDictionary

@@ -1,4 +1,4 @@
 testing-combat
 test70SpeedDefault
 
-	self assert: self characterSheet speed = '30'
+	self assert: self characterSheet speed equals: '30'

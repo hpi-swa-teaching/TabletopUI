@@ -2,7 +2,7 @@ testing
 test11AssembleRunsAppliesEmphasisPerRange
 
 	| text |
-	text := self display assembleRuns: {
+	text := self defaultDisplay assembleRuns: {
 		{'AB'. {TextEmphasis bold}}.
 		{'CD'. {TextEmphasis italic}}}.
 	self

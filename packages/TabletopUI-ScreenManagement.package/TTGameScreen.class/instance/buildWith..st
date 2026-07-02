@@ -2,10 +2,10 @@ toolbuilder
 buildWith: aToolBuilder
 	
 	^ self buildWith: aToolBuilder children: ({
-		(0 @ 0 corner: 0.05 @ 1) -> [self toolBar createSpecWith: aToolBuilder].
-		(0.05 @ 0 corner: 0.15 @ 0.7) -> [self imageBar createSpecWith: aToolBuilder].
-		(0.05 @ 0.7 corner: 0.15 @ 1) -> [self tokenBar createPanelSpecWith: aToolBuilder].
-		(0.15 @ 0 corner: 0.75 @ 1) -> [self map createSpecWith: aToolBuilder]. 
-		(0.75 @ 0.1 corner: 1 @ 1) -> [self viewContainer createSpecWith: aToolBuilder].
-		(0.75 @ 0 corner: 1 @ 0.1) -> [self multipanel createSpecWith: aToolBuilder]} as: Dictionary)
+		(0 @ 0 corner: self toolBarWidth @ 1) -> [self toolBar createSpecWith: aToolBuilder].
+		(self toolBarWidth @ 0 corner: self sideBarWidth @ self sideBarSplit) -> [self imageBar createSpecWith: aToolBuilder].
+		(self toolBarWidth @ self sideBarSplit corner: self sideBarWidth @ 1) -> [self tokenBar createPanelSpecWith: aToolBuilder].
+		(self sideBarWidth @ 0 corner: self rightPanelLeft @ 1) -> [self map createSpecWith: aToolBuilder].
+		(self rightPanelLeft @ self multipanelHeight corner: 1 @ 1) -> [self viewContainer createSpecWith: aToolBuilder].
+		(self rightPanelLeft @ 0 corner: 1 @ self multipanelHeight) -> [self multipanel createSpecWith: aToolBuilder]} as: Dictionary)
 		resizable: true

@@ -1,4 +1,4 @@
 testing-spellcasting
 test85SpellAbilityDefault
 
-	self assert: self characterSheet spellAbility = #intelligence
+	self assert: self characterSheet spellAbility equals: #intelligence

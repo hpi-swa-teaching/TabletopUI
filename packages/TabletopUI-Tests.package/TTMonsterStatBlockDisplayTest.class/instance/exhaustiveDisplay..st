@@ -1,0 +1,4 @@
+accessing
+exhaustiveDisplay: aTTMonsterStatBlockDisplay
+
+	exhaustiveDisplay := aTTMonsterStatBlockDisplay

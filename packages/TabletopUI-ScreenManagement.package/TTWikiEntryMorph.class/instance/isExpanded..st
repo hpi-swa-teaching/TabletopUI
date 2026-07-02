@@ -1,4 +1,4 @@
 accessing
-isExpanded: anObject
+isExpanded: aBoolean
 
-	isExpanded := anObject
+	isExpanded := aBoolean

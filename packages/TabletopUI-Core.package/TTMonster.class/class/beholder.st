@@ -26,7 +26,7 @@ beholder
 		at: #senses put: 'Darkvision 120 ft., Passive Perception 22';
 		at: #languages put: 'Deep Speech, Undercommon';
 		at: #challenge_rating put: '13';
-		at: #proficiency_value put: '5';
+		at: #proficiency_value put: 5;
 		at: #special_abilities put: {
 			Dictionary new
 				at: #name put: 'Antimagic Cone';
@@ -62,7 +62,7 @@ beholder
 			Dictionary new
 				at: #name put: '4- Slowing Ray';
 				at: #desc
-					put: 'The targeted creature must succeed on a DC 16 Dexterity saving throw. On a failed save, the target''s speed is halved for 1 minute. In addition, the creature can''t take reactions, and it can take either an action or a bonus action on its turn, not bofh. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.';
+					put: 'The targeted creature must succeed on a DC 16 Dexterity saving throw. On a failed save, the target''s speed is halved for 1 minute. In addition, the creature can''t take reactions, and it can take either an action or a bonus action on its turn, not both. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.';
 				yourself.
 			Dictionary new
 				at: #name put: '5- Enervation Ray';

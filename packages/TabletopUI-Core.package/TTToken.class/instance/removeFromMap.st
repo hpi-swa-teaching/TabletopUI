@@ -1,6 +1,6 @@
-drag and drop
+deleting
 removeFromMap
 
-	(self owner isTTTile and: [self owner owner isKindOf: TTMap])
-		ifTrue: [self owner owner removeToken: self]
+	(self owner isTTTile and: [self owner isPartOfMap])
+		ifTrue: [self owner removeToken: self]
 		ifFalse: [self delete]

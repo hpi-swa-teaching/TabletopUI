@@ -1,4 +1,4 @@
 accessing - skills
-skillsLookup: anObject
+skillsLookup: aDictionary
 
-	skillsLookup := anObject
+	skillsLookup := aDictionary

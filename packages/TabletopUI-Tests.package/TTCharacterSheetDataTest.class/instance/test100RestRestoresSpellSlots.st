@@ -3,4 +3,4 @@ test100RestRestoresSpellSlots
 
 	self characterSheet spellSlot1Maximum: 4.
 	self characterSheet rest.
-	self assert: self characterSheet spellSlot1Current = '4'
+	self assert: self characterSheet spellSlot1Current equals: '4'

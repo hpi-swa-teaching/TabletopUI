@@ -1,4 +1,4 @@
 accessing
-savingThrows: anObject
+savingThrows: aString
 
-	savingThrows := anObject.
+	savingThrows := aString

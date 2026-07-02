@@ -6,5 +6,5 @@ test24IncrementOutOfBoundsDeathSaves
 		deathSaveFailures: 3;
 		incrementDeathSaveSuccesses;
 		incrementDeathSaveFailures.
-	self assert: (self characterSheet deathSaveSuccesses = 3).
-	self assert: (self characterSheet deathSaveFailures = 3)
+	self assert: self characterSheet deathSaveSuccesses equals: 3.
+	self assert: self characterSheet deathSaveFailures equals: 3

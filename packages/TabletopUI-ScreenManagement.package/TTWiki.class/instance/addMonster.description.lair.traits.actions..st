@@ -4,4 +4,4 @@ addMonster: aTitle description: aDescription lair: aLairCollection traits: aTrai
 	| entry |
 	entry := TTWikiEntryMorph new
 	initializeMonsterWithTitle: aTitle description: aDescription lair: aLairCollection traits: aTraitsCollection actions: anActionsCollection.
-	monsters add: entry
+	self monsters add: entry

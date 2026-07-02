@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "MH 6/27/2026 10:56",
 	"instvars" : [
-		"selectedIndex",
 		"tokenList" ],
 	"name" : "TTTokenSelectionScreen",
 	"pools" : [
 		 ],
-	"super" : "TTScreen",
+	"super" : "TTSelectionScreen",
 	"type" : "normal" }

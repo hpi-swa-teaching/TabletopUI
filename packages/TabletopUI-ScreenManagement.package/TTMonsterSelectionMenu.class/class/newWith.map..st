@@ -2,6 +2,6 @@ initialize-release
 newWith: aTTCharacterAdministration map: aTTMap
 
 	^ self new
-		characterAdministration: aTTCharacterAdministration;
+		items: aTTCharacterAdministration monsters;
 		map: aTTMap;
 		yourself

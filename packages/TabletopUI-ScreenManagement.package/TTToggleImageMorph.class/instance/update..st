@@ -1,4 +1,6 @@
 input handling
 update: aSymbol
 
-	self setImageFor: (self model perform: self getSelector)
+	self
+		state: (self model perform: self getSelector);
+		setImage

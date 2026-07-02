@@ -4,7 +4,7 @@
 		"adultBronzeDragon" : "tf 6/19/2026 16:11",
 		"allTemplates" : "TR 6/15/2026 20:14",
 		"banshee" : "tf 6/19/2026 16:12",
-		"beholder" : "tf 6/19/2026 16:12",
+		"beholder" : "tf 6/27/2026 14:21",
 		"bugbear" : "TR 6/14/2026 11:48",
 		"doppelganger" : "TR 6/14/2026 22:22",
 		"fromSpec:" : "tf 6/19/2026 16:38",
@@ -15,7 +15,7 @@
 		"lich" : "TR 6/17/2026 14:24",
 		"manticore" : "tf 6/19/2026 16:13",
 		"mimic" : "TR 6/14/2026 22:15",
-		"mindFlayer" : "tf 6/19/2026 16:11",
+		"mindFlayer" : "tf 6/25/2026 16:33",
 		"owlbear" : "TR 6/14/2026 21:00",
 		"skeleton" : "TR 6/14/2026 10:39",
 		"tarrasque" : "TR 6/17/2026 14:23",
@@ -24,4 +24,4 @@
 		"youngRedDragon" : "tf 6/19/2026 16:13",
 		"zombie" : "TR 6/14/2026 11:37" },
 	"instance" : {
-		"initialize" : "tf 6/19/2026 16:37" } }
+		"initialize" : "tf 6/27/2026 13:50" } }

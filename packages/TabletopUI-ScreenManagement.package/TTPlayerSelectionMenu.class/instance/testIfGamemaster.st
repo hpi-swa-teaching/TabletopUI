@@ -1,11 +1,7 @@
 accessing
 testIfGamemaster
-
-	| player |
 	
-	self toolBar isNil ifTrue: [^self].
-	self characterAdministration isNil ifFalse: [
-	player := self getActivePlayer.
-	player isGamemaster
+	self toolBar ifNil: [^ self].
+	self getActivePlayer isGamemaster
 		ifTrue: [self toolBar disableCharacterSheetButton]
-		ifFalse: [self toolBar enableCharacterSheetButton]]
+		ifFalse: [self toolBar enableCharacterSheetButton]

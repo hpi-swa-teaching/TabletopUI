@@ -1,4 +1,4 @@
 accessing
-wiki: anObject
+wiki: aMorph
 
-	wiki := anObject
+	wiki := aMorph

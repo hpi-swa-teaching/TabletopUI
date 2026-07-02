@@ -1,4 +1,4 @@
 accessing - money
-wallet: anObject
+wallet: aDictionary
 
-	wallet := anObject
+	wallet := aDictionary

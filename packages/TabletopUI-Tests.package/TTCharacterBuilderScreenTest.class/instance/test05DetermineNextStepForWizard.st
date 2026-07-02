@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test05DetermineNextStepForWizard
 
 	self screen currentStep: #class.

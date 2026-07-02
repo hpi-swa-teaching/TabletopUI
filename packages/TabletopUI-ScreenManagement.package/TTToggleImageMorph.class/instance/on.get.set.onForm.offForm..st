@@ -7,5 +7,6 @@ on: aModel get: aGetSymbol set: aSetSymbol onForm: anOnForm offForm: anOffForm
 		setSelector: aSetSymbol;
 		onForm: anOnForm;
 		offForm: anOffForm;
-		setImageFor: (aModel perform: aGetSymbol).
+		state: (self model perform: self getSelector);
+		setImage.
 	aModel addDependent: self

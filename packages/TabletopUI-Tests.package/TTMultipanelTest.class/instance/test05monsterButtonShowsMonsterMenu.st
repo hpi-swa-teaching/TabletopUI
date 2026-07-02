@@ -5,5 +5,4 @@ test05monsterButtonShowsMonsterMenu
 	viewContainer := self multiPanel viewContainer.
 
 	self multiPanel openMonsters.
-
-	self assert: (viewContainer submorphs at: 1) equals: self multiPanel monsterMenu
+	self assert: (viewContainer submorphs first) equals: self multiPanel monsterSelectionMenu

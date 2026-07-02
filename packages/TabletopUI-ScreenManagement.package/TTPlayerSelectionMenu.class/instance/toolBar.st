@@ -1,4 +1,4 @@
 accessing
 toolBar
 
-	^toolBar
+	^ toolBar

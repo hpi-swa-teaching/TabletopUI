@@ -1,4 +1,4 @@
 accessing - spellcasting
-spells: anObject
+spells: aDictionary
 
-	spells := anObject
+	spells := aDictionary

@@ -1,7 +1,7 @@
 toolbuilder
 abilityRowSpec: aToolBuilder
 
-	| cells |
+	| n cells |
 	cells := {
 		#strengthCellText.
 		#dexterityCellText.
@@ -9,13 +9,14 @@ abilityRowSpec: aToolBuilder
 		#intelligenceCellText.
 		#wisdomCellText.
 		#charismaCellText}.
-
+		
+	n := cells size.
 	^ aToolBuilder pluggablePanelSpec new
 		model: self;
-		children: ((1 to: cells size) collect: [:i |
+		children: (cells collectWithIndex: [:selector :i |
 			self
-				abilityCellSpec: aToolBuilder
-				getText: (cells at: i)
-				frame: (LayoutFrame fractions: ((i - 1) / cells size @ 0 rect: i / cells size @ 1))])
+				readOnlyTextSpec: aToolBuilder
+				getText: selector
+				frame: (LayoutFrame fractions: ((i - 1) / n @ 0 rect: i / n @ 1))])
 				asOrderedCollection;
 		yourself

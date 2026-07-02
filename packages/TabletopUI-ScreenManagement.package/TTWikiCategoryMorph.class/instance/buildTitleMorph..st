@@ -8,4 +8,5 @@ buildTitleMorph: aTitleString
 		emphasis: 1; 
 		contents: '> ' , aTitleString; 
 		color: self defaultTextColor;
-		hResizing: #spaceFill
+		hResizing: #spaceFill;
+		yourself

@@ -1,4 +1,4 @@
 accessing
 characterSheets: aDictionary
 
-	characterSheets := aDictionary.
+	characterSheets := aDictionary

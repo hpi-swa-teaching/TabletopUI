@@ -1,4 +1,4 @@
 accessing
-titleMorph: anObject
+titleMorph: aStringMorph
 
-	titleMorph := anObject
+	titleMorph := aStringMorph

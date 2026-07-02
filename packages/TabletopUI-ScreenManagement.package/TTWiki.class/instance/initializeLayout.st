@@ -7,5 +7,5 @@ initializeLayout
 		cellInset: 5;
 		cellSpacing: #none;
 		hResizing: #spaceFill;
-		vResizing: #shrinkWrap;
+		vResizing: #spaceFill;
 		color: Color transparent

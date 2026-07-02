@@ -1,5 +1,6 @@
 actions
 openSelectedMonsterSheet
 
-	self selectedMonster ifNotNil: [:aTTMonster |
+	self selectedItem ifNotNil: [:aTTMonster |
 		TTMonsterStatBlockDisplay openWith: aTTMonster map: self map]
+	

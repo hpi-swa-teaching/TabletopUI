@@ -1,4 +1,4 @@
 extents
 inventoryExtent
 
-	^ ((self sheetExtent x) * (20 / 21)) @ ((self sheetExtent y) * (20 / 29.7))
+	^ ((self sheetExtent x) * (20 / self a4Width)) @ ((self sheetExtent y) * (20 / self a4Height))

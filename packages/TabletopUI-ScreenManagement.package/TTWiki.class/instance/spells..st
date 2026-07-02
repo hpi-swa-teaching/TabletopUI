@@ -1,4 +1,4 @@
 accessing
-spells: anObject
+spells: anOrderedCollection
 
-	spells := anObject
+	spells := anOrderedCollection

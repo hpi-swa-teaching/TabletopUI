@@ -1,11 +1,10 @@
-as yet unclassified
+initialization
 initialize
 
 	super initialize.
 	self 
-		extent: 1000@800;
 		changeTableLayout;
 		listDirection: #topToBottom;
 		hResizing: #spaceFill;
-		vResizing: #spaceFill
-		"color: Color white"
+		vResizing: #spaceFill;
+		ownerChangedHandler: [self extent: self owner extent]

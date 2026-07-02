@@ -1,4 +1,4 @@
 accessing
-monsterSize: anObject
+monsterSize: aString
 
-	monsterSize := anObject
+	monsterSize := aString

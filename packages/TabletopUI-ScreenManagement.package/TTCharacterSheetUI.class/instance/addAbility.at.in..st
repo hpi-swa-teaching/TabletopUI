@@ -2,7 +2,7 @@ primitives
 addAbility: aSymbol at: aPoint in: anImageMorph
 
 	self addEditableField: aSymbol
-		sized: 50 @ 30
+		sized: self smallFieldExtent
 		at: aPoint
 		in: anImageMorph.
 	self addField: (aSymbol , 'Modifier') asSymbol

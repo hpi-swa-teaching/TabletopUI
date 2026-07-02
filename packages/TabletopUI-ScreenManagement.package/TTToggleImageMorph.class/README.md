@@ -1,0 +1,1 @@
+A TTToggleImageMorph encapsulates the logic for displaying boolean values.

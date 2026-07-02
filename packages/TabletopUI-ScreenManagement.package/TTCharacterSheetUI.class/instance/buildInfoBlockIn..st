@@ -2,18 +2,18 @@ build
 buildInfoBlockIn: aMorph
 
 	self addEditableField: #characterName
-		sized: 150 @ 35
+		sized: self infoFieldExtent
 		at: 18 @ 27
 		in: aMorph.
 	self addEditableField: #background
-		sized: 150 @ 35
+		sized: self infoFieldExtent
 		at: 18 @ 97
 		in: aMorph.
 	self addField: #className
 		at: 228 @ 27
 		in: aMorph.
 	self addEditableField: #race
-		sized: 150 @ 35
+		sized: self infoFieldExtent
 		at: 228 @ 97
 		in: aMorph.
 	self addEditableField: #experiencePoints

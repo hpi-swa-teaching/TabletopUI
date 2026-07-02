@@ -7,4 +7,11 @@ test106SpellSlotSetters
 			self characterSheet perform: (('spell' , level asString , 'Slot' , slot asString , 'Name:') asSymbol) with: 'Duplication'.]].
 	1 to: 9 do: [:level |
 		self characterSheet perform: (('spellSlot' , level asString , 'Maximum:') asSymbol) with: 2.
-		self characterSheet perform: (('spellSlot' , level asString , 'Current:') asSymbol) with: 2]
+		self characterSheet perform: (('spellSlot' , level asString , 'Current:') asSymbol) with: 2].
+	
+	self assert: self characterSheet spell0Slot1Equipped equals: 1.
+	self assert: self characterSheet spell0Slot1Name equals: 'Duplication'.
+	self assert: self characterSheet spellSlot1Maximum equals: '2'.
+	self assert: self characterSheet spellSlot1Current equals: '2'
+	
+	

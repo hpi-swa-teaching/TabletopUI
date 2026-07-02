@@ -6,4 +6,4 @@ test01playerButtonShowsPlayerSelectionMenu
 	
 	self multiPanel openPlayers.
 
-	self assert: (viewContainer submorphs at: 1) equals: self multiPanel playerSelectionMenu
+	self assert: (viewContainer submorphs first) equals: self multiPanel playerSelectionMenu

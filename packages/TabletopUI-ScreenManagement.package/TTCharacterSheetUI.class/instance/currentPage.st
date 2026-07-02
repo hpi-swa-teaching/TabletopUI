@@ -1,4 +1,4 @@
 accessing
 currentPage
 
-	^ currentPage ifNil: [1].
+	^ currentPage ifNil: [1]

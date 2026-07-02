@@ -8,7 +8,7 @@ rightColumnText
 			runs add: {title, self newline.
 				{TextEmphasis bold.
 				TextColor color: self accentColor.
-				TextFontReference toFont: (TextStyle defaultFont asPointSize: 16)}}.
+				TextFontReference toFont: (TextStyle defaultFont asPointSize: self sectionFontSize)}}.
 			entries do: [:each | | name desc |
 				name := each at: #name ifAbsent: [''].
 				desc := each at: #desc ifAbsent: [''].

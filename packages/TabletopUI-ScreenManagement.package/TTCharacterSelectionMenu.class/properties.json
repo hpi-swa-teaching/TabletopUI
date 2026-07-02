@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "tf 6/30/2026 16:14",
+	"instvars" : [
+		"selectedIndex",
+		"items" ],
+	"name" : "TTCharacterSelectionMenu",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

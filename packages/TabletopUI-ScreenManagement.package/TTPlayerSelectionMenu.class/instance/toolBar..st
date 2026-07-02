@@ -1,4 +1,4 @@
 accessing
-toolBar: anObject
+toolBar: aTTToolBar
 
-	toolBar := anObject
+	toolBar := aTTToolBar

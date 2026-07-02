@@ -1,10 +1,9 @@
 setup - initialization
 initializeCustomizedCharacterWith: aDictionary
-
-	self flag: 'TODO: Die anderen beiden Klassen noch einfügen'.
-	self class forTemplate: (aDictionary at: #class) asSymbol.
 	
 	self 
 		abilities: (aDictionary at: #abilities);
+		race: (aDictionary at: #race);
 		speed: ((self class raceSpeedValues) at: (aDictionary at: #race));
-		initializeSpellcastingFrom: aDictionary
+		initializeSpellcastingFrom: aDictionary;
+		initializeHP

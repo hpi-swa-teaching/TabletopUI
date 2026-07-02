@@ -3,7 +3,7 @@ initializeSpells
 
 	"nested dictionary with string and boolean per each level and slot"
 	self spells: Dictionary new.
-	0 to: self class maximumSpellcastingLevel do: [:level |
+	0 to: self class maximumSpellcastingLevel do: [:levelIndex |
 		| levelDictionary |
 		levelDictionary := Dictionary new.
 		1 to: self class spellCount do: [:slot |
@@ -11,4 +11,4 @@ initializeSpells
 				at: #name put: '';
 				at: #equipped put: 0;
 				yourself)].
-		self spells at: level put: levelDictionary]
+		self spells at: levelIndex put: levelDictionary]

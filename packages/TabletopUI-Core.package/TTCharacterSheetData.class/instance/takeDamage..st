@@ -5,8 +5,5 @@ takeDamage: aNumber
 	(aNumber < 0) ifTrue: [^ self].
 	absorbed := aNumber min: self temporaryHP.
 	self temporaryHP: self temporaryHP - absorbed.
-	remaining := aNumber - absorbed. .
-	self
-		currentHP: self currentHP - remaining;
-		changed: #temporaryHP;
-		changed: #currentHP
+	remaining := aNumber - absorbed.
+	self currentHP: self currentHP - remaining

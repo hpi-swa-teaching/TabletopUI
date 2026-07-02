@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test06DetermineBeforeStepForWizard
 
 	self screen currentStep: #race.

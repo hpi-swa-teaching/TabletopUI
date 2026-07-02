@@ -1,4 +1,7 @@
 testing
 test05buildCategory
 
-	self wiki buildCategory: 'Test Category' from: (self collection)
+	| morphCountBefore |
+	morphCountBefore := self wiki submorphs size.
+	self wiki buildCategory: 'Test Category' from: self collection.
+	self assert: self wiki submorphs size equals: (morphCountBefore + 2)

@@ -1,10 +1,10 @@
 A TTWiki is the structure in which we display different entries.
 
 Instance Variables
-	items:		<Object>
-	monsters:		<Object>
-	spells:		<Object>
-	subclasses:		<Object>
+	items:		<OrderedCollection>
+	monsters:		<OrderedCollection>
+	spells:		<OrderedCollection>
+	subclasses:		<OrderedCollection>
 
 items
 	- stores all item entries

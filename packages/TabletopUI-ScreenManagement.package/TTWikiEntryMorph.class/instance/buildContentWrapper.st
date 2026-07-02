@@ -6,4 +6,5 @@ buildContentWrapper
 		changeTableLayout; 
 		listDirection: #topToBottom; 
 		hResizing: #spaceFill; 
-		vResizing: #shrinkWrap
+		vResizing: #shrinkWrap;
+		yourself

@@ -9,7 +9,7 @@ Instance Variables
 	selectedPresets:		<Dictionary>
 
 characterIndex
-	- refers to the player whose character is builded
+	- refers to the player whose character is built
 
 choices
 	- stores the different choices the player has already made while building

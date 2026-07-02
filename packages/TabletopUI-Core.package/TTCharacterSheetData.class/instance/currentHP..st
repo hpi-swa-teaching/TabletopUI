@@ -1,7 +1,5 @@
 accessing-health
-currentHP: anObject
+currentHP: aNumber
 
-	currentHP := anObject.
-	self 
-		clampCurrentHP;
-		changed: #currentHP
+	currentHP := aNumber.
+	self clampCurrentHP

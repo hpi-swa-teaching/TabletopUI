@@ -1,4 +1,4 @@
 accessing
-senses: anObject
+senses: aString
 
-	senses := anObject.
+	senses := aString

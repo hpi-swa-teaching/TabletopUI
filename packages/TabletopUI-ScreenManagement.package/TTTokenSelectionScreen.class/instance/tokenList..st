@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 tokenList: aDictionary
 
 	tokenList := aDictionary.

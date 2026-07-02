@@ -1,3 +1,1 @@
-A TTViewContainer is makes different views easily interchangeable.
-
-Instance Variables
+A TTViewContainer makes different views easily interchangeable.

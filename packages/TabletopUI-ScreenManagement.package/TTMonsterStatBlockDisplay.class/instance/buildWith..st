@@ -10,14 +10,10 @@ buildWith: aToolBuilder
 				children:
 						(OrderedCollection new
 							add:
-								(aToolBuilder pluggableTextSpec new
-									model: self;
-									getText: #titleText;
-									color: #backgroundColor;
-									indicateUnacceptedChanges: false;
-									frame: (LayoutFrame fractions: (0 @ 0 rect: 0.5 @ 0.16));
-									readOnly: true;
-									yourself);
+								(self
+									readOnlyTextSpec: aToolBuilder
+									getText: #titleText
+									frame: (LayoutFrame fractions: (0 @ 0 rect: 0.5 @ 0.16)));
 
 							add:
 								((self abilityRowSpec: aToolBuilder)
@@ -25,24 +21,16 @@ buildWith: aToolBuilder
 									yourself);
 
 							add:
-								(aToolBuilder pluggableTextSpec new
-									model: self;
-									getText: #coreStatsText;
-									color: #backgroundColor;
-									indicateUnacceptedChanges: false;
-									frame: (LayoutFrame fractions: (0 @ 0.32 rect: 0.5 @ 0.92));
-									readOnly: true;
-									yourself);
+								(self
+									readOnlyTextSpec: aToolBuilder
+									getText: #coreStatsText
+									frame: (LayoutFrame fractions: (0 @ 0.32 rect: 0.5 @ 0.92)));
 
 							add:
-								(aToolBuilder pluggableTextSpec new
-									model: self;
-									getText: #rightColumnText;
-									color: #backgroundColor;
-									indicateUnacceptedChanges: false;
-									frame: (LayoutFrame fractions: (0.5 @ 0 rect: 1 @ 0.92));
-									readOnly: true;
-									yourself);
+								(self
+									readOnlyTextSpec: aToolBuilder
+									getText: #rightColumnText
+									frame: (LayoutFrame fractions: (0.5 @ 0 rect: 1 @ 0.92)));
 
 							add:
 								(aToolBuilder pluggableButtonSpec new

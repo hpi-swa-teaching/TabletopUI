@@ -3,5 +3,5 @@ openSheet
 
 	self sheet
 		openInWorld;
-		position: 300 @ 50.
+		position: self sheetOpenPosition.
 	self layoutPage: self currentPage.

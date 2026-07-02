@@ -1,4 +1,4 @@
 accessing
-legendaryActions: anObject
+legendaryActions: aDictionary
 
-	legendaryActions := anObject.
+	legendaryActions := aDictionary

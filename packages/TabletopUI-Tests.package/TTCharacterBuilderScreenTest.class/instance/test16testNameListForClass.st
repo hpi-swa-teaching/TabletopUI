@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 test16testNameListForClass
 
 	self screen currentStep: #class.

@@ -2,7 +2,7 @@ build
 buildStatsIn: aMorph
 
 	self addEditableField: #speed
-		sized: 50 @ 30
+		sized: self smallFieldExtent
 		at: 35 @ 40
 		in: aMorph.
 	self addField: #initiative

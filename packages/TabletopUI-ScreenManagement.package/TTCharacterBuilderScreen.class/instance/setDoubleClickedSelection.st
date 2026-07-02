@@ -3,7 +3,7 @@ setDoubleClickedSelection
 
 	| selection |
 	
-	selection := self getDoubleClickedSelection.
+	selection := self doubleClickedSelection.
 	
 	self setDoubleClickedSelectionWith: selection.
 	self changed: #nameList

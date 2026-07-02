@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"mockForm" : "jv 6/30/2026 15:22",
+		"setUp" : "tf 6/30/2026 17:22",
+		"sheet" : "jv 6/30/2026 15:19",
+		"sheet:" : "jv 6/30/2026 15:19",
+		"test01ToggleFlipsModel" : "jv 6/30/2026 15:32",
+		"test02ToggleReadsModel" : "jv 6/30/2026 15:42",
+		"test03TogglePersists" : "jv 6/30/2026 15:41",
+		"toggle" : "jv 6/30/2026 15:19",
+		"toggle:" : "jv 6/30/2026 15:20" } }

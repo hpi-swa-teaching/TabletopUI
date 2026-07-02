@@ -3,5 +3,5 @@ finalize: aTextMorph at: aPoint in: anImageMorph
 
 	self
 		textSettingsFor: aTextMorph;
-		add: aTextMorph ToUI: anImageMorph.
+		add: aTextMorph toUI: anImageMorph.
 	aTextMorph position: aPoint

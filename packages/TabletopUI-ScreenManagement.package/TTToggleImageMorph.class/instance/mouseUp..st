@@ -1,9 +1,10 @@
 input handling
 mouseUp: anEvent
 
-	| newState |
-	newState := (self model perform: self getSelector) = 0
-		ifTrue: [1]
-		ifFalse: [0].
-	self model perform: self setSelector with: newState.
-	self setImageFor: newState.
+	| wasOn |
+	wasOn := (self model perform: self getSelector) = 1.
+	self model
+		perform: self setSelector
+		with: (wasOn
+			ifTrue: [0]
+			ifFalse: [1])

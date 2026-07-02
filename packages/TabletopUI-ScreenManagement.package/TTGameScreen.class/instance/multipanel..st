@@ -1,4 +1,4 @@
 accessing
-multipanel: anObject
+multipanel: aTTMultipanel
 
-	multipanel := anObject
+	multipanel := aTTMultipanel

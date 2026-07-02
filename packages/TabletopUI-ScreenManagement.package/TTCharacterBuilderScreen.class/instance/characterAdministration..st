@@ -1,5 +1,0 @@
-accessing
-characterAdministration: aCharacterAdministration
-
-	super characterAdministration: aCharacterAdministration
-

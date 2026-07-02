@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"display" ],
+		"defaultDisplay",
+		"exhaustiveDisplay" ],
 	"name" : "TTMonsterStatBlockDisplayTest",
 	"pools" : [
 		 ],

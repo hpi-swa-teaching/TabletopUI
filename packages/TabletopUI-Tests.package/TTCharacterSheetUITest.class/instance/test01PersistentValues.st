@@ -6,4 +6,4 @@ test01PersistentValues
 	firstDisplay := self openDisplay.
 	firstDisplay model strength: 12.
 	secondDisplay := self openDisplay.
-	self assert: ((secondDisplay model strength) = '12')
+	self assert: (secondDisplay model strength) equals: '12'

@@ -2,7 +2,7 @@ display
 buildTitleMorph: aTitleString
 
 	| morph font |
-	font := TextStyle default fontOfSize: 30.
+	font := TextStyle default fontOfSize: self titlePointSize.
 	morph := StringMorph new. 
 	morph 
 		font: font; 

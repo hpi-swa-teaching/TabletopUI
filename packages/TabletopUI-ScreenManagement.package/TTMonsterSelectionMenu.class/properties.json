@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "tf 6/11/2026 18:21",
+	"commentStamp" : "tf 6/27/2026 13:04",
 	"instvars" : [
-		"characterAdministration",
-		"map",
-		"selectedIndex" ],
+		"map" ],
 	"name" : "TTMonsterSelectionMenu",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTCharacterSelectionMenu",
 	"type" : "normal" }

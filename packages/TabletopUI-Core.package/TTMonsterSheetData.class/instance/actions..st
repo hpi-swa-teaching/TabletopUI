@@ -1,4 +1,4 @@
 accessing
-actions: anObject
+actions: aDictionary
 
-	actions := anObject.
+	actions := aDictionary

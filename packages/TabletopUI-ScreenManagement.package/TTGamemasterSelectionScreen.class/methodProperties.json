@@ -2,14 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildWith:" : "MM 7/18/2021 18:17",
-		"continue" : "tf 5/3/2026 12:07",
+		"continue" : "tf 6/27/2026 14:48",
 		"continueButtonLabel" : "MM 5/24/2021 11:59",
-		"createListSpecWith:" : "joda 6/28/2021 17:03",
-		"initialize" : "joda 6/28/2021 17:03",
 		"leave" : "MM 5/23/2021 10:18",
-		"listBounds" : "joda 7/7/2021 10:57",
 		"nameList" : "rf 7/8/2021 14:42",
-		"selectGamemaster" : "MM 7/9/2021 14:41",
-		"selectedIndex" : "joda 5/26/2021 22:56",
-		"selectedIndex:" : "bv 6/8/2021 10:36" } }
+		"selectGamemaster" : "MM 7/9/2021 14:41" } }

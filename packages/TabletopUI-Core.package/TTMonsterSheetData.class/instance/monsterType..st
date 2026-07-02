@@ -1,4 +1,4 @@
 accessing
-monsterType: anObject
+monsterType: aString
 
-	monsterType := anObject.
+	monsterType := aString
