@@ -4,7 +4,7 @@
 	"instance" : {
 		"screen" : "CR 6/29/2026 16:26",
 		"screen:" : "CR 6/29/2026 16:26",
-		"setUp" : "CR 6/29/2026 16:39",
+		"setUp" : "CR 7/2/2026 16:14",
 		"tearDown" : "CR 6/29/2026 17:09",
 		"test01CreateNPC" : "CR 6/30/2026 16:37",
 		"test02ValidateAndCreateNPC" : "CR 6/29/2026 17:12",

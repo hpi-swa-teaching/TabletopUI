@@ -1,6 +1,10 @@
 sending
 send: message to: object with: params
 
+	(object = 'sessionmanager' and: [message ~= 'loadState:']) ifTrue: [
+		self subscribers do: [:subscriber | subscriber perform: message asSymbol with: params].
+		^ self].
+	(object = 'sessionmanagerUninitialized' and: [message = 'loadState:']) ifTrue: [^ self].
 	(message = 'loadState:' or: [message = #loadState:]) ifTrue: [
 		self subscribers do: [:subscriber | subscriber loadState: params].
 		^ self].
@@ -19,7 +23,7 @@ send: message to: object with: params
 						perform: message asSymbol
 						with: params]].
 		^ self].
-	(object = 'token_Alice') ifTrue: [
+	object = 'token_Alice' ifTrue: [
 		(params at: #receiver) = 'server'
 			ifTrue: [self server tokens first perform: message asSymbol with: params]
 			ifFalse: [
@@ -28,7 +32,7 @@ send: message to: object with: params
 						perform: message asSymbol
 						with: params]].
 		^ self].
-	(object = '2_2') ifTrue: [
+	object = '2_2' ifTrue: [
 		(params at: #receiver) = 'server'
 			ifTrue: [
 				(self server tiles at: 2 at: 2)
@@ -40,8 +44,5 @@ send: message to: object with: params
 						perform: message asSymbol
 						with: params]].
 		^ self].
-	(object = 'sessionmanager') ifTrue: [
-		self subscribers do: [:subscriber | subscriber perform: message asSymbol with: params].
-		^self].
 	
 	self server perform: message asSymbol with: params

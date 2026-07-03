@@ -8,7 +8,7 @@
 	"instvars" : [
 		"server",
 		"clients",
-		"broadcastConnectionmanager",
+		"broadcastConnectionmanagers",
 		"networkFacade" ],
 	"name" : "TTPlayerPositionSynchronisationTest",
 	"pools" : [

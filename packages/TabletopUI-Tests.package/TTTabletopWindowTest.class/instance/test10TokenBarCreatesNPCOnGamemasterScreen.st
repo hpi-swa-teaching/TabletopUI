@@ -4,11 +4,11 @@ test10TokenBarCreatesNPCOnGamemasterScreen
 
 	| networkmanager screen |
 	networkmanager:= self window networkFacade networkmanager.
-	screen:= self window gamescreen.
+	
 	self window
 		setAsGamemaster;
 		openGameScreen.
-		
+	screen:= self window gamescreen.
 	screen tokenBar
 		currentName: 'orc';
 		createNPC.
