@@ -1,5 +1,4 @@
 stepping
 step
 
-	self checkClientConnect.
-	self broadcastPositions
+	self checkClientConnect
