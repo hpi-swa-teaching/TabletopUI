@@ -1,6 +1,10 @@
 setup
 setUpServer
-	
-	self server: (TTMap newWithNetworkFacade: self networkFacade).
+
+	| networkFacade broadcastConnectionmanager |
+	broadcastConnectionmanager := TTBroadcastMockConnector new.
+	networkFacade := TTNetworkFacade new networkmanager: broadcastConnectionmanager.
+	self broadcastConnectionmanagers add: broadcastConnectionmanager.
+	self server: (TTMap newWithNetworkFacade: networkFacade).
 	self server initializePlayerTokens: self players.
-	self broadcastConnectionmanager server: self server.
+	broadcastConnectionmanager server: self server

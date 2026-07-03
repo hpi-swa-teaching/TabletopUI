@@ -8,8 +8,7 @@
 	"instvars" : [
 		"server",
 		"clients",
-		"broadcastConnectionmanager",
-		"networkFacade" ],
+		"broadcastConnectionmanagers" ],
 	"name" : "TTFightTurnSynchronisationTest",
 	"pools" : [
 		 ],

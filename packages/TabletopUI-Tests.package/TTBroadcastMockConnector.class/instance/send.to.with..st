@@ -4,7 +4,7 @@ send: message to: object with: params
 	(object = 'sessionmanager' and: [message ~= 'loadState:']) ifTrue: [
 		self subscribers do: [:subscriber | subscriber perform: message asSymbol with: params].
 		^ self].
-	(object = 'sessionmanager' and: [message = 'loadState:']) ifTrue: [^ self].
+	(object = 'sessionmanagerUninitialized' and: [message = 'loadState:']) ifTrue: [^ self].
 	(message = 'loadState:' or: [message = #loadState:]) ifTrue: [
 		self subscribers do: [:subscriber | subscriber loadState: params].
 		^ self].
