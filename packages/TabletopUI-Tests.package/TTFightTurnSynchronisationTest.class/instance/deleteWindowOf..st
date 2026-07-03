@@ -1,4 +1,4 @@
-helpers
+accessing
 deleteWindowOf: anObject
 
-	anObject window contents first owner delete
+	anObject contents first owner delete

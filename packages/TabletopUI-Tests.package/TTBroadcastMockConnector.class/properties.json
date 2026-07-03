@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 15:06",
 	"instvars" : [
-		"subscribers" ],
+		"subscribers",
+		"server",
+		"referenceManager" ],
 	"name" : "TTBroadcastMockConnector",
 	"pools" : [
 		 ],

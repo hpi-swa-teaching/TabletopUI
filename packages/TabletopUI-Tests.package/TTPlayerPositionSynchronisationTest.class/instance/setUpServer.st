@@ -1,12 +1,10 @@
-initialization
+setup
 setUpServer
 
-	| window  |
-	self server: TTServerSessionManager new.
-	window:= TTTabletopWindow openEmptySession.
-	self server window: window.
-	window sessionManager: self server.
-
-	
-	
-	
+	| networkFacade broadcastConnectionmanager |
+	broadcastConnectionmanager := TTBroadcastMockConnector new.
+	networkFacade := TTNetworkFacade new networkmanager: broadcastConnectionmanager.
+	self broadcastConnectionmanagers add: broadcastConnectionmanager.
+	self server: (TTMap newWithNetworkFacade: networkFacade).
+	self server initializePlayerTokens: self players.
+	broadcastConnectionmanager server: self server

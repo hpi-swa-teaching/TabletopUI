@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 16:24",
 	"instvars" : [
-		"table" ],
+		"table",
+		"objectToIdTable" ],
 	"name" : "TTReferenceManager",
 	"pools" : [
 		 ],

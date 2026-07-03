@@ -1,7 +1,7 @@
 tasks
 addNewMap
 
-	| path reference form params name |
+	| path reference form name |
 	path := GSGUIUtilities chooseFileMatching: '*'.
 	reference := FileSystem disk referenceTo: path.
 	name := reference basename.
@@ -12,7 +12,4 @@ addNewMap
 		Transcript show: 'Error: invalid File Type'.
 		^ self].
 	"TODO: add better error messaging"
-	params := Dictionary new.
-	params at: 'name' put: name.
-	params at: 'image' put: (TTSerializer serializeImage: form).
-	self networkManager send: #addImage: to: 'mapSelector' with: params
+	self broadcastNewMap: form for: name

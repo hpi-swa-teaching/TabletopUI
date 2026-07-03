@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Server",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TTChatEcho",
+	"pools" : [
+		 ],
+	"super" : "TTNetworkObject",
+	"type" : "normal" }

@@ -1,7 +1,8 @@
-running
+as yet unclassified
 setUp
 
 	self window: TTMockTabletopWindow new.
 	self manager: (TTSessionManager new 
-		window: self window;
+		window: window;
+		networkFacade: TTMockNetworkFacade new;
 		yourself).

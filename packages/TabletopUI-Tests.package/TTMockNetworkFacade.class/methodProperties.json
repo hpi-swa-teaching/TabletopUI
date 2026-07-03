@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"connectTo:tcpPort:" : "GF 6/28/2026 20:43",
+		"getIdOf:" : "CR 6/29/2026 15:56",
+		"ifContainsRemove:" : "JF 7/2/2026 12:56",
+		"instantiate:" : "GF 6/27/2026 23:12",
+		"instantiate:withId:" : "GF 6/27/2026 23:12",
+		"instantiateScreen:WithId:Window:" : "CR 6/29/2026 15:48",
+		"instantiateTileWithId:" : "GF 6/27/2026 23:10",
+		"instantiateTokenWithId:" : "GF 6/27/2026 23:10",
+		"renameIdOf:To:" : "CR 6/29/2026 17:15",
+		"send:to:with:" : "GF 6/28/2026 20:07" } }

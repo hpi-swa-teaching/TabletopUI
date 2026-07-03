@@ -1,4 +1,4 @@
 messages
 addImage: params
 
-	self networkmanager send: #addImage: to: 'mapSelector' with: params
+	self networkFacade send: #addImage: to: 'mapSelector' with: params

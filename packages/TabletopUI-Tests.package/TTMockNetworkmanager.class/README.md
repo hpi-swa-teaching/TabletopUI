@@ -1,1 +1,0 @@
-I am a mock network manager used in tests.

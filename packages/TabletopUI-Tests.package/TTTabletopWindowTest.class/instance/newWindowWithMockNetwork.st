@@ -1,6 +1,6 @@
 running
 newWindowWithMockNetwork
 
-	^ TTTabletopWindow new
-		networkmanager: TTMockNetworkmanager new;
-		yourself
+	self systemWindow: TTTabletopWindow openSessionless.
+	self systemWindow model networkFacade networkmanager: TTMockNetworkManager new.
+	^ self systemWindow model

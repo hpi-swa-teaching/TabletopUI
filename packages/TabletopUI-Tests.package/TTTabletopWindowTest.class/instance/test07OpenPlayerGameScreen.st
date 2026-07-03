@@ -1,7 +1,6 @@
 testing
 test07OpenPlayerGameScreen
 	
-	self window: self newWindowWithMockNetwork.
 	self window 
 		setAsPlayer;
 		openGameScreen.

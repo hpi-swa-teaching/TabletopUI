@@ -4,17 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "I. S. 6/28/2026 17:20",
+	"commentStamp" : "rf 7/8/2021 10:17",
 	"instvars" : [
 		"characterAdministration",
 		"contents",
+		"subWindowManager",
 		"relay",
-		"referencemanager",
-		"networkmanager",
 		"sessionManager",
 		"isGamemaster",
 		"owningPlayerName",
-		"context" ],
+		"context",
+		"networkFacade" ],
 	"name" : "TTTabletopWindow",
 	"pools" : [
 		 ],

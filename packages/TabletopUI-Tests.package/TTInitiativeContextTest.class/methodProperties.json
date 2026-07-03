@@ -2,8 +2,8 @@
 	"class" : {
 		"CUT" : "CR 5/9/2026 16:59" },
 	"instance" : {
-		"assertContextStateWith:" : "DavidSimon 6/26/2026 14:38",
-		"assertRoll:for:" : "DavidSimon 6/26/2026 14:23",
+		"assertContextStateWith:" : "GF 6/28/2026 13:18",
+		"assertRoll:for:" : "GF 6/28/2026 19:53",
 		"contextHasChanged" : "DavidSimon 6/8/2026 12:12",
 		"contextHasChanged:" : "DavidSimon 6/8/2026 12:11",
 		"test01CorrectGameState" : "JA 7/19/2022 15:39",
@@ -15,8 +15,7 @@
 		"test07EndInitiative" : "DavidSimon 6/22/2026 16:55",
 		"test08EndInitiativeAsPlayer" : "DavidSimon 6/22/2026 16:56",
 		"test09EndInitiativeNotReady" : "ML 7/20/2022 01:50",
-		"test10getState" : "I. S. 5/26/2026 21:23",
-		"test11ObserverFiresOnRoll" : "DavidSimon 6/8/2026 12:15",
+		"test10getState" : "GF 6/28/2026 13:15",
 		"test12RollTwiceAcrossLoadStateRebuild" : "DavidSimon 6/22/2026 16:34",
-		"test13RollEndToEnd" : "DavidSimon 6/26/2026 14:22",
+		"test13RollEndToEnd" : "GF 6/28/2026 19:52",
 		"update:" : "DavidSimon 6/8/2026 12:11" } }

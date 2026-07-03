@@ -1,8 +1,11 @@
 initialization
 newWith: aTTTabletopWindow
 
-	^ self new
+	| screen id |
+	id := 'currentScreen'.
+	aTTTabletopWindow networkFacade ifContainsRemove: id.
+	screen := aTTTabletopWindow networkFacade instantiate: self withId: id.
+	screen
 		window: aTTTabletopWindow;
-		networkmanager: aTTTabletopWindow networkmanager;
-		characterAdministration: aTTTabletopWindow characterAdministration;
-		yourself
+		characterAdministration: aTTTabletopWindow characterAdministration.
+	^ screen

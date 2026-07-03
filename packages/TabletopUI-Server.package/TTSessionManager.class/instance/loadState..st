@@ -1,6 +1,5 @@
 initialization
 loadState: aDict
 
-	self applyingRemoteState: true.
-
-	[self window loadState: aDict] ensure: [self applyingRemoteState: false]
+	self networkFacade renameIdOf: self To: 'sessionmanager'.
+	self window loadState: aDict

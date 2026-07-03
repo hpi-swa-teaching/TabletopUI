@@ -1,4 +1,4 @@
-initialization
+updating
 loadToken: aToken at: aTile
 	
 	| previousTile |
@@ -6,8 +6,6 @@ loadToken: aToken at: aTile
 	aToken 
 		defaultTile: aTile;
 		position: aTile position.
-	aTile 
-		addMorph: aToken;
-		occupied: true.
-	(previousTile isTTTile and: previousTile submorphs isEmpty) ifTrue: [
+	aTile getOccupiedByToken: aToken.
+	(previousTile notNil and: [previousTile submorphs isEmpty]) ifTrue: [
 		 previousTile occupied: false].

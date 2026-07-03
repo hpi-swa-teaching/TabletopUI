@@ -4,13 +4,9 @@
 	"instance" : {
 		"map" : "joda 7/13/2021 12:20",
 		"map:" : "joda 7/13/2021 12:20",
-		"mapHasChanged" : "GF 5/26/2026 16:50",
-		"mapHasChanged:" : "GF 5/26/2026 16:50",
-		"setUp" : "joda 7/13/2021 13:14",
+		"setUp" : "GF 6/27/2026 23:02",
 		"test01PixelPositionToTileCoordinates" : "joda 7/13/2021 13:03",
 		"test02FindFreeTile" : "joda 7/13/2021 12:21",
 		"test03GetState" : "I. S. 5/20/2026 13:25",
 		"test04CharacterTokenAggregationInState" : "I. S. 5/20/2026 13:25",
-		"test05LoadState" : "I. S. 5/20/2026 13:25",
-		"test06RegisterMapChanges" : "GF 5/26/2026 18:50",
-		"update:" : "GF 5/26/2026 16:50" } }
+		"test05LoadState" : "I. S. 5/20/2026 13:25" } }

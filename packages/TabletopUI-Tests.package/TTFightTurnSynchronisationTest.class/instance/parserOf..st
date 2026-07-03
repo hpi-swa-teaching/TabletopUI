@@ -1,4 +1,4 @@
 helpers
-parserOf: aSessionManager
+parserOf: anInputField
 
-	^ (self gameScreenOf: aSessionManager) inputField parser
+	^ anInputField parser

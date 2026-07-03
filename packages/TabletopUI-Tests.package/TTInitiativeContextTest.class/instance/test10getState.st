@@ -1,18 +1,17 @@
 testing
 test10getState
 
-	| state rollsDict alice |
+	| state rollsDict |
 	self assertContextHasGameStateKey.
-
-	alice := TTCharacter newWithName: 'Alice' role: TTCharacter player.
-	self context rolls add: alice -> 12.
-
+	
+	self context rolls add: 'Alice' -> 12.
+	
 	state := self context getState.
-
+	
 	self
 		assert: (state includesKey: TTGameStateKeys keyRolls);
 		assert: ((state at: TTGameStateKeys keyRolls) isKindOf: Dictionary).
-
+	
 	rollsDict := state at: TTGameStateKeys keyRolls.
 	self
 		assert: rollsDict notEmpty;

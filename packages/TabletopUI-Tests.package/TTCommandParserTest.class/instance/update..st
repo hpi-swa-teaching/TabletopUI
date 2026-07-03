@@ -1,3 +1,3 @@
 updating
 update: anAspect
-    (anAspect = #parserState) ifTrue: [self contextChangePropagated: true]
+    (anAspect = #networkMessageSent) ifTrue: [self contextChangePropagated: true]

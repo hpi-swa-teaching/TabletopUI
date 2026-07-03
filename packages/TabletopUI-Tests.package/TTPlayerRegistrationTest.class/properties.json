@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 16:21",
 	"instvars" : [
-		"window",
+		"windows",
 		"manager",
 		"sessionMembers" ],
 	"name" : "TTPlayerRegistrationTest",

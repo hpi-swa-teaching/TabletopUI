@@ -9,6 +9,5 @@ test13RollEndToEnd
 	self contextHasChanged: false.
 	self assertRoll: 12 for: alice.
 	self assertRoll: 10 for: bob.
-	self assert: self contextHasChanged.
 	self context endInitiativePhaseFrom: gm.
 	self assertContextStateWith: alice

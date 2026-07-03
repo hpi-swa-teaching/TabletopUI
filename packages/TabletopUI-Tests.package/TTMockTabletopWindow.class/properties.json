@@ -11,7 +11,8 @@
 		"networkmanager",
 		"sessionManager",
 		"isGamemaster",
-		"owningPlayerName" ],
+		"owningPlayerName",
+		"networkFacade" ],
 	"name" : "TTMockTabletopWindow",
 	"pools" : [
 		 ],

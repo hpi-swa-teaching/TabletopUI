@@ -1,4 +1,4 @@
 screen management
 openJoinNetworkingScreen
 	
-	self changeScreen: 	(TTJoinNetworkingGameScreen newWith: self)
+	self changeScreen: 	(self networkFacade instantiateScreen: TTJoinNetworkingGameScreen WithId: 'joinscreen' Window: self).

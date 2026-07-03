@@ -1,4 +1,0 @@
-helpers
-endTurnViaStaleTurnOrderOn: aSessionManager using: aDisplayMorph
-
-	aDisplayMorph model proceedToNextPlayer

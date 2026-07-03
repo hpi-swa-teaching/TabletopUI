@@ -1,14 +1,10 @@
 initialization
 initializeCommandBar
 
-	self 
-		actionLog: TTActionLog new;
+	self
+		actionLog: (self networkFacade instantiate: TTActionLog withId: 'actionLog');
 		initializePlayerDisplay;
-		inputField: (TTInputField newWithActionLog: self actionLog 
-			playerSelectionMenu: self playerSelectionMenu);
-
-		addDependent: self inputField.
-		
-	self inputField parser addDependent: self window sessionManager.
-	self characterAdministration playerSelectionMenu: self playerSelectionMenu.
-	self flag: 'issue?'.
+		inputField: ((self networkFacade instantiate: TTInputField withId: 'inputField')
+			log: self actionLog;
+			playerSelection: self playerSelectionMenu);
+		addDependent: self inputField

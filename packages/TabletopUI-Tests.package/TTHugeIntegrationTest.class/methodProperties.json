@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionWaitDuration" : "JF 7/2/2026 13:19",
+		"gamemaster" : "JF 7/2/2026 13:44",
+		"gamemaster:" : "JF 7/2/2026 13:44",
+		"player" : "JF 7/2/2026 13:44",
+		"player:" : "JF 7/2/2026 13:44",
+		"relay" : "JF 7/2/2026 13:11",
+		"relay:" : "JF 7/2/2026 13:11",
+		"server" : "JF 7/2/2026 13:11",
+		"server:" : "JF 7/2/2026 13:11",
+		"setUp" : "JF 7/2/2026 14:24",
+		"tearDown" : "JF 7/2/2026 14:12",
+		"test01setUp" : "JF 7/2/2026 13:51",
+		"timeLimit" : "JF 7/2/2026 14:21",
+		"waitFor:retry:" : "JF 7/2/2026 13:32" } }

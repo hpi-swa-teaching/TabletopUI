@@ -1,0 +1,2 @@
+turnoder
+createNPC: aTTCharacter

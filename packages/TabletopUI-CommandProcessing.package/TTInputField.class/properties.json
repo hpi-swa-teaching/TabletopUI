@@ -12,5 +12,5 @@
 	"name" : "TTInputField",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTNetworkModel",
 	"type" : "normal" }

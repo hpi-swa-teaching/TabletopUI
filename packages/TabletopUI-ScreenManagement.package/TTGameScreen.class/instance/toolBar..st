@@ -2,4 +2,7 @@ accessing
 toolBar: aTTToolBar
 
 	toolBar := aTTToolBar.
-	self toolBar networkManager: (self networkmanager)
+	self toolBar
+		characterAdministration: self characterAdministration;
+		inputField: self inputField;
+		map: self map.

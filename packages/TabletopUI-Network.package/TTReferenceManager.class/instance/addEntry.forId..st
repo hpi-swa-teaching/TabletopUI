@@ -1,4 +1,6 @@
 adding
 addEntry: anObject forId: aId
-
-	self table at: aId put: anObject
+	
+	(self table includesKey: aId) ifTrue: [self error: 'Id was already in use.'].
+	self table at: aId put: anObject.
+	self objectToIdTable at: anObject put: aId.
