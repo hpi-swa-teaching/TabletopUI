@@ -5,13 +5,12 @@ newOn: address port: port
 	inst := self new.
 	inst networkmanager: (TTServerNetworkManager newWithAddress: address tcpPort: port udpPort: port).
 	inst referencemanager: TTReferenceManager new.
-	inst networkmanager referenceManager: (inst referencemanager).
-
+	inst networkmanager referenceManager: inst referencemanager.
 	
-	window:= TTTabletopWindow openEmptySessionWithNetworkManager: inst networkmanager.
+	window := TTTabletopWindow openEmptySessionWithNetworkManager: inst networkmanager.
 	window model networkFacade instantiate: TTChatEcho withId: 'chat'.
-	window model networkFacade instantiate: TTMapEcho withId: 'mapSelector'.
-
+	window model networkFacade instantiate: TTMapEcho withId: 'mapEcho'.
+	inst window: window.
 	
 	inst networkmanager start.
 	

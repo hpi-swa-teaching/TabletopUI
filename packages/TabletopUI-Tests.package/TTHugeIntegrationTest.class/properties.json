@@ -1,0 +1,17 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"server",
+		"player",
+		"gamemaster",
+		"relay" ],
+	"name" : "TTHugeIntegrationTest",
+	"pools" : [
+		 ],
+	"super" : "TTTestCase",
+	"type" : "normal" }

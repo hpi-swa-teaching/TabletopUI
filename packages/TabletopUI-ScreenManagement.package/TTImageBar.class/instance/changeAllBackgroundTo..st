@@ -5,4 +5,4 @@ changeAllBackgroundTo: aNumber
 	params := Dictionary new.
 	params at: 'idx' put: aNumber.
 	
-	self networkFacade send: #changeBackground: to: 'mapSelector' with: params
+	self networkFacade send: #changeBackground: to: 'mapEcho' with: params
