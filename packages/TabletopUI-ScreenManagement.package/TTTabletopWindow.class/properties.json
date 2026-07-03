@@ -8,8 +8,6 @@
 	"instvars" : [
 		"characterAdministration",
 		"contents",
-		"subWindowManager",
-		"relay",
 		"sessionManager",
 		"isGamemaster",
 		"owningPlayerName",

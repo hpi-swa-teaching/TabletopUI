@@ -1,4 +1,0 @@
-initialization
-notifyNetworkFail
-
-	self halt
