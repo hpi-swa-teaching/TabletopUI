@@ -2,10 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getNewObjectId" : "DavidSimon 5/3/2026 17:53",
-		"idAssigner" : "DavidSimon 5/3/2026 17:53",
-		"idAssigner:" : "DavidSimon 5/3/2026 17:53",
-		"initialize" : "DavidSimon 5/3/2026 17:54",
+		"initialize" : "JF 7/4/2026 11:01",
 		"isMeantForMe:" : "DavidSimon 5/3/2026 17:55",
 		"send:to:with:on:" : "DavidSimon 5/3/2026 17:55",
 		"spawn:identifiedBy:with:" : "DavidSimon 5/3/2026 17:56" } }
