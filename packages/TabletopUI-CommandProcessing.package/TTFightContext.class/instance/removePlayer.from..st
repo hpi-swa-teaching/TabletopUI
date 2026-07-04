@@ -5,5 +5,5 @@ removePlayer: aTTCharacterName from: aPerformingTTCharacter
 	self currentPlayer = aTTCharacterName ifTrue: [self proceedToNextPlayer].
 	self fightingPlayers do: [:aPlayerName |
 		aPlayerName = aTTCharacterName ifTrue: [
-			self parser updatePlayerRemoval: aTTCharacterName.
+			self manager updatePlayerRemoval: aTTCharacterName.
 			^ self playerRemovedMessageString: aTTCharacterName]]

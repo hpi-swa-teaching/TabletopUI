@@ -1,4 +1,3 @@
 accessing
-playerCount: aNumber
-
-	playerCount := aNumber
+playerCount: anObject
+	playerCount := anObject

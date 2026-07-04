@@ -14,8 +14,8 @@ test05LoadState
 		at: #x put: 3;
 		at: #y put: 5;
 		yourself.
-	(aliceEntry at: TTGameStateKeys keyMapCoordinates)
-		at: TTGameStateKeys keyTileCoordinates put: newTileCoords.
+	(aliceEntry at: TTGameStateKeys keyTileCoordinates)
+		at: TTGameStateKeys keyMapCoordinates put: newTileCoords.
 
 	self map loadState: state.
 

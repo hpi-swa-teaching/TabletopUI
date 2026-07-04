@@ -3,6 +3,6 @@
 		"CUT" : "CR 5/9/2026 16:59" },
 	"instance" : {
 		"test01CorrectGameState" : "JA 7/19/2022 15:17",
-		"test02StartFight" : "ML 7/20/2022 01:48",
-		"test03StartFightAsPlayer" : "ML 7/20/2022 01:49",
+		"test02StartFight" : "CR 7/4/2026 15:47",
+		"test03StartFightAsPlayer" : "CR 7/4/2026 15:46",
 		"test04GetState" : "I. S. 5/26/2026 21:23" } }

@@ -1,4 +1,4 @@
 initialization
 newWithNetworkFacade: aNetworkFacade
 
-	^self new networkFacade: aNetworkFacade.
+	^ self new networkFacade: aNetworkFacade

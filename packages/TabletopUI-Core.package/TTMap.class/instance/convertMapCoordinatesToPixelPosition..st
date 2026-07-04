@@ -1,5 +1,5 @@
 converting
-convertTileCoordinatesToPixelPosition: aPoint
+convertMapCoordinatesToPixelPosition: aPoint
 
 	| xPixelPosition yPixelPosition |
 	

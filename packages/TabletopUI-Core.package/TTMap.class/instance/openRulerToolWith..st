@@ -1,4 +1,4 @@
-accessing
+ruler tool interaction
 openRulerToolWith: aTTInputField
 	self rulerTool: (TTRulerTool openWith: self and: aTTInputField).
 	self addDependent: self rulerTool.

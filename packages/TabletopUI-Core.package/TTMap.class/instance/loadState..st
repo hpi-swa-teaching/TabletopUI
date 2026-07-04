@@ -9,9 +9,9 @@ loadState: aDictionary
 			ifAbsent: [ nil ].
 		position := tokenState
 			ifNotNil: [
-				((tokenState at: TTGameStateKeys keyMapCoordinates ifAbsent: [ nil ])
+				((tokenState at: TTGameStateKeys keyTileCoordinates ifAbsent: [ nil ])
 					ifNotNil: [ :mapCoordinates |
-						mapCoordinates at: TTGameStateKeys keyTileCoordinates ifAbsent: [ nil ] ]) ].
+						mapCoordinates at: TTGameStateKeys keyMapCoordinates ifAbsent: [ nil ] ]) ].
 		position
 			ifNotNil: [
 				tile := (self tiles atRow: (position at: #y)) at: (position at: #x).

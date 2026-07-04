@@ -2,8 +2,8 @@ running
 setUp
 
 	self 
-		parser: TTMockParser new;
+		manager: TTMockContextManager new;
 		context: 
 			(self class CUT new
-			parser: self parser; yourself).
-	self parser context: self context
+			manager: self manager; yourself).
+	self manager context: self context
