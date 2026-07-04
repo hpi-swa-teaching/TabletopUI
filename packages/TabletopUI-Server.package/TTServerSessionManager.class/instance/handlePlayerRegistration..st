@@ -3,11 +3,9 @@ handlePlayerRegistration: aDict
 
 	| name role connectionDetails |
 	(self registrationRequestIsValid: aDict) ifFalse: [^ self].
-	
 	name := aDict at: 'name'.
 	role := aDict at: 'role'.
 	connectionDetails := aDict at: 'connectionDetails'.
-	
 	self
 		registerClient: name role: role connectionDetails: connectionDetails;
 		addToGameState: aDict;

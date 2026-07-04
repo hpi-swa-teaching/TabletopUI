@@ -13,5 +13,5 @@ newOn: address port: port
 	inst window: window.
 	
 	inst networkmanager start.
-	
+
 	^ inst
