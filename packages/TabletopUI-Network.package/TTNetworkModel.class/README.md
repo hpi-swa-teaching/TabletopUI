@@ -1,0 +1,1 @@
+I hold the networkFacade inst var which allows subclasses to send messages via network
