@@ -1,4 +1,4 @@
 accessing
 getIdOf: anObject
 
-	^self objectToIdTable at: anObject.
+	^ self objectToIdTable at: anObject
