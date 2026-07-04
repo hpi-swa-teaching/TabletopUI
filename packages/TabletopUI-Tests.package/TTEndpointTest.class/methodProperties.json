@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JF 6/4/2026 11:53",
 		"test01EmptyEndpoint" : "JF 6/4/2026 11:55",
 		"test02EndpointWIthPort" : "JF 6/4/2026 11:57",
 		"test03EndpointWIthAddress" : "JF 6/4/2026 11:57",

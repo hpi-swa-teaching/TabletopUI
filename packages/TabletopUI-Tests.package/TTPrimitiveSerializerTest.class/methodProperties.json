@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JF 6/7/2026 23:02",
 		"test01ManySmallIntegers" : "JF 6/18/2026 14:04",
 		"test02ByteArrayDeserialization" : "JF 6/18/2026 14:04",
 		"test03ImageDecode" : "JF 6/18/2026 14:04",

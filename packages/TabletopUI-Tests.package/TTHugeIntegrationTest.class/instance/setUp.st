@@ -6,7 +6,7 @@ setUp
 	self server: (TTServer newOn: 'localhost' port: self relay getServerPort).
 	Processor yield.
 	self gamemaster: TTTabletopWindow openSessionless.
-	(self gamemaster model dependents at: 1)
+	self gamemaster model dependents first
 		playerName: 'g1';
 		role: 'gamemaster';
 		address: 'localhost';
@@ -16,7 +16,7 @@ setUp
 	self waitFor: [self relay getConnectedClientCount = 1] retry: [self relay checkClientConnect].
 	
 	self player: TTTabletopWindow openSessionless.
-	(self player model dependents at: 1)
+	self player model dependents first
 		playerName: 'p1';
 		role: 'player';
 		address: 'localhost';

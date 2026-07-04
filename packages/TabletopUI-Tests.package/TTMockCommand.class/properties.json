@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 16:05",
 	"instvars" : [
-		"removedPlayer",
-		"gameState",
 		"hasBeenEnded",
 		"hasBeenStarted" ],
 	"name" : "TTMockCommand",
