@@ -3,7 +3,6 @@
 		"newWithAddress:tcpPort:" : "JF 7/1/2026 21:33" },
 	"instance" : {
 		"connectTo:tcpPort:" : "JF 7/1/2026 21:13",
-		"defaultTimeoutSeconds" : "DavidSimon 5/3/2026 17:32",
 		"end" : "DavidSimon 5/3/2026 17:43",
 		"endpoint" : "JF 6/4/2026 12:07",
 		"endpoint:" : "JF 6/4/2026 12:07",

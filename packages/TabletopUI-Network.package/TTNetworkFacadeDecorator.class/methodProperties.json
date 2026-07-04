@@ -1,12 +1,12 @@
 {
 	"class" : {
-		"newWith:" : "CR 6/27/2026 15:15" },
+		"newWith:" : "JF 7/4/2026 11:52" },
 	"instance" : {
 		"connectTo:tcpPort:" : "CR 6/29/2026 15:06",
-		"getIdOf:" : "CR 6/29/2026 15:06",
-		"instantiate:withId:" : "CR 6/29/2026 14:24",
+		"getIdOf:" : "JF 7/4/2026 11:52",
+		"instantiate:withId:" : "JF 7/4/2026 11:52",
 		"networkFacade" : "CR 6/27/2026 15:15",
 		"networkFacade:" : "CR 6/27/2026 15:15",
 		"renameIdOf:To:" : "CR 6/29/2026 15:07",
-		"resolve:" : "CR 6/29/2026 15:06",
+		"resolve:" : "JF 7/4/2026 11:52",
 		"send:to:with:" : "CR 6/29/2026 15:06" } }
