@@ -1,0 +1,1 @@
+I provide network synchronization operations that are specific to tokens while hiding all networking concerns from the underlying token objects.

@@ -1,4 +1,0 @@
-initialization
-notifyConnectedPlayersToolClosed
-	
-	self changed: #connectedPlayersToolButtonColor

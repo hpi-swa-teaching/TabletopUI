@@ -7,7 +7,6 @@ createSpecWith: aToolBuilder canAddMap: aBool
 		self createDiceToolButtonSpecWith: aToolBuilder . 
 		self createRulerToolButtonSpecWith: aToolBuilder .
 		self createCharacterSheetButtonSpecWith: aToolBuilder .
-		self createConnectedPlayersToolButtonSpecWith: aToolBuilder
 	}.
 	
 	^ aToolBuilder pluggablePanelSpec new

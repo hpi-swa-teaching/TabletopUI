@@ -2,7 +2,7 @@
 	"class" : {
 		"newWith:" : "ML 6/26/2022 14:54",
 		"newWith:and:" : "GF 5/13/2026 23:36",
-		"newWithNetworkFacade:" : "CR 6/27/2026 15:58" },
+		"newWithNetworkFacade:" : "CR 7/4/2026 16:43" },
 	"instance" : {
 		"closeRulerTool" : "DS 8/4/2022 11:00",
 		"convertMapCoordinatesToPixelPosition:" : "CR 7/4/2026 14:20",
@@ -12,7 +12,7 @@
 		"createTokenFor:" : "CR 7/4/2026 14:30",
 		"defaultSize" : "bv 7/3/2021 19:57",
 		"fillTiles" : "rf 7/7/2021 08:30",
-		"getState" : "I. S. 5/20/2026 13:25",
+		"getState" : "CR 7/4/2026 16:40",
 		"handlesMouseDown:" : "OB 6/13/2022 09:36",
 		"handlesMouseUp:" : "ML 6/26/2022 15:04",
 		"idForTileAt:" : "CR 7/4/2026 14:31",
