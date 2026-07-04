@@ -20,4 +20,4 @@ test07EndInitiative
 	self context processRoll: 9 for: player2.
 	self context endInitiativePhaseFrom: gm.
 	
-	self assert: #fight equals: self parser context gameState
+	self assert: #fight equals: self manager context gameState

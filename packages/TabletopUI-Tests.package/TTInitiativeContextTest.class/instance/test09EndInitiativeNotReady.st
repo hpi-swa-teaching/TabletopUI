@@ -7,4 +7,4 @@ test09EndInitiativeNotReady
 		yourself.
 	result := self context endInitiativePhaseFrom: gm.
 	self assert: self context initiativeNotReadyErrorString equals: result.
-	self assert: #initiative equals: self parser context gameState
+	self assert: #initiative equals: self manager context gameState
