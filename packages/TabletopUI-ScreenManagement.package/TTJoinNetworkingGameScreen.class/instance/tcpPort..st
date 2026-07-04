@@ -1,4 +1,4 @@
 accessing
-tcpPort: anObject
+tcpPort: port
 
-	tcpPort := anObject asString asInteger
+	tcpPort := port asString asInteger

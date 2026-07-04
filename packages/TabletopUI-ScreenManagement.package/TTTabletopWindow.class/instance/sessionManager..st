@@ -1,4 +1,4 @@
 accessing
-sessionManager: anObject
+sessionManager: aTTSessionManager
 
-	sessionManager := anObject
+	sessionManager := aTTSessionManager
