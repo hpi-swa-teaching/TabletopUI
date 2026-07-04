@@ -1,14 +1,7 @@
 receiving
 trySharedObjectReceive
-
-	| class |
-	(self isKindOf: TTClientNetworkManager) ifTrue: [class := 'Client'].
-	(self isKindOf: TTClientNetworkManager) ifFalse: [class := 'Server'].
-	Transcript
-		show: class, 'NWM Trying receive';
-		cr.
 	"["
-	
+
 	self sharedObjectReceive
 	"] on: Error do: [
 		"
