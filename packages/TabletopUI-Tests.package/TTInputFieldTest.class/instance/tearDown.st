@@ -1,5 +1,5 @@
 running
 tearDown
 
-	super setUp.	
+	super tearDown.
 	self inputField: (TTInputField newWithNetworkFacade: TTMockNetworkFacade new)
