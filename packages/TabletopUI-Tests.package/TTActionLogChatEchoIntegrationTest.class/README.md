@@ -1,0 +1,1 @@
+I am a test case that tests if actionLog and ChatEcho work correctly together

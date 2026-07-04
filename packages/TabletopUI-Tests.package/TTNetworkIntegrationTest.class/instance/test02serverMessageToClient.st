@@ -18,4 +18,4 @@ test02serverMessageToClient
 		Processor yield].
 	self assert: (self clientNWM1Ref resolve: 'MOCKNWO') val = 'chess'.
 	self assert: (self clientNWM2Ref resolve: 'MOCKNWO') val = 'chess'.
-	self assert: ((self serverRef resolve: 'MOCKNWO') isNil).
+	self assert: (self serverRef resolve: 'MOCKNWO') isNil

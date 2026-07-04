@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"acceptedPlayerName" : "CR 6/8/2026 14:09",
-		"hasPlayer:Named:" : "CR 6/29/2026 18:46",
+		"hasPlayer:Named:" : "JF 7/4/2026 16:47",
 		"informationIn:AboutPlayer:" : "CR 6/29/2026 18:58",
 		"manager" : "CR 5/25/2026 18:06",
 		"manager:" : "CR 5/25/2026 18:06",
@@ -12,7 +12,7 @@
 		"rejectedPlayerName" : "CR 6/8/2026 14:10",
 		"sessionMembers" : "CR 6/8/2026 14:54",
 		"sessionMembers:" : "CR 6/8/2026 14:54",
-		"setUp" : "CR 7/2/2026 20:52",
+		"setUp" : "JF 7/4/2026 16:44",
 		"tearDown" : "CR 6/29/2026 20:16",
 		"testHandlePlayerRegistrationAddsPlayerToWindow" : "CR 6/29/2026 18:47",
 		"testHandlePlayerRegistrationAddsToRegistry" : "CR 6/8/2026 14:09",

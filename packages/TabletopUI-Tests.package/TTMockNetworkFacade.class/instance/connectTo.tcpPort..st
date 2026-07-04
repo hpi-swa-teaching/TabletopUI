@@ -1,4 +1,4 @@
-as yet unclassified
+connecting
 connectTo: anObject tcpPort: anotherObject
 
 	^ self

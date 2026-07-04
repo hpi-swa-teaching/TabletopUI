@@ -1,4 +1,4 @@
-as yet unclassified
+timing
 actionWaitDuration
 
 	^ Duration milliSeconds: 5000

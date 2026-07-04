@@ -1,0 +1,1 @@
+I am a mock object that shares the networkManager/networkFacade interface for sending messages used in tests.

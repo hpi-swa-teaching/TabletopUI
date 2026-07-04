@@ -1,8 +1,7 @@
 testing
-hasPlayer: aTTTabletopWindow Named:  name
+hasPlayer: aTTTabletopWindow Named: name
 
 	| characterAdministration |
+	characterAdministration := aTTTabletopWindow characterAdministration.
 	
-	characterAdministration:=  aTTTabletopWindow characterAdministration.
-	
-	^ characterAdministration characterNames includes: name. 
+	^ characterAdministration characterNames includes: name
