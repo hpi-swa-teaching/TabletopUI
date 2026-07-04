@@ -1,4 +1,4 @@
-constants
+session management
 newPlayerStateDict:name role: role
 
 	^		

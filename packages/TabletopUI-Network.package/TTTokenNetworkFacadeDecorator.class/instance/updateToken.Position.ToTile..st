@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateToken: aTTToken Position: aPosition ToTile: aTTTile 
 
 	| tokenId tileId params |

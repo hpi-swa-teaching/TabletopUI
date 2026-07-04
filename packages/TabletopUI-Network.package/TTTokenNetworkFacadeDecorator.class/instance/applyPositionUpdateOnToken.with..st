@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 applyPositionUpdateOnToken: aTTToken with: params
 
 	| tileId aTTTile tokenId coordinates position dict |

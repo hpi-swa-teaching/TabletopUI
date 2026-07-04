@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 applyCreateNPCUpdateOnGamescreen: aTTGamescreen with: params
 
 	| name character gamescreenId |

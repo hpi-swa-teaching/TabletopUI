@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 applyOccupyingTokenUpdateOnTile: aTTTile with: params
 
 	| tokenId tileId aTTToken |
