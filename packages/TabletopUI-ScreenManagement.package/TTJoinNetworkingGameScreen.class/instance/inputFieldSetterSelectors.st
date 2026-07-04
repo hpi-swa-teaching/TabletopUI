@@ -1,3 +1,4 @@
 constants and defaults
 inputFieldSetterSelectors
-    ^ #(address: tcpPort: playerName: role:)
+
+	^ #(#address: #tcpPort: #playerName: #role:)

@@ -1,1 +1,0 @@
-I am the display that lists the currently connected players.

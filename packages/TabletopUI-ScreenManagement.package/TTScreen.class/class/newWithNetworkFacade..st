@@ -1,4 +1,4 @@
 initialization
-newWithNetworkFacade: aNetworkFacade
+newWithNetworkFacade: aTTNetworkFacade
 
-	^self new networkFacade: aNetworkFacade.
+	^ self new networkFacade: aTTNetworkFacade

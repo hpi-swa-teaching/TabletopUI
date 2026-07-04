@@ -1,3 +1,4 @@
 accessing
-playerName: anObject
-	playerName := anObject
+playerName: name
+
+	playerName := name

@@ -1,4 +1,4 @@
 accessing
-address: anObject
+address: anAddress
 
-	address := anObject asString
+	address := anAddress asString

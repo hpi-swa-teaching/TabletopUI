@@ -1,4 +1,4 @@
-initialize-release
+updating
 loadNewPlayer: name role: role
 	
 	| aTTCharacter |
