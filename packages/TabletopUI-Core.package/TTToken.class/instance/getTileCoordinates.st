@@ -1,8 +1,8 @@
 accessing
-getMapCoordinates
+getTileCoordinates
 
 	^ Dictionary new
-		at: TTGameStateKeys keyTileCoordinates put:
+		at: TTGameStateKeys keyMapCoordinates put:
 			(Dictionary new
 				at: #x put: self defaultTile mapCoordinates x;
 				at: #y put: self defaultTile mapCoordinates y;

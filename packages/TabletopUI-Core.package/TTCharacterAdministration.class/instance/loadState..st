@@ -1,25 +1,14 @@
-initialization
+initialize-release
 loadState: aDictionary
 
 	| character |
-
 	aDictionary isEmpty ifFalse: [
-		aDictionary do: [ :entry |
-
-			| characterData name alreadyExists |
-
+		aDictionary do: [:entry | | characterData name alreadyExists |
 			characterData := entry at: #character.
 			name := characterData at: #name.
-
-			alreadyExists := self players
-				anySatisfy: [ :player | player name = name ].
-
+			alreadyExists := self players anySatisfy: [:player | player name = name].
 			alreadyExists ifFalse: [
-
 				character := TTCharacter new
 					loadState: characterData;
 					yourself.
-
-				character isNPC
-					ifTrue: [ self addNPC: character ]
-					ifFalse: [ self addPlayer: character ] ] ] ]
+				character isNPC ifTrue: [self addNPC: character] ifFalse: [self addPlayer: character]]]]

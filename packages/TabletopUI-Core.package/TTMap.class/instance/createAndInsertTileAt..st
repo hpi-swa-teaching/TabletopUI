@@ -1,14 +1,11 @@
-initialization
-createAndInsertTileAt: aPoint
+initialize-release
+createAndInsertTileAt: mapCoordinates
 
-	| pixelPosition newTile tileId |
-	
-	pixelPosition := self convertTileCoordinatesToPixelPosition: aPoint.
-	tileId := aPoint x asString, '_', aPoint y asString.
-	newTile:= self networkFacade instantiateTileWithId: tileId.
-	newTile 
-		position: pixelPosition;
-		mapCoordinates: aPoint;
+	| newTile |
+	newTile := self networkFacade instantiateTileWithId: (self idForTileAt: mapCoordinates).
+	newTile
+		position: (self convertMapCoordinatesToPixelPosition: mapCoordinates);
+		mapCoordinates: mapCoordinates;
 		addDependent: self.
-	self tiles at: aPoint y at: aPoint x put: newTile.
-	self addMorph: newTile	
+	self tiles at: mapCoordinates y at: mapCoordinates x put: newTile.
+	self addMorph: newTile

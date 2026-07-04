@@ -1,4 +1,4 @@
-initialization
+initialize-release
 initializePlayerTokens: aCollection
 
 	(aCollection isEmpty) ifFalse: [

@@ -1,4 +1,4 @@
-initialization
+updating
 addNPC: aTTCharacter
 
 	self npcs add: aTTCharacter

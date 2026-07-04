@@ -1,4 +1,4 @@
-initialization
+initialize-release
 fillTiles
 
 	self tiles indicesDo: [:row :column | 
