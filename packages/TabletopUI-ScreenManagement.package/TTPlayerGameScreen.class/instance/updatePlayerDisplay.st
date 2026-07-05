@@ -9,7 +9,7 @@ updatePlayerDisplay
 		player := context currentPlayer]
 	ifFalse: [
 		playerList := self charactersToDisplay.
-		player := self playerSelectionMenu currentPlayer].
+		player := self playerOfWindow name].
 	self playerSelectionMenu
 		updatePlayerListWith: playerList;
 		updatePlayer: player
