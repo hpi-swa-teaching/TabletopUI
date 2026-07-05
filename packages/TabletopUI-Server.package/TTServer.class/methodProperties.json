@@ -1,11 +1,9 @@
 {
 	"class" : {
-		"newOn:port:" : "CR 7/5/2026 10:53" },
+		"newOn:port:" : "CR 7/5/2026 12:33" },
 	"instance" : {
 		"kill" : "CR 7/5/2026 10:53",
-		"networkManager" : "CR 7/5/2026 10:53",
-		"networkManager:" : "CR 7/5/2026 10:53",
-		"referencemanager" : "Jakob Fanselow 5/11/2026 13:11",
-		"referencemanager:" : "Jakob Fanselow 5/11/2026 13:11",
-		"window" : "JF 7/2/2026 14:25",
-		"window:" : "JF 7/2/2026 14:25" } }
+		"networkManager" : "CR 7/5/2026 12:07",
+		"networkManager:" : "CR 7/5/2026 12:07",
+		"window" : "CR 7/5/2026 12:07",
+		"window:" : "CR 7/5/2026 12:07" } }

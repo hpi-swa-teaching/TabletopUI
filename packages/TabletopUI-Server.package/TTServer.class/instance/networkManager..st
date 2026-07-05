@@ -1,3 +1,4 @@
 accessing
-networkManager: anObject
-	networkmanager := anObject
+networkManager: aTTNetworkManager
+
+	networkmanager := aTTNetworkManager

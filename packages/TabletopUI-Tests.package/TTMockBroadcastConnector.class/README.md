@@ -1,0 +1,2 @@
+I emulate the server-client connections underlying our network model.
+I broadcast messages to multiple connected instances, allowing tests to simulate synchronized communication without requiring actual network infrastructure.
