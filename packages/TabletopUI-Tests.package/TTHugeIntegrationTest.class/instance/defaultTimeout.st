@@ -1,4 +1,5 @@
 constants
 defaultTimeout
 
-	^ 20 seconds
+	^ 20
+	"seconds"
