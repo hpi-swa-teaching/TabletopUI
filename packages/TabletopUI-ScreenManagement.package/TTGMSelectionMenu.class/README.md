@@ -1,4 +1,4 @@
-[...] I am a version of TTPlayerSelectionMen where you can see every connected Player and execute Commands for all of them.
+[...] I am a version of TTPlayerSelectionMenu where you can see every connected Player and execute Commands for all of them.
 
 Instance Variables
 	characterAdministration:		<TTCharacterAdministration>

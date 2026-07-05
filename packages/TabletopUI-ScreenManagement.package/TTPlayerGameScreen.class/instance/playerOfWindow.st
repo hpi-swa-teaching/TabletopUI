@@ -7,4 +7,4 @@ playerOfWindow
 			player name = self window owningPlayerName].
 	list isEmpty
 		ifTrue: [^ ' ']
-		ifFalse: [^ list first name]
+		ifFalse: [^ list first]
