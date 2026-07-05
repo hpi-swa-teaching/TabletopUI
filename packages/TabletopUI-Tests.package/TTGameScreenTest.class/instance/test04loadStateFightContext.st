@@ -5,4 +5,4 @@ test04loadStateFightContext
 	self playerGameScreen loadState: self fightingState1.
 	
 	self assert: self gamemasterGameScreen playerSelectionMenu class equals: TTGMSelectionMenu.
-	self assert: self playerGameScreen playerSelectionMenu class equals: TTPlayerSelectionMenuForPlayers
+	self assert: self playerGameScreen playerSelectionMenu class equals: TTRestrictedSelectionMenu

@@ -2,14 +2,11 @@
 	"class" : {
 		"newWith:and:" : "TK 7/5/2026 14:15" },
 	"instance" : {
-		"characterList" : "GF 6/22/2026 18:27",
-		"characterList:" : "TK 7/4/2026 17:59",
 		"createSpecWith:" : "GF 6/23/2026 02:02",
 		"currentPlayer" : "GF 6/23/2026 01:59",
 		"currentPlayer:" : "TK 7/4/2026 17:58",
 		"getActivePlayer" : "TK 7/5/2026 14:13",
 		"initalize" : "TK 7/5/2026 14:16",
-		"nameList" : "TK 7/5/2026 11:08",
 		"owningPlayer" : "TK 7/5/2026 14:10",
 		"owningPlayer:" : "TK 7/5/2026 14:10",
 		"updatePlayer:" : "TK 7/5/2026 12:13" } }

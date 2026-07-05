@@ -1,4 +1,4 @@
-I am a list of all players where you can select the one who is currently entering the commands in the inputfield.
+[...] I am a version of TTPlayerSelectionMen where you can see every connected Player and execute Commands for all of them.
 
 Instance Variables
 	characterAdministration:		<TTCharacterAdministration>

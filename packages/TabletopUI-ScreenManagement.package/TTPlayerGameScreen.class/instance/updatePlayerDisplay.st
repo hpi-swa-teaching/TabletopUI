@@ -6,12 +6,10 @@ updatePlayerDisplay
 	context gameState = #fight
 	ifTrue: [
 		playerList := self fightersToDisplay: context.
-		player := context currentPlayer
-		]
+		player := context currentPlayer]
 	ifFalse: [
 		playerList := self charactersToDisplay.
-		player := self playerOfWindow
-		].
+		player := self playerOfWindow].
 	self playerSelectionMenu
 		updatePlayerListWith: playerList;
 		updatePlayer: player
