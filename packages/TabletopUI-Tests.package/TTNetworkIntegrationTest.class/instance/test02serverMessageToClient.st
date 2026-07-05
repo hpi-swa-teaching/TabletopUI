@@ -1,17 +1,16 @@
 testing
 test02serverMessageToClient
 
-	| params deadline |
-	self clientNWM1Ref addEntry: TTMockNetworkObject new forId: 'MOCKNWO'.
+	| params message id |
+	message := self randomString.
+	id := self randomString.
+	self clientNWM1Ref addEntry: TTMockNetworkObject new forId: id.
 	params := Dictionary new.
-	params at: 'val' put: 'chess'.
+	params at: 'val' put: message.
 	Processor yield.
-	self clientNWM2Ref addEntry: TTMockNetworkObject new forId: 'MOCKNWO'.
-	self serverNWM send: #setFrom: to: 'MOCKNWO' with: params.
-	deadline := DateAndTime now + (Duration milliSeconds: 2000).
-	[((self clientNWM1Ref resolve: 'MOCKNWO') val = 'chess' and: [(self clientNWM2Ref resolve: 'MOCKNWO') val = 'chess']) or: [DateAndTime now > deadline]] whileFalse: [
-		(Delay forMilliseconds: 10) wait.
-		Processor yield].
-	self assert: (self clientNWM1Ref resolve: 'MOCKNWO') val = 'chess'.
-	self assert: (self clientNWM2Ref resolve: 'MOCKNWO') val = 'chess'.
-	self assert: (self serverRef resolve: 'MOCKNWO') isNil
+	self clientNWM2Ref addEntry: TTMockNetworkObject new forId: id.
+	self serverNWM send: #setFrom: to: id with: params.
+	self
+		waitFor: [(self clientNWM1Ref resolve: id) val = message and: [(self clientNWM2Ref resolve: id) val = message]]
+		retry: [].
+	self assert: (self serverRef resolve: id) isNil

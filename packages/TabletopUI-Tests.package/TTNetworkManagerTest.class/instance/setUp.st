@@ -1,5 +1,5 @@
 running
 setUp
 
-	self receiver: (TTMockNetworkReceiver newOnPort: 16000).
+	self receiver: (TTMockNetworkReceiver newOnPort: self defaultTestPort).
 	self ref: TTReferenceManager new

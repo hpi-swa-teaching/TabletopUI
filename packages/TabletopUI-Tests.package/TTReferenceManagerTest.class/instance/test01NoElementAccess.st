@@ -1,7 +1,7 @@
 testing
 test01NoElementAccess
 
+	| id |
+	id := self randomInt.
 	
-	
-	
-	self assert: ((self referenceManager resolve: 'test') isNil)
+	self assert: (self referenceManager resolve: id) isNil
