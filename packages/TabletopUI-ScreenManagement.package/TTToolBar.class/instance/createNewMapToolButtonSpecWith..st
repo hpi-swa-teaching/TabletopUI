@@ -3,7 +3,7 @@ createNewMapToolButtonSpecWith: aToolBuilder
 
 	^ aToolBuilder pluggableActionButtonSpec new
 		model: self;
-		frame: (0 @ 0.4 corner: 1 @ 0.5);
+		frame: (0 @ 0.3 corner: 1 @ 0.4);
 		label: 'Add Map';
 		action: #addNewMap;
 		color: #newMapToolButtonColor;
