@@ -1,1 +1,1 @@
-I am a mock network receiver used in tests.
+I am a mock network receiver used in tests. I serve as an object that can accept an arbitrary connection.

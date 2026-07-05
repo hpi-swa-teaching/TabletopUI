@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "I. S. 6/28/2026 16:11",
+	"commentStamp" : "JF 7/5/2026 14:04",
 	"instvars" : [
 		"connection" ],
 	"name" : "TTMockNetworkReceiver",
