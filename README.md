@@ -14,9 +14,10 @@ We are a team of 4th semester students studying IT-Systems Engineering at Hasso-
 To host execute these Commands:
 `
 relay := TTRelayServer new.
-TTServer newOn: 'localhost' port: 16631.
+TTServer newOn: 'localhost' port: <server-port>.
 `
-If the pc the server is different from the server the relay is running on `'localhost'` has to be replaces by the ip of the relay.
+The server port is shown in the morph that opens after creating the relay. Alternatively you can use `relay getServerPort`.
+If the pc the server is running on is different from the server the relay is running on `'localhost'` has to be replaced by the ip of the relay.
 The players then can open the Tabletop UI with the command `TTTabletopWindow openSessionless`. A window will open offering different configuration options before starting a Tabletop game.
 
 To close executre `relay kill.`
@@ -24,7 +25,7 @@ Only one server can be running on the same system/relay at the same time.
 
 ## Main Functionalities
 ### Joining existing sessions
-The you can join the sessions of your fellow players over the internet.
+You can join the sessions of your fellow players over the internet.
 
 ### Select Roles
 You can select the desired role by entering its name in the starting screen.  
