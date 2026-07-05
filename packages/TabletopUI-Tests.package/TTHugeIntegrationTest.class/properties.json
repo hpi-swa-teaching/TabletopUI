@@ -9,7 +9,9 @@
 		"server",
 		"player",
 		"gamemaster",
-		"relay" ],
+		"relay",
+		"playerModel",
+		"gamemasterModel" ],
 	"name" : "TTHugeIntegrationTest",
 	"pools" : [
 		 ],

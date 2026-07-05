@@ -2,8 +2,10 @@
 	"class" : {
 		"newOn:port:" : "CR 7/5/2026 12:33" },
 	"instance" : {
-		"kill" : "CR 7/5/2026 10:53",
+		"kill" : "JF 7/5/2026 11:25",
 		"networkManager" : "CR 7/5/2026 12:07",
 		"networkManager:" : "CR 7/5/2026 12:07",
 		"window" : "CR 7/5/2026 12:07",
-		"window:" : "CR 7/5/2026 12:07" } }
+		"window:" : "JF 7/5/2026 11:25",
+		"windowModel" : "JF 7/5/2026 11:25",
+		"windowModel:" : "JF 7/5/2026 11:25" } }

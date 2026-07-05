@@ -12,4 +12,5 @@ setupGamemasterOnPort: aPort
 		continue.
 	self
 		waitFor: [self relay getConnectedClientCount = (numConnected + 1)]
-		retry: [self relay checkClientConnect]
+		retry: [self relay checkClientConnect].
+	self deny: self gamemasterModel isNil

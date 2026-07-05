@@ -12,4 +12,6 @@ setupPlayerOnPort: aPort
 		continue.
 	self
 		waitFor: [self relay getConnectedClientCount = (numConnected + 1)]
-		retry: [self relay checkClientConnect]
+		retry: [self relay checkClientConnect].
+	self playerModel: self player model.
+	self deny: self playerModel isNil
