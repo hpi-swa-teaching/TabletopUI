@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"actionWaitDuration" : "JF 7/2/2026 13:19",
+		"defaultTimeout" : "JF 7/5/2026 10:47",
 		"gamemaster" : "JF 7/2/2026 13:44",
 		"gamemaster:" : "JF 7/2/2026 13:44",
 		"player" : "JF 7/2/2026 13:44",
@@ -11,8 +11,8 @@
 		"relay:" : "JF 7/2/2026 13:11",
 		"server" : "JF 7/2/2026 13:11",
 		"server:" : "JF 7/2/2026 13:11",
-		"setUp" : "JF 7/4/2026 17:22",
+		"setUp" : "JF 7/5/2026 11:08",
+		"setupGamemasterOnPort:" : "JF 7/5/2026 11:08",
+		"setupPlayerOnPort:" : "JF 7/5/2026 11:08",
 		"tearDown" : "JF 7/2/2026 14:12",
-		"test01setUp" : "JF 7/2/2026 13:51",
-		"timeLimit" : "JF 7/2/2026 14:21",
-		"waitFor:retry:" : "JF 7/2/2026 13:32" } }
+		"test01setUp" : "JF 7/2/2026 13:51" } }

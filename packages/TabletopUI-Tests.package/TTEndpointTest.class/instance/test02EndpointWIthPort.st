@@ -1,7 +1,7 @@
 testing
 test02EndpointWIthPort
 
-	| endpoint |
-	endpoint := TTEndpoint new.
-	endpoint port: 16632.
-	self deny: endpoint isValid
+	self runRandomizedTest: [ | endpoint |
+		endpoint := TTEndpoint new.
+		endpoint port: self randomPort.
+		self deny: endpoint isValid]
