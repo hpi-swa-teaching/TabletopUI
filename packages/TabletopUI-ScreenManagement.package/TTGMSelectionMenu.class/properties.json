@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TK 7/5/2026 17:17",
+	"instvars" : [
+		"selectedIndex" ],
+	"name" : "TTGMSelectionMenu",
+	"pools" : [
+		 ],
+	"super" : "TTPlayerSelectionMenu",
+	"type" : "normal" }

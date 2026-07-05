@@ -1,4 +1,4 @@
 accessing
 getActivePlayer
 
-	^ self currentPlayer
+	^ self owningPlayer

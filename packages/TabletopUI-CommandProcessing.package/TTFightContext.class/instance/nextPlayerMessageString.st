@@ -1,4 +1,4 @@
 messages
 nextPlayerMessageString
-	
-	^'Next up is: ', self currentPlayer
+
+	^'Next up is: ', self currentPlayerName

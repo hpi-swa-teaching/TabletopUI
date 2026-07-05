@@ -1,0 +1,4 @@
+accessing
+owningPlayer
+
+	^ owningPlayer

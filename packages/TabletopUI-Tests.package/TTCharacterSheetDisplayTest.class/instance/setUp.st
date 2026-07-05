@@ -5,7 +5,7 @@ setUp
 	self characterAdministration
 		players: self setUpPlayers;
 		playerCount: self characterAdministration players size.
-	self playerSelectionMenu: (TTPlayerSelectionMenu newWith: self characterAdministration players).
+	self playerSelectionMenu: (TTGMSelectionMenu newWith: self characterAdministration players).
 	self characterAdministration playerSelectionMenu: self playerSelectionMenu.
 	self toolbar: (TTToolBar new
 		characterAdministration: self characterAdministration;

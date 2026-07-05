@@ -3,8 +3,9 @@ initializeCommandBar
 
 	self
 		actionLog: (self networkFacade instantiate: TTActionLog withId: 'actionLog');
+		inputField: (self networkFacade instantiate: TTInputField withId: 'inputField');
 		initializePlayerDisplay;
-		inputField: ((self networkFacade instantiate: TTInputField withId: 'inputField')
-			log: self actionLog;
-			playerSelection: self playerSelectionMenu);
-		addDependent: self inputField
+		updateInputField;
+		addDependent: self inputField.
+	self inputField contextManager addDependent: self
+		

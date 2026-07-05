@@ -4,7 +4,8 @@
 	"instance" : {
 		"canAddMap" : "I. S. 6/28/2026 14:05",
 		"canCreateNpc" : "I. S. 6/9/2026 00:31",
-		"charactersToDisplay" : "TK 7/3/2026 15:11",
-		"createNPC:" : "CR 6/29/2026 15:54",
-		"initializeFightorderDisplay:" : "TK 7/3/2026 15:11",
-		"initializePlayerDisplay" : "TK 7/3/2026 15:11" } }
+		"charactersToDisplay" : "TK 7/5/2026 13:22",
+		"fightersToDisplay:" : "TK 7/5/2026 12:11",
+		"initializePlayerDisplay" : "TK 7/5/2026 17:22",
+		"playerOfWindow" : "TK 7/5/2026 18:20",
+		"updatePlayerDisplay" : "TK 7/5/2026 18:42" } }

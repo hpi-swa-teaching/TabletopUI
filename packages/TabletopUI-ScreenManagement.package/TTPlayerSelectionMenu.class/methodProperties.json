@@ -1,12 +1,10 @@
 {
 	"class" : {
-		"newWith:" : "CR 6/16/2026 21:28" },
+		 },
 	"instance" : {
-		"characterList" : "CR 6/16/2026 18:26",
-		"characterList:" : "DavidSimon 6/23/2026 14:23",
-		"createSpecWith:" : "joda 7/7/2021 10:35",
-		"getActivePlayer" : "CR 6/16/2026 18:27",
-		"initialize" : "joda 6/28/2021 17:03",
-		"nameList" : "I. S. 6/29/2026 8:43",
-		"selectedIndex" : "bv 5/29/2021 12:18",
-		"selectedIndex:" : "bv 7/3/2021 18:57" } }
+		"characterList" : "TK 7/5/2026 13:44",
+		"characterList:" : "TK 7/5/2026 13:44",
+		"createSpecWith:" : "TK 7/5/2026 15:52",
+		"getActivePlayer" : "TK 7/5/2026 13:47",
+		"nameList" : "TK 7/5/2026 13:45",
+		"updatePlayerListWith:" : "TK 7/5/2026 13:46" } }

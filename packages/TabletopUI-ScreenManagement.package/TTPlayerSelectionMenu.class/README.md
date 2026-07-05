@@ -1,8 +1,7 @@
-I am a list of all players where you can select the one who is currently entering the commands in the inputfield.
+I am a menu that shows particpating players of the game.
 
 Instance Variables
-	characterAdministration:		<TTCharacterAdministration>
-	selectedIndex:		<Number>
+	characterList:		<Object>
 
-selectedIndex
-	- indicates which player is currently selected
+characterList
+	- xxxxx
