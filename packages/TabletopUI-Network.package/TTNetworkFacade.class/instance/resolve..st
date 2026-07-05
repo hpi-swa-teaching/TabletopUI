@@ -1,4 +1,4 @@
 wrapping
 resolve: anId
 
-	^ self networkmanager referenceManager resolve: anId
+	^ self networkManager referenceManager resolve: anId

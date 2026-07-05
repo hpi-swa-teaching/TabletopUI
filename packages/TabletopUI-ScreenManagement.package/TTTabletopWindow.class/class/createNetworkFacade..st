@@ -4,4 +4,4 @@ createNetworkFacade: networkManager
 	| referenceManager |
 	referenceManager := TTReferenceManager new.
 	networkManager referenceManager: referenceManager.
-	^ TTNetworkFacade new networkmanager: networkManager
+	^ TTNetworkFacade new networkManager: networkManager

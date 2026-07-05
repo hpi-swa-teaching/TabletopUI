@@ -1,3 +1,4 @@
 accessing
-networkmanager
+networkManager
+
 	^ networkmanager

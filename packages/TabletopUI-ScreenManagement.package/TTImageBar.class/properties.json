@@ -8,10 +8,9 @@
 	"instvars" : [
 		"images",
 		"map",
-		"selectedIndex",
-		"networkFacade" ],
+		"selectedIndex" ],
 	"name" : "TTImageBar",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTNetworkModel",
 	"type" : "normal" }

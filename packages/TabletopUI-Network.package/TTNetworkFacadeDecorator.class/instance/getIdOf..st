@@ -1,4 +1,4 @@
 wrapping
 getIdOf: aNetworkObject
 
-	^ self networkFacade referenceManager getIdOf: aNetworkObject
+	^ self networkFacade getIdOf: aNetworkObject

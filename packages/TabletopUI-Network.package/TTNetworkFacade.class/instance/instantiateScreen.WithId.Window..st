@@ -5,5 +5,5 @@ instantiateScreen: aScreenSubclass WithId: id Window: window
 	object := aScreenSubclass
 		newWithNetworkFacade: (TTGamescreenNetworkFacadeDecorator newWith: self)
 		Window: window.
-	self networkmanager referenceManager addEntry: object forId: id.
+	self networkManager referenceManager addEntry: object forId: id.
 	^ object

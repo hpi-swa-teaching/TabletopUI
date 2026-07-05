@@ -3,7 +3,7 @@ test10TokenBarCreatesNPCOnGamemasterScreen
 
 
 	| networkmanager screen |
-	networkmanager:= self window networkFacade networkmanager.
+	networkmanager:= self window networkFacade networkManager.
 	
 	self window
 		setAsGamemaster;

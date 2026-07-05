@@ -3,8 +3,8 @@ applyOccupyingTokenUpdateOnTile: aTTTile with: params
 
 	| tokenId tileId aTTToken |
 	tokenId := params at: 'referencedToken'.
-	aTTToken := self networkFacade resolve: tokenId.
-	tileId := self networkFacade getIdOf: aTTTile.
+	aTTToken := self resolve: tokenId.
+	tileId := self getIdOf: aTTTile.
 	aTTTile getOccupiedByToken: aTTToken.
 	(params at: 'receiver') = 'server' ifFalse: [^ self].
 	params at: 'receiver' put: 'client'.

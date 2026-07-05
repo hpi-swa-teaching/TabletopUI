@@ -3,7 +3,7 @@ test01CreateNPC
 
 	| networkmanager |
 	
-	networkmanager:= self window networkFacade networkmanager.
+	networkmanager:= self window networkFacade networkManager.
 	self tokenBar createNPC.
 	self 
 		assert: networkmanager lastMessage = 'receiveCreateNPCUpdate:'.

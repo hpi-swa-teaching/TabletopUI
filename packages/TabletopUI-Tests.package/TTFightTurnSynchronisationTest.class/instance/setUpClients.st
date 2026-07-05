@@ -5,7 +5,7 @@ setUpClients
 	
 	1 to: 2 do: [:i | | field broadcastConnectionmanager networkFacade |
 		broadcastConnectionmanager:= TTBroadcastMockConnector new.
-		networkFacade := TTNetworkFacade new networkmanager: broadcastConnectionmanager.
+		networkFacade := TTNetworkFacade new networkManager: broadcastConnectionmanager.
 		broadcastConnectionmanager server: self server.
 		self broadcastConnectionmanagers add: broadcastConnectionmanager.
 		field := TTInputField newWithNetworkFacade: networkFacade.

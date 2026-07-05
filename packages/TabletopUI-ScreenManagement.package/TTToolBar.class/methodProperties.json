@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"newWithNetworkFacade:" : "CR 6/30/2026 18:23" },
+		 },
 	"instance" : {
 		"addNewMap" : "CR 7/4/2026 16:53",
 		"broadcastNewMap:for:" : "JF 7/3/2026 14:44",
@@ -25,8 +25,6 @@
 		"luminanceThreshold" : "I. S. 6/29/2026 4:57",
 		"map" : "OB 6/13/2022 08:41",
 		"map:" : "OB 6/13/2022 08:41",
-		"networkFacade" : "CR 7/4/2026 16:52",
-		"networkFacade:" : "CR 7/4/2026 16:52",
 		"newMapToolButtonColor" : "tak2 6/25/2026 13:06",
 		"notifyDiceToolClosed" : "DS 8/4/2022 10:06",
 		"notifyRulerToolClosed" : "DS 8/4/2022 10:06",
