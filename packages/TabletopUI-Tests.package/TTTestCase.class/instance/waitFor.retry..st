@@ -8,6 +8,6 @@ waitFor: waitBlock retry: retryBLock
 		waitBlock value ifTrue: [^ self].
 		retryBLock value.
 		Processor yield.
-		(Delay forMilliseconds: 50) wait].
+		(Delay forMilliseconds: 5) wait].
 	
 	self assert: waitBlock value
