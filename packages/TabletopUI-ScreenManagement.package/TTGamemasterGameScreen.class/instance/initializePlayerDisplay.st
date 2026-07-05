@@ -1,4 +1,5 @@
 turnorder
 initializePlayerDisplay
 
-	self playerSelectionMenu: (TTPlayerSelectionMenu newWith: self charactersToDisplay)
+	self playerSelectionMenu: (TTGMSelectionMenu newWith: self charactersToDisplay).
+	self updateInputField

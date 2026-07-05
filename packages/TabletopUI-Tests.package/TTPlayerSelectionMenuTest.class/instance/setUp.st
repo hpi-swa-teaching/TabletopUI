@@ -1,4 +1,4 @@
 running
 setUp
 	
-	self playerSelectionMenu: (TTPlayerSelectionMenu newWith: self charactersToSelectFrom)
+	self playerSelectionMenu: (TTGMSelectionMenu newWith: self charactersToSelectFrom)

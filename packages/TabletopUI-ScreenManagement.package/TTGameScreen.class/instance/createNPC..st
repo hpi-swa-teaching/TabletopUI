@@ -1,4 +1,5 @@
 accessing
 createNPC: aTTCharacter
 
-	self subclassResponsibility
+	self canCreateNpc
+		ifTrue: [self networkFacade updateGamescreen: self createNPC: aTTCharacter]

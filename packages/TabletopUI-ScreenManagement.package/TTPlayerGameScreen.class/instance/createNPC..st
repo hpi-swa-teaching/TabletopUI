@@ -1,2 +1,0 @@
-turnoder
-createNPC: aTTCharacter

@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "I. S. 6/28/2026 17:08",
+	"commentStamp" : "I. S. 6/28/2026 17:17",
 	"instvars" : [
-		"characterList",
-		"currentPlayer" ],
-	"name" : "TTFightOrderDisplay",
+		"selectedIndex" ],
+	"name" : "TTGMSelectionMenu",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTPlayerSelectionMenu",
 	"type" : "normal" }

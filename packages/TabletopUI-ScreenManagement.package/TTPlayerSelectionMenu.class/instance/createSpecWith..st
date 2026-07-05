@@ -5,6 +5,4 @@ createSpecWith: aToolBuilder
 		model: self;
 		minimumWidth: 0;
 		list: #nameList;
-		getIndex: #selectedIndex;
-		setIndex: #selectedIndex:;
 		yourself

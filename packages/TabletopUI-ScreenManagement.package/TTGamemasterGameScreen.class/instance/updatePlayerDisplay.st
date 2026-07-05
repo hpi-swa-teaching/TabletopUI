@@ -1,0 +1,4 @@
+turnorder
+updatePlayerDisplay
+
+	self playerSelectionMenu updateOrder: self charactersToDisplay

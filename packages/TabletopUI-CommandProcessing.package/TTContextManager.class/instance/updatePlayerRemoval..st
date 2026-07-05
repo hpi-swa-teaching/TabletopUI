@@ -4,7 +4,7 @@ updatePlayerRemoval: aTTCharacterName
 	| params |
 	
 	params := Dictionary new
-		at: 'player' put: aTTCharacterName name;
+		at: 'player' put: aTTCharacterName;
 		at: 'receiver' put: 'server';
 		yourself.
 	

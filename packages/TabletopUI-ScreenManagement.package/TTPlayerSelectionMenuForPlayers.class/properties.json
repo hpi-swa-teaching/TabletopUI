@@ -1,0 +1,15 @@
+{
+	"category" : "TabletopUI-ScreenManagement",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TK 7/1/2026 14:11",
+	"instvars" : [
+		"currentPlayer",
+		"owningPlayer" ],
+	"name" : "TTPlayerSelectionMenuForPlayers",
+	"pools" : [
+		 ],
+	"super" : "TTPlayerSelectionMenu",
+	"type" : "normal" }

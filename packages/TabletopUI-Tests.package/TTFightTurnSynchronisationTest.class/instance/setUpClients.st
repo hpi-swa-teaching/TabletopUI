@@ -10,5 +10,5 @@ setUpClients
 		self broadcastConnectionmanagers add: broadcastConnectionmanager.
 		field := TTInputField newWithNetworkFacade: networkFacade.
 		field loadState: self startState.
-		field playerSelection: (TTPlayerSelectionMenu newWith: {(self character: i)}asOrderedCollection).
+		field playerSelection: (TTGMSelectionMenu newWith: {(self character: i)}asOrderedCollection).
 		self clients at: i put: field]

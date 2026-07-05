@@ -1,4 +1,0 @@
-turnorder
-initializeFightorderDisplay: aDictionary
-
-	self subclassResponsibility

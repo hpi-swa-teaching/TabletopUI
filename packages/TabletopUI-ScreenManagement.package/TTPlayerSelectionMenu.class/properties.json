@@ -4,9 +4,8 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "I. S. 6/28/2026 17:17",
+	"commentStamp" : "",
 	"instvars" : [
-		"selectedIndex",
 		"characterList" ],
 	"name" : "TTPlayerSelectionMenu",
 	"pools" : [
