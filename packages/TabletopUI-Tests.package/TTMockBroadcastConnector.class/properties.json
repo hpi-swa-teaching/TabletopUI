@@ -4,12 +4,12 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "I. S. 6/28/2026 15:06",
+	"commentStamp" : "CR 7/5/2026 12:15",
 	"instvars" : [
 		"subscribers",
 		"server",
 		"referenceManager" ],
-	"name" : "TTBroadcastMockConnector",
+	"name" : "TTMockBroadcastConnector",
 	"pools" : [
 		 ],
 	"super" : "Object",

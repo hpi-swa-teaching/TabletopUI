@@ -1,3 +1,4 @@
 accessing
-currentState: anObject
-	currentState := anObject
+currentState: aDict
+
+	currentState := aDict

@@ -1,3 +1,4 @@
 accessing
-isGamemaster: anObject
-	isGamemaster := anObject
+isGamemaster: aBool
+
+	isGamemaster := aBool

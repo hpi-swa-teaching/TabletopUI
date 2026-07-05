@@ -1,3 +1,4 @@
 accessing
-connectionRegistry: anObject
-	connectionRegistry := anObject
+connectionRegistry: aDict
+
+	connectionRegistry := aDict

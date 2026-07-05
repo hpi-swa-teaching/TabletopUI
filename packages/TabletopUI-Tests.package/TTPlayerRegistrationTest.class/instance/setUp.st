@@ -2,7 +2,7 @@ running
 setUp
 
 	| connector |
-	connector := TTBroadcastMockConnector new.
+	connector := TTMockBroadcastConnector new.
 	self sessionMembers: OrderedCollection new.
 	self windows: OrderedCollection new.
 	self windows

@@ -4,7 +4,7 @@ setUpClients
 	self clients: (Array new: 2).
 	
 	1 to: 2 do: [:i | | map networkFacade broadcastConnectionmanager |
-		broadcastConnectionmanager:= TTBroadcastMockConnector new.
+		broadcastConnectionmanager:= TTMockBroadcastConnector new.
 		networkFacade := TTNetworkFacade new networkManager: broadcastConnectionmanager.
 		broadcastConnectionmanager server: self server.
 		self broadcastConnectionmanagers add: broadcastConnectionmanager.
