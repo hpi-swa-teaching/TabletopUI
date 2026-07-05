@@ -8,8 +8,5 @@ addNewMap
 	reference extension caseOf: {
 		['png'] -> [form := PNGReadWriter formFromFileNamed: path].
 		['jpg'] -> [form := JPEGReadWriter formFromFileNamed: path]}.
-	form ifNil: [
-		Transcript show: 'Error: invalid File Type'.
-		^ self].
-	"TODO: add better error messaging"
+	form ifNil: [^ self].
 	self broadcastNewMap: form for: name

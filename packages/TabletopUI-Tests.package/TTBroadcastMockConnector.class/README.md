@@ -1,1 +1,0 @@
-I am a mock broadcast connector used in tests.

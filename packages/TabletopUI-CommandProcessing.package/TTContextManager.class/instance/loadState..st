@@ -1,12 +1,12 @@
-state
+initialize-release
 loadState: aDictionary
 
-	| state |
-	state := (aDictionary at: TTGameStateKeys keyGameState) asSymbol.
+	| gameState |
+	gameState := (aDictionary at: TTGameStateKeys keyGameState) asSymbol.
 	
-	state = #default ifTrue: [
+	gameState = #default ifTrue: [
 		self changeToContext: (TTDefaultContext new
-			parser: self;
+			manager: self;
 			yourself)].
-	state = #fight ifTrue: [self fightLoadState: aDictionary].
-	state = #initiative ifTrue: [self initiativeLoadState: aDictionary]
+	gameState = #fight ifTrue: [self fightLoadState: aDictionary].
+	gameState = #initiative ifTrue: [self initiativeLoadState: aDictionary]

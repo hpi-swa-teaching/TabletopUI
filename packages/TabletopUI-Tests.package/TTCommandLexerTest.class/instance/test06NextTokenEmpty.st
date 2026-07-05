@@ -1,5 +1,5 @@
 testing
 test06NextTokenEmpty
-	
+
 	self lexer processString: ''.
-	self assert: self lexer nextToken = nil
+	self assert: self lexer nextToken isNil

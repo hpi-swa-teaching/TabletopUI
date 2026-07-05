@@ -2,7 +2,7 @@ testing
 test08GamemasterGameScreenCreatesNPC
 
 	| screen npc networkmanager |
-	networkmanager:= self window networkFacade networkmanager.
+	networkmanager:= self window networkFacade networkManager.
 	npc := TTCharacter newWithName: 'orc' role: TTCharacter npc.
 	self window
 		setAsGamemaster;

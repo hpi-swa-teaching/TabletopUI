@@ -1,3 +1,4 @@
 accessing
-role: anObject
-	role := anObject
+role: aRole
+
+	role := aRole

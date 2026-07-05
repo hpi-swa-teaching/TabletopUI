@@ -1,6 +1,6 @@
 running
 assertContextStateWith: aTTCharacter
 
-	self assert: (self parser context isKindOf: TTFightContext).
-	self assert: #fight equals: self parser context gameState.
-	self assert: self parser context currentPlayer equals: aTTCharacter name
+	self assert: (self manager context isKindOf: TTFightContext).
+	self assert: #fight equals: self manager context gameState.
+	self assert: self manager context currentPlayer equals: aTTCharacter name

@@ -1,4 +1,4 @@
 connection
 clientAcceptorListenSuccessfull
 
-	^ self clientAcceptor isConnected or: self clientAcceptor isWaitingForConnection
+	^ self clientAcceptor isConnected or: [self clientAcceptor isWaitingForConnection]

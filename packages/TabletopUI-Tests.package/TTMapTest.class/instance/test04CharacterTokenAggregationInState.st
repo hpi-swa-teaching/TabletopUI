@@ -13,5 +13,5 @@ test04CharacterTokenAggregationInState
 	self
 		assert: (aliceEntry isKindOf: Dictionary);
 		assert: (aliceEntry includesKey: TTGameStateKeys keyCharacter);
-		assert: (aliceEntry includesKey: TTGameStateKeys keyMapCoordinates);
+		assert: (aliceEntry includesKey: TTGameStateKeys keyTileCoordinates);
 		assert: ((aliceEntry at: TTGameStateKeys keyCharacter) at: TTGameStateKeys keyName) = 'Alice'

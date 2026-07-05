@@ -1,0 +1,1 @@
+I am a mock network manager used in tests. I store the content of the messages last sent to me.

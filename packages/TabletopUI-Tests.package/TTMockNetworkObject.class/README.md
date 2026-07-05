@@ -1,1 +1,1 @@
-I am a mock network object used in tests.
+I am a mock network object used in tests. I server as a dummy that can receive a setFrom: message with an arbitrary value. Afterwards it can be checked if I contain that value in which case I successfully received the message.

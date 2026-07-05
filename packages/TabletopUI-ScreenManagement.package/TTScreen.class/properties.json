@@ -7,10 +7,9 @@
 	"commentStamp" : "I. S. 6/28/2026 17:19",
 	"instvars" : [
 		"characterAdministration",
-		"window",
-		"networkFacade" ],
+		"window" ],
 	"name" : "TTScreen",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTNetworkModel",
 	"type" : "normal" }

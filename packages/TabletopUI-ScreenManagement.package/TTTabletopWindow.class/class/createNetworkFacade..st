@@ -1,11 +1,7 @@
-toolbuilder
-createNetworkFacade: networkmanager
+instantiation
+createNetworkFacade: networkManager
 
-	| referencemanager  |
-	referencemanager := TTReferenceManager new.
-	networkmanager referenceManager: referencemanager.
-	^TTNetworkFacade new 
-		networkmanager: networkmanager;
-		idAssigner: TTIdAssigner new.
-	
-	
+	| referenceManager |
+	referenceManager := TTReferenceManager new.
+	networkManager referenceManager: referenceManager.
+	^ TTNetworkFacade new networkManager: networkManager

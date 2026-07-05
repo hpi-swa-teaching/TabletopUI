@@ -1,4 +1,4 @@
-accessing
+toolbuilder
 createSpecWith: aToolBuilder
 	
 	^ aToolBuilder pluggableScrollPaneSpec new

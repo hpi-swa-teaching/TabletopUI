@@ -1,4 +1,4 @@
-accessing
+running
 setUp
 
 	self log: TTActionLog new.
@@ -7,7 +7,7 @@ setUp
 	self toServerNetworkRelay: TTMockNetworkRelay new.
 	self toClientNetworkRelay id: 'actionLog'.
 	self toServerNetworkRelay id: 'chat'.
-	self log networkmanager: self toServerNetworkRelay.
+	self log networkFacade: self toServerNetworkRelay.
 	self chatEcho networkFacade: self toClientNetworkRelay.
 	self toClientNetworkRelay networkObject: self log.
 	self toServerNetworkRelay networkObject: self chatEcho

@@ -7,8 +7,8 @@
 	"commentStamp" : "I. S. 6/28/2026 17:02",
 	"instvars" : [
 		"npcs",
-		"playerCount",
 		"players",
+		"playerCount",
 		"playerSelectionMenu" ],
 	"name" : "TTCharacterAdministration",
 	"pools" : [

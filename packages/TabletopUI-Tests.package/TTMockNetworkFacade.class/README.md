@@ -1,0 +1,1 @@
+I am a mock network facade used in tests. I mock its interface and emulate the instantiation behaviour.

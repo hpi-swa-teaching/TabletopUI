@@ -10,7 +10,6 @@
 		"shouldClose",
 		"tcpSocket",
 		"endpoint",
-		"udpPort",
 		"tcpSocketStream" ],
 	"name" : "TTNetworkManager",
 	"pools" : [

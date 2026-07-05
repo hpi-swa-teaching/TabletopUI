@@ -1,6 +1,4 @@
 accessing
 setRole: role
 
-	self isGamemaster: (role = 'gamemaster')
-
-	
+	self isGamemaster: role = 'gamemaster'

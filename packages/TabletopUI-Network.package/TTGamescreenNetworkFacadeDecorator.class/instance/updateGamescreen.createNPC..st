@@ -1,14 +1,13 @@
-as yet unclassified
+updating
 updateGamescreen: aTTGamescreen createNPC: aTTCharacter
 
 	| name params gamescreenId |
+	gamescreenId := self getIdOf: aTTGamescreen.
 	
-	gamescreenId:= self networkFacade getIdOf: aTTGamescreen.
-	
-	name:= aTTCharacter name.
-	params:= Dictionary new
+	name := aTTCharacter name.
+	params := Dictionary new
 		at: 'name' put: name;
 		at: 'receiver' put: 'server';
-		yourself. 
+		yourself.
 	
-	self networkFacade send: 'receiveCreateNPCUpdate:' to: gamescreenId with: params.
+	self send: 'receiveCreateNPCUpdate:' to: gamescreenId with: params

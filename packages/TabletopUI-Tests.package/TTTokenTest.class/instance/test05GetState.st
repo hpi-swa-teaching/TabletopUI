@@ -11,5 +11,5 @@ test05GetState
 		assert: (state isKindOf: Dictionary);
 		assert: (state includesKey: TTGameStateKeys keyCharacter);
 		assert: ((state at: TTGameStateKeys keyCharacter) isKindOf: Dictionary);
-		assert: (state includesKey: TTGameStateKeys keyMapCoordinates);
-		assert: ((state at: TTGameStateKeys keyMapCoordinates) isKindOf: Dictionary)
+		assert: (state includesKey: TTGameStateKeys keyTileCoordinates);
+		assert: ((state at: TTGameStateKeys keyTileCoordinates) isKindOf: Dictionary)

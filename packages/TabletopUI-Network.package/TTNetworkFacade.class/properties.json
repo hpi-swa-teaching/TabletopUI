@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "CR 7/4/2026 17:36",
 	"instvars" : [
-		"networkmanager",
-		"idAssigner" ],
+		"networkmanager" ],
 	"name" : "TTNetworkFacade",
 	"pools" : [
 		 ],

@@ -1,5 +1,5 @@
 accessing
 kill
 
-	self networkmanager end.
-	self window model kill
+	self networkManager end.
+	self windowModel kill

@@ -1,0 +1,1 @@
+I am a test case that checks if toolBar and mapEcho are working correctly together.

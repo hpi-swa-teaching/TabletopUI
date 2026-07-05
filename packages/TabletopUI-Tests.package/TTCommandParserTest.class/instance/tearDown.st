@@ -5,4 +5,5 @@ tearDown
 	super tearDown.
 	(self parser context isKindOf: TTFightContext) ifTrue: [
 		fightContext := self parser context.
-		fightContext display ifNotNil: [fightContext display delete]]
+		fightContext display ifNotNil: [fightContext display delete]].
+	self parser networkFacade removeDependent: self

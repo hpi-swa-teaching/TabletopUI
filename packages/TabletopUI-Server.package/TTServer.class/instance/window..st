@@ -1,3 +1,5 @@
 accessing
-window: anObject
-	window := anObject
+window: aTTTabletopWindow
+
+	self windowModel: aTTTabletopWindow model.
+	window := aTTTabletopWindow

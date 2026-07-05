@@ -2,5 +2,5 @@ as yet unclassified
 newWith: aTTContextManager
 
 	^ self new
-		parser: aTTContextManager;
+		manager: aTTContextManager;
 		yourself

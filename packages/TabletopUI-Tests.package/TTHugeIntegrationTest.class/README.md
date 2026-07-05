@@ -1,0 +1,1 @@
+I am a large scale integration tests that makes sure no errors are thrown when starting the game and connecting via network

@@ -3,8 +3,8 @@ setUpServer
 
 
 	| networkFacade broadcastConnectionmanager |
-	broadcastConnectionmanager := TTBroadcastMockConnector new.
-	networkFacade := TTNetworkFacade new networkmanager: broadcastConnectionmanager.
+	broadcastConnectionmanager := TTMockBroadcastConnector new.
+	networkFacade := TTNetworkFacade new networkManager: broadcastConnectionmanager.
 	self broadcastConnectionmanagers add: broadcastConnectionmanager.
 	self server: (TTInputField newWithNetworkFacade: networkFacade).
 	self server loadState: self startState.

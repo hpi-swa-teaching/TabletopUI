@@ -4,12 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "JF 7/4/2026 16:50",
 	"instvars" : [
 		"server",
 		"player",
 		"gamemaster",
-		"relay" ],
+		"relay",
+		"playerModel",
+		"gamemasterModel" ],
 	"name" : "TTHugeIntegrationTest",
 	"pools" : [
 		 ],

@@ -8,7 +8,7 @@ test04AddNewImage
 	params at: 'image' put: Form extraWizardContents.
 	self imageBar addImage: params.
 	
-	self assert: self imageBar images size = 4.
+	self assert: self imageBar images size = (self defaultImageCount + 1).
 	insertedImage := (self imageBar images at: 'test') form.
 	insertedImage form.
 	self assert: (image extent = insertedImage extent and: [image bits = insertedImage bits])

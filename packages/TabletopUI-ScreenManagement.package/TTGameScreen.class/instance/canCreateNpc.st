@@ -1,4 +1,4 @@
-accessing
+npc creation
 canCreateNpc
 
 	self subclassResponsibility.

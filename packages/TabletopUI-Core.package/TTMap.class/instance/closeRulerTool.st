@@ -1,4 +1,4 @@
-accessing
+ruler tool interaction
 closeRulerTool
 	self removeDependent: self rulerTool.
 	self rulerTool morph delete.

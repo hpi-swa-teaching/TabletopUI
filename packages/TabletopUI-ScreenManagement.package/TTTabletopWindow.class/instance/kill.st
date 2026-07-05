@@ -1,4 +1,4 @@
-accessing
+tear down
 kill
 
 	self networkFacade kill.

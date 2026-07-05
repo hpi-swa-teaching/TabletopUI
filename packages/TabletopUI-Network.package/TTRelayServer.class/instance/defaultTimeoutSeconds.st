@@ -1,4 +1,0 @@
-timeout
-defaultTimeoutSeconds
-
-	^ 5

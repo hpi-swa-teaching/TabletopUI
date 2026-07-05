@@ -1,1 +1,1 @@
-I am the session manager on the client that sends local state changes to the server.
+I am the session manager on the client that sends local state changes to the server. My tasks are a subset of the tasks of the ServerSessionManager, therefore all my messages are implemented in the super class. I exist to make client-server differentiation in instantiation code explicit.

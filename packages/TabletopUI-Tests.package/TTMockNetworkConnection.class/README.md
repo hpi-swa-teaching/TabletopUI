@@ -1,1 +1,1 @@
-I am a mock network connection used in tests.
+I am a mock network connection used in tests that echoes back messages instead of sending them via a relay.

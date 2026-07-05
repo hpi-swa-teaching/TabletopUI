@@ -4,13 +4,7 @@
 	"instance" : {
 		"addToGameState:" : "CR 6/27/2026 13:51",
 		"addToGameState:role:" : "CR 6/27/2026 14:37",
-		"addToState:PlayerWithName:role:" : "CR 6/26/2026 18:52",
-		"applyingRemoteState" : "DavidSimon 6/22/2026 15:29",
-		"applyingRemoteState:" : "DavidSimon 6/22/2026 15:30",
 		"getState" : "I. S. 6/28/2026 19:19",
 		"loadState:" : "CR 7/2/2026 14:15",
-		"networkmanager" : "CR 5/26/2026 14:22",
-		"networkmanager:" : "CR 5/26/2026 14:22",
-		"newPlayerStateDict:role:" : "CR 6/27/2026 13:52",
 		"window" : "CR 5/25/2026 17:13",
 		"window:" : "CR 5/25/2026 17:13" } }

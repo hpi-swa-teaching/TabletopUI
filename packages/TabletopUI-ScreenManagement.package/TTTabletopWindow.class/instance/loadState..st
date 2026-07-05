@@ -1,4 +1,4 @@
-initialization
+initialize-release
 loadState: aDictionary
 
 	| gameScreen |
@@ -6,4 +6,4 @@ loadState: aDictionary
 	gameScreen := self newGameScreen.
 	gameScreen loadState: aDictionary.
 	self changeScreen: gameScreen.
-	self context: self screen inputField parser context
+	self context: self gamescreen inputField parser context

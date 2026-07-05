@@ -1,4 +1,4 @@
-initialization
+updating
 loadNewPlayer: name role: role
 
 	| character |

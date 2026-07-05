@@ -1,0 +1,4 @@
+running
+defaultImageCount
+
+	^ 3
