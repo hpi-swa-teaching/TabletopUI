@@ -1,4 +1,4 @@
 turnorder
 updatePlayerDisplay
 
-	self subclassResponsibility.
+	self subclassResponsibility

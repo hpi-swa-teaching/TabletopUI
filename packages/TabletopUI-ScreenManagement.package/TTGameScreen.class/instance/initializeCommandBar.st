@@ -7,5 +7,5 @@ initializeCommandBar
 		initializePlayerDisplay;
 		updateInputField;
 		addDependent: self inputField.
-	self inputField contextManager addDependent: self.
+	self inputField contextManager addDependent: self
 		
