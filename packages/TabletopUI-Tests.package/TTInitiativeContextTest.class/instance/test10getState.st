@@ -1,10 +1,11 @@
 testing
 test10getState
 
-	| state rollsDict |
+	| state rollsDict roll |
+	roll := self randomRoll.
 	self assertContextHasGameStateKey.
 	
-	self context rolls add: 'Alice' -> 12.
+	self context rolls add: 'Alice' -> roll.
 	
 	state := self context getState.
 	
@@ -18,4 +19,4 @@ test10getState
 		assert: (rollsDict keys allSatisfy: [:key | key isKindOf: String]);
 		assert: (rollsDict values allSatisfy: [:val | val isKindOf: Integer]);
 		assert: (rollsDict includesKey: 'Alice');
-		assert: (rollsDict at: 'Alice') = 12
+		assert: (rollsDict at: 'Alice') = roll

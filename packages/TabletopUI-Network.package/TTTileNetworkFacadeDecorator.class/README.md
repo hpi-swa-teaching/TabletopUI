@@ -1,0 +1,1 @@
+I provide network synchronization operations that are specific to tiles while handling network identifiers and remote updates transparently.

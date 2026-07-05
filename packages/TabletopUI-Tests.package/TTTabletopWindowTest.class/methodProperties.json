@@ -2,7 +2,7 @@
 	"class" : {
 		"lastStoredRun" : "MM 7/9/2021 15:22" },
 	"instance" : {
-		"newWindowWithMockNetwork" : "CR 7/2/2026 16:13",
+		"newWindowWithMockNetwork" : "CR 7/5/2026 10:53",
 		"setUp" : "GF 6/11/2026 11:56",
 		"systemWindow" : "CR 6/29/2026 20:17",
 		"systemWindow:" : "CR 6/29/2026 20:17",
@@ -11,9 +11,9 @@
 		"test05Open" : "CR 6/29/2026 20:28",
 		"test06OpenGamemasterGameScreen" : "CR 6/29/2026 20:20",
 		"test07OpenPlayerGameScreen" : "CR 6/29/2026 20:20",
-		"test08GamemasterGameScreenCreatesNPC" : "CR 6/29/2026 17:36",
+		"test08GamemasterGameScreenCreatesNPC" : "CR 7/5/2026 10:53",
 		"test09PlayerGameScreenDoesNotCreateNPC" : "CR 6/29/2026 20:21",
-		"test10TokenBarCreatesNPCOnGamemasterScreen" : "CR 7/2/2026 16:15",
+		"test10TokenBarCreatesNPCOnGamemasterScreen" : "CR 7/5/2026 10:53",
 		"test11TokenBarDoesNotCreateNPCOnPlayerScreen" : "CR 6/29/2026 20:21",
 		"test12GamemasterTokenBarShowsNpcCreation" : "CR 6/29/2026 20:21",
 		"test13PlayerTokenBarHidesNpcCreation" : "CR 6/29/2026 20:21",

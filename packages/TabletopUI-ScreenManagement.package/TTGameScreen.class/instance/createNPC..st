@@ -1,4 +1,4 @@
-accessing
+npc creation
 createNPC: aTTCharacter
 
 	self canCreateNpc

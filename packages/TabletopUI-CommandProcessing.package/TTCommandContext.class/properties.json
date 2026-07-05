@@ -6,8 +6,7 @@
 		 ],
 	"commentStamp" : "I. S. 6/28/2026 15:18",
 	"instvars" : [
-		"parser",
-		"inputField" ],
+		"manager" ],
 	"name" : "TTCommandContext",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
 wrapping
 ifContainsRemove: anId
 
-	(self networkmanager referenceManager hasEntry: anId) ifTrue: [self networkmanager referenceManager removeId: anId]
+	(self networkManager referenceManager hasEntry: anId) ifTrue: [self networkManager referenceManager removeId: anId]

@@ -1,4 +1,4 @@
 accessing
 isGamemaster
-	
-	^isGamemaster
+
+	^ isGamemaster

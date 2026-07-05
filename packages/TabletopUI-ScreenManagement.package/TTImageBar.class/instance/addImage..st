@@ -1,4 +1,4 @@
-initialization
+initialize-release
 addImage: params
 
 	| form name |

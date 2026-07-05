@@ -1,4 +1,4 @@
 instantiation
 kill
 
-	self networkmanager end
+	self networkManager end

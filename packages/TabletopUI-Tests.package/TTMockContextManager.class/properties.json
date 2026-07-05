@@ -1,0 +1,14 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "I. S. 6/28/2026 16:13",
+	"instvars" : [
+		"context" ],
+	"name" : "TTMockContextManager",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

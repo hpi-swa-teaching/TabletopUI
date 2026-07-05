@@ -1,6 +1,6 @@
 initialization
 newWithNetworkFacade: aNetworkFacade
 
-	^self new 
+	^ self new
 		networkFacade: aNetworkFacade;
-		fillTiles.
+		fillTiles

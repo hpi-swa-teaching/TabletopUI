@@ -17,4 +17,4 @@ test08EndInitiativeAsPlayer
 	result := self context endInitiativePhaseFrom: player1.
 	
 	self assert: self context onlyGMIsAllowedMessageString equals: result.
-	self assert: #initiative equals: self parser context gameState
+	self assert: #initiative equals: self manager context gameState

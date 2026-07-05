@@ -1,22 +1,25 @@
 testing
 test05LoadState
 
-	| state characterTokens aliceEntry newTileCoords aliceToken |
+	| state characterTokens aliceEntry newTileCoords aliceToken x y |
+	x := self randomCoordinate.
+	y := self randomCoordinate.
 	self map initializePlayerTokens: (OrderedCollection new
 		add: (TTCharacter newWithName: 'Alice' role: TTCharacter player);
 		yourself).
 	aliceToken := self map tokens first.
-
+	
 	state := self map getState.
 	characterTokens := state at: TTGameStateKeys keyCharacterTokens.
 	aliceEntry := characterTokens at: 'Alice'.
 	newTileCoords := Dictionary new
-		at: #x put: 3;
-		at: #y put: 5;
+		at: #x put: x;
+		at: #y put: y;
 		yourself.
-	(aliceEntry at: TTGameStateKeys keyMapCoordinates)
-		at: TTGameStateKeys keyTileCoordinates put: newTileCoords.
-
+	(aliceEntry at: TTGameStateKeys keyTileCoordinates)
+		at: TTGameStateKeys keyMapCoordinates
+		put: newTileCoords.
+	
 	self map loadState: state.
-
-	self assert: aliceToken defaultTile mapCoordinates = (3 @ 5)
+	
+	self assert: aliceToken defaultTile mapCoordinates = (x @ y)

@@ -1,0 +1,4 @@
+accessing
+playerModel
+
+	^ playerModel

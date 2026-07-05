@@ -1,7 +1,7 @@
-as yet unclassified
+running
 tearDown
 
-	self relay kill.
-	self server kill.
-	self gamemaster model kill.
-	self player model kill
+	self relay ifNotNil: [:r | r kill].
+	self server ifNotNil: [:s | s kill].
+	self gamemasterModel ifNotNil: [:g | g kill].
+	self playerModel ifNotNil: [:p | p kill]

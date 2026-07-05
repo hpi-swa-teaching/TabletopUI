@@ -1,4 +1,4 @@
-accessing
+ruler tool interaction
 toggleRulerToolWith: aTTInputField
 
 	self rulerToolActive ifTrue: [

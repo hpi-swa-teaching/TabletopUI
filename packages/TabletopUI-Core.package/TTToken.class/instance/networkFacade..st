@@ -1,3 +1,4 @@
 accessing
-networkFacade: anObject
-	networkFacade := anObject
+networkFacade: aTTNetworkFacade
+
+	networkFacade := aTTNetworkFacade

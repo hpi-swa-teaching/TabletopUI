@@ -2,9 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "JF 6/4/2026 11:53",
+		"maxTestedPort" : "JF 7/5/2026 09:50",
+		"minTestedPort" : "JF 7/5/2026 09:49",
+		"randomPort" : "JF 7/5/2026 09:47",
 		"test01EmptyEndpoint" : "JF 6/4/2026 11:55",
-		"test02EndpointWIthPort" : "JF 6/4/2026 11:57",
-		"test03EndpointWIthAddress" : "JF 6/4/2026 11:57",
-		"test04ValidEndpoint" : "JF 6/4/2026 11:58",
-		"test05EmptyAddress" : "JF 6/4/2026 12:03" } }
+		"test02EndpointWIthPort" : "JF 7/5/2026 10:09",
+		"test03EndpointWIthAddress" : "JF 7/5/2026 10:10",
+		"test04ValidEndpoint" : "JF 7/5/2026 10:10",
+		"test05EmptyAddress" : "JF 7/5/2026 10:10" } }

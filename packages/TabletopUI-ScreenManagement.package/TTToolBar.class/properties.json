@@ -9,11 +9,9 @@
 		"characterAdministration",
 		"inputField",
 		"map",
-		"diceTool",
-		"connectedPlayersTool",
-		"networkFacade" ],
+		"diceTool" ],
 	"name" : "TTToolBar",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "TTNetworkModel",
 	"type" : "normal" }

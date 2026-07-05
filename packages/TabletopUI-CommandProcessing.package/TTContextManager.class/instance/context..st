@@ -1,3 +1,4 @@
 accessing
-context: anObject
-	context := anObject
+context: aTTCommandContext
+
+	context := aTTCommandContext

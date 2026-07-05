@@ -1,12 +1,10 @@
 token placement
 createTokenFor: aTTCharacter
 
-	| tile position token tokenId |
-	
-	position := self findFreeTile.
-	tile := self tiles at: position x at: position y.
-	tokenId:= 'token_', aTTCharacter name.
-	token:= self networkFacade instantiateTokenWithId: tokenId.
+	| tile mapCoordinates token |
+	mapCoordinates := self mapCoordinatesOfFreeTile.
+	tile := self tiles at: mapCoordinates x at: mapCoordinates y.
+	token := self networkFacade instantiateTokenWithId: (self idForTokenOf: aTTCharacter name).
 	token
 		character: aTTCharacter;
 		initializeFormFor: aTTCharacter;

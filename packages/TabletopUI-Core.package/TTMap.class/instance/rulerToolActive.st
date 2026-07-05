@@ -1,4 +1,4 @@
-accessing
+ruler tool interaction
 rulerToolActive
 	self rulerTool ifNil: [^false].
 	self rulerTool aboutToBeClosed ifTrue: [^false].

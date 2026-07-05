@@ -1,23 +1,21 @@
 helpers
 bounceBackTestFor: networkManagerSubclass
 
-	| nwm params deadline |
+	| nwm params id message |
+	id := self randomString.
+	message := self randomString.
 	nwm := networkManagerSubclass new.
 	
 	Processor yield.
 	nwm referenceManager: self ref.
-	nwm connectTo: 'localhost' tcpPort: 16000.
+	nwm connectTo: 'localhost' tcpPort: self defaultTestPort.
 	
-	self ref addEntry: TTMockNetworkObject new forId: 'NWMO'.
+	self ref addEntry: TTMockNetworkObject new forId: id.
 	params := Dictionary new.
-	params at: 'val' put: 'test'.
+	params at: 'val' put: message.
 	self receiver connection startListening.
 	Processor yield.
-	nwm send: #setFrom: to: 'NWMO' with: params.
+	nwm send: #setFrom: to: id with: params.
 	Processor yield.
-	deadline := DateAndTime now + (Duration milliSeconds: 2000).
-	
-	[(self ref resolve: 'NWMO') val = 49 or: [DateAndTime now > deadline]] whileFalse: [Processor yield].
-	self assert: (self ref resolve: 'NWMO') val = 'test'.
-	
+	self waitFor: [(self ref resolve: id) val = message] retry: [].
 	nwm end

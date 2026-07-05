@@ -5,6 +5,6 @@ test01PixelPositionToTileCoordinates
 
 	pixelPosition := (0 @ 0).
 	tileSize := TTTile defaultSize.
-	self assert: (self map convertPixelPositionToTileCoordinates: pixelPosition) equals: (1 @ 1).
+	self assert: (self map convertPixelPositionToMapCoordinates: pixelPosition) equals: (1 @ 1).
 	pixelPosition := (pixelPosition + 1) * tileSize.
-	self assert: (self map convertPixelPositionToTileCoordinates: pixelPosition) equals: (2 @ 2)
+	self assert: (self map convertPixelPositionToMapCoordinates: pixelPosition) equals: (2 @ 2)

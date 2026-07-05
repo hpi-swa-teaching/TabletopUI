@@ -1,0 +1,16 @@
+{
+	"category" : "TabletopUI-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "CR 7/5/2026 12:15",
+	"instvars" : [
+		"subscribers",
+		"server",
+		"referenceManager" ],
+	"name" : "TTMockBroadcastConnector",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

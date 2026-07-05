@@ -3,7 +3,7 @@ setUp
 
 	| window |
 	
-	window:= TTMockTabletopWindow new networkmanager: TTMockNetworkManager new.
+	window:= TTMockTabletopWindow new.
 	
 	self joinScreen: (TTJoinNetworkingGameScreen newWith: window).
 	self setConnectionInformation.

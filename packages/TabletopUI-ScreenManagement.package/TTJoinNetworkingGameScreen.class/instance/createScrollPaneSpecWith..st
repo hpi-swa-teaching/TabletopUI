@@ -1,6 +1,6 @@
 toolbuilder
 createScrollPaneSpecWith: aToolBuilder
-	
+
 	^ aToolBuilder pluggableScrollPaneSpec new
 		morph: (self buildInputFieldsWith: aToolBuilder);
 		hScrollBarPolicy: #never;

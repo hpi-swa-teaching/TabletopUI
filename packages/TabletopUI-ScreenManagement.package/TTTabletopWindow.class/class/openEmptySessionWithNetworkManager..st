@@ -1,3 +1,4 @@
-toolbuilder
+instantiation
 openEmptySessionWithNetworkManager: aTTServerNetworkmanager
-	^self openFromState: self emptyState Networkmanager: aTTServerNetworkmanager
+
+	^ self openFromState: self emptyState Networkmanager: aTTServerNetworkmanager

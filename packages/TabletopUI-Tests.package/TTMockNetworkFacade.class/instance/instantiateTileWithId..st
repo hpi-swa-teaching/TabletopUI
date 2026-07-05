@@ -1,4 +1,4 @@
-as yet unclassified
+instantiation
 instantiateTileWithId: id
 
 	^ TTTile newWithNetworkFacade: (TTTileNetworkFacadeDecorator newWith: self)

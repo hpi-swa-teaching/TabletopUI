@@ -1,4 +1,4 @@
 screen management
 openGameScreen
 
-	self changeScreen: (self newGameScreen).
+	self changeScreen: self newGameScreen

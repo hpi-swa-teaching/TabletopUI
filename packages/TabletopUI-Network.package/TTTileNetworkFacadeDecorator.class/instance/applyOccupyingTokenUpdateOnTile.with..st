@@ -1,16 +1,11 @@
-as yet unclassified
+updating
 applyOccupyingTokenUpdateOnTile: aTTTile with: params
 
 	| tokenId tileId aTTToken |
-	
-	tokenId:= params at: 'referencedToken'.
-	aTTToken := self networkFacade resolve: tokenId.
-	
-	tileId:= self networkFacade getIdOf: aTTTile.
-	
+	tokenId := params at: 'referencedToken'.
+	aTTToken := self resolve: tokenId.
+	tileId := self getIdOf: aTTTile.
 	aTTTile getOccupiedByToken: aTTToken.
-	
-	((params at: 'receiver') = 'server') ifTrue: [
-		params at: 'receiver' put: 'client'.
-		self networkFacade send: 'receiveOccupyingTokenUpdate:' to: tileId with: params.
-	]
+	(params at: 'receiver') = 'server' ifFalse: [^ self].
+	params at: 'receiver' put: 'client'.
+	self networkFacade send: 'receiveOccupyingTokenUpdate:' to: tileId with: params
