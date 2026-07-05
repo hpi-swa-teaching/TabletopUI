@@ -2,17 +2,11 @@
 Welcome to the TabletopUI project - an interactive UI to play Dungeons and Dragons in Squeak. 
 
 The project was started by a team of 4th semester students studying IT-Systems Engineering at Hasso-Plattner-Institute, and has since been continuously expanded with new features as part of a lecture in software engineering (SWE). 
-## Installation
-1. Get [Squeak 6.1 or later](http://www.squeak.org)
-2. Load [Metacello](https://github.com/metacello/metacello)
-3. Finally, load the package with the following command:
-
-```
-Metacello new
-  baseline: 'Tabletop';
-  repository: 'github://hpi-swa-teaching/TabletopUI:main/packages';
-  load.
-```
+## Installation and Settings
+1. Get [Squeak 6.1 or later](http://www.squeak.org)  
+2. Scale Factor 125% is recommended for the use of the character sheet.  
+3. Also, the preferred screen resolution is 1920×1080 to best display the sheet due to its non-scaling dimensions.  
+4. If you wish to change your theme, you need to then close and reopen the character sheet to update it as well.
 ## Screenshot
 ![](documentation/tabletopScreenshot.png)
 
